@@ -1,0 +1,61 @@
+{
+  "ifeval-accuracy": {
+    "rows": 10,
+    "fields": [
+      "prompt_strict_accuracy",
+      "instruction_strict_accuracy"
+    ],
+    "equal_within": 1e-12
+  },
+  "ifeval-paired": {
+    "rows": 266,
+    "fields": [
+      "estimate"
+    ],
+    "equal_within": 1e-12
+  },
+  "pilot-paired": {
+    "rows": 192,
+    "fields": [
+      "estimate",
+      "baseline_accuracy",
+      "candidate_accuracy"
+    ],
+    "equal_within": 1e-12
+  },
+  "pilot-weighted": {
+    "rows": 192,
+    "fields": [
+      "estimate",
+      "baseline_accuracy",
+      "candidate_accuracy"
+    ],
+    "equal_within": 1e-12
+  },
+  "pilot-load-cost": {
+    "rows": 9,
+    "fields": [
+      "weight_loading_seconds",
+      "model_loading_seconds",
+      "engine_warmup_seconds",
+      "process_wall_seconds",
+      "main_inference_seconds"
+    ],
+    "equal_within": 1e-12
+  },
+  "sensitivity-accuracy": {
+    "rows": 10,
+    "fields": [
+      "prompt_strict_accuracy",
+      "instruction_strict_accuracy"
+    ],
+    "equal_within": 1e-12
+  },
+  "sensitivity-paired_comparison": {
+    "rows": 266,
+    "fields": [
+      "estimate"
+    ],
+    "equal_within": 1e-12
+  }
+}

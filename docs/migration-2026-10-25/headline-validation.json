@@ -1,0 +1,11 @@
+{
+  "ifeval_rows": 16230,
+  "fidelity_models": 9,
+  "fidelity_documents_per_model": 288,
+  "terminal_slots": 801,
+  "terminal_scored": 533,
+  "terminal_primary_tasks": 53,
+  "sensitivity_replacements": 3,
+  "service_residency_fraction": 0.9703985368108619,
+  "inference": false
+}

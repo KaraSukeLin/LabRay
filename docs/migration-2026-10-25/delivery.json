@@ -1,0 +1,19 @@
+{
+  "archive": "/root/projects/build/migration-final-20261025.tar.gz",
+  "archive_bytes": 89211117,
+  "archive_MiB": 85.07835102081299,
+  "sha256": "c651dc879ffffa888b4c66070c30a01f8bdd60137e73a863abd0d41c70b98155",
+  "archive_verified_files": 6840,
+  "internal_hardlinks": 1203,
+  "payload": {
+    "files": 6840,
+    "logical_bytes": 542830678,
+    "unique_inode_content_bytes": 493444151,
+    "unique_content_files": 5637,
+    "original_selection_files": 6821,
+    "large_model_weights": false,
+    "old_review_directory_required": false
+  },
+  "weights": false,
+  "external_upload": false
+}
