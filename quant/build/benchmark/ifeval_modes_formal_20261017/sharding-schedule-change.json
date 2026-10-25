@@ -1,0 +1,7 @@
+{
+  "applied_at_utc": "2026-10-20T04:15:01.934304+00:00",
+  "source": "/root/projects/quant/src/ifeval_modes.py",
+  "previous_sha256": "58b95a25f6101ef59d71194c4a523643d674a3cf7032c156a4ba757060a6de64",
+  "current_sha256": "82786c95dd5376fc244685d372bde810c5ba04a5a8babb798528e3ef20267d80",
+  "change": "Added optional fixed two-way question sharding for one candidate model, per-shard JSONL files, live shard-aware status, and merge after successful launch. The active single-worker catch-up already loaded the previous source; inference and scoring code are unchanged."
+}

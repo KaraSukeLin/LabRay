@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "smoke_source_hash_matches_original_manifest": true,
+  "final_change_only_atomic_attempt_metadata_writer": true,
+  "inference_prompt_sampling_parser_grader_ast_unchanged": true,
+  "quality_and_intervals_byte_identical_before_after_timing_summary_changes": true
+}

@@ -1,0 +1,93 @@
+{
+  "time": 1792713221.3191543,
+  "queue_after": {
+    "ENVIRONMENT_FAIL": 12,
+    "MODEL_FAIL": 19,
+    "PASS": 100,
+    "TIMEOUT": 60,
+    "PENDING": 0,
+    "RUNNING": 0,
+    "all_rows": 191
+  },
+  "final_state": {
+    "state": "NEEDS_REVIEW",
+    "environment_complete": 89,
+    "environment_denominator": 89,
+    "planned_slots": 267,
+    "terminal_trial_attempts": 191,
+    "queue_rows": 191,
+    "slot_status_counts": {
+      "TIMEOUT": 60,
+      "ORACLE_CONTROL_FAIL": 84,
+      "PASS": 100,
+      "MODEL_FAIL": 19,
+      "SCORING_GATE_FAIL": 3,
+      "ENVIRONMENT_FAIL": 1
+    },
+    "environment_status_counts": {
+      "CONTROLS_PASS": 60,
+      "ORACLE_CONTROL_FAIL": 28,
+      "SCORING_GATE_FAIL": 1
+    },
+    "updated_at": 1792713221.3177462,
+    "gate_conclusions_complete": true,
+    "trials_terminal": false,
+    "protocol_pause": false
+  },
+  "worker_exit_codes": {
+    "0": 0,
+    "2": 0,
+    "4": 0,
+    "3": 0
+  },
+  "workers": [
+    {
+      "gpu": 0,
+      "pid": 26600,
+      "start_ticks": "2319009342",
+      "command": [
+        "/root/projects/quant/.harbor-venv/bin/python",
+        "/root/projects/quant/build/terminal_bench/low_mtp3/formal_three_seed_20261022/seed_20261021_retry_resume.py",
+        "--worker",
+        "0"
+      ],
+      "started_at": 1792710326.1519635
+    },
+    {
+      "gpu": 2,
+      "pid": 26608,
+      "start_ticks": "2319009361",
+      "command": [
+        "/root/projects/quant/.harbor-venv/bin/python",
+        "/root/projects/quant/build/terminal_bench/low_mtp3/formal_three_seed_20261022/seed_20261021_retry_resume.py",
+        "--worker",
+        "2"
+      ],
+      "started_at": 1792710326.3433979
+    },
+    {
+      "gpu": 4,
+      "pid": 26614,
+      "start_ticks": "2319009376",
+      "command": [
+        "/root/projects/quant/.harbor-venv/bin/python",
+        "/root/projects/quant/build/terminal_bench/low_mtp3/formal_three_seed_20261022/seed_20261021_retry_resume.py",
+        "--worker",
+        "4"
+      ],
+      "started_at": 1792710326.4953573
+    },
+    {
+      "gpu": 3,
+      "pid": 28287,
+      "start_ticks": "2319015403",
+      "command": [
+        "/root/projects/quant/.harbor-venv/bin/python",
+        "/root/projects/quant/build/terminal_bench/low_mtp3/formal_three_seed_20261022/seed_20261021_retry_resume.py",
+        "--worker",
+        "3"
+      ],
+      "started_at": 1792710386.7612796
+    }
+  ]
+}

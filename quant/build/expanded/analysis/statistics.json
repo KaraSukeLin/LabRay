@@ -1,0 +1,14 @@
+{
+  "method": "SciPy stratified paired document-cluster percentile bootstrap",
+  "resamples": 19999,
+  "seed": 20261016,
+  "scipy": "1.18.0",
+  "confidence": 0.95,
+  "strata": "domain × initial context",
+  "cluster": "one complete source-document window",
+  "pair_family": "4 peers × 3 primary metrics (delta NLL, KL difference, flip difference)",
+  "family_interval": 0.9958333333333333,
+  "grouped_intervals": "exploratory, no multiplicity correction",
+  "source_sha256": "e677e8d43118d7567929d111bf13c61984d2d8e95900e8429d4cc3e00515b3b4",
+  "input_sha256": "4667738facaa144550e504f773d597b8652ded7fb656fb93d7fa85251a18644f"
+}

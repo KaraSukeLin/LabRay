@@ -1,0 +1,47 @@
+2026-10-23 08:01:38,111 INFO train.sft loaded 256 rows from /root/projects/decision/experiments/orsharc/artifacts/smoke/phase3-20261023/production-training/data/train.jsonl (world size 1)
+2026-10-23 08:01:38,112 INFO train.sft eval set dev_select: 8 rows from /root/projects/decision/experiments/orsharc/artifacts/smoke/phase3-20261023/production-training/data/dev_select.jsonl
+
+Loading weights:   0%|          | 0/427 [00:00<?, ?it/s]
+Loading weights:   0%|          | 1/427 [00:00<02:14,  3.17it/s]
+Loading weights:   0%|          | 2/427 [00:00<02:20,  3.02it/s]
+Loading weights:   6%|▋         | 27/427 [00:00<00:07, 51.65it/s]
+Loading weights:  10%|█         | 43/427 [00:00<00:05, 73.69it/s]
+Loading weights:  15%|█▌        | 66/427 [00:00<00:03, 106.65it/s]
+Loading weights:  19%|█▉        | 82/427 [00:01<00:02, 117.04it/s]
+Loading weights:  23%|██▎       | 100/427 [00:01<00:02, 123.95it/s]
+Loading weights:  30%|██▉       | 127/427 [00:01<00:01, 157.24it/s]
+Loading weights:  34%|███▍      | 147/427 [00:01<00:01, 163.00it/s]
+Loading weights:  39%|███▊      | 165/427 [00:01<00:01, 162.15it/s]
+Loading weights:  43%|████▎     | 185/427 [00:01<00:01, 171.22it/s]
+Loading weights:  48%|████▊     | 203/427 [00:01<00:01, 161.32it/s]
+Loading weights:  53%|█████▎    | 225/427 [00:01<00:01, 171.75it/s]
+Loading weights:  57%|█████▋    | 243/427 [00:02<00:01, 169.44it/s]
+Loading weights:  61%|██████    | 261/427 [00:02<00:01, 159.15it/s]
+Loading weights:  67%|██████▋   | 288/427 [00:02<00:00, 184.31it/s]
+Loading weights:  72%|███████▏  | 307/427 [00:02<00:00, 172.89it/s]
+Loading weights:  77%|███████▋  | 327/427 [00:02<00:00, 177.83it/s]
+Loading weights:  81%|████████  | 346/427 [00:02<00:00, 172.74it/s]
+Loading weights:  85%|████████▌ | 364/427 [00:02<00:00, 171.39it/s]
+Loading weights:  90%|█████████ | 385/427 [00:02<00:00, 175.69it/s]
+Loading weights:  95%|█████████▌| 406/427 [00:02<00:00, 182.88it/s]
+Loading weights: 100%|█████████▉| 425/427 [00:03<00:00, 169.93it/s]
+Loading weights: 100%|██████████| 427/427 [00:03<00:00, 139.20it/s]
+2026-10-23 08:01:44,516 INFO train.sft model_type=qwen3_5_text template_kwargs={'enable_thinking': False}
+2026-10-23 08:01:44,518 INFO train.sft readout: attention noncausal, scores slot_lm
+2026-10-23 08:01:44,518 INFO train.sft LoRA target modules: 248 modules, kinds ['down_proj', 'gate_proj', 'in_proj_a', 'in_proj_b', 'in_proj_qkv', 'in_proj_z', 'k_proj', 'o_proj', 'out_proj', 'q_proj', 'up_proj', 'v_proj']
+2026-10-23 08:01:45,887 INFO train.sft trainable 43.28M of 8997.08M parameters (0.481%)
+2026-10-23 08:01:45,968 INFO train.sft 32 steps per epoch, 3 total steps, 1 warmup, 0 rows dropped over max-len, planned in 0s
+[transformers] `causal_conv1d_fn` is falling back to its reference PyTorch implementation because `causal_conv1d` is not installed. This is correct but much slower; install `causal_conv1d` for the optimized kernel.
+eval step 0 dev_select: n 8 acc 0.6250 state_macro 0.6250 nll 1.1561 ece 0.3343 {'choice': 0.625} (1s)
+train [##########....................] 1/3 (33.3%) loss 1.2495 ce 0.7948 brier 0.4547 slot_acc 0.625 gnorm 9.076 lr 2.00e-05 rows/s 1.83 tok/s 486 s/step 4.4 mem 17.4G eta 0.0h
+train [####################..........] 2/3 (66.7%) loss 1.4661 ce 0.9848 brier 0.4813 slot_acc 0.625 gnorm 15.702 lr 1.00e-05 rows/s 2.84 tok/s 712 s/step 2.8 mem 17.6G eta 0.0h
+train [##############################] 3/3 (100.0%) loss 0.0464 ce 0.0417 brier 0.0047 slot_acc 1.000 gnorm 1.204 lr 0.00e+00 rows/s 3.04 tok/s 827 s/step 2.6 mem 17.6G eta 0.0h
+eval step 3 dev_select: n 8 acc 0.6250 state_macro 0.6250 nll 1.1381 ece 0.3287 {'choice': 0.625} (1s)
+2026-10-23 08:01:56,671 INFO train.sft saved final adapter to /root/projects/decision/experiments/orsharc/artifacts/smoke/phase3-20261023/production-training/native/adapter
+done: 3 steps, 24 examples, 10.4s, 2.32 examples/s
+
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]
+Writing model shards: 100%|██████████| 1/1 [00:16<00:00, 16.58s/it]
+Writing model shards: 100%|██████████| 1/1 [00:16<00:00, 16.58s/it]
+2026-10-23 08:02:13,471 INFO train.sft merged model written to /root/projects/decision/experiments/orsharc/artifacts/smoke/phase3-20261023/production-training/native/merged
+merged model: /root/projects/decision/experiments/orsharc/artifacts/smoke/phase3-20261023/production-training/native/merged

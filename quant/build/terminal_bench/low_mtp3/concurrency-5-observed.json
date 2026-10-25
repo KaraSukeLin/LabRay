@@ -1,0 +1,61 @@
+{
+  "passed": true,
+  "actual_concurrent_agents": 5,
+  "conservative_overlap_seconds": 37.863415002822876,
+  "intervals": [
+    {
+      "trial": "11b4dca742a4b443dbe212b8",
+      "start": 1792600052.617915,
+      "end": 1792600120.485085,
+      "evidence": [
+        "/root/projects/quant/build/terminal_bench/low_mtp3/smoke/11b4dca742a4b443dbe212b8/trial/result.json"
+      ]
+    },
+    {
+      "trial": "2dd8b5ee18b008145ea89ef0",
+      "start": 1792600050.008824,
+      "end": 1792600139.261373,
+      "evidence": [
+        "/root/projects/quant/build/terminal_bench/low_mtp3/smoke/2dd8b5ee18b008145ea89ef0/trial/result.json"
+      ]
+    },
+    {
+      "trial": "2f482e64df5228516a9dc8ac",
+      "start": 1792600058.271785,
+      "end": 1792600104.786338,
+      "evidence": [
+        "/root/projects/quant/build/terminal_bench/low_mtp3/smoke/2f482e64df5228516a9dc8ac/trial/result.json"
+      ]
+    },
+    {
+      "trial": "37728a78721802cd33c054b1",
+      "start": 1792600066.922923,
+      "end": 1792600490.0317192,
+      "evidence": [
+        "/root/projects/quant/build/terminal_bench/low_mtp3/services/gpu0/1792599974161645620/gpu0/1792599974540916114/audit/cda882f420b0496cbfb5d9c3eb900fce.json",
+        "/root/projects/quant/build/terminal_bench/low_mtp3/services/gpu0/1792599974161645620/gpu0/1792599974540916114/audit/ed944979e8cc4beea384d34a36ac57d3.json",
+        "/root/projects/quant/build/terminal_bench/low_mtp3/services/gpu0/1792599974161645620/gpu0/1792599974540916114/audit/8da8139aabb54594924f3a8129f9762c.json",
+        "/root/projects/quant/build/terminal_bench/low_mtp3/services/gpu0/1792599974161645620/gpu0/1792599974540916114/audit/b64a962a07b341abb906783b98f8c7cf.json",
+        "/root/projects/quant/build/terminal_bench/low_mtp3/services/gpu0/1792599974161645620/gpu0/1792599974540916114/audit/32906d681a5f419ca00f35c4a8f8b072.json",
+        "/root/projects/quant/build/terminal_bench/low_mtp3/services/gpu0/1792599974161645620/gpu0/1792599974540916114/audit/42dd478d74404051946e07f707027b44.json",
+        "/root/projects/quant/build/terminal_bench/low_mtp3/services/gpu0/1792599974161645620/gpu0/1792599974540916114/audit/780beef3938446e79c21d4369f3371ac.json",
+        "/root/projects/quant/build/terminal_bench/low_mtp3/services/gpu0/1792599974161645620/gpu0/1792599974540916114/audit/a875a8fb949c4b70b44022eaee5bf88e.json",
+        "/root/projects/quant/build/terminal_bench/low_mtp3/services/gpu0/1792599974161645620/gpu0/1792599974540916114/audit/c89124f04112428592c75c3277094631.json",
+        "/root/projects/quant/build/terminal_bench/low_mtp3/services/gpu0/1792599974161645620/gpu0/1792599974540916114/audit/bdbdf8d0bf7c4a9bbb6cfe4b7ed0d0a1.json",
+        "/root/projects/quant/build/terminal_bench/low_mtp3/services/gpu0/1792599974161645620/gpu0/1792599974540916114/audit/3193fe1a52334651a8581dc893e87888.json",
+        "/root/projects/quant/build/terminal_bench/low_mtp3/services/gpu0/1792599974161645620/gpu0/1792599974540916114/audit/e6e22fba6c1542788d2f63774085cbe7.json",
+        "/root/projects/quant/build/terminal_bench/low_mtp3/services/gpu0/1792599974161645620/gpu0/1792599974540916114/audit/094ca99122cc49b48958eeb656cf1aee.json"
+      ]
+    },
+    {
+      "trial": "6109a64215039b1d246b3b7f",
+      "start": 1792600052.68338,
+      "end": 1792600161.416828,
+      "evidence": [
+        "/root/projects/quant/build/terminal_bench/low_mtp3/smoke/6109a64215039b1d246b3b7f/trial/result.json"
+      ]
+    }
+  ],
+  "observed_at": 1792600508.8384075,
+  "note": "Complete native timings plus a conservative interval bounded by complete API records for the ongoing trial."
+}

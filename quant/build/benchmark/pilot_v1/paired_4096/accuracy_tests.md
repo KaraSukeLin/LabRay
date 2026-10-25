@@ -1,0 +1,26 @@
+| model | reference | task | mmmu_cap | questions | harmful_count | recovery_count | discordant | exact_mcnemar_p | bonferroni_p |
+|---|---|---|---|---|---|---|---|---|---|
+| Qwen-Qwen3.8-27B-FP8 | Qwen-Qwen3.8-27B | ifeval | 4096 | 78 | 3 | 3 | 6 | 1 | 1 |
+| Qwen-Qwen3.8-27B-FP8 | Qwen-Qwen3.8-27B | mmmu_standard | 4096 | 61 | 5 | 5 | 10 | 1 | 1 |
+| Qwen-Qwen3.8-27B-FP8 | Qwen-Qwen3.8-27B | mmmu_vision | 4096 | 61 | 6 | 2 | 8 | 0.2890625 | 1 |
+| eNeural-Qwen3.8-27B-fast | Qwen-Qwen3.8-27B | ifeval | 4096 | 78 | 7 | 4 | 11 | 0.54882812 | 1 |
+| eNeural-Qwen3.8-27B-fast | Qwen-Qwen3.8-27B | mmmu_standard | 4096 | 61 | 8 | 7 | 15 | 1 | 1 |
+| eNeural-Qwen3.8-27B-fast | Qwen-Qwen3.8-27B | mmmu_vision | 4096 | 61 | 7 | 3 | 10 | 0.34375 | 1 |
+| nvidia-Qwen3.8-27B-NVFP4 | Qwen-Qwen3.8-27B | ifeval | 4096 | 78 | 4 | 7 | 11 | 0.54882812 | 1 |
+| nvidia-Qwen3.8-27B-NVFP4 | Qwen-Qwen3.8-27B | mmmu_standard | 4096 | 61 | 6 | 8 | 14 | 0.79052734 | 1 |
+| nvidia-Qwen3.8-27B-NVFP4 | Qwen-Qwen3.8-27B | mmmu_vision | 4096 | 61 | 7 | 2 | 9 | 0.1796875 | 1 |
+| RedHatAI-Qwen3.8-27B-NVFP4 | Qwen-Qwen3.8-27B | ifeval | 4096 | 78 | 6 | 4 | 10 | 0.75390625 | 1 |
+| RedHatAI-Qwen3.8-27B-NVFP4 | Qwen-Qwen3.8-27B | mmmu_standard | 4096 | 61 | 6 | 9 | 15 | 0.60723877 | 1 |
+| RedHatAI-Qwen3.8-27B-NVFP4 | Qwen-Qwen3.8-27B | mmmu_vision | 4096 | 61 | 8 | 4 | 12 | 0.38769531 | 1 |
+| unsloth-Qwen3.8-27B-NVFP4 | Qwen-Qwen3.8-27B | ifeval | 4096 | 78 | 3 | 7 | 10 | 0.34375 | 1 |
+| unsloth-Qwen3.8-27B-NVFP4 | Qwen-Qwen3.8-27B | mmmu_standard | 4096 | 61 | 5 | 9 | 14 | 0.4239502 | 1 |
+| unsloth-Qwen3.8-27B-NVFP4 | Qwen-Qwen3.8-27B | mmmu_vision | 4096 | 61 | 8 | 1 | 9 | 0.0390625 | 1 |
+| RadixArk-Qwen3.8-27B-NVFP4-BF16-LMHead | Qwen-Qwen3.8-27B | ifeval | 4096 | 78 | 5 | 4 | 9 | 1 | 1 |
+| RadixArk-Qwen3.8-27B-NVFP4-BF16-LMHead | Qwen-Qwen3.8-27B | mmmu_standard | 4096 | 61 | 4 | 7 | 11 | 0.54882812 | 1 |
+| RadixArk-Qwen3.8-27B-NVFP4-BF16-LMHead | Qwen-Qwen3.8-27B | mmmu_vision | 4096 | 61 | 11 | 3 | 14 | 0.057373047 | 1 |
+| rdtand-Qwen3.8-27B-PrismaAQUA-5.5bit-vllm | Qwen-Qwen3.8-27B | ifeval | 4096 | 78 | 3 | 6 | 9 | 0.5078125 | 1 |
+| rdtand-Qwen3.8-27B-PrismaAQUA-5.5bit-vllm | Qwen-Qwen3.8-27B | mmmu_standard | 4096 | 61 | 6 | 7 | 13 | 1 | 1 |
+| rdtand-Qwen3.8-27B-PrismaAQUA-5.5bit-vllm | Qwen-Qwen3.8-27B | mmmu_vision | 4096 | 61 | 7 | 2 | 9 | 0.1796875 | 1 |
+| ModelOpt-Qwen3.8-27B-AutoQuantize-5.5bit | Qwen-Qwen3.8-27B | ifeval | 4096 | 78 | 4 | 6 | 10 | 0.75390625 | 1 |
+| ModelOpt-Qwen3.8-27B-AutoQuantize-5.5bit | Qwen-Qwen3.8-27B | mmmu_standard | 4096 | 61 | 3 | 8 | 11 | 0.2265625 | 1 |
+| ModelOpt-Qwen3.8-27B-AutoQuantize-5.5bit | Qwen-Qwen3.8-27B | mmmu_vision | 4096 | 61 | 11 | 2 | 13 | 0.022460938 | 1 |

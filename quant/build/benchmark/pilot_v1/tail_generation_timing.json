@@ -1,0 +1,15 @@
+[
+  {
+    "stage": "prepare_8192",
+    "seconds": 0.3860442787408829,
+    "command": [
+      "/root/projects/quant/.modelopt-venv/bin/python",
+      "src/benchmark_long_probes.py",
+      "prepare",
+      "--runs",
+      "build/benchmark/pilot_v1/combined_runs",
+      "--output",
+      "assets/benchmark/tail_8192"
+    ]
+  }
+]

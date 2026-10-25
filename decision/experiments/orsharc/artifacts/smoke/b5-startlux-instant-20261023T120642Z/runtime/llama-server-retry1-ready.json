@@ -1,0 +1,10 @@
+{
+  "ready_utc": "2026-10-23T12:38:48.834225+00:00",
+  "ready_unix": 1792759128.834238,
+  "ready_monotonic": 23238896.109114215,
+  "load_seconds": 71.3012905344367,
+  "http_status": 200,
+  "health": {
+    "status": "ok"
+  }
+}

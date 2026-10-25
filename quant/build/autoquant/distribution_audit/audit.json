@@ -1,0 +1,272 @@
+{
+  "passed": true,
+  "documents_per_model": 12,
+  "tokens_per_model": 2304,
+  "full_vocabulary": 248320,
+  "checks": [
+    {
+      "model": "rdtand-Qwen3.8-27B-PrismaAQUA-5.5bit-vllm",
+      "document_id": "code:Lib/test/test_free_threading/test_syslog.py",
+      "identical_distribution": true,
+      "errors": {
+        "nll": 0.0,
+        "ref_nll": 0.0,
+        "kl_sum": 2.220446049250313e-16,
+        "flips": 0.0
+      }
+    },
+    {
+      "model": "rdtand-Qwen3.8-27B-PrismaAQUA-5.5bit-vllm",
+      "document_id": "code:Lib/test/test_timeit.py",
+      "identical_distribution": true,
+      "errors": {
+        "nll": 0.0,
+        "ref_nll": 0.0,
+        "kl_sum": -6.661338147750939e-16,
+        "flips": 0.0
+      }
+    },
+    {
+      "model": "rdtand-Qwen3.8-27B-PrismaAQUA-5.5bit-vllm",
+      "document_id": "code:Lib/test/test_ctypes/test_random_things.py",
+      "identical_distribution": true,
+      "errors": {
+        "nll": 0.0,
+        "ref_nll": 0.0,
+        "kl_sum": 0.0,
+        "flips": 0.0
+      }
+    },
+    {
+      "model": "rdtand-Qwen3.8-27B-PrismaAQUA-5.5bit-vllm",
+      "document_id": "knowledge_en:4562285",
+      "identical_distribution": true,
+      "errors": {
+        "nll": 0.0,
+        "ref_nll": 0.0,
+        "kl_sum": -4.440892098500626e-16,
+        "flips": 0.0
+      }
+    },
+    {
+      "model": "rdtand-Qwen3.8-27B-PrismaAQUA-5.5bit-vllm",
+      "document_id": "knowledge_en:4985536",
+      "identical_distribution": true,
+      "errors": {
+        "nll": 0.0,
+        "ref_nll": 0.0,
+        "kl_sum": -8.881784197001252e-16,
+        "flips": 0.0
+      }
+    },
+    {
+      "model": "rdtand-Qwen3.8-27B-PrismaAQUA-5.5bit-vllm",
+      "document_id": "knowledge_en:4906348",
+      "identical_distribution": true,
+      "errors": {
+        "nll": 0.0,
+        "ref_nll": 0.0,
+        "kl_sum": -3.552713678800501e-15,
+        "flips": 0.0
+      }
+    },
+    {
+      "model": "rdtand-Qwen3.8-27B-PrismaAQUA-5.5bit-vllm",
+      "document_id": "knowledge_zh:144470",
+      "identical_distribution": true,
+      "errors": {
+        "nll": 0.0,
+        "ref_nll": 0.0,
+        "kl_sum": 1.5543122344752192e-15,
+        "flips": 0.0
+      }
+    },
+    {
+      "model": "rdtand-Qwen3.8-27B-PrismaAQUA-5.5bit-vllm",
+      "document_id": "knowledge_zh:3417",
+      "identical_distribution": true,
+      "errors": {
+        "nll": 0.0,
+        "ref_nll": 0.0,
+        "kl_sum": 1.7763568394002505e-15,
+        "flips": 0.0
+      }
+    },
+    {
+      "model": "rdtand-Qwen3.8-27B-PrismaAQUA-5.5bit-vllm",
+      "document_id": "knowledge_zh:930883",
+      "identical_distribution": true,
+      "errors": {
+        "nll": 0.0,
+        "ref_nll": 0.0,
+        "kl_sum": 1.7763568394002505e-15,
+        "flips": 0.0
+      }
+    },
+    {
+      "model": "rdtand-Qwen3.8-27B-PrismaAQUA-5.5bit-vllm",
+      "document_id": "math:Mathlib/Algebra/Order/Nonneg/Floor.lean",
+      "identical_distribution": true,
+      "errors": {
+        "nll": 0.0,
+        "ref_nll": 0.0,
+        "kl_sum": -8.881784197001252e-16,
+        "flips": 0.0
+      }
+    },
+    {
+      "model": "rdtand-Qwen3.8-27B-PrismaAQUA-5.5bit-vllm",
+      "document_id": "math:Mathlib/Algebra/Homology/HomologicalComplexLimits.lean",
+      "identical_distribution": true,
+      "errors": {
+        "nll": 0.0,
+        "ref_nll": 0.0,
+        "kl_sum": 2.220446049250313e-15,
+        "flips": 0.0
+      }
+    },
+    {
+      "model": "rdtand-Qwen3.8-27B-PrismaAQUA-5.5bit-vllm",
+      "document_id": "math:Mathlib/AlgebraicTopology/SimplicialSet/Subdivision.lean",
+      "identical_distribution": true,
+      "errors": {
+        "nll": 0.0,
+        "ref_nll": 0.0,
+        "kl_sum": -8.881784197001252e-16,
+        "flips": 0.0
+      }
+    },
+    {
+      "model": "ModelOpt-Qwen3.8-27B-AutoQuantize-5.5bit",
+      "document_id": "code:Lib/test/test_free_threading/test_syslog.py",
+      "identical_distribution": true,
+      "errors": {
+        "nll": 0.0,
+        "ref_nll": 0.0,
+        "kl_sum": -8.881784197001252e-16,
+        "flips": 0.0
+      }
+    },
+    {
+      "model": "ModelOpt-Qwen3.8-27B-AutoQuantize-5.5bit",
+      "document_id": "code:Lib/test/test_timeit.py",
+      "identical_distribution": true,
+      "errors": {
+        "nll": 0.0,
+        "ref_nll": 0.0,
+        "kl_sum": 4.440892098500626e-16,
+        "flips": 0.0
+      }
+    },
+    {
+      "model": "ModelOpt-Qwen3.8-27B-AutoQuantize-5.5bit",
+      "document_id": "code:Lib/test/test_ctypes/test_random_things.py",
+      "identical_distribution": true,
+      "errors": {
+        "nll": 0.0,
+        "ref_nll": 0.0,
+        "kl_sum": 1.3322676295501878e-15,
+        "flips": 0.0
+      }
+    },
+    {
+      "model": "ModelOpt-Qwen3.8-27B-AutoQuantize-5.5bit",
+      "document_id": "knowledge_en:4562285",
+      "identical_distribution": true,
+      "errors": {
+        "nll": 0.0,
+        "ref_nll": 0.0,
+        "kl_sum": 4.440892098500626e-16,
+        "flips": 0.0
+      }
+    },
+    {
+      "model": "ModelOpt-Qwen3.8-27B-AutoQuantize-5.5bit",
+      "document_id": "knowledge_en:4985536",
+      "identical_distribution": true,
+      "errors": {
+        "nll": 0.0,
+        "ref_nll": 0.0,
+        "kl_sum": 8.881784197001252e-16,
+        "flips": 0.0
+      }
+    },
+    {
+      "model": "ModelOpt-Qwen3.8-27B-AutoQuantize-5.5bit",
+      "document_id": "knowledge_en:4906348",
+      "identical_distribution": true,
+      "errors": {
+        "nll": 0.0,
+        "ref_nll": 0.0,
+        "kl_sum": -3.552713678800501e-15,
+        "flips": 0.0
+      }
+    },
+    {
+      "model": "ModelOpt-Qwen3.8-27B-AutoQuantize-5.5bit",
+      "document_id": "knowledge_zh:144470",
+      "identical_distribution": true,
+      "errors": {
+        "nll": 0.0,
+        "ref_nll": 0.0,
+        "kl_sum": -1.7763568394002505e-15,
+        "flips": 0.0
+      }
+    },
+    {
+      "model": "ModelOpt-Qwen3.8-27B-AutoQuantize-5.5bit",
+      "document_id": "knowledge_zh:3417",
+      "identical_distribution": true,
+      "errors": {
+        "nll": 0.0,
+        "ref_nll": 0.0,
+        "kl_sum": -2.6645352591003757e-15,
+        "flips": 0.0
+      }
+    },
+    {
+      "model": "ModelOpt-Qwen3.8-27B-AutoQuantize-5.5bit",
+      "document_id": "knowledge_zh:930883",
+      "identical_distribution": true,
+      "errors": {
+        "nll": 0.0,
+        "ref_nll": 0.0,
+        "kl_sum": 8.881784197001252e-16,
+        "flips": 0.0
+      }
+    },
+    {
+      "model": "ModelOpt-Qwen3.8-27B-AutoQuantize-5.5bit",
+      "document_id": "math:Mathlib/Algebra/Order/Nonneg/Floor.lean",
+      "identical_distribution": true,
+      "errors": {
+        "nll": 0.0,
+        "ref_nll": 0.0,
+        "kl_sum": -1.7763568394002505e-15,
+        "flips": 0.0
+      }
+    },
+    {
+      "model": "ModelOpt-Qwen3.8-27B-AutoQuantize-5.5bit",
+      "document_id": "math:Mathlib/Algebra/Homology/HomologicalComplexLimits.lean",
+      "identical_distribution": true,
+      "errors": {
+        "nll": 0.0,
+        "ref_nll": 0.0,
+        "kl_sum": 1.7763568394002505e-15,
+        "flips": 0.0
+      }
+    },
+    {
+      "model": "ModelOpt-Qwen3.8-27B-AutoQuantize-5.5bit",
+      "document_id": "math:Mathlib/AlgebraicTopology/SimplicialSet/Subdivision.lean",
+      "identical_distribution": true,
+      "errors": {
+        "nll": 0.0,
+        "ref_nll": 0.0,
+        "kl_sum": 4.440892098500626e-15,
+        "flips": 0.0
+      }
+    }
+  ]
+}

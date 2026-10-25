@@ -1,0 +1,124 @@
+{
+  "schema_version": 1,
+  "sample_count": 24,
+  "selection": "Frozen dev_select representative sample; see sample_selection.json",
+  "class_order": [
+    "Yes",
+    "No",
+    "Inquire"
+  ],
+  "top_prediction_agreement_count": 21,
+  "top_prediction_agreement_fraction": 0.875,
+  "startlux": {
+    "n": 24,
+    "correct": 18,
+    "accuracy": 0.75,
+    "prediction_counts": {
+      "Yes": 7,
+      "No": 7,
+      "Inquire": 10
+    },
+    "accuracy_by_gold": {
+      "Yes": 0.75,
+      "No": 0.75,
+      "Inquire": 0.75
+    },
+    "accuracy_by_rule_split": {
+      "Seen": 0.75,
+      "Unseen": 0.75
+    },
+    "confusion_matrix_gold_rows_prediction_columns": {
+      "Yes": {
+        "Yes": 6,
+        "No": 0,
+        "Inquire": 2
+      },
+      "No": {
+        "Yes": 0,
+        "No": 6,
+        "Inquire": 2
+      },
+      "Inquire": {
+        "Yes": 1,
+        "No": 1,
+        "Inquire": 6
+      }
+    },
+    "client_latency_seconds": {
+      "p50": 0.22389545291662216,
+      "p95": 0.2644298020750284,
+      "mean": 0.21836398852368197,
+      "sequential_requests_per_second": 4.579509683628756
+    },
+    "mean_native_confidence": 0.774974696516218,
+    "mean_max_option_probability": 0.8499831310108119,
+    "mean_multiclass_log_loss_natural_log": 0.38971185425835203,
+    "mean_multiclass_brier_sum": 0.2434302561716226
+  },
+  "elephant": {
+    "n": 24,
+    "correct": 17,
+    "accuracy": 0.7083333333333334,
+    "prediction_counts": {
+      "Yes": 7,
+      "No": 10,
+      "Inquire": 7
+    },
+    "accuracy_by_gold": {
+      "Yes": 0.75,
+      "No": 0.875,
+      "Inquire": 0.5
+    },
+    "accuracy_by_rule_split": {
+      "Seen": 0.5833333333333334,
+      "Unseen": 0.8333333333333334
+    },
+    "confusion_matrix_gold_rows_prediction_columns": {
+      "Yes": {
+        "Yes": 6,
+        "No": 0,
+        "Inquire": 2
+      },
+      "No": {
+        "Yes": 0,
+        "No": 7,
+        "Inquire": 1
+      },
+      "Inquire": {
+        "Yes": 1,
+        "No": 3,
+        "Inquire": 4
+      }
+    },
+    "client_latency_seconds": {
+      "p50": 0.10197355225682259,
+      "p95": 0.11185052506625652,
+      "mean": 0.1030294862575829,
+      "sequential_requests_per_second": 9.70595929693283
+    },
+    "mean_native_confidence": 0.8677332916666667,
+    "mean_max_option_probability": 0.9118222355830057,
+    "mean_multiclass_log_loss_natural_log": 1.0066288071198437,
+    "mean_multiclass_brier_sum": 0.4501086012802263
+  },
+  "paired_probability_difference": {
+    "total_variation_distance": {
+      "mean": 0.13504366976921506,
+      "median": 0.03243566176822722,
+      "p95": 0.38194059303342026
+    },
+    "jensen_shannon_divergence_bits": {
+      "mean": 0.052246529402724146,
+      "median": 0.00988925950408654,
+      "p95": 0.12137739536554547
+    },
+    "native_confidence": {
+      "mean_absolute_difference": 0.13704019172035992
+    }
+  },
+  "latency_ratio_startlux_over_elephant": {
+    "p50": 2.1956227665065216,
+    "p95": 2.364135545348482,
+    "throughput_elephant_over_startlux": 2.1194319845267646
+  }
+}

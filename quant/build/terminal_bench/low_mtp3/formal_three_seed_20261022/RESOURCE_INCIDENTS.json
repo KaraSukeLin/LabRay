@@ -1,0 +1,183 @@
+{
+  "incident_id": "stale-recursive-diagnostic-scan-20261022",
+  "observed_at_utc": "2026-10-22T14:21:19Z",
+  "classification": "assistant_read_only_diagnostic_process",
+  "processes": {
+    "shell_pid": 14505,
+    "python_pid": 14508,
+    "parent_pid": 22548,
+    "command_signature": "recursive glob over build/terminal_bench/low_mtp3/formal_20261021_seed_20261021 trial artifacts and make-doom-for-mips paths",
+    "started_utc_approx": "2026-10-22T13:35Z",
+    "stopped_utc_approx": "2026-10-22T14:19Z",
+    "elapsed_seconds_at_detection": 2628,
+    "cpu_percent_at_detection": 99.7,
+    "memory_percent_at_detection": 0.0,
+    "cpu_quota": "5000000 100000 (50 CPU cores)",
+    "action": "Sent SIGTERM to only the verified shell and Python scan processes; confirmed both PIDs absent afterward. No Trial worker or model server was signaled."
+  },
+  "overlap_assessment": {
+    "summary": "The scan overlapped the final Seed 2 make-doom-for-mips Trial and 14 Seed 3 cells. It consumed about one CPU core, or 2% of the 50-core cgroup quota. Resource logs show low CPU pressure and zero full CPU pressure; memory OOM counters remained zero. A small effect on CPU-bound wall time cannot be ruled out, especially for timeout cells, so the interval and affected cells are retained for interpretation.",
+    "seed_20261021_resource_samples": {
+      "count": 40,
+      "sample_window_utc": [
+        "2026-10-22T13:35:06Z",
+        "2026-10-22T13:44:59Z"
+      ],
+      "cpu_pressure_some_avg10_max_percent": 0.72,
+      "cpu_pressure_some_avg60_max_percent": 0.14,
+      "cpu_pressure_some_avg300_max_percent": 0.09,
+      "cpu_pressure_full_max_percent": 0.0,
+      "oom": 0,
+      "oom_kill": 0
+    },
+    "seed_20261022_resource_samples": {
+      "count": 134,
+      "sample_window_utc": [
+        "2026-10-22T13:45:29Z",
+        "2026-10-22T14:18:48Z"
+      ],
+      "cpu_pressure_some_avg10_max_percent": 0.43,
+      "cpu_pressure_some_avg60_max_percent": 0.16,
+      "cpu_pressure_some_avg300_max_percent": 0.07,
+      "cpu_pressure_full_max_percent": 0.0,
+      "oom": 0,
+      "oom_kill": 0
+    },
+    "trial_cells": [
+      {
+        "seed": 20261021,
+        "trial_id": "fe24723045214275893800e1",
+        "task": "make-doom-for-mips",
+        "model": "PrismaAQUA",
+        "status_at_audit": "TIMEOUT",
+        "overlap_seconds": 574
+      },
+      {
+        "seed": 20261022,
+        "trial_id": "06ca8f54e4b04815f20c2a34",
+        "task": "cobol-modernization",
+        "model": "eNeural Fast",
+        "status_at_audit": "TIMEOUT",
+        "overlap_seconds": 950
+      },
+      {
+        "seed": 20261022,
+        "trial_id": "03539c020b50bf543fd0c5d0",
+        "task": "db-wal-recovery",
+        "model": "PrismaAQUA",
+        "status_at_audit": "PASS",
+        "overlap_seconds": 273
+      },
+      {
+        "seed": 20261022,
+        "trial_id": "0ce21fc1a031b0a968e9866e",
+        "task": "make-mips-interpreter",
+        "model": "PrismaAQUA",
+        "status_at_audit": "TIMEOUT",
+        "overlap_seconds": 1844
+      },
+      {
+        "seed": 20261022,
+        "trial_id": "18c4169efae21e1b5ec3b672",
+        "task": "model-extraction-relu-logits",
+        "model": "BF16",
+        "status_at_audit": "RUNNING",
+        "overlap_seconds": 97
+      },
+      {
+        "seed": 20261022,
+        "trial_id": "0241c5f00cdacb1bf89c2ce8",
+        "task": "modernize-scientific-stack",
+        "model": "PrismaAQUA",
+        "status_at_audit": "VERIFIER_FAIL",
+        "overlap_seconds": 176
+      },
+      {
+        "seed": 20261022,
+        "trial_id": "128a18782a3cc1c6a2fc6db4",
+        "task": "mteb-leaderboard",
+        "model": "PrismaAQUA",
+        "status_at_audit": "RUNNING",
+        "overlap_seconds": 1748
+      },
+      {
+        "seed": 20261022,
+        "trial_id": "0257b98a928be9e9d9ea99b3",
+        "task": "polyglot-c-py",
+        "model": "eNeural Fast",
+        "status_at_audit": "PASS",
+        "overlap_seconds": 277
+      },
+      {
+        "seed": 20261022,
+        "trial_id": "019b5275126eea2e78b338cc",
+        "task": "portfolio-optimization",
+        "model": "eNeural Fast",
+        "status_at_audit": "PASS",
+        "overlap_seconds": 423
+      },
+      {
+        "seed": 20261022,
+        "trial_id": "0aeebbd8cdea517ef7fbbf09",
+        "task": "prove-plus-comm",
+        "model": "BF16",
+        "status_at_audit": "PASS",
+        "overlap_seconds": 233
+      },
+      {
+        "seed": 20261022,
+        "trial_id": "0747c911e681fcc54c7b8f2b",
+        "task": "regex-chess",
+        "model": "eNeural Fast",
+        "status_at_audit": "RUNNING",
+        "overlap_seconds": 1597
+      },
+      {
+        "seed": 20261022,
+        "trial_id": "0696c631a0cd20b617b24a5b",
+        "task": "sqlite-db-truncate",
+        "model": "BF16",
+        "status_at_audit": "PASS",
+        "overlap_seconds": 388
+      },
+      {
+        "seed": 20261022,
+        "trial_id": "0a623c709097fb1c1fdd5f0f",
+        "task": "tune-mjcf",
+        "model": "eNeural Fast",
+        "status_at_audit": "RUNNING",
+        "overlap_seconds": 794
+      },
+      {
+        "seed": 20261022,
+        "trial_id": "0eab8f4eda2be92e8c95c4ea",
+        "task": "vulnerable-secret",
+        "model": "BF16",
+        "status_at_audit": "PASS",
+        "overlap_seconds": 244
+      },
+      {
+        "seed": 20261022,
+        "trial_id": "0c5a9f4cdb1b8f41d0bbe294",
+        "task": "write-compressor",
+        "model": "BF16",
+        "status_at_audit": "TIMEOUT",
+        "overlap_seconds": 1058
+      }
+    ]
+  },
+  "protocol_action": "No scores, timeouts, or verifier results were changed. No completed Trial was retried. Continue the remaining fixed-seed Trials and include this incident in the final resource-competition analysis.",
+  "orphan_process_cleanup": {
+    "observed_at_utc": "2026-10-22 14:32:07",
+    "pid": 41136,
+    "command": "apt-get update",
+    "started_at_utc": "2026-10-21T06:40:03Z",
+    "elapsed_at_cleanup": "1 day 7 hours 51 minutes",
+    "parent_pid_at_observation": 1,
+    "former_process_group_leader_pid": 41133,
+    "former_process_group_leader_present": false,
+    "formal_trial_association": "not identified; not a child of any active formal worker",
+    "action": "Sent SIGTERM to the exact verified PID; /proc/41136 was absent after the signal.",
+    "impact_assessment": "Process used 0% CPU and about 8 MiB RSS at observation. No active benchmark worker or model server was signaled. Its original task/rootfs is unknown, so no formal score or status was changed."
+  }
+}

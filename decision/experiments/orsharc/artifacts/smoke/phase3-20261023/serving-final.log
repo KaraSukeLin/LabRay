@@ -1,0 +1,23 @@
+Loading weights:   0%|          | 0/427 [00:00<?, ?it/s]Loading weights:   0%|          | 1/427 [00:00<04:11,  1.69it/s]Loading weights:   6%|▋         | 27/427 [00:00<00:07, 51.75it/s]Loading weights:  11%|█         | 46/427 [00:00<00:04, 79.07it/s]Loading weights:  16%|█▌        | 67/427 [00:00<00:03, 108.89it/s]Loading weights:  22%|██▏       | 93/427 [00:01<00:02, 144.98it/s]Loading weights:  27%|██▋       | 114/427 [00:01<00:01, 156.50it/s]Loading weights:  31%|███▏      | 134/427 [00:01<00:01, 151.99it/s]Loading weights:  36%|███▌      | 153/427 [00:01<00:01, 160.81it/s]Loading weights:  41%|████      | 173/427 [00:01<00:01, 167.20it/s]Loading weights:  47%|████▋     | 200/427 [00:01<00:01, 192.10it/s]Loading weights:  52%|█████▏    | 221/427 [00:01<00:01, 193.99it/s]Loading weights:  57%|█████▋    | 242/427 [00:01<00:00, 185.54it/s]Loading weights:  61%|██████▏   | 262/427 [00:01<00:00, 181.33it/s]Loading weights:  68%|██████▊   | 289/427 [00:02<00:00, 204.39it/s]Loading weights:  73%|███████▎  | 311/427 [00:02<00:00, 190.20it/s]Loading weights:  78%|███████▊  | 332/427 [00:02<00:00, 195.20it/s]Loading weights:  84%|████████▍ | 358/427 [00:02<00:00, 211.13it/s]Loading weights:  89%|████████▉ | 380/427 [00:02<00:00, 201.71it/s]Loading weights:  94%|█████████▍| 401/427 [00:02<00:00, 190.50it/s]Loading weights:  99%|█████████▊| 421/427 [00:02<00:00, 184.70it/s]Loading weights: 100%|██████████| 427/427 [00:02<00:00, 155.12it/s]
+[transformers] `causal_conv1d_fn` is falling back to its reference PyTorch implementation because `causal_conv1d` is not installed. This is correct but much slower; install `causal_conv1d` for the optimized kernel.
+Loading weights:   0%|          | 0/427 [00:00<?, ?it/s]Loading weights:   0%|          | 1/427 [00:00<01:39,  4.29it/s]Loading weights:   0%|          | 2/427 [00:00<01:46,  3.99it/s]Loading weights:   7%|▋         | 28/427 [00:00<00:05, 68.10it/s]Loading weights:  11%|█         | 47/427 [00:00<00:03, 99.91it/s]Loading weights:  18%|█▊        | 77/427 [00:00<00:02, 153.80it/s]Loading weights:  23%|██▎       | 98/427 [00:00<00:01, 166.83it/s]Loading weights:  28%|██▊       | 120/427 [00:01<00:01, 180.59it/s]Loading weights:  34%|███▍      | 147/427 [00:01<00:01, 202.05it/s]Loading weights:  40%|███▉      | 169/427 [00:01<00:01, 205.40it/s]Loading weights:  45%|████▍     | 191/427 [00:01<00:01, 202.50it/s]Loading weights:  50%|████▉     | 213/427 [00:01<00:01, 195.31it/s]Loading weights:  56%|█████▌    | 240/427 [00:01<00:00, 204.05it/s]Loading weights:  61%|██████    | 261/427 [00:01<00:00, 192.48it/s]Loading weights:  68%|██████▊   | 289/427 [00:01<00:00, 211.06it/s]Loading weights:  73%|███████▎  | 311/427 [00:01<00:00, 199.92it/s]Loading weights:  78%|███████▊  | 333/427 [00:02<00:00, 201.80it/s]Loading weights:  84%|████████▍ | 359/427 [00:02<00:00, 215.16it/s]Loading weights:  89%|████████▉ | 381/427 [00:02<00:00, 210.14it/s]Loading weights:  94%|█████████▍| 403/427 [00:02<00:00, 205.18it/s]Loading weights:  99%|█████████▉| 424/427 [00:02<00:00, 189.63it/s]Loading weights: 100%|██████████| 427/427 [00:02<00:00, 170.77it/s]
+{
+  "status": "PASS",
+  "max_abs_probability_difference": 0.04147600000000007,
+  "label_changes": [],
+  "atol": 0.05,
+  "rtol": 0,
+  "peak_gpu_bytes": {
+    "adapter": 24010347520,
+    "merged": 24043901952
+  },
+  "load_seconds": {
+    "adapter": 8.56434365361929,
+    "merged": 4.23108820989728
+  },
+  "truncated_records": 0,
+  "over_limit_rejected": true,
+  "head_precision": "production FP32 LM head; BF16 backbone; FP32 LoRA before merge",
+  "code_sha256": "1e9e73367272352024da4eea95a71898b5c0afbce62bfdec14c8300abf006d85",
+  "tolerance_basis": "upstream qev.engine documents BF16 cached/batched rounding and uses 0.05; native full-forward parity remains 0.02; no changed labels allowed"
+}

@@ -1,0 +1,82 @@
+[
+  {
+    "name": "model.language_model.layers.0.linear_attn.in_proj_a.weight",
+    "dtype": "torch.bfloat16",
+    "delta_max": 7.355856268986827e-06,
+    "unchanged_fraction": 0.9863204956054688,
+    "merge_rounding_max": 7.356051355600357e-06,
+    "exact_bf16_merge": true
+  },
+  {
+    "name": "model.language_model.layers.0.linear_attn.in_proj_b.weight",
+    "dtype": "torch.bfloat16",
+    "delta_max": 6.945285349502228e-06,
+    "unchanged_fraction": 0.9530029296875,
+    "merge_rounding_max": 6.945338100194931e-06,
+    "exact_bf16_merge": true
+  },
+  {
+    "name": "model.language_model.layers.0.linear_attn.in_proj_qkv.weight",
+    "dtype": "torch.bfloat16",
+    "delta_max": 8.096659257716965e-06,
+    "unchanged_fraction": 0.9797065258026123,
+    "merge_rounding_max": 8.09691846370697e-06,
+    "exact_bf16_merge": true
+  },
+  {
+    "name": "model.language_model.layers.0.linear_attn.in_proj_z.weight",
+    "dtype": "torch.bfloat16",
+    "delta_max": 7.864104190957732e-06,
+    "unchanged_fraction": 0.9799202084541321,
+    "merge_rounding_max": 7.8640878200531e-06,
+    "exact_bf16_merge": true
+  },
+  {
+    "name": "model.language_model.layers.0.linear_attn.out_proj.weight",
+    "dtype": "torch.bfloat16",
+    "delta_max": 8.380186955037061e-06,
+    "unchanged_fraction": 0.9760997891426086,
+    "merge_rounding_max": 8.199363946914673e-06,
+    "exact_bf16_merge": true
+  },
+  {
+    "name": "model.language_model.layers.0.mlp.down_proj.weight",
+    "dtype": "torch.bfloat16",
+    "delta_max": 4.458324838196859e-06,
+    "unchanged_fraction": 0.9826458096504211,
+    "merge_rounding_max": 4.458241164684296e-06,
+    "exact_bf16_merge": true
+  },
+  {
+    "name": "model.language_model.layers.0.mlp.gate_proj.weight",
+    "dtype": "torch.bfloat16",
+    "delta_max": 8.003880793694407e-06,
+    "unchanged_fraction": 0.97071772813797,
+    "merge_rounding_max": 8.003786206245422e-06,
+    "exact_bf16_merge": true
+  },
+  {
+    "name": "model.language_model.layers.0.mlp.up_proj.weight",
+    "dtype": "torch.bfloat16",
+    "delta_max": 8.059886567934882e-06,
+    "unchanged_fraction": 0.9690238833427429,
+    "merge_rounding_max": 8.059665560722351e-06,
+    "exact_bf16_merge": true
+  },
+  {
+    "name": "model.language_model.layers.1.linear_attn.in_proj_a.weight",
+    "dtype": "torch.bfloat16",
+    "delta_max": 6.67283711663913e-06,
+    "unchanged_fraction": 0.986785888671875,
+    "merge_rounding_max": 6.67572021484375e-06,
+    "exact_bf16_merge": true
+  },
+  {
+    "name": "model.language_model.layers.1.linear_attn.in_proj_b.weight",
+    "dtype": "torch.bfloat16",
+    "delta_max": 7.463223028025823e-06,
+    "unchanged_fraction": 0.9831619262695312,
+    "merge_rounding_max": 7.463619112968445e-06,
+    "exact_bf16_merge": true
+  }
+]

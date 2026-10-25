@@ -1,0 +1,12 @@
+{
+  "src/fidelity.py": "90fcfa567abee03b3af1c90f6f1afcab5e0bccfa5ed3d09f14ca61198a2eb0dd",
+  "src/benchmark.py": "4a04555828dffc987a15e37acd9653980358d4a4ddf1e80b23a4066251d3bdcf",
+  "src/benchmark_analysis.py": "2d83d2027d5e1a19800c830beb69bad5bd43209d6b3d5718e7d501d68122f843",
+  "src/prepare_benchmark_pilot.py": "3107b77d94c345e648b463b1231eb357b2de532cb947c7f1f50f56d1a82c0c58",
+  "src/run_benchmarks.py": "c6933c0ef76f2ff4061d8ab150116fa2a96d3401aa2fd02e81631e7da3a52260",
+  "src/benchmark_budget.py": "65f82729b840d775635987d21960b257086958b956c69b447f7d7048b844a9ab",
+  "assets/benchmark_config.json": "cbe61791365e6a4a780f4e6a57457e38b384c729e2110ee08f83a85451140bed",
+  "assets/benchmark/pilot_v1/questions.json": "a42122a745001789b4eae32b2a7123364b5c9353c14871bd06cc2130a888fddf",
+  "assets/benchmark/pilot_v1/manifest.json": "82a9a6393e7e938271976786dce07eb5116846d5ea00849465df0206cbac4584",
+  "tests/test_benchmark_budget.py": "a58b13d2e8654e2a6a65e96c53ef6f331675aac8afddf2e7a5b409ea92e62f54"
+}

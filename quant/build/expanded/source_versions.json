@@ -1,0 +1,18 @@
+{
+  "fidelity": {
+    "before_sha256": "968320f858ef9d18d6e96a553637cabe4a29d8e267cfaad7143a19d9e113a4cd",
+    "after_sha256": "90fcfa567abee03b3af1c90f6f1afcab5e0bccfa5ed3d09f14ca61198a2eb0dd"
+  },
+  "prepare_dataset": {
+    "before_sha256": "7d87c140e17d6bad03a724fb80aff2c7251915870eef8cff158dbfbf5fc07416",
+    "after_sha256": "0dbe0979b8d6b2dc9f46d476168cabd9479e5b0b296f49aa54bdea7306d432fe"
+  },
+  "analyze": {
+    "before_sha256": "1f1febfba4473b022f4a7e95f247c5af338455d10f9d0e257755dbf48be5ea21",
+    "after_sha256": "e677e8d43118d7567929d111bf13c61984d2d8e95900e8429d4cc3e00515b3b4"
+  },
+  "audit_calibration": {
+    "before_sha256": "692870668145557a369dea12c26007b05000b8ca48352c8d6ef15e6dae59a303",
+    "after_sha256": "68e5cfeb69fd355998bc72661d7514d598ccc6a5d6170a07dd7c702acb52f8d8"
+  }
+}

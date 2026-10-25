@@ -1,0 +1,708 @@
+{
+  "recorded_at": 1792606067.4794774,
+  "source_snapshot": {
+    "fixed_sources": {
+      "src/terminal_formal_scheduler.py": "347db1b437cfc54c435b7984ba5c2312166ae913d61aaea632a6a09ce628aec8",
+      "src/terminal_queue.py": "680ec557c33394ed13b26590fddc1ac6c4779f71bc72f97bf1bba2e72e02babc",
+      "src/terminal_low.py": "5154c445126620f8fef40ce668c3e842fe84ebeaff32d785bb8f508addefe22f",
+      "src/terminal_bench.py": "d335ba121736484e02c0f504dce29c78d24e2a80928c4923cf3dc555d686404d",
+      "src/terminal_smoke_scheduler.py": "a48a0dc0b685cac1a2381287a8dedcc1cdecf8cc64cf7250a8a2e8975777190b",
+      "src/terminal_low_preflight.py": "df4ea400c6b9ac4228e6f5ad1696be6c902123c9ef8b002c9bbf3cf4778d8365",
+      "src/terminal_proot.py": "f1ef0663196c1c76d315ff83f61d7f081abdec72179e911d599c43f3d420d98d",
+      "src/terminal_proot_images.py": "fb2a5696379eddd9dc084904a70603ad4577a17dcce5b6fff2e93e6cf4cfb957",
+      "src/terminal_observer.py": "f2ba963a2b4a19f4b5f68c7d4e4fab891e1ba1080df8ac6c78264b6aadf26c6b",
+      "assets/terminal_bench_low_mtp3.json": "9cb73cfb84f5368cef045a029a89ffd43ee2ab0843f607631975480fd1288fd8",
+      "assets/terminal_bench_manifest.json": "76b1a6a1ff0f1dc7d860a96bda488a77f92c715eadbfae2a4842233a47863cd6",
+      "assets/terminal_bench_images.json": "2c6b95021c57ed883e2ee7d300f9beb0c5a601ae513ead8e7c62dca3fd8d7869",
+      "tests/test_terminal_formal_scheduler.py": "24af311dff49a9107a89fee372cd7c921ef7464ed5291454cde7e2a61f917d23",
+      "tests/test_terminal_queue.py": "db7c24b7372e57e565352ea75e8fff65eada8fdea45818a0a141af20f2a0b4c5",
+      "tests/test_terminal_proot_images.py": "ff0f1fe4771208627560bbfeac22f1ffee9abfef7f703cd203c17e77e86f310d",
+      "build/terminal_bench/low_mtp3/model-audit.json": "2fda7befbf8cdec5128731f544f48432a13b425a3efeb7620e049cc11626a885"
+    },
+    "prior_evidence": {
+      "GOAL.json": "f3cb26ad305ed8aec599bc4e6d48e7c5911b1806c1db534e5ad1e07d9b0f81d6",
+      "REPORT.md": "8d6dee9b7d8e82120a540755433ec27bfe3e107c7574e421e7745cc3554b3319",
+      "SMOKE_SUMMARY.json": "4fe6d7d223915fcedf516bd9263844c191d3265bb8ef4b468ea666379ecb370b",
+      "SMOKE_AUDIT.json": "923d9feaad1a8e0a84ddee3175c734a71260d6f253472551d824d217821f00dd",
+      "COMPLETION_AUDIT.json": "919442bd862388712e1968815ebb51bdf5d9830b8867ee49240b2e0a53993a05",
+      "coverage.json": "3d2cca65bdec056383a5d439bd958fc0b97a044f3b72de4c7646ad81a58a50a0",
+      "preparation-audit.json": "3db41400507b0dd1fa247fa87412731f5adc79d3f6bb1f3d5bb3907eea39744f",
+      "FAILURES.md": "28667ab9233db93ca5dbf0a64535a041ccb66a37b81a9927debd8d5730ed1a61",
+      "STATE.json": "851805036b069174cd0aab01486091d32181534a934f4d4b0431a994c6ba891f",
+      "STATUS.json": "9b0542cc8820cd5aa2faf4545ce8cac3a89348686765139fe4344bf5e69181a9",
+      "PROGRESS_AUDIT.json": "29dfe6cf4fc6b4cf5994f1294d088cfb8d8e1cc68bceb7f1311ef6fa644ef171",
+      "PROGRESS_SUMMARY.json": "2574752f95a15f9e3d4018f1240666194087cba8c53c094411bdb0eb82808c5a",
+      "TERMINUS_PARSE_AUDIT.json": "0c5f1e07804caddbd08b7aa73cd74e11ffd7e97e55399c7811699c1cdca79c77"
+    }
+  },
+  "runner_changes": [
+    {
+      "change": "live task release after each passed Oracle/NOP gate",
+      "evidence": "scheduler regression test compares live release with a batch barrier"
+    },
+    {
+      "change": "three same-model trials per loaded service before rebalancing",
+      "evidence": {
+        "service_batch": 3,
+        "simulated_loads_for_15_trials": 5,
+        "one_trial_per_load_baseline": 15
+      }
+    },
+    {
+      "change": "shared OCI layer download lock",
+      "evidence": "8 concurrent cache requests performed one verified download"
+    },
+    {
+      "change": "MTP metrics are observational",
+      "evidence": "metrics scrape errors are stored and do not gate Trial start"
+    },
+    {
+      "change": "durable coverage, matrix, and resume state",
+      "evidence": "resume and source-snapshot regression tests"
+    }
+  ],
+  "schedule_ab": {
+    "kind": "deterministic scheduler simulation, not measured GPU benchmark",
+    "tasks": 89,
+    "models": 3,
+    "gpu_workers": 5,
+    "trial_seconds": 10,
+    "gate_ready_seconds": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      60,
+      60,
+      60,
+      60,
+      60,
+      60,
+      60,
+      60,
+      60,
+      60,
+      60,
+      60,
+      60,
+      60,
+      60,
+      60,
+      60,
+      60,
+      60,
+      60,
+      60,
+      60,
+      60,
+      60,
+      60,
+      60,
+      60,
+      60,
+      60,
+      60,
+      60,
+      60,
+      60,
+      60,
+      60,
+      60,
+      60,
+      60,
+      60,
+      60,
+      60,
+      60,
+      60,
+      60,
+      60,
+      60,
+      60,
+      60,
+      60,
+      60,
+      60,
+      60,
+      60,
+      60,
+      60,
+      60,
+      60,
+      60,
+      60,
+      60,
+      60,
+      60,
+      60,
+      60,
+      60,
+      60,
+      60,
+      60,
+      60,
+      60,
+      60,
+      60,
+      60,
+      60,
+      60,
+      60,
+      60,
+      60,
+      60,
+      60,
+      60,
+      60,
+      60,
+      60
+    ],
+    "live_queue_makespan_seconds": 570,
+    "batch_barrier_makespan_seconds": 600
+  },
+  "targeted_tests": {
+    "command": "./.vllm-venv/bin/python -m pytest -q tests/test_terminal_formal_scheduler.py tests/test_terminal_queue.py tests/test_terminal_low.py tests/test_terminal_proot_images.py",
+    "passed": 21,
+    "failed": 0
+  },
+  "prelaunch_failure": {
+    "time": 1792605778.1385295,
+    "formal_trials_started": false,
+    "gpu_workers_started": false,
+    "errors": [
+      {
+        "type": "FileNotFoundError",
+        "path": "source_snapshot/prior_evidence/GOAL.json",
+        "cause": "parent directory was not created"
+      },
+      {
+        "type": "FileNotFoundError",
+        "path": "build/terminal_bench/low_mtp3/VALIDATION.md",
+        "cause": "source snapshot listed a nonexistent evidence file; replaced with existing preparation and progress evidence"
+      }
+    ],
+    "partial_snapshot_preserved": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021/prelaunch_attempts/attempt1/source_snapshot_partial"
+  },
+  "formal_trials_started": true,
+  "multiseed_targeted_validation": {
+    "source": "build/terminal_bench/low_mtp3/formal_three_seed_20261022/TARGETED_VALIDATION.json",
+    "source_sha256": "bfe16c2d38d65202c67e5aec85b79926eaf3654c8dd29ff1902e9ae447852a37",
+    "recorded_at_epoch": 1792634472.119989,
+    "existing_scheduler_regressions": {
+      "passed": 21,
+      "failed": 0,
+      "source": "RUNNER_AUDIT.json"
+    },
+    "new_targeted_cpu_regressions": {
+      "command": ".vllm-venv/bin/python -m pytest -q tests/test_terminal_formal_multiseed_analysis.py tests/test_agentic_fidelity.py",
+      "passed": 4,
+      "failed": 0
+    },
+    "syntax_check": {
+      "command": ".harbor-venv/bin/python -m py_compile src/terminal_formal_multiseed_orchestrator.py src/terminal_formal_multiseed_analysis.py",
+      "passed": true
+    },
+    "live_orchestrator_check": {
+      "live_seed_one_controller_detected": true,
+      "queued_first_seed_evaluable_cells": 180,
+      "expected_first_seed_evaluable_cells": 180
+    },
+    "smoke_rerun": false,
+    "gpu_test_rerun": false
+  },
+  "resource_incidents": [
+    {
+      "source": "build/terminal_bench/low_mtp3/formal_three_seed_20261022/RESOURCE_INCIDENTS.json",
+      "sha256": "73b3fe75150964b52d4908f7a976bee1be0cad04360caf11bc0e8dcd7e52c091",
+      "record": {
+        "incident_id": "stale-recursive-diagnostic-scan-20261022",
+        "observed_at_utc": "2026-10-22T14:21:19Z",
+        "classification": "assistant_read_only_diagnostic_process",
+        "processes": {
+          "shell_pid": 14505,
+          "python_pid": 14508,
+          "parent_pid": 22548,
+          "command_signature": "recursive glob over build/terminal_bench/low_mtp3/formal_20261021_seed_20261021 trial artifacts and make-doom-for-mips paths",
+          "started_utc_approx": "2026-10-22T13:35Z",
+          "stopped_utc_approx": "2026-10-22T14:19Z",
+          "elapsed_seconds_at_detection": 2628,
+          "cpu_percent_at_detection": 99.7,
+          "memory_percent_at_detection": 0.0,
+          "cpu_quota": "5000000 100000 (50 CPU cores)",
+          "action": "Sent SIGTERM to only the verified shell and Python scan processes; confirmed both PIDs absent afterward. No Trial worker or model server was signaled."
+        },
+        "overlap_assessment": {
+          "summary": "The scan overlapped the final Seed 2 make-doom-for-mips Trial and 14 Seed 3 cells. It consumed about one CPU core, or 2% of the 50-core cgroup quota. Resource logs show low CPU pressure and zero full CPU pressure; memory OOM counters remained zero. A small effect on CPU-bound wall time cannot be ruled out, especially for timeout cells, so the interval and affected cells are retained for interpretation.",
+          "seed_20261021_resource_samples": {
+            "count": 40,
+            "sample_window_utc": [
+              "2026-10-22T13:35:06Z",
+              "2026-10-22T13:44:59Z"
+            ],
+            "cpu_pressure_some_avg10_max_percent": 0.72,
+            "cpu_pressure_some_avg60_max_percent": 0.14,
+            "cpu_pressure_some_avg300_max_percent": 0.09,
+            "cpu_pressure_full_max_percent": 0.0,
+            "oom": 0,
+            "oom_kill": 0
+          },
+          "seed_20261022_resource_samples": {
+            "count": 134,
+            "sample_window_utc": [
+              "2026-10-22T13:45:29Z",
+              "2026-10-22T14:18:48Z"
+            ],
+            "cpu_pressure_some_avg10_max_percent": 0.43,
+            "cpu_pressure_some_avg60_max_percent": 0.16,
+            "cpu_pressure_some_avg300_max_percent": 0.07,
+            "cpu_pressure_full_max_percent": 0.0,
+            "oom": 0,
+            "oom_kill": 0
+          },
+          "trial_cells": [
+            {
+              "seed": 20261021,
+              "trial_id": "fe24723045214275893800e1",
+              "task": "make-doom-for-mips",
+              "model": "PrismaAQUA",
+              "status_at_audit": "TIMEOUT",
+              "overlap_seconds": 574
+            },
+            {
+              "seed": 20261022,
+              "trial_id": "06ca8f54e4b04815f20c2a34",
+              "task": "cobol-modernization",
+              "model": "eNeural Fast",
+              "status_at_audit": "TIMEOUT",
+              "overlap_seconds": 950
+            },
+            {
+              "seed": 20261022,
+              "trial_id": "03539c020b50bf543fd0c5d0",
+              "task": "db-wal-recovery",
+              "model": "PrismaAQUA",
+              "status_at_audit": "PASS",
+              "overlap_seconds": 273
+            },
+            {
+              "seed": 20261022,
+              "trial_id": "0ce21fc1a031b0a968e9866e",
+              "task": "make-mips-interpreter",
+              "model": "PrismaAQUA",
+              "status_at_audit": "TIMEOUT",
+              "overlap_seconds": 1844
+            },
+            {
+              "seed": 20261022,
+              "trial_id": "18c4169efae21e1b5ec3b672",
+              "task": "model-extraction-relu-logits",
+              "model": "BF16",
+              "status_at_audit": "RUNNING",
+              "overlap_seconds": 97
+            },
+            {
+              "seed": 20261022,
+              "trial_id": "0241c5f00cdacb1bf89c2ce8",
+              "task": "modernize-scientific-stack",
+              "model": "PrismaAQUA",
+              "status_at_audit": "VERIFIER_FAIL",
+              "overlap_seconds": 176
+            },
+            {
+              "seed": 20261022,
+              "trial_id": "128a18782a3cc1c6a2fc6db4",
+              "task": "mteb-leaderboard",
+              "model": "PrismaAQUA",
+              "status_at_audit": "RUNNING",
+              "overlap_seconds": 1748
+            },
+            {
+              "seed": 20261022,
+              "trial_id": "0257b98a928be9e9d9ea99b3",
+              "task": "polyglot-c-py",
+              "model": "eNeural Fast",
+              "status_at_audit": "PASS",
+              "overlap_seconds": 277
+            },
+            {
+              "seed": 20261022,
+              "trial_id": "019b5275126eea2e78b338cc",
+              "task": "portfolio-optimization",
+              "model": "eNeural Fast",
+              "status_at_audit": "PASS",
+              "overlap_seconds": 423
+            },
+            {
+              "seed": 20261022,
+              "trial_id": "0aeebbd8cdea517ef7fbbf09",
+              "task": "prove-plus-comm",
+              "model": "BF16",
+              "status_at_audit": "PASS",
+              "overlap_seconds": 233
+            },
+            {
+              "seed": 20261022,
+              "trial_id": "0747c911e681fcc54c7b8f2b",
+              "task": "regex-chess",
+              "model": "eNeural Fast",
+              "status_at_audit": "RUNNING",
+              "overlap_seconds": 1597
+            },
+            {
+              "seed": 20261022,
+              "trial_id": "0696c631a0cd20b617b24a5b",
+              "task": "sqlite-db-truncate",
+              "model": "BF16",
+              "status_at_audit": "PASS",
+              "overlap_seconds": 388
+            },
+            {
+              "seed": 20261022,
+              "trial_id": "0a623c709097fb1c1fdd5f0f",
+              "task": "tune-mjcf",
+              "model": "eNeural Fast",
+              "status_at_audit": "RUNNING",
+              "overlap_seconds": 794
+            },
+            {
+              "seed": 20261022,
+              "trial_id": "0eab8f4eda2be92e8c95c4ea",
+              "task": "vulnerable-secret",
+              "model": "BF16",
+              "status_at_audit": "PASS",
+              "overlap_seconds": 244
+            },
+            {
+              "seed": 20261022,
+              "trial_id": "0c5a9f4cdb1b8f41d0bbe294",
+              "task": "write-compressor",
+              "model": "BF16",
+              "status_at_audit": "TIMEOUT",
+              "overlap_seconds": 1058
+            }
+          ]
+        },
+        "protocol_action": "No scores, timeouts, or verifier results were changed. No completed Trial was retried. Continue the remaining fixed-seed Trials and include this incident in the final resource-competition analysis.",
+        "orphan_process_cleanup": {
+          "observed_at_utc": "2026-10-22 14:32:07",
+          "pid": 41136,
+          "command": "apt-get update",
+          "started_at_utc": "2026-10-21T06:40:03Z",
+          "elapsed_at_cleanup": "1 day 7 hours 51 minutes",
+          "parent_pid_at_observation": 1,
+          "former_process_group_leader_pid": 41133,
+          "former_process_group_leader_present": false,
+          "formal_trial_association": "not identified; not a child of any active formal worker",
+          "action": "Sent SIGTERM to the exact verified PID; /proc/41136 was absent after the signal.",
+          "impact_assessment": "Process used 0% CPU and about 8 MiB RSS at observation. No active benchmark worker or model server was signaled. Its original task/rootfs is unknown, so no formal score or status was changed."
+        }
+      }
+    },
+    {
+      "source": "build/terminal_bench/low_mtp3/formal_three_seed_20261022/RESOURCE_INCIDENT_20261022_recursive_scan_2.json",
+      "sha256": "235be3729032e79713fa76d2f1e54fed628ff9f4be6c9ce8ad1de02b38979c5e",
+      "record": {
+        "schema": "terminal-resource-incident/v1",
+        "incident_id": "stale-recursive-diagnostic-scan-20261022-2",
+        "observed_at_utc": "2026-10-22T15:45:05.678788+00:00",
+        "interval_utc": {
+          "start": "2026-10-22T14:54:44.770000+00:00",
+          "stop": "2026-10-22T15:45:05.678788+00:00",
+          "duration_seconds": 3020.9087879657745
+        },
+        "processes": [
+          {
+            "pid": 40584,
+            "role": "shell",
+            "parent_pid": 22548,
+            "parent": "codex app-server",
+            "exit": "exited after child SIGTERM"
+          },
+          {
+            "pid": 40585,
+            "role": "Python recursive scanner",
+            "parent_pid": 40584,
+            "argv": ".harbor-venv/bin/python -",
+            "resolved_exe": "/root/.local/share/uv/python/cpython-3.12.14-linux-x86_64-gnu/bin/python3.12",
+            "command_signature": "read-only recursive glob over build/terminal_bench/low_mtp3/**/matrix.sqlite plus two JSON metadata reads",
+            "cpu_percent_observed_approx": 99.8,
+            "signal": "SIGTERM",
+            "still_present_after_stop": false
+          }
+        ],
+        "resource_use": {
+          "estimated_core_hours": 0.837463047330512,
+          "cpu_quota_at_stop": "5000000 100000",
+          "cpu_pressure_snapshot_at_stop": "some avg10=0.00 avg60=0.08 avg300=0.02 total=1012185053\nfull avg10=0.00 avg60=0.07 avg300=0.02 total=990891571",
+          "memory_events_snapshot_at_stop": "low 0\nhigh 0\nmax 19\noom 0\noom_kill 0",
+          "snapshot_limit": "Pressure and memory counters were sampled only at stop and do not describe the full incident interval."
+        },
+        "overlapping_trials": [
+          {
+            "id": "18dcfc0a943bb6f61de3a4c3",
+            "model": "Qwen-Qwen3.8-27B",
+            "task": "feal-linear-cryptanalysis",
+            "status_at_stop": "TIMEOUT",
+            "started_epoch": 1792679600.934406,
+            "finished_epoch": 1792681451.3446746
+          },
+          {
+            "id": "1d23dc6ea77e49c708699dc6",
+            "model": "rdtand-Qwen3.8-27B-PrismaAQUA-5.5bit-vllm",
+            "task": "winning-avg-corewars",
+            "status_at_stop": "TIMEOUT",
+            "started_epoch": 1792679733.6894078,
+            "finished_epoch": 1792683417.7934449
+          },
+          {
+            "id": "11fe835eb2f86bb79626b354",
+            "model": "eNeural-Qwen3.8-27B-fast",
+            "task": "db-wal-recovery",
+            "status_at_stop": "TIMEOUT",
+            "started_epoch": 1792679960.5457208,
+            "finished_epoch": 1792680930.702841
+          },
+          {
+            "id": "246a7c6ea5ae2c5e068b26bd",
+            "model": "Qwen-Qwen3.8-27B",
+            "task": "password-recovery",
+            "status_at_stop": "TIMEOUT",
+            "started_epoch": 1792680704.7795074,
+            "finished_epoch": 1792681681.1447244
+          },
+          {
+            "id": "185912bfe0a2588a1d7f9d09",
+            "model": "eNeural-Qwen3.8-27B-fast",
+            "task": "train-fasttext",
+            "status_at_stop": "RUNNING",
+            "started_epoch": 1792680809.8299308,
+            "finished_epoch": null
+          },
+          {
+            "id": "1e0adc086d1527499818637b",
+            "model": "eNeural-Qwen3.8-27B-fast",
+            "task": "llm-inference-batching-scheduler",
+            "status_at_stop": "TIMEOUT",
+            "started_epoch": 1792680930.7170613,
+            "finished_epoch": 1792682772.9047918
+          },
+          {
+            "id": "1e5f247e6cb0cb0d1b5d4134",
+            "model": "rdtand-Qwen3.8-27B-PrismaAQUA-5.5bit-vllm",
+            "task": "extract-moves-from-video",
+            "status_at_stop": "ENVIRONMENT_FAIL",
+            "started_epoch": 1792681452.0742433,
+            "finished_epoch": 1792681743.8207998
+          },
+          {
+            "id": "28125ab2e19b7b0d29b40a49",
+            "model": "Qwen-Qwen3.8-27B",
+            "task": "make-doom-for-mips",
+            "status_at_stop": "TIMEOUT",
+            "started_epoch": 1792681681.8245473,
+            "finished_epoch": 1792682717.4772651
+          },
+          {
+            "id": "1e7863b29625931f098c810d",
+            "model": "rdtand-Qwen3.8-27B-PrismaAQUA-5.5bit-vllm",
+            "task": "filter-js-from-html",
+            "status_at_stop": "PASS",
+            "started_epoch": 1792681743.8408322,
+            "finished_epoch": 1792682655.4272616
+          },
+          {
+            "id": "234b33d6f94325e454370f9c",
+            "model": "rdtand-Qwen3.8-27B-PrismaAQUA-5.5bit-vllm",
+            "task": "make-doom-for-mips",
+            "status_at_stop": "TIMEOUT",
+            "started_epoch": 1792682655.4417155,
+            "finished_epoch": 1792683642.0512471
+          },
+          {
+            "id": "3556f54385e2aa1a8921e301",
+            "model": "Qwen-Qwen3.8-27B",
+            "task": "train-fasttext",
+            "status_at_stop": "RUNNING",
+            "started_epoch": 1792682717.4918172,
+            "finished_epoch": null
+          },
+          {
+            "id": "21d5eedc1aa9ab37e8e73147",
+            "model": "eNeural-Qwen3.8-27B-fast",
+            "task": "dna-insert",
+            "status_at_stop": "MODEL_FAIL",
+            "started_epoch": 1792682773.5863783,
+            "finished_epoch": 1792683390.7542384
+          },
+          {
+            "id": "275520bbce0d0c7a095aa1d1",
+            "model": "eNeural-Qwen3.8-27B-fast",
+            "task": "sam-cell-seg",
+            "status_at_stop": "RUNNING",
+            "started_epoch": 1792683390.769046,
+            "finished_epoch": null
+          },
+          {
+            "id": "257a71f309bac4741cbb2db8",
+            "model": "rdtand-Qwen3.8-27B-PrismaAQUA-5.5bit-vllm",
+            "task": "video-processing",
+            "status_at_stop": "PASS",
+            "started_epoch": 1792683417.817967,
+            "finished_epoch": 1792683904.001877
+          },
+          {
+            "id": "25e392c4e7d036d310773db7",
+            "model": "rdtand-Qwen3.8-27B-PrismaAQUA-5.5bit-vllm",
+            "task": "train-fasttext",
+            "status_at_stop": "RUNNING",
+            "started_epoch": 1792683642.7300546,
+            "finished_epoch": null
+          },
+          {
+            "id": "2902143d407a8161cc4dc1ef",
+            "model": "rdtand-Qwen3.8-27B-PrismaAQUA-5.5bit-vllm",
+            "task": "constraints-scheduling",
+            "status_at_stop": "RUNNING",
+            "started_epoch": 1792683904.0149035,
+            "finished_epoch": null
+          }
+        ],
+        "overlap_count": 16,
+        "action": "Sent SIGTERM only to the verified scanner Python child; its shell exited. No scheduler, Trial worker, or model server was signaled.",
+        "interpretation": "A small effect on CPU-bound wall time cannot be ruled out. No score, timeout, verifier result, or Trial status was changed and no completed Trial was retried."
+      }
+    },
+    {
+      "source": "build/terminal_bench/low_mtp3/formal_three_seed_20261022/RESOURCE_INCIDENT_20261022_short_recursive_inspection.json",
+      "sha256": "549108fa7995308a478d5b611a15a4a1f30f4ebc32e7449a982bcd783dbe1620",
+      "record": {
+        "schema": 1,
+        "incident_id": "short-recursive-inspection-20261022-1632",
+        "observed_at_utc": "2026-10-22T16:33:27Z",
+        "classification": "assistant_read_only_diagnostic_process",
+        "interval_utc_approx": {
+          "started_after": "2026-10-22T16:31:57Z",
+          "completed_before": "2026-10-22T16:33:10Z"
+        },
+        "operations": [
+          {
+            "command_signature": "find over Seed 3 trial tree for recent Terminus pane files",
+            "observed_wall_seconds": 5.2
+          },
+          {
+            "command_signature": "Path.rglob over one completed MTEB trial tree and emitted paths",
+            "observed_wall_seconds": 5.7,
+            "tool_output": "Tool truncated a multi-million-token listing; no file content was intentionally edited."
+          }
+        ],
+        "resource_use": {
+          "combined_observed_command_wall_seconds": 10.9,
+          "cpu_seconds": null,
+          "io_bytes": null,
+          "note": "CPU and I/O counters were not sampled for these short commands; the wall values are tool-reported command durations."
+        },
+        "overlap_observation": {
+          "active_trials_observed_during_interval": [
+            {
+              "seed": 20261022,
+              "trial_id": "467c419dfec136b94c980f2c",
+              "task": "circuit-fibsqrt",
+              "model": "eNeural-Qwen3.8-27B-fast",
+              "gpu": 4
+            },
+            {
+              "seed": 20261022,
+              "trial_id": "5f2d7c806f24926314e03710",
+              "task": "db-wal-recovery",
+              "model": "Qwen-Qwen3.8-27B",
+              "gpu": 2
+            },
+            {
+              "seed": 20261022,
+              "trial_id": "3365c0a41fcc603515fdc0c0",
+              "task": "distribution-search",
+              "model": "rdtand-Qwen3.8-27B-PrismaAQUA-5.5bit-vllm",
+              "gpu": 1
+            },
+            {
+              "seed": 20261022,
+              "trial_id": "4fbdd9500571574b2c05a990",
+              "task": "make-mips-interpreter",
+              "model": "Qwen-Qwen3.8-27B",
+              "gpu": 3
+            },
+            {
+              "seed": 20261022,
+              "trial_id": "47d33f65501cfa3e9dc938c1",
+              "task": "regex-log",
+              "model": "eNeural-Qwen3.8-27B-fast",
+              "gpu": 0
+            }
+          ],
+          "interpretation": "A small transient CPU or filesystem effect on wall time cannot be ruled out. The completed mteb-retrieve PASS predates these scans; no Trial status changed between the 16:31:57 and 16:33:10 database snapshots, and no completed Trial was retried."
+        },
+        "action": "No running Trial, scheduler, worker, or model server was signaled. Avoid further recursive scans while the formal matrix runs."
+      }
+    }
+  ],
+  "analysis_source_amendment": {
+    "source": "build/terminal_bench/low_mtp3/formal_three_seed_20261022/ANALYSIS_SOURCE_AMENDMENT.json",
+    "sha256": "e44e548bab9886ad318dadb94073f4f86317457e4262406ffc9386d74e6a93f4",
+    "amendment": "Post-run USD cost reporting correction",
+    "recorded_at_epoch": 1792685931.7251036,
+    "scope": "Final reporting only; benchmark protocol, trial inputs, scores, verifiers, timeouts, seeds and sampling are unchanged.",
+    "reason": "The local inference attempts report cost_usd as null. Summing null values as zero would misstate an unavailable USD amount as zero.",
+    "behavior": "Sum cost_usd only when every model attempt reports a value; otherwise report JSON null, CSV blank, and Markdown NA. GPU-hours and token counts remain available as measured resource usage.",
+    "source_manifest": "SOURCE_MANIFEST.json remains the original pre-run manifest; exact baseline files are preserved in analysis_patch_baseline/.",
+    "changed_files": {
+      "src/terminal_formal_multiseed_analysis.py": {
+        "original_sha256": "40407af7d5d0e15626c3caadab3a023abcbc93b9b2975d71c04c251816870313",
+        "current_sha256": "c65dfe95c959da1af7369b29be49f55cd4d626bbd35512a348ad4514777a103d",
+        "baseline_copy": "build/terminal_bench/low_mtp3/formal_three_seed_20261022/analysis_patch_baseline/terminal_formal_multiseed_analysis.py"
+      },
+      "tests/test_terminal_formal_multiseed_analysis.py": {
+        "original_sha256": "fe1f771e6f4dde8041f6da0c040a5fcf8836464aa64b58f969926d81ee548fd6",
+        "current_sha256": "d70a765bcc4fad3bf65a65d14c6d1edb20a04c87998519dbee052d2c50eb3db2",
+        "baseline_copy": "build/terminal_bench/low_mtp3/formal_three_seed_20261022/analysis_patch_baseline/test_terminal_formal_multiseed_analysis.py"
+      }
+    },
+    "targeted_regression": {
+      "command": ".vllm-venv/bin/python -m pytest -q tests/test_terminal_formal_multiseed_analysis.py",
+      "passed": 3,
+      "failed": 0,
+      "coverage": "Known costs still sum; missing costs remain unavailable in JSON/CSV/Markdown."
+    }
+  },
+  "analysis_source_amendment_followup": {
+    "source": "build/terminal_bench/low_mtp3/formal_three_seed_20261022/ANALYSIS_SOURCE_AMENDMENT_RUNNER_AUDIT.json",
+    "sha256": "9f78bad09830e5eb1f324fdddb6ebc88f14114d6f100d61016df30c011915eec",
+    "record": {
+      "amendment": "Final runner audit provenance selection correction",
+      "recorded_at_epoch": 1792686929.430478,
+      "scope": "Final analysis provenance only. No benchmark inputs, protocol, sampling, seeds, scores, verifier, timeout, or Trial state changed.",
+      "reason": "The three-seed RUNNER_AUDIT.json is stored next to PROTOCOL.json. The aggregator read only the first seed directory, which could omit the authoritative updated resource audit from the final output.",
+      "behavior": "Prefer RUNNER_AUDIT.json beside the protocol; fall back to the first seed run directory only when the parent audit is absent. The regression fixture includes stale per-seed and newer parent audits and checks that the final output copies the parent audit.",
+      "source_manifest": "SOURCE_MANIFEST.json remains the original frozen pre-run manifest. This analysis-only follow-up is recorded separately; exact pre-fix files are preserved in analysis_patch_baseline/.",
+      "prior_amendment": "ANALYSIS_SOURCE_AMENDMENT.json",
+      "changed_files": {
+        "src/terminal_formal_multiseed_analysis.py": {
+          "previous_sha256": "c65dfe95c959da1af7369b29be49f55cd4d626bbd35512a348ad4514777a103d",
+          "current_sha256": "f23582798609176dea51e304b66d5fa9382f6123e9f47132540abd2a2c2c86f8",
+          "baseline_copy": "build/terminal_bench/low_mtp3/formal_three_seed_20261022/analysis_patch_baseline/terminal_formal_multiseed_analysis.pre_runner_audit_fix.py"
+        },
+        "tests/test_terminal_formal_multiseed_analysis.py": {
+          "previous_sha256": "d70a765bcc4fad3bf65a65d14c6d1edb20a04c87998519dbee052d2c50eb3db2",
+          "current_sha256": "c55f5865843fb29d3db0052a850a51a4c20abff41560efcb7bf99f6e5c8b8139",
+          "baseline_copy": "build/terminal_bench/low_mtp3/formal_three_seed_20261022/analysis_patch_baseline/test_terminal_formal_multiseed_analysis.pre_runner_audit_fix.py"
+        }
+      },
+      "targeted_regression": {
+        "command": ".vllm-venv/bin/python -m pytest -q tests/test_terminal_formal_multiseed_analysis.py",
+        "passed": 3,
+        "failed": 0,
+        "coverage": "Final analysis uses the three-seed parent RUNNER_AUDIT even when the first seed directory contains an older audit."
+      }
+    }
+  }
+}

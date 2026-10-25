@@ -1,0 +1,130 @@
+{
+  "identity": "9a45f37ce6a4391fbbfcfc094e17a073146086676e7107bfb3be268ee3155ed6",
+  "created": "2026-10-23T16:20:06Z",
+  "spec": {
+    "model": {
+      "backend": "startlux",
+      "checkpoint": "/root/model/StartLux-Decision-v1.1-27B-Instant-Q4_K_M",
+      "model_revision": "67834e921e8a6f977088d9b560ee9e02dffc87bc",
+      "model_repository": "startlux-models/StartLux-Decision-v1.1-27B-Instant-GGUF",
+      "model_file": "StartLux-Decision-v1.1-27B-Instant-Q4_K_M.gguf",
+      "health_model_name": "StartLux-Decision-v1.1-27B-Instant-Q4_K_M",
+      "quantization": "q4_k_m",
+      "device": "cuda:0",
+      "max_length": 16384,
+      "engine": "llamacpp",
+      "endpoint": "http://127.0.0.1:8090/v1/systemone",
+      "health_url": "http://127.0.0.1:8090/health",
+      "native_temperature_by_type": {
+        "noul": 1.7238,
+        "choice": 1.0867,
+        "score": 1.1841
+      },
+      "probability_source": "StartLux native type temperature applied upstream; Choice T=1.0867; then the separate OR-ShARC dev_calibrate temperature for this condition.",
+      "adapter_sha256": "7f75599267ed07d5c5cfe607745ef5b4e3fe068954a042e344e207ac0299c260",
+      "startlux_decide_version": "1.1.0",
+      "startlux_decide_revision": "83fe6c7d61a687a6e17f118b4f7d8f429f5d3a01",
+      "llama_cpp_version": "b11804",
+      "llama_cpp_commit": "c7fc5094179bf8a9c73c18593db714f8da41a402",
+      "runtime_image_digest": "sha256:490d8cd8000203a3ab8fdfce14ef931e2aa85affd4dd4447bcc75f299f00fd9a",
+      "server_context_length": 20480,
+      "server_flags": [
+        "--host 127.0.0.1",
+        "--port 8081",
+        "--device CUDA0",
+        "--split-mode none",
+        "-ngl 99",
+        "-c 20480",
+        "--parallel 1",
+        "--ctx-checkpoints 0",
+        "-b 16384",
+        "-ub 16384"
+      ],
+      "server_environment": {
+        "CUDA_VISIBLE_DEVICES": "0",
+        "STARTLUX_LLAMACPP_BIDIR": "server"
+      },
+      "request_defaults": {
+        "think_mode": "never",
+        "none_check": false,
+        "allow_none": false,
+        "cache_prompt": false,
+        "batch_size": 1,
+        "concurrency": 1
+      },
+      "checkpoint_sha256": "9d8048fc0cb2113c917fe7ef3ce85f105d74f327f26469c48e7682356c48ee5b"
+    },
+    "checkpoint": {
+      "path": "/root/model/StartLux-Decision-v1.1-27B-Instant-Q4_K_M",
+      "sha256": "9d8048fc0cb2113c917fe7ef3ce85f105d74f327f26469c48e7682356c48ee5b",
+      "files": {
+        "StartLux-Decision-v1.1-27B-Instant-Q4_K_M.gguf": "cf5d358624862e30cc9ee71182498c4795d31e9fb23315f29ac98ec440ba8b11",
+        "config.json": "fb4bbaf0e92a82a4984e109b938085cedb2ac2491e082ee711039be315f84527",
+        "decision_config.json": "42453cbf44b01c48d26284af1200181d3122074c5c119c052d7ad56817010663",
+        "tokenizer.json": "0997f410c57a1f4e53b09e4be8f4a172d90edd9564368fb0847030937229b9f3",
+        "tokenizer_config.json": "b11349aafa7cdc6a320767cf7ceb29ed82f7eda5d65e8e0819e76f0ce947bf27"
+      }
+    },
+    "runtime_source": {
+      "repo": "StartLuxLabs/StartLux-Decision",
+      "revision": "83fe6c7d61a687a6e17f118b4f7d8f429f5d3a01",
+      "python_sha256": "cf549b3333318065e5d6ca3902b149ee40b08748f94cf0776c06777eb5602557",
+      "patch_sha256": null
+    },
+    "data_manifest": "7da4b11e2bc3952109ea23f3c0f65bdbcbf6ea7ce1f1a52a2d3e5f4d84f78967",
+    "code_sha256": "b531da451d3dbaae1fdceba71a2783cbea3306320e524d663e6063c263a2247c",
+    "environment": {
+      "python": "3.12.14 (main, Sep 24 2026, 17:57:43) [Clang 22.1.3 ]",
+      "platform": "Linux-5.15.0-94-generic-x86_64-with-glibc2.36",
+      "libraries": {
+        "torch": "2.8.0",
+        "triton": "3.7.1",
+        "flash-linear-attention": "0.5.2",
+        "fla-core": "0.5.2",
+        "transformers": "5.19.0",
+        "unsloth": null,
+        "unsloth_zoo": null,
+        "peft": "0.21.2",
+        "trl": null,
+        "datasets": null,
+        "bitsandbytes": null,
+        "vllm": null
+      }
+    },
+    "partition": "train_256",
+    "task": "benchmark",
+    "strategy": "single_choice",
+    "shots": 0,
+    "demo_ids": [],
+    "ids": [
+      "b20fc4d1f66d9c3365da80b7f7741acf3894c1bb",
+      "1d9036e30f108ebcef0d14a6ee1e4c50257c4a36"
+    ],
+    "seed": 42,
+    "limit": 2,
+    "questions": {
+      "decision": {
+        "type": "choice",
+        "instructions": "What decision follows from the rule and user information?",
+        "criteria": {
+          "Yes": "The rules and supplied facts establish that the answer is yes.",
+          "No": "The rules and supplied facts establish that the answer is no.",
+          "Inquire": "A follow-up question is required because a necessary fact is missing."
+        }
+      }
+    },
+    "option_order": {
+      "decision": [
+        "Yes",
+        "No",
+        "Inquire"
+      ]
+    },
+    "latency_definition": "synchronized request wall time; excludes load and one warm-up; no cross-sample cache",
+    "probability_source": "StartLux native type temperature applied upstream; Choice T=1.0867; then the separate OR-ShARC dev_calibrate temperature for this condition.",
+    "generalization_metadata": {
+      "snippet_seen": "rule present in complete official training split",
+      "ft_exposed": "per-budget rule membership in the nested 256/1024/4096 training subsets; full one-epoch checkpoints only, not partial smoke checkpoints"
+    }
+  }
+}

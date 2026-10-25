@@ -1,0 +1,21 @@
+{
+  "method": "SciPy percentile paired question bootstrap",
+  "strata": "task separately, fixed subject counts within MMMU-Pro",
+  "resamples": 199999,
+  "seed": 20261016,
+  "family_size": 160,
+  "family_confidence": 0.9996875,
+  "comparison": "candidate minus BF16 within one decoding mode",
+  "harmful_flip": "BF16 correct and candidate incorrect, divided by all questions",
+  "recovery_flip": "BF16 incorrect and candidate correct, divided by all questions",
+  "answer_flip": "parsed option differs for MMMU; exact stripped response differs for IFEval",
+  "extraction": "official MMMU random fallback, identically seeded by question ID",
+  "mmmu_cap": 4096,
+  "sampling_manifest": "assets/benchmark/pilot_v2/manifest.json",
+  "analysis_config": "assets/benchmark_research4_4096_config.json",
+  "exact_test": "Unweighted observed-case exact McNemar; Bonferroni uses the same declared family",
+  "population_intervals": "Same conditional IFEval / subject-stratified design as runtime projection",
+  "interval_reuse": "Official SciPy bootstrap_result with zero extra resamples for the second confidence level",
+  "smoke": true,
+  "analysis_seconds": 14.772608581930399
+}

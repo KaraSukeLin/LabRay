@@ -1,0 +1,322 @@
+{
+  "schema": 1,
+  "recorded_at_utc": "2026-10-22T22:13:19+00:00",
+  "state": "ACTIVE_RETRY_RECONCILIATION",
+  "source": "build/terminal_bench/low_mtp3/formal_three_seed_20261022/RETRY_POLICY_AMENDMENT.json",
+  "recorded_plan_policy": {
+    "model_fail": 0,
+    "timeout": 0,
+    "api_or_environment_trial": 0,
+    "interrupted_incomplete_trial": 1,
+    "environment_control_infrastructure": 1
+  },
+  "policy_resolution": {
+    "model_fail_retries": 0,
+    "timeout_retries": 0,
+    "incomplete_clean_api_or_environment_failures": 1,
+    "completed_native_result_retry_exception": "One retry only for attempt-0 ENVIRONMENT_FAIL caused by tmux missing before agent/API execution, with finished native result and cleanup after=[]; agent_result=null and agent_execution=null.",
+    "other_completed_native_environment_failures": 0,
+    "attempt_1_retries": 0,
+    "basis": "The scheduler already calls enqueue_infrastructure_retries each loop and documents one clean API/environment retry; the existing focused test asserts this behavior. The frozen PLAN field says api_or_environment_trial=0, so this amendment makes the effective behavior explicit for the narrowly scoped pre-agent tmux startup case without changing model-failure or timeout handling."
+  },
+  "protocol_impact": {
+    "matrix_slots": 801,
+    "sampling_changed": false,
+    "seed_changed": false,
+    "task_verifier_reward_timeout_changed": false,
+    "only_same_slot_attempt_history_extended": true
+  },
+  "qualified_tmux_failures": [
+    {
+      "seed": 20261021,
+      "model": "rdtand-Qwen3.8-27B-PrismaAQUA-5.5bit-vllm",
+      "task": "db-wal-recovery",
+      "attempt0_id": "fd3240f93e39e12ec060893a",
+      "attempt1_id": "6e333973459eb121905a7849",
+      "attempt1_status": "PENDING"
+    },
+    {
+      "seed": 20261021,
+      "model": "Qwen-Qwen3.8-27B",
+      "task": "dna-insert",
+      "attempt0_id": "e8941c5e834c16c7b9a02984",
+      "attempt1_id": "64e64142d17c6e1cd8057a7d",
+      "attempt1_status": "PENDING"
+    },
+    {
+      "seed": 20261021,
+      "model": "rdtand-Qwen3.8-27B-PrismaAQUA-5.5bit-vllm",
+      "task": "dna-insert",
+      "attempt0_id": "4529d0e69ec02cf3f60765e8",
+      "attempt1_id": "7503850060478eb7e7e7818e",
+      "attempt1_status": "PENDING"
+    },
+    {
+      "seed": 20261021,
+      "model": "rdtand-Qwen3.8-27B-PrismaAQUA-5.5bit-vllm",
+      "task": "extract-elf",
+      "attempt0_id": "c413bb229f645d68bb6fcb31",
+      "attempt1_id": "3eb61ccb98f75802332110ca",
+      "attempt1_status": "PENDING"
+    },
+    {
+      "seed": 20261021,
+      "model": "rdtand-Qwen3.8-27B-PrismaAQUA-5.5bit-vllm",
+      "task": "financial-document-processor",
+      "attempt0_id": "435edc17f9db6ea59dc110e1",
+      "attempt1_id": "f82da04311236a102d0ac647",
+      "attempt1_status": "PENDING"
+    },
+    {
+      "seed": 20261021,
+      "model": "eNeural-Qwen3.8-27B-fast",
+      "task": "git-leak-recovery",
+      "attempt0_id": "b657097b4cc3eb58ecb9e1b9",
+      "attempt1_id": "fe3c0e5473f04258d9a31c19",
+      "attempt1_status": "PENDING"
+    },
+    {
+      "seed": 20261021,
+      "model": "eNeural-Qwen3.8-27B-fast",
+      "task": "llm-inference-batching-scheduler",
+      "attempt0_id": "6aa4b7f43a2af0289f455b86",
+      "attempt1_id": "901f0b8175e8876f39d76cb1",
+      "attempt1_status": "PENDING"
+    },
+    {
+      "seed": 20261021,
+      "model": "rdtand-Qwen3.8-27B-PrismaAQUA-5.5bit-vllm",
+      "task": "overfull-hbox",
+      "attempt0_id": "dedc8d580feb03dc4f551a5e",
+      "attempt1_id": "7da7663364cb7976471cefa8",
+      "attempt1_status": "PENDING"
+    },
+    {
+      "seed": 20261021,
+      "model": "Qwen-Qwen3.8-27B",
+      "task": "password-recovery",
+      "attempt0_id": "bef913943f15d67d7d0c42ad",
+      "attempt1_id": "c00fa110b8143c8978c83f59",
+      "attempt1_status": "PENDING"
+    },
+    {
+      "seed": 20261021,
+      "model": "eNeural-Qwen3.8-27B-fast",
+      "task": "polyglot-rust-c",
+      "attempt0_id": "ec81d9060e259b1d770c1559",
+      "attempt1_id": "0fc646cd6def806b0e2e885b",
+      "attempt1_status": "PENDING"
+    },
+    {
+      "seed": 20261021,
+      "model": "eNeural-Qwen3.8-27B-fast",
+      "task": "regex-log",
+      "attempt0_id": "ac409194e7619fbb430fe142",
+      "attempt1_id": "e8b4faf5c09843de617238c9",
+      "attempt1_status": "PENDING"
+    },
+    {
+      "seed": 20261022,
+      "model": "rdtand-Qwen3.8-27B-PrismaAQUA-5.5bit-vllm",
+      "task": "dna-assembly",
+      "attempt0_id": "c9160e6e7bf71ccb698773fa",
+      "attempt1_id": "06d88551231091a5f63aafee",
+      "attempt1_status": "PENDING"
+    },
+    {
+      "seed": 20261022,
+      "model": "rdtand-Qwen3.8-27B-PrismaAQUA-5.5bit-vllm",
+      "task": "extract-moves-from-video",
+      "attempt0_id": "1e5f247e6cb0cb0d1b5d4134",
+      "attempt1_id": "50225483dc3ab4c8f4fd183f",
+      "attempt1_status": "PENDING"
+    },
+    {
+      "seed": 20261022,
+      "model": "eNeural-Qwen3.8-27B-fast",
+      "task": "git-leak-recovery",
+      "attempt0_id": "eac56e21d69654c94ccd3418",
+      "attempt1_id": "c367a1db0800b21c6a72a42c",
+      "attempt1_status": "PASS"
+    }
+  ],
+  "non_qualifying_environment_failures": [
+    {
+      "seed": 20261020,
+      "model": "eNeural-Qwen3.8-27B-fast",
+      "task": "gpt2-codegolf",
+      "status": "ENVIRONMENT_FAIL",
+      "exception": "embedded null byte",
+      "cleanup_after": []
+    },
+    {
+      "seed": 20261021,
+      "model": "eNeural-Qwen3.8-27B-fast",
+      "task": "train-fasttext",
+      "status": "ENVIRONMENT_FAIL",
+      "exception": "Agent execution timed out after 3600.0 seconds",
+      "cleanup_after": [
+        {
+          "pid": 49970,
+          "start_ticks": "2314272592",
+          "exe": "[unavailable]",
+          "Name": "python3",
+          "State": "R (running)",
+          "PPid": "38194",
+          "TracerPid": "0"
+        }
+      ]
+    }
+  ],
+  "attempt_1_status_counts_by_seed": {
+    "20261020": {},
+    "20261021": {
+      "PENDING": 11
+    },
+    "20261022": {
+      "PASS": 1,
+      "PENDING": 2
+    }
+  },
+  "validation": {
+    "red_repro_command": "./.vllm-venv/bin/python -m pytest -q tests/test_terminal_formal_scheduler.py::test_clean_pre_agent_tmux_failure_with_native_result_gets_one_retry",
+    "before_fix": "Assertion failed: expected one retry, helper returned 0.",
+    "after_fix_command": "./.vllm-venv/bin/python -m pytest -q tests/test_terminal_formal_scheduler.py",
+    "after_fix_result": "13 passed; 0 failed (scheduler test module, including retry and idempotency checks).",
+    "syntax_check": ".harbor-venv/bin/python -m py_compile src/terminal_formal_scheduler.py (passed)",
+    "source_hashes": {
+      "baseline_scheduler_sha256": "347db1b437cfc54c435b7984ba5c2312166ae913d61aaea632a6a09ce628aec8",
+      "current_scheduler_sha256": "7dfc508bb6ce551957a5d575dc306ba1245150fed8e8bc0bd2566c32193b786d",
+      "current_test_sha256": "8f566f7abcdf3c7c738d3cedcc838b9a0acf3b517f61622f8fdb47a6ec2d4aad"
+    }
+  },
+  "execution_note": "The active seed-20261022 controller was started before the source patch. Its existing worker pool can process the attempt-1 rows already in its SQLite queue. The seed-20261021 attempt-1 rows remain pending until a resumed worker pool runs.",
+  "source_code_amendment": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_three_seed_20261022/source_amendments/retry_policy_fix_20261022",
+  "observed_retry_validation": {
+    "seed": 20261022,
+    "task": "git-leak-recovery",
+    "model": "eNeural-Qwen3.8-27B-fast",
+    "attempt": 1,
+    "status": "PASS",
+    "reward": 1.0,
+    "cleanup_after": [],
+    "note": "The attempt-0 slot failed before agent/API startup with tmux missing; attempt 1 completed under the same slot seed."
+  },
+  "current_attempt_status_counts": [
+    {
+      "seed": "20261020",
+      "attempt_status_counts": [
+        {
+          "attempt": 0,
+          "status": "ENVIRONMENT_FAIL",
+          "count": 1
+        },
+        {
+          "attempt": 0,
+          "status": "MODEL_FAIL",
+          "count": 30
+        },
+        {
+          "attempt": 0,
+          "status": "PASS",
+          "count": 85
+        },
+        {
+          "attempt": 0,
+          "status": "TIMEOUT",
+          "count": 61
+        },
+        {
+          "attempt": 0,
+          "status": "VERIFIER_FAIL",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "seed": "20261021",
+      "attempt_status_counts": [
+        {
+          "attempt": 0,
+          "status": "ENVIRONMENT_FAIL",
+          "count": 12
+        },
+        {
+          "attempt": 0,
+          "status": "MODEL_FAIL",
+          "count": 17
+        },
+        {
+          "attempt": 0,
+          "status": "PASS",
+          "count": 93
+        },
+        {
+          "attempt": 0,
+          "status": "TIMEOUT",
+          "count": 58
+        },
+        {
+          "attempt": 1,
+          "status": "PENDING",
+          "count": 11
+        }
+      ]
+    },
+    {
+      "seed": "20261022",
+      "attempt_status_counts": [
+        {
+          "attempt": 0,
+          "status": "ENVIRONMENT_FAIL",
+          "count": 3
+        },
+        {
+          "attempt": 0,
+          "status": "MODEL_FAIL",
+          "count": 20
+        },
+        {
+          "attempt": 0,
+          "status": "PASS",
+          "count": 86
+        },
+        {
+          "attempt": 0,
+          "status": "PENDING",
+          "count": 13
+        },
+        {
+          "attempt": 0,
+          "status": "RUNNING",
+          "count": 4
+        },
+        {
+          "attempt": 0,
+          "status": "TIMEOUT",
+          "count": 53
+        },
+        {
+          "attempt": 0,
+          "status": "VERIFIER_FAIL",
+          "count": 1
+        },
+        {
+          "attempt": 1,
+          "status": "PASS",
+          "count": 1
+        },
+        {
+          "attempt": 1,
+          "status": "PENDING",
+          "count": 1
+        },
+        {
+          "attempt": 1,
+          "status": "RUNNING",
+          "count": 1
+        }
+      ]
+    }
+  ]
+}

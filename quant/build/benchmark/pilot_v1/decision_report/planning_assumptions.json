@@ -1,0 +1,66 @@
+{
+  "start_utc": "2026-10-17T16:00:00+00:00",
+  "start_taipei": "2026-10-18T00:00:00+08:00",
+  "deadline_taipei": "2026-10-19T09:00:00+08:00",
+  "available_hours": 33.0,
+  "gpus": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "reporting_buffer_hours": 3,
+  "groups": {
+    "all9": [
+      "Qwen BF16",
+      "Qwen FP8",
+      "NaviQuant Fast",
+      "NVIDIA NVFP4",
+      "RedHatAI NVFP4",
+      "Unsloth NVFP4",
+      "RadixArk BF16-LMHead",
+      "PrismaAQUA",
+      "ModelOpt AutoQuantize"
+    ],
+    "research4": [
+      "Qwen BF16",
+      "NaviQuant Fast",
+      "PrismaAQUA",
+      "ModelOpt AutoQuantize"
+    ],
+    "research5": [
+      "Qwen BF16",
+      "Qwen FP8",
+      "NaviQuant Fast",
+      "PrismaAQUA",
+      "ModelOpt AutoQuantize"
+    ],
+    "focused5": [
+      "Qwen BF16",
+      "NaviQuant Fast",
+      "Unsloth NVFP4",
+      "PrismaAQUA",
+      "ModelOpt AutoQuantize"
+    ],
+    "research6": [
+      "Qwen BF16",
+      "Qwen FP8",
+      "NaviQuant Fast",
+      "Unsloth NVFP4",
+      "PrismaAQUA",
+      "ModelOpt AutoQuantize"
+    ],
+    "practical5": [
+      "Qwen BF16",
+      "Qwen FP8",
+      "NaviQuant Fast",
+      "Unsloth NVFP4",
+      "PrismaAQUA"
+    ]
+  },
+  "budget": "Fresh full data, one TP=1 serial-request job per model; one model initialization per task subset",
+  "reuse": "Saved pilot could reduce new inference; subset budgets conservatively charge all cases",
+  "mtp": "Off only; no representative MTP speedup measurement exists",
+  "uncertainty": "Bootstrap sampling bounds and 25% upper contingency, not a deadline guarantee"
+}

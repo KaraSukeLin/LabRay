@@ -1,0 +1,8 @@
+{
+  "Qwen-Qwen3.8-27B/questions.jsonl": "0c9c080889811e599083227ae02bc104e8375c5ef2d2a64a61b9897350b6f9e2",
+  "eNeural-Qwen3.8-27B-fast/questions.jsonl": "b812d1370cebf35ecddfb4828137cb80b2b2f321ffd87f4531dc94c9d538f510",
+  "unsloth-Qwen3.8-27B-NVFP4/questions.jsonl": "ba80d917071736912471327770764f5ed8e1774ce2f609875934af412567b4db",
+  "ModelOpt-Qwen3.8-27B-AutoQuantize-5.5bit/questions.jsonl": "21492b395b877ad70403c29f1bed270dc599644df41357da9060f81652a2919b",
+  "rdtand-Qwen3.8-27B-PrismaAQUA-5.5bit-vllm/questions.jsonl": "c32c1e9740f5b815f0a09f07c1f28bf9c7f6d3a94544a2beeda2e80a52cf2db3",
+  "attempt_count": 6
+}

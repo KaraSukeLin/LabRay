@@ -1,0 +1,11 @@
+{
+  "project": "quant",
+  "original_research_files": 6103,
+  "all_original_research_files_byte_identical": true,
+  "model_assets": 128,
+  "model_restore_passed": true,
+  "independent_project_paths": true,
+  "inference": false,
+  "numeric_verification_passed": true,
+  "cap_sensitivity_restore_passed": true
+}

@@ -1,0 +1,29 @@
+{
+  "status": "ok",
+  "model": "unsloth-Qwen3.8-27B-NVFP4",
+  "start_utc": "2026-10-20T04:01:17.828536+00:00",
+  "gpu_count": 1,
+  "cuda_visible_devices": "4",
+  "initialization_seconds": 48.07603644952178,
+  "inference_seconds": 3234.4595766849816,
+  "scoring_seconds": 0.5436845980584621,
+  "preprocessing_seconds": 0.021361470222473145,
+  "shutdown_seconds": 2.5916327983140945,
+  "new_records": 1,
+  "completed_before": 2619,
+  "pending_before": 1,
+  "setup_seconds": 7.998066522181034,
+  "engine": {
+    "mtp": false,
+    "kv_cache_dtype": "bfloat16",
+    "tensor_parallel_size": 1,
+    "max_num_seqs": 1,
+    "max_model_len": 65536,
+    "enforce_eager": true,
+    "enable_prefix_caching": false,
+    "max_num_batched_tokens": 4096
+  },
+  "current_task": null,
+  "wall_seconds": 3293.7566987276077,
+  "end_utc": "2026-10-20T04:56:03.587186+00:00"
+}

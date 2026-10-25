@@ -1,0 +1,2 @@
+model,status,ppl,ppl_delta,kl_bf16_to_candidate,top1_flip_rate,tokens,reason
+rdtand-Qwen3.8-27B-PrismaAQUA-5.5bit-vllm,ok,3.705656987844344,0.032960422125938305,0.014083187481946317,0.04275173611111111,55296,

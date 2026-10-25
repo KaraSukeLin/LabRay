@@ -1,0 +1,62 @@
+{
+  "purpose": "representative Thinking On timing/truncation pilot",
+  "modes": [
+    "on"
+  ],
+  "seeds": [
+    20261016,
+    20261017,
+    20261018
+  ],
+  "question_count": 12,
+  "ids": [
+    {
+      "id": "ifeval/1508",
+      "strata": "prior verified short haiku with keywords and punctuation constraint"
+    },
+    {
+      "id": "ifeval/3753",
+      "strata": "prior verified short exact-choice answer"
+    },
+    {
+      "id": "ifeval/1000",
+      "strata": "300+ words, no commas, three highlighted sections"
+    },
+    {
+      "id": "ifeval/1069",
+      "strata": "500+ words, required keywords, no commas"
+    },
+    {
+      "id": "ifeval/1075",
+      "strata": "JSON-only structured output"
+    },
+    {
+      "id": "ifeval/1108",
+      "strata": "Kannada-only response"
+    },
+    {
+      "id": "ifeval/1137",
+      "strata": "French plus JSON and forbidden word"
+    },
+    {
+      "id": "ifeval/1216",
+      "strata": "800+ words with exact quotation wrapper"
+    },
+    {
+      "id": "ifeval/1643",
+      "strata": "800+ words without commas"
+    },
+    {
+      "id": "ifeval/2859",
+      "strata": "long input document, XML and sentence-count constraints"
+    },
+    {
+      "id": "ifeval/3114",
+      "strata": "900+ words, forbidden words and required final phrase"
+    },
+    {
+      "id": "ifeval/3425",
+      "strata": "1200+ words long-form generation"
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+[
+  {
+    "id": "ifeval/2785",
+    "task": "ifeval",
+    "stratum": "ifeval",
+    "prompt": "What is inside Shinto shrines? Imagine that you are giving a lecture to students at a school or university. Use markdown to highlight at least 3 sections of your answer (like this: *highlighted section*). Your answer must also contain at least 3 placeholders (an example of a placeholder is [address]).",
+    "images": [],
+    "example": {
+      "key": 2785,
+      "prompt": "What is inside Shinto shrines? Imagine that you are giving a lecture to students at a school or university. Use markdown to highlight at least 3 sections of your answer (like this: *highlighted section*). Your answer must also contain at least 3 placeholders (an example of a placeholder is [address]).",
+      "instruction_id_list": [
+        "detectable_format:number_highlighted_sections",
+        "detectable_content:number_placeholders"
+      ],
+      "kwargs": [
+        {
+          "num_highlights": 3
+        },
+        {
+          "num_placeholders": 3
+        }
+      ]
+    },
+    "image_sha256": []
+  },
+  {
+    "id": "mmmu_standard/test_Geography_252",
+    "task": "mmmu_standard",
+    "stratum": "Geography",
+    "prompt": "Rank [image], [image], [image], [image]. [image], [image], and [image] based on the related time period?\nA. [image], [image], [image], [image]. [image], [image], [image]\nB. [image], [image], [image], [image]. [image], [image], [image]\nC. [image], [image], [image]. [image], [image], [image], [image]\nD. [image], [image], [image], [image]. [image], [image], [image]\nAnswer with the option letter from the given choices directly.",
+    "images": [
+      "/root/projects/quant/assets/benchmark/prepared/images/mmmu_standard_test_Geography_252_0.png",
+      "/root/projects/quant/assets/benchmark/prepared/images/mmmu_standard_test_Geography_252_1.png",
+      "/root/projects/quant/assets/benchmark/prepared/images/mmmu_standard_test_Geography_252_2.png",
+      "/root/projects/quant/assets/benchmark/prepared/images/mmmu_standard_test_Geography_252_3.png",
+      "/root/projects/quant/assets/benchmark/prepared/images/mmmu_standard_test_Geography_252_4.png",
+      "/root/projects/quant/assets/benchmark/prepared/images/mmmu_standard_test_Geography_252_5.png",
+      "/root/projects/quant/assets/benchmark/prepared/images/mmmu_standard_test_Geography_252_6.png",
+      "/root/projects/quant/assets/benchmark/prepared/images/mmmu_standard_test_Geography_252_7.png",
+      "/root/projects/quant/assets/benchmark/prepared/images/mmmu_standard_test_Geography_252_8.png",
+      "/root/projects/quant/assets/benchmark/prepared/images/mmmu_standard_test_Geography_252_9.png",
+      "/root/projects/quant/assets/benchmark/prepared/images/mmmu_standard_test_Geography_252_10.png",
+      "/root/projects/quant/assets/benchmark/prepared/images/mmmu_standard_test_Geography_252_11.png",
+      "/root/projects/quant/assets/benchmark/prepared/images/mmmu_standard_test_Geography_252_12.png",
+      "/root/projects/quant/assets/benchmark/prepared/images/mmmu_standard_test_Geography_252_13.png",
+      "/root/projects/quant/assets/benchmark/prepared/images/mmmu_standard_test_Geography_252_14.png",
+      "/root/projects/quant/assets/benchmark/prepared/images/mmmu_standard_test_Geography_252_15.png",
+      "/root/projects/quant/assets/benchmark/prepared/images/mmmu_standard_test_Geography_252_16.png",
+      "/root/projects/quant/assets/benchmark/prepared/images/mmmu_standard_test_Geography_252_17.png",
+      "/root/projects/quant/assets/benchmark/prepared/images/mmmu_standard_test_Geography_252_18.png",
+      "/root/projects/quant/assets/benchmark/prepared/images/mmmu_standard_test_Geography_252_19.png",
+      "/root/projects/quant/assets/benchmark/prepared/images/mmmu_standard_test_Geography_252_20.png",
+      "/root/projects/quant/assets/benchmark/prepared/images/mmmu_standard_test_Geography_252_21.png",
+      "/root/projects/quant/assets/benchmark/prepared/images/mmmu_standard_test_Geography_252_22.png",
+      "/root/projects/quant/assets/benchmark/prepared/images/mmmu_standard_test_Geography_252_23.png",
+      "/root/projects/quant/assets/benchmark/prepared/images/mmmu_standard_test_Geography_252_24.png",
+      "/root/projects/quant/assets/benchmark/prepared/images/mmmu_standard_test_Geography_252_25.png",
+      "/root/projects/quant/assets/benchmark/prepared/images/mmmu_standard_test_Geography_252_26.png",
+      "/root/projects/quant/assets/benchmark/prepared/images/mmmu_standard_test_Geography_252_27.png",
+      "/root/projects/quant/assets/benchmark/prepared/images/mmmu_standard_test_Geography_252_28.png",
+      "/root/projects/quant/assets/benchmark/prepared/images/mmmu_standard_test_Geography_252_29.png",
+      "/root/projects/quant/assets/benchmark/prepared/images/mmmu_standard_test_Geography_252_30.png",
+      "/root/projects/quant/assets/benchmark/prepared/images/mmmu_standard_test_Geography_252_31.png",
+      "/root/projects/quant/assets/benchmark/prepared/images/mmmu_standard_test_Geography_252_32.png",
+      "/root/projects/quant/assets/benchmark/prepared/images/mmmu_standard_test_Geography_252_33.png",
+      "/root/projects/quant/assets/benchmark/prepared/images/mmmu_standard_test_Geography_252_34.png"
+    ],
+    "options": "['<image 1>, <image 2>, <image 5>, <image 4>. <image 3>, <image 7>, <image 6>', '<image 1>, <image 2>, <image 3>, <image 4>. <image 5>, <image 6>, <image 7>', '<image 1>, <image 2>, <image 4>. <image 5>, <image 3>, <image 7>, <image 6>', '<image 1>, <image 2>, <image 3>, <image 4>. <image 5>, <image 7>, <image 6>']",
+    "gold": "B",
+    "image_sha256": [
+      "a5592d8d73d47265c8453cf4696bfbae6fac7a4e2afe9e1939a24bb203f31525",
+      "caa594892e7ed8f5475dfe61b9170ecd6ffa74c89826d85c4fb0c30caa567c82",
+      "217ed56d270e5926910eb6d4cee2e7424c3325a4e26bab2040cd63f1f08900f7",
+      "01753f897e59ee0e13e97b638ec8a9fd4670381b87631c95393f634af55d1bee",
+      "e6e87224025f741e074276790f2e48edcd7aadcfc7a2334b357aba7560efe7f3",
+      "ec5dc3575fd62996dd9040fc1ca4badd5e0e6c88f734057858a045afd477e4b2",
+      "e2b7cbb71cdb810e4061bd0427b608cac2f02fa3327a11abb630572537486e4d",
+      "a5592d8d73d47265c8453cf4696bfbae6fac7a4e2afe9e1939a24bb203f31525",
+      "caa594892e7ed8f5475dfe61b9170ecd6ffa74c89826d85c4fb0c30caa567c82",
+      "e6e87224025f741e074276790f2e48edcd7aadcfc7a2334b357aba7560efe7f3",
+      "01753f897e59ee0e13e97b638ec8a9fd4670381b87631c95393f634af55d1bee",
+      "217ed56d270e5926910eb6d4cee2e7424c3325a4e26bab2040cd63f1f08900f7",
+      "e2b7cbb71cdb810e4061bd0427b608cac2f02fa3327a11abb630572537486e4d",
+      "ec5dc3575fd62996dd9040fc1ca4badd5e0e6c88f734057858a045afd477e4b2",
+      "a5592d8d73d47265c8453cf4696bfbae6fac7a4e2afe9e1939a24bb203f31525",
+      "caa594892e7ed8f5475dfe61b9170ecd6ffa74c89826d85c4fb0c30caa567c82",
+      "217ed56d270e5926910eb6d4cee2e7424c3325a4e26bab2040cd63f1f08900f7",
+      "01753f897e59ee0e13e97b638ec8a9fd4670381b87631c95393f634af55d1bee",
+      "e6e87224025f741e074276790f2e48edcd7aadcfc7a2334b357aba7560efe7f3",
+      "ec5dc3575fd62996dd9040fc1ca4badd5e0e6c88f734057858a045afd477e4b2",
+      "e2b7cbb71cdb810e4061bd0427b608cac2f02fa3327a11abb630572537486e4d",
+      "a5592d8d73d47265c8453cf4696bfbae6fac7a4e2afe9e1939a24bb203f31525",
+      "caa594892e7ed8f5475dfe61b9170ecd6ffa74c89826d85c4fb0c30caa567c82",
+      "01753f897e59ee0e13e97b638ec8a9fd4670381b87631c95393f634af55d1bee",
+      "e6e87224025f741e074276790f2e48edcd7aadcfc7a2334b357aba7560efe7f3",
+      "217ed56d270e5926910eb6d4cee2e7424c3325a4e26bab2040cd63f1f08900f7",
+      "e2b7cbb71cdb810e4061bd0427b608cac2f02fa3327a11abb630572537486e4d",
+      "ec5dc3575fd62996dd9040fc1ca4badd5e0e6c88f734057858a045afd477e4b2",
+      "a5592d8d73d47265c8453cf4696bfbae6fac7a4e2afe9e1939a24bb203f31525",
+      "caa594892e7ed8f5475dfe61b9170ecd6ffa74c89826d85c4fb0c30caa567c82",
+      "217ed56d270e5926910eb6d4cee2e7424c3325a4e26bab2040cd63f1f08900f7",
+      "01753f897e59ee0e13e97b638ec8a9fd4670381b87631c95393f634af55d1bee",
+      "e6e87224025f741e074276790f2e48edcd7aadcfc7a2334b357aba7560efe7f3",
+      "e2b7cbb71cdb810e4061bd0427b608cac2f02fa3327a11abb630572537486e4d",
+      "ec5dc3575fd62996dd9040fc1ca4badd5e0e6c88f734057858a045afd477e4b2"
+    ]
+  },
+  {
+    "id": "mmmu_vision/validation_Public_Health_9",
+    "task": "mmmu_vision",
+    "stratum": "Public_Health",
+    "prompt": "Answer with the option letter from the given choices directly. The last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of options.",
+    "images": [
+      "/root/projects/quant/assets/benchmark/prepared/images/mmmu_vision_validation_Public_Health_9_0.png"
+    ],
+    "options": "['0.75', '0.98', '0.99', '0.60', '0.80', '0.49', '0.85', '0.70', '0.88', '0.93']",
+    "gold": "J",
+    "image_sha256": [
+      "2812f50bc477874eda6e28691dca472ef5ef3c1b2ce412238f0a078dd14f088d"
+    ]
+  }
+]

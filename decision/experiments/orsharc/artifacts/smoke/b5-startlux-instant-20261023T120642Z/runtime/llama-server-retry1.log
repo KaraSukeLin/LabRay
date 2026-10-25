@@ -1,0 +1,9 @@
+0.00.425.993 I srv  llama_server: initializing ...
+0.00.426.007 I cmn  common_param: common_params_print_info: verbosity = 3 (adjust with the `-lv N` CLI arg)
+0.00.426.416 W srv  llama_server: security: no API key is set and CORS allows all origins (see https://github.com/ggml-org/llama.cpp/pull/25655)
+0.00.433.319 I srv    load_model: loading model '/root/model/StartLux-Decision-v1.1-27B-Instant-Q4_K_M/StartLux-Decision-v1.1-27B-Instant-Q4_K_M.gguf'
+0.06.650.872 I cmn          init: llama threadpool init, n_threads = 96
+0.47.157.420 I srv    load_model: initializing, n_slots = 1, n_ctx_slot = 20480, kv_unified = 'false'
+0.47.162.124 W srv          init: chat template supports preserving reasoning, it is enabled by default (may use more tokens, disable via --no-reasoning-preserve)
+0.47.162.177 I srv  llama_server: model loaded
+0.47.162.184 I srv  llama_server: listening on http://127.0.0.1:8081

@@ -1,0 +1,101 @@
+{
+  "sha": "d6de81643928d653435c431bae19945d41d32520",
+  "node_id": "C_kwDOEVbsCNoAKGQ2ZGU4MTY0MzkyOGQ2NTM0MzVjNDMxYmFlMTk5NDVkNDFkMzI1MjA",
+  "commit": {
+    "author": {
+      "name": "Ruilin Gao",
+      "email": "ruiling@andrew.cmu.edu",
+      "date": "2026-09-14T10:51:05Z"
+    },
+    "committer": {
+      "name": "GitHub",
+      "email": "noreply@github.com",
+      "date": "2026-09-14T10:51:05Z"
+    },
+    "message": "fix(basqueglue): load the f1 metric with evaluate (#4076)\n\ndatasets.load_metric was removed in datasets 3.0 and the unit-test job\nresolves datasets==5.0.1, so the module-level\n\n    from datasets import load_metric\n\nmakes lm_eval/tasks/basqueglue/utils.py unimportable. Five of the six\nBasqueGLUE tasks resolve a !function from that module, so they now fail to\nload at all, not just at scoring time:\n\n    bec.yaml    bec2016eu        utils.micro_f1_score\n    bhtc.yaml   bhtc_v2          utils.micro_f1_score\n    coref.yaml  epec_koref_bin   utils.coref_doc_to_text\n    vaxx.yaml   vaxx_stance      utils.vaxx_f1_score\n    wic.yaml    wiceu            utils.process_wic_docs\n\nLoad the metric with evaluate instead, the same move #2351 made for\nsquadv2, with the import inside the function as that fix and\nkobest/utils.py do. The metric and the compute() arguments are unchanged.",
+    "tree": {
+      "sha": "b4b7c5d7c16a287b1025906d61720c77fb70fb8b",
+      "url": "https://api.github.com/repos/EleutherAI/lm-evaluation-harness/git/trees/b4b7c5d7c16a287b1025906d61720c77fb70fb8b"
+    },
+    "url": "https://api.github.com/repos/EleutherAI/lm-evaluation-harness/git/commits/d6de81643928d653435c431bae19945d41d32520",
+    "comment_count": 0,
+    "verification": {
+      "verified": true,
+      "reason": "valid",
+      "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJqp9GZCRC1aQ7uu5UhlAAAEwEQAJDuIPmhbN3O/PHhCKIQqTtR\nus5v3t+jTU5g8173e9wiw+3LTRrtMv0apQcQ2wkbNrvLbwibY5G72rGtRiZmW89i\ntFnCLYJ21U+9F4dm1eRDEIcNjPp2P3LFuZa18lPEv48TfzPjRIsV6rLt3wsgjT64\nkqA6TWauhmiCdcXwV0iu2nwp5F3LtijXNph0JTDpcbWHhmC5c/FHKKaiGbUIgnZm\nD1hcH1fqg8pqJRKziLesWRNABek8JG/QrdPYVGXfZEAZh+TfLm8NKs5wCxceomBR\nQJpH3t9kd0Xq8FZNCpNaR4bfpYvyIxxveqm8hA1BtBVr/nN7JiSLhyUNT4zup03c\nzNcRnwEROl9vp0TevbHHgLEhlTtNXezt1ThNyMh3fmc+5K9yYVKWFEmogn7PqZlz\nvzWGtIP/ugKN7b/FA5ki4XWEWG224c26uvB+iCknGIxfVGJTZP7Oqyq+pwlGBlmb\nEnXeRmSdfFqyzDGARdl/MwbgmGIYUZGl24mVhiEPlsHShtcfgQOQSc85s1Su4Syu\n5ACifACvDUKrKqAF87NHqDukcaDSfwuZbSoeWl6Vs5QFbadolu22JnlpkLrb/4T8\nhufl1cGwxmOBt/eIKCIO9louQaioqKdWRfBZ0OQAjxn1o9NTe1c7ADxU5DL+5ZQ6\npOLDgCbtZnhMEdUVVnkr\n=iDY6\n-----END PGP SIGNATURE-----\n",
+      "payload": "tree b4b7c5d7c16a287b1025906d61720c77fb70fb8b\nparent e54687eac08501af43f09cc84af40ea2fc3cad60\nauthor Ruilin Gao <ruiling@andrew.cmu.edu> 1789383065 -0400\ncommitter GitHub <noreply@github.com> 1789383065 +0500\n\nfix(basqueglue): load the f1 metric with evaluate (#4076)\n\ndatasets.load_metric was removed in datasets 3.0 and the unit-test job\nresolves datasets==5.0.1, so the module-level\n\n    from datasets import load_metric\n\nmakes lm_eval/tasks/basqueglue/utils.py unimportable. Five of the six\nBasqueGLUE tasks resolve a !function from that module, so they now fail to\nload at all, not just at scoring time:\n\n    bec.yaml    bec2016eu        utils.micro_f1_score\n    bhtc.yaml   bhtc_v2          utils.micro_f1_score\n    coref.yaml  epec_koref_bin   utils.coref_doc_to_text\n    vaxx.yaml   vaxx_stance      utils.vaxx_f1_score\n    wic.yaml    wiceu            utils.process_wic_docs\n\nLoad the metric with evaluate instead, the same move #2351 made for\nsquadv2, with the import inside the function as that fix and\nkobest/utils.py do. The metric and the compute() arguments are unchanged.",
+      "verified_at": "2026-09-14T10:51:06Z"
+    }
+  },
+  "url": "https://api.github.com/repos/EleutherAI/lm-evaluation-harness/commits/d6de81643928d653435c431bae19945d41d32520",
+  "html_url": "https://github.com/EleutherAI/lm-evaluation-harness/commit/d6de81643928d653435c431bae19945d41d32520",
+  "comments_url": "https://api.github.com/repos/EleutherAI/lm-evaluation-harness/commits/d6de81643928d653435c431bae19945d41d32520/comments",
+  "author": {
+    "login": "ruiling-smartbear",
+    "id": 229880965,
+    "node_id": "U_kgDODbO0hQ",
+    "avatar_url": "https://avatars.githubusercontent.com/u/229880965?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/ruiling-smartbear",
+    "html_url": "https://github.com/ruiling-smartbear",
+    "followers_url": "https://api.github.com/users/ruiling-smartbear/followers",
+    "following_url": "https://api.github.com/users/ruiling-smartbear/following{/other_user}",
+    "gists_url": "https://api.github.com/users/ruiling-smartbear/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/ruiling-smartbear/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/ruiling-smartbear/subscriptions",
+    "organizations_url": "https://api.github.com/users/ruiling-smartbear/orgs",
+    "repos_url": "https://api.github.com/users/ruiling-smartbear/repos",
+    "events_url": "https://api.github.com/users/ruiling-smartbear/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/ruiling-smartbear/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "committer": {
+    "login": "web-flow",
+    "id": 19864447,
+    "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+    "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/web-flow",
+    "html_url": "https://github.com/web-flow",
+    "followers_url": "https://api.github.com/users/web-flow/followers",
+    "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+    "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+    "organizations_url": "https://api.github.com/users/web-flow/orgs",
+    "repos_url": "https://api.github.com/users/web-flow/repos",
+    "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/web-flow/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "parents": [
+    {
+      "sha": "e54687eac08501af43f09cc84af40ea2fc3cad60",
+      "url": "https://api.github.com/repos/EleutherAI/lm-evaluation-harness/commits/e54687eac08501af43f09cc84af40ea2fc3cad60",
+      "html_url": "https://github.com/EleutherAI/lm-evaluation-harness/commit/e54687eac08501af43f09cc84af40ea2fc3cad60"
+    }
+  ],
+  "stats": {
+    "total": 10,
+    "additions": 6,
+    "deletions": 4
+  },
+  "files": [
+    {
+      "sha": "3a13927f0bdc6fa8e5d75b068f45071d964f72de",
+      "filename": "lm_eval/tasks/basqueglue/utils.py",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 4,
+      "changes": 10,
+      "blob_url": "https://github.com/EleutherAI/lm-evaluation-harness/blob/d6de81643928d653435c431bae19945d41d32520/lm_eval%2Ftasks%2Fbasqueglue%2Futils.py",
+      "raw_url": "https://github.com/EleutherAI/lm-evaluation-harness/raw/d6de81643928d653435c431bae19945d41d32520/lm_eval%2Ftasks%2Fbasqueglue%2Futils.py",
+      "contents_url": "https://api.github.com/repos/EleutherAI/lm-evaluation-harness/contents/lm_eval%2Ftasks%2Fbasqueglue%2Futils.py?ref=d6de81643928d653435c431bae19945d41d32520",
+      "patch": "@@ -1,8 +1,6 @@\n import html\n import re\n \n-from datasets import load_metric\n-\n \n def general_detokenize(string):\n     string = re.sub(r\"\\s+([.,;:!?)])\", r\"\\1\", string)\n@@ -60,7 +58,9 @@ def _span_in_context(span_index, span_text):\n \n \n def micro_f1_score(items):\n-    f1_metric = load_metric(\"f1\")\n+    import evaluate\n+\n+    f1_metric = evaluate.load(\"f1\")\n     golds, preds = list(zip(*items))\n     f1_score = f1_metric.compute(references=golds, predictions=preds, average=\"micro\")[\n         \"f1\"\n@@ -69,7 +69,9 @@ def micro_f1_score(items):\n \n \n def vaxx_f1_score(items):\n-    f1_metric = load_metric(\"f1\")\n+    import evaluate\n+\n+    f1_metric = evaluate.load(\"f1\")\n     golds, preds = list(zip(*items))\n     f1_class = f1_metric.compute(\n         references=golds, predictions=preds, labels=[0, 2], average=None"
+    }
+  ]
+}

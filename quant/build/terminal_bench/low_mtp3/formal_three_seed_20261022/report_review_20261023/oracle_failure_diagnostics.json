@@ -1,0 +1,741 @@
+[
+  {
+    "task": "bn-fit-modify",
+    "summary": {
+      "tests": 9,
+      "passed": 0,
+      "failed": 9,
+      "skipped": 0,
+      "pending": 0,
+      "other": 0,
+      "start": 1792605862.6687768,
+      "stop": 1792605871.092895
+    },
+    "failed_test_names": [
+      "test_outputs.py::test_bn_sample_exists",
+      "test_outputs.py::test_learned_dag_structure_exists",
+      "test_outputs.py::test_learned_dag_structure_csv_col_names",
+      "test_outputs.py::test_learned_dag_structure",
+      "test_outputs.py::test_intervened_dag_structure_exists",
+      "test_outputs.py::test_intervened_dag_structure_csv_col_names",
+      "test_outputs.py::test_intervened__data_structure",
+      "test_outputs.py::test_sampled_csv_col_names",
+      "test_outputs.py::test_sampled_data"
+    ],
+    "exception_type": "",
+    "exception_message": "",
+    "stdout_error_excerpt": [
+      "                # error: Argument 1 to \"LZMAFile\" has incompatible type \"Union[str,",
+      "E               FileNotFoundError: [Errno 2] No such file or directory: '/app/final_bn_sample.csv'",
+      "/root/.cache/uv/archive-v0/51cuL-20hPagwQEcForgO/lib/python3.13/site-packages/pandas/io/common.py:873: FileNotFoundError",
+      "FAILED ../tests/test_outputs.py::test_bn_sample_exists - AssertionError: File...",
+      "FAILED ../tests/test_outputs.py::test_sampled_data - FileNotFoundError: [Errn..."
+    ],
+    "result": "/root/projects/quant/build/terminal_bench/low_mtp3/controls/bn-fit-modify/oracle/attempt-0/trial/result.json",
+    "stdout": "/root/projects/quant/build/terminal_bench/low_mtp3/controls/bn-fit-modify/oracle/attempt-0/trial/verifier/test-stdout.txt",
+    "ctrf": "/root/projects/quant/build/terminal_bench/low_mtp3/controls/bn-fit-modify/oracle/attempt-0/trial/verifier/ctrf.json"
+  },
+  {
+    "task": "break-filter-js-from-html",
+    "summary": {
+      "tests": 1,
+      "passed": 0,
+      "failed": 1,
+      "skipped": 0,
+      "pending": 0,
+      "other": 0,
+      "start": 1792605853.1915493,
+      "stop": 1792605889.5977697
+    },
+    "failed_test_names": [
+      "test_outputs.py::test_out_html_bypasses_filter"
+    ],
+    "exception_type": "",
+    "exception_message": "",
+    "stdout_error_excerpt": [
+      "        assert result.returncode == 0, f\"Filter failed with error: {result.stderr}\""
+    ],
+    "result": "/root/projects/quant/build/terminal_bench/low_mtp3/controls/break-filter-js-from-html/oracle/attempt-0/trial/result.json",
+    "stdout": "/root/projects/quant/build/terminal_bench/low_mtp3/controls/break-filter-js-from-html/oracle/attempt-0/trial/verifier/test-stdout.txt",
+    "ctrf": "/root/projects/quant/build/terminal_bench/low_mtp3/controls/break-filter-js-from-html/oracle/attempt-0/trial/verifier/ctrf.json"
+  },
+  {
+    "task": "build-cython-ext",
+    "summary": {
+      "tests": 11,
+      "passed": 10,
+      "failed": 1,
+      "skipped": 0,
+      "pending": 0,
+      "other": 0,
+      "start": 1792605929.4589388,
+      "stop": 1792605936.2719574
+    },
+    "failed_test_names": [
+      "test_outputs.py::test_pyknotid_repository_tests"
+    ],
+    "exception_type": "",
+    "exception_message": "",
+    "stdout_error_excerpt": [
+      "E               AssertionError: Repository tests failed with return code 1",
+      "/tests/test_outputs.py:173: AssertionError"
+    ],
+    "result": "/root/projects/quant/build/terminal_bench/low_mtp3/controls/build-cython-ext/oracle/attempt-0/trial/result.json",
+    "stdout": "/root/projects/quant/build/terminal_bench/low_mtp3/controls/build-cython-ext/oracle/attempt-0/trial/verifier/test-stdout.txt",
+    "ctrf": "/root/projects/quant/build/terminal_bench/low_mtp3/controls/build-cython-ext/oracle/attempt-0/trial/verifier/ctrf.json"
+  },
+  {
+    "task": "build-pmars",
+    "summary": {
+      "tests": 4,
+      "passed": 0,
+      "failed": 4,
+      "skipped": 0,
+      "pending": 0,
+      "other": 0,
+      "start": 1792606020.99238,
+      "stop": 1792606021.2003875
+    },
+    "failed_test_names": [
+      "test_outputs.py::test_pmars_works",
+      "test_outputs.py::test_headless_no_x11",
+      "test_outputs.py::test_debian_source_used",
+      "test_outputs.py::test_built_from_source"
+    ],
+    "exception_type": "",
+    "exception_message": "",
+    "stdout_error_excerpt": [
+      "E       AssertionError: No src directory found",
+      "/tests/test_outputs.py:82: AssertionError",
+      "FAILED ../tests/test_outputs.py::test_pmars_works - AssertionError: pmars not...",
+      "FAILED ../tests/test_outputs.py::test_debian_source_used - AssertionError: No...",
+      "FAILED ../tests/test_outputs.py::test_built_from_source - AssertionError: No ..."
+    ],
+    "result": "/root/projects/quant/build/terminal_bench/low_mtp3/controls/build-pmars/oracle/attempt-0/trial/result.json",
+    "stdout": "/root/projects/quant/build/terminal_bench/low_mtp3/controls/build-pmars/oracle/attempt-0/trial/verifier/test-stdout.txt",
+    "ctrf": "/root/projects/quant/build/terminal_bench/low_mtp3/controls/build-pmars/oracle/attempt-0/trial/verifier/ctrf.json"
+  },
+  {
+    "task": "build-pov-ray",
+    "summary": {
+      "tests": 3,
+      "passed": 0,
+      "failed": 3,
+      "skipped": 0,
+      "pending": 0,
+      "other": 0,
+      "start": 1792606048.8677492,
+      "stop": 1792606051.3252058
+    },
+    "failed_test_names": [
+      "test_outputs.py::test_illum1_render_and_verify",
+      "test_outputs.py::test_povray_version",
+      "test_outputs.py::test_povray_built_from_correct_source"
+    ],
+    "exception_type": "",
+    "exception_message": "",
+    "stdout_error_excerpt": [
+      "E                   FileNotFoundError: [Errno 2] No such file or directory: '/usr/local/bin/povray'",
+      "/root/.local/share/uv/python/cpython-3.13.9-linux-x86_64-gnu/lib/python3.13/subprocess.py:1972: FileNotFoundError",
+      "E       AssertionError: POV-Ray 2.2 source directory not found - agent may not have built from source",
+      "/tests/test_outputs.py:95: AssertionError",
+      "FAILED ../tests/test_outputs.py::test_povray_version - FileNotFoundError: [Er..."
+    ],
+    "result": "/root/projects/quant/build/terminal_bench/low_mtp3/controls/build-pov-ray/oracle/attempt-0/trial/result.json",
+    "stdout": "/root/projects/quant/build/terminal_bench/low_mtp3/controls/build-pov-ray/oracle/attempt-0/trial/verifier/test-stdout.txt",
+    "ctrf": "/root/projects/quant/build/terminal_bench/low_mtp3/controls/build-pov-ray/oracle/attempt-0/trial/verifier/ctrf.json"
+  },
+  {
+    "task": "caffe-cifar-10",
+    "summary": {
+      "tests": 6,
+      "passed": 2,
+      "failed": 4,
+      "skipped": 0,
+      "pending": 0,
+      "other": 0,
+      "start": 1792606633.3842134,
+      "stop": 1792606633.89538
+    },
+    "failed_test_names": [
+      "test_outputs.py::test_caffe_version_and_source",
+      "test_outputs.py::test_cifar10_model_exists",
+      "test_outputs.py::test_training_completed_500_iterations",
+      "test_outputs.py::test_model_accuracy_verification"
+    ],
+    "exception_type": "",
+    "exception_message": "",
+    "stdout_error_excerpt": [
+      "E       AssertionError: Training did not complete 500 iterations",
+      "/tests/test_outputs.py:130: AssertionError",
+      "E       AssertionError: Could not find any accuracy measurements in training output",
+      "/tests/test_outputs.py:176: AssertionError",
+      "FAILED ../tests/test_outputs.py::test_cifar10_model_exists - AssertionError: ..."
+    ],
+    "result": "/root/projects/quant/build/terminal_bench/low_mtp3/controls/caffe-cifar-10/oracle/attempt-0/trial/result.json",
+    "stdout": "/root/projects/quant/build/terminal_bench/low_mtp3/controls/caffe-cifar-10/oracle/attempt-0/trial/verifier/test-stdout.txt",
+    "ctrf": "/root/projects/quant/build/terminal_bench/low_mtp3/controls/caffe-cifar-10/oracle/attempt-0/trial/verifier/ctrf.json"
+  },
+  {
+    "task": "compile-compcert",
+    "summary": {
+      "tests": 3,
+      "passed": 0,
+      "failed": 3,
+      "skipped": 0,
+      "pending": 0,
+      "other": 0,
+      "start": 1792609873.9813836,
+      "stop": 1792609875.8835163
+    },
+    "failed_test_names": [
+      "test_outputs.py::test_compcert_exists_and_executable",
+      "test_outputs.py::test_compcert_valid_and_functional",
+      "test_outputs.py::test_compcert_rejects_unsupported_feature"
+    ],
+    "exception_type": "",
+    "exception_message": "",
+    "stdout_error_excerpt": [
+      "/root/.local/share/uv/python/cpython-3.13.9-linux-x86_64-gnu/lib/python3.13/subprocess.py:1972: FileNotFoundError",
+      "            except ChildProcessError:",
+      "            except ValueError:",
+      "E                   FileNotFoundError: [Errno 2] No such file or directory: '/tmp/CompCert/ccomp'",
+      "/root/.local/share/uv/python/cpython-3.13.9-linux-x86_64-gnu/lib/python3.13/subprocess.py:1972: FileNotFoundError"
+    ],
+    "result": "/root/projects/quant/build/terminal_bench/low_mtp3/controls/compile-compcert/oracle/attempt-1/trial/result.json",
+    "stdout": "/root/projects/quant/build/terminal_bench/low_mtp3/controls/compile-compcert/oracle/attempt-1/trial/verifier/test-stdout.txt",
+    "ctrf": "/root/projects/quant/build/terminal_bench/low_mtp3/controls/compile-compcert/oracle/attempt-1/trial/verifier/ctrf.json"
+  },
+  {
+    "task": "configure-git-webserver",
+    "summary": {
+      "tests": 1,
+      "passed": 0,
+      "failed": 1,
+      "skipped": 0,
+      "pending": 0,
+      "other": 0,
+      "start": 1792608950.8049417,
+      "stop": 1792608963.6751971
+    },
+    "failed_test_names": [
+      "test_outputs.py::test_hello_html_exists"
+    ],
+    "exception_type": "",
+    "exception_message": "",
+    "stdout_error_excerpt": [
+      "E       AssertionError: Did not pass test",
+      "/tests/test_outputs.py:13: AssertionError",
+      "FAILED ../tests/test_outputs.py::test_hello_html_exists - AssertionError: Did..."
+    ],
+    "result": "/root/projects/quant/build/terminal_bench/low_mtp3/controls/configure-git-webserver/oracle/attempt-1/trial/result.json",
+    "stdout": "/root/projects/quant/build/terminal_bench/low_mtp3/controls/configure-git-webserver/oracle/attempt-1/trial/verifier/test-stdout.txt",
+    "ctrf": "/root/projects/quant/build/terminal_bench/low_mtp3/controls/configure-git-webserver/oracle/attempt-1/trial/verifier/ctrf.json"
+  },
+  {
+    "task": "custom-memory-heap-crash",
+    "summary": {
+      "tests": 6,
+      "passed": 5,
+      "failed": 1,
+      "skipped": 0,
+      "pending": 0,
+      "other": 0,
+      "start": 1792609426.3278148,
+      "stop": 1792609435.6624403
+    },
+    "failed_test_names": [
+      "test_outputs.py::test_no_memory_leaks_with_valgrind"
+    ],
+    "exception_type": "",
+    "exception_message": "",
+    "stdout_error_excerpt": [
+      "E       AssertionError: Valgrind detected memory leaks! Static destructors may not be running.",
+      "/tests/test_outputs.py:171: AssertionError"
+    ],
+    "result": "/root/projects/quant/build/terminal_bench/low_mtp3/controls/custom-memory-heap-crash/oracle/attempt-1/trial/result.json",
+    "stdout": "/root/projects/quant/build/terminal_bench/low_mtp3/controls/custom-memory-heap-crash/oracle/attempt-1/trial/verifier/test-stdout.txt",
+    "ctrf": "/root/projects/quant/build/terminal_bench/low_mtp3/controls/custom-memory-heap-crash/oracle/attempt-1/trial/verifier/ctrf.json"
+  },
+  {
+    "task": "git-multibranch",
+    "summary": {
+      "tests": 1,
+      "passed": 0,
+      "failed": 1,
+      "skipped": 0,
+      "pending": 0,
+      "other": 0,
+      "start": 1792609068.8503003,
+      "stop": 1792609115.6749709
+    },
+    "failed_test_names": [
+      "test_outputs.py::test_multi_branch_https_deploy"
+    ],
+    "exception_type": "",
+    "exception_message": "",
+    "stdout_error_excerpt": [
+      "E       AssertionError: HTTPS multi-branch deploy test failed",
+      "/tests/test_outputs.py:99: AssertionError"
+    ],
+    "result": "/root/projects/quant/build/terminal_bench/low_mtp3/controls/git-multibranch/oracle/attempt-1/trial/result.json",
+    "stdout": "/root/projects/quant/build/terminal_bench/low_mtp3/controls/git-multibranch/oracle/attempt-1/trial/verifier/test-stdout.txt",
+    "ctrf": "/root/projects/quant/build/terminal_bench/low_mtp3/controls/git-multibranch/oracle/attempt-1/trial/verifier/ctrf.json"
+  },
+  {
+    "task": "headless-terminal",
+    "summary": {
+      "tests": 7,
+      "passed": 6,
+      "failed": 1,
+      "skipped": 0,
+      "pending": 0,
+      "other": 0,
+      "start": 1792609592.8259103,
+      "stop": 1792609606.5062408
+    },
+    "failed_test_names": [
+      "test_outputs.py::test_background_commands"
+    ],
+    "exception_type": "",
+    "exception_message": "",
+    "stdout_error_excerpt": [
+      "        if self.total is False and error:",
+      "        elif error:",
+      "E           urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPConnection(host='localhost', port=8000): Failed to resolve 'localhost' ([Errno -2] Name or service not known)\"))",
+      "            except ValueError:",
+      "E           requests.exceptions.ConnectionError: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPConnection(host='localhost', port=8000): Failed to resolve 'localhost' ([Errno -2] Name or service not known)\"))"
+    ],
+    "result": "/root/projects/quant/build/terminal_bench/low_mtp3/controls/headless-terminal/oracle/attempt-1/trial/result.json",
+    "stdout": "/root/projects/quant/build/terminal_bench/low_mtp3/controls/headless-terminal/oracle/attempt-1/trial/verifier/test-stdout.txt",
+    "ctrf": "/root/projects/quant/build/terminal_bench/low_mtp3/controls/headless-terminal/oracle/attempt-1/trial/verifier/ctrf.json"
+  },
+  {
+    "task": "hf-model-inference",
+    "summary": {
+      "tests": 4,
+      "passed": 2,
+      "failed": 2,
+      "skipped": 0,
+      "pending": 0,
+      "other": 0,
+      "start": 1792609798.5067127,
+      "stop": 1792609805.7718852
+    },
+    "failed_test_names": [
+      "test_outputs.py::test_sentiment_endpoint",
+      "test_outputs.py::test_api_error_handling"
+    ],
+    "exception_type": "",
+    "exception_message": "",
+    "stdout_error_excerpt": [
+      "        if self.total is False and error:",
+      "        elif error:",
+      "E           urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='localhost', port=5000): Max retries exceeded with url: /sentiment (Caused by NameResolutionError(\"HTTPConnection(host='localhost', port=5000): Failed to resolve 'localhost' ([Errno -2] Name or service not known)\"))",
+      "            except ValueError:",
+      "E           requests.exceptions.ConnectionError: HTTPConnectionPool(host='localhost', port=5000): Max retries exceeded with url: /sentiment (Caused by NameResolutionError(\"HTTPConnection(host='localhost', port=5000): Failed to resolve 'localhost' ([Errno -2] Name or service not known)\"))"
+    ],
+    "result": "/root/projects/quant/build/terminal_bench/low_mtp3/controls/hf-model-inference/oracle/attempt-1/trial/result.json",
+    "stdout": "/root/projects/quant/build/terminal_bench/low_mtp3/controls/hf-model-inference/oracle/attempt-1/trial/verifier/test-stdout.txt",
+    "ctrf": "/root/projects/quant/build/terminal_bench/low_mtp3/controls/hf-model-inference/oracle/attempt-1/trial/verifier/ctrf.json"
+  },
+  {
+    "task": "install-windows-3.11",
+    "summary": {
+      "tests": 4,
+      "passed": 1,
+      "failed": 3,
+      "skipped": 0,
+      "pending": 0,
+      "other": 0,
+      "start": 1792609771.845649,
+      "stop": 1792610606.619528
+    },
+    "failed_test_names": [
+      "test_outputs.py::test_network_status",
+      "test_outputs.py::test_qemu_running_with_correct_params",
+      "test_outputs.py::test_windows_keys_with_visual_feedback"
+    ],
+    "exception_type": "",
+    "exception_message": "",
+    "stdout_error_excerpt": [
+      "E       AssertionError: QEMU process not found - Windows 3.11 VM is not running",
+      "/tests/test_outputs.py:22: AssertionError",
+      "E       AssertionError: QEMU monitor socket not found at /tmp/qemu-monitor.sock. Configure QEMU with: -monitor unix:/tmp/qemu-monitor.sock,server,nowait",
+      "/tests/test_outputs.py:73: AssertionError",
+      "ERROR ../tests/test_outputs.py::test_network_status - AssertionError: Failed ..."
+    ],
+    "result": "/root/projects/quant/build/terminal_bench/low_mtp3/controls/install-windows-3.11/oracle/attempt-1/trial/result.json",
+    "stdout": "/root/projects/quant/build/terminal_bench/low_mtp3/controls/install-windows-3.11/oracle/attempt-1/trial/verifier/test-stdout.txt",
+    "ctrf": "/root/projects/quant/build/terminal_bench/low_mtp3/controls/install-windows-3.11/oracle/attempt-1/trial/verifier/ctrf.json"
+  },
+  {
+    "task": "log-summary-date-ranges",
+    "summary": {
+      "tests": 2,
+      "passed": 1,
+      "failed": 1,
+      "skipped": 0,
+      "pending": 0,
+      "other": 0,
+      "start": 1792606092.159397,
+      "stop": 1792606092.3914278
+    },
+    "failed_test_names": [
+      "test_outputs.py::test_summary_structure_and_counts"
+    ],
+    "exception_type": "",
+    "exception_message": "",
+    "stdout_error_excerpt": [
+      "E           AssertionError: Expected row ['today', 'ERROR', '370'], got ['today', 'ERROR', '0']",
+      "/tests/test_outputs.py:49: AssertionError"
+    ],
+    "result": "/root/projects/quant/build/terminal_bench/low_mtp3/controls/log-summary-date-ranges/oracle/attempt-0/trial/result.json",
+    "stdout": "/root/projects/quant/build/terminal_bench/low_mtp3/controls/log-summary-date-ranges/oracle/attempt-0/trial/verifier/test-stdout.txt",
+    "ctrf": "/root/projects/quant/build/terminal_bench/low_mtp3/controls/log-summary-date-ranges/oracle/attempt-0/trial/verifier/ctrf.json"
+  },
+  {
+    "task": "mailman",
+    "summary": {
+      "tests": 3,
+      "passed": 1,
+      "failed": 2,
+      "skipped": 0,
+      "pending": 0,
+      "other": 0,
+      "start": 1792606201.8083887,
+      "stop": 1792606206.6911345
+    },
+    "failed_test_names": [
+      "test_outputs.py::test_simple_local_delivery",
+      "test_outputs.py::test_join_announce_leave_flow"
+    ],
+    "exception_type": "",
+    "exception_message": "",
+    "stdout_error_excerpt": [
+      "E       socket.gaierror: [Errno -2] Name or service not known",
+      "E       socket.gaierror: [Errno -2] Name or service not known"
+    ],
+    "result": "/root/projects/quant/build/terminal_bench/low_mtp3/controls/mailman/oracle/attempt-0/trial/result.json",
+    "stdout": "/root/projects/quant/build/terminal_bench/low_mtp3/controls/mailman/oracle/attempt-0/trial/verifier/test-stdout.txt",
+    "ctrf": "/root/projects/quant/build/terminal_bench/low_mtp3/controls/mailman/oracle/attempt-0/trial/verifier/ctrf.json"
+  },
+  {
+    "task": "mcmc-sampling-stan",
+    "summary": {
+      "tests": 6,
+      "passed": 2,
+      "failed": 4,
+      "skipped": 0,
+      "pending": 0,
+      "other": 0,
+      "start": 1792606363.7273452,
+      "stop": 1792606364.4145637
+    },
+    "failed_test_names": [
+      "test_outputs.py::test_rstan_package_installed",
+      "test_outputs.py::test_hierarchical_model_implemented",
+      "test_outputs.py::test_r_script_created_and_used_rstan",
+      "test_outputs.py::test_stan_model_sampling"
+    ],
+    "exception_type": "",
+    "exception_message": "",
+    "stdout_error_excerpt": [
+      "test_outputs.py:147: AssertionError",
+      "FAILED test_outputs.py::test_rstan_package_installed - AssertionError: RStan ...",
+      "FAILED test_outputs.py::test_hierarchical_model_implemented - AssertionError:...",
+      "FAILED test_outputs.py::test_r_script_created_and_used_rstan - AssertionError...",
+      "FAILED test_outputs.py::test_stan_model_sampling - AssertionError: R analysis..."
+    ],
+    "result": "/root/projects/quant/build/terminal_bench/low_mtp3/controls/mcmc-sampling-stan/oracle/attempt-0/trial/result.json",
+    "stdout": "/root/projects/quant/build/terminal_bench/low_mtp3/controls/mcmc-sampling-stan/oracle/attempt-0/trial/verifier/test-stdout.txt",
+    "ctrf": "/root/projects/quant/build/terminal_bench/low_mtp3/controls/mcmc-sampling-stan/oracle/attempt-0/trial/verifier/ctrf.json"
+  },
+  {
+    "task": "nginx-request-logging",
+    "summary": {
+      "tests": 8,
+      "passed": 3,
+      "failed": 5,
+      "skipped": 0,
+      "pending": 0,
+      "other": 0,
+      "start": 1792606632.8154535,
+      "stop": 1792606638.6745505
+    },
+    "failed_test_names": [
+      "test_outputs.py::test_nginx_running",
+      "test_outputs.py::test_index_page_content",
+      "test_outputs.py::test_custom_404_page",
+      "test_outputs.py::test_log_file_creation",
+      "test_outputs.py::test_log_file_format"
+    ],
+    "exception_type": "",
+    "exception_message": "",
+    "stdout_error_excerpt": [
+      "        elif error:",
+      "E           urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='localhost', port=8080): Max retries exceeded with url: /test-1792606638 (Caused by NameResolutionError(\"HTTPConnection(host='localhost', port=8080): Failed to resolve 'localhost' ([Errno -2] Name or service not known)\"))",
+      "            except ValueError:",
+      "E           requests.exceptions.ConnectionError: HTTPConnectionPool(host='localhost', port=8080): Max retries exceeded with url: /test-1792606638 (Caused by NameResolutionError(\"HTTPConnection(host='localhost', port=8080): Failed to resolve 'localhost' ([Errno -2] Name or service not known)\"))",
+      "FAILED ../tests/test_outputs.py::test_nginx_running - AssertionError: Nginx i..."
+    ],
+    "result": "/root/projects/quant/build/terminal_bench/low_mtp3/controls/nginx-request-logging/oracle/attempt-0/trial/result.json",
+    "stdout": "/root/projects/quant/build/terminal_bench/low_mtp3/controls/nginx-request-logging/oracle/attempt-0/trial/verifier/test-stdout.txt",
+    "ctrf": "/root/projects/quant/build/terminal_bench/low_mtp3/controls/nginx-request-logging/oracle/attempt-0/trial/verifier/ctrf.json"
+  },
+  {
+    "task": "path-tracing",
+    "summary": {
+      "tests": 5,
+      "passed": 3,
+      "failed": 2,
+      "skipped": 0,
+      "pending": 0,
+      "other": 0,
+      "start": 1792606816.2408156,
+      "stop": 1792606818.0039244
+    },
+    "failed_test_names": [
+      "test_outputs.py::test_runs_and_produces_output",
+      "test_outputs.py::test_image_similarity"
+    ],
+    "exception_type": "",
+    "exception_message": "",
+    "stdout_error_excerpt": [
+      "        :exception ValueError: If the ``mode`` is not \"r\", or if a ``StringIO``",
+      "        :exception TypeError: If ``formats`` is not ``None``, a list or a tuple.",
+      "E           FileNotFoundError: [Errno 2] No such file or directory: '/jail/reconstructed.ppm'",
+      "/root/.cache/uv/archive-v0/kKE67GBARsiQYd0INzGJr/lib/python3.13/site-packages/PIL/Image.py:3505: FileNotFoundError",
+      "FAILED ../tests/test_outputs.py::test_image_similarity - FileNotFoundError: [..."
+    ],
+    "result": "/root/projects/quant/build/terminal_bench/low_mtp3/controls/path-tracing/oracle/attempt-0/trial/result.json",
+    "stdout": "/root/projects/quant/build/terminal_bench/low_mtp3/controls/path-tracing/oracle/attempt-0/trial/verifier/test-stdout.txt",
+    "ctrf": "/root/projects/quant/build/terminal_bench/low_mtp3/controls/path-tracing/oracle/attempt-0/trial/verifier/ctrf.json"
+  },
+  {
+    "task": "path-tracing-reverse",
+    "summary": {
+      "tests": 3,
+      "passed": 2,
+      "failed": 1,
+      "skipped": 0,
+      "pending": 0,
+      "other": 0,
+      "start": 1792606802.8334923,
+      "stop": 1792606804.1992133
+    },
+    "failed_test_names": [
+      "test_outputs.py::test_image_similarity"
+    ],
+    "exception_type": "",
+    "exception_message": "",
+    "stdout_error_excerpt": [
+      "E               subprocess.CalledProcessError: Command 'cd /tmp; mkdir -p /jail_orig; cp mystery /jail_orig/; chroot /jail_orig /mystery; cp /jail_orig/image.ppm /app/original.ppm' returned non-zero exit status 1."
+    ],
+    "result": "/root/projects/quant/build/terminal_bench/low_mtp3/controls/path-tracing-reverse/oracle/attempt-0/trial/result.json",
+    "stdout": "/root/projects/quant/build/terminal_bench/low_mtp3/controls/path-tracing-reverse/oracle/attempt-0/trial/verifier/test-stdout.txt",
+    "ctrf": "/root/projects/quant/build/terminal_bench/low_mtp3/controls/path-tracing-reverse/oracle/attempt-0/trial/verifier/ctrf.json"
+  },
+  {
+    "task": "protein-assembly",
+    "summary": {
+      "tests": 1,
+      "passed": 0,
+      "failed": 1,
+      "skipped": 0,
+      "pending": 0,
+      "other": 0,
+      "start": 1792606952.7775521,
+      "stop": 1792606953.0222409
+    },
+    "failed_test_names": [
+      "test_outputs.py::test_gblock"
+    ],
+    "exception_type": "",
+    "exception_message": "",
+    "stdout_error_excerpt": [
+      "E       AssertionError: File /app/gblock.txt does not exist.",
+      "/tests/test_outputs.py:14: AssertionError",
+      "FAILED ../tests/test_outputs.py::test_gblock - AssertionError: File /app/gblo..."
+    ],
+    "result": "/root/projects/quant/build/terminal_bench/low_mtp3/controls/protein-assembly/oracle/attempt-0/trial/result.json",
+    "stdout": "/root/projects/quant/build/terminal_bench/low_mtp3/controls/protein-assembly/oracle/attempt-0/trial/verifier/test-stdout.txt",
+    "ctrf": "/root/projects/quant/build/terminal_bench/low_mtp3/controls/protein-assembly/oracle/attempt-0/trial/verifier/ctrf.json"
+  },
+  {
+    "task": "pypi-server",
+    "summary": {
+      "tests": 1,
+      "passed": 0,
+      "failed": 1,
+      "skipped": 0,
+      "pending": 0,
+      "other": 0,
+      "start": 1792607092.5716941,
+      "stop": 1792607102.2828634
+    },
+    "failed_test_names": [
+      "test_outputs.py::test_api"
+    ],
+    "exception_type": "",
+    "exception_message": "",
+    "stdout_error_excerpt": [
+      "            AssertionError: If any dot product calculation doesn't match expected result.",
+      "            ImportError: If vectorops package cannot be imported.",
+      "stderr = \"WARNING: Retrying (Retry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'N...s the requirement vectorops==0.1.0 (from versions: none)\\nERROR: No matching distribution found for vectorops==0.1.0\\n\"",
+      "E               subprocess.CalledProcessError: Command '['python', '-m', 'pip', 'install', '--index-url', 'http://localhost:8080/simple', 'vectorops==0.1.0']' returned non-zero exit status 1.",
+      "FAILED ../tests/test_outputs.py::test_api - subprocess.CalledProcessError: Co..."
+    ],
+    "result": "/root/projects/quant/build/terminal_bench/low_mtp3/controls/pypi-server/oracle/attempt-0/trial/result.json",
+    "stdout": "/root/projects/quant/build/terminal_bench/low_mtp3/controls/pypi-server/oracle/attempt-0/trial/verifier/test-stdout.txt",
+    "ctrf": "/root/projects/quant/build/terminal_bench/low_mtp3/controls/pypi-server/oracle/attempt-0/trial/verifier/ctrf.json"
+  },
+  {
+    "task": "qemu-alpine-ssh",
+    "summary": {},
+    "failed_test_names": [],
+    "exception_type": "RewardFileNotFoundError",
+    "exception_message": "No reward file found at /root/projects/quant/build/terminal_bench/low_mtp3/controls/qemu-alpine-ssh/oracle/attempt-0/trial/verifier/reward.txt or /root/projects/quant/build/terminal_bench/low_mtp3/controls/qemu-alpine-ssh/oracle/attempt-0/trial/verifier/reward.json",
+    "stdout_error_excerpt": [],
+    "result": "/root/projects/quant/build/terminal_bench/low_mtp3/controls/qemu-alpine-ssh/oracle/attempt-0/trial/result.json",
+    "stdout": null,
+    "ctrf": null
+  },
+  {
+    "task": "qemu-startup",
+    "summary": {},
+    "failed_test_names": [],
+    "exception_type": "RewardFileNotFoundError",
+    "exception_message": "No reward file found at /root/projects/quant/build/terminal_bench/low_mtp3/controls/qemu-startup/oracle/attempt-0/trial/verifier/reward.txt or /root/projects/quant/build/terminal_bench/low_mtp3/controls/qemu-startup/oracle/attempt-0/trial/verifier/reward.json",
+    "stdout_error_excerpt": [],
+    "result": "/root/projects/quant/build/terminal_bench/low_mtp3/controls/qemu-startup/oracle/attempt-0/trial/result.json",
+    "stdout": null,
+    "ctrf": null
+  },
+  {
+    "task": "query-optimize",
+    "summary": {},
+    "failed_test_names": [],
+    "exception_type": "VerifierTimeoutError",
+    "exception_message": "Verifier execution timed out after 1800.0 seconds",
+    "stdout_error_excerpt": [],
+    "result": "/root/projects/quant/build/terminal_bench/low_mtp3/controls/query-optimize/oracle/attempt-0/trial/result.json",
+    "stdout": null,
+    "ctrf": null
+  },
+  {
+    "task": "reshard-c4-data",
+    "summary": {},
+    "failed_test_names": [],
+    "exception_type": "",
+    "exception_message": "",
+    "stdout_error_excerpt": [
+      "error: no /proc/self/exe available. Is /proc mounted?"
+    ],
+    "result": "/root/projects/quant/build/terminal_bench/low_mtp3/controls/reshard-c4-data/oracle/attempt-0/trial/result.json",
+    "stdout": "/root/projects/quant/build/terminal_bench/low_mtp3/controls/reshard-c4-data/oracle/attempt-0/trial/verifier/test-stdout.txt",
+    "ctrf": null
+  },
+  {
+    "task": "rstan-to-pystan",
+    "summary": {
+      "tests": 6,
+      "passed": 1,
+      "failed": 5,
+      "skipped": 0,
+      "pending": 0,
+      "other": 0,
+      "start": 1792607654.9390368,
+      "stop": 1792607655.618621
+    },
+    "failed_test_names": [
+      "test_outputs.py::test_output_files_exist",
+      "test_outputs.py::test_alpha_estimation_accuracy",
+      "test_outputs.py::test_sigma_estimation_accuracy",
+      "test_outputs.py::test_rho_estimation_accuracy",
+      "test_outputs.py::test_beta_estimation_accuracy"
+    ],
+    "exception_type": "",
+    "exception_message": "",
+    "stdout_error_excerpt": [
+      "FAILED test_outputs.py::test_output_files_exist - AssertionError: Required ou...",
+      "FAILED test_outputs.py::test_alpha_estimation_accuracy - AssertionError: alph...",
+      "FAILED test_outputs.py::test_sigma_estimation_accuracy - AssertionError: sigm...",
+      "FAILED test_outputs.py::test_rho_estimation_accuracy - AssertionError: rho es...",
+      "FAILED test_outputs.py::test_beta_estimation_accuracy - AssertionError: beta ..."
+    ],
+    "result": "/root/projects/quant/build/terminal_bench/low_mtp3/controls/rstan-to-pystan/oracle/attempt-0/trial/result.json",
+    "stdout": "/root/projects/quant/build/terminal_bench/low_mtp3/controls/rstan-to-pystan/oracle/attempt-0/trial/verifier/test-stdout.txt",
+    "ctrf": "/root/projects/quant/build/terminal_bench/low_mtp3/controls/rstan-to-pystan/oracle/attempt-0/trial/verifier/ctrf.json"
+  },
+  {
+    "task": "sqlite-with-gcov",
+    "summary": {
+      "tests": 3,
+      "passed": 0,
+      "failed": 3,
+      "skipped": 0,
+      "pending": 0,
+      "other": 0,
+      "start": 1792607923.0480716,
+      "stop": 1792607923.8181016
+    },
+    "failed_test_names": [
+      "test_outputs.py::test_sqlite_compiled",
+      "test_outputs.py::test_sqlite_in_path",
+      "test_outputs.py::test_gcov_enabled"
+    ],
+    "exception_type": "",
+    "exception_message": "",
+    "stdout_error_excerpt": [
+      "E                   FileNotFoundError: [Errno 2] No such file or directory: 'sqlite3'",
+      "/root/.local/share/uv/python/cpython-3.13.9-linux-x86_64-gnu/lib/python3.13/subprocess.py:1972: FileNotFoundError",
+      "FAILED ../tests/test_outputs.py::test_sqlite_compiled - FileNotFoundError: [E...",
+      "FAILED ../tests/test_outputs.py::test_sqlite_in_path - AssertionError: sqlite...",
+      "FAILED ../tests/test_outputs.py::test_gcov_enabled - FileNotFoundError: [Errn..."
+    ],
+    "result": "/root/projects/quant/build/terminal_bench/low_mtp3/controls/sqlite-with-gcov/oracle/attempt-0/trial/result.json",
+    "stdout": "/root/projects/quant/build/terminal_bench/low_mtp3/controls/sqlite-with-gcov/oracle/attempt-0/trial/verifier/test-stdout.txt",
+    "ctrf": "/root/projects/quant/build/terminal_bench/low_mtp3/controls/sqlite-with-gcov/oracle/attempt-0/trial/verifier/ctrf.json"
+  },
+  {
+    "task": "torch-pipeline-parallelism",
+    "summary": {},
+    "failed_test_names": [],
+    "exception_type": "VerifierTimeoutError",
+    "exception_message": "Verifier execution timed out after 900.0 seconds",
+    "stdout_error_excerpt": [],
+    "result": "/root/projects/quant/build/terminal_bench/low_mtp3/controls/torch-pipeline-parallelism/oracle/attempt-0/trial/result.json",
+    "stdout": null,
+    "ctrf": null
+  },
+  {
+    "task": "torch-tensor-parallelism",
+    "summary": {
+      "tests": 3,
+      "passed": 1,
+      "failed": 2,
+      "skipped": 0,
+      "pending": 0,
+      "other": 0,
+      "start": 1792608126.7775393,
+      "stop": 1792608188.2593048
+    },
+    "failed_test_names": [
+      "test_outputs.py::test_column_parallel_linear",
+      "test_outputs.py::test_row_parallel_linear"
+    ],
+    "exception_type": "",
+    "exception_message": "",
+    "stdout_error_excerpt": [
+      "[W1021 18:43:07.560283103 socket.cpp:755] [c10d] The IPv6 network addresses of (localhost, 12355) cannot be retrieved (gai error: -2 - Name or service not known).",
+      "[W1021 18:43:07.855598942 socket.cpp:755] [c10d] The IPv6 network addresses of (localhost, 12355) cannot be retrieved (gai error: -2 - Name or service not known).",
+      "[W1021 18:43:07.994243316 socket.cpp:755] [c10d] The IPv6 network addresses of (localhost, 12355) cannot be retrieved (gai error: -2 - Name or service not known).",
+      "[W1021 18:43:08.386850051 socket.cpp:755] [c10d] The IPv6 network addresses of (localhost, 12355) cannot be retrieved (gai error: -2 - Name or service not known).",
+      "[W1021 18:43:08.407164335 socket.cpp:755] [c10d] The IPv6 network addresses of (localhost, 12355) cannot be retrieved (gai error: -2 - Name or service not known)."
+    ],
+    "result": "/root/projects/quant/build/terminal_bench/low_mtp3/controls/torch-tensor-parallelism/oracle/attempt-0/trial/result.json",
+    "stdout": "/root/projects/quant/build/terminal_bench/low_mtp3/controls/torch-tensor-parallelism/oracle/attempt-0/trial/verifier/test-stdout.txt",
+    "ctrf": "/root/projects/quant/build/terminal_bench/low_mtp3/controls/torch-tensor-parallelism/oracle/attempt-0/trial/verifier/ctrf.json"
+  }
+]

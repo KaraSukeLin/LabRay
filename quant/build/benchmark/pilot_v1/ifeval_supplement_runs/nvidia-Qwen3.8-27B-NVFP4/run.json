@@ -1,0 +1,82 @@
+{
+  "status": "ok",
+  "model": "nvidia-Qwen3.8-27B-NVFP4",
+  "smoke": true,
+  "limit_per_task": null,
+  "max_tokens_override": null,
+  "tasks": [
+    "ifeval",
+    "mmmu_standard",
+    "mmmu_vision"
+  ],
+  "questions": 40,
+  "seconds": 650.6285840347409,
+  "run_wall_seconds": 658.5427832752466,
+  "setup_seconds": 7.914193369448185,
+  "shutdown_seconds": 2.2726599015295506,
+  "preprocessing_seconds": 0.02476634457707405,
+  "inference_seconds": 603.0278374962509,
+  "scoring_seconds": 0.26879212260246277,
+  "long_max_tokens": null,
+  "long_ids": [],
+  "execution": {
+    "gpu_count": 1,
+    "tensor_parallel_size": 1,
+    "max_num_seqs": 1,
+    "max_num_batched_tokens": 4096,
+    "enforce_eager": true,
+    "enable_prefix_caching": false,
+    "cuda_visible_devices": "3",
+    "omp_num_threads": "8"
+  },
+  "initialization_seconds": 45.02483024075627,
+  "speculative_config": null,
+  "speculative_metrics": [],
+  "config": {
+    "models": [
+      "Qwen-Qwen3.8-27B",
+      "Qwen-Qwen3.8-27B-FP8",
+      "eNeural-Qwen3.8-27B-fast",
+      "nvidia-Qwen3.8-27B-NVFP4",
+      "RedHatAI-Qwen3.8-27B-NVFP4",
+      "unsloth-Qwen3.8-27B-NVFP4",
+      "RadixArk-Qwen3.8-27B-NVFP4-BF16-LMHead",
+      "rdtand-Qwen3.8-27B-PrismaAQUA-5.5bit-vllm",
+      "ModelOpt-Qwen3.8-27B-AutoQuantize-5.5bit"
+    ],
+    "baseline": "Qwen-Qwen3.8-27B",
+    "enable_thinking": false,
+    "temperature": 0.7,
+    "top_p": 0.8,
+    "top_k": 20,
+    "min_p": 0.0,
+    "presence_penalty": 1.5,
+    "repetition_penalty": 1.0,
+    "seed": 20261016,
+    "max_tokens": {
+      "ifeval": 4096,
+      "mmmu_standard": 1024,
+      "mmmu_vision": 1024
+    },
+    "max_model_len": 65536,
+    "max_images": 35,
+    "min_pixels": 65536,
+    "max_pixels": 16777216,
+    "mtp": false,
+    "kv_cache_dtype": "bfloat16",
+    "bootstrap_resamples": 19999,
+    "google_ifeval_revision": "3ef52111c1fabc301880818f5a547570e926a76b",
+    "ifeval_dataset_revision": "3ef52111c1fabc301880818f5a547570e926a76b",
+    "ifeval_dataset_source": "google-research/google-research/instruction_following_eval/data/input_data.jsonl",
+    "ifeval_hf_reference_revision": "966cd89545d6b6acfd7638bc708b98261ca58e84",
+    "mmmu_dataset_revision": "0d7426df4ccb3d8704a992fe6850abee7c262127"
+  },
+  "config_sha256": "cbe61791365e6a4a780f4e6a57457e38b384c729e2110ee08f83a85451140bed",
+  "dataset_sha256": "064e3f12ca123725fcb0cbbeb23db08398bdcdb0d1184eb0c3ce6c3f242cca71",
+  "source_sha256": "4a04555828dffc987a15e37acd9653980358d4a4ddf1e80b23a4066251d3bdcf",
+  "environment": {
+    "vllm": "0.31.0+cu129",
+    "torch": "2.13.0+cu129",
+    "transformers": "5.17.0"
+  }
+}

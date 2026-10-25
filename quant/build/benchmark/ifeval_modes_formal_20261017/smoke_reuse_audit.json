@@ -1,0 +1,27 @@
+{
+  "passed": true,
+  "inference_started": false,
+  "imported_rows": 60,
+  "models": 5,
+  "modes": [
+    "off",
+    "on"
+  ],
+  "seeds": [
+    20261016,
+    20261017,
+    20261018
+  ],
+  "questions": [
+    "ifeval/1508",
+    "ifeval/3753"
+  ],
+  "official_google_cli_replays": 60,
+  "parser_replays": 60,
+  "actual_engine_sampling_matches": 60,
+  "official_score_matches": 60,
+  "prompts_and_token_ids_match": 60,
+  "smoke_source_hash_verified": true,
+  "model_data_config_environment_identity_verified": true,
+  "target_experiment_sha256": "e4f5a3134c8ca3dd4f9c902b4ef47e8d5d1d7b02264a2ba340b64a917a8d4332"
+}

@@ -1,0 +1,59 @@
+{
+    "results": {
+        "tool": {
+            "name": "pytest",
+            "version": "8.4.1"
+        },
+        "summary": {
+            "tests": 4,
+            "passed": 3,
+            "failed": 1,
+            "skipped": 0,
+            "pending": 0,
+            "other": 0,
+            "start": 1792673870.6341152,
+            "stop": 1792673893.0946825
+        },
+        "tests": [
+            {
+                "name": "test_outputs.py::test_model_ref_unchanged",
+                "status": "passed",
+                "duration": 0.0008307099342346191,
+                "start": 1792673871.1252322,
+                "stop": 1792673871.1263075,
+                "retries": 0,
+                "file_path": "test_outputs.py"
+            },
+            {
+                "name": "test_outputs.py::test_tuned_model_exists",
+                "status": "passed",
+                "duration": 0.0005524754524230957,
+                "start": 1792673871.1265728,
+                "stop": 1792673871.127283,
+                "retries": 0,
+                "file_path": "test_outputs.py"
+            },
+            {
+                "name": "test_outputs.py::test_correctness",
+                "status": "failed",
+                "raw_status": "call_failed",
+                "duration": 1.0675730928778648,
+                "start": 1792673871.1275156,
+                "stop": 1792673872.4350672,
+                "retries": 0,
+                "file_path": "test_outputs.py",
+                "trace": "def test_correctness():\n        \"\"\"Compare final states of models with potentially different timesteps\"\"\"\n        model_path = app_dir / \"model.xml\"\n        model_ref_path = app_dir / \"model_ref.xml\"\n    \n        model = mujoco.MjModel.from_xml_path(str(model_path))\n        model_ref = mujoco.MjModel.from_xml_path(str(model_ref_path))\n    \n        seed = np.random.randint(0, 10000)\n        final_state = simulate_model(model, seed)\n        final_state_ref = simulate_model(model_ref, seed)\n    \n        # compare final states\n        state_diff = np.linalg.norm(final_state - final_state_ref)\n        print(f\"Final state difference: {state_diff:.4f}\")\n    \n>       assert np.allclose(final_state, final_state_ref, atol=atol), (\n            f\"Final states differ by {state_diff}, exceeding tolerance {atol}\"\n        )\nE       AssertionError: Final states differ by 0.00265322284194211, exceeding tolerance 1e-05\nE       assert False\nE        +  where False = <function allclose at 0x7f89eeab40b0>(array([ 2.00000000e+00,  9.74892453e-01,  4.29674045e-04,  2.22672358e-01,\\n        1.24177384e-03,  9.87718547e-01,  2...2209e-05,  5.18108885e-03,  2.96213679e-03,\\n        3.81463859e-06,  2.72638093e-03,  1.79619193e-03, -5.18879825e-02]), array([ 2.00000000e+00,  9.74880210e-01,  4.36786376e-04,  2.22726226e-01,\\n        1.18862246e-03,  9.87710945e-01,  2...9306e-05,  5.26436931e-03,  2.97216246e-03,\\n        3.80488580e-06,  2.77487074e-03,  1.80154072e-03, -5.34210100e-02]), atol=1e-05)\nE        +    where <function allclose at 0x7f89eeab40b0> = np.allclose\n\n/tests/test_outputs.py:67: AssertionError",
+                "message": "The test failed in the call phase due to an assertion error"
+            },
+            {
+                "name": "test_outputs.py::test_model_speed",
+                "status": "passed",
+                "duration": 20.658229511231184,
+                "start": 1792673872.435385,
+                "stop": 1792673893.0941522,
+                "retries": 0,
+                "file_path": "test_outputs.py"
+            }
+        ]
+    }
+}

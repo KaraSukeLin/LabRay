@@ -1,0 +1,27 @@
+comparison,id,accuracy_delta,harmful_flip,recovery_flip,answer_flip,instruction_accuracy_delta,instruction_harmful_flip,instruction_recovery_flip
+eNeural-Qwen3.8-27B-fast:off minus BF16:off,ifeval/1508,0.0,0.0,0.0,1.0,0.0,0.0,0.0
+eNeural-Qwen3.8-27B-fast:off minus BF16:off,ifeval/3753,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+rdtand-Qwen3.8-27B-PrismaAQUA-5.5bit-vllm:off minus BF16:off,ifeval/1508,0.0,0.0,0.0,1.0,0.0,0.0,0.0
+rdtand-Qwen3.8-27B-PrismaAQUA-5.5bit-vllm:off minus BF16:off,ifeval/3753,0.0,0.0,0.0,0.3333333333333333,0.0,0.0,0.0
+ModelOpt-Qwen3.8-27B-AutoQuantize-5.5bit:off minus BF16:off,ifeval/1508,0.0,0.0,0.0,1.0,0.0,0.0,0.0
+ModelOpt-Qwen3.8-27B-AutoQuantize-5.5bit:off minus BF16:off,ifeval/3753,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+unsloth-Qwen3.8-27B-NVFP4:off minus BF16:off,ifeval/1508,0.0,0.0,0.0,1.0,0.0,0.0,0.0
+unsloth-Qwen3.8-27B-NVFP4:off minus BF16:off,ifeval/3753,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+eNeural-Qwen3.8-27B-fast:on minus BF16:on,ifeval/1508,0.0,0.0,0.0,1.0,0.0,0.0,0.0
+eNeural-Qwen3.8-27B-fast:on minus BF16:on,ifeval/3753,0.0,0.0,0.0,0.3333333333333333,0.0,0.0,0.0
+rdtand-Qwen3.8-27B-PrismaAQUA-5.5bit-vllm:on minus BF16:on,ifeval/1508,0.0,0.0,0.0,1.0,0.0,0.0,0.0
+rdtand-Qwen3.8-27B-PrismaAQUA-5.5bit-vllm:on minus BF16:on,ifeval/3753,0.0,0.0,0.0,0.3333333333333333,0.0,0.0,0.0
+ModelOpt-Qwen3.8-27B-AutoQuantize-5.5bit:on minus BF16:on,ifeval/1508,0.0,0.0,0.0,1.0,0.0,0.0,0.0
+ModelOpt-Qwen3.8-27B-AutoQuantize-5.5bit:on minus BF16:on,ifeval/3753,0.0,0.0,0.0,0.3333333333333333,0.0,0.0,0.0
+unsloth-Qwen3.8-27B-NVFP4:on minus BF16:on,ifeval/1508,0.0,0.0,0.0,1.0,0.0,0.0,0.0
+unsloth-Qwen3.8-27B-NVFP4:on minus BF16:on,ifeval/3753,0.0,0.0,0.0,0.3333333333333333,0.0,0.0,0.0
+Qwen-Qwen3.8-27B:on minus off,ifeval/1508,0.0,0.0,0.0,1.0,0.0,0.0,0.0
+Qwen-Qwen3.8-27B:on minus off,ifeval/3753,0.0,0.0,0.0,0.6666666666666666,0.0,0.0,0.0
+eNeural-Qwen3.8-27B-fast:on minus off,ifeval/1508,0.0,0.0,0.0,1.0,0.0,0.0,0.0
+eNeural-Qwen3.8-27B-fast:on minus off,ifeval/3753,0.0,0.0,0.0,1.0,0.0,0.0,0.0
+rdtand-Qwen3.8-27B-PrismaAQUA-5.5bit-vllm:on minus off,ifeval/1508,0.0,0.0,0.0,1.0,0.0,0.0,0.0
+rdtand-Qwen3.8-27B-PrismaAQUA-5.5bit-vllm:on minus off,ifeval/3753,0.0,0.0,0.0,1.0,0.0,0.0,0.0
+ModelOpt-Qwen3.8-27B-AutoQuantize-5.5bit:on minus off,ifeval/1508,0.0,0.0,0.0,1.0,0.0,0.0,0.0
+ModelOpt-Qwen3.8-27B-AutoQuantize-5.5bit:on minus off,ifeval/3753,0.0,0.0,0.0,1.0,0.0,0.0,0.0
+unsloth-Qwen3.8-27B-NVFP4:on minus off,ifeval/1508,0.0,0.0,0.0,1.0,0.0,0.0,0.0
+unsloth-Qwen3.8-27B-NVFP4:on minus off,ifeval/3753,0.0,0.0,0.0,1.0,0.0,0.0,0.0

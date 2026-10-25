@@ -1,0 +1,31 @@
+{
+  "ready_utc": "2026-10-23T12:45:06.560637+00:00",
+  "ready_unix": 1792759506.5606563,
+  "ready_monotonic": 23239273.835526183,
+  "startup_seconds": 6.649724517017603,
+  "http_status": 200,
+  "health": {
+    "status": "ok",
+    "model": "StartLux-Decision-v1.1-27B-Instant-Q4_K_M",
+    "kind": "instant",
+    "images": false,
+    "prompt_attention": "bidirectional",
+    "engine": {
+      "name": "llamacpp",
+      "server": "http://127.0.0.1:8081",
+      "context_length": 20480,
+      "images": false,
+      "prompt_attention": "bidirectional (server)",
+      "bidir_mode": "server"
+    },
+    "defaults": {
+      "think_mode": "never",
+      "gate": 0.6,
+      "think_budget": 4096,
+      "mix": 0.75,
+      "thought_generation": null
+    },
+    "max_think_budget": 4096,
+    "context_length": 20480
+  }
+}

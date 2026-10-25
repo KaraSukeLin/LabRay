@@ -1,0 +1,293 @@
+{
+  "distribution": {
+    "train": {
+      "n": 17936,
+      "tokens": 4753464,
+      "over_limit": 0,
+      "0.5": 257,
+      "0.9": 329,
+      "0.95": 355,
+      "0.99": 405,
+      "1.0": 494
+    },
+    "dev": {
+      "n": 1105,
+      "tokens": 277912,
+      "over_limit": 0,
+      "0.5": 247,
+      "0.9": 294,
+      "0.95": 318,
+      "0.99": 376,
+      "1.0": 439
+    },
+    "train_256": {
+      "n": 256,
+      "tokens": 68273,
+      "max_tokens": 451
+    },
+    "train_1024": {
+      "n": 1024,
+      "tokens": 272682,
+      "max_tokens": 451
+    },
+    "train_4096": {
+      "n": 4096,
+      "tokens": 1084553,
+      "max_tokens": 457
+    }
+  },
+  "panel": [
+    {
+      "split": "train",
+      "percentile": 0.5,
+      "tokens": 257,
+      "example_id": "0b62a00bfbe7d2a33719239a96376f1b05612bd5",
+      "record": {
+        "id": "0b62a00bfbe7d2a33719239a96376f1b05612bd5",
+        "state": "Rule:\n#  Tax if you leave the UK to live abroad\n\nYou can claim certain UK benefits abroad, such as Jobseeker’s Allowance if you’re looking for work in a European Economic Area (EEA) country.\n\nInitial question:\nCan I claim Jobseeker’s Allowance?\n\nScenario:\nI am a 34 year old man who is seeking work as a steel worker in Argentina, which unfortunately is not an EEA country.\n\nConversation history:\nQuestion: Are you looking for work in a European Economic Area (EEA) county?\nAnswer: No",
+        "question": {
+          "type": "choice",
+          "instructions": "What decision follows from the rule and user information?",
+          "criteria": {
+            "Yes": "The rules and supplied facts establish that the answer is yes.",
+            "No": "The rules and supplied facts establish that the answer is no.",
+            "Inquire": "A follow-up question is required because a necessary fact is missing."
+          }
+        },
+        "target": {
+          "Yes": 1.0
+        },
+        "source": "orsharc_train",
+        "task": "benchmark",
+        "split": "train"
+      }
+    },
+    {
+      "split": "train",
+      "percentile": 0.9,
+      "tokens": 329,
+      "example_id": "80adc236125ba047b4c62972e476429abae2ae05",
+      "record": {
+        "id": "80adc236125ba047b4c62972e476429abae2ae05",
+        "state": "Rule:\n#  1. Overview\n\nYou can apply for a Tier 4 (General) student visa to study in the UK if you’re 16 or over and you:\n\n* have been offered a place on a course\n* can speak, read, write and understand English\n* have enough money to support yourself and pay for your course - the amount will vary depending on your circumstances\n* are from a country that’s not in the European Economic Area (EEA) or Switzerland\n\nInitial question:\nCan I apply for a Tier 4 (General) student visa?\n\nScenario:\nI was born in South Korea and it is currently the only language I know.\n\nConversation history:\nQuestion: Are you 16 or over?\nAnswer: Yes\nQuestion: Have you been offered a place on a course?\nAnswer: Yes\nQuestion: Can you speak, read, write and understand English?\nAnswer: No",
+        "question": {
+          "type": "choice",
+          "instructions": "What decision follows from the rule and user information?",
+          "criteria": {
+            "Yes": "The rules and supplied facts establish that the answer is yes.",
+            "No": "The rules and supplied facts establish that the answer is no.",
+            "Inquire": "A follow-up question is required because a necessary fact is missing."
+          }
+        },
+        "target": {
+          "Yes": 1.0
+        },
+        "source": "orsharc_train",
+        "task": "benchmark",
+        "split": "train"
+      }
+    },
+    {
+      "split": "train",
+      "percentile": 0.95,
+      "tokens": 355,
+      "example_id": "cd75dc57ab8be49ead227bb8527b261b810d4c80",
+      "record": {
+        "id": "cd75dc57ab8be49ead227bb8527b261b810d4c80",
+        "state": "Rule:\n## Claim expenses\n\nYou may be able to claim for reasonable expenses for going to the tribunal, for example:\n\n* travel expenses to cover your fare if you get there using public transport\n* travel expenses of 12p per mile if you drive, plus 2p per mile for up to 2 passengers\n* meals - £4.25 if you’re away for more than 5 hours, £9.30 for more than 10 hours or £13.55 for more than 12 hours\n* loss of earnings - £37.06 if you’re away from work for up to 4 hours or £71.80 for 4 hours or more\n\nInitial question:\nCan I claim this expense for going to the tribunal?\n\nScenario:\nI am still getting support for having fought in the Vietnam War but want to know if I can also have the 20p per mile it costs me to drive back and for to the hospital covered as well.\n\nConversation history:\n(none)",
+        "question": {
+          "type": "choice",
+          "instructions": "What decision follows from the rule and user information?",
+          "criteria": {
+            "Yes": "The rules and supplied facts establish that the answer is yes.",
+            "No": "The rules and supplied facts establish that the answer is no.",
+            "Inquire": "A follow-up question is required because a necessary fact is missing."
+          }
+        },
+        "target": {
+          "Yes": 1.0
+        },
+        "source": "orsharc_train",
+        "task": "benchmark",
+        "split": "train"
+      }
+    },
+    {
+      "split": "train",
+      "percentile": 0.99,
+      "tokens": 405,
+      "example_id": "299f9e4c08bce89be863478f3991800b99c1037f",
+      "record": {
+        "id": "299f9e4c08bce89be863478f3991800b99c1037f",
+        "state": "Rule:\nIn the state of Maine all passengers of a vehicle must wear seat belts unless:\n\n* The passenger is older than 1 year old and there are more people in the vehicle than seat belts.\n* The driver or passenger has a disability or other medical condition that makes it unsafe or impossible to wear a seat belt (in which case the driver or passenger must have documentation from a physician).\n* The driver is a mail carrier and in the process of delivering mail.\n\nInitial question:\nDo I need to wear a seat belt?\n\nScenario:\nMy name is Samuel, my twin sister Samantha and I are both 9 months old and are riding in our parents laps in the back seat of my uncles car and my cousin Mark is seated between us and my Aunt Suzy and Uncle John are in the front seats and they're all wearing all the seat belts and we don't get any for ourselves and that makes me sad.\n\nConversation history:\nQuestion: Are you older than 1 year old and there are more people in the vehicle than seat belts?\nAnswer: No\nQuestion: Do you have a disability or other medical condition that makes it unsafe or impossible to wear a seat belt?\nAnswer: No\nQuestion: Are you a mail carrier and in the process of delivering mail?\nAnswer: Yes",
+        "question": {
+          "type": "choice",
+          "instructions": "What decision follows from the rule and user information?",
+          "criteria": {
+            "Yes": "The rules and supplied facts establish that the answer is yes.",
+            "No": "The rules and supplied facts establish that the answer is no.",
+            "Inquire": "A follow-up question is required because a necessary fact is missing."
+          }
+        },
+        "target": {
+          "Yes": 1.0
+        },
+        "source": "orsharc_train",
+        "task": "benchmark",
+        "split": "train"
+      }
+    },
+    {
+      "split": "train",
+      "percentile": 1.0,
+      "tokens": 494,
+      "example_id": "4c64486a447e0e7855342f18d05318d2ea5a3159",
+      "record": {
+        "id": "4c64486a447e0e7855342f18d05318d2ea5a3159",
+        "state": "Rule:\n* The airport manager, or his authorized representative, shall be available during all hours of operation. A current telephone number shall be on file with the department.\n* The manager shall file a notice to airmen with the Federal Aviation Administration designating any changes in airport conditions that may effect safety. A \"notice to airmen\" file shall be maintained at the airport.\n* The manager shall display the local traffic pattern, airport traffic safety rules, any noise abatement procedures, and any special orders relating to the airport and its operations at a prominent location on the airport.\n* The manager shall submit a list of federal aviation registration numbers twice yearly to the department in May and November of all aircraft based at his airport.\n\nInitial question:\nIs this airport manager performing all their duties?\n\nScenario:\nThere are three airport managers.  One is at the airport at all times.  It's the manager that filed the notice with the airmen, but I'm not sure which manager did so.  The manager did fail to show anything with the airport safety rules.  I think at least one of them would have.  I'm not sure which manager this would fall back on.\n\nConversation history:\nQuestion: Is the  airport manager, or his authorized representative, shall be available during all hours of operation?\nAnswer: Yes\nQuestion: Has the manager shall file a notice to airmen with the Federal Aviation Administration designating any changes in airport conditions that may effect safety?\nAnswer: Yes\nQuestion: Does the manager shall display the local traffic pattern, airport traffic safety rules, any noise abatement procedures, and any special orders relating to the airport and its operations at a prominent location on the airport?\nAnswer: No",
+        "question": {
+          "type": "choice",
+          "instructions": "What decision follows from the rule and user information?",
+          "criteria": {
+            "Yes": "The rules and supplied facts establish that the answer is yes.",
+            "No": "The rules and supplied facts establish that the answer is no.",
+            "Inquire": "A follow-up question is required because a necessary fact is missing."
+          }
+        },
+        "target": {
+          "Yes": 1.0
+        },
+        "source": "orsharc_train",
+        "task": "benchmark",
+        "split": "train"
+      }
+    },
+    {
+      "split": "dev",
+      "percentile": 0.5,
+      "tokens": 247,
+      "example_id": "1d152012cb1a40ac008680d4581846b53e376c6f",
+      "record": {
+        "id": "1d152012cb1a40ac008680d4581846b53e376c6f",
+        "state": "Rule:\nThe SBA can provide up to $200,000 to homeowners to repair or replace their primary residence. Homeowners and renters are eligible for up to $40,000 to help repair or replace personal property. There are no upfront fees or early payment penalties charged by SBA.\n\nInitial question:\nIs SBA suitable for me?\n\nScenario:\nI am a 59 year old homeowner in California.\n\nConversation history:\nQuestion: Are you a homeowner or renter?\nAnswer: Yes",
+        "question": {
+          "type": "choice",
+          "instructions": "What decision follows from the rule and user information?",
+          "criteria": {
+            "Yes": "The rules and supplied facts establish that the answer is yes.",
+            "No": "The rules and supplied facts establish that the answer is no.",
+            "Inquire": "A follow-up question is required because a necessary fact is missing."
+          }
+        },
+        "target": {
+          "Yes": 1.0
+        },
+        "source": "orsharc_dev",
+        "task": "benchmark",
+        "split": "dev"
+      }
+    },
+    {
+      "split": "dev",
+      "percentile": 0.9,
+      "tokens": 294,
+      "example_id": "acd895262bd94f1b9d8344b8165f31fe7014fd40",
+      "record": {
+        "id": "acd895262bd94f1b9d8344b8165f31fe7014fd40",
+        "state": "Rule:\nTo qualify for assistance, applicants must meet all loan eligibility requirements including:\n\n* Be a family farmer;\n* Have a satisfactory history of meeting credit obligations;\n* For direct OL loans, be able to show sufficient farm managerial experience through education, on-the-job training, and/or general farm experience\n* Be a citizen, non-citizen national or legal resident alien of the United States, including Puerto Rico, the U.S. Virgin Islands, Guam, American Samoa, and certain former Pacific Trust Territories\n\nInitial question:\nDo I qualify for assistance?\n\nScenario:\nI am a 29 year old man from the United States. Unfortunately, my credit history is horrible as I've neglected paying my credit card bills numerous times.\n\nConversation history:\n(none)",
+        "question": {
+          "type": "choice",
+          "instructions": "What decision follows from the rule and user information?",
+          "criteria": {
+            "Yes": "The rules and supplied facts establish that the answer is yes.",
+            "No": "The rules and supplied facts establish that the answer is no.",
+            "Inquire": "A follow-up question is required because a necessary fact is missing."
+          }
+        },
+        "target": {
+          "Yes": 1.0
+        },
+        "source": "orsharc_dev",
+        "task": "benchmark",
+        "split": "dev"
+      }
+    },
+    {
+      "split": "dev",
+      "percentile": 0.95,
+      "tokens": 318,
+      "example_id": "c09a96debf4c2cde2ca94011b2a016e8c18553f2",
+      "record": {
+        "id": "c09a96debf4c2cde2ca94011b2a016e8c18553f2",
+        "state": "Rule:\n## General Program Requirements\n\nAny child in a school or institution that participates in the Special Milk Program can get milk. Schools may elect to offer free milk to low-income children. For this benefit program, your child must be attending a school that operates the Special Milk Program in Indiana.\n\nInitial question:\nDoes my child qualify for this benefit in Special Milk Program?\n\nScenario:\nWe live in Indiana and I'm working part time.  I've lived there all my life, just as my parents did.  I work about 20 hours a week.  My child is a fifth grader and goes to one of the Special Milk Program schools.  I'm sure I'm still eligible.\n\nConversation history:\nQuestion: Is your child in school?\nAnswer: Yes\nQuestion: Does your child attend a school that operates the Special Milk Program in Indiana?\nAnswer: Yes",
+        "question": {
+          "type": "choice",
+          "instructions": "What decision follows from the rule and user information?",
+          "criteria": {
+            "Yes": "The rules and supplied facts establish that the answer is yes.",
+            "No": "The rules and supplied facts establish that the answer is no.",
+            "Inquire": "A follow-up question is required because a necessary fact is missing."
+          }
+        },
+        "target": {
+          "Yes": 1.0
+        },
+        "source": "orsharc_dev",
+        "task": "benchmark",
+        "split": "dev"
+      }
+    },
+    {
+      "split": "dev",
+      "percentile": 0.99,
+      "tokens": 376,
+      "example_id": "d2354e65db17dc36e6bcdabc4112e79e9c958377",
+      "record": {
+        "id": "d2354e65db17dc36e6bcdabc4112e79e9c958377",
+        "state": "Rule:\n## Designated Provider\n\nTo be a designated provider for a qualifying medical marijuana patient, the person must be:\n\n* Twenty-one years of age or older;\n* Named on the patient's medical marijuana authorization form.\n* Have a fully completed form also printed on tamper-resistant paper. The patient signs his or her copy of the authorization form, and the designated provider signs his or her own copy; and\n* Entered into the medical marijuana database and have a designated provider recognition card, if the patient chooses to be entered into the database.\n\nInitial question:\nCan I be a designated provider for a qualifying medical marijuana patient?\n\nScenario:\nMy patient has signed the authorization form so I can be the designated provider.\n\nConversation history:\nQuestion: Are you age 21 or older?\nAnswer: Yes\nQuestion: Are you named on the patient's medical marijuana form?\nAnswer: Yes\nQuestion: Have you fully completed and printed required forms?\nAnswer: Yes\nQuestion: Has the patient signed his or her copy of the authorization form?\nAnswer: Yes\nQuestion: Has the designated provider signed his or her own copy?\nAnswer: No",
+        "question": {
+          "type": "choice",
+          "instructions": "What decision follows from the rule and user information?",
+          "criteria": {
+            "Yes": "The rules and supplied facts establish that the answer is yes.",
+            "No": "The rules and supplied facts establish that the answer is no.",
+            "Inquire": "A follow-up question is required because a necessary fact is missing."
+          }
+        },
+        "target": {
+          "Yes": 1.0
+        },
+        "source": "orsharc_dev",
+        "task": "benchmark",
+        "split": "dev"
+      }
+    },
+    {
+      "split": "dev",
+      "percentile": 1.0,
+      "tokens": 439,
+      "example_id": "6f35ffddcae4a2c41d62794cb4306e09a7cbf92f",
+      "record": {
+        "id": "6f35ffddcae4a2c41d62794cb4306e09a7cbf92f",
+        "state": "Rule:\n## Your course\n\nYou can do a course that’s one of the following:\n\n* full-time leading to a qualification that’s at least level 6 on the Ofqual register\n* part-time leading to a qualification that’s at least level 7 on the Ofqual register\n* an overseas course of degree level study that’s equal to a UK higher education course and is being run by an overseas higher education institution\n* full-time, with at least 15 hours per week of organised daytime study, leading to a qualification which is at least level 3 on the Ofqual register\n\nInitial question:\nCan I apply for Tier 4 student visa for this course?\n\nScenario:\nThere is no set amount that I need to pay, so I was wondering if I could set a target?\n\nConversation history:\nQuestion: Is your course full-time leading to a qualification that’s at least level 6 on the Ofqual register?\nAnswer: No\nQuestion: Is it a part-time leading to a qualification that’s at least level 7 on the Ofqual register\nAnswer: No\nQuestion: Is it a an overseas course of degree level study that’s equal to a UK higher education course and is being run by an overseas higher education institution\nAnswer: No\nQuestion: Is it full-time, with at least 15 hours per week of organised daytime study, leading to a qualification which is at least level 3 on the Ofqual register\nAnswer: Yes",
+        "question": {
+          "type": "choice",
+          "instructions": "What decision follows from the rule and user information?",
+          "criteria": {
+            "Yes": "The rules and supplied facts establish that the answer is yes.",
+            "No": "The rules and supplied facts establish that the answer is no.",
+            "Inquire": "A follow-up question is required because a necessary fact is missing."
+          }
+        },
+        "target": {
+          "Yes": 1.0
+        },
+        "source": "orsharc_dev",
+        "task": "benchmark",
+        "split": "dev"
+      }
+    }
+  ],
+  "max_length": 16384,
+  "seconds": 14.577031590044498
+}

@@ -1,0 +1,118 @@
+{
+  "jobs": [
+    {
+      "model": "Qwen-Qwen3.8-27B",
+      "gpu": 0,
+      "exit_code": 1,
+      "command": [
+        "/root/projects/quant/.modelopt-venv/bin/python",
+        "-u",
+        "/root/projects/quant/src/ifeval_modes.py",
+        "worker",
+        "--experiment",
+        "/root/projects/quant/build/benchmark/ifeval_modes_formal_20261017/experiment.json",
+        "--model",
+        "Qwen-Qwen3.8-27B",
+        "--task-modes",
+        "on",
+        "--task-seeds",
+        "20261016"
+      ],
+      "wall_seconds": 14938.253793422133,
+      "start_offset_seconds": 0.091939277946949
+    },
+    {
+      "model": "eNeural-Qwen3.8-27B-fast",
+      "gpu": 1,
+      "exit_code": 1,
+      "command": [
+        "/root/projects/quant/.modelopt-venv/bin/python",
+        "-u",
+        "/root/projects/quant/src/ifeval_modes.py",
+        "worker",
+        "--experiment",
+        "/root/projects/quant/build/benchmark/ifeval_modes_formal_20261017/experiment.json",
+        "--model",
+        "eNeural-Qwen3.8-27B-fast",
+        "--task-modes",
+        "on",
+        "--task-seeds",
+        "20261016"
+      ],
+      "wall_seconds": 14938.432578150183,
+      "start_offset_seconds": 0.09239866212010384
+    },
+    {
+      "model": "rdtand-Qwen3.8-27B-PrismaAQUA-5.5bit-vllm",
+      "gpu": 2,
+      "exit_code": 1,
+      "command": [
+        "/root/projects/quant/.modelopt-venv/bin/python",
+        "-u",
+        "/root/projects/quant/src/ifeval_modes.py",
+        "worker",
+        "--experiment",
+        "/root/projects/quant/build/benchmark/ifeval_modes_formal_20261017/experiment.json",
+        "--model",
+        "rdtand-Qwen3.8-27B-PrismaAQUA-5.5bit-vllm",
+        "--task-modes",
+        "on",
+        "--task-seeds",
+        "20261016"
+      ],
+      "wall_seconds": 14937.689771767706,
+      "start_offset_seconds": 0.09269561246037483
+    },
+    {
+      "model": "ModelOpt-Qwen3.8-27B-AutoQuantize-5.5bit",
+      "gpu": 3,
+      "exit_code": 1,
+      "command": [
+        "/root/projects/quant/.modelopt-venv/bin/python",
+        "-u",
+        "/root/projects/quant/src/ifeval_modes.py",
+        "worker",
+        "--experiment",
+        "/root/projects/quant/build/benchmark/ifeval_modes_formal_20261017/experiment.json",
+        "--model",
+        "ModelOpt-Qwen3.8-27B-AutoQuantize-5.5bit",
+        "--task-modes",
+        "on",
+        "--task-seeds",
+        "20261016"
+      ],
+      "wall_seconds": 14937.639871925116,
+      "start_offset_seconds": 0.09294963255524635
+    },
+    {
+      "model": "unsloth-Qwen3.8-27B-NVFP4",
+      "gpu": 4,
+      "exit_code": 1,
+      "command": [
+        "/root/projects/quant/.modelopt-venv/bin/python",
+        "-u",
+        "/root/projects/quant/src/ifeval_modes.py",
+        "worker",
+        "--experiment",
+        "/root/projects/quant/build/benchmark/ifeval_modes_formal_20261017/experiment.json",
+        "--model",
+        "unsloth-Qwen3.8-27B-NVFP4",
+        "--task-modes",
+        "on",
+        "--task-seeds",
+        "20261016"
+      ],
+      "wall_seconds": 14936.910722043365,
+      "start_offset_seconds": 0.09302064403891563
+    }
+  ],
+  "gpus": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "wall_seconds": 14938.546937670559,
+  "reservation_gpu_hours": 20.74798185887436
+}

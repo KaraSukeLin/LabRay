@@ -1,0 +1,24 @@
+{
+  "python": "3.12.14",
+  "platform": "Linux-5.15.0-94-generic-x86_64-with-glibc2.36",
+  "cuda_runtime": "12.9",
+  "cuda_driver_api": 12090,
+  "kernel_driver": "570.86.10",
+  "compatibility_libraries": "575.57.08",
+  "compat_archive_sha256": "50113c211c1d4e57b829d145260934e514cf4cde496796d82183caefe30a68a7",
+  "versions": {
+    "vllm": "0.31.0+cu129",
+    "torch": "2.13.0+cu129",
+    "transformers": "5.17.0",
+    "compressed-tensors": "0.17.0",
+    "numpy": "2.3.5",
+    "torchcodec": "0.16.0+cu129"
+  },
+  "environment": {
+    "CUDA_VISIBLE_DEVICES": "0",
+    "OMP_NUM_THREADS": "8",
+    "VLLM_NO_USAGE_STATS": "1",
+    "HF_HUB_OFFLINE": "1",
+    "LD_LIBRARY_PATH": "/root/projects/quant/build/cuda-compat/cuda-compat"
+  }
+}

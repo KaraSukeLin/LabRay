@@ -1,0 +1,363 @@
+[
+  {
+    "model": "Qwen-Qwen3.8-27B",
+    "weight_bytes": 55563006776,
+    "tensor_data_bytes": 55562855904,
+    "decimal_GB": 55.563006776,
+    "GiB": 51.7470825240016,
+    "body_linear_parameters": 24350556160,
+    "body_linear_bytes": 48701112320,
+    "body_linear_effective_bits": 16.0,
+    "allocation_counts": {
+      "BF16": 496
+    },
+    "allocation_parameters": {
+      "BF16": 24350556160
+    },
+    "component_bytes": {
+      "language_body": 48706403328,
+      "vision": 921460192,
+      "embedding": 2542796800,
+      "lm_head": 2542796800,
+      "mtp": 849398784
+    },
+    "source_precision_alignment": {
+      "vision_total": 333,
+      "vision_identical": 333,
+      "embedding_total": 1,
+      "embedding_identical": 1,
+      "lm_head_total": 1,
+      "lm_head_identical": 1,
+      "mtp_total": 15,
+      "mtp_identical": 15
+    },
+    "source_weight_keys_missing": [],
+    "mtp_tensors": 15,
+    "revision": "1d4bf0f2ff6012fd82039f2fa52739d0dd7c60c0",
+    "config_sha256": "191e0af232104ed8b65258cf3fb2b842e288008baca7633c11b82a1ac7203aab"
+  },
+  {
+    "model": "Qwen-Qwen3.8-27B-FP8",
+    "weight_bytes": 30866866928,
+    "tensor_data_bytes": 30866663264,
+    "decimal_GB": 30.866866928,
+    "GiB": 28.747009977698326,
+    "body_linear_parameters": 24350556160,
+    "body_linear_bytes": 24377118720,
+    "body_linear_effective_bits": 8.00872671977608,
+    "allocation_counts": {
+      "BF16": 96,
+      "FP8": 400
+    },
+    "allocation_parameters": {
+      "BF16": 23592960,
+      "FP8": 24326963200
+    },
+    "component_bytes": {
+      "language_body": 24382409728,
+      "mtp": 477199744,
+      "lm_head": 2542796800,
+      "embedding": 2542796800,
+      "vision": 921460192
+    },
+    "source_precision_alignment": {
+      "mtp_total": 15,
+      "mtp_identical": 8,
+      "lm_head_total": 1,
+      "lm_head_identical": 1,
+      "embedding_total": 1,
+      "embedding_identical": 1,
+      "vision_total": 333,
+      "vision_identical": 333
+    },
+    "source_weight_keys_missing": [],
+    "mtp_tensors": 22,
+    "revision": "017b9c7af6b5689d5dd426a76e0bc077eb5ca20a",
+    "config_sha256": "74227dd615bf1ea975aa676bdf355a0379858c12f394b5365cd9dfa5fc2c70bc"
+  },
+  {
+    "model": "eNeural-Qwen3.8-27B-fast",
+    "weight_bytes": 23752003280,
+    "tensor_data_bytes": 23751748576,
+    "decimal_GB": 23.75200328,
+    "GiB": 22.12077684700489,
+    "body_linear_parameters": 24350556160,
+    "body_linear_bytes": 16890004992,
+    "body_linear_effective_bits": 5.548950876036172,
+    "allocation_counts": {
+      "BF16": 96,
+      "FP8": 208,
+      "NVFP4": 192
+    },
+    "allocation_parameters": {
+      "BF16": 23592960,
+      "FP8": 7214202880,
+      "NVFP4": 17112760320
+    },
+    "component_bytes": {
+      "language_body": 16895296000,
+      "embedding": 2542796800,
+      "vision": 921460192,
+      "lm_head": 2542796800,
+      "mtp": 849398784
+    },
+    "source_precision_alignment": {
+      "embedding_total": 1,
+      "embedding_identical": 1,
+      "vision_total": 333,
+      "vision_identical": 333,
+      "lm_head_total": 1,
+      "lm_head_identical": 1,
+      "mtp_total": 15,
+      "mtp_identical": 15
+    },
+    "source_weight_keys_missing": [],
+    "mtp_tensors": 15,
+    "revision": "284b37dd7b7a5e0071268c0f17fbbb47e4f09b17",
+    "config_sha256": "c8caf1237022d0c475c9b0b406db101f962a98520cde0e592f5c871edb2858c4"
+  },
+  {
+    "model": "nvidia-Qwen3.8-27B-NVFP4",
+    "weight_bytes": 21921697280,
+    "tensor_data_bytes": 21921428072,
+    "decimal_GB": 21.92169728,
+    "GiB": 20.416171550750732,
+    "body_linear_parameters": 24350556160,
+    "body_linear_bytes": 16887319680,
+    "body_linear_effective_bits": 5.548068658157498,
+    "allocation_counts": {
+      "BF16": 96,
+      "FP8": 208,
+      "NVFP4": 192
+    },
+    "allocation_parameters": {
+      "BF16": 23592960,
+      "FP8": 7214202880,
+      "NVFP4": 17112760320
+    },
+    "component_bytes": {
+      "language_body": 16892610688,
+      "embedding": 2542796800,
+      "vision": 921460192,
+      "lm_head": 715161608,
+      "mtp": 849398784
+    },
+    "source_precision_alignment": {
+      "embedding_total": 1,
+      "embedding_identical": 1,
+      "vision_total": 333,
+      "vision_identical": 333,
+      "mtp_total": 15,
+      "mtp_identical": 15,
+      "lm_head_total": 1
+    },
+    "source_weight_keys_missing": [],
+    "mtp_tensors": 15,
+    "revision": "482ca0f3832238542f8f5295dde86b5f22711d80",
+    "config_sha256": "71fa01bb64de20971045cd82a82c0ebb25a54e1b0a3f09ef23cf5479e9c54df8"
+  },
+  {
+    "model": "RedHatAI-Qwen3.8-27B-NVFP4",
+    "weight_bytes": 24688495864,
+    "tensor_data_bytes": 24688241168,
+    "decimal_GB": 24.688495864,
+    "GiB": 22.992953531444073,
+    "body_linear_parameters": 24350556160,
+    "body_linear_bytes": 17826497520,
+    "body_linear_effective_bits": 5.856621065364611,
+    "allocation_counts": {
+      "BF16": 96,
+      "FP8": 232,
+      "NVFP4": 168
+    },
+    "allocation_parameters": {
+      "BF16": 23592960,
+      "FP8": 9353297920,
+      "NVFP4": 14973665280
+    },
+    "component_bytes": {
+      "language_body": 17831788592,
+      "embedding": 2542796800,
+      "vision": 921460192,
+      "lm_head": 2542796800,
+      "mtp": 849398784
+    },
+    "source_precision_alignment": {
+      "embedding_total": 1,
+      "embedding_identical": 1,
+      "vision_total": 333,
+      "vision_identical": 333,
+      "lm_head_total": 1,
+      "lm_head_identical": 1,
+      "mtp_total": 15,
+      "mtp_identical": 15
+    },
+    "source_weight_keys_missing": [],
+    "mtp_tensors": 15,
+    "revision": "2889ddeeda282f17fc9e159a42125e535159a5e5",
+    "config_sha256": "f88aad53f300b6445ca79249c9c98ec45f82576bfec27f7354ba1729d6788776"
+  },
+  {
+    "model": "unsloth-Qwen3.8-27B-NVFP4",
+    "weight_bytes": 23417592488,
+    "tensor_data_bytes": 23417339744,
+    "decimal_GB": 23.417592488,
+    "GiB": 21.80933252722025,
+    "body_linear_parameters": 24350556160,
+    "body_linear_bytes": 17826497856,
+    "body_linear_effective_bits": 5.856621175752234,
+    "allocation_counts": {
+      "BF16": 96,
+      "FP8": 232,
+      "NVFP4": 168
+    },
+    "allocation_parameters": {
+      "BF16": 23592960,
+      "FP8": 9353297920,
+      "NVFP4": 14973665280
+    },
+    "component_bytes": {
+      "language_body": 17831788928,
+      "lm_head": 1271895040,
+      "embedding": 2542796800,
+      "vision": 921460192,
+      "mtp": 849398784
+    },
+    "source_precision_alignment": {
+      "embedding_total": 1,
+      "embedding_identical": 1,
+      "vision_total": 333,
+      "vision_identical": 333,
+      "lm_head_total": 1,
+      "mtp_total": 15,
+      "mtp_identical": 15
+    },
+    "source_weight_keys_missing": [],
+    "mtp_tensors": 15,
+    "revision": "f0b7c9e722f5565102fff8481c99e4d86ae099c7",
+    "config_sha256": "1b3c71868d1299e52df6fc907deb202d5132b1ef0f72aae0ef6d15185dd53a5c"
+  },
+  {
+    "model": "RadixArk-Qwen3.8-27B-NVFP4-BF16-LMHead",
+    "weight_bytes": 23749332688,
+    "tensor_data_bytes": 23749063264,
+    "decimal_GB": 23.749332688,
+    "GiB": 22.118289664387703,
+    "body_linear_parameters": 24350556160,
+    "body_linear_bytes": 16887319680,
+    "body_linear_effective_bits": 5.548068658157498,
+    "allocation_counts": {
+      "BF16": 96,
+      "FP8": 208,
+      "NVFP4": 192
+    },
+    "allocation_parameters": {
+      "BF16": 23592960,
+      "FP8": 7214202880,
+      "NVFP4": 17112760320
+    },
+    "component_bytes": {
+      "language_body": 16892610688,
+      "embedding": 2542796800,
+      "vision": 921460192,
+      "mtp": 849398784,
+      "lm_head": 2542796800
+    },
+    "source_precision_alignment": {
+      "embedding_total": 1,
+      "embedding_identical": 1,
+      "vision_total": 333,
+      "vision_identical": 333,
+      "mtp_total": 15,
+      "mtp_identical": 15,
+      "lm_head_total": 1,
+      "lm_head_identical": 1
+    },
+    "source_weight_keys_missing": [],
+    "mtp_tensors": 15,
+    "revision": "009632fef96dd349150baa780c984e62e70e91fe",
+    "config_sha256": "66402a06352ac861bc9012a26678e6d5e11a5fd22180165fc19c8a27d3a9e079"
+  },
+  {
+    "model": "rdtand-Qwen3.8-27B-PrismaAQUA-5.5bit-vllm",
+    "weight_bytes": 23603517768,
+    "tensor_data_bytes": 23603241496,
+    "decimal_GB": 23.603517768,
+    "GiB": 21.982488937675953,
+    "body_linear_parameters": 24350556160,
+    "body_linear_bytes": 16741497912,
+    "body_linear_effective_bits": 5.50016116330051,
+    "allocation_counts": {
+      "BF16": 26,
+      "FP8": 223,
+      "NVFP4": 247
+    },
+    "allocation_parameters": {
+      "BF16": 6389760,
+      "FP8": 6927319040,
+      "NVFP4": 17416847360
+    },
+    "component_bytes": {
+      "language_body": 16746788920,
+      "lm_head": 2542796800,
+      "embedding": 2542796800,
+      "vision": 921460192,
+      "mtp": 849398784
+    },
+    "source_precision_alignment": {
+      "lm_head_total": 1,
+      "lm_head_identical": 1,
+      "embedding_total": 1,
+      "embedding_identical": 1,
+      "vision_total": 333,
+      "vision_identical": 333,
+      "mtp_total": 15,
+      "mtp_identical": 15
+    },
+    "source_weight_keys_missing": [],
+    "mtp_tensors": 15,
+    "revision": "6dc090346f4f32acc320e48d9c413ea96a98d4c6",
+    "config_sha256": "a1929e346e22317692ef2036672d80b2224484787d0b6d5df934a8d1e843c00a"
+  },
+  {
+    "model": "ModelOpt-Qwen3.8-27B-AutoQuantize-5.5bit",
+    "weight_bytes": 23536028696,
+    "tensor_data_bytes": 23535743584,
+    "decimal_GB": 23.536028696,
+    "GiB": 21.919634841382504,
+    "body_linear_parameters": 24350556160,
+    "body_linear_bytes": 16674000000,
+    "body_linear_effective_bits": 5.477985764412208,
+    "allocation_counts": {
+      "BF16": 96,
+      "FP8": 99,
+      "NVFP4": 301
+    },
+    "allocation_parameters": {
+      "BF16": 23592960,
+      "FP8": 6726615040,
+      "NVFP4": 17600348160
+    },
+    "component_bytes": {
+      "language_body": 16679291008,
+      "embedding": 2542796800,
+      "vision": 921460192,
+      "lm_head": 2542796800,
+      "mtp": 849398784
+    },
+    "source_precision_alignment": {
+      "embedding_total": 1,
+      "embedding_identical": 1,
+      "vision_total": 333,
+      "vision_identical": 333,
+      "lm_head_total": 1,
+      "lm_head_identical": 1,
+      "mtp_total": 15,
+      "mtp_identical": 15
+    },
+    "source_weight_keys_missing": [],
+    "mtp_tensors": 15,
+    "revision": "locally generated",
+    "config_sha256": "6137797574274eb22324a311e37c542af8fcb575defe2647a75239973fa6838b"
+  }
+]

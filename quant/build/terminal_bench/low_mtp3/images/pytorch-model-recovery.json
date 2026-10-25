@@ -1,0 +1,174 @@
+{
+  "pinned": {
+    "tag": "alexgshaw/pytorch-model-recovery:20260430",
+    "digest": "alexgshaw/pytorch-model-recovery@sha256:7c2bb52851cef25bdc3939e473496d25fbf11fd0cb7ab58bcf3cefcb751cdc0e",
+    "resolved_at": 1792524225.1611016
+  },
+  "manifest": "/root/projects/quant/build/terminal_bench/low_mtp3/images/blobs/sha256-63c804250786f1450028e68f66efac1b0ab58718e6bc98686e62f3cd72b0f395",
+  "config_file": "/root/projects/quant/build/terminal_bench/low_mtp3/images/blobs/sha256-038b41ad0d7a8bc956173db3e27d7460dae907d859b844b4df1afd7826cdb114",
+  "config": {
+    "architecture": "amd64",
+    "config": {
+      "Env": [
+        "PATH=/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+        "GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305",
+        "PYTHON_VERSION=3.13.12",
+        "PYTHON_SHA256=2a84cd31dd8d8ea8aaff75de66fc1b4b0127dd5799aa50a64ae9a313885b4593"
+      ],
+      "Cmd": [
+        "python3"
+      ],
+      "WorkingDir": "/app"
+    },
+    "created": "2026-04-30T03:22:54.284266376Z",
+    "history": [
+      {
+        "created": "2026-03-16T00:00:00Z",
+        "created_by": "# debian.sh --arch 'amd64' out/ 'bookworm' '@1773619200'",
+        "comment": "debuerreotype 0.17"
+      },
+      {
+        "created": "2026-03-16T22:57:57.579192398Z",
+        "created_by": "ENV PATH=/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+        "comment": "buildkit.dockerfile.v0",
+        "empty_layer": true
+      },
+      {
+        "created": "2026-03-16T22:57:57.579192398Z",
+        "created_by": "RUN /bin/sh -c set -eux; \tapt-get update; \tapt-get install -y --no-install-recommends \t\tca-certificates \t\tnetbase \t\ttzdata \t; \trm -rf /var/lib/apt/lists/* # buildkit",
+        "comment": "buildkit.dockerfile.v0"
+      },
+      {
+        "created": "2026-03-16T22:57:57.579192398Z",
+        "created_by": "ENV GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305",
+        "comment": "buildkit.dockerfile.v0",
+        "empty_layer": true
+      },
+      {
+        "created": "2026-03-16T22:57:57.579192398Z",
+        "created_by": "ENV PYTHON_VERSION=3.13.12",
+        "comment": "buildkit.dockerfile.v0",
+        "empty_layer": true
+      },
+      {
+        "created": "2026-03-16T22:57:57.579192398Z",
+        "created_by": "ENV PYTHON_SHA256=2a84cd31dd8d8ea8aaff75de66fc1b4b0127dd5799aa50a64ae9a313885b4593",
+        "comment": "buildkit.dockerfile.v0",
+        "empty_layer": true
+      },
+      {
+        "created": "2026-03-16T23:08:50.958680473Z",
+        "created_by": "RUN /bin/sh -c set -eux; \t\tsavedAptMark=\"$(apt-mark showmanual)\"; \tapt-get update; \tapt-get install -y --no-install-recommends \t\tdpkg-dev \t\tgcc \t\tgnupg \t\tlibbluetooth-dev \t\tlibbz2-dev \t\tlibc6-dev \t\tlibdb-dev \t\tlibffi-dev \t\tlibgdbm-dev \t\tliblzma-dev \t\tlibncursesw5-dev \t\tlibreadline-dev \t\tlibsqlite3-dev \t\tlibssl-dev \t\tmake \t\ttk-dev \t\tuuid-dev \t\twget \t\txz-utils \t\tzlib1g-dev \t; \t\twget -O python.tar.xz \"https://www.python.org/ftp/python/${PYTHON_VERSION%%[a-z]*}/Python-$PYTHON_VERSION.tar.xz\"; \techo \"$PYTHON_SHA256 *python.tar.xz\" | sha256sum -c -; \twget -O python.tar.xz.asc \"https://www.python.org/ftp/python/${PYTHON_VERSION%%[a-z]*}/Python-$PYTHON_VERSION.tar.xz.asc\"; \tGNUPGHOME=\"$(mktemp -d)\"; export GNUPGHOME; \tgpg --batch --keyserver hkps://keys.openpgp.org --recv-keys \"$GPG_KEY\"; \tgpg --batch --verify python.tar.xz.asc python.tar.xz; \tgpgconf --kill all; \trm -rf \"$GNUPGHOME\" python.tar.xz.asc; \tmkdir -p /usr/src/python; \ttar --extract --directory /usr/src/python --strip-components=1 --file python.tar.xz; \trm python.tar.xz; \t\tcd /usr/src/python; \tgnuArch=\"$(dpkg-architecture --query DEB_BUILD_GNU_TYPE)\"; \t./configure \t\t--build=\"$gnuArch\" \t\t--enable-loadable-sqlite-extensions \t\t--enable-optimizations \t\t--enable-option-checking=fatal \t\t--enable-shared \t\t$(test \"${gnuArch%%-*}\" != 'riscv64' && echo '--with-lto') \t\t--with-ensurepip \t; \tnproc=\"$(nproc)\"; \tEXTRA_CFLAGS=\"$(dpkg-buildflags --get CFLAGS)\"; \tLDFLAGS=\"$(dpkg-buildflags --get LDFLAGS)\"; \tLDFLAGS=\"${LDFLAGS:-} -Wl,--strip-all\"; \tarch=\"$(dpkg --print-architecture)\"; arch=\"${arch##*-}\"; \tcase \"$arch\" in \t\tamd64|arm64) \t\t\tEXTRA_CFLAGS=\"${EXTRA_CFLAGS:-} -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer\"; \t\t\t;; \t\ti386) \t\t\t;; \t\t*) \t\t\tEXTRA_CFLAGS=\"${EXTRA_CFLAGS:-} -fno-omit-frame-pointer\"; \t\t\t;; \tesac; \tmake -j \"$nproc\" \t\t\"EXTRA_CFLAGS=${EXTRA_CFLAGS:-}\" \t\t\"LDFLAGS=${LDFLAGS:-}\" \t; \trm python; \tmake -j \"$nproc\" \t\t\"EXTRA_CFLAGS=${EXTRA_CFLAGS:-}\" \t\t\"LDFLAGS=${LDFLAGS:-} -Wl,-rpath='\\$\\$ORIGIN/../lib'\" \t\tpython \t; \tmake install; \t\tcd /; \trm -rf /usr/src/python; \t\tfind /usr/local -depth \t\t\\( \t\t\t\\( -type d -a \\( -name test -o -name tests -o -name idle_test \\) \\) \t\t\t-o \\( -type f -a \\( -name '*.pyc' -o -name '*.pyo' -o -name 'libpython*.a' \\) \\) \t\t\\) -exec rm -rf '{}' + \t; \t\tldconfig; \t\tapt-mark auto '.*' > /dev/null; \tapt-mark manual $savedAptMark; \tfind /usr/local -type f -executable -not \\( -name '*tkinter*' \\) -exec ldd '{}' ';' \t\t| awk '/=>/ { so = $(NF-1); if (index(so, \"/usr/local/\") == 1) { next }; gsub(\"^/(usr/)?\", \"\", so); printf \"*%s\\n\", so }' \t\t| sort -u \t\t| xargs -rt dpkg-query --search \t\t| awk 'sub(\":$\", \"\", $1) { print $1 }' \t\t| sort -u \t\t| xargs -r apt-mark manual \t; \tapt-get purge -y --auto-remove -o APT::AutoRemove::RecommendsImportant=false; \trm -rf /var/lib/apt/lists/*; \t\texport PYTHONDONTWRITEBYTECODE=1; \tpython3 --version; \tpip3 --version # buildkit",
+        "comment": "buildkit.dockerfile.v0"
+      },
+      {
+        "created": "2026-03-16T23:08:51.064900227Z",
+        "created_by": "RUN /bin/sh -c set -eux; \tfor src in idle3 pip3 pydoc3 python3 python3-config; do \t\tdst=\"$(echo \"$src\" | tr -d 3)\"; \t\t[ -s \"/usr/local/bin/$src\" ]; \t\t[ ! -e \"/usr/local/bin/$dst\" ]; \t\tln -svT \"$src\" \"/usr/local/bin/$dst\"; \tdone # buildkit",
+        "comment": "buildkit.dockerfile.v0"
+      },
+      {
+        "created": "2026-03-16T23:08:51.064900227Z",
+        "created_by": "CMD [\"python3\"]",
+        "comment": "buildkit.dockerfile.v0",
+        "empty_layer": true
+      },
+      {
+        "created": "2026-04-03T06:30:01.616933635Z",
+        "created_by": "WORKDIR /app",
+        "comment": "buildkit.dockerfile.v0"
+      },
+      {
+        "created": "2026-04-03T06:50:30.936508384Z",
+        "created_by": "COPY weights.pt /app/ # buildkit",
+        "comment": "buildkit.dockerfile.v0"
+      },
+      {
+        "created": "2026-04-03T06:50:31.029052468Z",
+        "created_by": "COPY dataset.pt /app/ # buildkit",
+        "comment": "buildkit.dockerfile.v0"
+      },
+      {
+        "created": "2026-04-30T03:22:26.111245211Z",
+        "created_by": "RUN /bin/sh -c apt-get update && apt-get install -y nano     && rm -rf /var/lib/apt/lists/* # buildkit",
+        "comment": "buildkit.dockerfile.v0"
+      },
+      {
+        "created": "2026-04-30T03:22:54.284266376Z",
+        "created_by": "RUN /bin/sh -c pip install --no-cache-dir torch==2.7.1 --index-url https://download.pytorch.org/whl/cpu # buildkit",
+        "comment": "buildkit.dockerfile.v0"
+      }
+    ],
+    "os": "linux",
+    "rootfs": {
+      "type": "layers",
+      "diff_ids": [
+        "sha256:6143ee9e3de07e6ca35edaf392cf93dea566a5bcd0d3696607ae6c324193d099",
+        "sha256:707f05f9c84b69f54cf66e9ea2fc9a4e703fe023e727f517e590e97907bf36a8",
+        "sha256:017c8400b647e014fa8f6e90501a0741f5b8a3e9b4f268868e8cc7941f59a8ec",
+        "sha256:7ee20433ac93391e8d93cf192a4b5552f84308a7c4ca4b53dcf8a79ba9aa3738",
+        "sha256:097b2e6d819c7a4f9d0d9db00e9a3c289dcd59b7aca88cb4a12970a5976dcf55",
+        "sha256:bb0030df7e49b95b43b9e2283e999bc490e6aa4e3032ef875905fa1326506f91",
+        "sha256:375499f24561bc2fe9b58fbdbb30579327ded30ec86f0f2832750a19c97f1d9c",
+        "sha256:ceb711ad9a25a8f31d7a7db75048e519181965cc804fda0eaa472b2909047d21",
+        "sha256:22d3f65e25057bd6c1db483f0a8ee18e947e979ddf1e9f90266ad845ab1019cb"
+      ]
+    }
+  },
+  "layers": [
+    {
+      "mediaType": "application/vnd.oci.image.layer.v1.tar+gzip",
+      "digest": "sha256:6db0909c4473287ed4d1f950d26b8bc5b7b4206d365a0e7740cb89e46979153e",
+      "size": 28236225,
+      "path": "/root/projects/quant/build/terminal_bench/low_mtp3/images/blobs/sha256-6db0909c4473287ed4d1f950d26b8bc5b7b4206d365a0e7740cb89e46979153e"
+    },
+    {
+      "mediaType": "application/vnd.oci.image.layer.v1.tar+gzip",
+      "digest": "sha256:792aba8f9d95f389be4b9e81a1107f33c9c2b1f2f43dd2df3a2a8f063f906183",
+      "size": 3517361,
+      "path": "/root/projects/quant/build/terminal_bench/low_mtp3/images/blobs/sha256-792aba8f9d95f389be4b9e81a1107f33c9c2b1f2f43dd2df3a2a8f063f906183"
+    },
+    {
+      "mediaType": "application/vnd.oci.image.layer.v1.tar+gzip",
+      "digest": "sha256:63706ab84aa539b4f769d315a862a19bff6ef69c4ee54a3433d248788bfccd6f",
+      "size": 12478399,
+      "path": "/root/projects/quant/build/terminal_bench/low_mtp3/images/blobs/sha256-63706ab84aa539b4f769d315a862a19bff6ef69c4ee54a3433d248788bfccd6f"
+    },
+    {
+      "mediaType": "application/vnd.oci.image.layer.v1.tar+gzip",
+      "digest": "sha256:219a2e93422d5675008663767e8569ce06c02be2a80fdaee6615573751c0cdd8",
+      "size": 249,
+      "path": "/root/projects/quant/build/terminal_bench/low_mtp3/images/blobs/sha256-219a2e93422d5675008663767e8569ce06c02be2a80fdaee6615573751c0cdd8"
+    },
+    {
+      "mediaType": "application/vnd.oci.image.layer.v1.tar+gzip",
+      "digest": "sha256:582253a64dc5e49799e4f8d53a99c7cd857903e111a287f20fed130bd5fa9614",
+      "size": 93,
+      "path": "/root/projects/quant/build/terminal_bench/low_mtp3/images/blobs/sha256-582253a64dc5e49799e4f8d53a99c7cd857903e111a287f20fed130bd5fa9614"
+    },
+    {
+      "mediaType": "application/vnd.oci.image.layer.v1.tar+gzip",
+      "digest": "sha256:4cacddb4b631d3f7122451a2b068bf220808ae689ec78146b2496846ab74aba0",
+      "size": 4553258,
+      "path": "/root/projects/quant/build/terminal_bench/low_mtp3/images/blobs/sha256-4cacddb4b631d3f7122451a2b068bf220808ae689ec78146b2496846ab74aba0"
+    },
+    {
+      "mediaType": "application/vnd.oci.image.layer.v1.tar+gzip",
+      "digest": "sha256:6fca28d23cfaa576ccd6e83cddcf81557a30267826191389f495564f0a9e37e3",
+      "size": 190416,
+      "path": "/root/projects/quant/build/terminal_bench/low_mtp3/images/blobs/sha256-6fca28d23cfaa576ccd6e83cddcf81557a30267826191389f495564f0a9e37e3"
+    },
+    {
+      "mediaType": "application/vnd.oci.image.layer.v1.tar+gzip",
+      "digest": "sha256:be6017e2e311d2bf2b5b83af4f5010850189364aa193fa502aea96b5078dc6fc",
+      "size": 248424,
+      "path": "/root/projects/quant/build/terminal_bench/low_mtp3/images/blobs/sha256-be6017e2e311d2bf2b5b83af4f5010850189364aa193fa502aea96b5078dc6fc"
+    },
+    {
+      "mediaType": "application/vnd.oci.image.layer.v1.tar+gzip",
+      "digest": "sha256:520b837f0ca05a176c550989c066a8d1d31af970f58d226dd6d826d1646d57d7",
+      "size": 220427055,
+      "path": "/root/projects/quant/build/terminal_bench/low_mtp3/images/blobs/sha256-520b837f0ca05a176c550989c066a8d1d31af970f58d226dd6d826d1646d57d7"
+    }
+  ],
+  "time": 1792607079.0959206
+}

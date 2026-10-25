@@ -1,0 +1,58 @@
+{
+  "model": "RedHatAI-Qwen3.8-27B-NVFP4",
+  "gpu": [
+    4,
+    4
+  ],
+  "exit_code": 0,
+  "process_wall_seconds": 16502.73282633722,
+  "component_processes": [
+    {
+      "model": "RedHatAI-Qwen3.8-27B-NVFP4",
+      "gpu": 4,
+      "command": [
+        "/root/projects/quant/.modelopt-venv/bin/python",
+        "-u",
+        "/root/projects/quant/src/benchmark.py",
+        "run",
+        "--model",
+        "RedHatAI-Qwen3.8-27B-NVFP4",
+        "--config",
+        "/root/projects/quant/assets/benchmark_config.json",
+        "--data",
+        "/root/projects/quant/assets/benchmark/pilot_v1",
+        "--output",
+        "/root/projects/quant/build/benchmark/pilot_v1/runs/RedHatAI-Qwen3.8-27B-NVFP4",
+        "--long-max-tokens",
+        "4096",
+        "--long-ids",
+        "/root/projects/quant/assets/benchmark/pilot_v1/long_ids.json"
+      ],
+      "exit_code": 0,
+      "start_offset_seconds": 0.0033634044229984283,
+      "process_wall_seconds": 15771.616714332253
+    },
+    {
+      "model": "RedHatAI-Qwen3.8-27B-NVFP4",
+      "gpu": 4,
+      "command": [
+        "/root/projects/quant/.modelopt-venv/bin/python",
+        "-u",
+        "/root/projects/quant/src/benchmark.py",
+        "run",
+        "--model",
+        "RedHatAI-Qwen3.8-27B-NVFP4",
+        "--config",
+        "/root/projects/quant/assets/benchmark_config.json",
+        "--data",
+        "/root/projects/quant/assets/benchmark/pilot_if_supplement",
+        "--output",
+        "/root/projects/quant/build/benchmark/pilot_v1/ifeval_supplement_runs/RedHatAI-Qwen3.8-27B-NVFP4"
+      ],
+      "exit_code": 0,
+      "start_offset_seconds": 0.002669338136911392,
+      "process_wall_seconds": 731.1161120049655
+    }
+  ],
+  "derived": true
+}

@@ -1,0 +1,39 @@
+{
+  "elephant_b1_b4": {
+    "status": "PASS",
+    "scope": "BF16 native training and inference; formal runs not executed"
+  },
+  "qwen_lora": {
+    "status": "BLOCKED",
+    "import": "FAIL",
+    "training_reload": "NOT TESTED",
+    "reason": "unsloth_zoo==2026.10.7 import stops on requests; its transformers<=5.17.0 and datasets<5 requirements conflict with preserved 5.20.2/5.1.0. No dependency downgrade or custom trainer attempted.",
+    "evidence": [
+      "/root/projects/decision/experiments/orsharc/artifacts/smoke/phase3-20261023/qwen-companion-install.log",
+      "/root/projects/decision/experiments/orsharc/artifacts/smoke/phase3-20261023/qwen-companion-import.log",
+      "/root/projects/decision/experiments/orsharc/artifacts/smoke/phase3-20261023/qwen-companion-resolve-preserved.log",
+      "/root/projects/decision/experiments/orsharc/artifacts/smoke/phase3-20261023/qwen-companion-requirements.json"
+    ]
+  },
+  "b5_elephant_quantization": {
+    "status": "BLOCKED",
+    "reason": "Inspected pinned Elephant release and OneJev DecisionEngine expose BF16 native loading; no validated compatible quantized path. Existing backend rejects bnb8/fp8/bnb4. No speculative integration.",
+    "evidence": [
+      "/root/projects/decision/experiments/orsharc/artifacts/smoke/phase3-20261023/plan-checks.json",
+      "/root/projects/decision/experiments/orsharc/UPSTREAM.md"
+    ]
+  },
+  "b5_qwen_bf16_bnb8": {
+    "status": "PASS",
+    "scope": "Phase 2 four-row smoke only; no formal quality claim",
+    "evidence": "/root/projects/decision/experiments/orsharc/artifacts/smoke/functional-20261023T0701Z/b5-qwen-comparison.json"
+  },
+  "full_dev_calibration": {
+    "status": "NOT TESTED",
+    "reason": "Intentional complete-partition guard retained; Phase 4 work"
+  },
+  "official_test_evaluation": {
+    "status": "NOT TESTED",
+    "reason": "Not run in Phase 3"
+  }
+}

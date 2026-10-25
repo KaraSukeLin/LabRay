@@ -1,0 +1,61 @@
+{
+  "model": "nvidia-Qwen3.8-27B-NVFP4",
+  "model_path": "/root/model/nvidia-Qwen3.8-27B-NVFP4",
+  "status": "ok",
+  "environment": {
+    "vllm": "0.31.0+cu129",
+    "torch": "2.13.0+cu129",
+    "transformers": "5.17.0",
+    "compressed-tensors": "0.17.0"
+  },
+  "gpu": "NVIDIA H100 80GB HBM3",
+  "cuda": "12.9",
+  "mtp": false,
+  "kv_cache_dtype": "bfloat16",
+  "quant_method": "modelopt",
+  "loaded": true,
+  "tokens": 432,
+  "ppl": 12.876725789172959,
+  "reference_ppl": 12.943072381460716,
+  "ppl_delta": -0.06634659228775774,
+  "kl_bf16_to_candidate": 0.018389296713293656,
+  "top1_flip_rate": 0.09722222222222222,
+  "vocab_size": 248320,
+  "distribution_sha256": [
+    "251422fe107528a6c740ef5671e8a3cfb32078b5d2b097950751db3e7e59aa5a",
+    "644d9a1b74bfef9af3f7b473846b984485f2c8ddfa3364c3f3359378d2121308",
+    "3f9b4b4a711795e15eb3f29194def2fdda29120825eea4ce99a19dd4e9ac9372",
+    "f57c8ea133c9d9e7c9b5dbbb3c6c88cd3b0d2498a16fca5f59df9a769ca7d925",
+    "3e8db88cc3cc6eb16b4cbd22f6d6af42ab7b59733506f20b22c1b4ba2c3b015f",
+    "9a795e7aa644b0a23eafe69fac2268b158b348e7703dc77b978222cfb1fab5fa",
+    "386965f9adca51e11413f484b4170d137193a7d3b299ec1ae99424bbd799eee7",
+    "835cd5439b0ff04ca6c178f33d63daa9c670230aad765740fdf199470aa472cb"
+  ],
+  "basic_inference_token_ids": [
+    [
+      3113
+    ],
+    [
+      271
+    ],
+    [
+      314
+    ],
+    [
+      561
+    ],
+    [
+      271
+    ],
+    [
+      271
+    ],
+    [
+      271
+    ],
+    [
+      271
+    ]
+  ],
+  "elapsed_seconds": 64.96729350090027
+}

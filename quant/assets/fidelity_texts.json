@@ -1,0 +1,10 @@
+[
+  "The small research station stood beside a cold mountain lake. Each morning, the team checked the weather, measured the water temperature, and wrote the results in a shared notebook. On Friday, a sudden storm delayed the supply boat, so they used the remaining daylight to repair a broken sensor.",
+  "A fair comparison uses the same inputs and the same measurement rules. If two systems receive different questions, a difference in their scores may come from the questions rather than from the systems. Repeat the reference measurement before drawing a conclusion, and keep a record of every setting that can affect the result.",
+  "In Python, a dictionary maps keys to values. For example, prices = {'apple': 3, 'pear': 5} stores two prices. The expression prices['apple'] returns 3. A loop can add the values to calculate a total, while a test can check that an empty dictionary gives a total of zero.",
+  "A train leaves the first station at nine in the morning and travels at sixty kilometers per hour. After thirty minutes, it reaches a second station and stops for ten minutes. The distance between the two stations is thirty kilometers. A passenger uses the stop to buy water and check the timetable.",
+  "量化實驗必須固定輸入文字與 token 序列，才能比較模型輸出的機率分布。研究人員先重複執行原始模型，再測量候選模型的困惑度與差異。所有失敗都要記錄原因，缺少的數據不能當成零。",
+  "城市圖書館在週末舉辦讀書會。參加者帶來一本喜歡的書，分享故事的背景與自己的想法。活動結束後，工作人員整理桌椅，並把借出的書籍登記在系統中，方便下一次查詢。",
+  "Water changes state when its temperature and pressure change. At ordinary atmospheric pressure, liquid water freezes near zero degrees Celsius and boils near one hundred degrees Celsius. These familiar values help explain why ice melts on a warm day and why steam rises from a pot on the stove.",
+  "The experiment had three steps: prepare a fixed text sample, run the reference model twice, and compare each candidate with the reference. A useful report includes both successful runs and failures. Small changes on a short sample can guide further study, but they do not establish performance on every language or task."
+]

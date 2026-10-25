@@ -1,0 +1,30 @@
+{
+  "status": "ok",
+  "model": "rdtand-Qwen3.8-27B-PrismaAQUA-5.5bit-vllm",
+  "start_utc": "2026-10-17T15:52:05.751217+00:00",
+  "gpu_count": 1,
+  "cuda_visible_devices": "2",
+  "initialization_seconds": 53.09324377775192,
+  "inference_seconds": 171.9922871105373,
+  "scoring_seconds": 2.900989018380642,
+  "preprocessing_seconds": 0.024518273770809174,
+  "shutdown_seconds": 2.177452724426985,
+  "new_records": 12,
+  "completed_before": 0,
+  "pending_before": 12,
+  "setup_seconds": 7.414809841662645,
+  "engine": {
+    "mtp": false,
+    "kv_cache_dtype": "bfloat16",
+    "tensor_parallel_size": 1,
+    "max_num_seqs": 1,
+    "max_model_len": 65536,
+    "enforce_eager": true,
+    "enable_prefix_caching": false,
+    "max_num_batched_tokens": 4096
+  },
+  "wall_seconds": 237.61195305734873,
+  "end_utc": "2026-10-17T15:55:55.948380+00:00",
+  "reused_from": "build/benchmark/ifeval_modes_smoke_v1/rdtand-Qwen3.8-27B-PrismaAQUA-5.5bit-vllm/attempts/1792252325751208085.json",
+  "reuse_verified_utc": "2026-10-17T16:42:38.445386+00:00"
+}

@@ -1,0 +1,109 @@
+{
+  "inference_reload_parity": "passed",
+  "max_probability_difference": 0.0,
+  "tolerance": 0.005,
+  "original_run": "f0ff61821c420efce17a033a8a3b0ae891022d3c5a87aeb3276175d1a2435333",
+  "formal_experiment_admission": true,
+  "remaining_gates": [],
+  "training_artifact_gate": "passed",
+  "finite_loss_records": 3,
+  "training_completion_sha256": "e274b414b13f6045e714a93bb9445c442d2b81daac2077112896f406669157e5",
+  "adapted_run": "cddd756d081f3478ab9508dfd111097b093183bbb8f590656308ac3b3c0e4ada",
+  "admission_scope": "Elephant BF16 B1–B4 only; full-dev calibration and final evaluation remain Phase 4 work",
+  "critical_checks": {
+    "environment": "PASS",
+    "parameter_integrity": "PASS",
+    "adapter_reload_merge_parity": "PASS",
+    "long_inputs": "PASS",
+    "labels_and_metadata": "PASS",
+    "commands_and_logging": "PASS"
+  },
+  "capabilities": {
+    "elephant_b1_b4": {
+      "status": "PASS",
+      "scope": "BF16 native training and inference; formal runs not executed"
+    },
+    "qwen_lora": {
+      "status": "BLOCKED",
+      "import": "FAIL",
+      "training_reload": "NOT TESTED",
+      "reason": "unsloth_zoo==2026.10.7 import stops on requests; its transformers<=5.17.0 and datasets<5 requirements conflict with preserved 5.20.2/5.1.0. No dependency downgrade or custom trainer attempted.",
+      "evidence": [
+        "/root/projects/decision/experiments/orsharc/artifacts/smoke/phase3-20261023/qwen-companion-install.log",
+        "/root/projects/decision/experiments/orsharc/artifacts/smoke/phase3-20261023/qwen-companion-import.log",
+        "/root/projects/decision/experiments/orsharc/artifacts/smoke/phase3-20261023/qwen-companion-resolve-preserved.log",
+        "/root/projects/decision/experiments/orsharc/artifacts/smoke/phase3-20261023/qwen-companion-requirements.json"
+      ]
+    },
+    "b5_elephant_quantization": {
+      "status": "BLOCKED",
+      "reason": "Inspected pinned Elephant release and OneJev DecisionEngine expose BF16 native loading; no validated compatible quantized path. Existing backend rejects bnb8/fp8/bnb4. No speculative integration.",
+      "evidence": [
+        "/root/projects/decision/experiments/orsharc/artifacts/smoke/phase3-20261023/plan-checks.json",
+        "/root/projects/decision/experiments/orsharc/UPSTREAM.md"
+      ]
+    },
+    "b5_qwen_bf16_bnb8": {
+      "status": "PASS",
+      "scope": "Phase 2 four-row smoke only; no formal quality claim",
+      "evidence": "/root/projects/decision/experiments/orsharc/artifacts/smoke/functional-20261023T0701Z/b5-qwen-comparison.json"
+    },
+    "full_dev_calibration": {
+      "status": "NOT TESTED",
+      "reason": "Intentional complete-partition guard retained; Phase 4 work"
+    },
+    "official_test_evaluation": {
+      "status": "NOT TESTED",
+      "reason": "Not run in Phase 3"
+    }
+  },
+  "admission_code_sha256": "b531da451d3dbaae1fdceba71a2783cbea3306320e524d663e6063c263a2247c",
+  "configuration_sha256": {
+    "configs/matrices.json": "d1b3366e331bcb4e894e6c77e5dca8f36936305f1bfab86f6e2c3fd518b9b87f",
+    "configs/models.json": "78741898289da1a849195836af090299d43550d50f47feeef6b396dd09c4706b",
+    "configs/sources.json": "8d8d44e4aaca4ac1248b9e99cd0315a8af18ac46a98c8f23fc49eb39a9fc7181",
+    "configs/training.json": "505dd9eae84f5601dab7907eba06f1d422257ce07642f4f2f2f8595055d1c32a"
+  },
+  "evidence": {
+    "/root/projects/decision/experiments/orsharc/artifacts/smoke/phase3-20261023/evidence-index.json": "4396b6e6df6420cacd3622837781cb4413c93d3f7e1f1e0323ee2aa7234f16fc",
+    "/root/projects/decision/experiments/orsharc/artifacts/env/elephant-repro/runtime.json": "98b2e960543312fc996a8383317c6c0c8031234583a14f34a26794d54433d75b",
+    "/root/projects/decision/experiments/orsharc/artifacts/smoke/phase3-20261023/metadata.json": "18f7e4c657abe0448a5059cf7f6e6b88ef5a5cfa512481ecb217345632d33a59",
+    "/root/projects/decision/experiments/orsharc/artifacts/smoke/phase3-20261023/isolation.json": "0e0e3eba285e1228e1d6f1cdcb1503b74635dd249af890a71d96938a8058f879",
+    "/root/projects/decision/experiments/orsharc/artifacts/smoke/phase3-20261023/plan-checks.json": "5f4711f5591195f7aacd8a9fd2870adfb0245b7fdc3b98ef74fba4cddde3b1d7",
+    "/root/projects/decision/experiments/orsharc/artifacts/smoke/phase3-20261023/capabilities.json": "2b15eb5162b8b4b71f80a653bad01b3667ef59b1428759898503642b0c473eee",
+    "/root/projects/decision/experiments/orsharc/artifacts/smoke/phase3-20261023/cli-inference/complete.json": "c730dbe1185479f604e6b5c7e9e90ffee77f481ebe619bc3ce46d87cad93549d",
+    "/root/projects/decision/experiments/orsharc/artifacts/smoke/phase3-20261023/measure-2/manifest.json": "f42f21f9781479bfed3ac855fecc763f093888c09f08e25f732db223f238d468",
+    "/root/projects/decision/experiments/orsharc/artifacts/smoke/phase3-20261023/measure-2/lengths.json": "98f091b7ba46a94f52c5cad8a681b95ef9f5581e504297d330d405eb3b5c5c7a",
+    "/root/projects/decision/experiments/orsharc/artifacts/smoke/phase3-20261023/measure-2/train.jsonl": "3b1f1a73b01d05d0e7b9f9b3a1c42e275cc7884f27adb6d0a44262c71c767894",
+    "/root/projects/decision/experiments/orsharc/artifacts/smoke/phase3-20261023/measure-2/panel.jsonl": "c5ffac2a6bf00282f7b9e6ef2db5ac814a8378033f3193f19e856ab10f2a1f63",
+    "/root/projects/decision/experiments/orsharc/artifacts/smoke/phase3-20261023/measure-2/optimizer.json": "2b083f59af2c1a548a00058c7f1aa32643cb214a34f69aec2f25a8db73abe62f",
+    "/root/projects/decision/experiments/orsharc/artifacts/smoke/phase3-20261023/measure-2/save.json": "ab577471b01b9b32a8da8e092ab91b0ef9aeb0bce919895bea7a477f90f54a6f",
+    "/root/projects/decision/experiments/orsharc/artifacts/smoke/phase3-20261023/measure-2/integrity.json": "9719c13851a2d96b3d276961b0e388460e681cdb362fe2b29757e17327b49e91",
+    "/root/projects/decision/experiments/orsharc/artifacts/smoke/phase3-20261023/measure-2/active.jsonl": "5359628ec5a674fa4d4e11f6930a8e09729ac928f1734ba498d7fbf6fdb4acda",
+    "/root/projects/decision/experiments/orsharc/artifacts/smoke/phase3-20261023/measure-2/reloaded.jsonl": "6e662b2aa095598c2cbaf2ad4bc898b918001f597bc954e4cf148c5de2cf5ca3",
+    "/root/projects/decision/experiments/orsharc/artifacts/smoke/phase3-20261023/measure-2/merged.jsonl": "4013287adb2d6b79a1229e2bfde28752caae52f63c2a2bcb43a1b70aa081f0d2",
+    "/root/projects/decision/experiments/orsharc/artifacts/smoke/phase3-20261023/measure-2/parity.json": "3a6d78fdd3a7ba440923437cef5e95a2f7536d8781fe1f07876179eabc17eece",
+    "/root/projects/decision/experiments/orsharc/artifacts/smoke/phase3-20261023/measure-2/profile.json": "3785c4fc3db1d0091c332887b96cca9583b61b5433af77e97a9a5632e9d95dd4",
+    "/root/projects/decision/experiments/orsharc/artifacts/smoke/phase3-20261023/measure-2/serving.json": "09c44e329bea76a41bfe62b2fa5674895517728a84b6201d9efbf423fcc504e8",
+    "/root/projects/decision/experiments/orsharc/artifacts/smoke/phase3-20261023/measure-2/merge-diagnostic.json": "14b8a35ddcc4b956c05f9906e7b7660eaee4f03267ffc7ad3bbdae10481796d3",
+    "/root/projects/decision/experiments/orsharc/artifacts/smoke/phase3-20261023/measure-2/fp32-active.jsonl": "c88c5a043716d9e5acf66a41eab8a4bc1bf6b24eca98d53d51278f84de869114",
+    "/root/projects/decision/experiments/orsharc/artifacts/smoke/phase3-20261023/measure-2/fp32-merged-memory.jsonl": "4796a4f3ed2572dc080106d2d8020a5d637b594611994c8954aef6a791fbb8a9",
+    "/root/projects/decision/experiments/orsharc/artifacts/smoke/phase3-20261023/measure-2/fp32-merged-reloaded.jsonl": "d4a413b4c72c1b4e6d2d8b05bf4606e7e85acec8b2ec17524a3b206a89bca207",
+    "/root/projects/decision/experiments/orsharc/artifacts/smoke/phase3-20261023/measure-2/fp32-probe.json": "e92534a27b4f6627241f0a51e7ef9204b3fd4fc7bf246315152dd81454a7a577",
+    "/root/projects/decision/experiments/orsharc/artifacts/smoke/phase3-20261023/measure-2/reload-diagnostic.json": "0f313a6ecb323e93afc4aa3e6c607a7cc67bfd94c0b54098b49397286c553c06",
+    "/root/projects/decision/experiments/orsharc/artifacts/smoke/phase3-20261023/measure-2/missing-attention-merged.jsonl": "431a6b059ab283db1bf7ce2b6dc666bbf08db85990a7f9a83ba5b2e93cc99da7",
+    "/root/projects/decision/experiments/orsharc/artifacts/smoke/phase3-20261023/measure-2/missing-attention-parity.json": "3ff51212f922596a58bea6d3d94b0aac5c6657c468d699fc6c13a330ecf2e5df",
+    "/root/projects/decision/experiments/orsharc/artifacts/smoke/phase3-20261023/measure-2/missing-attention-serving.json": "065f2c01600b0fc78163d0f572eddb760da681631a9e484d931c60ed70d4a74b",
+    "/root/projects/decision/experiments/orsharc/artifacts/smoke/phase3-20261023/measure-2/missing-attention-profile.json": "95e8810b49edba64450e21ca9f9847db76b4c565648f2b26154cc73e41237e82",
+    "/root/projects/decision/experiments/orsharc/artifacts/smoke/phase3-20261023/measure-2/merged-missing-attention-readout.json": "96ea8a5c6ecfc30c20cdd369762db5997c5f4fb9821ce0a0318941343eb5e8ba",
+    "/root/projects/decision/experiments/orsharc/artifacts/smoke/phase3-20261023/measure-2/merged-fp32-missing-attention-readout.json": "96ea8a5c6ecfc30c20cdd369762db5997c5f4fb9821ce0a0318941343eb5e8ba",
+    "/root/projects/decision/experiments/orsharc/artifacts/smoke/phase3-20261023/measure-2/fp32-merged-correct-readout.jsonl": "89271778535e45dca4439303467e71d8ffe5fdc6adb9a2655bcd2424e16e3492",
+    "/root/projects/decision/experiments/orsharc/artifacts/smoke/phase3-20261023/measure-2/serving-strict-002.json": "ac90c061f3d5c0d081f2b9c8866620e8bcff40802044ef7264da55aa35ae09df",
+    "/root/projects/decision/experiments/orsharc/artifacts/smoke/phase3-20261023/measure-2/native/log.jsonl": "87d06237ded4df00c43f3b4fc7751a03e0723d05e6e74a4bc5cd5802e24daaa8",
+    "/root/projects/decision/experiments/orsharc/artifacts/smoke/phase3-20261023/measure-2/native/args.json": "c178c8ea76a08e73ae7a5723a0855a3d2e55a3c02a7541bc9a417450718c70be",
+    "/root/projects/decision/experiments/orsharc/artifacts/smoke/phase3-20261023/measure-2/native/adapter/adapter_config.json": "8d8c257c024c72387524ff61ea2afa2c1e0b178d34a198e3fb6146be1519c2f0",
+    "/root/projects/decision/experiments/orsharc/artifacts/smoke/phase3-20261023/measure-2/native/adapter/adapter_model.safetensors": "782f8c39892387ead431c755d8f95d46c7f882df0d144732bd819426c1aff09f"
+  },
+  "evidence_sha256": "f7c12a9b9d985401b7d1a3b74c8d84f4bbd5d4b2e1a6c1f1e4805f4ca57411f2",
+  "measurement_code_sha256": "f43f90a1bbe08fd75155a333feaba9e817c50cf3cea2b6217528bafe4921d743"
+}

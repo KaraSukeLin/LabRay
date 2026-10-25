@@ -1,0 +1,14 @@
+{
+  "runtime_package": "startlux-decide==1.1.0",
+  "choice_confidence": "(n * max(probabilities) - 1) / (n - 1), clamped to [0,1]; normalized margin above an even split",
+  "score_confidence": "1 - probability-weighted distance from the most likely level divided by the even-spread reference, floored at 0",
+  "choice_sample_formula_matches": 24,
+  "choice_sample_count": 24,
+  "choice_probe_confidence": 0.8869380615107361,
+  "choice_probe_expected": 0.8869380615107361,
+  "choice_probe_matches": true,
+  "score_probe_confidence": 0.5136180033314883,
+  "score_probe_expected": 0.5136180033314883,
+  "score_probe_matches": true,
+  "noul_probe_probability_true": 0.7905236462107262
+}

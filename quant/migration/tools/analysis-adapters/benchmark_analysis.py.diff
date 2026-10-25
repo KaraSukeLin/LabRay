@@ -1,0 +1,11 @@
+--- original/benchmark_analysis.py
++++ migration/benchmark_analysis.py
+@@ -42,7 +42,7 @@
+     rows = []
+     for a in reference:
+         b = other[a['id']]
+-        for key in ['task', 'stratum', 'prompt_token_ids', 'image_sha256']:
++        for key in ['task', 'stratum', 'prompt_token_ids_sha256_json', 'image_sha256']:
+             assert a[key] == b[key], (a['id'], key)
+         right_a, right_b = bool(a['correct']), bool(b['correct'])
+         rows.append(dict(id=a['id'], task=a['task'], stratum=a['stratum'],

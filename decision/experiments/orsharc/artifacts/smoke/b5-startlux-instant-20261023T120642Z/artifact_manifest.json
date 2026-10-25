@@ -1,0 +1,246 @@
+{
+  "schema_version": 1,
+  "created_utc": "2026-10-23T13:03:04.382056+00:00",
+  "files": [
+    {
+      "path": "B5_EQUAL_VRAM_SMOKE.md",
+      "size_bytes": 8144,
+      "sha256": "b775a486986d619d7dc2b179539e332daa75b138e77112f96c907d9da381d22d"
+    },
+    {
+      "path": "paired-results.jsonl",
+      "size_bytes": 17509,
+      "sha256": "a4e17aa652a5589eec4d3dc893b5fbe21ed6f45bfacf99652e2c9e333ce06269"
+    },
+    {
+      "path": "paired_comparison.json",
+      "size_bytes": 3029,
+      "sha256": "0688afd88b058bf482e7735e2f616d968d19eabfbf9a29cc5cf8647d39ba46c2"
+    },
+    {
+      "path": "resource_summary.json",
+      "size_bytes": 4705,
+      "sha256": "2d55afd0bf21d0e0489bddf27cd47c318ec4334f057efff7dbfda10bf24ed820"
+    },
+    {
+      "path": "run_metadata.json",
+      "size_bytes": 8539,
+      "sha256": "3e86bf7aeded50a18f29a2969364dcdc6d2dd2b9fcfbe63ee3e3f495f56a6ce8"
+    },
+    {
+      "path": "runtime/confidence-semantics.json",
+      "size_bytes": 683,
+      "sha256": "3ffe0c210d89b316fdbf3bd93060c0a5a3a58894b9c104d44a16be44047de102"
+    },
+    {
+      "path": "runtime/elephant-gpu-final.csv",
+      "size_bytes": 79455,
+      "sha256": "95120fe286ed32bf8b9c049d9275889fb69ae6cff08e569cc5eecffdcc9cce71"
+    },
+    {
+      "path": "runtime/elephant-results.jsonl",
+      "size_bytes": 12466,
+      "sha256": "e3c35e3ce4b9ecd83adfde45b26d63ae9bd48ad5135877bebe2cab96aa6c0bf2"
+    },
+    {
+      "path": "runtime/elephant-summary.json",
+      "size_bytes": 1776,
+      "sha256": "3cd1aa78ce417823fdea086b57dbbf0175d170794fd206a46706ca8d4e3008b5"
+    },
+    {
+      "path": "runtime/elephant-warmup.json",
+      "size_bytes": 511,
+      "sha256": "1d0d1b1106f5f1f0eaf2009ea390e0173d78136dd77b6379e537c6f0c186f284"
+    },
+    {
+      "path": "runtime/llama-server-final-ready.json",
+      "size_bytes": 226,
+      "sha256": "d96629089b157beba78817a3b2dc271749b02cc6fdf4afbf46c980421491f7f6"
+    },
+    {
+      "path": "runtime/llama-server-final-start.json",
+      "size_bytes": 131,
+      "sha256": "6a5ce367a1fbd4f58fb93d9106f1052a3d1c102361b180db96b5934c1e7caa84"
+    },
+    {
+      "path": "runtime/llama-server-final.log",
+      "size_bytes": 26911,
+      "sha256": "91b91832d0305f59237b7e78583f50c45669f00bd7c971c5ee57bc6a2f457ee5"
+    },
+    {
+      "path": "runtime/llama-server-launcher.sh",
+      "size_bytes": 450,
+      "sha256": "b70c1c559c6f199a4df15859e06340415b7cd5abc25a68908a3854c7d93e0f17"
+    },
+    {
+      "path": "runtime/llama-server-retry1-ready.json",
+      "size_bytes": 226,
+      "sha256": "0fac5283a36dae69f1239828a75862bc7cd49b7ab42eea3645c287e09ddbb87d"
+    },
+    {
+      "path": "runtime/llama-server-retry1-start.json",
+      "size_bytes": 130,
+      "sha256": "f7ee0ae81b3cb4da42a5fc101aac809730506a17c98205b560ab0d549cb638a0"
+    },
+    {
+      "path": "runtime/llama-server-retry1.log",
+      "size_bytes": 908,
+      "sha256": "2df6e49a7f5c95b2edb93577024a9423df3e7937fa17a5e09c6b3e7f150e5c8c"
+    },
+    {
+      "path": "runtime/llama-server-retry2-ready.json",
+      "size_bytes": 227,
+      "sha256": "af580c7597cc478fc9c3f0f3e65dc997490d83598b35f87e388ea6228dce7ba4"
+    },
+    {
+      "path": "runtime/llama-server-retry2-start.json",
+      "size_bytes": 129,
+      "sha256": "33a89d50f3d6d48fda27c7def91d1097b30e2ffd463224561d7b87d9fff7bde3"
+    },
+    {
+      "path": "runtime/llama-server-retry2.log",
+      "size_bytes": 775779,
+      "sha256": "334d593866fe13fded4af8ee45c6e9e1ea027bdea84d113d81293706e077809a"
+    },
+    {
+      "path": "runtime/llama-server-start.json",
+      "size_bytes": 130,
+      "sha256": "bb2e2e18de12c054e857b9251164c4a82b08640ea2b20aaa111d6444413e8c10"
+    },
+    {
+      "path": "runtime/llama-server.log",
+      "size_bytes": 1368,
+      "sha256": "2b8b30ada819722a1f201d3d54640619c110f4b766f71583a3742af80dd084ae"
+    },
+    {
+      "path": "runtime/run_startlux_requests.py",
+      "size_bytes": 6914,
+      "sha256": "dba24f8821cd586039487d33e3070ff056ab40f9823753ad3691cc6544f70327"
+    },
+    {
+      "path": "runtime/startlux-access-final.jsonl",
+      "size_bytes": 8910,
+      "sha256": "d3e9b2bb914eeed42d8698cfeec57df8c6275d3e6c75f1e3f0b6399fe5a8b08f"
+    },
+    {
+      "path": "runtime/startlux-access.jsonl",
+      "size_bytes": 680,
+      "sha256": "fb3030ac57268047b80716a714a1d94fe3a271aba454be38447fe328ba006360"
+    },
+    {
+      "path": "runtime/startlux-gpu-final.csv",
+      "size_bytes": 446000,
+      "sha256": "9fe2768ab3e02032311ac688c1e7e4a6b7fdae729ccabd351c6363705a9ca2de"
+    },
+    {
+      "path": "runtime/startlux-gpu-retry1.csv",
+      "size_bytes": 372588,
+      "sha256": "b75cdb2fc3732f43589e6e4037b4ae736c85dee4a87eec9efbccf5d1819855e6"
+    },
+    {
+      "path": "runtime/startlux-gpu-retry2.csv",
+      "size_bytes": 425844,
+      "sha256": "39103ee8a678d712e43d84cc9f50ba779885062cd3251c85a98731b18fbe70ca"
+    },
+    {
+      "path": "runtime/startlux-gpu.csv",
+      "size_bytes": 107618,
+      "sha256": "5972e7247cd784beda75655f0e8d0d26e8f608a22897785e2432a4bc0d66149e"
+    },
+    {
+      "path": "runtime/startlux-process-final.json",
+      "size_bytes": 596,
+      "sha256": "7e5cbf086bfcf15d886c5601163e702b40ffaa33d656f2a15a6b4887c55a8301"
+    },
+    {
+      "path": "runtime/startlux-results.jsonl",
+      "size_bytes": 32990,
+      "sha256": "2cf7e300a0e76fe26df40228aa697e59a5f8be37dd7210b19bd0dbd8b1cdef60"
+    },
+    {
+      "path": "runtime/startlux-server-final-ready.json",
+      "size_bytes": 811,
+      "sha256": "eff1e0f0d508b909b92df8aeb8b58a8be999a0b09674674e843448145f8be292"
+    },
+    {
+      "path": "runtime/startlux-server-final-start.json",
+      "size_bytes": 131,
+      "sha256": "0e63d161cda887decf2977b9dfa228fb213dfbae5f88c67db892fd4a714f14bf"
+    },
+    {
+      "path": "runtime/startlux-server-final.log",
+      "size_bytes": 551,
+      "sha256": "b9978a589b402eeb5ba0fb9b02704cac7e4188e73abc18464da6807430a32157"
+    },
+    {
+      "path": "runtime/startlux-server-retry1-start.json",
+      "size_bytes": 130,
+      "sha256": "dac0fbe5607540a727b036f7a295cc87a189ccb9663252f585e744f0a424d683"
+    },
+    {
+      "path": "runtime/startlux-server-retry1.log",
+      "size_bytes": 551,
+      "sha256": "35e820517b5600a02c4449a540ad28dfde074cc83f463053786cf7c82cb42b5f"
+    },
+    {
+      "path": "runtime/startlux-server-start.json",
+      "size_bytes": 131,
+      "sha256": "ea2f0596e5b8e888448d258135601ee0074432b214958bca9daab9f5ab70f4ca"
+    },
+    {
+      "path": "runtime/startlux-server.log",
+      "size_bytes": 4035,
+      "sha256": "6b0183ddedb3f431dfc0eaae78bb5e00d39759babef8aa6afcc2c305f03baae9"
+    },
+    {
+      "path": "runtime/startlux-summary.json",
+      "size_bytes": 3244,
+      "sha256": "07258939778e6047e86c02087b46ea51e343207210c4a0e72d3b2fa827d4bf69"
+    },
+    {
+      "path": "runtime/startlux-type-probe.json",
+      "size_bytes": 3111,
+      "sha256": "ad7acf4900e2aa9022417d8b090163b34c14e0265c0390f0712d101ad5406844"
+    },
+    {
+      "path": "runtime/startlux-warmup-debug.json",
+      "size_bytes": 1296,
+      "sha256": "d5036a91fb85e8ef822e7dee17d9aca77fab989cbfd7bd7931bfe41c0ec263eb"
+    },
+    {
+      "path": "runtime/startlux-warmup-final.json",
+      "size_bytes": 1289,
+      "sha256": "6cae2719d5bb541601942d69005b4d0f29e96f5f6e8d608cf4ab0a7421dec178"
+    },
+    {
+      "path": "runtime/startlux-warmup.json",
+      "size_bytes": 1296,
+      "sha256": "d5036a91fb85e8ef822e7dee17d9aca77fab989cbfd7bd7931bfe41c0ec263eb"
+    },
+    {
+      "path": "runtime/worker_elephant.py",
+      "size_bytes": 5728,
+      "sha256": "4036540c842208b6484f9d7f658d507ddbd8f53682a24f81d23bc69f031e84d6"
+    },
+    {
+      "path": "runtime-install-retry.log",
+      "size_bytes": 1454,
+      "sha256": "af3eda3eebd556e575702904e34fcb70c18ca2d22692e2e01a6f73b062cd2808"
+    },
+    {
+      "path": "runtime-install.log",
+      "size_bytes": 260,
+      "sha256": "559cf266a9e183b22e85e0bf8da1ebc030a4d772e66d5d1ca3c7889145360172"
+    },
+    {
+      "path": "sample_selection.json",
+      "size_bytes": 929,
+      "sha256": "ef2caa173db0e5bb53813d04069bdb929c94842a5fecbd7944c292cb421a4770"
+    },
+    {
+      "path": "samples.jsonl",
+      "size_bytes": 27468,
+      "sha256": "648314b2949cb6a003ca9e0183ec4ff6a40decb2c2b69ae61908850a2b480f97"
+    }
+  ]
+}

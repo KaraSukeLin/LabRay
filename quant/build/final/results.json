@@ -1,0 +1,569 @@
+[
+  {
+    "model": "Qwen-Qwen3.8-27B",
+    "model_path": "/root/model/Qwen-Qwen3.8-27B",
+    "status": "ok",
+    "environment": {
+      "vllm": "0.31.0+cu129",
+      "torch": "2.13.0+cu129",
+      "transformers": "5.17.0",
+      "compressed-tensors": "0.17.0"
+    },
+    "gpu": "NVIDIA H100 80GB HBM3",
+    "cuda": "12.9",
+    "mtp": false,
+    "kv_cache_dtype": "bfloat16",
+    "quant_method": "none",
+    "loaded": true,
+    "tokens": 432,
+    "ppl": 12.943072381460716,
+    "reference_ppl": 12.943072381460716,
+    "ppl_delta": 0.0,
+    "kl_bf16_to_candidate": 0.0,
+    "top1_flip_rate": 0.0,
+    "vocab_size": 248320,
+    "distribution_sha256": [
+      "d9449dc0ee9f7d0fea629f529beae09a3c7e2063ffbb08673de93bf1b609914a",
+      "d203680e2828ccc06c94127260966ed3c520118d736299a8b22286738362f394",
+      "da7c592b2d5a9f7a21d6ab48bc5b44ee45814a4d21835da326eab8d69c3ce1d5",
+      "d7b868e5f3c4730e90e31c3622f3bd63b748c16009d1b611d1447aa4e6683a1d",
+      "3f80d5f8b2fea1eea93b817053484ca8f9e1618771e875b85386211b129680b4",
+      "fc9c81066b67a53808cdc8757d4a972d39a1bf8434f91e6c9428203104963e2a",
+      "e3ab60a0adb7ef36738e7db47710d63d1d96c3cc7300b8dd01f767fc29f2d9f3",
+      "3c08f40285317a47292f88ef1a1eb9b5bf2755a9c2a89006618157c606fbc572"
+    ],
+    "basic_inference_token_ids": [
+      [
+        3113
+      ],
+      [
+        271
+      ],
+      [
+        314
+      ],
+      [
+        561
+      ],
+      [
+        271
+      ],
+      [
+        271
+      ],
+      [
+        271
+      ],
+      [
+        271
+      ]
+    ],
+    "elapsed_seconds": 71.20312976837158,
+    "run": "bf16_reference",
+    "worker_exit_code": 0
+  },
+  {
+    "model": "Qwen-Qwen3.8-27B",
+    "model_path": "/root/model/Qwen-Qwen3.8-27B",
+    "status": "ok",
+    "environment": {
+      "vllm": "0.31.0+cu129",
+      "torch": "2.13.0+cu129",
+      "transformers": "5.17.0",
+      "compressed-tensors": "0.17.0"
+    },
+    "gpu": "NVIDIA H100 80GB HBM3",
+    "cuda": "12.9",
+    "mtp": false,
+    "kv_cache_dtype": "bfloat16",
+    "quant_method": "none",
+    "loaded": true,
+    "tokens": 432,
+    "ppl": 12.943072381460716,
+    "reference_ppl": 12.943072381460716,
+    "ppl_delta": 0.0,
+    "kl_bf16_to_candidate": 0.0,
+    "top1_flip_rate": 0.0,
+    "vocab_size": 248320,
+    "distribution_sha256": [
+      "d9449dc0ee9f7d0fea629f529beae09a3c7e2063ffbb08673de93bf1b609914a",
+      "d203680e2828ccc06c94127260966ed3c520118d736299a8b22286738362f394",
+      "da7c592b2d5a9f7a21d6ab48bc5b44ee45814a4d21835da326eab8d69c3ce1d5",
+      "d7b868e5f3c4730e90e31c3622f3bd63b748c16009d1b611d1447aa4e6683a1d",
+      "3f80d5f8b2fea1eea93b817053484ca8f9e1618771e875b85386211b129680b4",
+      "fc9c81066b67a53808cdc8757d4a972d39a1bf8434f91e6c9428203104963e2a",
+      "e3ab60a0adb7ef36738e7db47710d63d1d96c3cc7300b8dd01f767fc29f2d9f3",
+      "3c08f40285317a47292f88ef1a1eb9b5bf2755a9c2a89006618157c606fbc572"
+    ],
+    "basic_inference_token_ids": [
+      [
+        3113
+      ],
+      [
+        271
+      ],
+      [
+        314
+      ],
+      [
+        561
+      ],
+      [
+        271
+      ],
+      [
+        271
+      ],
+      [
+        271
+      ],
+      [
+        271
+      ]
+    ],
+    "elapsed_seconds": 71.47316813468933,
+    "run": "bf16_repeat",
+    "worker_exit_code": 0
+  },
+  {
+    "model": "Qwen-Qwen3.8-27B-FP8",
+    "model_path": "/root/model/Qwen-Qwen3.8-27B-FP8",
+    "status": "ok",
+    "environment": {
+      "vllm": "0.31.0+cu129",
+      "torch": "2.13.0+cu129",
+      "transformers": "5.17.0",
+      "compressed-tensors": "0.17.0"
+    },
+    "gpu": "NVIDIA H100 80GB HBM3",
+    "cuda": "12.9",
+    "mtp": false,
+    "kv_cache_dtype": "bfloat16",
+    "quant_method": "fp8",
+    "loaded": true,
+    "tokens": 432,
+    "ppl": 12.96038273480118,
+    "reference_ppl": 12.943072381460716,
+    "ppl_delta": 0.0173103533404646,
+    "kl_bf16_to_candidate": 0.003925763022808419,
+    "top1_flip_rate": 0.06481481481481481,
+    "vocab_size": 248320,
+    "distribution_sha256": [
+      "aec1b0da722fcd9dd0535af81d35a9788737f473b4f7049b75b0b99cbc835ce7",
+      "d8f98ea34329adc0a5a8ac5578631e7eba02d0ff51e9016c1f10eafd7e4acfa7",
+      "5d2985ed5fc659af88416fd37794c876e86ab7cf739ad550cd1ac9d59c1f2741",
+      "726fc0467d452578e6ba4f67268c6fea2891a1046b741d2ed4dbb32065d166f6",
+      "24f18462242d2523afb833db0abf1211f52d7e1e177b9b0cc4a9fd47ff39ef34",
+      "28a33cd388fb142e6342537139ee1f6ab5ddbe071c73a3a4b6faae3c62e71920",
+      "afddfb8c43b956123df6fee3fbfa2119cd97d824750cc1270b0f7f8f36c53c9f",
+      "2afa42d107213aab5a1eef46f6ba2b3e6392fc9a05660872b174e5a847c0efd6"
+    ],
+    "basic_inference_token_ids": [
+      [
+        3113
+      ],
+      [
+        271
+      ],
+      [
+        314
+      ],
+      [
+        561
+      ],
+      [
+        271
+      ],
+      [
+        271
+      ],
+      [
+        271
+      ],
+      [
+        271
+      ]
+    ],
+    "elapsed_seconds": 65.76546025276184,
+    "run": "Qwen-Qwen3.8-27B-FP8",
+    "worker_exit_code": 0
+  },
+  {
+    "model": "RadixArk-Qwen3.8-27B-NVFP4",
+    "model_path": "/root/model/RadixArk-Qwen3.8-27B-NVFP4",
+    "status": "ok",
+    "environment": {
+      "vllm": "0.31.0+cu129",
+      "torch": "2.13.0+cu129",
+      "transformers": "5.17.0",
+      "compressed-tensors": "0.17.0"
+    },
+    "gpu": "NVIDIA H100 80GB HBM3",
+    "cuda": "12.9",
+    "mtp": false,
+    "kv_cache_dtype": "bfloat16",
+    "quant_method": "modelopt",
+    "loaded": true,
+    "tokens": 432,
+    "ppl": 12.978358331259404,
+    "reference_ppl": 12.943072381460716,
+    "ppl_delta": 0.03528594979868771,
+    "kl_bf16_to_candidate": 0.028370775587747945,
+    "top1_flip_rate": 0.10185185185185185,
+    "vocab_size": 248320,
+    "distribution_sha256": [
+      "658d7b98ec8b858d794fd023c447c71ea6e7da60087ac6643a68d75e905b6871",
+      "023bd98753d62a5b85cf7f882c847b8725290e60540a45330e90361d3d7331fd",
+      "4cebcc5e603c584d439bebd4ac335cf73f45ac3080671476efb90719ec62ed99",
+      "dba7d242342e1913f9ddebc48150433e6ecb85c1b4f1ecc742b3ef802c4c575d",
+      "05eeaf54ab2beab962751a0d86bdc6e5defdc4db1c9a382bdad4df28311ecd43",
+      "b8a40078b0ec901d90b9d33fa82f8725dbc63d8e63db47581eee64a675f7be67",
+      "a8cc778cee35be09f0c96434b6b376be4e2c0f5b50b7579db2468795111e32bb",
+      "5c3db0170e94e99a3a1538444e7b024e50f591c94632831863b69a83c23f6469"
+    ],
+    "basic_inference_token_ids": [
+      [
+        3113
+      ],
+      [
+        271
+      ],
+      [
+        314
+      ],
+      [
+        561
+      ],
+      [
+        271
+      ],
+      [
+        271
+      ],
+      [
+        271
+      ],
+      [
+        271
+      ]
+    ],
+    "elapsed_seconds": 64.65354204177856,
+    "run": "RadixArk-Qwen3.8-27B-NVFP4",
+    "worker_exit_code": 0
+  },
+  {
+    "model": "RadixArk-Qwen3.8-27B-NVFP4-BF16-LMHead",
+    "model_path": "/root/model/RadixArk-Qwen3.8-27B-NVFP4-BF16-LMHead",
+    "status": "ok",
+    "environment": {
+      "vllm": "0.31.0+cu129",
+      "torch": "2.13.0+cu129",
+      "transformers": "5.17.0",
+      "compressed-tensors": "0.17.0"
+    },
+    "gpu": "NVIDIA H100 80GB HBM3",
+    "cuda": "12.9",
+    "mtp": false,
+    "kv_cache_dtype": "bfloat16",
+    "quant_method": "modelopt",
+    "loaded": true,
+    "tokens": 432,
+    "ppl": 12.94757018092131,
+    "reference_ppl": 12.943072381460716,
+    "ppl_delta": 0.004497799460594365,
+    "kl_bf16_to_candidate": 0.017198969634570464,
+    "top1_flip_rate": 0.08101851851851852,
+    "vocab_size": 248320,
+    "distribution_sha256": [
+      "2a0cc45e3a8f349bbfcf3a6be88db394addbb2988a23a7467f0fcabcc5402336",
+      "bb72b71b4f595a31a60951ae76473a9b4100e5f02e427efde3b540aaf5d20697",
+      "b0945b57b2d8ba9500839a514e39a541dcb8619964e43ea04ae6ab07f277727e",
+      "14d1c0c13bdd0653e79ce21ecfd560122e5b0e1fc2f3aa75ab83eaa838e47c8f",
+      "eff80b04489f03deb1a661261eea90a460d87b7300c22d2476d48d6e1f80551a",
+      "b090bc24475544639e909bb44eed19c5c946ae65acbbf378b1bd5598393af5b8",
+      "f35ae9508c86cdf0d983304dd84a90d8945b5e80dc65ed1a232dc3778d3bcfa5",
+      "0ea7d906a47aa9ff5bb297b66b343803f839fdcc0566d21b8dbddf8c3f610038"
+    ],
+    "basic_inference_token_ids": [
+      [
+        3113
+      ],
+      [
+        271
+      ],
+      [
+        314
+      ],
+      [
+        561
+      ],
+      [
+        271
+      ],
+      [
+        271
+      ],
+      [
+        271
+      ],
+      [
+        271
+      ]
+    ],
+    "elapsed_seconds": 64.66777658462524,
+    "run": "RadixArk-Qwen3.8-27B-NVFP4-BF16-LMHead",
+    "worker_exit_code": 0
+  },
+  {
+    "model": "RedHatAI-Qwen3.8-27B-NVFP4",
+    "model_path": "/root/model/RedHatAI-Qwen3.8-27B-NVFP4",
+    "status": "ok",
+    "environment": {
+      "vllm": "0.31.0+cu129",
+      "torch": "2.13.0+cu129",
+      "transformers": "5.17.0",
+      "compressed-tensors": "0.17.0"
+    },
+    "gpu": "NVIDIA H100 80GB HBM3",
+    "cuda": "12.9",
+    "mtp": false,
+    "kv_cache_dtype": "bfloat16",
+    "quant_method": "compressed-tensors",
+    "loaded": true,
+    "tokens": 432,
+    "ppl": 13.00634535299848,
+    "reference_ppl": 12.943072381460716,
+    "ppl_delta": 0.06327297153776357,
+    "kl_bf16_to_candidate": 0.013881660665360932,
+    "top1_flip_rate": 0.08796296296296297,
+    "vocab_size": 248320,
+    "distribution_sha256": [
+      "8156331f73db47cb60352d0d73d566df8afe09628a0a47a6a3409e41f8154ca6",
+      "0a6d10f6ae48b5d2ec6c891783d5e3ee486221d97d0d5e11cc99780511dce49d",
+      "e45f63a55095d26f9740413d3ebb2b22a193a73c8c2afa06cbeb83641c51fbb8",
+      "c9f56680c6003081a7171eaf77d8a849717ef1144cfea08f46dd186d990aaf1d",
+      "51b614885fdd0f20a106a0b0da0ea07e03fe85914a16921c0d070787c75f6d31",
+      "6fe8346c57407911e88a1ecc52ba558dc5d2c873bd33cf53cfbc83d797a1523a",
+      "63aff7c959511e4cde587eb2f807acf7e66b28d2dabe61d9ad6b422526f21dc3",
+      "25aceee5452e3078b7de3eff98d1ef6f3bb4d98f55927dea395400f7cc776088"
+    ],
+    "basic_inference_token_ids": [
+      [
+        3113
+      ],
+      [
+        271
+      ],
+      [
+        314
+      ],
+      [
+        561
+      ],
+      [
+        271
+      ],
+      [
+        271
+      ],
+      [
+        271
+      ],
+      [
+        271
+      ]
+    ],
+    "elapsed_seconds": 65.30958986282349,
+    "run": "RedHatAI-Qwen3.8-27B-NVFP4",
+    "worker_exit_code": 0
+  },
+  {
+    "model": "eNeural-Qwen3.8-27B-fast",
+    "model_path": "/root/model/eNeural-Qwen3.8-27B-fast",
+    "status": "ok",
+    "environment": {
+      "vllm": "0.31.0+cu129",
+      "torch": "2.13.0+cu129",
+      "transformers": "5.17.0",
+      "compressed-tensors": "0.17.0"
+    },
+    "gpu": "NVIDIA H100 80GB HBM3",
+    "cuda": "12.9",
+    "mtp": false,
+    "kv_cache_dtype": "bfloat16",
+    "quant_method": "compressed-tensors",
+    "loaded": true,
+    "tokens": 432,
+    "ppl": 13.029175520971611,
+    "reference_ppl": 12.943072381460716,
+    "ppl_delta": 0.08610313951089488,
+    "kl_bf16_to_candidate": 0.015567088232158988,
+    "top1_flip_rate": 0.0787037037037037,
+    "vocab_size": 248320,
+    "distribution_sha256": [
+      "1bc2c685e18c5cbaa2eab7066bf1aa32d624ce1b275e556f290ce194ea00a1f2",
+      "bf5f569d909d3589924cfd0c64b2543ab224f9c4e36b3358acd937615bc65018",
+      "06fa2411b2491c4c32e5fffbeb7457f6171703b3c0f73c78bc8771d0679a96e6",
+      "c068a2e7d5041be2ac888ce7450984e200a93b5ad21a8ffa889b3fe28583484c",
+      "6841fd95de80cf13f35d172a3a5f092b56bcf9c26b79a06df05aefdbbbe81109",
+      "77cc3c5cd231a3101e834c20467054e1ce14dfd953d6d6e7cd7f577f5dc7b0b2",
+      "16260321f054b3e62571dd3ac749e44f6f5e89a9abbe7d1ad5a24c3bcc6451a0",
+      "27d3be3331677501d6709ee84fb7afd6d297e666bf0173b0de248dc8b2f62765"
+    ],
+    "basic_inference_token_ids": [
+      [
+        3113
+      ],
+      [
+        271
+      ],
+      [
+        314
+      ],
+      [
+        561
+      ],
+      [
+        271
+      ],
+      [
+        271
+      ],
+      [
+        271
+      ],
+      [
+        271
+      ]
+    ],
+    "elapsed_seconds": 66.14275336265564,
+    "run": "eNeural-Qwen3.8-27B-fast",
+    "worker_exit_code": 0
+  },
+  {
+    "model": "nvidia-Qwen3.8-27B-NVFP4",
+    "model_path": "/root/model/nvidia-Qwen3.8-27B-NVFP4",
+    "status": "ok",
+    "environment": {
+      "vllm": "0.31.0+cu129",
+      "torch": "2.13.0+cu129",
+      "transformers": "5.17.0",
+      "compressed-tensors": "0.17.0"
+    },
+    "gpu": "NVIDIA H100 80GB HBM3",
+    "cuda": "12.9",
+    "mtp": false,
+    "kv_cache_dtype": "bfloat16",
+    "quant_method": "modelopt",
+    "loaded": true,
+    "tokens": 432,
+    "ppl": 12.876725789172959,
+    "reference_ppl": 12.943072381460716,
+    "ppl_delta": -0.06634659228775774,
+    "kl_bf16_to_candidate": 0.018389296713293656,
+    "top1_flip_rate": 0.09722222222222222,
+    "vocab_size": 248320,
+    "distribution_sha256": [
+      "251422fe107528a6c740ef5671e8a3cfb32078b5d2b097950751db3e7e59aa5a",
+      "644d9a1b74bfef9af3f7b473846b984485f2c8ddfa3364c3f3359378d2121308",
+      "3f9b4b4a711795e15eb3f29194def2fdda29120825eea4ce99a19dd4e9ac9372",
+      "f57c8ea133c9d9e7c9b5dbbb3c6c88cd3b0d2498a16fca5f59df9a769ca7d925",
+      "3e8db88cc3cc6eb16b4cbd22f6d6af42ab7b59733506f20b22c1b4ba2c3b015f",
+      "9a795e7aa644b0a23eafe69fac2268b158b348e7703dc77b978222cfb1fab5fa",
+      "386965f9adca51e11413f484b4170d137193a7d3b299ec1ae99424bbd799eee7",
+      "835cd5439b0ff04ca6c178f33d63daa9c670230aad765740fdf199470aa472cb"
+    ],
+    "basic_inference_token_ids": [
+      [
+        3113
+      ],
+      [
+        271
+      ],
+      [
+        314
+      ],
+      [
+        561
+      ],
+      [
+        271
+      ],
+      [
+        271
+      ],
+      [
+        271
+      ],
+      [
+        271
+      ]
+    ],
+    "elapsed_seconds": 64.96729350090027,
+    "run": "nvidia-Qwen3.8-27B-NVFP4",
+    "worker_exit_code": 0
+  },
+  {
+    "model": "unsloth-Qwen3.8-27B-NVFP4",
+    "model_path": "/root/model/unsloth-Qwen3.8-27B-NVFP4",
+    "status": "ok",
+    "environment": {
+      "vllm": "0.31.0+cu129",
+      "torch": "2.13.0+cu129",
+      "transformers": "5.17.0",
+      "compressed-tensors": "0.17.0"
+    },
+    "gpu": "NVIDIA H100 80GB HBM3",
+    "cuda": "12.9",
+    "mtp": false,
+    "kv_cache_dtype": "bfloat16",
+    "quant_method": "compressed-tensors",
+    "loaded": true,
+    "tokens": 432,
+    "ppl": 12.926735260898743,
+    "reference_ppl": 12.943072381460716,
+    "ppl_delta": -0.016337120561972895,
+    "kl_bf16_to_candidate": 0.013861838804902842,
+    "top1_flip_rate": 0.08564814814814815,
+    "vocab_size": 248320,
+    "distribution_sha256": [
+      "5ffd788c38974f080e99cc165cb24e0c4114cff3bc8fa80ce52b5f94467c27c3",
+      "c748ef6906d5d55ec882559ea9ea0c040229f8917932eb2e7c9b8f5c625ae234",
+      "8571e8096a198556750cdd8bc67f8c20255b819e960d30ece73e6b43ff9c47be",
+      "8904eb828204f8d8f6d68f1b33abaae284cbaec30c7f172c4474c10779d496fd",
+      "4ef035d25090a1dcec61da453fcd3f9b5c271fb7f54985f6f027789f6b842dbe",
+      "b8abab63f0a1395d305121f8a698821a25ace2ba998926c122cff698b7f7b7be",
+      "0c8250c75c909fee5f289ab0d8ca49779702582e6d21c08004d54e48ea9b8c44",
+      "23492ae3bb72f37a6c47fd97398911b38a4ab8e64e5557e097ba56e2cb6c9cdc"
+    ],
+    "basic_inference_token_ids": [
+      [
+        561
+      ],
+      [
+        271
+      ],
+      [
+        314
+      ],
+      [
+        561
+      ],
+      [
+        271
+      ],
+      [
+        271
+      ],
+      [
+        271
+      ],
+      [
+        271
+      ]
+    ],
+    "elapsed_seconds": 65.50438666343689,
+    "run": "unsloth-Qwen3.8-27B-NVFP4",
+    "worker_exit_code": 0
+  }
+]

@@ -1,0 +1,52 @@
+{
+  "sample_id": "73f6255a66ab43c03cb0fefe77e7131fce0925a4",
+  "warmup": true,
+  "http_status": 200,
+  "wall_seconds": 0.15026690438389778,
+  "response": {
+    "answers": {
+      "decision": {
+        "type": "choice",
+        "choice": "No",
+        "confidence": 0.8869380615107361,
+        "probabilities": {
+          "Yes": 0.009384359997490752,
+          "No": 0.9246253743404907,
+          "Inquire": 0.0659902656620184
+        },
+        "details": {
+          "first_pass": {
+            "probabilities": {
+              "Yes": 0.009384359997490752,
+              "No": 0.9246253743404907,
+              "Inquire": 0.0659902656620184
+            },
+            "top": 0.9246253743404907,
+            "ms": 145.798
+          },
+          "thought": {
+            "used": false,
+            "tokens": 0,
+            "ended": "skipped",
+            "ms": 0.0
+          },
+          "after_thought": null,
+          "gate": null,
+          "mix": null,
+          "total_ms": 146.923
+        }
+      }
+    },
+    "usage": {
+      "input_tokens": 190,
+      "output_tokens": 0
+    },
+    "model": "StartLux-Decision-v1.1-27B-Instant-Q4_K_M",
+    "timing_ms": {
+      "wall": 147.19,
+      "first_pass_sum": 145.798,
+      "thought_span": 0.0,
+      "after_thought_sum": 0.0
+    }
+  }
+}

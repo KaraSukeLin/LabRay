@@ -1,0 +1,32 @@
+{
+    "results": {
+        "tool": {
+            "name": "pytest",
+            "version": "8.4.1"
+        },
+        "summary": {
+            "tests": 1,
+            "passed": 0,
+            "failed": 1,
+            "skipped": 0,
+            "pending": 0,
+            "other": 0,
+            "start": 1792605853.1915493,
+            "stop": 1792605889.5977697
+        },
+        "tests": [
+            {
+                "name": "test_outputs.py::test_out_html_bypasses_filter",
+                "status": "failed",
+                "raw_status": "call_failed",
+                "duration": 35.07955161109567,
+                "start": 1792605854.0214052,
+                "stop": 1792605889.5973208,
+                "retries": 0,
+                "file_path": "test_outputs.py",
+                "trace": "def test_out_html_bypasses_filter():\n        \"\"\"Test that out.html still triggers an alert after being filtered.\"\"\"\n        import subprocess\n    \n        out_path = Path(\"/app/out.html\")\n    \n        # First check the file exists\n        assert out_path.exists(), f\"File {out_path} does not exist\"\n    \n        # Create a temporary copy of the file to filter\n        with tempfile.NamedTemporaryFile(mode=\"w\", suffix=\".html\", delete=False) as f:\n            # Copy the original content to temp file\n            f.write(out_path.read_text())\n            filtered_path = Path(f.name)\n    \n        # Apply the filter using command-line interface (modifies file in-place)\n        result = subprocess.run(\n            [\"python\", \"/tests/filter.py\", str(filtered_path)],\n            capture_output=True,\n            text=True,\n        )\n    \n        # Check if filter ran successfully\n        assert result.returncode == 0, f\"Filter failed with error: {result.stderr}\"\n    \n        # Setup Chrome options for headless mode\n        chrome_options = Options()\n        chrome_options.add_argument(\"--headless\")\n        chrome_options.add_argument(\"--no-sandbox\")\n        chrome_options.add_argument(\"--disable-dev-shm-usage\")\n        chrome_options.add_argument(\"--disable-gpu\")\n        chrome_options.add_argument(\"--window-size=1920,1080\")\n    \n        # Use Chromium as Chrome\n        chrome_options.binary_location = \"/usr/bin/chromium\"\n    \n        # Initialize the Chrome driver with explicit service\n        driver = None\n        alert_detected = False\n        alert_text = None\n    \n        try:\n            service = Service(executable_path=\"/usr/bin/chromedriver\")\n>           driver = webdriver.Chrome(service=service, options=chrome_options)\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n\n/tests/test_outputs.py:61: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n/root/.cache/uv/archive-v0/B0RmYZ0H-aqvFbif0Ugb4/lib/python3.13/site-packages/selenium/webdriver/chrome/webdriver.py:47: in __init__\n    super().__init__(\n/root/.cache/uv/archive-v0/B0RmYZ0H-aqvFbif0Ugb4/lib/python3.13/site-packages/selenium/webdriver/chromium/webdriver.py:58: in __init__\n    self.service.start()\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <selenium.webdriver.chrome.service.Service object at 0x7fb3aa1201a0>\n\n    def start(self) -> None:\n        \"\"\"Starts the Service.\n    \n        :Exceptions:\n         - WebDriverException : Raised either when it can't start the service\n           or when it can't connect to the service\n        \"\"\"\n        if self._path is None:\n            raise WebDriverException(\"Service path cannot be None.\")\n        self._start_process(self._path)\n    \n        count = 0\n        while True:\n            self.assert_process_still_running()\n            if self.is_connectable():\n                break\n            # sleep increasing: 0.01, 0.06, 0.11, 0.16, 0.21, 0.26, 0.31, 0.36, 0.41, 0.46, 0.5\n            sleep(min(0.01 + 0.05 * count, 0.5))\n            count += 1\n            if count == 70:\n>               raise WebDriverException(f\"Can not connect to the Service {self._path}\")\nE               selenium.common.exceptions.WebDriverException: Message: Can not connect to the Service /usr/bin/chromedriver\n\n/root/.cache/uv/archive-v0/B0RmYZ0H-aqvFbif0Ugb4/lib/python3.13/site-packages/selenium/webdriver/common/service.py:115: WebDriverException",
+                "message": "The test failed in the call phase due to an exception"
+            }
+        ]
+    }
+}

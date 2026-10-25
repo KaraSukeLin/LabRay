@@ -1,0 +1,4 @@
+{
+  "time": 1792713394.2687514,
+  "error": "CalledProcessError: Command '['/root/projects/quant/.vllm-venv/bin/python', '/root/projects/quant/src/agentic_fidelity.py', 'prepare', '--trajectories', '/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021', '--output', '/root/projects/quant/build/terminal_bench/low_mtp3/formal_three_seed_20261022/agentic_fidelity_prepared', '--seed', '20261020', '--windows-per-task', '4', '--tokens-per-window', '32', '--max-context', '65536']' returned non-zero exit status 1."
+}

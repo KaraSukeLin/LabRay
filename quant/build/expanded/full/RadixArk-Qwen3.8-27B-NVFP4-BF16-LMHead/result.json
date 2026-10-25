@@ -1,0 +1,4643 @@
+{
+  "model": "RadixArk-Qwen3.8-27B-NVFP4-BF16-LMHead",
+  "model_path": "/root/model/RadixArk-Qwen3.8-27B-NVFP4-BF16-LMHead",
+  "status": "ok",
+  "environment": {
+    "vllm": "0.31.0+cu129",
+    "torch": "2.13.0+cu129",
+    "transformers": "5.17.0",
+    "compressed-tensors": "0.17.0"
+  },
+  "gpu": "NVIDIA H100 80GB HBM3",
+  "cuda": "12.9",
+  "mtp": false,
+  "kv_cache_dtype": "bfloat16",
+  "quant_method": "modelopt",
+  "loaded": true,
+  "logprob_format": "dense",
+  "tokens_sha256": "09b41e1a10044975acc579331d3b22ac4ba54f26f89882bb704f6a319d4c2e0d",
+  "source_sha256": "968320f858ef9d18d6e96a553637cabe4a29d8e267cfaad7143a19d9e113a4cd",
+  "v2_model_runner": "1",
+  "tokens": 55296,
+  "ppl": 3.7160237245983363,
+  "reference_ppl": 3.6726965657184056,
+  "ppl_delta": 0.04332715887993066,
+  "kl_bf16_to_candidate": 0.01895551107394224,
+  "top1_flip_rate": 0.04911747685185185,
+  "vocab_size": 248320,
+  "distribution_sha256": [
+    "826f8d985560722631d9443a066070637b873c8c8d06dc13314cacc2d7b1c9b8",
+    "e650fcf84fea93303182dbb8fd0550ff8821f2d24cd364650af5da189b920d0b",
+    "06733d9f4168bd8096a949e51959ac9b8ed28f67056fdb9f00383bbd3c8ded6b",
+    "6b46e883c030cb28bd5c3328be6003770c4834d4d3635615c48d123098f6a4e7",
+    "95a24213823ba2e70ffaa74fbe0f921af6b8cca9d1c074da2773f0ea11165f36",
+    "6f9a1966e61943b5cf24623ad4d6b00c8c81b143423d57ea0a21c17894b1f45d",
+    "83ca299e6f3359dbfa74e10e13dae835a4811a1d1359b0f56024852183256021",
+    "92cd218e17d88f80fe808253a1f66b7c9dba4c1777eb28b03a360494a4e79493",
+    "f007daa581be15273c32aa3e2196670575db722d1f46b4c1f32936c27d969828",
+    "e200f644135dfe887b7d588220fe8fc915b8cc4102b490c2b6abf1cb5e6e1bf7",
+    "c9f8ad7397438b5743973806f3759a8404dff27b13aec9ba536657d168b731f2",
+    "6bd57c4f7bc3506685ec703a1bdaa3e7d9029eb29854c02dd55db2b9bfb2f508",
+    "4819c7c7e09e469a26c19564e84ed17cbb3f98c273cecbe15b4bd2626db54534",
+    "2a763325c38c40e161de5ae547fc34ccff61f57b75fdddb49b721dff0b90e64e",
+    "7444c3877242d54b85dd2c377e06aa803365e14eb85ed4dbb44a8122596f33dd",
+    "702915747353627af75b078f37a1c7674edebffce64bcdf061f524d167ffbc05",
+    "9ba297b8c1999fa43eb8b48f5205a825b13779190e50fbd7a496a490389bc83c",
+    "40c0eeff5ef7bb758ab8683268048836a4ae19a4fc66f399453cdb612aae9ddc",
+    "1f076afd6b7b4d20b0d0e9fcdb59d403ea5dba4f841bdf9cec76bcba4b0f1c59",
+    "097a6e72f6b338ffcaf2b57fa7360f8cbe0c404195c4c40c27ec68d5159b33c6",
+    "061aa0ada93892d734280aa8396fb58a0737b17e9c21b991f3ce74ac0b1f359d",
+    "e4b21c4c4b8705a831613ad4b7cd8d52f18908fec3814ddc8c2596b197ac045a",
+    "d98d1c48b3ae639124f9ce56f7f78ad97275d67d8dfa61591778de84d911d17f",
+    "8981dd412a82d785ad6f3bfecf049c835ac95f083d2b4f6fc320b6e0cf7e2e93",
+    "6c4aaa59294fc24b14e0700efbf67ceb923d8efbaa415db346e9a5fca5a03213",
+    "899fa3ee3027c25e7c87311672f6ee250c2eb93a9481e5d8f7a8dc1c6f1b4647",
+    "699a988c1272dac460fdf28b4805ec51ec997ab9809cf2a100646c2d827bed5e",
+    "2185a196119085e29ba48c85ae32af7dd85cdbd27e623303a81211c648898ac9",
+    "fec99791cf04584f5daed0ba644561e97b44316f8a4f86c97f1d772563c0d676",
+    "5ba40110b9e94928092a205e33fcdbecf2129b1ef4ac8e3bdc6a465a722bf587",
+    "bbbedb8d3b2f47dd4dd78e611af2d9cf9a98fcd9ba126415b42569c2a3b2e8fd",
+    "404b9e2b7e4c4b069585a2d5346c0f43fd4f525fbb27e85f79a30bdbe2cf6566",
+    "d142e03a15383ce0c42b870eda6c4499738776e92e05535220eb52e27156b566",
+    "d37b14e9ca6de9cb5364cbe353a438cdcc7f8d39ce4e896a319bc13d2e293d6a",
+    "f28fdf47c9e141a310126b6fc002cd45b89af70b26abdfaaf3e4a75e2e207d21",
+    "a635449ee2fa84b7cabbf1f01968cd2c6c6b20f826c85ab39a22225944c01eb6",
+    "2f08fdbaa939c7641c220bbdac484e1e7e380769b009524c00ac477be8ad0065",
+    "e7cec8aaba0e02ac0731405d5e80faf63c4589885626e89bc188b28f384305e6",
+    "4d1202d8b3e91b5179512ad44eac6895990a0ff6187a56f75bd4c4aa139752c4",
+    "24d5daa63579cf54ca3730032dd6be87ac29913f4bb219734d536e5eca313e11",
+    "c4e925fc9ef26ef3afa81befaeda24460c38bd6e370162b53b239dd161d11342",
+    "167d74cf5bdc02c8b8237d0d7b0c1351808ef47c514ed9d7669578fce47996b3",
+    "aa6b27da14d3f5e33b5cc3997fbb3032ec0a762bbceaa374327288f08f49992e",
+    "cf37ed7eabb33279eaa55f9cbc0dc23b6e199cef1f21e3c7cfd7e94c1a484c58",
+    "f39852cdfe3eb236733bb1fdfeffb68ec86e08b84ea6a6874c19d7ec0bbe3ee6",
+    "f6396c13eb276279ad6e4beb29545758374a487e81eefbe7f3337d27ae9a17f3",
+    "178164464df9ee1318908314258732675b849c2e5898de12ea2d5bf163a027b5",
+    "799b58706aca72adfcf6bc9332d41be6e9f8920027895b446bf1bf9de715e60a",
+    "1fd60f3a0fd002dbd011654e36b6db190180f61b7ba1e9e5ac4be016557327d0",
+    "979b5b0adec5afa33b3fc9733de2abcaeed351c0194cf7062f836261faede8a6",
+    "ff05ddae053e1075bab2bedc6d78ece17f1f9d5b002198af913427178dc6b908",
+    "6990aa1203324e4fa2be629c0fda80fdec3e30058cc396b45e3cd4d67cc54fee",
+    "81ee39ac0900f89b3d5f0843f227ef37b0887aaffe2a424b725bfaf7b27f481a",
+    "d75fec6b096df56076ce1a97249ba40988b5b28a9d7f0e5821f0f16a66d3de1a",
+    "a927224a96c3ea2b4a6c418ea93f5de99e1126a9acbcc5feb8a485152daad984",
+    "1b8d62d7a1c48f1468ecfcfd3d013acfddd8346a0f1eeb86a2c576e303cdca2a",
+    "0bda9c1dc55d59b2924dc5a2e53c3ed155c022b7a4c43aa62e3db923138f7f5d",
+    "bec3d736820b50833fc4ceb73a153ea372f5755f2286cb359145db9a5abd74b6",
+    "3d50b3ccdc395ff36515cf8018e021178762bdba906f7f7abf3bc2f92de4565f",
+    "a62f73d2ad07cff5956fc654f3bccf89ccd8b09b0e01c14dd766e57a5fd213b1",
+    "e47a1dbe2bec0072191b5a8065f609fd12a86a1d1bd32654d08bd89d4a89c1b4",
+    "0b8f591e058b65ca7c0645d96d2d892b611fe1f4dab6d7ba1afa608c092ff090",
+    "13f6694bae66ebe66c7d684171d6cf6ba9efb27fb08c47098ba221cb9ebfcb2b",
+    "2881e3ccf9886b431e4920ef6bff6536c08e4474440f0bbef1bfcff1b9f23da5",
+    "93cd44de8c8171017f0ff6c85537649b5fd2aebd3e136dbffc0489844a44fe20",
+    "b3292878e18436623fc50d804346927cca509f9084ea37d6660b62aca4abd0cd",
+    "1e49ef761ef813af95a521606772ff6fed7917f5dcec88604ccb562de63b2e6a",
+    "2afdcedafa85cf57e43912b73c578e0d06e06be34c862dc145bd6765d678aa5f",
+    "0512138fc0f859f47f33edea027d9c0236aa67cb7e17facb7b82b8c471d61554",
+    "eb3e88647c9c01844441bc08da7b08a1dcab983ac3f829f8702f8c9af90e4d67",
+    "6698b26aac7da3c530332b626e436ddb2e85b4797d53bacfce2251796fcd2425",
+    "7765a9a8090dd03e20e192312b03b6ae460db97a7020ddaa8bf2771dc3b863d6",
+    "bb60c9bb2b3e7a102978d6c14e36845a0a7a61026bd99b93324bacbab02801b7",
+    "5c5a49f6b02b72d7358a53cf26e9f8f654c380fa14b445053c0017e102b7614e",
+    "71cdfe4403c4002ed8b657eeb2584e4760f8cfb84f2b62aae8f435e69ffbe2c2",
+    "5282e48a1eaf89d3ba97ec128ed5e98497de956775fec00e0cedfa43b792f607",
+    "5b763bfcfff9626e264f53c21ea62717c9d2b5c7fc4d39c3e544c1c4b9d4ad23",
+    "e2a3d62e2fc9c2dfec93f4c88caea52c094cdc8ebbb44b1ec075c031273e6ae7",
+    "4eb24379150b0f458aef173218171e4489b1ddf15ce098c36e5ad84684da584a",
+    "641f6098f30f1e988028874f12713fce867a430218b73c33e7b49021398161c1",
+    "1ba743c6b802100c0f8ce455fa9a962f3230bc436ec51ee7886911ca1005ee60",
+    "0c80baf023c46bb9edf16be8951e2315fd88389995491ef27e7b82fab304cd9a",
+    "c9d5d720e3f2841d9ca9e838402ba799e3d3b2d58a06009a344e799c623f3a65",
+    "712d77c549bcedf86cfc5afd2cb45160ed86d2df93b97c226c302930942a7b5e",
+    "c11ccf2b148b912d5fdb345c225e6c7ad607a22728800cff03fdad2c95693198",
+    "7dc180b770944f048c5c35980c7a87db016b8eacd847c0a391d32dde12bc4b89",
+    "347fa83e910167eb6fc44dccecd540bfe87610124a81d339a5d3377336c66328",
+    "dd0c0df6544de2de1901524166a0be2859be45f56a6f48d8ff1232dab8daa7ed",
+    "b9e1f3775e0f7c088ae893c2d9cc19d0e21148bfa2b373f8b1c886c2abbd7d34",
+    "cbd8e082b6ff740df68be659f80510e7e02f9acc5a4d087a9e02fe31227adf35",
+    "01086d664702ad9ca9912f40dc76270194ae12809e1dc06e8795e2f53b4fb1fd",
+    "978fe85718b08844b5152b53f4a8c11eacc1bf63fbb19266e15a9143df812fff",
+    "5a298e1f953c9611856d5b3e97a4b4318dc5a8e158b15a0534725ad26fd69916",
+    "cec187b671b73080956e335c9d51b08ff2e4ebdd265d98b140bc3c7dc5b81c99",
+    "ee75ff38cfcc0d095b5088f0d90669c5024bb44ced4c528f2e425e3e3ce4491e",
+    "ec03853d7526628e7806c9b4b2ec8d7a6b7738cf1f5fe4093847f48d75f755ce",
+    "e0f4a0728feda6d661adb9be94be13e7d166d6c6278f4dec21df16baa7872a33",
+    "d8d21eca88d91dee2339532e1f12f53603451ede052160154855acd9f705af07",
+    "09e6635cdb1428ac17a228b8adcd652698e23448a3a1fd0e286faf670555c03e",
+    "385aa045f1115a327693b63bf184e5bf8febc9326b6868c92b3c6148decd2daa",
+    "046de641504acfa9957085f0eafbd82fa621048cabd4a5a0e2ddd0500310d895",
+    "af069ae6229f61c1b76d087fb44229d8ddb8bc777032fd72110c97e70d4f699d",
+    "45ce17ac24f83b19b4c087649b2865c1a6d8319d2bf8ca0c3be6a573a8dd8095",
+    "70cf573b05063671410a6b5a69170c06d05b1c91440c949bbaf77fa0843841fa",
+    "26313f68a6cb8b72d8e43e63089647278495d4996334db4546ceab082c337665",
+    "d7ce4f2331fd999ad412532ebd0eb7c97841b0e9fc8e2c08a93616f8cab4ce7f",
+    "411761320e53ac1df8ae9f5a485feae985374d9923d1cc9a458b59fff1ed5363",
+    "77b4998f9a620a15de317abb4e5bfbfb74af7fd8dbdc70fc17a40d737fd4fd95",
+    "9e1771c78bfecb9e27af0bbf44d9470c87412d8e84353d896c5ed8386b445434",
+    "6569d7690a0e781bd36b505a1dded010ae6952fad0166714eb16883119c84005",
+    "abedf3638ec6cf173cbe39da0dada38d7ca24bc1fcc49c6b85bce5246e399d1b",
+    "266911b324133b326ddcbe3e7d20f1089ab9d59a2c9621167e7c571208ec94c9",
+    "06b1f39397922fd502406c91a9ae4b65c656b7ec3ceeaba729d0b3b596cfe2b6",
+    "04f8e8e93ecb0f1495e4e94b17e5a5b94c9235e213df764c9254e9a56a9921ba",
+    "dce4650102c4d9c1a174f913900ccd95318293369200d3d5a2965faa5865d50f",
+    "4a32a279bb92364c8a8897c737aaf5e2ffbba217689e79f1d7d19d78c18d7521",
+    "1c9fe395987e530543dae50b7cb2dbb06197984d38cbed84f302fcc1e6382fd1",
+    "55ad4a48104af6ead11462fc39c2f1193efaaa61ecdbab3e176d0adee7eb847c",
+    "29c5999a9af5c32fab1aa5d0bbdefa62a9210d134c6c98d18cae4360fa9d02f6",
+    "ea860e1184892e1b15f22f9237fcc8531bf91f060d4b89b902c2a6794506726f",
+    "754613e351ce52b568c7ab34642effec5a5b5692fdcb907f228799847641bb0c",
+    "7fb2055c194616de714d882e18870d3a9f768a7ab134cf456eac28deaf9e0c9e",
+    "d44b3baa652b3475877ee8bda21cc9b045fdd6214d6cd424fae2a57f3b2aa141",
+    "cca7b0a7de1f0d74f9f4b44563bee6199d2514b81bf5a67f028736c259e7b27c",
+    "5c785fce2630a94e64e1518d05b98d21ec94c02fb9c0d11816837cac23413bdd",
+    "ce14fb9ba1017f36554abf1734391df38985267961dafcfd0a509573a90281d6",
+    "d9a07b0e215d864c396b46c42237e6502fe7e665b3b4ab3b5ac6f96ebf2daafa",
+    "158586ecff63fca2a71ed7a38e8fa6e2cf456d1805ada361dddddf7aee4b45cd",
+    "e8d983290dcee815d26076f20afefdbc2b5ac35e7c4da725f2a9ae57ed6aedbd",
+    "ec3a3d3bd3eaee048a37d9cf56437675aa6fd31493546b3f7865b35326b2dc59",
+    "f199a122312200e487f03d7f5cf94544263e7a76fb203ff707dfb58fdac3f7de",
+    "9381cc5e3b23ee5089950a002658c4952c1c30b34e4362484a28d65e3f551dc6",
+    "05565c9d766c5a14e30c9e66513254048e44358921eb3f1119f201a96b657730",
+    "1339383505cb257f1c8efcf88b855e45a768b9be0aa0c26668140250483bd660",
+    "e08ad762cb548a8fbf37df6d25d93e718b10aec260dda128606a73f21672ccd9",
+    "a64b721effc7ab22c5edb85cab42127a861cf9d12f28b5fc2ce1866e6b9162b9",
+    "4d846910e83df99a0bcfdd095a96336e5937f8e02affee70cf9144e4dae690ed",
+    "273605464f4b5e3a3483e02d400ac969fb2749e9f89f8ea23ea0c0cdb1332b1c",
+    "b4f7a7fb61d5b5b89e317f74eeab77e5747433b5113eca61bbf96e11765e37b8",
+    "60b4c3d664b66b28ec3079a53dd8ef97dfefc57a77362a097bb28e6e2e7d9ae2",
+    "1b5e48e3a93633e469d2582b0296c5865d72a1425aeefaf3a26e8776183f8fe1",
+    "df96eb36f737cd662826453faca3a4880802839127eb7d01349fa2a6702a5d7a",
+    "ab534c3ed9ef4bb823ff1ed80d5524192983d9608f173a8e5cfb3ed0424638c4",
+    "03e3148d687a73938c67a77501e995f1ed6a95a002068e6e78ebeb5b84518756",
+    "08c6093cb4f13f4bb2ea535a0d341f90b49fcc2bf89f1c462080a83d81286cc6",
+    "a3cbf1128ea0ecc883598346ac819b1eb35d8b80b7acb4852e2d9bf0d3fe8f9e",
+    "d2b36d3110340ec25391e2883dcb2a7e9f69c339941b5ccb80f3205bc5761335",
+    "e3e17fe006aa5a5fd10577f044c0dce3f36997d167850f316b0389b3f5b11129",
+    "ced18772f272fbe0c91ce0ce2cd80907f83aa31ec25b764b60dab14fdc33bc1f",
+    "09e891a6efae8fbc6750d084bc21bc093ef1d42ae34f7a3c3f7b93f1f3fb0edb",
+    "9629ca7ee0496c7c8d7939b447fdeaec32287d5d75ce4cec563f35ec88ffa23f",
+    "51439f455a8642f4c62d232e3e3e28eca50e21e7c0a012c59797e72bb43e88a0",
+    "112a0c38542a9084e26598729731d3c6cc0ddc55a3afdcdf5a826c17c2d9b497",
+    "61e1ace3d59fd5dc1eafd13880e0a2f9df3b83ae6e2f9fc5a94d6dffcec69e3b",
+    "2b07632b3ca5d9e3a1551effe75ab87bfc740221aa8b9d0713965f7965f9f1d4",
+    "cb6ea0fe1fc01844f8a2e2aef6807fea324a44c401b4832134a5b54875b0b501",
+    "374971491721260c868b21017f2c6ca8aaf1bb7dfdd59d2ef3c48ff5cd271cc8",
+    "3f29df56cffec439cdb730686a981fa56a6e1df5fea854a77b009a0c2d5bc465",
+    "b15565bff41795623a3331b30500f8040e802f3466bed993cf532f65cd2ddeca",
+    "d295102f0e16ee9e0ce473f600dc4fe6279d0242893a36e0d50418fd6add122c",
+    "6769c7deb56e7cd70e3759abb81deee70d1bf64681060497306332a7c6d160ab",
+    "9f1341110785ac5a52e48d243e7476cc608231ffe9513d05271563485f95b876",
+    "902b1cf98cbf0eff8082a51dd64d68ba483653789c94bfa7c78873668ec584ae",
+    "704a424dd0a1b8bfacd9f8cdb7b9a383a51a9043e57d593312f2a134d0e9c710",
+    "6781e17720045e95ee5dbd510211e9d99615addb79daf4745f95decd489f1514",
+    "9515f67ef057b70be622a3b6cc8710ea73e9f82b8e39f682aaf2cca1879858d0",
+    "cb1ee213c76b7966b2de103a4a5be0b9d40fed73aff32073f357e78cfe84fbe7",
+    "1cbb8b9ac9f70445dd6f6290c40bd8ebe5447e3223d32ad3b1e3118e7f359711",
+    "5fd182a61ac5003e5fd36b2f9db5f081c45e084912b0ff8515101cc83929c463",
+    "0287e8204889c607ff8eec54ad598d847937541a6c9626b86e2fb119d06cc2b2",
+    "3a88972c3371fb55300083bf1f247cd22f30c583fb845aaa5a4085dada3ac6f8",
+    "985de68f5174740ae184225c3c18c4f10b42b9bcc656da221e51813ad6a8136b",
+    "a3c1af86b7b8b689ae4c580e782c3fa74881b9502772f0e2a7ed292a4cce0a1f",
+    "24e6600b688e55e06d3624c4f94b5299d0435dcc2857519e5a13e48d8a88621c",
+    "d0402f7bd27421dc449c347c1bc4e3fb70ddde51e5f2f235fea2b290f7bd23ec",
+    "6f9807e91033c911368b4b8ba307724ac62b6fd6a3cac25f5f58eed70c982525",
+    "3f69adef4f82f59bd1a4e4fcf4a8fa4bd232eb639303cc465b8c4c79516e8631",
+    "64e7b640244cf1add06e4a8c43f57f0381e64706ff46549b8a8b79689a3981d0",
+    "1780c21c1da689f2b20b3e911bab136a907ab615087237d7c721f3d9603ad161",
+    "f67226e827f6abd47ab164d6c82abea1665b996013e92efab3639d4faae0c84b",
+    "d767f8fed105f804017a4246ec6710c81d150c46d33c740884daf2cb8114e7b9",
+    "4aaded9a4e5699813d41a4c4f6476eacb88806130de6c67eb377055388b6d70e",
+    "6af72e4d7fd83ed924e3522f0929963c8382add73408c513c37f068f3bcc26e6",
+    "ac7f673c73c9ed47dcf3eaf5c4f0e60b50acbd018c7ba899184e3ab62d63c9a3",
+    "5eb5f70cece7389a58ef2ef1e3a2d0bbf5dcde34c14702abc011cdc1e294464f",
+    "61cde612ac6249986f877938a8f455079f8450b758050ec918cda14c0265d56f",
+    "24842ad352eeb77a4c2e4dd71b734bef2c54f8269130801598743f3f4ce6533e",
+    "f470c448429fa02b4c67e23242c2dfb151dc63ab603127d90bc63784e14aece6",
+    "e3202b9894808b9f4fe9c207666e21cd8a5da16156ae6a5ec39b1266bf42d23e",
+    "468b7ebe6e2679053c53576507b9cc6b542045fffafd9fe5e2af118c5cd8ff88",
+    "6139f626976e0f3028b14d18194247bfb57387dd63c194084551f5997e4aaaf8",
+    "1789f12421987d1d93384a8638aa2a62f635d54c647258a246996931428a4aeb",
+    "0fe3897a9d022599f491b3015e0614b03776b02415b215355f8092636f23c5b9",
+    "0356bf693a001962d9d9a7ff84e2652f9fc6054624379f680c68a73d3c2935ff",
+    "5121eca6467a70bc13d2fd7c821a6501d492eada5ce8d075199e0c9a2cde89b8",
+    "3be7c3fc88949aa87faa5a772f9e48fe191e3756c0ff455f24129d0ee0ba7b32",
+    "962717fec98d8e7d5e3cb22b456adfd30b93efe5363b7ea9f38ba1615051c221",
+    "c25bdc1d08f426531108d40c6339ff08608d2ad555a08da6c8eb0833a14ec9c9",
+    "f4bde397565db2e06d61de86043727260a0cc8baced18306d87066b1f049b920",
+    "bd7f01c80e3b74f00fea00401d8ffdd8743aee513343af50c352c5645f0e1878",
+    "0c576f9ef9e2dd697580de1b6736af19babbfcaac479883951f724c273194b14",
+    "55242030229c8606f877c4d8744462d73bda089a0ac7bef9aeec3ecbc306b4a7",
+    "a3d87f5cb4d8b3246e6030e4df78c08b08e23af8e0b8be9f8f6fd20bced6ec24",
+    "7e53f27f12070065c491b259da74336d3462ce6db761b4b19d00d37e3d5b4992",
+    "2328fafa1578bed70847bb07e520957aa9da3bbbe01151bf4dd568c387b65f87",
+    "0c188eb7d1d5d75780b931078702ee85926aa2bac33a690ed9dad94030823a35",
+    "596cc1cf0df6f13f8277f1d4c65ec052dae4d24ce346e92f75604b73372455b1",
+    "c2a26ce5ecc3bc0090e2a18430dd125c5f36a80d1124a770d7bcca004ec95c0f",
+    "ccc1536ccec094ff3bec8eb1ef3c34a21eb3217571e7dc2ba929e3087f6f947f",
+    "be54e0aaecabaf9c4d89651bb028bcd2a091b1e5c910b6766f62cf96f796aa8e",
+    "9bda2890f99c9383e5f49cbbc4cbfcdf6f9a2e15cb086aacb513d99ad2d74429",
+    "94f3298cc289ea6e18b365826dcc470bd863a54c9a8986d7bf690abb40f0ef43",
+    "b7a10f107d78138e719f61113004f2c5edc29f0f43d07fdc0ec8252582606dcc",
+    "9a9299b6f5d471bcadbaf87073662f17fd785de8341fcc15738084b4c6b29727",
+    "076263c45de9d07486d31bb946653f3218ae32351fa9d8e094ef17e9c14620eb",
+    "eb5e95ad1af3bc3460c9daf1f274f4c0ac7e92679a9db921bb4b6a1c101321da",
+    "5ceb4994527c4d07bcb2337a1fe5297c5b14c61f516f7e3c68da204683835c51",
+    "de67049ad04153faf533bf292423291401443333bf19e87fa04cee160c3ff6a7",
+    "ce5abf826301693920ac9e5dc45c349a9ce0fc58ebb6a10e02b373b50bfbe886",
+    "4fe54270a8e2c12c2c4f56693e83a6079070656aa1fc6c07b73228b69360fcf8",
+    "606e78abf8a6699e518c64c617079b9607cfcc8636fb76dbf76e90b30bcded37",
+    "e891894105bd00eebdaeca6eb851e32fa5a513b5f91a0d4761b2d5a712104139",
+    "20e59cfd403678c3a3ec1c6103d66c65457a76d10f565056b256b833bfe40989",
+    "50e8cf5653910edd8f89bd80a04cbc265e799fd5ebb93033e43ad1bcf78e1e33",
+    "bcae3ffa5f2c8d092d50cf92d0e292492fbd61771d11b0dea7a5dfb712ef6e48",
+    "d56068d115a8a8c621823f3a006b6ec305ddf1bf220f309c454d17d8e9210655",
+    "13c0a88adf69232e93646969d477e6f6ccb1eb0cc82a7d78b80640e15765542d",
+    "6df7b494085ca687d65f598ce6cf0098759ded2b321edc970b5d808c5599be90",
+    "839b7e2db96647e289802cc04e7d90931bce0da82dfb711fe2d8f5f4f752a74b",
+    "20584fb4d61701ecff69470eb6300301d72b83f6c9e0c11d3429a243e8a61bd3",
+    "701d7d9755a31899530c5ec4879e8a642b0a8e4ad7c37b83fdd70b83268c8a05",
+    "ee9d3e724f1385efc32e4698e60e62b0489bf904265fed12b5b0efde2064804b",
+    "d985d3993819ecd3b1163486b1cf4d74c4d88ec2766ac2f5d0631ad763927f3f",
+    "29cf118ed932695c2b80757ad3c6fb546eaaa0724e1bb07dcc96fb7098f64f0f",
+    "a3970e2bc3cb1f4ee7ea011f798cf20f7bf95277377074dbcb8610de6fe64a02",
+    "169c47258bf50553c3fa936afd2406b7f0df6d262495cbf2450810d695c9332a",
+    "2710df6574be4c5900d69c54720ae3b839a3bc83a7618a4198f23ad19726fb3f",
+    "f9993b173673988e19947622b23cc6871117917c4571c8483a4e9e14a63549f2",
+    "c98a3decec5de22fa9eb34cd5ce48d267eb9ef8b9d8b6ddb1ce6cb7cd4d6af6c",
+    "954ea01db9ea0470858a09e31b2b0b4fb53882d7ac5ee2e0611a2cbca1b40268",
+    "4a2bd1a829019452790653ba19736e1b7de4e171e1d61d6d8f4aa92863bdd605",
+    "fad0467fe4402e19dbbe311eb9aecdd578c59806e72702b857cec5d5612c820b",
+    "1f6a85044a447d9e17e43a0af6a6f4e6aed27d45e5d7e96e57db7941309a4d9f",
+    "e038210a5b9ca6cb84cd6c1c7f1afe98ead6c9c6fb5d122913383db31d19fc4e",
+    "bf4b4c72cf8b254186a80766d7e7595085828e18578158e40297e25b5db36e97",
+    "f19e82854c1e42752faab5991afd57c2de113af3e4665396e7c875d6e842cece",
+    "5a503199f74a8ab25481b9951b08966dacb5c53aed329d31866987bb4dabaa59",
+    "395105b84d5c9c436ad3b2d948c23e39d153fcb3fa17fa08b72b8ec8ca4021f6",
+    "21cf7bafc3c6db53a1cf638afa8fcabc3694cfabe9990c4982c1ab353e590c41",
+    "8cc785b14ff9a264100a0d78847adc62e2c8893318882d1c980a215d2992f8cd",
+    "4468f26f1b3a2ce395d0f4a6bc9482b63eb95aa8719c7161533ceddec4f88291",
+    "5b09a3aeb7f01435591aae5d083a335e8feff66529ece80d1d6d4af995c1cd18",
+    "a8cbe060948f040bd766a88a3dd5cd0b82a7ab1d7603ed5058f60dc7f7f0d8af",
+    "ec1d655b85c1e13a9ed2da78fa7322f9f8bc3b3a5a5fd0fe6e04ba6f6e8acd65",
+    "4b760288ec6c129942d3c4d9f130188961605f9675be05473a4423b29082f652",
+    "1e06312b14421bd4178f5544dafef86560d24ca28e32f19a332749798840bec8",
+    "34d503ebcf2b95352355124151a01ba5a245ee642cd30da7862216ab6ac42805",
+    "f4c2ac96084fc40e05c3ad304ca6da91612efee1046d8266daf8e39022c53d06",
+    "90f1d9abc8f657f2c0fe0360e69b93d80d4895c87c4ef437fbf224a5906b8bbc",
+    "1d7721479049dd07f217f7646e40346a28e0a4ff178699549bb3e1b41e661bc8",
+    "6a41a8eb84b412abb5270f0a09b277c2c23c5ae83353d7f26588f51e0807ef7a",
+    "5838d64dac41025ef72825662c7278ed47c48851919ec79d136a8456aa86270e",
+    "9ed97df682e54a81b11dda0a5bf7052b4bf6a0c09f24d416f4a136128a6b324a",
+    "6ce662d2c66ec9e345cc96ea6e8d1db71009ac6210985349be8c86765403cee4",
+    "679c998031585b6b24a6028175c979870858378e5234dbf6dab408b9d8603ee8",
+    "39b92225d40783b6128feb0ce8329d1ca0e51ccb60c499b7e69d726d51c19bdd",
+    "ce529e5a6e1921b366bb1c8e44fff77cfd1dd4b9ad778bd9ba967ac89fdcb985",
+    "7c53a83731ab9f2d6d913ef1d7508bffdf5bb253f81377bd2545d3af10e6185f",
+    "cbb519ff7246d9b902c0ac75ee5a22932ddd33a4ca21b84e9413b76c02d021ea",
+    "46281794524aab5373661cb005be734c82dd87fc2e316b9096b55fd672c99dfb",
+    "30cd6ff5fd66b228ef166e7c39e6ff4cd3796c9dca9e4ae0fd54ef40d7f2b4d6",
+    "dc6fd787bda826ab86a9d4429e2d54d270687053c7ee029c44f002563c73fa8a",
+    "c94c096bcc478d39fd5a6afe9ec885bf9e74d49604c99c67a7175cee7a25466e",
+    "e1c627f47d21adbf346c57951752b6c5fc9504dcd9de0b01977c830ddee31114",
+    "0b2b53e7cdaf6093bcb8c3a540e47b83df412d7f0174f9f66a7e20fa102a24f8",
+    "cd0fa8f1aeb3c36e1bd297524318d1a73e6db8f46677a9a6f9abf3b1e8d35ba7",
+    "10c97ca1fb15da7d3cd9d25564fe27cdb2931b1b5d33f9a7d74b822d3b855b7e",
+    "01f41edcb1cbda2ed2676a393d3c5f8c6e6137db331e411dfa93e915fb538361",
+    "9fae7666013b4e7e6a6509f62748f77b157eea56452f8d55aa063543caad81af",
+    "cdc26411fc7c2b3d590979a3f92ccbfaa45096abd3a4c5d00f7d6bd8d1c93b7e",
+    "6ceff1e8cc5f5bc3ca0ddc541a777f7e35af2f8fc4e3b1632c5a33d5fba69a19",
+    "618f696f7389f4ca9a15fd2e296026f6f37f8178a0340f097f48360396ed0e0f",
+    "9148738bbd8093c20ec3bc6b37a0cfdfcf71224aaa93cdc974e836a135ee0524",
+    "49bcd205f6077a66c6eb70918b8e2b018e8b768c0fc6aaf762b9c4f5d25d61c3",
+    "4cf44bcfb4338286d9bc0095f6b3a1e18664be2095ada7fdd3920ef4f10e08b6",
+    "de93969283731f7d578726da0e778732755915d2ae2b38df2059163ad4247a99",
+    "5580427cd39508dcc13df8eaf9ebe59c5f6ba17735837b33d27f6538f4997b46",
+    "31ebf8d8e2a51b4b81ce9c3f7aa6cc2b767868d7cd4aedb291d6af86046b121c"
+  ],
+  "basic_inference_token_ids": [
+    [
+      198
+    ],
+    [
+      198
+    ],
+    [
+      309
+    ],
+    [
+      53237
+    ],
+    [
+      638
+    ],
+    [
+      510
+    ],
+    [
+      25
+    ],
+    [
+      271
+    ],
+    [
+      198
+    ],
+    [
+      198
+    ],
+    [
+      34855
+    ],
+    [
+      11
+    ],
+    [
+      10299
+    ],
+    [
+      11
+    ],
+    [
+      25
+    ],
+    [
+      198
+    ],
+    [
+      79584
+    ],
+    [
+      11
+    ],
+    [
+      285
+    ],
+    [
+      638
+    ],
+    [
+      2387
+    ],
+    [
+      19114
+    ],
+    [
+      198
+    ],
+    [
+      9
+    ],
+    [
+      6
+    ],
+    [
+      735
+    ],
+    [
+      967
+    ],
+    [
+      285
+    ],
+    [
+      29103
+    ],
+    [
+      54318
+    ],
+    [
+      68457
+    ],
+    [
+      8
+    ],
+    [
+      7626
+    ],
+    [
+      18488
+    ],
+    [
+      7391
+    ],
+    [
+      13
+    ],
+    [
+      15
+    ],
+    [
+      30524
+    ],
+    [
+      285
+    ],
+    [
+      198
+    ],
+    [
+      687
+    ],
+    [
+      78490
+    ],
+    [
+      198
+    ],
+    [
+      62640
+    ],
+    [
+      271
+    ],
+    [
+      36441
+    ],
+    [
+      1619
+    ],
+    [
+      83967
+    ],
+    [
+      198
+    ],
+    [
+      285
+    ],
+    [
+      285
+    ],
+    [
+      24293
+    ],
+    [
+      262
+    ],
+    [
+      198
+    ],
+    [
+      847
+    ],
+    [
+      50
+    ],
+    [
+      2072
+    ],
+    [
+      11
+    ],
+    [
+      1238
+    ],
+    [
+      220
+    ],
+    [
+      1787
+    ],
+    [
+      11
+    ],
+    [
+      7
+    ],
+    [
+      295
+    ],
+    [
+      21
+    ],
+    [
+      427
+    ],
+    [
+      7724
+    ],
+    [
+      283
+    ],
+    [
+      15
+    ],
+    [
+      363
+    ],
+    [
+      5342
+    ],
+    [
+      364
+    ],
+    [
+      16
+    ],
+    [
+      23891
+    ],
+    [
+      63029
+    ],
+    [
+      12
+    ],
+    [
+      198
+    ],
+    [
+      318
+    ],
+    [
+      70855
+    ],
+    [
+      17
+    ],
+    [
+      2944
+    ],
+    [
+      198
+    ],
+    [
+      525
+    ],
+    [
+      279
+    ],
+    [
+      10966
+    ],
+    [
+      10669
+    ],
+    [
+      24
+    ],
+    [
+      8796
+    ],
+    [
+      198
+    ],
+    [
+      43027
+    ],
+    [
+      5938
+    ],
+    [
+      13
+    ],
+    [
+      943
+    ],
+    [
+      15
+    ],
+    [
+      328
+    ],
+    [
+      86931
+    ],
+    [
+      13
+    ],
+    [
+      3201
+    ],
+    [
+      25887
+    ],
+    [
+      314
+    ],
+    [
+      8683
+    ],
+    [
+      220
+    ],
+    [
+      10825
+    ],
+    [
+      271
+    ],
+    [
+      31224
+    ],
+    [
+      66135
+    ],
+    [
+      2394
+    ],
+    [
+      279
+    ],
+    [
+      17
+    ],
+    [
+      314
+    ],
+    [
+      18217
+    ],
+    [
+      271
+    ],
+    [
+      198
+    ],
+    [
+      11
+    ],
+    [
+      279
+    ],
+    [
+      16
+    ],
+    [
+      279
+    ],
+    [
+      220
+    ],
+    [
+      264
+    ],
+    [
+      314
+    ],
+    [
+      6535
+    ],
+    [
+      46627
+    ],
+    [
+      271
+    ],
+    [
+      3567
+    ],
+    [
+      279
+    ],
+    [
+      599
+    ],
+    [
+      198
+    ],
+    [
+      198
+    ],
+    [
+      494
+    ],
+    [
+      31022
+    ],
+    [
+      1612
+    ],
+    [
+      487
+    ],
+    [
+      17
+    ],
+    [
+      11
+    ],
+    [
+      1646
+    ],
+    [
+      17
+    ],
+    [
+      998
+    ],
+    [
+      1208
+    ],
+    [
+      61063
+    ],
+    [
+      854
+    ],
+    [
+      6075
+    ],
+    [
+      15
+    ],
+    [
+      45253
+    ],
+    [
+      7888
+    ],
+    [
+      8
+    ],
+    [
+      104040
+    ],
+    [
+      107885
+    ],
+    [
+      97274
+    ],
+    [
+      3709
+    ],
+    [
+      2794
+    ],
+    [
+      116299
+    ],
+    [
+      95902
+    ],
+    [
+      24
+    ],
+    [
+      108379
+    ],
+    [
+      96582
+    ],
+    [
+      95772
+    ],
+    [
+      96277
+    ],
+    [
+      96632
+    ],
+    [
+      95887
+    ],
+    [
+      12347
+    ],
+    [
+      8725
+    ],
+    [
+      95892
+    ],
+    [
+      16
+    ],
+    [
+      98585
+    ],
+    [
+      104219
+    ],
+    [
+      19
+    ],
+    [
+      16
+    ],
+    [
+      198
+    ],
+    [
+      13
+    ],
+    [
+      131007
+    ],
+    [
+      107689
+    ],
+    [
+      95855
+    ],
+    [
+      104623
+    ],
+    [
+      20
+    ],
+    [
+      109942
+    ],
+    [
+      103725
+    ],
+    [
+      17
+    ],
+    [
+      23359
+    ],
+    [
+      96792
+    ],
+    [
+      95772
+    ],
+    [
+      3709
+    ],
+    [
+      8
+    ],
+    [
+      95759
+    ],
+    [
+      96643
+    ],
+    [
+      198
+    ],
+    [
+      97767
+    ],
+    [
+      97492
+    ],
+    [
+      95971
+    ],
+    [
+      198
+    ],
+    [
+      98046
+    ],
+    [
+      95895
+    ],
+    [
+      1710
+    ],
+    [
+      97541
+    ],
+    [
+      130066
+    ],
+    [
+      130066
+    ],
+    [
+      15
+    ],
+    [
+      95822
+    ],
+    [
+      13
+    ],
+    [
+      793
+    ],
+    [
+      21
+    ],
+    [
+      99699
+    ],
+    [
+      96937
+    ],
+    [
+      101271
+    ],
+    [
+      99069
+    ],
+    [
+      15
+    ],
+    [
+      99319
+    ],
+    [
+      104
+    ],
+    [
+      6602
+    ],
+    [
+      4960
+    ],
+    [
+      97285
+    ],
+    [
+      96753
+    ],
+    [
+      198
+    ],
+    [
+      96063
+    ],
+    [
+      104204
+    ],
+    [
+      105173
+    ],
+    [
+      104013
+    ],
+    [
+      64
+    ],
+    [
+      198
+    ],
+    [
+      60
+    ],
+    [
+      38297
+    ],
+    [
+      553
+    ],
+    [
+      535
+    ],
+    [
+      27543
+    ],
+    [
+      281
+    ],
+    [
+      11
+    ],
+    [
+      264
+    ],
+    [
+      551
+    ],
+    [
+      11
+    ],
+    [
+      498
+    ],
+    [
+      629
+    ],
+    [
+      6534
+    ],
+    [
+      259
+    ],
+    [
+      1370
+    ],
+    [
+      16
+    ],
+    [
+      383
+    ],
+    [
+      704
+    ],
+    [
+      498
+    ],
+    [
+      220
+    ],
+    [
+      1523
+    ],
+    [
+      578
+    ],
+    [
+      313
+    ],
+    [
+      18772
+    ],
+    [
+      8763
+    ],
+    [
+      8
+    ],
+    [
+      89
+    ],
+    [
+      635
+    ],
+    [
+      198
+    ],
+    [
+      30478
+    ],
+    [
+      5568
+    ],
+    [
+      292
+    ],
+    [
+      4677
+    ],
+    [
+      10209
+    ],
+    [
+      198
+    ],
+    [
+      60
+    ],
+    [
+      14402
+    ],
+    [
+      67548
+    ],
+    [
+      46723
+    ],
+    [
+      387
+    ],
+    [
+      823
+    ],
+    [
+      104
+    ],
+    [
+      8
+    ],
+    [
+      83
+    ],
+    [
+      318
+    ],
+    [
+      13955
+    ],
+    [
+      17878
+    ],
+    [
+      907
+    ],
+    [
+      951
+    ],
+    [
+      1258
+    ],
+    [
+      1200
+    ],
+    [
+      9699
+    ],
+    [
+      85735
+    ],
+    [
+      2155
+    ],
+    [
+      18772
+    ],
+    [
+      50067
+    ],
+    [
+      3456
+    ],
+    [
+      24154
+    ],
+    [
+      220
+    ],
+    [
+      11
+    ],
+    [
+      387
+    ],
+    [
+      5150
+    ],
+    [
+      318
+    ],
+    [
+      283
+    ],
+    [
+      361
+    ],
+    [
+      6
+    ],
+    [
+      34
+    ],
+    [
+      271
+    ],
+    [
+      40618
+    ],
+    [
+      43265
+    ]
+  ],
+  "documents": [
+    {
+      "tokens": 192,
+      "nll": 134.62387272079638,
+      "ref_nll": 130.70699964322262,
+      "kl_sum": 2.5511668482191387,
+      "flips": 5,
+      "id": "code-128-00",
+      "document_id": "code:Lib/test/test_free_threading/test_syslog.py",
+      "domain": "code",
+      "language": "Python",
+      "context": 128
+    },
+    {
+      "tokens": 192,
+      "nll": 127.64809374844481,
+      "ref_nll": 122.49066351001966,
+      "kl_sum": 5.282818669686089,
+      "flips": 9,
+      "id": "code-128-01",
+      "document_id": "code:Lib/test/test_json/test_indent.py",
+      "domain": "code",
+      "language": "Python",
+      "context": 128
+    },
+    {
+      "tokens": 192,
+      "nll": 143.66755401214868,
+      "ref_nll": 148.30901609310968,
+      "kl_sum": 2.5867144269254094,
+      "flips": 10,
+      "id": "code-128-02",
+      "document_id": "code:Lib/test/test_future_stmt/test_future_flags.py",
+      "domain": "code",
+      "language": "Python",
+      "context": 128
+    },
+    {
+      "tokens": 192,
+      "nll": 259.98487003282935,
+      "ref_nll": 252.77112446435785,
+      "kl_sum": 3.6847465010859195,
+      "flips": 5,
+      "id": "code-128-03",
+      "document_id": "code:Lib/test/test_ttk/__init__.py",
+      "domain": "code",
+      "language": "Python",
+      "context": 128
+    },
+    {
+      "tokens": 192,
+      "nll": 129.76535684959526,
+      "ref_nll": 127.59908382614776,
+      "kl_sum": 1.676586578674967,
+      "flips": 5,
+      "id": "code-128-04",
+      "document_id": "code:Lib/test/test_capi/test_time.py",
+      "domain": "code",
+      "language": "Python",
+      "context": 128
+    },
+    {
+      "tokens": 192,
+      "nll": 82.02863830291722,
+      "ref_nll": 81.90361576768828,
+      "kl_sum": 2.012904341605917,
+      "flips": 3,
+      "id": "code-128-05",
+      "document_id": "code:Lib/test/test_inspect/inspect_stringized_annotations_pep695.py",
+      "domain": "code",
+      "language": "Python",
+      "context": 128
+    },
+    {
+      "tokens": 192,
+      "nll": 218.1755820482134,
+      "ref_nll": 217.12013741184148,
+      "kl_sum": 2.66805406629355,
+      "flips": 9,
+      "id": "code-128-06",
+      "document_id": "code:Lib/test/test_fileinput.py",
+      "domain": "code",
+      "language": "Python",
+      "context": 128
+    },
+    {
+      "tokens": 192,
+      "nll": 129.6783366931786,
+      "ref_nll": 127.4552358353153,
+      "kl_sum": 1.551406422130026,
+      "flips": 4,
+      "id": "code-128-07",
+      "document_id": "code:Lib/test/test_unpack.py",
+      "domain": "code",
+      "language": "Python",
+      "context": 128
+    },
+    {
+      "tokens": 192,
+      "nll": 114.04002743134879,
+      "ref_nll": 114.3016353181074,
+      "kl_sum": 1.6791541793820193,
+      "flips": 4,
+      "id": "code-128-08",
+      "document_id": "code:Lib/test/test_asyncio/test_base_events.py",
+      "domain": "code",
+      "language": "Python",
+      "context": 128
+    },
+    {
+      "tokens": 192,
+      "nll": 280.407997677572,
+      "ref_nll": 274.42944023210566,
+      "kl_sum": 4.247198496546099,
+      "flips": 6,
+      "id": "code-128-09",
+      "document_id": "code:Lib/test/test_importlib/metadata/test_main.py",
+      "domain": "code",
+      "language": "Python",
+      "context": 128
+    },
+    {
+      "tokens": 192,
+      "nll": 251.45227738491667,
+      "ref_nll": 251.76270166834001,
+      "kl_sum": 2.684861367629618,
+      "flips": 7,
+      "id": "code-128-10",
+      "document_id": "code:Lib/test/test_argparse.py",
+      "domain": "code",
+      "language": "Python",
+      "context": 128
+    },
+    {
+      "tokens": 192,
+      "nll": 34.29827386867803,
+      "ref_nll": 34.946596768168575,
+      "kl_sum": 0.7250156137964607,
+      "flips": 3,
+      "id": "code-128-11",
+      "document_id": "code:Lib/test/test_capi/test_set.py",
+      "domain": "code",
+      "language": "Python",
+      "context": 128
+    },
+    {
+      "tokens": 192,
+      "nll": 300.15188989381386,
+      "ref_nll": 294.63914621601543,
+      "kl_sum": 3.7561953404421677,
+      "flips": 12,
+      "id": "code-128-12",
+      "document_id": "code:Lib/test/test_sort.py",
+      "domain": "code",
+      "language": "Python",
+      "context": 128
+    },
+    {
+      "tokens": 192,
+      "nll": 107.26522739126705,
+      "ref_nll": 108.66449932184503,
+      "kl_sum": 1.5745252189690029,
+      "flips": 8,
+      "id": "code-128-13",
+      "document_id": "code:Lib/test/test_math_property.py",
+      "domain": "code",
+      "language": "Python",
+      "context": 128
+    },
+    {
+      "tokens": 192,
+      "nll": 238.4533862138428,
+      "ref_nll": 234.96583721715933,
+      "kl_sum": 2.691842357111986,
+      "flips": 8,
+      "id": "code-128-14",
+      "document_id": "code:Lib/test/libregrtest/runtests.py",
+      "domain": "code",
+      "language": "Python",
+      "context": 128
+    },
+    {
+      "tokens": 192,
+      "nll": 284.3517151097203,
+      "ref_nll": 281.1829148580682,
+      "kl_sum": 1.713605085891579,
+      "flips": 7,
+      "id": "code-128-15",
+      "document_id": "code:Lib/test/test_ctypes/test_dlerror.py",
+      "domain": "code",
+      "language": "Python",
+      "context": 128
+    },
+    {
+      "tokens": 192,
+      "nll": 199.45553672081223,
+      "ref_nll": 204.2422333083614,
+      "kl_sum": 2.976497411385183,
+      "flips": 5,
+      "id": "code-128-16",
+      "document_id": "code:Lib/test/test_lltrace.py",
+      "domain": "code",
+      "language": "Python",
+      "context": 128
+    },
+    {
+      "tokens": 192,
+      "nll": 113.64351618180399,
+      "ref_nll": 108.30980540775136,
+      "kl_sum": 1.8803034599820245,
+      "flips": 5,
+      "id": "code-128-17",
+      "document_id": "code:Lib/test/test_tkinter/test_colorchooser.py",
+      "domain": "code",
+      "language": "Python",
+      "context": 128
+    },
+    {
+      "tokens": 192,
+      "nll": 169.01847579340688,
+      "ref_nll": 165.71970854464485,
+      "kl_sum": 3.2690137561707164,
+      "flips": 12,
+      "id": "code-128-18",
+      "document_id": "code:Lib/test/test_tstring.py",
+      "domain": "code",
+      "language": "Python",
+      "context": 128
+    },
+    {
+      "tokens": 192,
+      "nll": 130.93518062801832,
+      "ref_nll": 127.88914085833221,
+      "kl_sum": 1.6023776127386697,
+      "flips": 5,
+      "id": "code-128-19",
+      "document_id": "code:Lib/test/test_sqlite3/test_cli.py",
+      "domain": "code",
+      "language": "Python",
+      "context": 128
+    },
+    {
+      "tokens": 192,
+      "nll": 100.84426643672487,
+      "ref_nll": 98.13740891640737,
+      "kl_sum": 2.777049470968528,
+      "flips": 3,
+      "id": "code-128-20",
+      "document_id": "code:Lib/test/test_selectors.py",
+      "domain": "code",
+      "language": "Python",
+      "context": 128
+    },
+    {
+      "tokens": 192,
+      "nll": 141.2578578070952,
+      "ref_nll": 143.91382837382162,
+      "kl_sum": 4.021166365957546,
+      "flips": 4,
+      "id": "code-128-21",
+      "document_id": "code:Lib/test/test_importlib/import_/test_helpers.py",
+      "domain": "code",
+      "language": "Python",
+      "context": 128
+    },
+    {
+      "tokens": 192,
+      "nll": 321.37305190017787,
+      "ref_nll": 314.0193950898756,
+      "kl_sum": 6.193303987313477,
+      "flips": 18,
+      "id": "code-128-22",
+      "document_id": "code:Lib/test/libregrtest/refleak.py",
+      "domain": "code",
+      "language": "Python",
+      "context": 128
+    },
+    {
+      "tokens": 192,
+      "nll": 63.014178741679004,
+      "ref_nll": 61.53060377391409,
+      "kl_sum": 1.1151047608145326,
+      "flips": 2,
+      "id": "code-128-23",
+      "document_id": "code:Lib/test/test_ctypes/test_functions.py",
+      "domain": "code",
+      "language": "Python",
+      "context": 128
+    },
+    {
+      "tokens": 192,
+      "nll": 58.41347281073149,
+      "ref_nll": 57.7144907380121,
+      "kl_sum": 0.5830467927660063,
+      "flips": 1,
+      "id": "code-2048-00",
+      "document_id": "code:Lib/test/test_timeit.py",
+      "domain": "code",
+      "language": "Python",
+      "context": 2048
+    },
+    {
+      "tokens": 192,
+      "nll": 107.44819511085234,
+      "ref_nll": 105.31104842944342,
+      "kl_sum": 3.2029549703561075,
+      "flips": 4,
+      "id": "code-2048-01",
+      "document_id": "code:Lib/test/test_types.py",
+      "domain": "code",
+      "language": "Python",
+      "context": 2048
+    },
+    {
+      "tokens": 192,
+      "nll": 19.815006951689497,
+      "ref_nll": 18.093410412899857,
+      "kl_sum": 0.8552153269158315,
+      "flips": 1,
+      "id": "code-2048-02",
+      "document_id": "code:Lib/test/test_pyrepl/test_terminfo.py",
+      "domain": "code",
+      "language": "Python",
+      "context": 2048
+    },
+    {
+      "tokens": 192,
+      "nll": 120.01214720889311,
+      "ref_nll": 122.26115319015435,
+      "kl_sum": 1.5266578222010936,
+      "flips": 3,
+      "id": "code-2048-03",
+      "document_id": "code:Lib/test/test_minidom.py",
+      "domain": "code",
+      "language": "Python",
+      "context": 2048
+    },
+    {
+      "tokens": 192,
+      "nll": 120.85212079831706,
+      "ref_nll": 120.12225055972203,
+      "kl_sum": 1.415791375669349,
+      "flips": 5,
+      "id": "code-2048-04",
+      "document_id": "code:Lib/test/test_zipapp.py",
+      "domain": "code",
+      "language": "Python",
+      "context": 2048
+    },
+    {
+      "tokens": 192,
+      "nll": 34.77730241146355,
+      "ref_nll": 31.556890998421522,
+      "kl_sum": 1.614936765647609,
+      "flips": 1,
+      "id": "code-2048-05",
+      "document_id": "code:Lib/test/test_peepholer.py",
+      "domain": "code",
+      "language": "Python",
+      "context": 2048
+    },
+    {
+      "tokens": 192,
+      "nll": 8.472346128851427,
+      "ref_nll": 8.819320205146255,
+      "kl_sum": 0.6163447887242105,
+      "flips": 0,
+      "id": "code-2048-06",
+      "document_id": "code:Lib/test/test_timeout.py",
+      "domain": "code",
+      "language": "Python",
+      "context": 2048
+    },
+    {
+      "tokens": 192,
+      "nll": 45.328013002747525,
+      "ref_nll": 48.37351175702895,
+      "kl_sum": 1.7080921035296206,
+      "flips": 4,
+      "id": "code-2048-07",
+      "document_id": "code:Lib/test/test_memoryview.py",
+      "domain": "code",
+      "language": "Python",
+      "context": 2048
+    },
+    {
+      "tokens": 192,
+      "nll": 63.96976096302779,
+      "ref_nll": 59.22840530529879,
+      "kl_sum": 1.673619475449279,
+      "flips": 2,
+      "id": "code-2048-08",
+      "document_id": "code:Lib/test/test_tkinter/test_text.py",
+      "domain": "code",
+      "language": "Python",
+      "context": 2048
+    },
+    {
+      "tokens": 192,
+      "nll": 96.54101905846892,
+      "ref_nll": 96.70420619267861,
+      "kl_sum": 1.3710688595010767,
+      "flips": 1,
+      "id": "code-2048-09",
+      "document_id": "code:Lib/test/test_runpy.py",
+      "domain": "code",
+      "language": "Python",
+      "context": 2048
+    },
+    {
+      "tokens": 192,
+      "nll": 201.79325465525017,
+      "ref_nll": 200.62760179311044,
+      "kl_sum": 4.119276640041952,
+      "flips": 9,
+      "id": "code-2048-10",
+      "document_id": "code:Lib/test/test_asyncio/utils.py",
+      "domain": "code",
+      "language": "Python",
+      "context": 2048
+    },
+    {
+      "tokens": 192,
+      "nll": 84.82890322311934,
+      "ref_nll": 85.26935381141288,
+      "kl_sum": 1.4534446306437898,
+      "flips": 5,
+      "id": "code-2048-11",
+      "document_id": "code:Lib/test/test_sqlite3/test_hooks.py",
+      "domain": "code",
+      "language": "Python",
+      "context": 2048
+    },
+    {
+      "tokens": 192,
+      "nll": 161.95344377121182,
+      "ref_nll": 161.55556810755752,
+      "kl_sum": 1.5904228142551147,
+      "flips": 7,
+      "id": "code-2048-12",
+      "document_id": "code:Lib/test/test_bytes.py",
+      "domain": "code",
+      "language": "Python",
+      "context": 2048
+    },
+    {
+      "tokens": 192,
+      "nll": 236.7989300317331,
+      "ref_nll": 226.39069026960215,
+      "kl_sum": 4.151649630233939,
+      "flips": 7,
+      "id": "code-2048-13",
+      "document_id": "code:Lib/test/test_modulefinder.py",
+      "domain": "code",
+      "language": "Python",
+      "context": 2048
+    },
+    {
+      "tokens": 192,
+      "nll": 31.5956533647907,
+      "ref_nll": 30.855159413387696,
+      "kl_sum": 1.4951617306244471,
+      "flips": 3,
+      "id": "code-2048-14",
+      "document_id": "code:Lib/test/test_codecs.py",
+      "domain": "code",
+      "language": "Python",
+      "context": 2048
+    },
+    {
+      "tokens": 192,
+      "nll": 130.8204591868548,
+      "ref_nll": 127.56273616373483,
+      "kl_sum": 1.3140382341978176,
+      "flips": 3,
+      "id": "code-2048-15",
+      "document_id": "code:Lib/test/test_pyrepl/test_fancycompleter.py",
+      "domain": "code",
+      "language": "Python",
+      "context": 2048
+    },
+    {
+      "tokens": 192,
+      "nll": 104.4209164631925,
+      "ref_nll": 103.61437385947147,
+      "kl_sum": 1.4520037962674668,
+      "flips": 1,
+      "id": "code-2048-16",
+      "document_id": "code:Lib/test/test_signal.py",
+      "domain": "code",
+      "language": "Python",
+      "context": 2048
+    },
+    {
+      "tokens": 192,
+      "nll": 190.08832401956192,
+      "ref_nll": 190.2626923096252,
+      "kl_sum": 2.247933726362165,
+      "flips": 8,
+      "id": "code-2048-17",
+      "document_id": "code:Lib/test/support/isolation.py",
+      "domain": "code",
+      "language": "Python",
+      "context": 2048
+    },
+    {
+      "tokens": 192,
+      "nll": 54.871257610522434,
+      "ref_nll": 51.57345962540967,
+      "kl_sum": 1.8144870267501294,
+      "flips": 3,
+      "id": "code-2048-18",
+      "document_id": "code:Lib/test/test_tkinter/test_misc.py",
+      "domain": "code",
+      "language": "Python",
+      "context": 2048
+    },
+    {
+      "tokens": 192,
+      "nll": 140.82123414018952,
+      "ref_nll": 145.13663742927065,
+      "kl_sum": 1.507975089438336,
+      "flips": 8,
+      "id": "code-2048-19",
+      "document_id": "code:Lib/test/audit-tests.py",
+      "domain": "code",
+      "language": "Python",
+      "context": 2048
+    },
+    {
+      "tokens": 192,
+      "nll": 74.94151271940336,
+      "ref_nll": 71.92553037376445,
+      "kl_sum": 1.686744231430834,
+      "flips": 5,
+      "id": "code-2048-20",
+      "document_id": "code:Lib/test/test_asyncio/test_queues.py",
+      "domain": "code",
+      "language": "Python",
+      "context": 2048
+    },
+    {
+      "tokens": 192,
+      "nll": 30.56384620844957,
+      "ref_nll": 31.41693065337659,
+      "kl_sum": 3.192376656754771,
+      "flips": 3,
+      "id": "code-2048-21",
+      "document_id": "code:Lib/test/test_asyncio/test_sendfile.py",
+      "domain": "code",
+      "language": "Python",
+      "context": 2048
+    },
+    {
+      "tokens": 192,
+      "nll": 92.27439405444636,
+      "ref_nll": 92.53955029387208,
+      "kl_sum": 1.0083835240016235,
+      "flips": 6,
+      "id": "code-2048-22",
+      "document_id": "code:Lib/test/test_io/test_signals.py",
+      "domain": "code",
+      "language": "Python",
+      "context": 2048
+    },
+    {
+      "tokens": 192,
+      "nll": 92.20672430556078,
+      "ref_nll": 91.37103535459573,
+      "kl_sum": 1.190383926422419,
+      "flips": 4,
+      "id": "code-2048-23",
+      "document_id": "code:Lib/test/test_frame.py",
+      "domain": "code",
+      "language": "Python",
+      "context": 2048
+    },
+    {
+      "tokens": 192,
+      "nll": 56.43943469362864,
+      "ref_nll": 54.13651745499885,
+      "kl_sum": 1.1561164882538053,
+      "flips": 2,
+      "id": "code-512-00",
+      "document_id": "code:Lib/test/test_ctypes/test_random_things.py",
+      "domain": "code",
+      "language": "Python",
+      "context": 512
+    },
+    {
+      "tokens": 192,
+      "nll": 36.545594211740536,
+      "ref_nll": 37.651828448804736,
+      "kl_sum": 0.7568092319841683,
+      "flips": 2,
+      "id": "code-512-01",
+      "document_id": "code:Lib/test/test_opcodes.py",
+      "domain": "code",
+      "language": "Python",
+      "context": 512
+    },
+    {
+      "tokens": 192,
+      "nll": 140.9781706806407,
+      "ref_nll": 139.07738098117284,
+      "kl_sum": 1.708242122965085,
+      "flips": 7,
+      "id": "code-512-02",
+      "document_id": "code:Lib/test/test_importlib/test_locks.py",
+      "domain": "code",
+      "language": "Python",
+      "context": 512
+    },
+    {
+      "tokens": 192,
+      "nll": 131.43948626720157,
+      "ref_nll": 133.6635011172857,
+      "kl_sum": 1.792266781014632,
+      "flips": 3,
+      "id": "code-512-03",
+      "document_id": "code:Lib/test/test_importlib/import_/test_meta_path.py",
+      "domain": "code",
+      "language": "Python",
+      "context": 512
+    },
+    {
+      "tokens": 192,
+      "nll": 103.9133283941419,
+      "ref_nll": 106.0857182141244,
+      "kl_sum": 2.295303577966671,
+      "flips": 3,
+      "id": "code-512-04",
+      "document_id": "code:Lib/test/test_asyncio/functional.py",
+      "domain": "code",
+      "language": "Python",
+      "context": 512
+    },
+    {
+      "tokens": 192,
+      "nll": 145.50281821702242,
+      "ref_nll": 142.2675583498485,
+      "kl_sum": 1.5315971685496823,
+      "flips": 7,
+      "id": "code-512-05",
+      "document_id": "code:Lib/test/test_pwd.py",
+      "domain": "code",
+      "language": "Python",
+      "context": 512
+    },
+    {
+      "tokens": 192,
+      "nll": 187.35475838071045,
+      "ref_nll": 182.6400772521581,
+      "kl_sum": 3.2911191543365104,
+      "flips": 9,
+      "id": "code-512-06",
+      "document_id": "code:Lib/test/test_free_threading/test_str.py",
+      "domain": "code",
+      "language": "Python",
+      "context": 512
+    },
+    {
+      "tokens": 192,
+      "nll": 69.87512882000169,
+      "ref_nll": 69.6244236014586,
+      "kl_sum": 1.3421252288064904,
+      "flips": 2,
+      "id": "code-512-07",
+      "document_id": "code:Lib/test/test_cext/__init__.py",
+      "domain": "code",
+      "language": "Python",
+      "context": 512
+    },
+    {
+      "tokens": 192,
+      "nll": 47.42233870020789,
+      "ref_nll": 46.23152441354682,
+      "kl_sum": 1.434728629603757,
+      "flips": 2,
+      "id": "code-512-08",
+      "document_id": "code:Lib/test/test_tkinter/test_systray.py",
+      "domain": "code",
+      "language": "Python",
+      "context": 512
+    },
+    {
+      "tokens": 192,
+      "nll": 66.13905139443591,
+      "ref_nll": 65.80221287328322,
+      "kl_sum": 2.9985275282842037,
+      "flips": 5,
+      "id": "code-512-09",
+      "document_id": "code:Lib/test/test_unittest/test_break.py",
+      "domain": "code",
+      "language": "Python",
+      "context": 512
+    },
+    {
+      "tokens": 192,
+      "nll": 168.258511580078,
+      "ref_nll": 170.14184451435494,
+      "kl_sum": 1.8627780967466798,
+      "flips": 4,
+      "id": "code-512-10",
+      "document_id": "code:Lib/test/test_importlib/test_lazy.py",
+      "domain": "code",
+      "language": "Python",
+      "context": 512
+    },
+    {
+      "tokens": 192,
+      "nll": 78.7094883324587,
+      "ref_nll": 79.88014012286294,
+      "kl_sum": 4.004268693321157,
+      "flips": 4,
+      "id": "code-512-11",
+      "document_id": "code:Lib/test/test_asdl_parser.py",
+      "domain": "code",
+      "language": "Python",
+      "context": 512
+    },
+    {
+      "tokens": 192,
+      "nll": 170.0656751459369,
+      "ref_nll": 164.878752969611,
+      "kl_sum": 2.581971232641207,
+      "flips": 12,
+      "id": "code-512-12",
+      "document_id": "code:Lib/test/support/bytecode_helper.py",
+      "domain": "code",
+      "language": "Python",
+      "context": 512
+    },
+    {
+      "tokens": 192,
+      "nll": 123.62557271832156,
+      "ref_nll": 118.89413200257997,
+      "kl_sum": 2.07043774209133,
+      "flips": 4,
+      "id": "code-512-13",
+      "document_id": "code:Lib/test/test_devpoll.py",
+      "domain": "code",
+      "language": "Python",
+      "context": 512
+    },
+    {
+      "tokens": 192,
+      "nll": 4.447457875984583,
+      "ref_nll": 3.236541124342807,
+      "kl_sum": 0.9549505351906401,
+      "flips": 0,
+      "id": "code-512-14",
+      "document_id": "code:Lib/test/test_capi/test_getargs.py",
+      "domain": "code",
+      "language": "Python",
+      "context": 512
+    },
+    {
+      "tokens": 192,
+      "nll": 165.0662256498763,
+      "ref_nll": 167.8494136017398,
+      "kl_sum": 2.355406446309498,
+      "flips": 8,
+      "id": "code-512-15",
+      "document_id": "code:Lib/test/test_unittest/testmock/testmock.py",
+      "domain": "code",
+      "language": "Python",
+      "context": 512
+    },
+    {
+      "tokens": 192,
+      "nll": 4.240757302067429,
+      "ref_nll": 4.070530580546574,
+      "kl_sum": 0.04375208387632587,
+      "flips": 0,
+      "id": "code-512-16",
+      "document_id": "code:Lib/test/test_calendar.py",
+      "domain": "code",
+      "language": "Python",
+      "context": 512
+    },
+    {
+      "tokens": 192,
+      "nll": 190.58042187653746,
+      "ref_nll": 191.00033886505798,
+      "kl_sum": 2.031651259248963,
+      "flips": 5,
+      "id": "code-512-17",
+      "document_id": "code:Lib/test/test_importlib/metadata/_path.py",
+      "domain": "code",
+      "language": "Python",
+      "context": 512
+    },
+    {
+      "tokens": 192,
+      "nll": 90.72711502210313,
+      "ref_nll": 92.31554609661998,
+      "kl_sum": 1.2698489371923016,
+      "flips": 2,
+      "id": "code-512-18",
+      "document_id": "code:Lib/test/test_dynamic.py",
+      "domain": "code",
+      "language": "Python",
+      "context": 512
+    },
+    {
+      "tokens": 192,
+      "nll": 12.153557959925251,
+      "ref_nll": 10.629130193948527,
+      "kl_sum": 0.7109975190864699,
+      "flips": 1,
+      "id": "code-512-19",
+      "document_id": "code:Lib/test/test_userlist.py",
+      "domain": "code",
+      "language": "Python",
+      "context": 512
+    },
+    {
+      "tokens": 192,
+      "nll": 173.8609532942969,
+      "ref_nll": 176.5291823344653,
+      "kl_sum": 2.4662986661227713,
+      "flips": 6,
+      "id": "code-512-20",
+      "document_id": "code:Lib/test/test_asyncio/test_locks.py",
+      "domain": "code",
+      "language": "Python",
+      "context": 512
+    },
+    {
+      "tokens": 192,
+      "nll": 127.18148577885177,
+      "ref_nll": 117.91674955459803,
+      "kl_sum": 5.914252224037311,
+      "flips": 11,
+      "id": "code-512-21",
+      "document_id": "code:Lib/test/test_asyncio/test_windows_events.py",
+      "domain": "code",
+      "language": "Python",
+      "context": 512
+    },
+    {
+      "tokens": 192,
+      "nll": 119.11885694492162,
+      "ref_nll": 121.82013532248698,
+      "kl_sum": 1.382259013701133,
+      "flips": 5,
+      "id": "code-512-22",
+      "document_id": "code:Lib/test/test_profiling/test_sampling_profiler/test_blocking.py",
+      "domain": "code",
+      "language": "Python",
+      "context": 512
+    },
+    {
+      "tokens": 192,
+      "nll": 122.77151721991822,
+      "ref_nll": 123.241202716722,
+      "kl_sum": 1.5280694394340737,
+      "flips": 6,
+      "id": "code-512-23",
+      "document_id": "code:Lib/test/test_ordered_dict.py",
+      "domain": "code",
+      "language": "Python",
+      "context": 512
+    },
+    {
+      "tokens": 192,
+      "nll": 473.6031794216251,
+      "ref_nll": 469.01576147589367,
+      "kl_sum": 3.358109255831332,
+      "flips": 14,
+      "id": "knowledge_en-128-00",
+      "document_id": "knowledge_en:4562285",
+      "domain": "knowledge_en",
+      "language": "en",
+      "context": 128
+    },
+    {
+      "tokens": 192,
+      "nll": 391.8922997202544,
+      "ref_nll": 388.4972540832241,
+      "kl_sum": 5.450551565860205,
+      "flips": 12,
+      "id": "knowledge_en-128-01",
+      "document_id": "knowledge_en:4815057",
+      "domain": "knowledge_en",
+      "language": "en",
+      "context": 128
+    },
+    {
+      "tokens": 192,
+      "nll": 356.3953598051012,
+      "ref_nll": 343.45010888980687,
+      "kl_sum": 10.49812756039884,
+      "flips": 23,
+      "id": "knowledge_en-128-02",
+      "document_id": "knowledge_en:5270056",
+      "domain": "knowledge_en",
+      "language": "en",
+      "context": 128
+    },
+    {
+      "tokens": 192,
+      "nll": 419.4890871216776,
+      "ref_nll": 415.9317378003616,
+      "kl_sum": 3.4266075738217068,
+      "flips": 16,
+      "id": "knowledge_en-128-03",
+      "document_id": "knowledge_en:4237205",
+      "domain": "knowledge_en",
+      "language": "en",
+      "context": 128
+    },
+    {
+      "tokens": 192,
+      "nll": 364.3463141292614,
+      "ref_nll": 351.43616913437745,
+      "kl_sum": 10.611923111148453,
+      "flips": 18,
+      "id": "knowledge_en-128-04",
+      "document_id": "knowledge_en:4226553",
+      "domain": "knowledge_en",
+      "language": "en",
+      "context": 128
+    },
+    {
+      "tokens": 192,
+      "nll": 99.4996972970398,
+      "ref_nll": 99.83725650334168,
+      "kl_sum": 6.067411174158726,
+      "flips": 11,
+      "id": "knowledge_en-128-05",
+      "document_id": "knowledge_en:4639960",
+      "domain": "knowledge_en",
+      "language": "en",
+      "context": 128
+    },
+    {
+      "tokens": 192,
+      "nll": 428.8929010178181,
+      "ref_nll": 428.23660103853763,
+      "kl_sum": 4.080739205311952,
+      "flips": 17,
+      "id": "knowledge_en-128-06",
+      "document_id": "knowledge_en:4772519",
+      "domain": "knowledge_en",
+      "language": "en",
+      "context": 128
+    },
+    {
+      "tokens": 192,
+      "nll": 199.59208694208792,
+      "ref_nll": 197.51815393262223,
+      "kl_sum": 2.432608361660983,
+      "flips": 14,
+      "id": "knowledge_en-128-07",
+      "document_id": "knowledge_en:5267996",
+      "domain": "knowledge_en",
+      "language": "en",
+      "context": 128
+    },
+    {
+      "tokens": 192,
+      "nll": 541.4524221677566,
+      "ref_nll": 541.207303045092,
+      "kl_sum": 5.164130279511659,
+      "flips": 11,
+      "id": "knowledge_en-128-08",
+      "document_id": "knowledge_en:4903749",
+      "domain": "knowledge_en",
+      "language": "en",
+      "context": 128
+    },
+    {
+      "tokens": 192,
+      "nll": 351.0743524920981,
+      "ref_nll": 346.4881536019311,
+      "kl_sum": 5.186126855715351,
+      "flips": 16,
+      "id": "knowledge_en-128-09",
+      "document_id": "knowledge_en:5240586",
+      "domain": "knowledge_en",
+      "language": "en",
+      "context": 128
+    },
+    {
+      "tokens": 192,
+      "nll": 238.81467620776584,
+      "ref_nll": 230.0679562599048,
+      "kl_sum": 4.462627775220696,
+      "flips": 8,
+      "id": "knowledge_en-128-10",
+      "document_id": "knowledge_en:4607670",
+      "domain": "knowledge_en",
+      "language": "en",
+      "context": 128
+    },
+    {
+      "tokens": 192,
+      "nll": 225.27035300804164,
+      "ref_nll": 225.56138948122987,
+      "kl_sum": 6.019538214181983,
+      "flips": 13,
+      "id": "knowledge_en-128-11",
+      "document_id": "knowledge_en:5045778",
+      "domain": "knowledge_en",
+      "language": "en",
+      "context": 128
+    },
+    {
+      "tokens": 192,
+      "nll": 380.53438201419976,
+      "ref_nll": 379.10912369259313,
+      "kl_sum": 3.8271139322519487,
+      "flips": 7,
+      "id": "knowledge_en-128-12",
+      "document_id": "knowledge_en:4969242",
+      "domain": "knowledge_en",
+      "language": "en",
+      "context": 128
+    },
+    {
+      "tokens": 192,
+      "nll": 107.17518198973306,
+      "ref_nll": 100.77789431983473,
+      "kl_sum": 4.988227760812362,
+      "flips": 20,
+      "id": "knowledge_en-128-13",
+      "document_id": "knowledge_en:4582427",
+      "domain": "knowledge_en",
+      "language": "en",
+      "context": 128
+    },
+    {
+      "tokens": 192,
+      "nll": 474.0290362863452,
+      "ref_nll": 472.98951693510753,
+      "kl_sum": 3.0273437293942353,
+      "flips": 10,
+      "id": "knowledge_en-128-14",
+      "document_id": "knowledge_en:5250749",
+      "domain": "knowledge_en",
+      "language": "en",
+      "context": 128
+    },
+    {
+      "tokens": 192,
+      "nll": 417.68054529821893,
+      "ref_nll": 416.7685781288892,
+      "kl_sum": 3.1286613718455127,
+      "flips": 7,
+      "id": "knowledge_en-128-15",
+      "document_id": "knowledge_en:5241172",
+      "domain": "knowledge_en",
+      "language": "en",
+      "context": 128
+    },
+    {
+      "tokens": 192,
+      "nll": 246.0677379262661,
+      "ref_nll": 242.34944595104662,
+      "kl_sum": 3.6818102941983937,
+      "flips": 13,
+      "id": "knowledge_en-128-16",
+      "document_id": "knowledge_en:4608195",
+      "domain": "knowledge_en",
+      "language": "en",
+      "context": 128
+    },
+    {
+      "tokens": 192,
+      "nll": 273.9826018613712,
+      "ref_nll": 270.7615126740784,
+      "kl_sum": 2.916528419024883,
+      "flips": 11,
+      "id": "knowledge_en-128-17",
+      "document_id": "knowledge_en:4740308",
+      "domain": "knowledge_en",
+      "language": "en",
+      "context": 128
+    },
+    {
+      "tokens": 192,
+      "nll": 375.3053234163026,
+      "ref_nll": 375.4975769484572,
+      "kl_sum": 5.518528571725336,
+      "flips": 12,
+      "id": "knowledge_en-128-18",
+      "document_id": "knowledge_en:4200966",
+      "domain": "knowledge_en",
+      "language": "en",
+      "context": 128
+    },
+    {
+      "tokens": 192,
+      "nll": 227.76087929592995,
+      "ref_nll": 209.95605683324447,
+      "kl_sum": 12.48687882056583,
+      "flips": 17,
+      "id": "knowledge_en-128-19",
+      "document_id": "knowledge_en:4872858",
+      "domain": "knowledge_en",
+      "language": "en",
+      "context": 128
+    },
+    {
+      "tokens": 192,
+      "nll": 289.1684792874021,
+      "ref_nll": 291.09811251164865,
+      "kl_sum": 3.880044731620913,
+      "flips": 12,
+      "id": "knowledge_en-128-20",
+      "document_id": "knowledge_en:4847698",
+      "domain": "knowledge_en",
+      "language": "en",
+      "context": 128
+    },
+    {
+      "tokens": 192,
+      "nll": 470.11924855111647,
+      "ref_nll": 454.08918766722127,
+      "kl_sum": 12.75628056043355,
+      "flips": 23,
+      "id": "knowledge_en-128-21",
+      "document_id": "knowledge_en:4967023",
+      "domain": "knowledge_en",
+      "language": "en",
+      "context": 128
+    },
+    {
+      "tokens": 192,
+      "nll": 231.16496759861548,
+      "ref_nll": 225.17488848320227,
+      "kl_sum": 2.2873369047656986,
+      "flips": 6,
+      "id": "knowledge_en-128-22",
+      "document_id": "knowledge_en:4685715",
+      "domain": "knowledge_en",
+      "language": "en",
+      "context": 128
+    },
+    {
+      "tokens": 192,
+      "nll": 287.76294055636026,
+      "ref_nll": 284.6661463342216,
+      "kl_sum": 4.811572284765413,
+      "flips": 13,
+      "id": "knowledge_en-128-23",
+      "document_id": "knowledge_en:5018983",
+      "domain": "knowledge_en",
+      "language": "en",
+      "context": 128
+    },
+    {
+      "tokens": 192,
+      "nll": 369.46717533870833,
+      "ref_nll": 365.70507346565137,
+      "kl_sum": 3.4613578685476805,
+      "flips": 13,
+      "id": "knowledge_en-2048-00",
+      "document_id": "knowledge_en:4985536",
+      "domain": "knowledge_en",
+      "language": "en",
+      "context": 2048
+    },
+    {
+      "tokens": 192,
+      "nll": 217.38117453567656,
+      "ref_nll": 215.5609389911183,
+      "kl_sum": 2.5432675212407827,
+      "flips": 5,
+      "id": "knowledge_en-2048-01",
+      "document_id": "knowledge_en:4978254",
+      "domain": "knowledge_en",
+      "language": "en",
+      "context": 2048
+    },
+    {
+      "tokens": 192,
+      "nll": 392.3538391518887,
+      "ref_nll": 395.2085198339655,
+      "kl_sum": 2.808846087839422,
+      "flips": 13,
+      "id": "knowledge_en-2048-02",
+      "document_id": "knowledge_en:5079506",
+      "domain": "knowledge_en",
+      "language": "en",
+      "context": 2048
+    },
+    {
+      "tokens": 192,
+      "nll": 429.8622690019711,
+      "ref_nll": 430.2644150670749,
+      "kl_sum": 4.8210399464093445,
+      "flips": 14,
+      "id": "knowledge_en-2048-03",
+      "document_id": "knowledge_en:4446",
+      "domain": "knowledge_en",
+      "language": "en",
+      "context": 2048
+    },
+    {
+      "tokens": 192,
+      "nll": 182.42354491266224,
+      "ref_nll": 180.14022783138444,
+      "kl_sum": 2.5334970828983514,
+      "flips": 2,
+      "id": "knowledge_en-2048-04",
+      "document_id": "knowledge_en:5202807",
+      "domain": "knowledge_en",
+      "language": "en",
+      "context": 2048
+    },
+    {
+      "tokens": 192,
+      "nll": 214.71708735368247,
+      "ref_nll": 209.73730335016353,
+      "kl_sum": 10.678916008511926,
+      "flips": 15,
+      "id": "knowledge_en-2048-05",
+      "document_id": "knowledge_en:4658853",
+      "domain": "knowledge_en",
+      "language": "en",
+      "context": 2048
+    },
+    {
+      "tokens": 192,
+      "nll": 416.4803625307395,
+      "ref_nll": 415.4145780913095,
+      "kl_sum": 3.810217642461212,
+      "flips": 15,
+      "id": "knowledge_en-2048-06",
+      "document_id": "knowledge_en:4732137",
+      "domain": "knowledge_en",
+      "language": "en",
+      "context": 2048
+    },
+    {
+      "tokens": 192,
+      "nll": 279.6934750713335,
+      "ref_nll": 282.8202977520341,
+      "kl_sum": 2.00049631445827,
+      "flips": 18,
+      "id": "knowledge_en-2048-07",
+      "document_id": "knowledge_en:4224720",
+      "domain": "knowledge_en",
+      "language": "en",
+      "context": 2048
+    },
+    {
+      "tokens": 192,
+      "nll": 207.98392142693046,
+      "ref_nll": 208.8775699440739,
+      "kl_sum": 3.6569576224514213,
+      "flips": 12,
+      "id": "knowledge_en-2048-08",
+      "document_id": "knowledge_en:4277031",
+      "domain": "knowledge_en",
+      "language": "en",
+      "context": 2048
+    },
+    {
+      "tokens": 192,
+      "nll": 78.61780117308854,
+      "ref_nll": 76.16607691567037,
+      "kl_sum": 1.9973165878876378,
+      "flips": 5,
+      "id": "knowledge_en-2048-09",
+      "document_id": "knowledge_en:5115334",
+      "domain": "knowledge_en",
+      "language": "en",
+      "context": 2048
+    },
+    {
+      "tokens": 192,
+      "nll": 351.1334355963618,
+      "ref_nll": 345.55423573384724,
+      "kl_sum": 1.9735603366715488,
+      "flips": 8,
+      "id": "knowledge_en-2048-10",
+      "document_id": "knowledge_en:4444",
+      "domain": "knowledge_en",
+      "language": "en",
+      "context": 2048
+    },
+    {
+      "tokens": 192,
+      "nll": 410.26714964414714,
+      "ref_nll": 410.11257128904253,
+      "kl_sum": 2.404701406960923,
+      "flips": 7,
+      "id": "knowledge_en-2048-11",
+      "document_id": "knowledge_en:4385464",
+      "domain": "knowledge_en",
+      "language": "en",
+      "context": 2048
+    },
+    {
+      "tokens": 192,
+      "nll": 392.4189055842221,
+      "ref_nll": 386.5789596860527,
+      "kl_sum": 4.76758470028384,
+      "flips": 12,
+      "id": "knowledge_en-2048-12",
+      "document_id": "knowledge_en:4781864",
+      "domain": "knowledge_en",
+      "language": "en",
+      "context": 2048
+    },
+    {
+      "tokens": 192,
+      "nll": 532.5776063695826,
+      "ref_nll": 530.4344940324936,
+      "kl_sum": 3.0033206094209706,
+      "flips": 13,
+      "id": "knowledge_en-2048-13",
+      "document_id": "knowledge_en:4916835",
+      "domain": "knowledge_en",
+      "language": "en",
+      "context": 2048
+    },
+    {
+      "tokens": 192,
+      "nll": 374.2051445154648,
+      "ref_nll": 373.0037549774861,
+      "kl_sum": 3.39285479109445,
+      "flips": 8,
+      "id": "knowledge_en-2048-14",
+      "document_id": "knowledge_en:4314381",
+      "domain": "knowledge_en",
+      "language": "en",
+      "context": 2048
+    },
+    {
+      "tokens": 192,
+      "nll": 461.6908122672885,
+      "ref_nll": 458.14651289159156,
+      "kl_sum": 4.2607790892389374,
+      "flips": 9,
+      "id": "knowledge_en-2048-15",
+      "document_id": "knowledge_en:5037280",
+      "domain": "knowledge_en",
+      "language": "en",
+      "context": 2048
+    },
+    {
+      "tokens": 192,
+      "nll": 116.5373370770435,
+      "ref_nll": 113.10509393799248,
+      "kl_sum": 1.38042271671388,
+      "flips": 7,
+      "id": "knowledge_en-2048-16",
+      "document_id": "knowledge_en:5230028",
+      "domain": "knowledge_en",
+      "language": "en",
+      "context": 2048
+    },
+    {
+      "tokens": 192,
+      "nll": 411.57654723905944,
+      "ref_nll": 413.30179034929097,
+      "kl_sum": 2.2025035122205434,
+      "flips": 14,
+      "id": "knowledge_en-2048-17",
+      "document_id": "knowledge_en:4621608",
+      "domain": "knowledge_en",
+      "language": "en",
+      "context": 2048
+    },
+    {
+      "tokens": 192,
+      "nll": 485.76829690136947,
+      "ref_nll": 488.18198367357036,
+      "kl_sum": 6.0488844984423675,
+      "flips": 25,
+      "id": "knowledge_en-2048-18",
+      "document_id": "knowledge_en:4663111",
+      "domain": "knowledge_en",
+      "language": "en",
+      "context": 2048
+    },
+    {
+      "tokens": 192,
+      "nll": 230.34068126813509,
+      "ref_nll": 227.67175833869442,
+      "kl_sum": 2.471616403415732,
+      "flips": 8,
+      "id": "knowledge_en-2048-19",
+      "document_id": "knowledge_en:5032094",
+      "domain": "knowledge_en",
+      "language": "en",
+      "context": 2048
+    },
+    {
+      "tokens": 192,
+      "nll": 319.2256776808499,
+      "ref_nll": 316.80333620641613,
+      "kl_sum": 3.6506712513880366,
+      "flips": 9,
+      "id": "knowledge_en-2048-20",
+      "document_id": "knowledge_en:4926360",
+      "domain": "knowledge_en",
+      "language": "en",
+      "context": 2048
+    },
+    {
+      "tokens": 192,
+      "nll": 313.4985153946518,
+      "ref_nll": 311.50038270972846,
+      "kl_sum": 1.8896944199854677,
+      "flips": 11,
+      "id": "knowledge_en-2048-21",
+      "document_id": "knowledge_en:4243203",
+      "domain": "knowledge_en",
+      "language": "en",
+      "context": 2048
+    },
+    {
+      "tokens": 192,
+      "nll": 544.3611324406229,
+      "ref_nll": 546.1944816460441,
+      "kl_sum": 5.130557630567742,
+      "flips": 22,
+      "id": "knowledge_en-2048-22",
+      "document_id": "knowledge_en:4878000",
+      "domain": "knowledge_en",
+      "language": "en",
+      "context": 2048
+    },
+    {
+      "tokens": 192,
+      "nll": 340.3701425865411,
+      "ref_nll": 332.00246181290277,
+      "kl_sum": 4.573330369099799,
+      "flips": 17,
+      "id": "knowledge_en-2048-23",
+      "document_id": "knowledge_en:5129851",
+      "domain": "knowledge_en",
+      "language": "en",
+      "context": 2048
+    },
+    {
+      "tokens": 192,
+      "nll": 273.491711478513,
+      "ref_nll": 265.23897716961073,
+      "kl_sum": 4.336826425381885,
+      "flips": 4,
+      "id": "knowledge_en-512-00",
+      "document_id": "knowledge_en:4906348",
+      "domain": "knowledge_en",
+      "language": "en",
+      "context": 512
+    },
+    {
+      "tokens": 192,
+      "nll": 454.20810349051317,
+      "ref_nll": 450.3565373400561,
+      "kl_sum": 3.429513640602102,
+      "flips": 12,
+      "id": "knowledge_en-512-01",
+      "document_id": "knowledge_en:4312402",
+      "domain": "knowledge_en",
+      "language": "en",
+      "context": 512
+    },
+    {
+      "tokens": 192,
+      "nll": 356.1109336235786,
+      "ref_nll": 350.89486933821536,
+      "kl_sum": 1.9459578219662323,
+      "flips": 10,
+      "id": "knowledge_en-512-02",
+      "document_id": "knowledge_en:5095513",
+      "domain": "knowledge_en",
+      "language": "en",
+      "context": 512
+    },
+    {
+      "tokens": 192,
+      "nll": 128.85417612302626,
+      "ref_nll": 126.00077640275185,
+      "kl_sum": 5.555373871148244,
+      "flips": 9,
+      "id": "knowledge_en-512-03",
+      "document_id": "knowledge_en:4907400",
+      "domain": "knowledge_en",
+      "language": "en",
+      "context": 512
+    },
+    {
+      "tokens": 192,
+      "nll": 339.46000238273336,
+      "ref_nll": 334.8255357753551,
+      "kl_sum": 3.8220024130649013,
+      "flips": 17,
+      "id": "knowledge_en-512-04",
+      "document_id": "knowledge_en:4290418",
+      "domain": "knowledge_en",
+      "language": "en",
+      "context": 512
+    },
+    {
+      "tokens": 192,
+      "nll": 445.5258350570948,
+      "ref_nll": 440.62832719867583,
+      "kl_sum": 3.3040725752389855,
+      "flips": 12,
+      "id": "knowledge_en-512-05",
+      "document_id": "knowledge_en:4185286",
+      "domain": "knowledge_en",
+      "language": "en",
+      "context": 512
+    },
+    {
+      "tokens": 192,
+      "nll": 259.11641284093366,
+      "ref_nll": 259.1164942874707,
+      "kl_sum": 3.372603650920433,
+      "flips": 14,
+      "id": "knowledge_en-512-06",
+      "document_id": "knowledge_en:4577371",
+      "domain": "knowledge_en",
+      "language": "en",
+      "context": 512
+    },
+    {
+      "tokens": 192,
+      "nll": 388.00972810546955,
+      "ref_nll": 386.6581176609252,
+      "kl_sum": 2.8724357481602127,
+      "flips": 13,
+      "id": "knowledge_en-512-07",
+      "document_id": "knowledge_en:4217041",
+      "domain": "knowledge_en",
+      "language": "en",
+      "context": 512
+    },
+    {
+      "tokens": 192,
+      "nll": 468.4338163998327,
+      "ref_nll": 468.9031544620957,
+      "kl_sum": 6.5342014438971345,
+      "flips": 16,
+      "id": "knowledge_en-512-08",
+      "document_id": "knowledge_en:5189539",
+      "domain": "knowledge_en",
+      "language": "en",
+      "context": 512
+    },
+    {
+      "tokens": 192,
+      "nll": 305.15768404922983,
+      "ref_nll": 298.3600886427248,
+      "kl_sum": 6.791574848724046,
+      "flips": 16,
+      "id": "knowledge_en-512-09",
+      "document_id": "knowledge_en:4422158",
+      "domain": "knowledge_en",
+      "language": "en",
+      "context": 512
+    },
+    {
+      "tokens": 192,
+      "nll": 385.1771246802473,
+      "ref_nll": 384.52852535168336,
+      "kl_sum": 6.008247476320466,
+      "flips": 14,
+      "id": "knowledge_en-512-10",
+      "document_id": "knowledge_en:4453006",
+      "domain": "knowledge_en",
+      "language": "en",
+      "context": 512
+    },
+    {
+      "tokens": 192,
+      "nll": 374.5988464852853,
+      "ref_nll": 370.2127937449841,
+      "kl_sum": 2.8977438915773246,
+      "flips": 13,
+      "id": "knowledge_en-512-11",
+      "document_id": "knowledge_en:4139116",
+      "domain": "knowledge_en",
+      "language": "en",
+      "context": 512
+    },
+    {
+      "tokens": 192,
+      "nll": 301.2565653399506,
+      "ref_nll": 298.2854095254006,
+      "kl_sum": 1.2875653907034317,
+      "flips": 8,
+      "id": "knowledge_en-512-12",
+      "document_id": "knowledge_en:4884280",
+      "domain": "knowledge_en",
+      "language": "en",
+      "context": 512
+    },
+    {
+      "tokens": 192,
+      "nll": 441.5408200250531,
+      "ref_nll": 438.00336018082453,
+      "kl_sum": 3.779197339247795,
+      "flips": 14,
+      "id": "knowledge_en-512-13",
+      "document_id": "knowledge_en:4340042",
+      "domain": "knowledge_en",
+      "language": "en",
+      "context": 512
+    },
+    {
+      "tokens": 192,
+      "nll": 305.53532931397785,
+      "ref_nll": 308.7357263397862,
+      "kl_sum": 4.013429534023825,
+      "flips": 7,
+      "id": "knowledge_en-512-14",
+      "document_id": "knowledge_en:4524064",
+      "domain": "knowledge_en",
+      "language": "en",
+      "context": 512
+    },
+    {
+      "tokens": 192,
+      "nll": 123.99760634856989,
+      "ref_nll": 123.49192627297668,
+      "kl_sum": 0.713035217564304,
+      "flips": 3,
+      "id": "knowledge_en-512-15",
+      "document_id": "knowledge_en:5146498",
+      "domain": "knowledge_en",
+      "language": "en",
+      "context": 512
+    },
+    {
+      "tokens": 192,
+      "nll": 386.26017282179237,
+      "ref_nll": 388.40848223827925,
+      "kl_sum": 2.2143981937670194,
+      "flips": 9,
+      "id": "knowledge_en-512-16",
+      "document_id": "knowledge_en:4493254",
+      "domain": "knowledge_en",
+      "language": "en",
+      "context": 512
+    },
+    {
+      "tokens": 192,
+      "nll": 395.89572939145,
+      "ref_nll": 397.5271046418238,
+      "kl_sum": 4.3258030591416885,
+      "flips": 12,
+      "id": "knowledge_en-512-17",
+      "document_id": "knowledge_en:4745535",
+      "domain": "knowledge_en",
+      "language": "en",
+      "context": 512
+    },
+    {
+      "tokens": 192,
+      "nll": 413.5388146470941,
+      "ref_nll": 413.8372991646611,
+      "kl_sum": 4.798685647698556,
+      "flips": 13,
+      "id": "knowledge_en-512-18",
+      "document_id": "knowledge_en:4661015",
+      "domain": "knowledge_en",
+      "language": "en",
+      "context": 512
+    },
+    {
+      "tokens": 192,
+      "nll": 420.27895029020146,
+      "ref_nll": 422.11786941259925,
+      "kl_sum": 2.673819036005929,
+      "flips": 14,
+      "id": "knowledge_en-512-19",
+      "document_id": "knowledge_en:4301395",
+      "domain": "knowledge_en",
+      "language": "en",
+      "context": 512
+    },
+    {
+      "tokens": 192,
+      "nll": 230.92528049042426,
+      "ref_nll": 229.35186410198457,
+      "kl_sum": 2.7300122679933034,
+      "flips": 12,
+      "id": "knowledge_en-512-20",
+      "document_id": "knowledge_en:4795921",
+      "domain": "knowledge_en",
+      "language": "en",
+      "context": 512
+    },
+    {
+      "tokens": 192,
+      "nll": 323.5141399179229,
+      "ref_nll": 326.3096002958482,
+      "kl_sum": 3.424553619156594,
+      "flips": 16,
+      "id": "knowledge_en-512-21",
+      "document_id": "knowledge_en:4061036",
+      "domain": "knowledge_en",
+      "language": "en",
+      "context": 512
+    },
+    {
+      "tokens": 192,
+      "nll": 331.8991946340939,
+      "ref_nll": 329.32787247086526,
+      "kl_sum": 3.2606643542442724,
+      "flips": 10,
+      "id": "knowledge_en-512-22",
+      "document_id": "knowledge_en:4126674",
+      "domain": "knowledge_en",
+      "language": "en",
+      "context": 512
+    },
+    {
+      "tokens": 192,
+      "nll": 370.2815930511206,
+      "ref_nll": 370.13559468857784,
+      "kl_sum": 2.5605836976474405,
+      "flips": 12,
+      "id": "knowledge_en-512-23",
+      "document_id": "knowledge_en:4995773",
+      "domain": "knowledge_en",
+      "language": "en",
+      "context": 512
+    },
+    {
+      "tokens": 192,
+      "nll": 350.4032357314054,
+      "ref_nll": 347.4798248081779,
+      "kl_sum": 3.743389673675548,
+      "flips": 8,
+      "id": "knowledge_zh-128-00",
+      "document_id": "knowledge_zh:144470",
+      "domain": "knowledge_zh",
+      "language": "zh",
+      "context": 128
+    },
+    {
+      "tokens": 192,
+      "nll": 343.3002451271168,
+      "ref_nll": 343.05981135711045,
+      "kl_sum": 4.118052973504171,
+      "flips": 13,
+      "id": "knowledge_zh-128-01",
+      "document_id": "knowledge_zh:332376",
+      "domain": "knowledge_zh",
+      "language": "zh",
+      "context": 128
+    },
+    {
+      "tokens": 192,
+      "nll": 479.35814637321164,
+      "ref_nll": 476.150384506298,
+      "kl_sum": 4.726850962268677,
+      "flips": 11,
+      "id": "knowledge_zh-128-02",
+      "document_id": "knowledge_zh:558149",
+      "domain": "knowledge_zh",
+      "language": "zh",
+      "context": 128
+    },
+    {
+      "tokens": 192,
+      "nll": 478.7919913394144,
+      "ref_nll": 476.24439844075823,
+      "kl_sum": 2.576546791702173,
+      "flips": 9,
+      "id": "knowledge_zh-128-03",
+      "document_id": "knowledge_zh:190572",
+      "domain": "knowledge_zh",
+      "language": "zh",
+      "context": 128
+    },
+    {
+      "tokens": 192,
+      "nll": 195.83642767230776,
+      "ref_nll": 190.68017765430614,
+      "kl_sum": 2.8378462995157685,
+      "flips": 14,
+      "id": "knowledge_zh-128-04",
+      "document_id": "knowledge_zh:624730",
+      "domain": "knowledge_zh",
+      "language": "zh",
+      "context": 128
+    },
+    {
+      "tokens": 192,
+      "nll": 536.2889852255466,
+      "ref_nll": 533.7545472771162,
+      "kl_sum": 2.9472528126409623,
+      "flips": 15,
+      "id": "knowledge_zh-128-05",
+      "document_id": "knowledge_zh:591116",
+      "domain": "knowledge_zh",
+      "language": "zh",
+      "context": 128
+    },
+    {
+      "tokens": 192,
+      "nll": 510.3536247086595,
+      "ref_nll": 501.31855978269596,
+      "kl_sum": 10.824531997481404,
+      "flips": 20,
+      "id": "knowledge_zh-128-06",
+      "document_id": "knowledge_zh:718395",
+      "domain": "knowledge_zh",
+      "language": "zh",
+      "context": 128
+    },
+    {
+      "tokens": 192,
+      "nll": 415.1391504774656,
+      "ref_nll": 409.55536812189575,
+      "kl_sum": 5.445351314492404,
+      "flips": 23,
+      "id": "knowledge_zh-128-07",
+      "document_id": "knowledge_zh:367430",
+      "domain": "knowledge_zh",
+      "language": "zh",
+      "context": 128
+    },
+    {
+      "tokens": 192,
+      "nll": 319.63716321780885,
+      "ref_nll": 317.40573713829326,
+      "kl_sum": 2.7342306448699296,
+      "flips": 14,
+      "id": "knowledge_zh-128-08",
+      "document_id": "knowledge_zh:88143",
+      "domain": "knowledge_zh",
+      "language": "zh",
+      "context": 128
+    },
+    {
+      "tokens": 192,
+      "nll": 406.03251987328986,
+      "ref_nll": 401.1148196295544,
+      "kl_sum": 3.814533204575336,
+      "flips": 5,
+      "id": "knowledge_zh-128-09",
+      "document_id": "knowledge_zh:854519",
+      "domain": "knowledge_zh",
+      "language": "zh",
+      "context": 128
+    },
+    {
+      "tokens": 192,
+      "nll": 378.90034658453806,
+      "ref_nll": 379.9091530596488,
+      "kl_sum": 3.6484882192763024,
+      "flips": 8,
+      "id": "knowledge_zh-128-10",
+      "document_id": "knowledge_zh:635559",
+      "domain": "knowledge_zh",
+      "language": "zh",
+      "context": 128
+    },
+    {
+      "tokens": 192,
+      "nll": 328.4105240389508,
+      "ref_nll": 327.6701258052817,
+      "kl_sum": 4.457539180399009,
+      "flips": 15,
+      "id": "knowledge_zh-128-11",
+      "document_id": "knowledge_zh:28037",
+      "domain": "knowledge_zh",
+      "language": "zh",
+      "context": 128
+    },
+    {
+      "tokens": 192,
+      "nll": 374.09342559775905,
+      "ref_nll": 371.46682915577185,
+      "kl_sum": 5.913469837937912,
+      "flips": 18,
+      "id": "knowledge_zh-128-12",
+      "document_id": "knowledge_zh:66144",
+      "domain": "knowledge_zh",
+      "language": "zh",
+      "context": 128
+    },
+    {
+      "tokens": 192,
+      "nll": 602.3986666046003,
+      "ref_nll": 597.8111782627241,
+      "kl_sum": 7.24254358866509,
+      "flips": 18,
+      "id": "knowledge_zh-128-13",
+      "document_id": "knowledge_zh:259204",
+      "domain": "knowledge_zh",
+      "language": "zh",
+      "context": 128
+    },
+    {
+      "tokens": 192,
+      "nll": 271.33504543744675,
+      "ref_nll": 272.1137762590515,
+      "kl_sum": 4.422947760231844,
+      "flips": 17,
+      "id": "knowledge_zh-128-14",
+      "document_id": "knowledge_zh:637915",
+      "domain": "knowledge_zh",
+      "language": "zh",
+      "context": 128
+    },
+    {
+      "tokens": 192,
+      "nll": 433.9767084224004,
+      "ref_nll": 430.51647245716595,
+      "kl_sum": 2.8936578179006007,
+      "flips": 12,
+      "id": "knowledge_zh-128-15",
+      "document_id": "knowledge_zh:560412",
+      "domain": "knowledge_zh",
+      "language": "zh",
+      "context": 128
+    },
+    {
+      "tokens": 192,
+      "nll": 109.10536743342755,
+      "ref_nll": 107.8646313874358,
+      "kl_sum": 3.1605522380155633,
+      "flips": 5,
+      "id": "knowledge_zh-128-16",
+      "document_id": "knowledge_zh:1020387",
+      "domain": "knowledge_zh",
+      "language": "zh",
+      "context": 128
+    },
+    {
+      "tokens": 192,
+      "nll": 487.2826118116791,
+      "ref_nll": 480.2669791012522,
+      "kl_sum": 5.832871833759505,
+      "flips": 16,
+      "id": "knowledge_zh-128-17",
+      "document_id": "knowledge_zh:697982",
+      "domain": "knowledge_zh",
+      "language": "zh",
+      "context": 128
+    },
+    {
+      "tokens": 192,
+      "nll": 508.8651358157658,
+      "ref_nll": 510.0862049204261,
+      "kl_sum": 3.3862154260351076,
+      "flips": 10,
+      "id": "knowledge_zh-128-18",
+      "document_id": "knowledge_zh:452419",
+      "domain": "knowledge_zh",
+      "language": "zh",
+      "context": 128
+    },
+    {
+      "tokens": 192,
+      "nll": 317.8922762782677,
+      "ref_nll": 317.12386505561153,
+      "kl_sum": 5.3401873193735545,
+      "flips": 12,
+      "id": "knowledge_zh-128-19",
+      "document_id": "knowledge_zh:556544",
+      "domain": "knowledge_zh",
+      "language": "zh",
+      "context": 128
+    },
+    {
+      "tokens": 192,
+      "nll": 445.2882795849291,
+      "ref_nll": 441.6871523097798,
+      "kl_sum": 4.602113209566108,
+      "flips": 6,
+      "id": "knowledge_zh-128-20",
+      "document_id": "knowledge_zh:578742",
+      "domain": "knowledge_zh",
+      "language": "zh",
+      "context": 128
+    },
+    {
+      "tokens": 192,
+      "nll": 467.828801792788,
+      "ref_nll": 462.32986956762034,
+      "kl_sum": 6.1127140403249625,
+      "flips": 15,
+      "id": "knowledge_zh-128-21",
+      "document_id": "knowledge_zh:66769",
+      "domain": "knowledge_zh",
+      "language": "zh",
+      "context": 128
+    },
+    {
+      "tokens": 192,
+      "nll": 264.77820239232096,
+      "ref_nll": 264.1697297421633,
+      "kl_sum": 1.5449559884706212,
+      "flips": 11,
+      "id": "knowledge_zh-128-22",
+      "document_id": "knowledge_zh:773187",
+      "domain": "knowledge_zh",
+      "language": "zh",
+      "context": 128
+    },
+    {
+      "tokens": 192,
+      "nll": 509.0164049094092,
+      "ref_nll": 507.32131351702265,
+      "kl_sum": 5.317660697924756,
+      "flips": 18,
+      "id": "knowledge_zh-128-23",
+      "document_id": "knowledge_zh:243110",
+      "domain": "knowledge_zh",
+      "language": "zh",
+      "context": 128
+    },
+    {
+      "tokens": 192,
+      "nll": 318.52464170262647,
+      "ref_nll": 312.6467544130023,
+      "kl_sum": 3.6635053448755652,
+      "flips": 15,
+      "id": "knowledge_zh-2048-00",
+      "document_id": "knowledge_zh:3417",
+      "domain": "knowledge_zh",
+      "language": "zh",
+      "context": 2048
+    },
+    {
+      "tokens": 192,
+      "nll": 355.8473744079529,
+      "ref_nll": 353.15916719147936,
+      "kl_sum": 2.232646357252087,
+      "flips": 10,
+      "id": "knowledge_zh-2048-01",
+      "document_id": "knowledge_zh:94131",
+      "domain": "knowledge_zh",
+      "language": "zh",
+      "context": 2048
+    },
+    {
+      "tokens": 192,
+      "nll": 289.88059403494253,
+      "ref_nll": 284.0763489179201,
+      "kl_sum": 3.2464660860994625,
+      "flips": 4,
+      "id": "knowledge_zh-2048-02",
+      "document_id": "knowledge_zh:75255",
+      "domain": "knowledge_zh",
+      "language": "zh",
+      "context": 2048
+    },
+    {
+      "tokens": 192,
+      "nll": 474.4134739016008,
+      "ref_nll": 469.8972765090475,
+      "kl_sum": 6.295516883560676,
+      "flips": 16,
+      "id": "knowledge_zh-2048-03",
+      "document_id": "knowledge_zh:227218",
+      "domain": "knowledge_zh",
+      "language": "zh",
+      "context": 2048
+    },
+    {
+      "tokens": 192,
+      "nll": 596.1095211463689,
+      "ref_nll": 592.2732623927586,
+      "kl_sum": 3.7963270263498874,
+      "flips": 11,
+      "id": "knowledge_zh-2048-04",
+      "document_id": "knowledge_zh:11743",
+      "domain": "knowledge_zh",
+      "language": "zh",
+      "context": 2048
+    },
+    {
+      "tokens": 192,
+      "nll": 211.24515258827887,
+      "ref_nll": 205.7363579990215,
+      "kl_sum": 5.823042698197955,
+      "flips": 11,
+      "id": "knowledge_zh-2048-05",
+      "document_id": "knowledge_zh:4087",
+      "domain": "knowledge_zh",
+      "language": "zh",
+      "context": 2048
+    },
+    {
+      "tokens": 192,
+      "nll": 463.3917309825956,
+      "ref_nll": 466.88428002536966,
+      "kl_sum": 5.817106956295282,
+      "flips": 15,
+      "id": "knowledge_zh-2048-06",
+      "document_id": "knowledge_zh:144282",
+      "domain": "knowledge_zh",
+      "language": "zh",
+      "context": 2048
+    },
+    {
+      "tokens": 192,
+      "nll": 407.68409819700173,
+      "ref_nll": 404.3754605705908,
+      "kl_sum": 2.4629365697896155,
+      "flips": 9,
+      "id": "knowledge_zh-2048-07",
+      "document_id": "knowledge_zh:386268",
+      "domain": "knowledge_zh",
+      "language": "zh",
+      "context": 2048
+    },
+    {
+      "tokens": 192,
+      "nll": 10.428232586638373,
+      "ref_nll": 10.190680302767632,
+      "kl_sum": 0.158066926212983,
+      "flips": 1,
+      "id": "knowledge_zh-2048-08",
+      "document_id": "knowledge_zh:747554",
+      "domain": "knowledge_zh",
+      "language": "zh",
+      "context": 2048
+    },
+    {
+      "tokens": 192,
+      "nll": 344.6123861701835,
+      "ref_nll": 342.8203620195227,
+      "kl_sum": 3.2598207868370688,
+      "flips": 8,
+      "id": "knowledge_zh-2048-09",
+      "document_id": "knowledge_zh:157289",
+      "domain": "knowledge_zh",
+      "language": "zh",
+      "context": 2048
+    },
+    {
+      "tokens": 192,
+      "nll": 545.9987014226499,
+      "ref_nll": 541.401199997752,
+      "kl_sum": 3.8802000764910574,
+      "flips": 11,
+      "id": "knowledge_zh-2048-10",
+      "document_id": "knowledge_zh:213602",
+      "domain": "knowledge_zh",
+      "language": "zh",
+      "context": 2048
+    },
+    {
+      "tokens": 192,
+      "nll": 387.3001830557041,
+      "ref_nll": 385.1792013734812,
+      "kl_sum": 5.559562539120142,
+      "flips": 9,
+      "id": "knowledge_zh-2048-11",
+      "document_id": "knowledge_zh:540558",
+      "domain": "knowledge_zh",
+      "language": "zh",
+      "context": 2048
+    },
+    {
+      "tokens": 192,
+      "nll": 165.7238475030863,
+      "ref_nll": 159.2607074247644,
+      "kl_sum": 5.42303844514241,
+      "flips": 12,
+      "id": "knowledge_zh-2048-12",
+      "document_id": "knowledge_zh:25314",
+      "domain": "knowledge_zh",
+      "language": "zh",
+      "context": 2048
+    },
+    {
+      "tokens": 192,
+      "nll": 26.937399338035902,
+      "ref_nll": 26.973487514169392,
+      "kl_sum": 0.166644251090102,
+      "flips": 1,
+      "id": "knowledge_zh-2048-13",
+      "document_id": "knowledge_zh:456315",
+      "domain": "knowledge_zh",
+      "language": "zh",
+      "context": 2048
+    },
+    {
+      "tokens": 192,
+      "nll": 564.6283215609437,
+      "ref_nll": 561.0590377685094,
+      "kl_sum": 4.879726921496903,
+      "flips": 16,
+      "id": "knowledge_zh-2048-14",
+      "document_id": "knowledge_zh:477061",
+      "domain": "knowledge_zh",
+      "language": "zh",
+      "context": 2048
+    },
+    {
+      "tokens": 192,
+      "nll": 393.523571794125,
+      "ref_nll": 388.81036610659066,
+      "kl_sum": 3.0304980770142045,
+      "flips": 11,
+      "id": "knowledge_zh-2048-15",
+      "document_id": "knowledge_zh:801880",
+      "domain": "knowledge_zh",
+      "language": "zh",
+      "context": 2048
+    },
+    {
+      "tokens": 192,
+      "nll": 436.9996482724164,
+      "ref_nll": 430.59519294899656,
+      "kl_sum": 5.740846495752898,
+      "flips": 13,
+      "id": "knowledge_zh-2048-16",
+      "document_id": "knowledge_zh:24260",
+      "domain": "knowledge_zh",
+      "language": "zh",
+      "context": 2048
+    },
+    {
+      "tokens": 192,
+      "nll": 503.57741448368233,
+      "ref_nll": 505.27242875449883,
+      "kl_sum": 3.571294744652385,
+      "flips": 21,
+      "id": "knowledge_zh-2048-17",
+      "document_id": "knowledge_zh:236130",
+      "domain": "knowledge_zh",
+      "language": "zh",
+      "context": 2048
+    },
+    {
+      "tokens": 192,
+      "nll": 488.5337469633632,
+      "ref_nll": 481.72022120808833,
+      "kl_sum": 3.2595684344303604,
+      "flips": 6,
+      "id": "knowledge_zh-2048-18",
+      "document_id": "knowledge_zh:141000",
+      "domain": "knowledge_zh",
+      "language": "zh",
+      "context": 2048
+    },
+    {
+      "tokens": 192,
+      "nll": 133.38351552714448,
+      "ref_nll": 131.9439441040231,
+      "kl_sum": 0.9818751084507666,
+      "flips": 2,
+      "id": "knowledge_zh-2048-19",
+      "document_id": "knowledge_zh:228581",
+      "domain": "knowledge_zh",
+      "language": "zh",
+      "context": 2048
+    },
+    {
+      "tokens": 192,
+      "nll": 354.62071527733497,
+      "ref_nll": 350.8933467302995,
+      "kl_sum": 5.672150766857257,
+      "flips": 21,
+      "id": "knowledge_zh-2048-20",
+      "document_id": "knowledge_zh:498359",
+      "domain": "knowledge_zh",
+      "language": "zh",
+      "context": 2048
+    },
+    {
+      "tokens": 192,
+      "nll": 372.15298757114215,
+      "ref_nll": 374.18420912194415,
+      "kl_sum": 3.8688599299368907,
+      "flips": 13,
+      "id": "knowledge_zh-2048-21",
+      "document_id": "knowledge_zh:499063",
+      "domain": "knowledge_zh",
+      "language": "zh",
+      "context": 2048
+    },
+    {
+      "tokens": 192,
+      "nll": 430.3618427158217,
+      "ref_nll": 428.8237378675258,
+      "kl_sum": 2.998294546282697,
+      "flips": 12,
+      "id": "knowledge_zh-2048-22",
+      "document_id": "knowledge_zh:381161",
+      "domain": "knowledge_zh",
+      "language": "zh",
+      "context": 2048
+    },
+    {
+      "tokens": 192,
+      "nll": 569.2543439365909,
+      "ref_nll": 559.1891147955394,
+      "kl_sum": 4.008606421679247,
+      "flips": 17,
+      "id": "knowledge_zh-2048-23",
+      "document_id": "knowledge_zh:371803",
+      "domain": "knowledge_zh",
+      "language": "zh",
+      "context": 2048
+    },
+    {
+      "tokens": 192,
+      "nll": 468.9973067987121,
+      "ref_nll": 466.4255278745404,
+      "kl_sum": 5.721109237378395,
+      "flips": 17,
+      "id": "knowledge_zh-512-00",
+      "document_id": "knowledge_zh:930883",
+      "domain": "knowledge_zh",
+      "language": "zh",
+      "context": 512
+    },
+    {
+      "tokens": 192,
+      "nll": 392.95958210113895,
+      "ref_nll": 388.5051968445914,
+      "kl_sum": 5.342471660421296,
+      "flips": 23,
+      "id": "knowledge_zh-512-01",
+      "document_id": "knowledge_zh:462811",
+      "domain": "knowledge_zh",
+      "language": "zh",
+      "context": 512
+    },
+    {
+      "tokens": 192,
+      "nll": 347.44753407481767,
+      "ref_nll": 345.8739438695775,
+      "kl_sum": 5.005431459705263,
+      "flips": 15,
+      "id": "knowledge_zh-512-02",
+      "document_id": "knowledge_zh:335640",
+      "domain": "knowledge_zh",
+      "language": "zh",
+      "context": 512
+    },
+    {
+      "tokens": 192,
+      "nll": 364.7666156568448,
+      "ref_nll": 358.65233410382643,
+      "kl_sum": 6.731341728401947,
+      "flips": 18,
+      "id": "knowledge_zh-512-03",
+      "document_id": "knowledge_zh:887465",
+      "domain": "knowledge_zh",
+      "language": "zh",
+      "context": 512
+    },
+    {
+      "tokens": 192,
+      "nll": 367.6303988801592,
+      "ref_nll": 365.4070674522736,
+      "kl_sum": 2.023892644320433,
+      "flips": 10,
+      "id": "knowledge_zh-512-04",
+      "document_id": "knowledge_zh:100561",
+      "domain": "knowledge_zh",
+      "language": "zh",
+      "context": 512
+    },
+    {
+      "tokens": 192,
+      "nll": 258.09065054564053,
+      "ref_nll": 254.58867508822914,
+      "kl_sum": 6.321390811732927,
+      "flips": 10,
+      "id": "knowledge_zh-512-05",
+      "document_id": "knowledge_zh:8495",
+      "domain": "knowledge_zh",
+      "language": "zh",
+      "context": 512
+    },
+    {
+      "tokens": 192,
+      "nll": 287.6058423824686,
+      "ref_nll": 284.3646352843871,
+      "kl_sum": 6.492311258664704,
+      "flips": 10,
+      "id": "knowledge_zh-512-06",
+      "document_id": "knowledge_zh:225541",
+      "domain": "knowledge_zh",
+      "language": "zh",
+      "context": 512
+    },
+    {
+      "tokens": 192,
+      "nll": 545.0635847169833,
+      "ref_nll": 540.8160324974651,
+      "kl_sum": 6.0613559061724285,
+      "flips": 21,
+      "id": "knowledge_zh-512-07",
+      "document_id": "knowledge_zh:728844",
+      "domain": "knowledge_zh",
+      "language": "zh",
+      "context": 512
+    },
+    {
+      "tokens": 192,
+      "nll": 515.1990897066571,
+      "ref_nll": 512.0578138066849,
+      "kl_sum": 3.727205183340164,
+      "flips": 19,
+      "id": "knowledge_zh-512-08",
+      "document_id": "knowledge_zh:334699",
+      "domain": "knowledge_zh",
+      "language": "zh",
+      "context": 512
+    },
+    {
+      "tokens": 192,
+      "nll": 376.6718529647619,
+      "ref_nll": 369.617990247596,
+      "kl_sum": 4.2267030855469105,
+      "flips": 15,
+      "id": "knowledge_zh-512-09",
+      "document_id": "knowledge_zh:601195",
+      "domain": "knowledge_zh",
+      "language": "zh",
+      "context": 512
+    },
+    {
+      "tokens": 192,
+      "nll": 464.2479637334036,
+      "ref_nll": 452.82877029555675,
+      "kl_sum": 6.483037117513288,
+      "flips": 16,
+      "id": "knowledge_zh-512-10",
+      "document_id": "knowledge_zh:226979",
+      "domain": "knowledge_zh",
+      "language": "zh",
+      "context": 512
+    },
+    {
+      "tokens": 192,
+      "nll": 476.0031685947324,
+      "ref_nll": 475.2439288151072,
+      "kl_sum": 4.963427752352283,
+      "flips": 10,
+      "id": "knowledge_zh-512-11",
+      "document_id": "knowledge_zh:814459",
+      "domain": "knowledge_zh",
+      "language": "zh",
+      "context": 512
+    },
+    {
+      "tokens": 192,
+      "nll": 351.73896225555654,
+      "ref_nll": 348.28099768034326,
+      "kl_sum": 3.640500166246768,
+      "flips": 12,
+      "id": "knowledge_zh-512-12",
+      "document_id": "knowledge_zh:589282",
+      "domain": "knowledge_zh",
+      "language": "zh",
+      "context": 512
+    },
+    {
+      "tokens": 192,
+      "nll": 306.4554249237117,
+      "ref_nll": 304.83512695285754,
+      "kl_sum": 1.9679971229946314,
+      "flips": 3,
+      "id": "knowledge_zh-512-13",
+      "document_id": "knowledge_zh:546521",
+      "domain": "knowledge_zh",
+      "language": "zh",
+      "context": 512
+    },
+    {
+      "tokens": 192,
+      "nll": 448.0843004316366,
+      "ref_nll": 444.4765890853182,
+      "kl_sum": 3.5755226100654522,
+      "flips": 12,
+      "id": "knowledge_zh-512-14",
+      "document_id": "knowledge_zh:714994",
+      "domain": "knowledge_zh",
+      "language": "zh",
+      "context": 512
+    },
+    {
+      "tokens": 192,
+      "nll": 304.6596499577572,
+      "ref_nll": 303.57959834177746,
+      "kl_sum": 4.504961506420681,
+      "flips": 12,
+      "id": "knowledge_zh-512-15",
+      "document_id": "knowledge_zh:234837",
+      "domain": "knowledge_zh",
+      "language": "zh",
+      "context": 512
+    },
+    {
+      "tokens": 192,
+      "nll": 145.2665079755534,
+      "ref_nll": 143.8306845331972,
+      "kl_sum": 3.596590466092721,
+      "flips": 8,
+      "id": "knowledge_zh-512-16",
+      "document_id": "knowledge_zh:974215",
+      "domain": "knowledge_zh",
+      "language": "zh",
+      "context": 512
+    },
+    {
+      "tokens": 192,
+      "nll": 276.4287443583453,
+      "ref_nll": 270.82887117059363,
+      "kl_sum": 6.342802572250085,
+      "flips": 10,
+      "id": "knowledge_zh-512-17",
+      "document_id": "knowledge_zh:635959",
+      "domain": "knowledge_zh",
+      "language": "zh",
+      "context": 512
+    },
+    {
+      "tokens": 192,
+      "nll": 402.2267337673693,
+      "ref_nll": 396.8671979312858,
+      "kl_sum": 4.338396146395407,
+      "flips": 10,
+      "id": "knowledge_zh-512-18",
+      "document_id": "knowledge_zh:314207",
+      "domain": "knowledge_zh",
+      "language": "zh",
+      "context": 512
+    },
+    {
+      "tokens": 192,
+      "nll": 458.9564989551727,
+      "ref_nll": 450.7300564683683,
+      "kl_sum": 6.031673797841538,
+      "flips": 21,
+      "id": "knowledge_zh-512-19",
+      "document_id": "knowledge_zh:767909",
+      "domain": "knowledge_zh",
+      "language": "zh",
+      "context": 512
+    },
+    {
+      "tokens": 192,
+      "nll": 394.7932093082127,
+      "ref_nll": 387.45147509814706,
+      "kl_sum": 4.343456742828476,
+      "flips": 13,
+      "id": "knowledge_zh-512-20",
+      "document_id": "knowledge_zh:132300",
+      "domain": "knowledge_zh",
+      "language": "zh",
+      "context": 512
+    },
+    {
+      "tokens": 192,
+      "nll": 204.04588365757627,
+      "ref_nll": 202.19230340263948,
+      "kl_sum": 3.331162275665171,
+      "flips": 9,
+      "id": "knowledge_zh-512-21",
+      "document_id": "knowledge_zh:744134",
+      "domain": "knowledge_zh",
+      "language": "zh",
+      "context": 512
+    },
+    {
+      "tokens": 192,
+      "nll": 418.4485697561686,
+      "ref_nll": 416.7270664929638,
+      "kl_sum": 4.304669807478944,
+      "flips": 10,
+      "id": "knowledge_zh-512-22",
+      "document_id": "knowledge_zh:405076",
+      "domain": "knowledge_zh",
+      "language": "zh",
+      "context": 512
+    },
+    {
+      "tokens": 192,
+      "nll": 474.8099636121842,
+      "ref_nll": 469.3885341704081,
+      "kl_sum": 6.306542916863569,
+      "flips": 18,
+      "id": "knowledge_zh-512-23",
+      "document_id": "knowledge_zh:108851",
+      "domain": "knowledge_zh",
+      "language": "zh",
+      "context": 512
+    },
+    {
+      "tokens": 192,
+      "nll": 136.20490171547158,
+      "ref_nll": 131.27848221408522,
+      "kl_sum": 4.294534651278858,
+      "flips": 5,
+      "id": "math-128-00",
+      "document_id": "math:Mathlib/Algebra/Order/Nonneg/Floor.lean",
+      "domain": "math",
+      "language": "en-Lean",
+      "context": 128
+    },
+    {
+      "tokens": 192,
+      "nll": 192.09172429266619,
+      "ref_nll": 187.18017416610564,
+      "kl_sum": 6.5452120331287205,
+      "flips": 9,
+      "id": "math-128-01",
+      "document_id": "math:Mathlib/LinearAlgebra/Matrix/StdBasis.lean",
+      "domain": "math",
+      "language": "en-Lean",
+      "context": 128
+    },
+    {
+      "tokens": 192,
+      "nll": 180.10496203078662,
+      "ref_nll": 181.85709863559532,
+      "kl_sum": 4.096878138815919,
+      "flips": 9,
+      "id": "math-128-02",
+      "document_id": "math:Mathlib/Order/Bounds/OrderIso.lean",
+      "domain": "math",
+      "language": "en-Lean",
+      "context": 128
+    },
+    {
+      "tokens": 192,
+      "nll": 373.0467842820144,
+      "ref_nll": 362.60292846508673,
+      "kl_sum": 6.3855436830534735,
+      "flips": 12,
+      "id": "math-128-03",
+      "document_id": "math:Mathlib/CategoryTheory/Adhesive/Subobject.lean",
+      "domain": "math",
+      "language": "en-Lean",
+      "context": 128
+    },
+    {
+      "tokens": 192,
+      "nll": 197.62136385728263,
+      "ref_nll": 193.05907109063992,
+      "kl_sum": 5.414850211187172,
+      "flips": 10,
+      "id": "math-128-04",
+      "document_id": "math:Mathlib/Topology/Instances/PNat.lean",
+      "domain": "math",
+      "language": "en-Lean",
+      "context": 128
+    },
+    {
+      "tokens": 192,
+      "nll": 272.36633709976036,
+      "ref_nll": 274.47902067538894,
+      "kl_sum": 4.856920166222174,
+      "flips": 11,
+      "id": "math-128-05",
+      "document_id": "math:Mathlib/Algebra/Category/Grp/EnoughInjectives.lean",
+      "domain": "math",
+      "language": "en-Lean",
+      "context": 128
+    },
+    {
+      "tokens": 192,
+      "nll": 158.1263711384397,
+      "ref_nll": 152.3077109477531,
+      "kl_sum": 4.394404785016356,
+      "flips": 5,
+      "id": "math-128-06",
+      "document_id": "math:Mathlib/Algebra/MvPolynomial/Basic.lean",
+      "domain": "math",
+      "language": "en-Lean",
+      "context": 128
+    },
+    {
+      "tokens": 192,
+      "nll": 216.37914792674383,
+      "ref_nll": 206.94007113711064,
+      "kl_sum": 3.549524274812019,
+      "flips": 9,
+      "id": "math-128-07",
+      "document_id": "math:Mathlib/Algebra/Order/BigOperators/Group/List.lean",
+      "domain": "math",
+      "language": "en-Lean",
+      "context": 128
+    },
+    {
+      "tokens": 192,
+      "nll": 141.31703403578888,
+      "ref_nll": 141.6077503097555,
+      "kl_sum": 4.144387958091031,
+      "flips": 7,
+      "id": "math-128-08",
+      "document_id": "math:Mathlib/Algebra/Star/Module.lean",
+      "domain": "math",
+      "language": "en-Lean",
+      "context": 128
+    },
+    {
+      "tokens": 192,
+      "nll": 241.9756665931684,
+      "ref_nll": 246.58498132358454,
+      "kl_sum": 4.45934572496814,
+      "flips": 10,
+      "id": "math-128-09",
+      "document_id": "math:Mathlib/Geometry/Euclidean/Inversion/Basic.lean",
+      "domain": "math",
+      "language": "en-Lean",
+      "context": 128
+    },
+    {
+      "tokens": 192,
+      "nll": 353.5885459978763,
+      "ref_nll": 351.34107853106434,
+      "kl_sum": 5.06745306496275,
+      "flips": 14,
+      "id": "math-128-10",
+      "document_id": "math:Mathlib/Data/PFunctor/Multivariate/M.lean",
+      "domain": "math",
+      "language": "en-Lean",
+      "context": 128
+    },
+    {
+      "tokens": 192,
+      "nll": 367.9434332238452,
+      "ref_nll": 370.95816360377466,
+      "kl_sum": 6.064373586662358,
+      "flips": 11,
+      "id": "math-128-11",
+      "document_id": "math:Mathlib/AlgebraicGeometry/Morphisms/FlatRank.lean",
+      "domain": "math",
+      "language": "en-Lean",
+      "context": 128
+    },
+    {
+      "tokens": 192,
+      "nll": 235.61243108858673,
+      "ref_nll": 231.55392118274574,
+      "kl_sum": 6.447644349562527,
+      "flips": 12,
+      "id": "math-128-12",
+      "document_id": "math:Mathlib/AlgebraicTopology/ModelCategory/RightHomotopy.lean",
+      "domain": "math",
+      "language": "en-Lean",
+      "context": 128
+    },
+    {
+      "tokens": 192,
+      "nll": 262.3600961448992,
+      "ref_nll": 265.25052295717614,
+      "kl_sum": 5.808412120107543,
+      "flips": 17,
+      "id": "math-128-13",
+      "document_id": "math:Mathlib/Analysis/Calculus/DifferentialForm/VectorField.lean",
+      "domain": "math",
+      "language": "en-Lean",
+      "context": 128
+    },
+    {
+      "tokens": 192,
+      "nll": 256.2729691726918,
+      "ref_nll": 258.16803188784087,
+      "kl_sum": 6.893647485646705,
+      "flips": 13,
+      "id": "math-128-14",
+      "document_id": "math:Mathlib/Algebra/Homology/DerivedCategory/Plus.lean",
+      "domain": "math",
+      "language": "en-Lean",
+      "context": 128
+    },
+    {
+      "tokens": 192,
+      "nll": 289.31504434934686,
+      "ref_nll": 286.0251440232819,
+      "kl_sum": 6.518873509214199,
+      "flips": 12,
+      "id": "math-128-15",
+      "document_id": "math:Mathlib/CategoryTheory/Sites/Finite.lean",
+      "domain": "math",
+      "language": "en-Lean",
+      "context": 128
+    },
+    {
+      "tokens": 192,
+      "nll": 191.93975551741823,
+      "ref_nll": 192.9956779311833,
+      "kl_sum": 5.1757262600743505,
+      "flips": 10,
+      "id": "math-128-16",
+      "document_id": "math:Mathlib/CategoryTheory/GuitartExact/Prod.lean",
+      "domain": "math",
+      "language": "en-Lean",
+      "context": 128
+    },
+    {
+      "tokens": 192,
+      "nll": 373.9247269521734,
+      "ref_nll": 364.92592479928066,
+      "kl_sum": 8.543910069079427,
+      "flips": 14,
+      "id": "math-128-17",
+      "document_id": "math:Mathlib/CategoryTheory/Localization/BousfieldTransfiniteComposition.lean",
+      "domain": "math",
+      "language": "en-Lean",
+      "context": 128
+    },
+    {
+      "tokens": 192,
+      "nll": 72.84366480434858,
+      "ref_nll": 73.03305983746247,
+      "kl_sum": 7.454461585439089,
+      "flips": 5,
+      "id": "math-128-18",
+      "document_id": "math:Mathlib/Algebra/GroupWithZero/Action/Opposite.lean",
+      "domain": "math",
+      "language": "en-Lean",
+      "context": 128
+    },
+    {
+      "tokens": 192,
+      "nll": 173.19233468917628,
+      "ref_nll": 166.69124260046556,
+      "kl_sum": 3.1326473628772904,
+      "flips": 7,
+      "id": "math-128-19",
+      "document_id": "math:Mathlib/Order/Cover.lean",
+      "domain": "math",
+      "language": "en-Lean",
+      "context": 128
+    },
+    {
+      "tokens": 192,
+      "nll": 136.6343086321399,
+      "ref_nll": 134.87884414192786,
+      "kl_sum": 3.750827902239914,
+      "flips": 5,
+      "id": "math-128-20",
+      "document_id": "math:Mathlib/Order/SymmDiff.lean",
+      "domain": "math",
+      "language": "en-Lean",
+      "context": 128
+    },
+    {
+      "tokens": 192,
+      "nll": 53.31332070613985,
+      "ref_nll": 52.26775096592428,
+      "kl_sum": 1.8862368779947636,
+      "flips": 0,
+      "id": "math-128-21",
+      "document_id": "math:Mathlib/Data/Nat/Choose/Lucas.lean",
+      "domain": "math",
+      "language": "en-Lean",
+      "context": 128
+    },
+    {
+      "tokens": 192,
+      "nll": 256.4325477387483,
+      "ref_nll": 254.30180278083117,
+      "kl_sum": 4.069418633514356,
+      "flips": 15,
+      "id": "math-128-22",
+      "document_id": "math:Mathlib/Topology/EMetricSpace/Pi.lean",
+      "domain": "math",
+      "language": "en-Lean",
+      "context": 128
+    },
+    {
+      "tokens": 192,
+      "nll": 153.61225713916633,
+      "ref_nll": 148.2836857489982,
+      "kl_sum": 3.3029222315957076,
+      "flips": 12,
+      "id": "math-128-23",
+      "document_id": "math:Mathlib/NumberTheory/LegendreSymbol/JacobiSymbol.lean",
+      "domain": "math",
+      "language": "en-Lean",
+      "context": 128
+    },
+    {
+      "tokens": 192,
+      "nll": 90.12393220895274,
+      "ref_nll": 91.08582134387598,
+      "kl_sum": 1.9779929451576992,
+      "flips": 7,
+      "id": "math-2048-00",
+      "document_id": "math:Mathlib/Algebra/Homology/HomologicalComplexLimits.lean",
+      "domain": "math",
+      "language": "en-Lean",
+      "context": 2048
+    },
+    {
+      "tokens": 192,
+      "nll": 226.64659750770352,
+      "ref_nll": 218.51003745339028,
+      "kl_sum": 7.173301145391825,
+      "flips": 19,
+      "id": "math-2048-01",
+      "document_id": "math:Mathlib/RingTheory/Polynomial/Eisenstein/Criterion.lean",
+      "domain": "math",
+      "language": "en-Lean",
+      "context": 2048
+    },
+    {
+      "tokens": 192,
+      "nll": 79.47248500180348,
+      "ref_nll": 80.74199644356031,
+      "kl_sum": 2.6177019737275558,
+      "flips": 3,
+      "id": "math-2048-02",
+      "document_id": "math:Mathlib/Combinatorics/Matroid/Minor/Restrict.lean",
+      "domain": "math",
+      "language": "en-Lean",
+      "context": 2048
+    },
+    {
+      "tokens": 192,
+      "nll": 113.38878014370127,
+      "ref_nll": 108.4196219758121,
+      "kl_sum": 2.780833662047879,
+      "flips": 8,
+      "id": "math-2048-03",
+      "document_id": "math:Mathlib/Data/List/Forall2.lean",
+      "domain": "math",
+      "language": "en-Lean",
+      "context": 2048
+    },
+    {
+      "tokens": 192,
+      "nll": 173.65977655340248,
+      "ref_nll": 172.6894368062931,
+      "kl_sum": 1.6223756908004652,
+      "flips": 6,
+      "id": "math-2048-04",
+      "document_id": "math:Mathlib/Topology/MetricSpace/Closeds.lean",
+      "domain": "math",
+      "language": "en-Lean",
+      "context": 2048
+    },
+    {
+      "tokens": 192,
+      "nll": 323.4932473220722,
+      "ref_nll": 317.3465443430773,
+      "kl_sum": 4.118098018078797,
+      "flips": 11,
+      "id": "math-2048-05",
+      "document_id": "math:Mathlib/Tactic/Translate/ToDual.lean",
+      "domain": "math",
+      "language": "en-Lean",
+      "context": 2048
+    },
+    {
+      "tokens": 192,
+      "nll": 158.20377939413652,
+      "ref_nll": 148.81240851542407,
+      "kl_sum": 4.502150262982926,
+      "flips": 8,
+      "id": "math-2048-06",
+      "document_id": "math:Mathlib/Analysis/SpecialFunctions/Gamma/Basic.lean",
+      "domain": "math",
+      "language": "en-Lean",
+      "context": 2048
+    },
+    {
+      "tokens": 192,
+      "nll": 108.63360325479226,
+      "ref_nll": 107.10992890348535,
+      "kl_sum": 1.7643993009785364,
+      "flips": 3,
+      "id": "math-2048-07",
+      "document_id": "math:Mathlib/Algebra/Order/Floor/Defs.lean",
+      "domain": "math",
+      "language": "en-Lean",
+      "context": 2048
+    },
+    {
+      "tokens": 192,
+      "nll": 180.91335554632133,
+      "ref_nll": 181.93027223705212,
+      "kl_sum": 2.491638578474883,
+      "flips": 6,
+      "id": "math-2048-08",
+      "document_id": "math:Mathlib/FieldTheory/RatFunc/AsPolynomial.lean",
+      "domain": "math",
+      "language": "en-Lean",
+      "context": 2048
+    },
+    {
+      "tokens": 192,
+      "nll": 37.97353878996955,
+      "ref_nll": 33.428692466941925,
+      "kl_sum": 0.9622115799464813,
+      "flips": 2,
+      "id": "math-2048-09",
+      "document_id": "math:Mathlib/CategoryTheory/Bicategory/NaturalTransformation/Oplax.lean",
+      "domain": "math",
+      "language": "en-Lean",
+      "context": 2048
+    },
+    {
+      "tokens": 192,
+      "nll": 167.8751183455263,
+      "ref_nll": 167.37778437195178,
+      "kl_sum": 2.918716887922642,
+      "flips": 8,
+      "id": "math-2048-10",
+      "document_id": "math:Mathlib/Algebra/Order/Kleene.lean",
+      "domain": "math",
+      "language": "en-Lean",
+      "context": 2048
+    },
+    {
+      "tokens": 192,
+      "nll": 145.96263822115992,
+      "ref_nll": 144.31668856520736,
+      "kl_sum": 2.3030615091881774,
+      "flips": 6,
+      "id": "math-2048-11",
+      "document_id": "math:Mathlib/RingTheory/GradedAlgebra/HomogeneousLocalization.lean",
+      "domain": "math",
+      "language": "en-Lean",
+      "context": 2048
+    },
+    {
+      "tokens": 192,
+      "nll": 54.26772067953311,
+      "ref_nll": 55.73619261643705,
+      "kl_sum": 1.4774852283644844,
+      "flips": 7,
+      "id": "math-2048-12",
+      "document_id": "math:Mathlib/Order/Booleanisation.lean",
+      "domain": "math",
+      "language": "en-Lean",
+      "context": 2048
+    },
+    {
+      "tokens": 192,
+      "nll": 200.37211877735535,
+      "ref_nll": 189.35343805949265,
+      "kl_sum": 4.084685533149173,
+      "flips": 14,
+      "id": "math-2048-13",
+      "document_id": "math:Mathlib/LinearAlgebra/AffineSpace/AffineSubspace/Shift.lean",
+      "domain": "math",
+      "language": "en-Lean",
+      "context": 2048
+    },
+    {
+      "tokens": 192,
+      "nll": 101.6780379597482,
+      "ref_nll": 104.57785579338824,
+      "kl_sum": 1.2711826429654554,
+      "flips": 3,
+      "id": "math-2048-14",
+      "document_id": "math:Mathlib/CategoryTheory/Enriched/Ordinary/Basic.lean",
+      "domain": "math",
+      "language": "en-Lean",
+      "context": 2048
+    },
+    {
+      "tokens": 192,
+      "nll": 95.61139873223846,
+      "ref_nll": 96.96548776955768,
+      "kl_sum": 1.4493667385332905,
+      "flips": 3,
+      "id": "math-2048-15",
+      "document_id": "math:Mathlib/CategoryTheory/Limits/IsLimit.lean",
+      "domain": "math",
+      "language": "en-Lean",
+      "context": 2048
+    },
+    {
+      "tokens": 192,
+      "nll": 3.262639930530156,
+      "ref_nll": 4.598509345051745,
+      "kl_sum": 0.5076197675585324,
+      "flips": 2,
+      "id": "math-2048-16",
+      "document_id": "math:Mathlib/RepresentationTheory/Homological/GroupHomology/FiniteCyclic.lean",
+      "domain": "math",
+      "language": "en-Lean",
+      "context": 2048
+    },
+    {
+      "tokens": 192,
+      "nll": 26.719927735594695,
+      "ref_nll": 26.952359586337423,
+      "kl_sum": 0.5675488857451478,
+      "flips": 3,
+      "id": "math-2048-17",
+      "document_id": "math:Mathlib/Data/PFunctor/Multivariate/W.lean",
+      "domain": "math",
+      "language": "en-Lean",
+      "context": 2048
+    },
+    {
+      "tokens": 192,
+      "nll": 218.25448885294202,
+      "ref_nll": 218.6907917251409,
+      "kl_sum": 4.58602936317403,
+      "flips": 13,
+      "id": "math-2048-18",
+      "document_id": "math:Mathlib/Topology/IsClosedRestrict.lean",
+      "domain": "math",
+      "language": "en-Lean",
+      "context": 2048
+    },
+    {
+      "tokens": 192,
+      "nll": 37.42421177756327,
+      "ref_nll": 36.71854205739546,
+      "kl_sum": 1.2286238301162495,
+      "flips": 1,
+      "id": "math-2048-19",
+      "document_id": "math:Mathlib/CategoryTheory/Bicategory/Grothendieck.lean",
+      "domain": "math",
+      "language": "en-Lean",
+      "context": 2048
+    },
+    {
+      "tokens": 192,
+      "nll": 248.85420118782486,
+      "ref_nll": 244.518100066015,
+      "kl_sum": 4.7993256499719585,
+      "flips": 14,
+      "id": "math-2048-20",
+      "document_id": "math:Mathlib/Topology/Algebra/Category/ProfiniteGrp/Completion.lean",
+      "domain": "math",
+      "language": "en-Lean",
+      "context": 2048
+    },
+    {
+      "tokens": 192,
+      "nll": 55.009743551285965,
+      "ref_nll": 54.451215498281954,
+      "kl_sum": 0.9846741074112291,
+      "flips": 4,
+      "id": "math-2048-21",
+      "document_id": "math:Mathlib/Analysis/ODE/PicardLindelof.lean",
+      "domain": "math",
+      "language": "en-Lean",
+      "context": 2048
+    },
+    {
+      "tokens": 192,
+      "nll": 78.30571983347181,
+      "ref_nll": 75.69942359741185,
+      "kl_sum": 2.054998065980381,
+      "flips": 2,
+      "id": "math-2048-22",
+      "document_id": "math:Mathlib/Data/Matrix/ColumnRowPartitioned.lean",
+      "domain": "math",
+      "language": "en-Lean",
+      "context": 2048
+    },
+    {
+      "tokens": 192,
+      "nll": 192.92901656470713,
+      "ref_nll": 194.03955357037876,
+      "kl_sum": 3.3714100765912525,
+      "flips": 9,
+      "id": "math-2048-23",
+      "document_id": "math:Mathlib/Probability/BrownianMotion/GaussianProjectiveFamily.lean",
+      "domain": "math",
+      "language": "en-Lean",
+      "context": 2048
+    },
+    {
+      "tokens": 192,
+      "nll": 170.0163941508298,
+      "ref_nll": 168.89360440735368,
+      "kl_sum": 5.112698035425584,
+      "flips": 9,
+      "id": "math-512-00",
+      "document_id": "math:Mathlib/AlgebraicTopology/SimplicialSet/Subdivision.lean",
+      "domain": "math",
+      "language": "en-Lean",
+      "context": 512
+    },
+    {
+      "tokens": 192,
+      "nll": 194.28533802537686,
+      "ref_nll": 187.03547876721382,
+      "kl_sum": 4.846038021415679,
+      "flips": 7,
+      "id": "math-512-01",
+      "document_id": "math:Mathlib/Order/Heyting/Boundary.lean",
+      "domain": "math",
+      "language": "en-Lean",
+      "context": 512
+    },
+    {
+      "tokens": 192,
+      "nll": 75.57067356297739,
+      "ref_nll": 73.88367118757992,
+      "kl_sum": 2.6716617288966704,
+      "flips": 2,
+      "id": "math-512-02",
+      "document_id": "math:Mathlib/GroupTheory/Presentation.lean",
+      "domain": "math",
+      "language": "en-Lean",
+      "context": 512
+    },
+    {
+      "tokens": 192,
+      "nll": 217.01574874992613,
+      "ref_nll": 219.34782455398977,
+      "kl_sum": 12.499895879423924,
+      "flips": 9,
+      "id": "math-512-03",
+      "document_id": "math:Mathlib/AlgebraicTopology/SimplicialSet/Simplices.lean",
+      "domain": "math",
+      "language": "en-Lean",
+      "context": 512
+    },
+    {
+      "tokens": 192,
+      "nll": 106.77453032611945,
+      "ref_nll": 106.5483008972069,
+      "kl_sum": 3.7453700890467956,
+      "flips": 5,
+      "id": "math-512-04",
+      "document_id": "math:Mathlib/MeasureTheory/Measure/Sum.lean",
+      "domain": "math",
+      "language": "en-Lean",
+      "context": 512
+    },
+    {
+      "tokens": 192,
+      "nll": 241.45132785186001,
+      "ref_nll": 236.07166745486052,
+      "kl_sum": 4.871770708459685,
+      "flips": 15,
+      "id": "math-512-05",
+      "document_id": "math:Mathlib/Combinatorics/SimpleGraph/UniversalVerts.lean",
+      "domain": "math",
+      "language": "en-Lean",
+      "context": 512
+    },
+    {
+      "tokens": 192,
+      "nll": 154.85712373229478,
+      "ref_nll": 157.6902554817084,
+      "kl_sum": 3.7911552851870525,
+      "flips": 9,
+      "id": "math-512-06",
+      "document_id": "math:Mathlib/CategoryTheory/Comma/StructuredArrow/CommaMap.lean",
+      "domain": "math",
+      "language": "en-Lean",
+      "context": 512
+    },
+    {
+      "tokens": 192,
+      "nll": 92.04791958421174,
+      "ref_nll": 93.71916733703392,
+      "kl_sum": 2.318369631265184,
+      "flips": 4,
+      "id": "math-512-07",
+      "document_id": "math:Mathlib/Topology/Hom/Open.lean",
+      "domain": "math",
+      "language": "en-Lean",
+      "context": 512
+    },
+    {
+      "tokens": 192,
+      "nll": 181.80229883762763,
+      "ref_nll": 180.28481461941033,
+      "kl_sum": 3.603811271894992,
+      "flips": 4,
+      "id": "math-512-08",
+      "document_id": "math:Mathlib/RingTheory/Polynomial/Eisenstein/Distinguished.lean",
+      "domain": "math",
+      "language": "en-Lean",
+      "context": 512
+    },
+    {
+      "tokens": 192,
+      "nll": 180.66104470751998,
+      "ref_nll": 186.75712801215832,
+      "kl_sum": 5.035879701711895,
+      "flips": 3,
+      "id": "math-512-09",
+      "document_id": "math:Mathlib/GroupTheory/Rank.lean",
+      "domain": "math",
+      "language": "en-Lean",
+      "context": 512
+    },
+    {
+      "tokens": 192,
+      "nll": 126.24069610490324,
+      "ref_nll": 125.84140994983613,
+      "kl_sum": 3.5210481399203983,
+      "flips": 8,
+      "id": "math-512-10",
+      "document_id": "math:Mathlib/CategoryTheory/ObjectProperty/ClosedUnderIsomorphisms.lean",
+      "domain": "math",
+      "language": "en-Lean",
+      "context": 512
+    },
+    {
+      "tokens": 192,
+      "nll": 202.91749881070382,
+      "ref_nll": 197.2938315168251,
+      "kl_sum": 4.8796510296924955,
+      "flips": 10,
+      "id": "math-512-11",
+      "document_id": "math:Mathlib/RingTheory/PowerSeries/Log.lean",
+      "domain": "math",
+      "language": "en-Lean",
+      "context": 512
+    },
+    {
+      "tokens": 192,
+      "nll": 131.55707400799588,
+      "ref_nll": 130.84780662435628,
+      "kl_sum": 2.8781611512136873,
+      "flips": 7,
+      "id": "math-512-12",
+      "document_id": "math:Mathlib/Data/Int/GCD.lean",
+      "domain": "math",
+      "language": "en-Lean",
+      "context": 512
+    },
+    {
+      "tokens": 192,
+      "nll": 223.89824271317275,
+      "ref_nll": 220.92358372824492,
+      "kl_sum": 5.188813795933747,
+      "flips": 8,
+      "id": "math-512-13",
+      "document_id": "math:Mathlib/Data/Nat/Squarefree.lean",
+      "domain": "math",
+      "language": "en-Lean",
+      "context": 512
+    },
+    {
+      "tokens": 192,
+      "nll": 178.18406813875686,
+      "ref_nll": 182.48021673843186,
+      "kl_sum": 4.497318705693788,
+      "flips": 12,
+      "id": "math-512-14",
+      "document_id": "math:Mathlib/CategoryTheory/Monoidal/Mon.lean",
+      "domain": "math",
+      "language": "en-Lean",
+      "context": 512
+    },
+    {
+      "tokens": 192,
+      "nll": 165.46980164182628,
+      "ref_nll": 163.38672935941793,
+      "kl_sum": 2.9188671499894743,
+      "flips": 7,
+      "id": "math-512-15",
+      "document_id": "math:Mathlib/Topology/MetricSpace/Cover.lean",
+      "domain": "math",
+      "language": "en-Lean",
+      "context": 512
+    },
+    {
+      "tokens": 192,
+      "nll": 224.89197839275948,
+      "ref_nll": 225.1331914383809,
+      "kl_sum": 3.1997573151138976,
+      "flips": 16,
+      "id": "math-512-16",
+      "document_id": "math:Mathlib/Geometry/Manifold/Instances/Sphere.lean",
+      "domain": "math",
+      "language": "en-Lean",
+      "context": 512
+    },
+    {
+      "tokens": 192,
+      "nll": 64.13216876921229,
+      "ref_nll": 65.27523611796636,
+      "kl_sum": 2.749382421966568,
+      "flips": 4,
+      "id": "math-512-17",
+      "document_id": "math:Mathlib/CategoryTheory/Localization/Resolution.lean",
+      "domain": "math",
+      "language": "en-Lean",
+      "context": 512
+    },
+    {
+      "tokens": 192,
+      "nll": 128.52086978766283,
+      "ref_nll": 128.137176218121,
+      "kl_sum": 2.5541507338802356,
+      "flips": 2,
+      "id": "math-512-18",
+      "document_id": "math:Mathlib/Topology/MetricSpace/ThickenedIndicator.lean",
+      "domain": "math",
+      "language": "en-Lean",
+      "context": 512
+    },
+    {
+      "tokens": 192,
+      "nll": 123.4506693276349,
+      "ref_nll": 117.3853363727701,
+      "kl_sum": 2.901657860836314,
+      "flips": 4,
+      "id": "math-512-19",
+      "document_id": "math:Mathlib/RingTheory/NonUnitalSubsemiring/Defs.lean",
+      "domain": "math",
+      "language": "en-Lean",
+      "context": 512
+    },
+    {
+      "tokens": 192,
+      "nll": 189.0444959658098,
+      "ref_nll": 189.20415016627703,
+      "kl_sum": 2.96196968474512,
+      "flips": 10,
+      "id": "math-512-20",
+      "document_id": "math:Mathlib/CategoryTheory/Limits/Weighted/PreservesLimit.lean",
+      "domain": "math",
+      "language": "en-Lean",
+      "context": 512
+    },
+    {
+      "tokens": 192,
+      "nll": 144.73303240285014,
+      "ref_nll": 141.1274834182658,
+      "kl_sum": 2.1068181645775814,
+      "flips": 4,
+      "id": "math-512-21",
+      "document_id": "math:Mathlib/CategoryTheory/PEmpty.lean",
+      "domain": "math",
+      "language": "en-Lean",
+      "context": 512
+    },
+    {
+      "tokens": 192,
+      "nll": 117.49414041139607,
+      "ref_nll": 118.05371601567731,
+      "kl_sum": 3.4450603303869727,
+      "flips": 9,
+      "id": "math-512-22",
+      "document_id": "math:Mathlib/Algebra/MonoidAlgebra/Ideal.lean",
+      "domain": "math",
+      "language": "en-Lean",
+      "context": 512
+    },
+    {
+      "tokens": 192,
+      "nll": 31.5534590710524,
+      "ref_nll": 30.900193415030003,
+      "kl_sum": 1.7850612197568068,
+      "flips": 3,
+      "id": "math-512-23",
+      "document_id": "math:Mathlib/MeasureTheory/VectorMeasure/IntegrationByParts.lean",
+      "domain": "math",
+      "language": "en-Lean",
+      "context": 512
+    }
+  ],
+  "elapsed_seconds": 625.2102146148682
+}

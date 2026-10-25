@@ -1,0 +1,59 @@
+{
+    "task": {
+        "path": "/root/projects/quant/build/terminal_bench/sources/terminal-bench-2-1/tasks/polyglot-c-py"
+    },
+    "trial_name": "trial",
+    "trials_dir": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021_seed_20261022/trials/cc98c56716710069bc6f1a2f",
+    "agent": {
+        "name": "terminus-2",
+        "model_name": "hosted_vllm/Qwen-Qwen3.8-27B",
+        "kwargs": {
+            "api_base": "http://127.0.0.1:18100/v1",
+            "temperature": 1.0,
+            "reasoning_effort": "low",
+            "interleaved_thinking": false,
+            "enable_summarize": true,
+            "proactive_summarization_threshold": 8000,
+            "collect_rollout_details": true,
+            "store_all_messages": true,
+            "session_id_headers": [
+                "X-Terminal-Trial"
+            ],
+            "model_info": {
+                "max_input_tokens": 131072,
+                "max_output_tokens": 131072,
+                "input_cost_per_token": 0.0,
+                "output_cost_per_token": 0.0,
+                "litellm_provider": "hosted_vllm",
+                "supports_reasoning": true
+            },
+            "llm_kwargs": {
+                "api_key": "local-only"
+            },
+            "llm_call_kwargs": {
+                "temperature": 1.0,
+                "top_p": 0.95,
+                "presence_penalty": 0.0,
+                "max_tokens": 131072,
+                "seed": 20261022,
+                "extra_body": {
+                    "top_k": 20,
+                    "min_p": 0.0,
+                    "repetition_penalty": 1.0,
+                    "chat_template_kwargs": {
+                        "enable_thinking": true,
+                        "reasoning_effort": "low",
+                        "preserve_thinking": true
+                    },
+                    "return_token_ids": true
+                },
+                "extra_headers": {
+                    "X-Terminal-Identity": "formal/Qwen-Qwen3.8-27B/polyglot-c-py/cc98c56716710069bc6f1a2f"
+                }
+            }
+        }
+    },
+    "environment": {
+        "import_path": "terminal_proot:PRootEnvironment"
+    }
+}

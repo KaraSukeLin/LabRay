@@ -1,0 +1,7 @@
+{
+  "size": 256,
+  "complete_budget": false,
+  "rule_ids": null,
+  "partitions_sha256": "50b6b48abc0da9d25d597f09fe5559a46c5de550736128788c446dc28c2d44aa",
+  "definition": "rules in the complete one-epoch training subset; partial smoke exposure is not inferred from budget"
+}

@@ -1,0 +1,182 @@
+{
+  "passed": true,
+  "runs": [
+    {
+      "run": "bf16_reference",
+      "worker_exit_code": 0,
+      "expanded_distribution_hashes": 12,
+      "expanded_document_metrics_exact": true,
+      "legacy_distribution_hashes": 8,
+      "legacy_metric_errors": {
+        "tokens": 0,
+        "ppl": 0.0,
+        "reference_ppl": 0.0,
+        "ppl_delta": 0.0,
+        "kl_bf16_to_candidate": 0.0,
+        "top1_flip_rate": 0.0
+      },
+      "passed": true
+    },
+    {
+      "run": "bf16_repeat",
+      "worker_exit_code": 0,
+      "expanded_distribution_hashes": 12,
+      "expanded_document_metrics_exact": true,
+      "legacy_distribution_hashes": 8,
+      "legacy_metric_errors": {
+        "tokens": 0,
+        "ppl": 0.0,
+        "reference_ppl": 0.0,
+        "ppl_delta": 0.0,
+        "kl_bf16_to_candidate": 0.0,
+        "top1_flip_rate": 0.0
+      },
+      "passed": true
+    },
+    {
+      "run": "Qwen-Qwen3.8-27B-FP8",
+      "worker_exit_code": 0,
+      "expanded_distribution_hashes": 12,
+      "expanded_document_metrics_exact": true,
+      "legacy_distribution_hashes": 8,
+      "legacy_metric_errors": {
+        "tokens": 0,
+        "ppl": 0.0,
+        "reference_ppl": 0.0,
+        "ppl_delta": 0.0,
+        "kl_bf16_to_candidate": 0.0,
+        "top1_flip_rate": 0.0
+      },
+      "passed": true
+    },
+    {
+      "run": "RadixArk-Qwen3.8-27B-NVFP4",
+      "worker_exit_code": 0,
+      "expanded_distribution_hashes": 12,
+      "expanded_document_metrics_exact": true,
+      "legacy_distribution_hashes": 8,
+      "legacy_metric_errors": {
+        "tokens": 0,
+        "ppl": 0.0,
+        "reference_ppl": 0.0,
+        "ppl_delta": 0.0,
+        "kl_bf16_to_candidate": 0.0,
+        "top1_flip_rate": 0.0
+      },
+      "passed": true
+    },
+    {
+      "run": "RadixArk-Qwen3.8-27B-NVFP4-BF16-LMHead",
+      "worker_exit_code": 0,
+      "expanded_distribution_hashes": 12,
+      "expanded_document_metrics_exact": true,
+      "legacy_distribution_hashes": 8,
+      "legacy_metric_errors": {
+        "tokens": 0,
+        "ppl": 0.0,
+        "reference_ppl": 0.0,
+        "ppl_delta": 0.0,
+        "kl_bf16_to_candidate": 0.0,
+        "top1_flip_rate": 0.0
+      },
+      "passed": true
+    },
+    {
+      "run": "RedHatAI-Qwen3.8-27B-NVFP4",
+      "worker_exit_code": 0,
+      "expanded_distribution_hashes": 12,
+      "expanded_document_metrics_exact": true,
+      "legacy_distribution_hashes": 8,
+      "legacy_metric_errors": {
+        "tokens": 0,
+        "ppl": 0.0,
+        "reference_ppl": 0.0,
+        "ppl_delta": 0.0,
+        "kl_bf16_to_candidate": 0.0,
+        "top1_flip_rate": 0.0
+      },
+      "passed": true
+    },
+    {
+      "run": "eNeural-Qwen3.8-27B-fast",
+      "worker_exit_code": 0,
+      "expanded_distribution_hashes": 12,
+      "expanded_document_metrics_exact": true,
+      "legacy_distribution_hashes": 8,
+      "legacy_metric_errors": {
+        "tokens": 0,
+        "ppl": 0.0,
+        "reference_ppl": 0.0,
+        "ppl_delta": 0.0,
+        "kl_bf16_to_candidate": 0.0,
+        "top1_flip_rate": 0.0
+      },
+      "passed": true
+    },
+    {
+      "run": "nvidia-Qwen3.8-27B-NVFP4",
+      "worker_exit_code": 0,
+      "expanded_distribution_hashes": 12,
+      "expanded_document_metrics_exact": true,
+      "legacy_distribution_hashes": 8,
+      "legacy_metric_errors": {
+        "tokens": 0,
+        "ppl": 0.0,
+        "reference_ppl": 0.0,
+        "ppl_delta": 0.0,
+        "kl_bf16_to_candidate": 0.0,
+        "top1_flip_rate": 0.0
+      },
+      "passed": true
+    },
+    {
+      "run": "unsloth-Qwen3.8-27B-NVFP4",
+      "worker_exit_code": 0,
+      "expanded_distribution_hashes": 12,
+      "expanded_document_metrics_exact": true,
+      "legacy_distribution_hashes": 8,
+      "legacy_metric_errors": {
+        "tokens": 0,
+        "ppl": 0.0,
+        "reference_ppl": 0.0,
+        "ppl_delta": 0.0,
+        "kl_bf16_to_candidate": 0.0,
+        "top1_flip_rate": 0.0
+      },
+      "passed": true
+    }
+  ],
+  "expanded_hash_matches": 108,
+  "legacy_hash_matches": 72,
+  "all_hash_matches": 180,
+  "full_models": 8,
+  "ablation_scored_tokens": 2736,
+  "full_scored_tokens": 55296,
+  "source_before_sha256": "968320f858ef9d18d6e96a553637cabe4a29d8e267cfaad7143a19d9e113a4cd",
+  "source_after_sha256": "90fcfa567abee03b3af1c90f6f1afcab5e0bccfa5ed3d09f14ca61198a2eb0dd",
+  "dataset_processing": {
+    "passed": true,
+    "files": [
+      {
+        "file": "tokens.json",
+        "exact": true,
+        "sha256": "09b41e1a10044975acc579331d3b22ac4ba54f26f89882bb704f6a319d4c2e0d"
+      },
+      {
+        "file": "documents.jsonl",
+        "exact": true,
+        "sha256": "e495dab370bbd379c4606c0fd04da47ae6e9e0cb1bd47639a55121abdaedd3f7"
+      },
+      {
+        "file": "manifest.json",
+        "exact": true,
+        "sha256": "4516bc5631153c26e96d34fd9f8357caf7182a12e6404d3c558de4ed143456a6"
+      }
+    ]
+  },
+  "calibration_processing": {
+    "passed": true,
+    "exact": true,
+    "sha256": "9e422bd13a7756400dfb8d5e6c850265e8f7072cdc1eb347a083b180d1601b4d"
+  }
+}

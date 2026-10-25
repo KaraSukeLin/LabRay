@@ -1,0 +1,6 @@
+(EngineCore pid=35198) INFO 10-17 04:13:22 [default_loader.py:484] Loading weights took 6.39 seconds
+(EngineCore pid=35198) INFO 10-17 04:13:22 [model_runner.py:407] Model loading took 28.51 GiB memory and 9.450439 seconds
+(EngineCore pid=35198) INFO 10-17 04:13:32 [core.py:380] init engine (profile, create kv cache, warmup model) took 9.95 s
+(EngineCore pid=8365) INFO 10-17 12:51:10 [default_loader.py:484] Loading weights took 6.04 seconds
+(EngineCore pid=8365) INFO 10-17 12:51:11 [model_runner.py:407] Model loading took 28.51 GiB memory and 8.916115 seconds
+(EngineCore pid=8365) INFO 10-17 12:51:20 [core.py:380] init engine (profile, create kv cache, warmup model) took 9.91 s

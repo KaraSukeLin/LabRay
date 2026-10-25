@@ -1,0 +1,215 @@
+{
+  "pinned": {
+    "tag": "alexgshaw/make-mips-interpreter:20251031",
+    "digest": "alexgshaw/make-mips-interpreter@sha256:082fc8821b317f30fdfbf8d08d528874ce331c03e8083aef0406d48cdd7132a2",
+    "resolved_at": 1792524217.884119
+  },
+  "manifest": "/root/projects/quant/build/terminal_bench/low_mtp3/images/blobs/sha256-082fc8821b317f30fdfbf8d08d528874ce331c03e8083aef0406d48cdd7132a2",
+  "config_file": "/root/projects/quant/build/terminal_bench/low_mtp3/images/blobs/sha256-818505509c7be8f53b6133b093076cb03527f7539c8ad980435cf556143ddcb8",
+  "config": {
+    "architecture": "amd64",
+    "config": {
+      "Env": [
+        "PATH=/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+        "GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305",
+        "PYTHON_VERSION=3.13.7",
+        "PYTHON_SHA256=5462f9099dfd30e238def83c71d91897d8caa5ff6ebc7a50f14d4802cdaaa79a"
+      ],
+      "Cmd": [
+        "python3"
+      ],
+      "WorkingDir": "/app",
+      "Labels": {
+        "com.docker.compose.project": "harbor-build-make-mips-interpreter",
+        "com.docker.compose.service": "task",
+        "com.docker.compose.version": "2.35.1"
+      }
+    },
+    "created": "2025-09-13T17:56:43.984507648Z",
+    "history": [
+      {
+        "created": "2025-08-11T00:00:00Z",
+        "created_by": "# debian.sh --arch 'amd64' out/ 'bookworm' '@1754870400'",
+        "comment": "debuerreotype 0.15"
+      },
+      {
+        "created": "2025-08-14T21:49:23Z",
+        "created_by": "ENV PATH=/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+        "comment": "buildkit.dockerfile.v0",
+        "empty_layer": true
+      },
+      {
+        "created": "2025-08-14T21:49:23Z",
+        "created_by": "RUN /bin/sh -c set -eux; \tapt-get update; \tapt-get install -y --no-install-recommends \t\tca-certificates \t\tnetbase \t\ttzdata \t; \trm -rf /var/lib/apt/lists/* # buildkit",
+        "comment": "buildkit.dockerfile.v0"
+      },
+      {
+        "created": "2025-08-14T21:49:23Z",
+        "created_by": "ENV GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305",
+        "comment": "buildkit.dockerfile.v0",
+        "empty_layer": true
+      },
+      {
+        "created": "2025-08-14T21:49:23Z",
+        "created_by": "ENV PYTHON_VERSION=3.13.7",
+        "comment": "buildkit.dockerfile.v0",
+        "empty_layer": true
+      },
+      {
+        "created": "2025-08-14T21:49:23Z",
+        "created_by": "ENV PYTHON_SHA256=5462f9099dfd30e238def83c71d91897d8caa5ff6ebc7a50f14d4802cdaaa79a",
+        "comment": "buildkit.dockerfile.v0",
+        "empty_layer": true
+      },
+      {
+        "created": "2025-08-14T21:49:23Z",
+        "created_by": "RUN /bin/sh -c set -eux; \t\tsavedAptMark=\"$(apt-mark showmanual)\"; \tapt-get update; \tapt-get install -y --no-install-recommends \t\tdpkg-dev \t\tgcc \t\tgnupg \t\tlibbluetooth-dev \t\tlibbz2-dev \t\tlibc6-dev \t\tlibdb-dev \t\tlibffi-dev \t\tlibgdbm-dev \t\tliblzma-dev \t\tlibncursesw5-dev \t\tlibreadline-dev \t\tlibsqlite3-dev \t\tlibssl-dev \t\tmake \t\ttk-dev \t\tuuid-dev \t\twget \t\txz-utils \t\tzlib1g-dev \t; \t\twget -O python.tar.xz \"https://www.python.org/ftp/python/${PYTHON_VERSION%%[a-z]*}/Python-$PYTHON_VERSION.tar.xz\"; \techo \"$PYTHON_SHA256 *python.tar.xz\" | sha256sum -c -; \twget -O python.tar.xz.asc \"https://www.python.org/ftp/python/${PYTHON_VERSION%%[a-z]*}/Python-$PYTHON_VERSION.tar.xz.asc\"; \tGNUPGHOME=\"$(mktemp -d)\"; export GNUPGHOME; \tgpg --batch --keyserver hkps://keys.openpgp.org --recv-keys \"$GPG_KEY\"; \tgpg --batch --verify python.tar.xz.asc python.tar.xz; \tgpgconf --kill all; \trm -rf \"$GNUPGHOME\" python.tar.xz.asc; \tmkdir -p /usr/src/python; \ttar --extract --directory /usr/src/python --strip-components=1 --file python.tar.xz; \trm python.tar.xz; \t\tcd /usr/src/python; \tgnuArch=\"$(dpkg-architecture --query DEB_BUILD_GNU_TYPE)\"; \t./configure \t\t--build=\"$gnuArch\" \t\t--enable-loadable-sqlite-extensions \t\t--enable-optimizations \t\t--enable-option-checking=fatal \t\t--enable-shared \t\t$(test \"${gnuArch%%-*}\" != 'riscv64' && echo '--with-lto') \t\t--with-ensurepip \t; \tnproc=\"$(nproc)\"; \tEXTRA_CFLAGS=\"$(dpkg-buildflags --get CFLAGS)\"; \tLDFLAGS=\"$(dpkg-buildflags --get LDFLAGS)\"; \tLDFLAGS=\"${LDFLAGS:--Wl},--strip-all\"; \t\tarch=\"$(dpkg --print-architecture)\"; arch=\"${arch##*-}\"; \t\tcase \"$arch\" in \t\t\tamd64|arm64) \t\t\t\tEXTRA_CFLAGS=\"${EXTRA_CFLAGS:-} -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer\"; \t\t\t\t;; \t\t\ti386) \t\t\t\t;; \t\t\t*) \t\t\t\tEXTRA_CFLAGS=\"${EXTRA_CFLAGS:-} -fno-omit-frame-pointer\"; \t\t\t\t;; \t\tesac; \tmake -j \"$nproc\" \t\t\"EXTRA_CFLAGS=${EXTRA_CFLAGS:-}\" \t\t\"LDFLAGS=${LDFLAGS:-}\" \t; \trm python; \tmake -j \"$nproc\" \t\t\"EXTRA_CFLAGS=${EXTRA_CFLAGS:-}\" \t\t\"LDFLAGS=${LDFLAGS:--Wl},-rpath='\\$\\$ORIGIN/../lib'\" \t\tpython \t; \tmake install; \t\tcd /; \trm -rf /usr/src/python; \t\tfind /usr/local -depth \t\t\\( \t\t\t\\( -type d -a \\( -name test -o -name tests -o -name idle_test \\) \\) \t\t\t-o \\( -type f -a \\( -name '*.pyc' -o -name '*.pyo' -o -name 'libpython*.a' \\) \\) \t\t\\) -exec rm -rf '{}' + \t; \t\tldconfig; \t\tapt-mark auto '.*' > /dev/null; \tapt-mark manual $savedAptMark; \tfind /usr/local -type f -executable -not \\( -name '*tkinter*' \\) -exec ldd '{}' ';' \t\t| awk '/=>/ { so = $(NF-1); if (index(so, \"/usr/local/\") == 1) { next }; gsub(\"^/(usr/)?\", \"\", so); printf \"*%s\\n\", so }' \t\t| sort -u \t\t| xargs -rt dpkg-query --search \t\t| awk 'sub(\":$\", \"\", $1) { print $1 }' \t\t| sort -u \t\t| xargs -r apt-mark manual \t; \tapt-get purge -y --auto-remove -o APT::AutoRemove::RecommendsImportant=false; \trm -rf /var/lib/apt/lists/*; \t\texport PYTHONDONTWRITEBYTECODE=1; \tpython3 --version; \tpip3 --version # buildkit",
+        "comment": "buildkit.dockerfile.v0"
+      },
+      {
+        "created": "2025-08-14T21:49:23Z",
+        "created_by": "RUN /bin/sh -c set -eux; \tfor src in idle3 pip3 pydoc3 python3 python3-config; do \t\tdst=\"$(echo \"$src\" | tr -d 3)\"; \t\t[ -s \"/usr/local/bin/$src\" ]; \t\t[ ! -e \"/usr/local/bin/$dst\" ]; \t\tln -svT \"$src\" \"/usr/local/bin/$dst\"; \tdone # buildkit",
+        "comment": "buildkit.dockerfile.v0"
+      },
+      {
+        "created": "2025-08-14T21:49:23Z",
+        "created_by": "CMD [\"python3\"]",
+        "comment": "buildkit.dockerfile.v0",
+        "empty_layer": true
+      },
+      {
+        "created": "2025-08-22T02:01:01.875738378Z",
+        "created_by": "WORKDIR /app",
+        "comment": "buildkit.dockerfile.v0"
+      },
+      {
+        "created": "2025-09-13T17:56:17.914910076Z",
+        "created_by": "RUN /bin/sh -c apt-get update -y &&     apt-get install -y nodejs curl git make &&     apt-get install -y clang gcc-mips-linux-gnu g++-mips-linux-gnu llvm llvm-dev lld # buildkit",
+        "comment": "buildkit.dockerfile.v0"
+      },
+      {
+        "created": "2025-09-13T17:56:24.723529414Z",
+        "created_by": "RUN /bin/sh -c pip3 install numpy==2.3.1 pillow==11.2.1 --break-system-packages # buildkit",
+        "comment": "buildkit.dockerfile.v0"
+      },
+      {
+        "created": "2025-09-13T17:56:28.769817552Z",
+        "created_by": "RUN /bin/sh -c git clone -o origin --single-branch https://github.com/ozkl/doomgeneric &&     cd doomgeneric &&     git reset --hard b94eba35b7cf4b2002857c7c625aeb24e99f979e &&     git remote remove origin &&     git tag -d $(git tag -l) &&     git reflog expire --expire=now --all &&     git gc --prune=now --aggressive # buildkit",
+        "comment": "buildkit.dockerfile.v0"
+      },
+      {
+        "created": "2025-09-13T17:56:28.816224182Z",
+        "created_by": "COPY task-deps/mips.patch /tmp # buildkit",
+        "comment": "buildkit.dockerfile.v0"
+      },
+      {
+        "created": "2025-09-13T17:56:29.171587133Z",
+        "created_by": "RUN /bin/sh -c cd doomgeneric && git apply /tmp/mips.patch # buildkit",
+        "comment": "buildkit.dockerfile.v0"
+      },
+      {
+        "created": "2025-09-13T17:56:42.788815795Z",
+        "created_by": "RUN /bin/sh -c cd doomgeneric/doomgeneric && make all && cp doomgeneric_mips ../.. # buildkit",
+        "comment": "buildkit.dockerfile.v0"
+      },
+      {
+        "created": "2025-09-13T17:56:43.984507648Z",
+        "created_by": "RUN /bin/sh -c curl https://distro.ibiblio.org/slitaz/sources/packages/d/doom1.wad > doom.wad # buildkit",
+        "comment": "buildkit.dockerfile.v0"
+      }
+    ],
+    "os": "linux",
+    "rootfs": {
+      "type": "layers",
+      "diff_ids": [
+        "sha256:eb5f13bce9936c760b9fa73aeb1b608787daa36106cc888104132e353ed37252",
+        "sha256:2a9c7b727490d026db269bdf2bf74ce80e17abe26fc4dd99bd53b3d1686e58dc",
+        "sha256:1ce62254e2a41ba52d6f4edab1c02c6733a219d0b27ff7b0d495f2987fc165ad",
+        "sha256:56ffb1fa8b190de199776ee5e02b4c9d482f5300e4aaa162e66fe09778c1a243",
+        "sha256:bb90eb063b6e7bec0bb1f27ff7d6d84dbd5f9c1c3932cbec014527582d94733c",
+        "sha256:0724408e29af00169b0fda3d72574bd7e7bcd1a825297c719ac434639b2418c9",
+        "sha256:a1fc0880907ac2f493b4cb68c878b74a4a79fc56ac6c49086aae643f627422bf",
+        "sha256:abc1f3b8378e9f1e36fb97da20ee47b1cf3bb0fec08e7f47b6c9b8251e83bed5",
+        "sha256:5f22d52a7eeb3e6fb2c4b1513eaa15cb9daf7dc7baeca0a7f670551664ecc4d0",
+        "sha256:e587ceec765ee29c74446a796c25815e5a8243223c8824694ab93a1fa0228c99",
+        "sha256:3194e966964ad577504b7b4cfc3be647c14a46d13cb4e192dba281d158a0f0d2",
+        "sha256:d88ece12b8329df5d22368f4050640647f6558732f0c492a51dad169f35d2ade"
+      ]
+    }
+  },
+  "layers": [
+    {
+      "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+      "size": 28230255,
+      "digest": "sha256:b1badc6e50664185acfaa0ca255d8076061c2a9d881cecaaad281ae11af000ce",
+      "path": "/root/projects/quant/build/terminal_bench/low_mtp3/images/blobs/sha256-b1badc6e50664185acfaa0ca255d8076061c2a9d881cecaaad281ae11af000ce"
+    },
+    {
+      "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+      "size": 3515854,
+      "digest": "sha256:7e88bf276da094b3c1c5d62775d85ae6e63c58165a5c759570bcecf8b52a4ce3",
+      "path": "/root/projects/quant/build/terminal_bench/low_mtp3/images/blobs/sha256-7e88bf276da094b3c1c5d62775d85ae6e63c58165a5c759570bcecf8b52a4ce3"
+    },
+    {
+      "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+      "size": 12418042,
+      "digest": "sha256:d55dfff74d98ac204fa78f18533eecc39a8bd69bd9384a73572c6d09f06b11fc",
+      "path": "/root/projects/quant/build/terminal_bench/low_mtp3/images/blobs/sha256-d55dfff74d98ac204fa78f18533eecc39a8bd69bd9384a73572c6d09f06b11fc"
+    },
+    {
+      "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+      "size": 250,
+      "digest": "sha256:e97853488aa5b877aa1248a8d146c75752543b00dced77518e40164d1badafd3",
+      "path": "/root/projects/quant/build/terminal_bench/low_mtp3/images/blobs/sha256-e97853488aa5b877aa1248a8d146c75752543b00dced77518e40164d1badafd3"
+    },
+    {
+      "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+      "size": 92,
+      "digest": "sha256:63ff33ad641b9f09475780c18fcae5aa35c92fed4207585d4e93c6070d6c2e0e",
+      "path": "/root/projects/quant/build/terminal_bench/low_mtp3/images/blobs/sha256-63ff33ad641b9f09475780c18fcae5aa35c92fed4207585d4e93c6070d6c2e0e"
+    },
+    {
+      "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+      "size": 408160193,
+      "digest": "sha256:c746c2b5d97c1f2c6d4902accb37195c4c0cac7ddc2d956c96ab8bedb363ecf3",
+      "path": "/root/projects/quant/build/terminal_bench/low_mtp3/images/blobs/sha256-c746c2b5d97c1f2c6d4902accb37195c4c0cac7ddc2d956c96ab8bedb363ecf3"
+    },
+    {
+      "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+      "size": 50601858,
+      "digest": "sha256:7676a6ce786d4da1c26d046feb1389919c72e5a11cb082bf112c9736b9bd086c",
+      "path": "/root/projects/quant/build/terminal_bench/low_mtp3/images/blobs/sha256-7676a6ce786d4da1c26d046feb1389919c72e5a11cb082bf112c9736b9bd086c"
+    },
+    {
+      "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+      "size": 8640963,
+      "digest": "sha256:3976a9caed20919898f605c99af2566825955642b557393d55690ff4aad12c79",
+      "path": "/root/projects/quant/build/terminal_bench/low_mtp3/images/blobs/sha256-3976a9caed20919898f605c99af2566825955642b557393d55690ff4aad12c79"
+    },
+    {
+      "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+      "size": 75706,
+      "digest": "sha256:f30729b4a71b9f4dec6939c54a111441f910905396b6af527bf7aee845681766",
+      "path": "/root/projects/quant/build/terminal_bench/low_mtp3/images/blobs/sha256-f30729b4a71b9f4dec6939c54a111441f910905396b6af527bf7aee845681766"
+    },
+    {
+      "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+      "size": 450178,
+      "digest": "sha256:d252566affb2a9f183ac55e3ec5f2ed787c2d4f00ef9abf6ba27f363a2255146",
+      "path": "/root/projects/quant/build/terminal_bench/low_mtp3/images/blobs/sha256-d252566affb2a9f183ac55e3ec5f2ed787c2d4f00ef9abf6ba27f363a2255146"
+    },
+    {
+      "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+      "size": 5069395,
+      "digest": "sha256:ac66e6ab6701baaa715310827e72549cfe3ba33bb572a10273366a441c50e844",
+      "path": "/root/projects/quant/build/terminal_bench/low_mtp3/images/blobs/sha256-ac66e6ab6701baaa715310827e72549cfe3ba33bb572a10273366a441c50e844"
+    },
+    {
+      "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+      "size": 1802090,
+      "digest": "sha256:681c6e839459a0da322cf06c99f146e7eb91079d763f902640a5bd8a559aff48",
+      "path": "/root/projects/quant/build/terminal_bench/low_mtp3/images/blobs/sha256-681c6e839459a0da322cf06c99f146e7eb91079d763f902640a5bd8a559aff48"
+    }
+  ],
+  "time": 1792606208.8238435
+}

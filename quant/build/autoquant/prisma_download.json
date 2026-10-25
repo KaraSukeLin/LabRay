@@ -1,0 +1,97 @@
+{
+  "repository": "rdtand/Qwen3.8-27B-PrismaAQUA-5.5bit-vllm",
+  "revision": "6dc090346f4f32acc320e48d9c413ea96a98d4c6",
+  "files": [
+    {
+      "file": ".gitattributes",
+      "bytes": 1570
+    },
+    {
+      "file": "README.md",
+      "bytes": 11817
+    },
+    {
+      "file": "allocation-map.png",
+      "bytes": 14395
+    },
+    {
+      "file": "byte-budget.png",
+      "bytes": 44310
+    },
+    {
+      "file": "chat_template.jinja",
+      "bytes": 8952
+    },
+    {
+      "file": "config.json",
+      "bytes": 61208
+    },
+    {
+      "file": "generation_config.json",
+      "bytes": 202
+    },
+    {
+      "file": "merges.txt",
+      "bytes": 3353259
+    },
+    {
+      "file": "mixed_native_manifest.json",
+      "bytes": 135167
+    },
+    {
+      "file": "model-00001-of-00005.safetensors",
+      "bytes": 5353604152,
+      "sha256": "3a955b523c9b477dfeb8ecc1cf0e2bb6ff8d24fe794b8229e2f310b5ab639219"
+    },
+    {
+      "file": "model-00002-of-00005.safetensors",
+      "bytes": 5368283984,
+      "sha256": "bf7267ff569a2e58a1af5773ab676f6f7cc2656decc7f809bbb9fda8ca45b483"
+    },
+    {
+      "file": "model-00003-of-00005.safetensors",
+      "bytes": 5342656360,
+      "sha256": "549e5f47254f202d7a9410ff31b59b98e4e6a5d3022a58d759c861688880b3f0"
+    },
+    {
+      "file": "model-00004-of-00005.safetensors",
+      "bytes": 5306360552,
+      "sha256": "bb81e4dd53f5017a7b28710a74a98833fa222c47d431c3e78782f1fe1100e45e"
+    },
+    {
+      "file": "model-00005-of-00005.safetensors",
+      "bytes": 2232612720,
+      "sha256": "fd72152ca68d64f9b234ce64c10ac56b3cfadf0a4c3e693ac7efd2a2b1732583"
+    },
+    {
+      "file": "model.safetensors.index.json",
+      "bytes": 217441
+    },
+    {
+      "file": "preprocessor_config.json",
+      "bytes": 390
+    },
+    {
+      "file": "shipcard.json",
+      "bytes": 262144
+    },
+    {
+      "file": "tokenizer.json",
+      "bytes": 12809320,
+      "sha256": "0997f410c57a1f4e53b09e4be8f4a172d90edd9564368fb0847030937229b9f3"
+    },
+    {
+      "file": "tokenizer_config.json",
+      "bytes": 17928
+    },
+    {
+      "file": "video_preprocessor_config.json",
+      "bytes": 385
+    },
+    {
+      "file": "vocab.json",
+      "bytes": 6722759
+    }
+  ],
+  "weight_bytes": 23603517768
+}

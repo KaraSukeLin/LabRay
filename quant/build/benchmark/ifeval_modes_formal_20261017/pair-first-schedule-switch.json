@@ -1,0 +1,105 @@
+{
+  "created_utc": "2026-10-17T21:50:25.008814+00:00",
+  "reason": "Pair-first schedule: the 30-cell matrix has only 2 matched questions while the first Thinking seed still needs an estimated ~15h. The existing runner queues by question, then mode, then seed, and resumes completed keys from questions.jsonl.",
+  "previous_task_filter": {
+    "modes": [
+      "on"
+    ],
+    "seeds": [
+      20261016
+    ]
+  },
+  "new_task_filter": {
+    "modes": [
+      "off",
+      "on"
+    ],
+    "seeds": [
+      20261016,
+      20261017,
+      20261018
+    ],
+    "question_count": 541,
+    "question_ids_sha256": "c28dfc73b453195bdb9740f174eb82a042b34df98d4b87df7a00f388a77cf1f6"
+  },
+  "unchanged_experiment_sha256": "32837cce0f0c478582966f28e50ff0a62b964d54eaeb780a1458aa09707080da",
+  "sampling": {
+    "off": {
+      "enable_thinking": false,
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "top_k": 20,
+      "min_p": 0.0,
+      "presence_penalty": 1.5,
+      "repetition_penalty": 1.0,
+      "max_tokens": 4096
+    },
+    "on": {
+      "enable_thinking": true,
+      "reasoning_effort": "xhigh",
+      "temperature": 1.0,
+      "top_p": 0.95,
+      "top_k": 20,
+      "min_p": 0.0,
+      "presence_penalty": 0.0,
+      "repetition_penalty": 1.0,
+      "max_tokens": 32768
+    }
+  },
+  "mtp": false,
+  "kv_cache_dtype": "bfloat16",
+  "completed_counts_by_model_and_cell": {
+    "Qwen-Qwen3.8-27B": {
+      "off:20261016": 2,
+      "off:20261017": 2,
+      "off:20261018": 2,
+      "on:20261016": 163,
+      "on:20261017": 8,
+      "on:20261018": 7
+    },
+    "eNeural-Qwen3.8-27B-fast": {
+      "off:20261016": 2,
+      "off:20261017": 2,
+      "off:20261018": 2,
+      "on:20261016": 121,
+      "on:20261017": 7,
+      "on:20261018": 7
+    },
+    "rdtand-Qwen3.8-27B-PrismaAQUA-5.5bit-vllm": {
+      "off:20261016": 2,
+      "off:20261017": 2,
+      "off:20261018": 2,
+      "on:20261016": 154,
+      "on:20261017": 7,
+      "on:20261018": 7
+    },
+    "ModelOpt-Qwen3.8-27B-AutoQuantize-5.5bit": {
+      "off:20261016": 2,
+      "off:20261017": 2,
+      "off:20261018": 2,
+      "on:20261016": 133,
+      "on:20261017": 6,
+      "on:20261018": 6
+    },
+    "unsloth-Qwen3.8-27B-NVFP4": {
+      "off:20261016": 2,
+      "off:20261017": 2,
+      "off:20261018": 2,
+      "on:20261016": 140,
+      "on:20261017": 7,
+      "on:20261018": 7
+    }
+  },
+  "matched_questions_before_switch": 2,
+  "matched_question_ids_before_switch": [
+    "ifeval/1508",
+    "ifeval/3753"
+  ],
+  "progress_snapshot": {
+    "updated_utc": "2026-10-17T21:50:11.252860+00:00",
+    "completed_evaluations": 810,
+    "gpu_hours": 25.71477830138687,
+    "completed_paired_questions": 2
+  },
+  "soft_cutoff_utc": "2026-10-18T22:00:00+00:00"
+}

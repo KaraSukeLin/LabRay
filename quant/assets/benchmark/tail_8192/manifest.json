@@ -1,0 +1,285 @@
+{
+  "method": "All unresolved 4096 cases, plus two common prespecified controls",
+  "source_runs": "/root/projects/quant/build/benchmark/pilot_v1/combined_runs",
+  "models": {
+    "Qwen-Qwen3.8-27B": {
+      "truncated_4096": [
+        "mmmu_standard/test_Architecture_and_Engineering_320",
+        "mmmu_standard/test_Architecture_and_Engineering_470",
+        "mmmu_standard/test_Chemistry_546",
+        "mmmu_standard/test_Diagnostics_and_Laboratory_Medicine_143",
+        "mmmu_standard/test_Finance_313",
+        "mmmu_standard/test_Geography_252",
+        "mmmu_standard/test_Music_324",
+        "mmmu_standard/validation_Electronics_7",
+        "mmmu_standard/validation_Energy_and_Power_18",
+        "mmmu_standard/validation_Mechanical_Engineering_14",
+        "mmmu_vision/test_Architecture_and_Engineering_207",
+        "mmmu_vision/test_Architecture_and_Engineering_473",
+        "mmmu_vision/test_Chemistry_524",
+        "mmmu_vision/test_Electronics_140",
+        "mmmu_vision/test_Electronics_58",
+        "mmmu_vision/test_Energy_and_Power_16",
+        "mmmu_vision/test_Geography_428",
+        "mmmu_vision/test_Manage_80",
+        "mmmu_vision/test_Music_60",
+        "mmmu_vision/test_Psychology_220",
+        "mmmu_vision/validation_Computer_Science_2",
+        "mmmu_vision/validation_Mechanical_Engineering_17"
+      ],
+      "controls": [
+        "mmmu_standard/test_Sociology_140",
+        "mmmu_vision/test_Music_60"
+      ],
+      "source_sha256": "09ae24eb75c4a4cd66e7e9cfc932cdec320a5c8a9c6e369feca3c767b2de0151",
+      "questions_sha256": "2a1bddac8e944b6f7d907e1d25b29f6ca95d696801d1000025a62e1286ec3c27"
+    },
+    "Qwen-Qwen3.8-27B-FP8": {
+      "truncated_4096": [
+        "mmmu_standard/test_Architecture_and_Engineering_320",
+        "mmmu_standard/test_Architecture_and_Engineering_470",
+        "mmmu_standard/test_Chemistry_546",
+        "mmmu_standard/test_Finance_313",
+        "mmmu_standard/test_Geography_252",
+        "mmmu_standard/test_Math_257",
+        "mmmu_standard/validation_Electronics_7",
+        "mmmu_standard/validation_Energy_and_Power_18",
+        "mmmu_standard/validation_Mechanical_Engineering_14",
+        "mmmu_vision/test_Architecture_and_Engineering_207",
+        "mmmu_vision/test_Architecture_and_Engineering_473",
+        "mmmu_vision/test_Biology_285",
+        "mmmu_vision/test_Electronics_140",
+        "mmmu_vision/test_Electronics_58",
+        "mmmu_vision/test_Energy_and_Power_16",
+        "mmmu_vision/test_Geography_428",
+        "mmmu_vision/test_Manage_80",
+        "mmmu_vision/test_Music_60",
+        "mmmu_vision/test_Psychology_220",
+        "mmmu_vision/validation_Energy_and_Power_8",
+        "mmmu_vision/validation_Materials_27",
+        "mmmu_vision/validation_Mechanical_Engineering_17"
+      ],
+      "controls": [
+        "mmmu_standard/test_Sociology_140",
+        "mmmu_vision/test_Music_60"
+      ],
+      "source_sha256": "2be4bde5be578468e23ea54c4b69d5268e796544f2295f175271bafc2533eaf2",
+      "questions_sha256": "453e00dcd4b6d49b1bf39f13465281f538173801b45ceead46db66abb87afae7"
+    },
+    "eNeural-Qwen3.8-27B-fast": {
+      "truncated_4096": [
+        "mmmu_standard/test_Architecture_and_Engineering_470",
+        "mmmu_standard/test_Art_67",
+        "mmmu_standard/test_Finance_313",
+        "mmmu_standard/test_Music_116",
+        "mmmu_standard/validation_Chemistry_3",
+        "mmmu_standard/validation_Electronics_7",
+        "mmmu_standard/validation_Energy_and_Power_18",
+        "mmmu_standard/validation_Mechanical_Engineering_14",
+        "mmmu_vision/test_Architecture_and_Engineering_207",
+        "mmmu_vision/test_Architecture_and_Engineering_473",
+        "mmmu_vision/test_Biology_285",
+        "mmmu_vision/test_Electronics_140",
+        "mmmu_vision/test_Electronics_58",
+        "mmmu_vision/test_Energy_and_Power_16",
+        "mmmu_vision/test_Geography_428",
+        "mmmu_vision/test_Manage_80",
+        "mmmu_vision/test_Music_60",
+        "mmmu_vision/validation_Energy_and_Power_8"
+      ],
+      "controls": [
+        "mmmu_standard/test_Sociology_140",
+        "mmmu_vision/test_Music_60"
+      ],
+      "source_sha256": "bef62c1b1856595b94e1e2fe906d6e71814e5ad28056c3074b02ce49109d4afb",
+      "questions_sha256": "7274ef50034c045f1e3e921f77ae9f7096975b2a7cee7347c827a4bb0ae79c65"
+    },
+    "nvidia-Qwen3.8-27B-NVFP4": {
+      "truncated_4096": [
+        "mmmu_standard/test_Architecture_and_Engineering_320",
+        "mmmu_standard/test_Finance_313",
+        "mmmu_standard/test_Mechanical_Engineering_409",
+        "mmmu_standard/test_Pharmacy_35",
+        "mmmu_standard/validation_Electronics_7",
+        "mmmu_standard/validation_Energy_and_Power_18",
+        "mmmu_standard/validation_Manage_15",
+        "mmmu_vision/test_Architecture_and_Engineering_207",
+        "mmmu_vision/test_Architecture_and_Engineering_473",
+        "mmmu_vision/test_Electronics_140",
+        "mmmu_vision/test_Electronics_58",
+        "mmmu_vision/test_Energy_and_Power_16",
+        "mmmu_vision/test_Geography_428",
+        "mmmu_vision/test_Manage_80",
+        "mmmu_vision/test_Psychology_220",
+        "mmmu_vision/validation_Diagnostics_and_Laboratory_Medicine_22",
+        "mmmu_vision/validation_Energy_and_Power_8",
+        "mmmu_vision/validation_Finance_21",
+        "mmmu_vision/validation_Mechanical_Engineering_17"
+      ],
+      "controls": [
+        "mmmu_standard/test_Sociology_140",
+        "mmmu_vision/test_Music_60"
+      ],
+      "source_sha256": "9a122f2445a00bf44e0121e7c566c58752c8eff0d8dfe0d7693938fa86e4dd71",
+      "questions_sha256": "d53610d3dada439ae476e7986cb55883978f80590f568fadb2dd38de1301256f"
+    },
+    "RedHatAI-Qwen3.8-27B-NVFP4": {
+      "truncated_4096": [
+        "mmmu_standard/test_Architecture_and_Engineering_320",
+        "mmmu_standard/test_Chemistry_546",
+        "mmmu_standard/test_Finance_133",
+        "mmmu_standard/test_Finance_313",
+        "mmmu_standard/test_Mechanical_Engineering_409",
+        "mmmu_standard/test_Pharmacy_35",
+        "mmmu_standard/validation_Electronics_7",
+        "mmmu_standard/validation_Energy_and_Power_18",
+        "mmmu_vision/test_Architecture_and_Engineering_207",
+        "mmmu_vision/test_Architecture_and_Engineering_473",
+        "mmmu_vision/test_Chemistry_524",
+        "mmmu_vision/test_Electronics_140",
+        "mmmu_vision/test_Electronics_58",
+        "mmmu_vision/test_Energy_and_Power_16",
+        "mmmu_vision/test_Geography_428",
+        "mmmu_vision/test_Manage_80",
+        "mmmu_vision/test_Music_60",
+        "mmmu_vision/test_Psychology_220",
+        "mmmu_vision/test_Public_Health_248",
+        "mmmu_vision/validation_Computer_Science_2",
+        "mmmu_vision/validation_Energy_and_Power_8",
+        "mmmu_vision/validation_Materials_27",
+        "mmmu_vision/validation_Mechanical_Engineering_17"
+      ],
+      "controls": [
+        "mmmu_standard/test_Sociology_140",
+        "mmmu_vision/test_Music_60"
+      ],
+      "source_sha256": "b22a275c272b74d501075c1ad502ea99c59c04fe9df3906c2a539f9bdd64f9e4",
+      "questions_sha256": "c19af47595a5f9ed723c855a861c7ba1a01a74040b851d33130ab473ba6b1896"
+    },
+    "unsloth-Qwen3.8-27B-NVFP4": {
+      "truncated_4096": [
+        "mmmu_standard/test_Architecture_and_Engineering_320",
+        "mmmu_standard/test_Architecture_and_Engineering_470",
+        "mmmu_standard/test_Chemistry_546",
+        "mmmu_standard/test_Finance_313",
+        "mmmu_standard/test_Geography_252",
+        "mmmu_standard/test_Music_116",
+        "mmmu_standard/test_Pharmacy_35",
+        "mmmu_standard/validation_Electronics_7",
+        "mmmu_standard/validation_Energy_and_Power_18",
+        "mmmu_vision/test_Architecture_and_Engineering_207",
+        "mmmu_vision/test_Architecture_and_Engineering_473",
+        "mmmu_vision/test_Electronics_140",
+        "mmmu_vision/test_Electronics_58",
+        "mmmu_vision/test_Energy_and_Power_16",
+        "mmmu_vision/test_Manage_80",
+        "mmmu_vision/test_Music_60",
+        "mmmu_vision/validation_Computer_Science_2",
+        "mmmu_vision/validation_Energy_and_Power_8",
+        "mmmu_vision/validation_Mechanical_Engineering_17"
+      ],
+      "controls": [
+        "mmmu_standard/test_Sociology_140",
+        "mmmu_vision/test_Music_60"
+      ],
+      "source_sha256": "95522de0a2783adbf27478585455202518b4576faddfb7581baa1400c7e4058b",
+      "questions_sha256": "773751d2224af631cd4e38bb815fb0bd3a99c817f63c84e777ad84f6cb0ab4ca"
+    },
+    "RadixArk-Qwen3.8-27B-NVFP4-BF16-LMHead": {
+      "truncated_4096": [
+        "mmmu_standard/test_Architecture_and_Engineering_320",
+        "mmmu_standard/test_Finance_133",
+        "mmmu_standard/test_Finance_313",
+        "mmmu_standard/validation_Electronics_7",
+        "mmmu_standard/validation_Energy_and_Power_18",
+        "mmmu_standard/validation_Mechanical_Engineering_14",
+        "mmmu_vision/test_Architecture_and_Engineering_207",
+        "mmmu_vision/test_Architecture_and_Engineering_473",
+        "mmmu_vision/test_Chemistry_524",
+        "mmmu_vision/test_Electronics_140",
+        "mmmu_vision/test_Electronics_58",
+        "mmmu_vision/test_Energy_and_Power_16",
+        "mmmu_vision/test_Geography_428",
+        "mmmu_vision/test_Manage_80",
+        "mmmu_vision/test_Music_60",
+        "mmmu_vision/test_Psychology_220",
+        "mmmu_vision/validation_Art_Theory_16",
+        "mmmu_vision/validation_Computer_Science_2",
+        "mmmu_vision/validation_Economics_29",
+        "mmmu_vision/validation_Energy_and_Power_8",
+        "mmmu_vision/validation_Finance_21",
+        "mmmu_vision/validation_Mechanical_Engineering_17"
+      ],
+      "controls": [
+        "mmmu_standard/test_Sociology_140",
+        "mmmu_vision/test_Music_60"
+      ],
+      "source_sha256": "adb6c33ca18cbcd3d3394368a973c0c49ca68d91ba14119a1e776096287108c4",
+      "questions_sha256": "a895a04e575e1e1786b406f335a81b61a2680c0e1ce26b71e143a6dfaf7bc8b5"
+    },
+    "rdtand-Qwen3.8-27B-PrismaAQUA-5.5bit-vllm": {
+      "truncated_4096": [
+        "mmmu_standard/test_Architecture_and_Engineering_320",
+        "mmmu_standard/test_Electronics_160",
+        "mmmu_standard/test_Finance_313",
+        "mmmu_standard/test_Pharmacy_35",
+        "mmmu_standard/validation_Electronics_7",
+        "mmmu_standard/validation_Energy_and_Power_18",
+        "mmmu_standard/validation_Mechanical_Engineering_14",
+        "mmmu_vision/test_Architecture_and_Engineering_207",
+        "mmmu_vision/test_Architecture_and_Engineering_473",
+        "mmmu_vision/test_Biology_285",
+        "mmmu_vision/test_Electronics_140",
+        "mmmu_vision/test_Electronics_58",
+        "mmmu_vision/test_Energy_and_Power_16",
+        "mmmu_vision/test_Geography_428",
+        "mmmu_vision/test_Music_60",
+        "mmmu_vision/test_Psychology_220",
+        "mmmu_vision/validation_Energy_and_Power_8",
+        "mmmu_vision/validation_Finance_21",
+        "mmmu_vision/validation_Materials_27"
+      ],
+      "controls": [
+        "mmmu_standard/test_Sociology_140",
+        "mmmu_vision/test_Music_60"
+      ],
+      "source_sha256": "9af1fd123479c79c4039f6530759d9a3fd2b52f5c98850b465b56ad1ae9af275",
+      "questions_sha256": "c1b90b3a199e24c4f8e34ea6fd23426dc2e42badcb7377778a87fe17ba974fec"
+    },
+    "ModelOpt-Qwen3.8-27B-AutoQuantize-5.5bit": {
+      "truncated_4096": [
+        "mmmu_standard/test_Architecture_and_Engineering_470",
+        "mmmu_standard/test_Finance_313",
+        "mmmu_standard/test_Geography_252",
+        "mmmu_standard/test_Music_324",
+        "mmmu_standard/test_Pharmacy_35",
+        "mmmu_standard/test_Pharmacy_4",
+        "mmmu_standard/validation_Electronics_7",
+        "mmmu_standard/validation_Energy_and_Power_18",
+        "mmmu_standard/validation_Mechanical_Engineering_14",
+        "mmmu_vision/test_Architecture_and_Engineering_207",
+        "mmmu_vision/test_Architecture_and_Engineering_473",
+        "mmmu_vision/test_Electronics_140",
+        "mmmu_vision/test_Electronics_58",
+        "mmmu_vision/test_Energy_and_Power_16",
+        "mmmu_vision/test_Manage_80",
+        "mmmu_vision/test_Music_60",
+        "mmmu_vision/test_Psychology_220",
+        "mmmu_vision/test_Public_Health_248",
+        "mmmu_vision/validation_Computer_Science_2",
+        "mmmu_vision/validation_Economics_29",
+        "mmmu_vision/validation_Energy_and_Power_8",
+        "mmmu_vision/validation_Materials_27",
+        "mmmu_vision/validation_Mechanical_Engineering_17"
+      ],
+      "controls": [
+        "mmmu_standard/test_Sociology_140",
+        "mmmu_vision/test_Music_60"
+      ],
+      "source_sha256": "a04ffb6d0b73725e6277af28a466aaaa1a6c924a9c120032aaef66da7b5ae487",
+      "questions_sha256": "b33143f51b69113f25ea095d112c88820b35aacf5fc5670de362ccbca21e83ba"
+    }
+  },
+  "max_tokens": 8192,
+  "mtp": false
+}

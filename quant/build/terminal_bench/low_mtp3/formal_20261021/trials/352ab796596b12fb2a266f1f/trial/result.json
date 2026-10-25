@@ -1,0 +1,216 @@
+{
+  "id": "14f17242-c10d-4d42-a757-acf42c5bfe94",
+  "task_name": "terminal-bench/train-fasttext",
+  "trial_name": "trial",
+  "trial_uri": "file:///root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021/trials/352ab796596b12fb2a266f1f/trial",
+  "task_id": {
+    "path": "/root/projects/quant/build/terminal_bench/sources/terminal-bench-2-1/tasks/train-fasttext"
+  },
+  "source": null,
+  "task_checksum": "be84205f314cc6c7318a200c4705fa61e4aba340b736de02a6ddaabcbbb4c524",
+  "config": {
+    "task": {
+      "path": "/root/projects/quant/build/terminal_bench/sources/terminal-bench-2-1/tasks/train-fasttext",
+      "git_url": null,
+      "git_commit_id": null,
+      "name": null,
+      "ref": null,
+      "overwrite": false,
+      "download_dir": null,
+      "source": null
+    },
+    "trial_name": "trial",
+    "trials_dir": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021/trials/352ab796596b12fb2a266f1f",
+    "install_only": false,
+    "timeout_multiplier": 1.0,
+    "agent_timeout_multiplier": null,
+    "verifier_timeout_multiplier": null,
+    "agent_setup_timeout_multiplier": null,
+    "environment_build_timeout_multiplier": null,
+    "agent": {
+      "name": "terminus-2",
+      "import_path": null,
+      "model_name": "hosted_vllm/rdtand-Qwen3.8-27B-PrismaAQUA-5.5bit-vllm",
+      "model_base_url": null,
+      "model_api_key_name": null,
+      "model_api_format": null,
+      "skip_model_parsing": false,
+      "n_concurrent": null,
+      "concurrency_group": null,
+      "skills": [],
+      "override_timeout_sec": null,
+      "override_setup_timeout_sec": null,
+      "max_timeout_sec": null,
+      "resume_trajectory": false,
+      "load_trajectory": null,
+      "extra_allowed_hosts": [],
+      "kwargs": {
+        "api_base": "http://127.0.0.1:18104/v1",
+        "temperature": 1.0,
+        "reasoning_effort": "low",
+        "interleaved_thinking": false,
+        "enable_summarize": true,
+        "proactive_summarization_threshold": 8000,
+        "collect_rollout_details": true,
+        "store_all_messages": true,
+        "session_id_headers": [
+          "X-Terminal-Trial"
+        ],
+        "model_info": {
+          "max_input_tokens": 131072,
+          "max_output_tokens": 131072,
+          "input_cost_per_token": 0.0,
+          "output_cost_per_token": 0.0,
+          "litellm_provider": "hosted_vllm",
+          "supports_reasoning": true
+        },
+        "llm_kwargs": {
+          "api_key": "local-only"
+        },
+        "llm_call_kwargs": {
+          "temperature": 1.0,
+          "top_p": 0.95,
+          "presence_penalty": 0.0,
+          "max_tokens": 131072,
+          "seed": 20261020,
+          "extra_body": {
+            "top_k": 20,
+            "min_p": 0.0,
+            "repetition_penalty": 1.0,
+            "chat_template_kwargs": {
+              "enable_thinking": true,
+              "reasoning_effort": "low",
+              "preserve_thinking": true
+            },
+            "return_token_ids": true
+          },
+          "extra_headers": {
+            "X-Terminal-Identity": "formal/rdtand-Qwen3.8-27B-PrismaAQUA-5.5bit-vllm/train-fasttext/352ab796596b12fb2a266f1f"
+          }
+        }
+      },
+      "mcp_servers": []
+    },
+    "user_agent": null,
+    "environment": {
+      "type": null,
+      "import_path": "terminal_proot:PRootEnvironment",
+      "force_build": false,
+      "delete": true,
+      "stream": false,
+      "cpu_enforcement_policy": "auto",
+      "memory_enforcement_policy": "auto",
+      "override_cpus": null,
+      "override_memory_mb": null,
+      "override_storage_mb": null,
+      "override_gpus": null,
+      "override_tpu": null,
+      "mounts": null,
+      "extra_docker_compose": [],
+      "kwargs": {},
+      "extra_allowed_hosts": []
+    },
+    "verifier": {
+      "override_timeout_sec": null,
+      "max_timeout_sec": null,
+      "disable": false
+    },
+    "artifacts": [],
+    "extra_instruction_paths": [],
+    "extra_instructions": [],
+    "job_id": null,
+    "source_trial": null
+  },
+  "agent_info": {
+    "name": "terminus-2",
+    "version": "2.0.0",
+    "model_info": {
+      "name": "rdtand-Qwen3.8-27B-PrismaAQUA-5.5bit-vllm",
+      "provider": "hosted_vllm"
+    }
+  },
+  "agent_result": {
+    "n_input_tokens": 580292,
+    "n_cache_tokens": 0,
+    "n_output_tokens": 14375,
+    "cost_usd": null,
+    "model_usage": {
+      "rdtand-Qwen3.8-27B-PrismaAQUA-5.5bit-vllm": {
+        "n_input_tokens": 580292,
+        "n_cache_tokens": 0,
+        "n_output_tokens": 14375,
+        "cost_usd": null
+      }
+    },
+    "metadata": {
+      "n_episodes": 38,
+      "api_request_times_msec": [
+        6566.918849945068,
+        6290.222883224487,
+        4692.926406860352,
+        2664.949417114258,
+        3808.915853500366,
+        4468.932628631592,
+        6359.738826751709,
+        11782.95922279358,
+        51866.04046821594,
+        22226.04513168335,
+        12396.317481994629,
+        8665.9677028656,
+        24558.39467048645,
+        3317.9614543914795,
+        28674.48592185974,
+        4994.348049163818,
+        3946.6328620910645,
+        18339.808225631714,
+        4416.659355163574,
+        4419.409275054932,
+        4636.518955230713,
+        8039.400100708008,
+        5366.543292999268,
+        8622.35164642334,
+        6237.424612045288,
+        27414.210557937622,
+        5884.62233543396,
+        5683.453559875488,
+        6316.611289978027,
+        8572.8280544281,
+        8169.589042663574,
+        7136.999845504761,
+        9351.90486907959,
+        9388.89193534851,
+        8260.399341583252,
+        8543.00570487976,
+        19331.393718719482,
+        11763.754844665527
+      ],
+      "summarization_count": 0
+    }
+  },
+  "verifier_result": {
+    "rewards": {
+      "reward": 1.0
+    }
+  },
+  "verifier_environment_mode": "shared",
+  "exception_info": null,
+  "started_at": "2026-10-21T20:05:02.756702Z",
+  "finished_at": "2026-10-21T20:43:12.515390Z",
+  "environment_setup": {
+    "started_at": "2026-10-21T20:05:02.771850Z",
+    "finished_at": "2026-10-21T20:05:16.249250Z"
+  },
+  "agent_setup": {
+    "started_at": "2026-10-21T20:05:16.249315Z",
+    "finished_at": "2026-10-21T20:05:36.662035Z"
+  },
+  "agent_execution": {
+    "started_at": "2026-10-21T20:05:36.662395Z",
+    "finished_at": "2026-10-21T20:42:20.847561Z"
+  },
+  "verifier": {
+    "started_at": "2026-10-21T20:42:20.924312Z",
+    "finished_at": "2026-10-21T20:43:12.148908Z"
+  },
+  "step_results": null
+}

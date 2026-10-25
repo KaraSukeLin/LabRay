@@ -1,0 +1,73 @@
+{
+  "b1": {
+    "task": "benchmark",
+    "strategies": [
+      "single_choice"
+    ],
+    "sizes": [
+      256,
+      1024,
+      4096
+    ],
+    "conditions": [
+      "original",
+      "ft_256",
+      "ft_1024",
+      "ft_4096"
+    ]
+  },
+  "b2": {
+    "task": "sufficiency",
+    "strategies": [
+      "noul",
+      "choice2",
+      "score5"
+    ],
+    "conditions": [
+      "original"
+    ]
+  },
+  "b3": {
+    "task": "benchmark",
+    "strategies": [
+      "single_choice",
+      "hierarchical",
+      "parallel_noul"
+    ],
+    "conditions": [
+      "original"
+    ]
+  },
+  "b4": {
+    "task": "benchmark",
+    "strategies": [
+      "single_choice"
+    ],
+    "sizes": [
+      256,
+      1024,
+      4096
+    ],
+    "conditions": [
+      "original",
+      "ft_256",
+      "ft_1024",
+      "ft_4096"
+    ]
+  },
+  "b5": {
+    "task": "benchmark",
+    "strategies": [
+      "single_choice"
+    ],
+    "conditions": [
+      "original"
+    ],
+    "quantizations": [
+      "bf16",
+      "bnb8",
+      "fp8",
+      "bnb4"
+    ]
+  }
+}

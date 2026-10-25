@@ -1,0 +1,53 @@
+Using Python 3.11.2 environment at: /tmp/b5-startlux-smoke/venv
+Resolved 41 packages in 1.47s
+   Building startlux-decide @ file:///root/projects/decision/experiments/orsharc/artifacts/upstream/startlux
+Downloading aiohttp (1.8MiB)
+Downloading numpy (16.1MiB)
+Downloading cmake (26.5MiB)
+ Downloaded aiohttp
+      Built startlux-decide @ file:///root/projects/decision/experiments/orsharc/artifacts/upstream/startlux
+ Downloaded numpy
+ Downloaded cmake
+Prepared 11 packages in 2.54s
+Installed 41 packages in 402ms
+ + aiohappyeyeballs==2.7.1
+ + aiohttp==3.14.5
+ + aiosignal==1.4.0
+ + annotated-doc==0.0.5
+ + anyio==4.15.1
+ + attrs==26.1.0
+ + click==8.5.0
+ + cmake==3.31.10
+ + filelock==4.2.4
+ + frozenlist==1.8.0
+ + fsspec==2026.9.0
+ + h11==0.16.0
+ + hf-xet==1.7.0
+ + httpcore2==2.16.0
+ + httpx2==2.16.0
+ + huggingface-hub==2.3.0
+ + idna==3.20
+ + markdown-it-py==4.2.0
+ + mdurl==0.1.2
+ + multidict==7.1.0
+ + ninja==1.13.2
+ + numpy==2.4.6
+ + nvidia-cublas-cu12==12.8.4.1
+ + nvidia-cuda-nvcc-cu12==12.8.93
+ + nvidia-cuda-runtime-cu12==12.8.90
+ + packaging==26.3
+ + propcache==0.5.4
+ + pygments==2.21.0
+ + pyyaml==6.0.3
+ + regex==2026.9.29
+ + rich==15.0.0
+ + safetensors==0.8.0
+ + shellingham==1.5.4
+ + startlux-decide==1.1.0 (from file:///root/projects/decision/experiments/orsharc/artifacts/upstream/startlux)
+ + tokenizers==0.23.3
+ + tqdm==4.70.1
+ + transformers==5.20.2
+ + truststore==0.10.5
+ + typer==0.27.3
+ + typing-extensions==4.16.0
+ + yarl==1.25.1

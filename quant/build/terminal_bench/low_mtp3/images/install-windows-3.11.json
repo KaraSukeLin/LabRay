@@ -1,0 +1,276 @@
+{
+  "pinned": {
+    "tag": "alexgshaw/install-windows-3.11:20251031",
+    "digest": "alexgshaw/install-windows-3.11@sha256:c6695097316ef8810abce0545e347e65354aef9d51d4f7f662c3242e742f6a3e",
+    "resolved_at": 1792524215.2073812
+  },
+  "manifest": "/root/projects/quant/build/terminal_bench/low_mtp3/images/blobs/sha256-c6695097316ef8810abce0545e347e65354aef9d51d4f7f662c3242e742f6a3e",
+  "config_file": "/root/projects/quant/build/terminal_bench/low_mtp3/images/blobs/sha256-c476efafe0214c2c6263fcbc0b2ed0b67be0b19c053bd7c81865cc4786f79e5f",
+  "config": {
+    "architecture": "amd64",
+    "config": {
+      "Env": [
+        "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+        "USER=root",
+        "PASSWORD=password1",
+        "DEBIAN_FRONTEND=noninteractive",
+        "DEBCONF_NONINTERACTIVE_SEEN=true",
+        "XKB_DEFAULT_RULES=base"
+      ],
+      "Cmd": [
+        "supervisord",
+        "-c",
+        "/etc/supervisor/supervisord.conf"
+      ],
+      "WorkingDir": "/app",
+      "Labels": {
+        "com.docker.compose.project": "harbor-build-install-windows-3-11",
+        "com.docker.compose.service": "task",
+        "com.docker.compose.version": "2.35.1",
+        "org.opencontainers.image.ref.name": "ubuntu",
+        "org.opencontainers.image.version": "24.04"
+      },
+      "ArgsEscaped": true
+    },
+    "created": "2025-10-31T02:57:25.93909883Z",
+    "history": [
+      {
+        "created": "2025-10-01T13:01:35.209126922Z",
+        "created_by": "/bin/sh -c #(nop)  ARG RELEASE",
+        "empty_layer": true
+      },
+      {
+        "created": "2025-10-01T13:01:35.239536352Z",
+        "created_by": "/bin/sh -c #(nop)  ARG LAUNCHPAD_BUILD_ARCH",
+        "empty_layer": true
+      },
+      {
+        "created": "2025-10-01T13:01:35.272673533Z",
+        "created_by": "/bin/sh -c #(nop)  LABEL org.opencontainers.image.ref.name=ubuntu",
+        "empty_layer": true
+      },
+      {
+        "created": "2025-10-01T13:01:35.298648213Z",
+        "created_by": "/bin/sh -c #(nop)  LABEL org.opencontainers.image.version=24.04",
+        "empty_layer": true
+      },
+      {
+        "created": "2025-10-01T13:01:37.490648801Z",
+        "created_by": "/bin/sh -c #(nop) ADD file:249778a1782b02a1c2bcf9f292f5778d81442a53c3de1958d712f10baf7e0b60 in / "
+      },
+      {
+        "created": "2025-10-01T13:01:37.838375075Z",
+        "created_by": "/bin/sh -c #(nop)  CMD [\"/bin/bash\"]",
+        "empty_layer": true
+      },
+      {
+        "created": "2025-10-31T02:57:21.039796922Z",
+        "created_by": "ENV USER=root",
+        "comment": "buildkit.dockerfile.v0",
+        "empty_layer": true
+      },
+      {
+        "created": "2025-10-31T02:57:21.039796922Z",
+        "created_by": "ENV PASSWORD=password1",
+        "comment": "buildkit.dockerfile.v0",
+        "empty_layer": true
+      },
+      {
+        "created": "2025-10-31T02:57:21.039796922Z",
+        "created_by": "ENV DEBIAN_FRONTEND=noninteractive",
+        "comment": "buildkit.dockerfile.v0",
+        "empty_layer": true
+      },
+      {
+        "created": "2025-10-31T02:57:21.039796922Z",
+        "created_by": "ENV DEBCONF_NONINTERACTIVE_SEEN=true",
+        "comment": "buildkit.dockerfile.v0",
+        "empty_layer": true
+      },
+      {
+        "created": "2025-10-31T02:57:21.039796922Z",
+        "created_by": "ENV XKB_DEFAULT_RULES=base",
+        "comment": "buildkit.dockerfile.v0",
+        "empty_layer": true
+      },
+      {
+        "created": "2025-10-31T02:57:21.039796922Z",
+        "created_by": "RUN /bin/sh -c apt-get update &&     echo \"tzdata tzdata/Areas select America\" > ~/tx.txt &&     echo \"tzdata tzdata/Zones/America select New_York\" >> ~/tx.txt &&     debconf-set-selections ~/tx.txt &&     apt-get install -y     wget     ratpoison     novnc     websockify     libxv1     xauth     x11-utils     xserver-common     xserver-xorg-core     xserver-xorg-input-evdev     xserver-xorg-video-dummy     tightvncserver     x11-xkb-utils     gstreamer1.0-plugins-good     gstreamer1.0-pulseaudio     gstreamer1.0-tools     libgtk2.0-0     libopenal1     libsndfile1     nginx     pulseaudio     supervisor     ucspi-tcp     vncsnapshot     bc     file     build-essential     python3     pkg-config     libglib2.0-dev     libfdt-dev     libpixman-1-dev     zlib1g-dev     libnfs-dev     libiscsi-dev     ninja-build     meson     && rm -rf /var/lib/apt/lists/* # buildkit",
+        "comment": "buildkit.dockerfile.v0"
+      },
+      {
+        "created": "2025-10-31T02:57:21.077996749Z",
+        "created_by": "WORKDIR /app",
+        "comment": "buildkit.dockerfile.v0"
+      },
+      {
+        "created": "2025-10-31T02:57:21.116670906Z",
+        "created_by": "COPY etc/pulse/default.pa /etc/pulse/ # buildkit",
+        "comment": "buildkit.dockerfile.v0"
+      },
+      {
+        "created": "2025-10-31T02:57:21.155767883Z",
+        "created_by": "COPY etc/pulse/client.conf /etc/pulse/ # buildkit",
+        "comment": "buildkit.dockerfile.v0"
+      },
+      {
+        "created": "2025-10-31T02:57:21.19520417Z",
+        "created_by": "COPY etc/pulse/daemon.conf /etc/pulse/ # buildkit",
+        "comment": "buildkit.dockerfile.v0"
+      },
+      {
+        "created": "2025-10-31T02:57:21.231024207Z",
+        "created_by": "COPY etc/pipewire/client.conf /etc/pipewire/ # buildkit",
+        "comment": "buildkit.dockerfile.v0"
+      },
+      {
+        "created": "2025-10-31T02:57:21.268112383Z",
+        "created_by": "COPY etc/nginx/nginx.conf /etc/nginx/ # buildkit",
+        "comment": "buildkit.dockerfile.v0"
+      },
+      {
+        "created": "2025-10-31T02:57:21.306205811Z",
+        "created_by": "COPY webaudio.js /usr/share/novnc/core/ # buildkit",
+        "comment": "buildkit.dockerfile.v0"
+      },
+      {
+        "created": "2025-10-31T02:57:21.706693764Z",
+        "created_by": "RUN /bin/sh -c sed -i \"/import RFB/a     import WebAudio from '/core/webaudio.js'\"     /usr/share/novnc/app/ui.js     && sed -i \"/UI.rfb.resizeSession/a     var loc = window.location, new_uri;     if (loc.protocol === 'https:') {     new_uri = 'wss:';     } else {     new_uri = 'ws:';     }     new_uri += '//' + loc.host;     new_uri += '/audio';     var wa = new WebAudio(new_uri);     document.addEventListener('keydown', e => { wa.start(); });\"     /usr/share/novnc/app/ui.js # buildkit",
+        "comment": "buildkit.dockerfile.v0"
+      },
+      {
+        "created": "2025-10-31T02:57:22.102668657Z",
+        "created_by": "RUN /bin/sh -c mkdir -p /app/isos # buildkit",
+        "comment": "buildkit.dockerfile.v0"
+      },
+      {
+        "created": "2025-10-31T02:57:25.869526107Z",
+        "created_by": "RUN /bin/sh -c wget -O /app/isos/win311.img https://archive.org/download/win311_202508/win311.img # buildkit",
+        "comment": "buildkit.dockerfile.v0"
+      },
+      {
+        "created": "2025-10-31T02:57:25.905571924Z",
+        "created_by": "COPY isos/ /app/isos/ # buildkit",
+        "comment": "buildkit.dockerfile.v0"
+      },
+      {
+        "created": "2025-10-31T02:57:25.93909883Z",
+        "created_by": "COPY etc/supervisor/supervisord.conf /etc/supervisor/supervisord.conf # buildkit",
+        "comment": "buildkit.dockerfile.v0"
+      },
+      {
+        "created": "2025-10-31T02:57:25.93909883Z",
+        "created_by": "CMD [\"supervisord\" \"-c\" \"/etc/supervisor/supervisord.conf\"]",
+        "comment": "buildkit.dockerfile.v0",
+        "empty_layer": true
+      }
+    ],
+    "os": "linux",
+    "rootfs": {
+      "type": "layers",
+      "diff_ids": [
+        "sha256:073ec47a8c22dcaa4d6e5758799ccefe2f9bde943685830b1bf6fd2395f5eabc",
+        "sha256:0317d2e589e377a488caba71f9a82b32fb39d40695ec1ddc5b81305986d0aa4e",
+        "sha256:c0bd39a45a0323d5ac16990bdaef4cf1f659d01459cc97a3ae276447ebef27fc",
+        "sha256:eca251256d1c066a1468ee8aa70acb0b60246928661aad4767d386fcb70c38b3",
+        "sha256:4e701239cd9c3e1bb7b8822578760c3ec455463ce9dee219e13273abfd2be327",
+        "sha256:1d4a5a3960a04bf73e7e57c77bd68a4b464dfe5a19ce50e9d25e62442a7e44ab",
+        "sha256:74930547b4cbe8d3824533f0cc4290728aaedae44849e33ad62ab7932a955cc3",
+        "sha256:8f50dd703edaeedf0b42d86d6b1ff37abe4e9d2e6b98ad3b58392552062da4a2",
+        "sha256:d8f2407f00fc70b4f36f5254f2c3801489ba811757249fdddc875b0320a00b35",
+        "sha256:258d81860867a603fa1c815290272469b24e5b1ebf10f23f77660d48cb188a27",
+        "sha256:87877139925f40736c9e4c3963b058be3d8ce52c2dd65de3afa193826d204dff",
+        "sha256:848450c75efa4fb34f2c76cbd32f52fd935ef136ef7eb294b0b2c12dbc9cacb6",
+        "sha256:7eb3ecba26d8d150026acc31e0407a1d1b799298897006fdd1f7d0496b7a4db2",
+        "sha256:ff19c85cdbc913d9c21a83fa0e7091d3d0f57658898522c094ce7a8d0b23dfdb"
+      ]
+    }
+  },
+  "layers": [
+    {
+      "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+      "size": 29723147,
+      "digest": "sha256:4b3ffd8ccb5201a0fc03585952effb4ed2d1ea5e704d2e7330212fb8b16c86a3",
+      "path": "/root/projects/quant/build/terminal_bench/low_mtp3/images/blobs/sha256-4b3ffd8ccb5201a0fc03585952effb4ed2d1ea5e704d2e7330212fb8b16c86a3"
+    },
+    {
+      "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+      "size": 396006302,
+      "digest": "sha256:d6235d7dba47ca33256fe0ab02b7b7b5cc9cacf6bf86962d795cef3043ea8ae2",
+      "path": "/root/projects/quant/build/terminal_bench/low_mtp3/images/blobs/sha256-d6235d7dba47ca33256fe0ab02b7b7b5cc9cacf6bf86962d795cef3043ea8ae2"
+    },
+    {
+      "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+      "size": 92,
+      "digest": "sha256:28079ba6684fa982399cce8e0707c512b4dd1b611777ad84fc308e7b41c6fc90",
+      "path": "/root/projects/quant/build/terminal_bench/low_mtp3/images/blobs/sha256-28079ba6684fa982399cce8e0707c512b4dd1b611777ad84fc308e7b41c6fc90"
+    },
+    {
+      "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+      "size": 254,
+      "digest": "sha256:ffaea3d7f60bef0211bf95a5cf1fe86e5564bf3ef52c6814e8829b6efd2f0b6e",
+      "path": "/root/projects/quant/build/terminal_bench/low_mtp3/images/blobs/sha256-ffaea3d7f60bef0211bf95a5cf1fe86e5564bf3ef52c6814e8829b6efd2f0b6e"
+    },
+    {
+      "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+      "size": 199,
+      "digest": "sha256:ef4914b59c87f7d3e70e4d5ca5610d326b2d98b6915c988649ab46db27a53fb1",
+      "path": "/root/projects/quant/build/terminal_bench/low_mtp3/images/blobs/sha256-ef4914b59c87f7d3e70e4d5ca5610d326b2d98b6915c988649ab46db27a53fb1"
+    },
+    {
+      "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+      "size": 1281,
+      "digest": "sha256:7e68690a2ad43cc0ee66a5886c986c3d2e8088ba8dac905ef876880851807dbd",
+      "path": "/root/projects/quant/build/terminal_bench/low_mtp3/images/blobs/sha256-7e68690a2ad43cc0ee66a5886c986c3d2e8088ba8dac905ef876880851807dbd"
+    },
+    {
+      "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+      "size": 492,
+      "digest": "sha256:7316b97ab25054166a74f3d12de01063dd9b693a8c6df24e11bb0fcd11412453",
+      "path": "/root/projects/quant/build/terminal_bench/low_mtp3/images/blobs/sha256-7316b97ab25054166a74f3d12de01063dd9b693a8c6df24e11bb0fcd11412453"
+    },
+    {
+      "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+      "size": 469,
+      "digest": "sha256:f013f756e9704506af3444aead6e0285a021bfd0eec7e1abc865925a90c531c3",
+      "path": "/root/projects/quant/build/terminal_bench/low_mtp3/images/blobs/sha256-f013f756e9704506af3444aead6e0285a021bfd0eec7e1abc865925a90c531c3"
+    },
+    {
+      "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+      "size": 1706,
+      "digest": "sha256:ceaf0d042491f84f2c308027adc9b831f3a58ba882d455974ee7211a6eaddd3e",
+      "path": "/root/projects/quant/build/terminal_bench/low_mtp3/images/blobs/sha256-ceaf0d042491f84f2c308027adc9b831f3a58ba882d455974ee7211a6eaddd3e"
+    },
+    {
+      "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+      "size": 12219,
+      "digest": "sha256:66867fb583155b8e4680af8ece5b72e785c1e83f233fa6d52738059222befe66",
+      "path": "/root/projects/quant/build/terminal_bench/low_mtp3/images/blobs/sha256-66867fb583155b8e4680af8ece5b72e785c1e83f233fa6d52738059222befe66"
+    },
+    {
+      "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+      "size": 111,
+      "digest": "sha256:7307483e371a487449aada18608e38df60fdf78587542e29142d6aba2195ff4c",
+      "path": "/root/projects/quant/build/terminal_bench/low_mtp3/images/blobs/sha256-7307483e371a487449aada18608e38df60fdf78587542e29142d6aba2195ff4c"
+    },
+    {
+      "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+      "size": 147624207,
+      "digest": "sha256:8831fcdb48453f9f18a93052f1ca59478984cb46b5690ab23baad9774f2d96cd",
+      "path": "/root/projects/quant/build/terminal_bench/low_mtp3/images/blobs/sha256-8831fcdb48453f9f18a93052f1ca59478984cb46b5690ab23baad9774f2d96cd"
+    },
+    {
+      "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+      "size": 167,
+      "digest": "sha256:72d39465f9a06fe5c48026a88ed7677c9ca6e4c2bd3b106f8aec478384ea0feb",
+      "path": "/root/projects/quant/build/terminal_bench/low_mtp3/images/blobs/sha256-72d39465f9a06fe5c48026a88ed7677c9ca6e4c2bd3b106f8aec478384ea0feb"
+    },
+    {
+      "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+      "size": 602,
+      "digest": "sha256:ae99a0c74233ce73548068bd53b59eb94c0e488db99a40184c83d54f93f9e7ed",
+      "path": "/root/projects/quant/build/terminal_bench/low_mtp3/images/blobs/sha256-ae99a0c74233ce73548068bd53b59eb94c0e488db99a40184c83d54f93f9e7ed"
+    }
+  ],
+  "time": 1792609686.3401258
+}

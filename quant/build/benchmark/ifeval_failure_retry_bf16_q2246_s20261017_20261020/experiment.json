@@ -1,0 +1,229 @@
+{
+  "schema": 1,
+  "config": {
+    "models": [
+      "Qwen-Qwen3.8-27B",
+      "eNeural-Qwen3.8-27B-fast",
+      "rdtand-Qwen3.8-27B-PrismaAQUA-5.5bit-vllm",
+      "ModelOpt-Qwen3.8-27B-AutoQuantize-5.5bit",
+      "unsloth-Qwen3.8-27B-NVFP4"
+    ],
+    "baseline": "Qwen-Qwen3.8-27B",
+    "seeds": [
+      20261016,
+      20261017,
+      20261018
+    ],
+    "modes": {
+      "off": {
+        "enable_thinking": false,
+        "temperature": 0.7,
+        "top_p": 0.8,
+        "top_k": 20,
+        "min_p": 0.0,
+        "presence_penalty": 1.5,
+        "repetition_penalty": 1.0,
+        "max_tokens": 16384,
+        "max_tokens_history": [
+          4096,
+          8192,
+          16384
+        ]
+      },
+      "on": {
+        "enable_thinking": true,
+        "reasoning_effort": "xhigh",
+        "temperature": 1.0,
+        "top_p": 0.95,
+        "top_k": 20,
+        "min_p": 0.0,
+        "presence_penalty": 0.0,
+        "repetition_penalty": 1.0,
+        "max_tokens": 100000,
+        "max_tokens_history": [
+          20480,
+          32768,
+          49152,
+          65000,
+          100000
+        ]
+      }
+    },
+    "max_model_len": 131072,
+    "max_images": 35,
+    "min_pixels": 65536,
+    "max_pixels": 16777216,
+    "mtp": false,
+    "kv_cache_dtype": "bfloat16",
+    "google_ifeval_revision": "3ef52111c1fabc301880818f5a547570e926a76b",
+    "bootstrap_seed": 20261016,
+    "bootstrap_resamples": 199999,
+    "comparison_family": 91
+  },
+  "config_sha256": "a94e1f1a564669063e24b3dc015cf0a2d7f5b095a05c9f5572f008c097e7a203",
+  "models": [
+    "Qwen-Qwen3.8-27B"
+  ],
+  "modes": [
+    "on"
+  ],
+  "seeds": [
+    20261017
+  ],
+  "question_ids": [
+    "ifeval/2246"
+  ],
+  "questions": [
+    {
+      "id": "ifeval/2246",
+      "task": "ifeval",
+      "stratum": "ifeval",
+      "prompt": "I want to travel to the Subic Bay Freeport Zone, which subdistrict should I stay in? Give me an angry recommendation. Answer with at least 400 words. In your response, the word climatic should appear at least 2 times. The response must contain at least 3 placeholders represented by square brackets, such as [address].",
+      "images": [],
+      "example": {
+        "key": 2246,
+        "prompt": "I want to travel to the Subic Bay Freeport Zone, which subdistrict should I stay in? Give me an angry recommendation. Answer with at least 400 words. In your response, the word climatic should appear at least 2 times. The response must contain at least 3 placeholders represented by square brackets, such as [address].",
+        "instruction_id_list": [
+          "length_constraints:number_words",
+          "keywords:frequency",
+          "detectable_content:number_placeholders"
+        ],
+        "kwargs": [
+          {
+            "relation": "at least",
+            "num_words": 400
+          },
+          {
+            "relation": "at least",
+            "keyword": "climatic",
+            "frequency": 2
+          },
+          {
+            "num_placeholders": 3
+          }
+        ]
+      },
+      "image_sha256": []
+    }
+  ],
+  "full_541": false,
+  "planned_evaluations": 1,
+  "dataset_sha256": "08dfe18786d774b22660c99685e286e9cd9bddfd4d2e72f3f5733d28eac03709",
+  "model_versions": {
+    "Qwen-Qwen3.8-27B": {
+      "revision": "1d4bf0f2ff6012fd82039f2fa52739d0dd7c60c0",
+      "config_sha256": "191e0af232104ed8b65258cf3fb2b842e288008baca7633c11b82a1ac7203aab",
+      "weights": [
+        {
+          "file": "model-00001-of-00018.safetensors",
+          "bytes": 3966730552,
+          "mtime_ns": 1792138599424901297
+        },
+        {
+          "file": "model-00002-of-00018.safetensors",
+          "bytes": 3043080328,
+          "mtime_ns": 1792138574221570006
+        },
+        {
+          "file": "model-00003-of-00018.safetensors",
+          "bytes": 2542796952,
+          "mtime_ns": 1792138635371943820
+        },
+        {
+          "file": "model-00004-of-00018.safetensors",
+          "bytes": 3988973152,
+          "mtime_ns": 1792138681286727421
+        },
+        {
+          "file": "model-00005-of-00018.safetensors",
+          "bytes": 2099339864,
+          "mtime_ns": 1792138726565486054
+        },
+        {
+          "file": "model-00006-of-00018.safetensors",
+          "bytes": 3979553696,
+          "mtime_ns": 1792138772424288027
+        },
+        {
+          "file": "model-00007-of-00018.safetensors",
+          "bytes": 2108759344,
+          "mtime_ns": 1792138799623574351
+        },
+        {
+          "file": "model-00008-of-00018.safetensors",
+          "bytes": 3979553696,
+          "mtime_ns": 1792138843338416842
+        },
+        {
+          "file": "model-00009-of-00018.safetensors",
+          "bytes": 2108759344,
+          "mtime_ns": 1792138881481419367
+        },
+        {
+          "file": "model-00010-of-00018.safetensors",
+          "bytes": 3979553696,
+          "mtime_ns": 1792138930508130310
+        },
+        {
+          "file": "model-00011-of-00018.safetensors",
+          "bytes": 2108759344,
+          "mtime_ns": 1792138969539094425
+        },
+        {
+          "file": "model-00012-of-00018.safetensors",
+          "bytes": 3979553696,
+          "mtime_ns": 1792139013137954269
+        },
+        {
+          "file": "model-00013-of-00018.safetensors",
+          "bytes": 2108759344,
+          "mtime_ns": 1792139045409122084
+        },
+        {
+          "file": "model-00014-of-00018.safetensors",
+          "bytes": 3979553696,
+          "mtime_ns": 1792139093679869152
+        },
+        {
+          "file": "model-00015-of-00018.safetensors",
+          "bytes": 2108759344,
+          "mtime_ns": 1792139131654886576
+        },
+        {
+          "file": "model-00016-of-00018.safetensors",
+          "bytes": 3979564040,
+          "mtime_ns": 1792139177637711255
+        },
+        {
+          "file": "model-00017-of-00018.safetensors",
+          "bytes": 2108759344,
+          "mtime_ns": 1792139213572849352
+        },
+        {
+          "file": "model-00018-of-00018.safetensors",
+          "bytes": 3392197344,
+          "mtime_ns": 1792139248699952378
+        }
+      ]
+    }
+  },
+  "files_sha256": {
+    "/root/model/Qwen-Qwen3.8-27B/tokenizer.json": "0997f410c57a1f4e53b09e4be8f4a172d90edd9564368fb0847030937229b9f3",
+    "/root/model/Qwen-Qwen3.8-27B/tokenizer_config.json": "b11349aafa7cdc6a320767cf7ceb29ed82f7eda5d65e8e0819e76f0ce947bf27",
+    "/root/model/Qwen-Qwen3.8-27B/chat_template.jinja": "c3cf9e34abf4f9e36c2d72165aa9c132d3e2a725b6c2586aaa3a8af9d7a81041",
+    "/root/projects/quant/src/ifeval_modes.py": "82786c95dd5376fc244685d372bde810c5ba04a5a8babb798528e3ef20267d80",
+    "/root/projects/quant/src/benchmark.py": "15b51e085d8f6793236db0ee6faaf5a210e21bbc5f8db5baf594858e9c183fa0",
+    "/root/projects/quant/build/autoquant/tools/google-research/instruction_following_eval/evaluation_lib.py": "35decc06000718487f44d7deafa6d3f48a8ec0886281edf40162c0265b7d248c",
+    "/root/projects/quant/build/autoquant/tools/google-research/instruction_following_eval/instructions.py": "60e086f5342a03ce8e18b64bbcccf86308f523c08aa826707a562150a52f3edf",
+    "/root/projects/quant/build/autoquant/tools/google-research/instruction_following_eval/instructions_registry.py": "ec92d72c264f6d906978613085db262356174300370a3fffe6fefd5969ce9cfc",
+    "/root/projects/quant/build/autoquant/tools/google-research/instruction_following_eval/instructions_util.py": "a73797261eee5bf447e279d82a2b700b1bdd3cb1193412dbab1270a85832bc6b"
+  },
+  "environment": {
+    "vllm": "0.31.0+cu129",
+    "torch": "2.13.0+cu129",
+    "transformers": "5.17.0",
+    "scipy": "1.18.0",
+    "numpy": "2.3.5",
+    "langdetect": "1.0.9"
+  }
+}

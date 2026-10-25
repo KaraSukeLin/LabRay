@@ -1,0 +1,39 @@
+{
+  "synthetic_outcomes": true,
+  "model_inference_run": false,
+  "capability_scores_reported": false,
+  "resamples": 199999,
+  "confidence_levels": [
+    0.95,
+    0.9994791666666667
+  ],
+  "one_candidate_measured_seconds": 24.461709588766098,
+  "eight_candidates_projected_seconds": 195.69367671012878,
+  "per_task": [
+    {
+      "task": "ifeval",
+      "questions": 541,
+      "seconds": 3.2016769871115685
+    },
+    {
+      "task": "mmmu_standard",
+      "questions": 1730,
+      "seconds": 10.635367762297392
+    },
+    {
+      "task": "mmmu_vision",
+      "questions": 1730,
+      "seconds": 10.624664839357138
+    }
+  ],
+  "omp_num_threads": 8,
+  "versions": {
+    "numpy": "2.3.5",
+    "scipy": "1.18.0"
+  },
+  "limitations": [
+    "Synthetic 0/1 outcomes, real full-data stratum counts; timing only",
+    "One candidate measured; eight-candidate cost extrapolated, excluding JSON parsing and exports",
+    "Not a model benchmark result"
+  ]
+}

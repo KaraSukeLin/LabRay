@@ -1,0 +1,285 @@
+{
+  "method": "Two observed questions per task per model; mean latency times 541/1730/1730; longest-processing-time schedule on five H100 GPUs",
+  "limitations": [
+    "Small nonrandom pilot; not a confidence interval",
+    "Pilot used old 1M pixel cap; formal default restored to 16M pixels",
+    "Output lengths and multimodal prefill vary; no guaranteed MTP speedup",
+    "Does not include retries, repeated seeds or thinking mode",
+    "Small smoke timings are not a throughput benchmark"
+  ],
+  "summary": {
+    "off": {
+      "projected_gpu_hours": 197.27821630786016,
+      "five_gpu_scheduled_wall_hours": 45.03347126346392,
+      "min_model_hours": 13.469484222651356,
+      "max_model_hours": 28.18657686223483
+    },
+    "mtp": {
+      "projected_gpu_hours": 106.9211050229173,
+      "five_gpu_scheduled_wall_hours": 22.632006257984063,
+      "min_model_hours": 8.579197993070508,
+      "max_model_hours": 18.10080677407949
+    },
+    "both": {
+      "projected_gpu_hours": 304.1993213307775,
+      "five_gpu_scheduled_wall_hours": 64.28059008633407
+    }
+  },
+  "per_model": [
+    {
+      "mode": "off",
+      "model": "ModelOpt-Qwen3.8-27B-AutoQuantize-5.5bit",
+      "per_task_mean_seconds": {
+        "ifeval": 28.831534108147025,
+        "mmmu_standard": 15.086198180913925,
+        "mmmu_vision": 26.499108184129
+      },
+      "full_projected_gpu_hours": 24.31678887889772,
+      "initialization_seconds": 40.91030253097415,
+      "sampled_questions": 6,
+      "output_tokens": 2292,
+      "truncated": 0
+    },
+    {
+      "mode": "off",
+      "model": "Qwen-Qwen3.8-27B",
+      "per_task_mean_seconds": {
+        "ifeval": 17.130770802497864,
+        "mmmu_standard": 12.275033041834831,
+        "mmmu_vision": 10.396872274577618
+      },
+      "full_projected_gpu_hours": 13.469484222651356,
+      "initialization_seconds": 50.79621083289385,
+      "sampled_questions": 6,
+      "output_tokens": 1684,
+      "truncated": 0
+    },
+    {
+      "mode": "off",
+      "model": "Qwen-Qwen3.8-27B-FP8",
+      "per_task_mean_seconds": {
+        "ifeval": 26.118753999471664,
+        "mmmu_standard": 21.886223766952753,
+        "mmmu_vision": 28.600152412429452
+      },
+      "full_projected_gpu_hours": 28.18657686223483,
+      "initialization_seconds": 43.320059202611446,
+      "sampled_questions": 6,
+      "output_tokens": 2081,
+      "truncated": 0
+    },
+    {
+      "mode": "off",
+      "model": "RadixArk-Qwen3.8-27B-NVFP4-BF16-LMHead",
+      "per_task_mean_seconds": {
+        "ifeval": 16.158492537215352,
+        "mmmu_standard": 22.132744858041406,
+        "mmmu_vision": 14.838364657014608
+      },
+      "full_projected_gpu_hours": 20.194934423244558,
+      "initialization_seconds": 44.86714571714401,
+      "sampled_questions": 6,
+      "output_tokens": 1795,
+      "truncated": 0
+    },
+    {
+      "mode": "off",
+      "model": "RedHatAI-Qwen3.8-27B-NVFP4",
+      "per_task_mean_seconds": {
+        "ifeval": 24.194040279835463,
+        "mmmu_standard": 18.284114440903068,
+        "mmmu_vision": 20.332102116197348
+      },
+      "full_projected_gpu_hours": 22.19306400977075,
+      "initialization_seconds": 45.56037301197648,
+      "sampled_questions": 6,
+      "output_tokens": 2092,
+      "truncated": 0
+    },
+    {
+      "mode": "off",
+      "model": "eNeural-Qwen3.8-27B-fast",
+      "per_task_mean_seconds": {
+        "ifeval": 26.057973185554147,
+        "mmmu_standard": 30.87502951733768,
+        "mmmu_vision": 18.686545191332698
+      },
+      "full_projected_gpu_hours": 27.73302437205126,
+      "initialization_seconds": 44.59407376870513,
+      "sampled_questions": 6,
+      "output_tokens": 2468,
+      "truncated": 0
+    },
+    {
+      "mode": "off",
+      "model": "nvidia-Qwen3.8-27B-NVFP4",
+      "per_task_mean_seconds": {
+        "ifeval": 27.28817260079086,
+        "mmmu_standard": 4.186144948005676,
+        "mmmu_vision": 38.22124049626291
+      },
+      "full_projected_gpu_hours": 24.47991060989236,
+      "initialization_seconds": 42.27868262305856,
+      "sampled_questions": 6,
+      "output_tokens": 2294,
+      "truncated": 1
+    },
+    {
+      "mode": "off",
+      "model": "rdtand-Qwen3.8-27B-PrismaAQUA-5.5bit-vllm",
+      "per_task_mean_seconds": {
+        "ifeval": 24.43029012531042,
+        "mmmu_standard": 19.831148758530617,
+        "mmmu_vision": 20.0582611579448
+      },
+      "full_projected_gpu_hours": 22.84040725369317,
+      "initialization_seconds": 49.24442396685481,
+      "sampled_questions": 6,
+      "output_tokens": 2227,
+      "truncated": 0
+    },
+    {
+      "mode": "off",
+      "model": "unsloth-Qwen3.8-27B-NVFP4",
+      "per_task_mean_seconds": {
+        "ifeval": 30.53547585941851,
+        "mmmu_standard": 4.898685745894909,
+        "mmmu_vision": 14.402354711666703
+      },
+      "full_projected_gpu_hours": 13.864025675424168,
+      "initialization_seconds": 42.59985024854541,
+      "sampled_questions": 6,
+      "output_tokens": 1679,
+      "truncated": 0
+    },
+    {
+      "mode": "mtp",
+      "model": "ModelOpt-Qwen3.8-27B-AutoQuantize-5.5bit",
+      "per_task_mean_seconds": {
+        "ifeval": 19.10370964370668,
+        "mmmu_standard": 16.128839319571853,
+        "mmmu_vision": 15.563529159873724
+      },
+      "full_projected_gpu_hours": 18.10080677407949,
+      "initialization_seconds": 41.10288515686989,
+      "sampled_questions": 6,
+      "output_tokens": 3046,
+      "truncated": 1
+    },
+    {
+      "mode": "mtp",
+      "model": "Qwen-Qwen3.8-27B",
+      "per_task_mean_seconds": {
+        "ifeval": 12.613394994288683,
+        "mmmu_standard": 10.410700604319572,
+        "mmmu_vision": 11.20704634860158
+      },
+      "full_projected_gpu_hours": 12.284041366795492,
+      "initialization_seconds": 49.355343244969845,
+      "sampled_questions": 6,
+      "output_tokens": 2422,
+      "truncated": 0
+    },
+    {
+      "mode": "mtp",
+      "model": "Qwen-Qwen3.8-27B-FP8",
+      "per_task_mean_seconds": {
+        "ifeval": 19.090801414102316,
+        "mmmu_standard": 5.261786347255111,
+        "mmmu_vision": 11.186205687001348
+      },
+      "full_projected_gpu_hours": 10.773097162303618,
+      "initialization_seconds": 46.634571954607964,
+      "sampled_questions": 6,
+      "output_tokens": 1645,
+      "truncated": 0
+    },
+    {
+      "mode": "mtp",
+      "model": "RadixArk-Qwen3.8-27B-NVFP4-BF16-LMHead",
+      "per_task_mean_seconds": {
+        "ifeval": 13.506549859419465,
+        "mmmu_standard": 8.573099697008729,
+        "mmmu_vision": 11.397002395242453
+      },
+      "full_projected_gpu_hours": 11.626477803761244,
+      "initialization_seconds": 46.623493142426014,
+      "sampled_questions": 6,
+      "output_tokens": 2015,
+      "truncated": 0
+    },
+    {
+      "mode": "mtp",
+      "model": "RedHatAI-Qwen3.8-27B-NVFP4",
+      "per_task_mean_seconds": {
+        "ifeval": 16.03160348162055,
+        "mmmu_standard": 4.647205060347915,
+        "mmmu_vision": 10.742501966655254
+      },
+      "full_projected_gpu_hours": 9.804802955631168,
+      "initialization_seconds": 44.67260506376624,
+      "sampled_questions": 6,
+      "output_tokens": 1847,
+      "truncated": 0
+    },
+    {
+      "mode": "mtp",
+      "model": "eNeural-Qwen3.8-27B-fast",
+      "per_task_mean_seconds": {
+        "ifeval": 13.09715074300766,
+        "mmmu_standard": 10.25776163674891,
+        "mmmu_vision": 11.188365330919623
+      },
+      "full_projected_gpu_hours": 12.274266168342697,
+      "initialization_seconds": 43.47236527502537,
+      "sampled_questions": 6,
+      "output_tokens": 2041,
+      "truncated": 0
+    },
+    {
+      "mode": "mtp",
+      "model": "nvidia-Qwen3.8-27B-NVFP4",
+      "per_task_mean_seconds": {
+        "ifeval": 10.801733085885644,
+        "mmmu_standard": 8.411174982786179,
+        "mmmu_vision": 17.453780019655824
+      },
+      "full_projected_gpu_hours": 14.052808264913555,
+      "initialization_seconds": 44.17993104830384,
+      "sampled_questions": 6,
+      "output_tokens": 2249,
+      "truncated": 0
+    },
+    {
+      "mode": "mtp",
+      "model": "rdtand-Qwen3.8-27B-PrismaAQUA-5.5bit-vllm",
+      "per_task_mean_seconds": {
+        "ifeval": 14.102802257984877,
+        "mmmu_standard": 5.565555598586798,
+        "mmmu_vision": 9.638240644708276
+      },
+      "full_projected_gpu_hours": 9.425606534019526,
+      "initialization_seconds": 49.97673039883375,
+      "sampled_questions": 6,
+      "output_tokens": 1787,
+      "truncated": 0
+    },
+    {
+      "mode": "mtp",
+      "model": "unsloth-Qwen3.8-27B-NVFP4",
+      "per_task_mean_seconds": {
+        "ifeval": 19.017197091132402,
+        "mmmu_standard": 3.9537540040910244,
+        "mmmu_vision": 7.95191602408886
+      },
+      "full_projected_gpu_hours": 8.579197993070508,
+      "initialization_seconds": 48.32190113887191,
+      "sampled_questions": 6,
+      "output_tokens": 1783,
+      "truncated": 0
+    }
+  ],
+  "planning_budget_five_gpus_both_modes": "3\u20135 days including uncertainty and scoring",
+  "full_benchmark_executed": false,
+  "planning_budget_five_gpus_off": "2\u20133 days"
+}

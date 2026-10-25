@@ -1,0 +1,98 @@
+{
+  "before": [
+    {
+      "pid": 43665,
+      "start_ticks": "2311100288",
+      "exe": "/root/projects/quant/build/terminal_bench/diagnostics/proot_version_ab/downloads/proot",
+      "Name": "proot",
+      "State": "S (sleeping)",
+      "PPid": "51790",
+      "TracerPid": "0"
+    },
+    {
+      "pid": 43669,
+      "start_ticks": "2311100289",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021/trials/ad457d97d9531b7268830a50/trial/proot/prooted-43665-Ngxkog",
+      "Name": "tmux: server",
+      "State": "S (sleeping)",
+      "PPid": "51790",
+      "TracerPid": "43665"
+    },
+    {
+      "pid": 43670,
+      "start_ticks": "2311100290",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021/trials/ad457d97d9531b7268830a50/trial/proot/prooted-43665-Ngxkog",
+      "Name": "bash",
+      "State": "S (sleeping)",
+      "PPid": "43669",
+      "TracerPid": "43665"
+    },
+    {
+      "pid": 43671,
+      "start_ticks": "2311100290",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021/trials/ad457d97d9531b7268830a50/trial/proot/prooted-43665-Ngxkog",
+      "Name": "sh",
+      "State": "S (sleeping)",
+      "PPid": "43669",
+      "TracerPid": "43665"
+    },
+    {
+      "pid": 43673,
+      "start_ticks": "2311100290",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021/trials/ad457d97d9531b7268830a50/trial/proot/prooted-43665-Ngxkog",
+      "Name": "cat",
+      "State": "S (sleeping)",
+      "PPid": "43671",
+      "TracerPid": "43665"
+    },
+    {
+      "pid": 43683,
+      "start_ticks": "2311100297",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021/trials/ad457d97d9531b7268830a50/trial/proot/prooted-43665-Ngxkog",
+      "Name": "asciinema",
+      "State": "S (sleeping)",
+      "PPid": "43670",
+      "TracerPid": "43665"
+    },
+    {
+      "pid": 43685,
+      "start_ticks": "2311100308",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021/trials/ad457d97d9531b7268830a50/trial/proot/prooted-43665-Ngxkog",
+      "Name": "asciinema",
+      "State": "S (sleeping)",
+      "PPid": "43683",
+      "TracerPid": "43665"
+    },
+    {
+      "pid": 43686,
+      "start_ticks": "2311100309",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021/trials/ad457d97d9531b7268830a50/trial/proot/prooted-43665-Ngxkog",
+      "Name": "asciinema",
+      "State": "S (sleeping)",
+      "PPid": "43683",
+      "TracerPid": "43665"
+    },
+    {
+      "pid": 43687,
+      "start_ticks": "2311100309",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021/trials/ad457d97d9531b7268830a50/trial/proot/prooted-43665-Ngxkog",
+      "Name": "sh",
+      "State": "S (sleeping)",
+      "PPid": "43683",
+      "TracerPid": "43665"
+    },
+    {
+      "pid": 43688,
+      "start_ticks": "2311100309",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021/trials/ad457d97d9531b7268830a50/trial/proot/prooted-43665-Ngxkog",
+      "Name": "bash",
+      "State": "S (sleeping)",
+      "PPid": "43687",
+      "TracerPid": "43665"
+    }
+  ],
+  "after": [],
+  "delete_requested": true,
+  "rootfs_retained_for_evidence": true,
+  "child_cpu": 48863.434811
+}

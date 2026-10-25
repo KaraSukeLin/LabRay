@@ -1,0 +1,104 @@
+{
+    "results": {
+        "tool": {
+            "name": "pytest",
+            "version": "8.4.1"
+        },
+        "summary": {
+            "tests": 9,
+            "passed": 8,
+            "failed": 1,
+            "skipped": 0,
+            "pending": 0,
+            "other": 0,
+            "start": 1792709642.020627,
+            "stop": 1792709659.3891878
+        },
+        "tests": [
+            {
+                "name": "test_outputs.py::test_python_file_exists",
+                "status": "passed",
+                "duration": 0.0006468333303928375,
+                "start": 1792709643.8321397,
+                "stop": 1792709643.8330066,
+                "retries": 0,
+                "file_path": "test_outputs.py"
+            },
+            {
+                "name": "test_outputs.py::test_run_script",
+                "status": "passed",
+                "duration": 14.895582232624292,
+                "start": 1792709643.8332539,
+                "stop": 1792709658.7291265,
+                "retries": 0,
+                "file_path": "test_outputs.py"
+            },
+            {
+                "name": "test_outputs.py::test_csv_output_exists",
+                "status": "passed",
+                "duration": 0.0005928315222263336,
+                "start": 1792709658.7294905,
+                "stop": 1792709658.73026,
+                "retries": 0,
+                "file_path": "test_outputs.py"
+            },
+            {
+                "name": "test_outputs.py::test_csv_shape_cols",
+                "status": "passed",
+                "duration": 0.005562972277402878,
+                "start": 1792709658.7304788,
+                "stop": 1792709658.7362554,
+                "retries": 0,
+                "file_path": "test_outputs.py"
+            },
+            {
+                "name": "test_outputs.py::test_masks_are_no_longer_rect",
+                "status": "passed",
+                "duration": 0.007846847176551819,
+                "start": 1792709658.7365334,
+                "stop": 1792709658.7445674,
+                "retries": 0,
+                "file_path": "test_outputs.py"
+            },
+            {
+                "name": "test_outputs.py::test_mask_alignment",
+                "status": "passed",
+                "duration": 0.028127599507570267,
+                "start": 1792709658.7448177,
+                "stop": 1792709658.7731938,
+                "retries": 0,
+                "file_path": "test_outputs.py"
+            },
+            {
+                "name": "test_outputs.py::test_no_polyline_overlaps",
+                "status": "failed",
+                "raw_status": "call_failed",
+                "duration": 0.00835946574807167,
+                "start": 1792709658.7734907,
+                "stop": 1792709659.3673015,
+                "retries": 0,
+                "file_path": "test_outputs.py",
+                "trace": "def test_no_polyline_overlaps():\n        \"\"\"\n        Checks that there are no significant overlaps between any of the predicted masks.\n        \"\"\"\n        df = _read_polylines_csv(\"/app/test_output.csv\")\n        polygons = []\n        for index, row in df.iterrows():\n            points = list(zip(row['coords_x'], row['coords_y']))\n            poly = _as_polygon(points)\n            if poly:\n                polygons.append(poly)\n    \n        # Check for overlaps between all pairs of polygons\n        for poly1, poly2 in itertools.combinations(polygons, 2):\n            if poly1.intersects(poly2):\n                intersection_area = poly1.intersection(poly2).area\n                # Fail if intersection area is more than a tiny fraction of either polygon's\n                # area this avoids failures due to simple touching boundaries\n                assert intersection_area / poly1.area < 1e-3, (\"Polygons \"\n                                                               \"overlap significantly\")\n>               assert intersection_area / poly2.area < 1e-3, (\"Polygons \"\n                                                               \"overlap significantly\")\nE               AssertionError: Polygons overlap significantly\nE               assert (2.098134991119025 / 901.0) < 0.001\nE                +  where 901.0 = <POLYGON ((266 124, 264 145, 269 160, 287 160, 294 147, 294 143, 289 135, 28...>.area\n\n/tests/test_outputs.py:243: AssertionError",
+                "message": "The test failed in the call phase due to an assertion error"
+            },
+            {
+                "name": "test_outputs.py::test_single_contiguous_mask_per_cell",
+                "status": "passed",
+                "duration": 0.017598196864128113,
+                "start": 1792709659.3675575,
+                "stop": 1792709659.385351,
+                "retries": 0,
+                "file_path": "test_outputs.py"
+            },
+            {
+                "name": "test_outputs.py::test_coords_are_flat_lists",
+                "status": "passed",
+                "duration": 0.0032019205391407013,
+                "start": 1792709659.3855965,
+                "stop": 1792709659.38896,
+                "retries": 0,
+                "file_path": "test_outputs.py"
+            }
+        ]
+    }
+}

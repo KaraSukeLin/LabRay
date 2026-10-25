@@ -1,0 +1,7 @@
+{
+  "optimizer_steps": 512,
+  "forward_tokens": 1084553,
+  "token_count_source": "native tokens_per_s × sec_per_step × steps in each log window; rounded to integer",
+  "peak_device_bytes": 19010419200,
+  "loss_and_dev_metrics": "native/log.jsonl"
+}

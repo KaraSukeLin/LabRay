@@ -1,0 +1,15 @@
+Traceback (most recent call last):
+  File "/root/projects/decision/experiments/orsharc/run.py", line 11, in <module>
+    main()
+  File "/root/projects/decision/experiments/orsharc/src/b_orsharc/cli.py", line 105, in main
+    result = (measure if args.command == "phase3-measure" else metadata_audit)(args.prepared, args.out)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/projects/decision/experiments/orsharc/src/b_orsharc/phase3.py", line 85, in measure
+    n = len(bundle.encode(common.render_example(native, bundle.template_for(native), 0, seed=None).prompt))
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/projects/decision/experiments/orsharc/artifacts/upstream/onejev/train/common.py", line 197, in render_example
+    target=target_vector(row["target"], rendered.labels),
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/projects/decision/experiments/orsharc/artifacts/upstream/onejev/train/common.py", line 59, in target_vector
+    raise ValueError(f"target {target} has no mass on the rendered labels {list(labels)}")
+ValueError: target {} has no mass on the rendered labels ['Yes', 'No', 'Inquire']

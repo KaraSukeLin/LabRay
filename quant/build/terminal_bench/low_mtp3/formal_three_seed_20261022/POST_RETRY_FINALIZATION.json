@@ -1,0 +1,50 @@
+{
+  "state": "COMPLETE",
+  "updated_at": 1792715366.8142114,
+  "analysis": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_three_seed_20261022/analysis",
+  "observed_slots": 801,
+  "all_matrix_slots_terminal": true,
+  "agentic_fidelity": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_three_seed_20261022/agentic_fidelity",
+  "fidelity_result_count": 15,
+  "final_state": {
+    "state": "MATRIX_AND_FIDELITY_COMPLETE",
+    "objective": "Complete the Terminal-Bench 2.1 LabRay three-model capability-retention experiment",
+    "planned_slots": 801,
+    "matrix_slots": 801,
+    "seeds": [
+      20261020,
+      20261021,
+      20261022
+    ],
+    "seed_run_directories": {
+      "20261020": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021",
+      "20261021": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021_seed_20261021",
+      "20261022": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021_seed_20261022"
+    },
+    "completed_slots": 801,
+    "environment_complete": 89,
+    "environment_validation_complete": true,
+    "environment_status_counts": {
+      "CONTROLS_PASS": 60,
+      "ORACLE_CONTROL_FAIL": 28,
+      "SCORING_GATE_FAIL": 1
+    },
+    "slot_status_counts": {
+      "TIMEOUT": 182,
+      "ORACLE_CONTROL_FAIL": 252,
+      "MODEL_FAIL": 74,
+      "PASS": 277,
+      "VERIFIER_FAIL": 5,
+      "ENVIRONMENT_FAIL": 2,
+      "SCORING_GATE_FAIL": 9
+    },
+    "all_matrix_slots_terminal": true,
+    "all_evaluable_slots_attempted": true,
+    "trial_attempts": 554,
+    "paired_task_count": 53,
+    "formal_run_directory": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_three_seed_20261022",
+    "final_analysis": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_three_seed_20261022/analysis",
+    "agentic_fidelity": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_three_seed_20261022/agentic_fidelity",
+    "updated_at": 1792715366.8024294
+  }
+}

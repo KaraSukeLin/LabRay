@@ -1,0 +1,10 @@
+{
+    "task": {
+        "path": "/root/projects/quant/build/terminal_bench/sources/terminal-bench-2-1/tasks/bn-fit-modify"
+    },
+    "trial_name": "trial",
+    "trials_dir": "/root/projects/quant/build/terminal_bench/low_mtp3/controls/bn-fit-modify/oracle/attempt-0",
+    "environment": {
+        "import_path": "terminal_proot:PRootEnvironment"
+    }
+}

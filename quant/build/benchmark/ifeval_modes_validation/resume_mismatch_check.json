@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "changed_seeds_rejected": true,
+  "manifest_unchanged": true,
+  "inference_started": false,
+  "command": [
+    ".modelopt-venv/bin/python",
+    "src/ifeval_modes.py",
+    "plan",
+    "--question-ids",
+    "ifeval/1508",
+    "ifeval/3753",
+    "--seeds",
+    "20261016",
+    "--output",
+    "build/benchmark/ifeval_modes_smoke_v1",
+    "--resume"
+  ]
+}

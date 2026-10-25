@@ -1,0 +1,61 @@
+{
+  "model": "Qwen-Qwen3.8-27B-FP8",
+  "model_path": "/root/model/Qwen-Qwen3.8-27B-FP8",
+  "status": "ok",
+  "environment": {
+    "vllm": "0.31.0+cu129",
+    "torch": "2.13.0+cu129",
+    "transformers": "5.17.0",
+    "compressed-tensors": "0.17.0"
+  },
+  "gpu": "NVIDIA H100 80GB HBM3",
+  "cuda": "12.9",
+  "mtp": false,
+  "kv_cache_dtype": "bfloat16",
+  "quant_method": "fp8",
+  "loaded": true,
+  "tokens": 432,
+  "ppl": 12.96038273480118,
+  "reference_ppl": 12.943072381460716,
+  "ppl_delta": 0.0173103533404646,
+  "kl_bf16_to_candidate": 0.003925763022808419,
+  "top1_flip_rate": 0.06481481481481481,
+  "vocab_size": 248320,
+  "distribution_sha256": [
+    "aec1b0da722fcd9dd0535af81d35a9788737f473b4f7049b75b0b99cbc835ce7",
+    "d8f98ea34329adc0a5a8ac5578631e7eba02d0ff51e9016c1f10eafd7e4acfa7",
+    "5d2985ed5fc659af88416fd37794c876e86ab7cf739ad550cd1ac9d59c1f2741",
+    "726fc0467d452578e6ba4f67268c6fea2891a1046b741d2ed4dbb32065d166f6",
+    "24f18462242d2523afb833db0abf1211f52d7e1e177b9b0cc4a9fd47ff39ef34",
+    "28a33cd388fb142e6342537139ee1f6ab5ddbe071c73a3a4b6faae3c62e71920",
+    "afddfb8c43b956123df6fee3fbfa2119cd97d824750cc1270b0f7f8f36c53c9f",
+    "2afa42d107213aab5a1eef46f6ba2b3e6392fc9a05660872b174e5a847c0efd6"
+  ],
+  "basic_inference_token_ids": [
+    [
+      3113
+    ],
+    [
+      271
+    ],
+    [
+      314
+    ],
+    [
+      561
+    ],
+    [
+      271
+    ],
+    [
+      271
+    ],
+    [
+      271
+    ],
+    [
+      271
+    ]
+  ],
+  "elapsed_seconds": 65.76546025276184
+}

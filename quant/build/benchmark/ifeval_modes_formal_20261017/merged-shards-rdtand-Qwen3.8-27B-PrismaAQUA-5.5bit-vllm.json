@@ -1,0 +1,10 @@
+{
+  "model": "rdtand-Qwen3.8-27B-PrismaAQUA-5.5bit-vllm",
+  "merged": 282,
+  "files": [
+    "build/benchmark/ifeval_modes_formal_20261017/rdtand-Qwen3.8-27B-PrismaAQUA-5.5bit-vllm/questions.shard-0-of-2.jsonl",
+    "build/benchmark/ifeval_modes_formal_20261017/rdtand-Qwen3.8-27B-PrismaAQUA-5.5bit-vllm/questions.shard-1-of-2.jsonl"
+  ],
+  "archived_to": "build/benchmark/ifeval_modes_formal_20261017/rdtand-Qwen3.8-27B-PrismaAQUA-5.5bit-vllm/merged-shards",
+  "completed_records": 3246
+}

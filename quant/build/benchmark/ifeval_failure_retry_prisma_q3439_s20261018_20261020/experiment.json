@@ -1,0 +1,157 @@
+{
+  "schema": 1,
+  "config": {
+    "models": [
+      "Qwen-Qwen3.8-27B",
+      "eNeural-Qwen3.8-27B-fast",
+      "rdtand-Qwen3.8-27B-PrismaAQUA-5.5bit-vllm",
+      "ModelOpt-Qwen3.8-27B-AutoQuantize-5.5bit",
+      "unsloth-Qwen3.8-27B-NVFP4"
+    ],
+    "baseline": "Qwen-Qwen3.8-27B",
+    "seeds": [
+      20261016,
+      20261017,
+      20261018
+    ],
+    "modes": {
+      "off": {
+        "enable_thinking": false,
+        "temperature": 0.7,
+        "top_p": 0.8,
+        "top_k": 20,
+        "min_p": 0.0,
+        "presence_penalty": 1.5,
+        "repetition_penalty": 1.0,
+        "max_tokens": 16384,
+        "max_tokens_history": [
+          4096,
+          8192,
+          16384
+        ]
+      },
+      "on": {
+        "enable_thinking": true,
+        "reasoning_effort": "xhigh",
+        "temperature": 1.0,
+        "top_p": 0.95,
+        "top_k": 20,
+        "min_p": 0.0,
+        "presence_penalty": 0.0,
+        "repetition_penalty": 1.0,
+        "max_tokens": 100000,
+        "max_tokens_history": [
+          20480,
+          32768,
+          49152,
+          65000,
+          100000
+        ]
+      }
+    },
+    "max_model_len": 131072,
+    "max_images": 35,
+    "min_pixels": 65536,
+    "max_pixels": 16777216,
+    "mtp": false,
+    "kv_cache_dtype": "bfloat16",
+    "google_ifeval_revision": "3ef52111c1fabc301880818f5a547570e926a76b",
+    "bootstrap_seed": 20261016,
+    "bootstrap_resamples": 199999,
+    "comparison_family": 91
+  },
+  "config_sha256": "a94e1f1a564669063e24b3dc015cf0a2d7f5b095a05c9f5572f008c097e7a203",
+  "models": [
+    "rdtand-Qwen3.8-27B-PrismaAQUA-5.5bit-vllm"
+  ],
+  "modes": [
+    "on"
+  ],
+  "seeds": [
+    20261018
+  ],
+  "question_ids": [
+    "ifeval/3439"
+  ],
+  "questions": [
+    {
+      "id": "ifeval/3439",
+      "task": "ifeval",
+      "stratum": "ifeval",
+      "prompt": "Write an HTML page that lists 25 limericks about people named \"Bill\". The page should include keywords 'economist', 'bill', and 'jurgen'",
+      "images": [],
+      "example": {
+        "key": 3439,
+        "prompt": "Write an HTML page that lists 25 limericks about people named \"Bill\". The page should include keywords 'economist', 'bill', and 'jurgen'",
+        "instruction_id_list": [
+          "keywords:existence"
+        ],
+        "kwargs": [
+          {
+            "keywords": [
+              "bill",
+              "economist",
+              "jurgen"
+            ]
+          }
+        ]
+      },
+      "image_sha256": []
+    }
+  ],
+  "full_541": false,
+  "planned_evaluations": 1,
+  "dataset_sha256": "08dfe18786d774b22660c99685e286e9cd9bddfd4d2e72f3f5733d28eac03709",
+  "model_versions": {
+    "rdtand-Qwen3.8-27B-PrismaAQUA-5.5bit-vllm": {
+      "revision": "6dc090346f4f32acc320e48d9c413ea96a98d4c6",
+      "config_sha256": "a1929e346e22317692ef2036672d80b2224484787d0b6d5df934a8d1e843c00a",
+      "weights": [
+        {
+          "file": "model-00001-of-00005.safetensors",
+          "bytes": 5353604152,
+          "mtime_ns": 1792181804931028036
+        },
+        {
+          "file": "model-00002-of-00005.safetensors",
+          "bytes": 5368283984,
+          "mtime_ns": 1792181806758982766
+        },
+        {
+          "file": "model-00003-of-00005.safetensors",
+          "bytes": 5342656360,
+          "mtime_ns": 1792181808542938585
+        },
+        {
+          "file": "model-00004-of-00005.safetensors",
+          "bytes": 5306360552,
+          "mtime_ns": 1792181802855079448
+        },
+        {
+          "file": "model-00005-of-00005.safetensors",
+          "bytes": 2232612720,
+          "mtime_ns": 1792181634831206125
+        }
+      ]
+    }
+  },
+  "files_sha256": {
+    "/root/model/Qwen-Qwen3.8-27B/tokenizer.json": "0997f410c57a1f4e53b09e4be8f4a172d90edd9564368fb0847030937229b9f3",
+    "/root/model/Qwen-Qwen3.8-27B/tokenizer_config.json": "b11349aafa7cdc6a320767cf7ceb29ed82f7eda5d65e8e0819e76f0ce947bf27",
+    "/root/model/Qwen-Qwen3.8-27B/chat_template.jinja": "c3cf9e34abf4f9e36c2d72165aa9c132d3e2a725b6c2586aaa3a8af9d7a81041",
+    "/root/projects/quant/src/ifeval_modes.py": "82786c95dd5376fc244685d372bde810c5ba04a5a8babb798528e3ef20267d80",
+    "/root/projects/quant/src/benchmark.py": "15b51e085d8f6793236db0ee6faaf5a210e21bbc5f8db5baf594858e9c183fa0",
+    "/root/projects/quant/build/autoquant/tools/google-research/instruction_following_eval/evaluation_lib.py": "35decc06000718487f44d7deafa6d3f48a8ec0886281edf40162c0265b7d248c",
+    "/root/projects/quant/build/autoquant/tools/google-research/instruction_following_eval/instructions.py": "60e086f5342a03ce8e18b64bbcccf86308f523c08aa826707a562150a52f3edf",
+    "/root/projects/quant/build/autoquant/tools/google-research/instruction_following_eval/instructions_registry.py": "ec92d72c264f6d906978613085db262356174300370a3fffe6fefd5969ce9cfc",
+    "/root/projects/quant/build/autoquant/tools/google-research/instruction_following_eval/instructions_util.py": "a73797261eee5bf447e279d82a2b700b1bdd3cb1193412dbab1270a85832bc6b"
+  },
+  "environment": {
+    "vllm": "0.31.0+cu129",
+    "torch": "2.13.0+cu129",
+    "transformers": "5.17.0",
+    "scipy": "1.18.0",
+    "numpy": "2.3.5",
+    "langdetect": "1.0.9"
+  }
+}

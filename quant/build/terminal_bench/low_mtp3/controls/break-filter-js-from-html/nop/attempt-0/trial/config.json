@@ -1,0 +1,13 @@
+{
+    "task": {
+        "path": "/root/projects/quant/build/terminal_bench/sources/terminal-bench-2-1/tasks/break-filter-js-from-html"
+    },
+    "trial_name": "trial",
+    "trials_dir": "/root/projects/quant/build/terminal_bench/low_mtp3/controls/break-filter-js-from-html/nop/attempt-0",
+    "agent": {
+        "name": "nop"
+    },
+    "environment": {
+        "import_path": "terminal_proot:PRootEnvironment"
+    }
+}

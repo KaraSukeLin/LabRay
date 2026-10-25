@@ -1,0 +1,15 @@
+{
+  "condition": "4d6e9643f0ab3a663a8be3d11616f81be7ecf732c2cbe11e8641380c3c07d47d",
+  "temperature": 1.2594540557848224,
+  "threshold": 0.5,
+  "selection_run": "4a6d26e8340da0b147232e37e0ab7e413200b2ed710fb150ea6e08dd6c032ed1",
+  "calibration_run": "854e2e5feca3ed6c6950b93987a7a18a566e33d8b8681188ed58fbb31bbc8d9f",
+  "data_manifest": "7da4b11e2bc3952109ea23f3c0f65bdbcbf6ea7ce1f1a52a2d3e5f4d84f78967",
+  "selection_predictions_sha256": "f6dc2db17799270f325d94f395b18fa97e52b5179bd8768167353d7f7ba230d3",
+  "calibration_predictions_sha256": "2bd4fd7da4e9b470059cd708fbdf912242c034012c315bb0d997114cc2812b09",
+  "threshold_sweep_dev_select": [],
+  "temperature_fit": "bounded NLL minimization, T in [0.05,20], dev_calibrate only",
+  "probability_stage": "after deterministic task projection/aggregation; binary Score uses expected level / 4",
+  "prediction_policy": "frozen raw threshold/routing labels retained after temperature scaling",
+  "temperature_at_bound": false
+}

@@ -1,0 +1,134 @@
+{
+  "before": [
+    {
+      "pid": 27957,
+      "start_ticks": "2308589664",
+      "exe": "/root/projects/quant/build/terminal_bench/diagnostics/proot_version_ab/downloads/proot",
+      "Name": "proot",
+      "State": "S (sleeping)",
+      "PPid": "51794",
+      "TracerPid": "0"
+    },
+    {
+      "pid": 28019,
+      "start_ticks": "2308589788",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/controls/mailman/oracle/attempt-0/trial/proot/prooted-27957-YcweMR",
+      "Name": "python3",
+      "State": "S (sleeping)",
+      "PPid": "51794",
+      "TracerPid": "27957"
+    },
+    {
+      "pid": 28038,
+      "start_ticks": "2308589884",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/controls/mailman/oracle/attempt-0/trial/proot/prooted-27957-YcweMR",
+      "Name": "python3",
+      "State": "S (sleeping)",
+      "PPid": "28019",
+      "TracerPid": "27957"
+    },
+    {
+      "pid": 28039,
+      "start_ticks": "2308589884",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/controls/mailman/oracle/attempt-0/trial/proot/prooted-27957-YcweMR",
+      "Name": "python3",
+      "State": "S (sleeping)",
+      "PPid": "28019",
+      "TracerPid": "27957"
+    },
+    {
+      "pid": 28040,
+      "start_ticks": "2308589884",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/controls/mailman/oracle/attempt-0/trial/proot/prooted-27957-YcweMR",
+      "Name": "python3",
+      "State": "S (sleeping)",
+      "PPid": "28019",
+      "TracerPid": "27957"
+    },
+    {
+      "pid": 28041,
+      "start_ticks": "2308589885",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/controls/mailman/oracle/attempt-0/trial/proot/prooted-27957-YcweMR",
+      "Name": "python3",
+      "State": "S (sleeping)",
+      "PPid": "28019",
+      "TracerPid": "27957"
+    },
+    {
+      "pid": 28042,
+      "start_ticks": "2308589885",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/controls/mailman/oracle/attempt-0/trial/proot/prooted-27957-YcweMR",
+      "Name": "python3",
+      "State": "S (sleeping)",
+      "PPid": "28019",
+      "TracerPid": "27957"
+    },
+    {
+      "pid": 28043,
+      "start_ticks": "2308589885",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/controls/mailman/oracle/attempt-0/trial/proot/prooted-27957-YcweMR",
+      "Name": "python3",
+      "State": "S (sleeping)",
+      "PPid": "28019",
+      "TracerPid": "27957"
+    },
+    {
+      "pid": 28044,
+      "start_ticks": "2308589885",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/controls/mailman/oracle/attempt-0/trial/proot/prooted-27957-YcweMR",
+      "Name": "python3",
+      "State": "S (sleeping)",
+      "PPid": "28019",
+      "TracerPid": "27957"
+    },
+    {
+      "pid": 28045,
+      "start_ticks": "2308589885",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/controls/mailman/oracle/attempt-0/trial/proot/prooted-27957-YcweMR",
+      "Name": "python3",
+      "State": "S (sleeping)",
+      "PPid": "28019",
+      "TracerPid": "27957"
+    },
+    {
+      "pid": 28047,
+      "start_ticks": "2308589886",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/controls/mailman/oracle/attempt-0/trial/proot/prooted-27957-YcweMR",
+      "Name": "python3",
+      "State": "S (sleeping)",
+      "PPid": "28019",
+      "TracerPid": "27957"
+    },
+    {
+      "pid": 28048,
+      "start_ticks": "2308589886",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/controls/mailman/oracle/attempt-0/trial/proot/prooted-27957-YcweMR",
+      "Name": "python3",
+      "State": "S (sleeping)",
+      "PPid": "28019",
+      "TracerPid": "27957"
+    },
+    {
+      "pid": 28049,
+      "start_ticks": "2308589887",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/controls/mailman/oracle/attempt-0/trial/proot/prooted-27957-YcweMR",
+      "Name": "python3",
+      "State": "S (sleeping)",
+      "PPid": "28019",
+      "TracerPid": "27957"
+    },
+    {
+      "pid": 28050,
+      "start_ticks": "2308589894",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/controls/mailman/oracle/attempt-0/trial/proot/prooted-27957-YcweMR",
+      "Name": "python3",
+      "State": "S (sleeping)",
+      "PPid": "28019",
+      "TracerPid": "27957"
+    }
+  ],
+  "after": [],
+  "delete_requested": true,
+  "rootfs_retained_for_evidence": true,
+  "child_cpu": 193.563538
+}

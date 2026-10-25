@@ -1,0 +1,6 @@
+{
+  "attention": "noncausal",
+  "readout": "slot_lm",
+  "head_dim": 256,
+  "n_slots": 256
+}

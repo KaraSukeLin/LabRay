@@ -1,0 +1,20 @@
+| profile | model | cases | optimistic_gpu_hours | typical_gpu_hours | conservative_gpu_hours |
+|---|---|---|---|---|---|
+| mmmu_1024 | Qwen-Qwen3.8-27B | 4001 | 31.388167 | 33.196733 | 43.759487 |
+| mmmu_1024 | Qwen-Qwen3.8-27B-FP8 | 4001 | 43.194852 | 45.726182 | 60.344518 |
+| mmmu_1024 | eNeural-Qwen3.8-27B-fast | 4001 | 41.220832 | 43.17396 | 56.433318 |
+| mmmu_1024 | nvidia-Qwen3.8-27B-NVFP4 | 4001 | 36.825441 | 39.04766 | 51.530345 |
+| mmmu_1024 | RedHatAI-Qwen3.8-27B-NVFP4 | 4001 | 41.522669 | 43.584969 | 57.036357 |
+| mmmu_1024 | unsloth-Qwen3.8-27B-NVFP4 | 4001 | 37.561329 | 39.708603 | 52.300305 |
+| mmmu_1024 | RadixArk-Qwen3.8-27B-NVFP4-BF16-LMHead | 4001 | 38.982272 | 40.862135 | 53.429712 |
+| mmmu_1024 | rdtand-Qwen3.8-27B-PrismaAQUA-5.5bit-vllm | 4001 | 35.749048 | 37.870136 | 49.947308 |
+| mmmu_1024 | ModelOpt-Qwen3.8-27B-AutoQuantize-5.5bit | 4001 | 38.915952 | 40.933911 | 53.682415 |
+| mmmu_4096 | Qwen-Qwen3.8-27B | 4001 | 61.524733 | 68.770793 | 94.903832 |
+| mmmu_4096 | Qwen-Qwen3.8-27B-FP8 | 4001 | 86.285244 | 96.496971 | 133.13532 |
+| mmmu_4096 | eNeural-Qwen3.8-27B-fast | 4001 | 79.35717 | 86.469467 | 116.97115 |
+| mmmu_4096 | nvidia-Qwen3.8-27B-NVFP4 | 4001 | 75.86102 | 84.215999 | 115.50593 |
+| mmmu_4096 | RedHatAI-Qwen3.8-27B-NVFP4 | 4001 | 83.533069 | 92.749183 | 127.43355 |
+| mmmu_4096 | unsloth-Qwen3.8-27B-NVFP4 | 4001 | 71.885931 | 80.110467 | 110.23623 |
+| mmmu_4096 | RadixArk-Qwen3.8-27B-NVFP4-BF16-LMHead | 4001 | 80.550405 | 88.244844 | 119.87886 |
+| mmmu_4096 | rdtand-Qwen3.8-27B-PrismaAQUA-5.5bit-vllm | 4001 | 73.595286 | 81.166502 | 110.89589 |
+| mmmu_4096 | ModelOpt-Qwen3.8-27B-AutoQuantize-5.5bit | 4001 | 77.592657 | 85.746626 | 117.30006 |

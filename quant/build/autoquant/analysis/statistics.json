@@ -1,0 +1,32 @@
+{
+  "method": "SciPy stratified paired document-cluster percentile bootstrap",
+  "resamples": 19999,
+  "seed": 20261016,
+  "scipy": "1.18.0",
+  "confidence": 0.95,
+  "strata": "domain × initial context",
+  "cluster": "one complete source-document window",
+  "pair_family": "6 peers × 3 primary metrics (delta NLL, KL difference, flip difference)",
+  "family_size": 18,
+  "peers": [
+    "RadixArk-Qwen3.8-27B-NVFP4-BF16-LMHead",
+    "nvidia-Qwen3.8-27B-NVFP4",
+    "RedHatAI-Qwen3.8-27B-NVFP4",
+    "unsloth-Qwen3.8-27B-NVFP4",
+    "rdtand-Qwen3.8-27B-PrismaAQUA-5.5bit-vllm",
+    "ModelOpt-Qwen3.8-27B-AutoQuantize-5.5bit"
+  ],
+  "primary_pair_metrics": [
+    "delta_nll",
+    "kl_difference",
+    "flip_difference"
+  ],
+  "derived_pair_summaries": [
+    "ppl_ratio",
+    "ppl_difference; do not use for additional significance claims"
+  ],
+  "family_interval": 0.9972222222222222,
+  "grouped_intervals": "exploratory, no multiplicity correction",
+  "source_sha256": "8e890ea5947d89e423e051e848f3354233bfda78ff2cd00d2cb48ba9d163674b",
+  "input_sha256": "86d97f9289eb2a60970196f3e76fc4dc1ffb8e6ef44c5f3a9dce14218476cfac"
+}

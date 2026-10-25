@@ -1,0 +1,91 @@
+{
+  "phase": 1,
+  "gpu_work_performed": false,
+  "data_revision": "309c4ea3a7cc4c7a815d7f46292d91fc9a0de581",
+  "raw_sha256": {
+    "id2snippet.json": "859a6c9fca2b153ff72b834b9fcef520117b09088d4da9a66f6b1db48b8f7124",
+    "open_retrieval_sharc_train.json": "46ac9920a27fa0bedca59b0cb25a791aee2dee85508b6f518384342e4a1bbe51",
+    "open_retrieval_sharc_dev.json": "f58623a43829eb369a4bce1886f5b33790b939f404b27fdeb89fbce7d64061fd",
+    "open_retrieval_sharc_test.json": "a2ecee7f1cb014f28c862fa44df813501fb2f31a3c1ed64279efcf9e21ef4ce3"
+  },
+  "partition_counts": {
+    "train": 17936,
+    "dev": 1105,
+    "dev_select": 456,
+    "dev_calibrate": 649,
+    "test": 2373,
+    "train_256": 256,
+    "train_1024": 1024,
+    "train_4096": 4096,
+    "demos_4": 4
+  },
+  "official_counts": {
+    "train": 17936,
+    "dev": 1105,
+    "test": 2373
+  },
+  "splits": {
+    "train": {
+      "n": 17936,
+      "labels": {
+        "Yes": 6028,
+        "No": 6016,
+        "Inquire": 5892
+      },
+      "rule_splits": {
+        "Seen": 17936
+      },
+      "tree_count": 594
+    },
+    "dev": {
+      "n": 1105,
+      "labels": {
+        "No": 366,
+        "Yes": 426,
+        "Inquire": 313
+      },
+      "rule_splits": {
+        "Seen": 500,
+        "Unseen": 605
+      },
+      "tree_count": 273
+    },
+    "test": {
+      "n": 2373,
+      "labels": {
+        "No": 835,
+        "Inquire": 701,
+        "Yes": 837
+      },
+      "rule_splits": {
+        "Seen": 1000,
+        "Unseen": 1373
+      },
+      "tree_count": 428
+    }
+  },
+  "followups_without_question_mark": {
+    "train": 208,
+    "dev": 4,
+    "test": 14
+  },
+  "overlap": {
+    "train/dev": {
+      "rules": 257,
+      "trees": 257
+    },
+    "train/test": {
+      "rules": 373,
+      "trees": 377
+    },
+    "dev/test": {
+      "rules": 197,
+      "trees": 195
+    }
+  },
+  "notes": [
+    "Official overlap is retained; Seen means present in full official train, not in the sampled subset.",
+    "Original answer strings remain sealed. Every non-Yes/No answer maps to Inquire, matching the official evaluator.",
+    "No original evidence field is copied into inference inputs."
+  ]
+}

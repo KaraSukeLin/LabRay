@@ -1,0 +1,30 @@
+{
+  "status": "ok",
+  "model": "Qwen-Qwen3.8-27B",
+  "start_utc": "2026-10-17T15:52:05.640125+00:00",
+  "gpu_count": 1,
+  "cuda_visible_devices": "0",
+  "initialization_seconds": 51.76082430034876,
+  "inference_seconds": 131.4819786772132,
+  "scoring_seconds": 2.6482771821320057,
+  "preprocessing_seconds": 0.024189338088035583,
+  "shutdown_seconds": 2.1925383992493153,
+  "new_records": 11,
+  "completed_before": 1,
+  "pending_before": 11,
+  "setup_seconds": 7.310349080711603,
+  "engine": {
+    "mtp": false,
+    "kv_cache_dtype": "bfloat16",
+    "tensor_parallel_size": 1,
+    "max_num_seqs": 1,
+    "max_model_len": 65536,
+    "enforce_eager": true,
+    "enable_prefix_caching": false,
+    "max_num_batched_tokens": 4096
+  },
+  "wall_seconds": 195.42515913769603,
+  "end_utc": "2026-10-17T15:55:13.754951+00:00",
+  "reused_from": "build/benchmark/ifeval_modes_smoke_v1/Qwen-Qwen3.8-27B/attempts/1792252325640117070.json",
+  "reuse_verified_utc": "2026-10-17T16:42:33.850162+00:00"
+}

@@ -1,0 +1,59 @@
+[
+  {
+    "run": "Qwen-Qwen3.8-27B-FP8",
+    "kernels": [],
+    "mtp_none": true,
+    "kv_bfloat16": true,
+    "v2": true
+  },
+  {
+    "run": "RadixArk-Qwen3.8-27B-NVFP4",
+    "kernels": [
+      "MarlinNvFp4LinearKernel"
+    ],
+    "mtp_none": true,
+    "kv_bfloat16": true,
+    "v2": true
+  },
+  {
+    "run": "RadixArk-Qwen3.8-27B-NVFP4-BF16-LMHead",
+    "kernels": [
+      "MarlinNvFp4LinearKernel"
+    ],
+    "mtp_none": true,
+    "kv_bfloat16": true,
+    "v2": true
+  },
+  {
+    "run": "RedHatAI-Qwen3.8-27B-NVFP4",
+    "kernels": [
+      "MarlinNvFp4LinearKernel"
+    ],
+    "mtp_none": true,
+    "kv_bfloat16": true,
+    "v2": true
+  },
+  {
+    "run": "bf16_reference",
+    "kernels": [],
+    "mtp_none": true,
+    "kv_bfloat16": true,
+    "v2": true
+  },
+  {
+    "run": "bf16_repeat",
+    "kernels": [],
+    "mtp_none": true,
+    "kv_bfloat16": true,
+    "v2": true
+  },
+  {
+    "run": "eNeural-Qwen3.8-27B-fast",
+    "kernels": [
+      "MarlinNvFp4LinearKernel"
+    ],
+    "mtp_none": true,
+    "kv_bfloat16": true,
+    "v2": true
+  }
+]

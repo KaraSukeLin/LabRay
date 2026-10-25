@@ -1,0 +1,10 @@
+{
+    "task": {
+        "path": "/root/projects/quant/build/terminal_bench/sources/terminal-bench-2-1/tasks/headless-terminal"
+    },
+    "trial_name": "trial",
+    "trials_dir": "/root/projects/quant/build/terminal_bench/low_mtp3/controls/headless-terminal/oracle/attempt-1",
+    "environment": {
+        "import_path": "terminal_proot:PRootEnvironment"
+    }
+}

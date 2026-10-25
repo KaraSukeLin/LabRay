@@ -1,0 +1,21 @@
+{
+  "method": "Union of model-service [started_at, stopped_at] intervals per GPU; global earliest start to latest stop; all seeds and retries included; not GPU compute utilization.",
+  "start_utc": "2026-10-21T18:03:06.537031+00:00",
+  "end_utc": "2026-10-22T23:50:59.230164+00:00",
+  "wall_hours": 29.797970314820606,
+  "service_gpu_hours": 144.57953396717707,
+  "capacity_gpu_hours": 148.98985157410303,
+  "service_residency_fraction": 0.9703985368108619,
+  "idle_capacity_gpu_hours": 4.410317606925965,
+  "model_loads": 192,
+  "overlaps": [],
+  "stored_gpu_hours_sum": 144.57953396717707,
+  "startup_seconds_sum": 8767.840650320053,
+  "startup_seconds_median": 47.01357138156891,
+  "startup_seconds_min": 39.01105332374573,
+  "startup_seconds_max": 54.02297353744507,
+  "original_aggregate_allocated_fraction": 0.9709544473592178,
+  "original_sum_monitor_wall_hours": 29.780909776025347,
+  "completed_evaluable_slots_per_wall_hour": 18.12203966561509,
+  "scored_slots_per_wall_hour": 17.887124336616377
+}

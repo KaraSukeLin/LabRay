@@ -1,0 +1,20 @@
+Traceback (most recent call last):
+  File "/root/projects/quant/build/terminal_bench/sources/harbor/src/harbor/trial/trial.py", line 502, in run
+    await self._run()
+  File "/root/projects/quant/build/terminal_bench/sources/harbor/src/harbor/trial/single_step.py", line 51, in _run
+    await self._run_verifier()
+  File "/root/projects/quant/build/terminal_bench/sources/harbor/src/harbor/trial/single_step.py", line 105, in _run_verifier
+    self.result.verifier_result = await self._run_shared_verifier(
+                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/projects/quant/build/terminal_bench/sources/harbor/src/harbor/trial/trial.py", line 898, in _run_shared_verifier
+    return await self._verify_with_timeout(verifier, timeout_sec)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/projects/quant/build/terminal_bench/sources/harbor/src/harbor/trial/trial.py", line 861, in _verify_with_timeout
+    return await asyncio.wait_for(verifier.verify(), timeout=timeout_sec)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/uv/python/cpython-3.12.14-linux-x86_64-gnu/lib/python3.12/asyncio/tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "/root/projects/quant/build/terminal_bench/sources/harbor/src/harbor/verifier/verifier.py", line 300, in verify
+    raise RewardFileNotFoundError(
+harbor.verifier.verifier.RewardFileNotFoundError: No reward file found at /root/projects/quant/build/terminal_bench/low_mtp3/controls/qemu-startup/oracle/attempt-0/trial/verifier/reward.txt or /root/projects/quant/build/terminal_bench/low_mtp3/controls/qemu-startup/oracle/attempt-0/trial/verifier/reward.json

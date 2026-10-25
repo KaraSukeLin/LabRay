@@ -1,0 +1,127 @@
+{
+  "created_utc": "2026-10-23T12:46:14.451928+00:00",
+  "n_unique_cases": 24,
+  "successful_cases": 24,
+  "correct": 18,
+  "accuracy": 0.75,
+  "prediction_counts": {
+    "No": 7,
+    "Inquire": 10,
+    "Yes": 7
+  },
+  "gold_counts": {
+    "Inquire": 8,
+    "No": 8,
+    "Yes": 8
+  },
+  "client_latency_seconds": {
+    "p50": 0.22389545291662216,
+    "p95": 0.2644298020750284,
+    "mean": 0.21836398852368197,
+    "sum": 5.240735724568367,
+    "sequential_requests_per_second": 4.579509683628756
+  },
+  "type_probe_status": 200,
+  "type_probe_seconds": 0.40986448153853416,
+  "type_probe_answers": {
+    "choice_probe": {
+      "type": "choice",
+      "choice": "No",
+      "confidence": 0.8869380615107361,
+      "probabilities": {
+        "Yes": 0.009384359997490752,
+        "No": 0.9246253743404907,
+        "Inquire": 0.0659902656620184
+      },
+      "details": {
+        "first_pass": {
+          "probabilities": {
+            "Yes": 0.009384359997490752,
+            "No": 0.9246253743404907,
+            "Inquire": 0.0659902656620184
+          },
+          "top": 0.9246253743404907,
+          "ms": 240.247
+        },
+        "thought": {
+          "used": false,
+          "tokens": 0,
+          "ended": "skipped",
+          "ms": 0.0
+        },
+        "after_thought": null,
+        "gate": null,
+        "mix": null,
+        "total_ms": 240.788
+      }
+    },
+    "noul_probe": {
+      "type": "noul",
+      "noul": 0.7905236462107262,
+      "details": {
+        "first_pass": {
+          "probabilities": {
+            "true": 0.7905236462107262,
+            "false": 0.2094763537892738
+          },
+          "top": 0.7905236462107262,
+          "ms": 318.796
+        },
+        "thought": {
+          "used": false,
+          "tokens": 0,
+          "ended": "skipped",
+          "ms": 0.0
+        },
+        "after_thought": null,
+        "gate": null,
+        "mix": null,
+        "total_ms": 319.237
+      }
+    },
+    "score_probe": {
+      "type": "score",
+      "score": 3.416341603997786,
+      "confidence": 0.5136180033314883,
+      "legend": {
+        "0": "Definitely insufficient",
+        "1": "Probably insufficient",
+        "2": "Uncertain whether sufficient",
+        "3": "Probably sufficient",
+        "4": "Definitely sufficient"
+      },
+      "probabilities": {
+        "0": 0.05654602632683064,
+        "1": 0.06347825933339872,
+        "2": 0.020926113582321795,
+        "3": 0.12518728553005162,
+        "4": 0.7338623152273972
+      },
+      "details": {
+        "first_pass": {
+          "probabilities": {
+            "0": 0.05654602632683064,
+            "1": 0.06347825933339872,
+            "2": 0.020926113582321795,
+            "3": 0.12518728553005162,
+            "4": 0.7338623152273972
+          },
+          "top": 0.7338623152273972,
+          "ms": 406.503
+        },
+        "thought": {
+          "used": false,
+          "tokens": 0,
+          "ended": "skipped",
+          "ms": 0.0
+        },
+        "after_thought": null,
+        "gate": null,
+        "mix": null,
+        "total_ms": 407.05
+      }
+    }
+  },
+  "confidence_semantics": "Choice confidence is normalized margin above an even split, not the selected option probability.",
+  "confidence_formula_match_count": 24
+}

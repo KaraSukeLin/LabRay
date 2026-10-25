@@ -1,0 +1,34 @@
+{
+  "jobs": [
+    {
+      "model": "Qwen-Qwen3.8-27B",
+      "gpu": 3,
+      "shard": null,
+      "exit_code": 0,
+      "command": [
+        "/root/projects/quant/.modelopt-venv/bin/python",
+        "-u",
+        "/root/projects/quant/src/ifeval_modes.py",
+        "worker",
+        "--experiment",
+        "/root/projects/quant/build/benchmark/ifeval_failure_retry_bf16_q2246_s20261017_20261020/experiment.json",
+        "--model",
+        "Qwen-Qwen3.8-27B",
+        "--task-modes",
+        "on",
+        "--task-question-ids",
+        "ifeval/2246",
+        "--task-seeds",
+        "20261017"
+      ],
+      "wall_seconds": 1337.86161442101,
+      "start_offset_seconds": 0.1300872638821602
+    }
+  ],
+  "gpus": [
+    3
+  ],
+  "split_model": null,
+  "wall_seconds": 1338.4372882694006,
+  "reservation_gpu_hours": 0.3717881357856095
+}

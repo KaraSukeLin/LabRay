@@ -1,0 +1,8 @@
++ uv pip install --python experiments/orsharc/artifacts/env/elephant/bin/python nvidia-cuda-nvcc-cu12==12.8.93 --index-url https://pypi.org/simple
+Using Python 3.12.14 environment at: experiments/orsharc/artifacts/env/elephant
+Resolved 1 package in 1.02s
+Downloading nvidia-cuda-nvcc-cu12 (38.3MiB)
+ Downloaded nvidia-cuda-nvcc-cu12
+Prepared 1 package in 3.49s
+Installed 1 package in 31ms
+ + nvidia-cuda-nvcc-cu12==12.8.93

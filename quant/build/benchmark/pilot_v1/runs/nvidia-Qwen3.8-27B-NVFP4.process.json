@@ -1,0 +1,25 @@
+{
+  "model": "nvidia-Qwen3.8-27B-NVFP4",
+  "gpu": 3,
+  "command": [
+    "/root/projects/quant/.modelopt-venv/bin/python",
+    "-u",
+    "/root/projects/quant/src/benchmark.py",
+    "run",
+    "--model",
+    "nvidia-Qwen3.8-27B-NVFP4",
+    "--config",
+    "/root/projects/quant/assets/benchmark_config.json",
+    "--data",
+    "/root/projects/quant/assets/benchmark/pilot_v1",
+    "--output",
+    "/root/projects/quant/build/benchmark/pilot_v1/runs/nvidia-Qwen3.8-27B-NVFP4",
+    "--long-max-tokens",
+    "4096",
+    "--long-ids",
+    "/root/projects/quant/assets/benchmark/pilot_v1/long_ids.json"
+  ],
+  "exit_code": 0,
+  "start_offset_seconds": 0.0030105076730251312,
+  "process_wall_seconds": 14760.911275234073
+}

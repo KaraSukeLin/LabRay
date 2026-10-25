@@ -1,0 +1,52 @@
+{
+  "python": "3.12.14",
+  "platform": "Linux-5.15.0-94-generic-x86_64-with-glibc2.36",
+  "cuda_runtime": "12.9",
+  "cuda_driver_api": 12090,
+  "kernel_driver": "570.86.10",
+  "compatibility_libraries": "575.57.08",
+  "compat_archive_sha256": "50113c211c1d4e57b829d145260934e514cf4cde496796d82183caefe30a68a7",
+  "versions": {
+    "vllm": "0.31.0+cu129",
+    "torch": "2.13.0+cu129",
+    "transformers": "5.17.0",
+    "compressed-tensors": "0.17.0",
+    "numpy": "2.3.5",
+    "scipy": "1.18.0",
+    "pyarrow": "23.0.1",
+    "matplotlib": "3.11.2",
+    "huggingface-hub": "1.33.0"
+  },
+  "environment": {
+    "CUDA_VISIBLE_DEVICES": "0",
+    "OMP_NUM_THREADS": "8",
+    "VLLM_NO_USAGE_STATS": "1",
+    "HF_HUB_OFFLINE": "1",
+    "LD_LIBRARY_PATH": "/root/projects/quant/build/cuda-compat/cuda-compat"
+  },
+  "evaluation_env": {
+    "OMP_NUM_THREADS": "8",
+    "VLLM_NO_USAGE_STATS": "1",
+    "HF_HUB_OFFLINE": "1",
+    "VLLM_USE_V2_MODEL_RUNNER": "1",
+    "LD_LIBRARY_PATH": "/root/projects/quant/build/cuda-compat/cuda-compat"
+  },
+  "gpus": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "source_versions": {
+    "src/fidelity.py": "90fcfa567abee03b3af1c90f6f1afcab5e0bccfa5ed3d09f14ca61198a2eb0dd",
+    "src/prepare_dataset.py": "0dbe0979b8d6b2dc9f46d476168cabd9479e5b0b296f49aa54bdea7306d432fe",
+    "src/analyze.py": "e677e8d43118d7567929d111bf13c61984d2d8e95900e8429d4cc3e00515b3b4",
+    "src/audit_calibration.py": "68e5cfeb69fd355998bc72661d7514d598ccc6a5d6170a07dd7c702acb52f8d8",
+    "src/plot_intervals.py": "69ddeb3a599de472b7b5df55b7d36d715c42257325c678a2475f0f8e40902690",
+    "assets/expanded_config.json": "3d49861a06089789dd44c25d4ea20bf62c2595dccae4a6d229de29dbd4d3e87e",
+    "requirements.txt": "0ae2d1c9ec2a536af04bb4f73f5ce8dd260ae832238485e026c58d99710e810d"
+  },
+  "dataset_version": "fidelity-public-v2.1",
+  "dataset_tokens_sha256": "09b41e1a10044975acc579331d3b22ac4ba54f26f89882bb704f6a319d4c2e0d"
+}

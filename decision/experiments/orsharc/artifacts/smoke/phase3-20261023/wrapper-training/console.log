@@ -1,0 +1,40 @@
+2026-10-23 07:55:56,683 INFO train.sft loaded 256 rows from /root/projects/decision/experiments/orsharc/artifacts/smoke/phase3-20261023/wrapper-training/data/train.jsonl (world size 1)
+2026-10-23 07:55:56,684 INFO train.sft eval set dev_select: 8 rows from /root/projects/decision/experiments/orsharc/artifacts/smoke/phase3-20261023/wrapper-training/data/dev_select.jsonl
+
+Loading weights:   0%|          | 0/427 [00:00<?, ?it/s]
+Loading weights:   0%|          | 1/427 [00:00<01:58,  3.60it/s]
+Loading weights:   0%|          | 2/427 [00:00<02:18,  3.07it/s]
+Loading weights:   6%|▋         | 27/427 [00:00<00:07, 53.11it/s]
+Loading weights:  10%|█         | 43/427 [00:00<00:05, 76.13it/s]
+Loading weights:  15%|█▌        | 66/427 [00:00<00:03, 111.03it/s]
+Loading weights:  19%|█▉        | 82/427 [00:01<00:02, 122.36it/s]
+Loading weights:  23%|██▎       | 100/427 [00:01<00:02, 137.37it/s]
+Loading weights:  28%|██▊       | 120/427 [00:01<00:02, 150.60it/s]
+Loading weights:  34%|███▍      | 146/427 [00:01<00:01, 180.32it/s]
+Loading weights:  39%|███▉      | 166/427 [00:01<00:01, 174.97it/s]
+Loading weights:  44%|████▎     | 186/427 [00:01<00:01, 168.65it/s]
+Loading weights:  48%|████▊     | 205/427 [00:01<00:01, 171.74it/s]
+Loading weights:  53%|█████▎    | 226/427 [00:01<00:01, 178.22it/s]
+Loading weights:  59%|█████▊    | 250/427 [00:01<00:00, 190.75it/s]
+Loading weights:  63%|██████▎   | 270/427 [00:02<00:00, 182.74it/s]
+Loading weights:  68%|██████▊   | 292/427 [00:02<00:00, 188.61it/s]
+Loading weights:  73%|███████▎  | 312/427 [00:02<00:00, 174.67it/s]
+Loading weights:  78%|███████▊  | 333/427 [00:02<00:00, 179.97it/s]
+Loading weights:  84%|████████▍ | 359/427 [00:02<00:00, 187.50it/s]
+Loading weights:  90%|████████▉ | 383/427 [00:02<00:00, 198.89it/s]
+Loading weights:  95%|█████████▍| 404/427 [00:02<00:00, 189.17it/s]
+Loading weights:  99%|█████████▉| 424/427 [00:02<00:00, 176.67it/s]
+Loading weights: 100%|██████████| 427/427 [00:02<00:00, 146.33it/s]
+2026-10-23 07:56:02,872 INFO train.sft model_type=qwen3_5_text template_kwargs={'enable_thinking': False}
+2026-10-23 07:56:02,873 INFO train.sft readout: attention noncausal, scores slot_lm
+2026-10-23 07:56:02,874 INFO train.sft LoRA target modules: 248 modules, kinds ['down_proj', 'gate_proj', 'in_proj_a', 'in_proj_b', 'in_proj_qkv', 'in_proj_z', 'k_proj', 'o_proj', 'out_proj', 'q_proj', 'up_proj', 'v_proj']
+2026-10-23 07:56:04,330 INFO train.sft trainable 43.28M of 8997.08M parameters (0.481%)
+2026-10-23 07:56:04,411 INFO train.sft 32 steps per epoch, 3 total steps, 1 warmup, 0 rows dropped over max-len, planned in 0s
+[transformers] `causal_conv1d_fn` is falling back to its reference PyTorch implementation because `causal_conv1d` is not installed. This is correct but much slower; install `causal_conv1d` for the optimized kernel.
+eval step 0 dev_select: n 8 acc 0.6250 state_macro 0.6250 nll 1.1561 ece 0.3343 {'choice': 0.625} (2s)
+train [##########....................] 1/3 (33.3%) loss 1.2495 ce 0.7948 brier 0.4547 slot_acc 0.625 gnorm 9.077 lr 2.00e-05 rows/s 1.56 tok/s 415 s/step 5.1 mem 17.4G eta 0.0h
+train [####################..........] 2/3 (66.7%) loss 1.4661 ce 0.9848 brier 0.4813 slot_acc 0.625 gnorm 15.691 lr 1.00e-05 rows/s 2.77 tok/s 695 s/step 2.9 mem 17.6G eta 0.0h
+train [##############################] 3/3 (100.0%) loss 0.0471 ce 0.0422 brier 0.0049 slot_acc 1.000 gnorm 1.269 lr 0.00e+00 rows/s 2.97 tok/s 808 s/step 2.7 mem 17.6G eta 0.0h
+eval step 3 dev_select: n 8 acc 0.6250 state_macro 0.6250 nll 1.1508 ece 0.3324 {'choice': 0.625} (1s)
+2026-10-23 07:56:16,042 INFO train.sft saved final adapter to /root/projects/decision/experiments/orsharc/artifacts/smoke/phase3-20261023/wrapper-training/native/adapter
+done: 3 steps, 24 examples, 11.2s, 2.13 examples/s

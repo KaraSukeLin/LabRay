@@ -1,0 +1,102 @@
+Loading weights:   0%|          | 0/427 [00:00<?, ?it/s]Loading weights:   0%|          | 1/427 [00:00<04:57,  1.43it/s]Loading weights:   5%|▌         | 23/427 [00:00<00:10, 38.33it/s]Loading weights:  10%|▉         | 41/427 [00:00<00:05, 64.55it/s]Loading weights:  13%|█▎        | 56/427 [00:01<00:04, 80.89it/s]Loading weights:  19%|█▊        | 80/427 [00:01<00:03, 113.11it/s]Loading weights:  23%|██▎       | 97/427 [00:01<00:02, 124.67it/s]Loading weights:  28%|██▊       | 118/427 [00:01<00:02, 145.63it/s]Loading weights:  32%|███▏      | 136/427 [00:01<00:02, 142.22it/s]Loading weights:  36%|███▌      | 153/427 [00:01<00:01, 137.65it/s]Loading weights:  41%|████      | 174/427 [00:01<00:01, 153.91it/s]Loading weights:  46%|████▌     | 197/427 [00:01<00:01, 172.98it/s]Loading weights:  51%|█████     | 216/427 [00:01<00:01, 162.93it/s]Loading weights:  56%|█████▌    | 238/427 [00:02<00:01, 176.12it/s]Loading weights:  60%|██████    | 257/427 [00:02<00:01, 166.03it/s]Loading weights:  65%|██████▌   | 278/427 [00:02<00:00, 171.43it/s]Loading weights:  69%|██████▉   | 296/427 [00:02<00:00, 168.76it/s]Loading weights:  74%|███████▎  | 314/427 [00:02<00:00, 158.34it/s]Loading weights:  80%|███████▉  | 341/427 [00:02<00:00, 181.05it/s]Loading weights:  84%|████████▍ | 360/427 [00:02<00:00, 175.70it/s]Loading weights:  89%|████████▊ | 378/427 [00:02<00:00, 173.87it/s]Loading weights:  93%|█████████▎| 396/427 [00:02<00:00, 175.49it/s]Loading weights:  97%|█████████▋| 414/427 [00:03<00:00, 159.53it/s]Loading weights: 100%|██████████| 427/427 [00:03<00:00, 133.58it/s]
+[transformers] `causal_conv1d_fn` is falling back to its reference PyTorch implementation because `causal_conv1d` is not installed. This is correct but much slower; install `causal_conv1d` for the optimized kernel.
+[transformers] `chunk_gated_delta_rule` is falling back to its reference PyTorch implementation because `flash-linear-attention` is not installed. This is correct but much slower; install `flash-linear-attention` for the optimized kernel.
+{
+  "status": "complete",
+  "n": 456
+}
+Loading weights:   0%|          | 0/427 [00:00<?, ?it/s]Loading weights:   0%|          | 1/427 [00:00<03:42,  1.92it/s]Loading weights:   6%|▋         | 27/427 [00:00<00:06, 57.34it/s]Loading weights:  11%|█         | 46/427 [00:00<00:04, 88.27it/s]Loading weights:  16%|█▌        | 67/427 [00:00<00:03, 116.00it/s]Loading weights:  22%|██▏       | 94/427 [00:00<00:02, 154.65it/s]Loading weights:  28%|██▊       | 118/427 [00:01<00:01, 176.02it/s]Loading weights:  33%|███▎      | 140/427 [00:01<00:01, 180.23it/s]Loading weights:  38%|███▊      | 161/427 [00:01<00:01, 178.93it/s]Loading weights:  44%|████▍     | 187/427 [00:01<00:01, 195.09it/s]Loading weights:  49%|████▊     | 208/427 [00:01<00:01, 191.35it/s]Loading weights:  56%|█████▌    | 239/427 [00:01<00:00, 217.94it/s]Loading weights:  61%|██████▏   | 262/427 [00:01<00:00, 206.18it/s]Loading weights:  68%|██████▊   | 292/427 [00:01<00:00, 227.36it/s]Loading weights:  74%|███████▍  | 316/427 [00:01<00:00, 213.91it/s]Loading weights:  81%|████████  | 345/427 [00:02<00:00, 229.27it/s]Loading weights:  86%|████████▋ | 369/427 [00:02<00:00, 215.44it/s]Loading weights:  93%|█████████▎| 398/427 [00:02<00:00, 231.51it/s]Loading weights:  99%|█████████▉| 422/427 [00:02<00:00, 209.81it/s]Loading weights: 100%|██████████| 427/427 [00:02<00:00, 172.75it/s]
+[transformers] `causal_conv1d_fn` is falling back to its reference PyTorch implementation because `causal_conv1d` is not installed. This is correct but much slower; install `causal_conv1d` for the optimized kernel.
+[transformers] `chunk_gated_delta_rule` is falling back to its reference PyTorch implementation because `flash-linear-attention` is not installed. This is correct but much slower; install `flash-linear-attention` for the optimized kernel.
+{
+  "status": "complete",
+  "n": 649
+}
+{
+  "condition": "594318cc977b28665cc4b98bbb2809c8bb5b0bf5c2a1bd9bb663133f7a1fa359",
+  "temperature": 1.7920471085510954,
+  "threshold": 0.5,
+  "selection_run": "a02e74e1771c79ea6350a7678cf40b43af0d633889a2149bce0e4329f52a1d51",
+  "calibration_run": "e9947f4c631c64812134db3a9b8155bc67dc43aa7af0f511b208a427546d73d6",
+  "data_manifest": "7da4b11e2bc3952109ea23f3c0f65bdbcbf6ea7ce1f1a52a2d3e5f4d84f78967",
+  "selection_predictions_sha256": "910a8a11332dd1e0f860a95d384004416d7cd28024bf9ddceabb109b0802112b",
+  "calibration_predictions_sha256": "e0c8d64e6c4b75a48b2091e896bb399ff016a45ef1bb0805f725491b3f9a53dd",
+  "threshold_sweep_dev_select": [],
+  "temperature_fit": "bounded NLL minimization, T in [0.05,20], dev_calibrate only",
+  "probability_stage": "after deterministic task projection/aggregation; binary Score uses expected level / 4",
+  "prediction_policy": "frozen raw threshold/routing labels retained after temperature scaling",
+  "temperature_at_bound": false
+}
+Loading weights:   0%|          | 0/427 [00:00<?, ?it/s]Loading weights:   0%|          | 1/427 [00:00<02:22,  2.99it/s]Loading weights:   0%|          | 2/427 [00:00<02:27,  2.89it/s]Loading weights:   5%|▌         | 23/427 [00:00<00:09, 42.96it/s]Loading weights:  10%|▉         | 41/427 [00:00<00:05, 71.00it/s]Loading weights:  13%|█▎        | 54/427 [00:01<00:04, 83.54it/s]Loading weights:  19%|█▊        | 79/427 [00:01<00:02, 124.05it/s]Loading weights:  22%|██▏       | 96/427 [00:01<00:02, 128.08it/s]Loading weights:  28%|██▊       | 118/427 [00:01<00:02, 151.66it/s]Loading weights:  32%|███▏      | 136/427 [00:01<00:01, 146.99it/s]Loading weights:  36%|███▌      | 153/427 [00:01<00:01, 147.14it/s]Loading weights:  41%|████      | 173/427 [00:01<00:01, 159.56it/s]Loading weights:  44%|████▍     | 190/427 [00:01<00:01, 162.01it/s]Loading weights:  48%|████▊     | 207/427 [00:01<00:01, 151.94it/s]Loading weights:  53%|█████▎    | 227/427 [00:02<00:01, 164.21it/s]Loading weights:  59%|█████▉    | 253/427 [00:02<00:00, 182.51it/s]Loading weights:  64%|██████▎   | 272/427 [00:02<00:00, 180.79it/s]Loading weights:  68%|██████▊   | 292/427 [00:02<00:00, 178.13it/s]Loading weights:  73%|███████▎  | 310/427 [00:02<00:00, 173.59it/s]Loading weights:  78%|███████▊  | 331/427 [00:02<00:00, 177.98it/s]Loading weights:  82%|████████▏ | 349/427 [00:02<00:00, 171.58it/s]Loading weights:  86%|████████▌ | 367/427 [00:02<00:00, 158.48it/s]Loading weights:  92%|█████████▏| 392/427 [00:02<00:00, 179.71it/s]Loading weights:  96%|█████████▋| 412/427 [00:03<00:00, 181.92it/s]Loading weights: 100%|██████████| 427/427 [00:03<00:00, 135.34it/s]
+[transformers] `causal_conv1d_fn` is falling back to its reference PyTorch implementation because `causal_conv1d` is not installed. This is correct but much slower; install `causal_conv1d` for the optimized kernel.
+[transformers] `chunk_gated_delta_rule` is falling back to its reference PyTorch implementation because `flash-linear-attention` is not installed. This is correct but much slower; install `flash-linear-attention` for the optimized kernel.
+{
+  "status": "complete",
+  "n": 2373
+}
+{
+  "run_identity": "a02e74e1771c79ea6350a7678cf40b43af0d633889a2149bce0e4329f52a1d51",
+  "out": "/root/projects/decision/experiments/orsharc/artifacts/runs/phase4/qwen-original-single_choice-bf16-0shot/reports/dev_select",
+  "n": 456
+}
+{
+  "run_identity": "e9947f4c631c64812134db3a9b8155bc67dc43aa7af0f511b208a427546d73d6",
+  "out": "/root/projects/decision/experiments/orsharc/artifacts/runs/phase4/qwen-original-single_choice-bf16-0shot/reports/dev_calibrate",
+  "n": 649
+}
+{
+  "run_identity": "be0541ccb8ef9c4a21e9ca4b44204e78f848308b81a02c50140379ba520be33f",
+  "out": "/root/projects/decision/experiments/orsharc/artifacts/runs/phase4/qwen-original-single_choice-bf16-0shot/reports/test",
+  "n": 2373
+}
+Loading weights:   0%|          | 0/427 [00:00<?, ?it/s]Loading weights:   0%|          | 1/427 [00:00<02:24,  2.95it/s]Loading weights:   0%|          | 2/427 [00:00<02:27,  2.87it/s]Loading weights:   5%|▌         | 22/427 [00:00<00:09, 40.80it/s]Loading weights:   9%|▉         | 40/427 [00:00<00:05, 69.08it/s]Loading weights:  13%|█▎        | 54/427 [00:01<00:04, 83.97it/s]Loading weights:  18%|█▊        | 77/427 [00:01<00:02, 119.12it/s]Loading weights:  22%|██▏       | 95/427 [00:01<00:02, 129.97it/s]Loading weights:  27%|██▋       | 115/427 [00:01<00:02, 145.65it/s]Loading weights:  31%|███       | 133/427 [00:01<00:01, 152.31it/s]Loading weights:  35%|███▌      | 150/427 [00:01<00:01, 149.04it/s]Loading weights:  40%|████      | 171/427 [00:01<00:01, 164.48it/s]Loading weights:  44%|████▍     | 189/427 [00:01<00:01, 152.00it/s]Loading weights:  48%|████▊     | 206/427 [00:01<00:01, 144.83it/s]Loading weights:  53%|█████▎    | 227/427 [00:02<00:01, 160.56it/s]Loading weights:  59%|█████▉    | 252/427 [00:02<00:00, 181.94it/s]Loading weights:  63%|██████▎   | 271/427 [00:02<00:00, 171.00it/s]Loading weights:  68%|██████▊   | 292/427 [00:02<00:00, 173.39it/s]Loading weights:  73%|███████▎  | 310/427 [00:02<00:00, 169.57it/s]Loading weights:  78%|███████▊  | 331/427 [00:02<00:00, 174.51it/s]Loading weights:  82%|████████▏ | 349/427 [00:02<00:00, 169.48it/s]Loading weights:  86%|████████▌ | 367/427 [00:02<00:00, 159.05it/s]Loading weights:  92%|█████████▏| 394/427 [00:02<00:00, 184.70it/s]Loading weights:  97%|█████████▋| 413/427 [00:03<00:00, 171.74it/s]Loading weights: 100%|██████████| 427/427 [00:03<00:00, 133.49it/s]
+[transformers] `causal_conv1d_fn` is falling back to its reference PyTorch implementation because `causal_conv1d` is not installed. This is correct but much slower; install `causal_conv1d` for the optimized kernel.
+[transformers] `chunk_gated_delta_rule` is falling back to its reference PyTorch implementation because `flash-linear-attention` is not installed. This is correct but much slower; install `flash-linear-attention` for the optimized kernel.
+{
+  "status": "complete",
+  "n": 456
+}
+Loading weights:   0%|          | 0/427 [00:00<?, ?it/s]Loading weights:   0%|          | 1/427 [00:00<04:52,  1.46it/s]Loading weights:   5%|▌         | 23/427 [00:00<00:10, 38.79it/s]Loading weights:  10%|▉         | 41/427 [00:00<00:05, 64.98it/s]Loading weights:  13%|█▎        | 56/427 [00:01<00:04, 82.04it/s]Loading weights:  19%|█▊        | 80/427 [00:01<00:03, 114.40it/s]Loading weights:  23%|██▎       | 97/427 [00:01<00:02, 125.82it/s]Loading weights:  28%|██▊       | 118/427 [00:01<00:02, 147.18it/s]Loading weights:  32%|███▏      | 136/427 [00:01<00:02, 144.28it/s]Loading weights:  36%|███▌      | 153/427 [00:01<00:01, 139.23it/s]Loading weights:  41%|████      | 174/427 [00:01<00:01, 154.40it/s]Loading weights:  46%|████▌     | 196/427 [00:01<00:01, 170.15it/s]Loading weights:  50%|█████     | 215/427 [00:01<00:01, 158.86it/s]Loading weights:  56%|█████▌    | 237/427 [00:02<00:01, 173.25it/s]Loading weights:  60%|█████▉    | 256/427 [00:02<00:01, 165.86it/s]Loading weights:  65%|██████▌   | 278/427 [00:02<00:00, 173.09it/s]Loading weights:  69%|██████▉   | 296/427 [00:02<00:00, 170.19it/s]Loading weights:  74%|███████▎  | 314/427 [00:02<00:00, 160.98it/s]Loading weights:  80%|███████▉  | 341/427 [00:02<00:00, 185.87it/s]Loading weights:  84%|████████▍ | 360/427 [00:02<00:00, 173.91it/s]Loading weights:  89%|████████▉ | 380/427 [00:02<00:00, 179.51it/s]Loading weights:  93%|█████████▎| 399/427 [00:02<00:00, 171.63it/s]Loading weights:  98%|█████████▊| 417/427 [00:03<00:00, 167.41it/s]Loading weights: 100%|██████████| 427/427 [00:03<00:00, 135.10it/s]
+[transformers] `causal_conv1d_fn` is falling back to its reference PyTorch implementation because `causal_conv1d` is not installed. This is correct but much slower; install `causal_conv1d` for the optimized kernel.
+[transformers] `chunk_gated_delta_rule` is falling back to its reference PyTorch implementation because `flash-linear-attention` is not installed. This is correct but much slower; install `flash-linear-attention` for the optimized kernel.
+{
+  "status": "complete",
+  "n": 649
+}
+{
+  "condition": "e09c88125a4746727159e59d44972d1de1be708f183f64d9e237124bd84958ae",
+  "temperature": 1.7706730697012216,
+  "threshold": 0.5,
+  "selection_run": "b1d24b9f895a03bd2d8203c4bef996c325b3607057a0dc48d05f07b845870b99",
+  "calibration_run": "d9ab8a5597bc053bea608352082e0e7a440a808964f6e3f03c2d0f270dd45a6e",
+  "data_manifest": "7da4b11e2bc3952109ea23f3c0f65bdbcbf6ea7ce1f1a52a2d3e5f4d84f78967",
+  "selection_predictions_sha256": "60532994d9fce431064f590461c61918c6791492efb44af0acd9541c4911e107",
+  "calibration_predictions_sha256": "a97d230ed4a9a0ceb59d4d954ca6e0c6f1780c8342b3468c466576bdfcb8c53e",
+  "threshold_sweep_dev_select": [],
+  "temperature_fit": "bounded NLL minimization, T in [0.05,20], dev_calibrate only",
+  "probability_stage": "after deterministic task projection/aggregation; binary Score uses expected level / 4",
+  "prediction_policy": "frozen raw threshold/routing labels retained after temperature scaling",
+  "temperature_at_bound": false
+}
+Loading weights:   0%|          | 0/427 [00:00<?, ?it/s]Loading weights:   0%|          | 1/427 [00:00<02:22,  2.99it/s]Loading weights:   0%|          | 2/427 [00:00<02:26,  2.90it/s]Loading weights:   5%|▍         | 20/427 [00:00<00:10, 37.29it/s]Loading weights:  10%|▉         | 41/427 [00:00<00:05, 73.09it/s]Loading weights:  13%|█▎        | 54/427 [00:01<00:04, 85.07it/s]Loading weights:  19%|█▊        | 79/427 [00:01<00:02, 125.19it/s]Loading weights:  22%|██▏       | 96/427 [00:01<00:02, 127.90it/s]Loading weights:  28%|██▊       | 118/427 [00:01<00:02, 150.19it/s]Loading weights:  32%|███▏      | 136/427 [00:01<00:02, 144.55it/s]Loading weights:  36%|███▌      | 153/427 [00:01<00:01, 145.34it/s]Loading weights:  41%|████      | 173/427 [00:01<00:01, 157.88it/s]Loading weights:  44%|████▍     | 190/427 [00:01<00:01, 160.95it/s]Loading weights:  48%|████▊     | 207/427 [00:01<00:01, 151.10it/s]Loading weights:  53%|█████▎    | 227/427 [00:02<00:01, 163.44it/s]Loading weights:  59%|█████▉    | 252/427 [00:02<00:00, 177.00it/s]Loading weights:  63%|██████▎   | 271/427 [00:02<00:00, 176.91it/s]Loading weights:  68%|██████▊   | 292/427 [00:02<00:00, 178.07it/s]Loading weights:  73%|███████▎  | 310/427 [00:02<00:00, 173.47it/s]Loading weights:  78%|███████▊  | 331/427 [00:02<00:00, 177.90it/s]Loading weights:  82%|████████▏ | 349/427 [00:02<00:00, 172.53it/s]Loading weights:  86%|████████▌ | 367/427 [00:02<00:00, 161.51it/s]Loading weights:  92%|█████████▏| 394/427 [00:02<00:00, 187.31it/s]Loading weights:  97%|█████████▋| 414/427 [00:03<00:00, 170.01it/s]Loading weights: 100%|██████████| 427/427 [00:03<00:00, 134.84it/s]
+[transformers] `causal_conv1d_fn` is falling back to its reference PyTorch implementation because `causal_conv1d` is not installed. This is correct but much slower; install `causal_conv1d` for the optimized kernel.
+[transformers] `chunk_gated_delta_rule` is falling back to its reference PyTorch implementation because `flash-linear-attention` is not installed. This is correct but much slower; install `flash-linear-attention` for the optimized kernel.
+{
+  "status": "complete",
+  "n": 2373
+}
+{
+  "run_identity": "b1d24b9f895a03bd2d8203c4bef996c325b3607057a0dc48d05f07b845870b99",
+  "out": "/root/projects/decision/experiments/orsharc/artifacts/runs/phase4/qwen-original-single_choice-bf16-4shot/reports/dev_select",
+  "n": 456
+}
+{
+  "run_identity": "d9ab8a5597bc053bea608352082e0e7a440a808964f6e3f03c2d0f270dd45a6e",
+  "out": "/root/projects/decision/experiments/orsharc/artifacts/runs/phase4/qwen-original-single_choice-bf16-4shot/reports/dev_calibrate",
+  "n": 649
+}
+{
+  "run_identity": "37cb93aa77df59bead59d3ff8b2340263a631405d5f07c80929ec7ee0b6d46e6",
+  "out": "/root/projects/decision/experiments/orsharc/artifacts/runs/phase4/qwen-original-single_choice-bf16-4shot/reports/test",
+  "n": 2373
+}

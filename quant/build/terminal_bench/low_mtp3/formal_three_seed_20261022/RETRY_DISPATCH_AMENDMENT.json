@@ -1,0 +1,29 @@
+{
+  "date": "2026-10-22",
+  "change": "Replaced retry handoff barrier with work-conserving cross-seed dispatch onto GPUs that were idle while seed3 had no pending queue entries.",
+  "evidence": {
+    "seed3_pending_attempts": 0,
+    "seed3_running_gpu_ids": [
+      1,
+      3
+    ],
+    "initially_idle_gpu_ids": [
+      0,
+      2,
+      4
+    ],
+    "seed2_retry_attempts_queued": 11,
+    "frozen_config_comparison": "seed21 and seed22 config differ only in seeds value"
+  },
+  "safeguards": [
+    "No new trial rows or retries were created.",
+    "Seed21 workers load the frozen config_seed_20261021.json directly.",
+    "No shared assets config mutation.",
+    "Worker launch requires no active trial on the GPU, <500 MiB allocated memory, and the model service port closed.",
+    "Only normal queue claim is used; one attempt per existing retry row."
+  ],
+  "controllers": {
+    "replacement": "seed_20261021_retry_resume.py",
+    "preserved_previous": "source_amendments/retry_policy_fix_20261022/seed_20261021_retry_resume_wait_for_pool.py"
+  }
+}

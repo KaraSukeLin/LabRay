@@ -1,0 +1,98 @@
+{
+  "before": [
+    {
+      "pid": 14830,
+      "start_ticks": "2309315975",
+      "exe": "/root/projects/quant/build/terminal_bench/diagnostics/proot_version_ab/downloads/proot",
+      "Name": "proot",
+      "State": "S (sleeping)",
+      "PPid": "51790",
+      "TracerPid": "0"
+    },
+    {
+      "pid": 14836,
+      "start_ticks": "2309315977",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021/trials/2cf79eaf9f9de89e650d65ee/trial/proot/prooted-14830-Hapec2",
+      "Name": "tmux: server",
+      "State": "S (sleeping)",
+      "PPid": "51790",
+      "TracerPid": "14830"
+    },
+    {
+      "pid": 14837,
+      "start_ticks": "2309315977",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021/trials/2cf79eaf9f9de89e650d65ee/trial/proot/prooted-14830-Hapec2",
+      "Name": "bash",
+      "State": "S (sleeping)",
+      "PPid": "14836",
+      "TracerPid": "14830"
+    },
+    {
+      "pid": 14839,
+      "start_ticks": "2309315978",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021/trials/2cf79eaf9f9de89e650d65ee/trial/proot/prooted-14830-Hapec2",
+      "Name": "sh",
+      "State": "S (sleeping)",
+      "PPid": "14836",
+      "TracerPid": "14830"
+    },
+    {
+      "pid": 14841,
+      "start_ticks": "2309315978",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021/trials/2cf79eaf9f9de89e650d65ee/trial/proot/prooted-14830-Hapec2",
+      "Name": "cat",
+      "State": "S (sleeping)",
+      "PPid": "14839",
+      "TracerPid": "14830"
+    },
+    {
+      "pid": 14854,
+      "start_ticks": "2309315985",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021/trials/2cf79eaf9f9de89e650d65ee/trial/proot/prooted-14830-Hapec2",
+      "Name": "asciinema",
+      "State": "S (sleeping)",
+      "PPid": "14837",
+      "TracerPid": "14830"
+    },
+    {
+      "pid": 14866,
+      "start_ticks": "2309315998",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021/trials/2cf79eaf9f9de89e650d65ee/trial/proot/prooted-14830-Hapec2",
+      "Name": "asciinema",
+      "State": "S (sleeping)",
+      "PPid": "14854",
+      "TracerPid": "14830"
+    },
+    {
+      "pid": 14867,
+      "start_ticks": "2309315998",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021/trials/2cf79eaf9f9de89e650d65ee/trial/proot/prooted-14830-Hapec2",
+      "Name": "asciinema",
+      "State": "S (sleeping)",
+      "PPid": "14854",
+      "TracerPid": "14830"
+    },
+    {
+      "pid": 14868,
+      "start_ticks": "2309315998",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021/trials/2cf79eaf9f9de89e650d65ee/trial/proot/prooted-14830-Hapec2",
+      "Name": "sh",
+      "State": "S (sleeping)",
+      "PPid": "14854",
+      "TracerPid": "14830"
+    },
+    {
+      "pid": 14869,
+      "start_ticks": "2309315999",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021/trials/2cf79eaf9f9de89e650d65ee/trial/proot/prooted-14830-Hapec2",
+      "Name": "bash",
+      "State": "S (sleeping)",
+      "PPid": "14868",
+      "TracerPid": "14830"
+    }
+  ],
+  "after": [],
+  "delete_requested": true,
+  "rootfs_retained_for_evidence": true,
+  "child_cpu": 7468.3856000000005
+}

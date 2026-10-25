@@ -1,0 +1,25 @@
+{
+  "passed": true,
+  "formal_ready": true,
+  "formal_completed": 0,
+  "formal_planned": 16230,
+  "formal_source_identity_matches_current": true,
+  "raw_smoke_hashes_unchanged": true,
+  "local_report_links_checked": 133,
+  "no_gpu_compute_processes": true,
+  "gpu_check": "pid, gpu_uuid, used_gpu_memory [MiB]\n",
+  "sha256": {
+    "src/ifeval_modes.py": "df092e4deabbc0c99b5d236f4db20ccac0abbaa365f9b4b2bafaa27b34c5277b",
+    "src/analyze_ifeval_modes.py": "0187f6c3d0a99eb9235e7b7b9f9fdf30ebd5f4aef5b57e8fc249aa152106aec1",
+    "src/benchmark.py": "15b51e085d8f6793236db0ee6faaf5a210e21bbc5f8db5baf594858e9c183fa0",
+    "tests/test_ifeval_modes.py": "c772c4b4b1a153cf741021520ac0241b1ef8ad38b4f2e7f1e13f5592fdf170f9",
+    "assets/ifeval_modes_config.json": "cb8d38d836862d31a57fa9af8e927dd7c54d79e259452fe320cea90bbae71b8c",
+    "README.md": "ff04b335e869fa21985882daa12a8a06a4b1bfab6a690259a5b89f505e8e08fb",
+    "REPORT.md": "ddd926f28e89b6ce78981a6da3cddf7c9536ff4097e0555ab9e32ac884a13c3c",
+    "build/benchmark/ifeval_modes_prepared/experiment.json": "4ac630d8afe931deec7e0247593a8c199dc385fb74b55979143dbd770226aa2d",
+    "build/benchmark/ifeval_modes_validation/RESULTS.md": "353a5d2f311cdc48b016e634a2c6e8bfbbda04d279c3a7fed7eef6e83969807a",
+    "build/benchmark/ifeval_modes_validation/USAGE.md": "73d3a72dda4e388515f88fa968a9fb2540bb202e00c90ddc231cb2ca1c530b67"
+  },
+  "work_log": "build/benchmark/ifeval_modes_validation/WORK_LOG.md",
+  "targeted_tests_final_summary": "20 passed, 14 warnings in 9.57s"
+}

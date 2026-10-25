@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "google_revision": "3ef52111c1fabc301880818f5a547570e926a76b",
+  "sha256": {
+    "evaluation_main.py": "e6df07a04d25a0e7134933ba2400c26e0129a243e449c88df55043e583fc4b4a",
+    "evaluation_lib.py": "35decc06000718487f44d7deafa6d3f48a8ec0886281edf40162c0265b7d248c",
+    "instructions.py": "60e086f5342a03ce8e18b64bbcccf86308f523c08aa826707a562150a52f3edf",
+    "instructions_registry.py": "ec92d72c264f6d906978613085db262356174300370a3fffe6fefd5969ce9cfc",
+    "instructions_util.py": "a73797261eee5bf447e279d82a2b700b1bdd3cb1193412dbab1270a85832bc6b",
+    "data/input_data.jsonl": "67ffeee0fcb87c317c5b08a2de85557b4a7e96ada6178aa645b4954fe4b53d49",
+    ".vllm-venv/lib/python3.12/site-packages/vllm/parser/qwen3.py": "2fa80f910f0da453c2134027564a3859cb1f2ec01035198b40f11da37fe0ac0a",
+    ".vllm-venv/lib/python3.12/site-packages/vllm/parser/engine/adapters.py": "7a77bcb86e2129762f4199ee726398a4850b9e207893fc4295f2b759bcfeeb36",
+    ".vllm-venv/lib/python3.12/site-packages/vllm/entrypoints/openai/chat_completion/protocol.py": "4bdc71f668e4820d8ae5bae2a153fed0296b430cd6353ace8c0c27cfb982ebc1",
+    ".vllm-venv/lib/python3.12/site-packages/vllm/v1/sample/sampler.py": "d299305528479ff505b416b759db208fcf08ca6e86cc1f7cfc38be85bbd0e844",
+    ".vllm-venv/lib/python3.12/site-packages/vllm/v1/sample/ops/topk_topp_sampler.py": "c5c7de950e4e1380c97328057aa6a39c86e734c8b2de35beffa9695b705fbba3"
+  },
+  "vllm_version": "0.31.0+cu129"
+}

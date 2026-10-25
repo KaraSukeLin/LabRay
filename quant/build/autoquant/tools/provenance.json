@@ -1,0 +1,19 @@
+{
+  "repositories": {
+    "Model-Optimizer": [
+      "NVIDIA/Model-Optimizer",
+      "ed66a9e0a33db681f0d550f65e7f47f817f6e3c2"
+    ],
+    "MMMU": [
+      "MMMU-Benchmark/MMMU",
+      "268471d0d488258990025331c7528359c324aa25"
+    ]
+  },
+  "google_revision": "3ef52111c1fabc301880818f5a547570e926a76b",
+  "source_sha256": {
+    "build/autoquant/tools/google-research/instruction_following_eval/evaluation_lib.py": "35decc06000718487f44d7deafa6d3f48a8ec0886281edf40162c0265b7d248c",
+    "build/autoquant/tools/google-research/instruction_following_eval/instructions.py": "60e086f5342a03ce8e18b64bbcccf86308f523c08aa826707a562150a52f3edf",
+    "build/autoquant/tools/MMMU/mmmu-pro/evaluate.py": "47e0928d9b786098a984d4c66ebee0e8cecd67732b955fbb6a31c2db78feb4cd",
+    "build/autoquant/tools/MMMU/mmmu-pro/infer/infer_transformers.py": "9f1bb70637d298088f2d081efadc53362a182d8616ccd189be9fa15caa680ad0"
+  }
+}

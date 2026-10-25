@@ -1,0 +1,92 @@
+[
+  {
+    "run": "bf16_reference",
+    "tokens": 432,
+    "shapes_and_hashes_valid": true,
+    "metric_absolute_errors": {
+      "ppl": 0.0,
+      "kl_bf16_to_candidate": 0.0,
+      "top1_flip_rate": 0.0
+    }
+  },
+  {
+    "run": "bf16_repeat",
+    "tokens": 432,
+    "shapes_and_hashes_valid": true,
+    "metric_absolute_errors": {
+      "ppl": 0.0,
+      "kl_bf16_to_candidate": 0.0,
+      "top1_flip_rate": 0.0
+    }
+  },
+  {
+    "run": "Qwen-Qwen3.8-27B-FP8",
+    "tokens": 432,
+    "shapes_and_hashes_valid": true,
+    "metric_absolute_errors": {
+      "ppl": 0.0,
+      "kl_bf16_to_candidate": 0.0,
+      "top1_flip_rate": 0.0
+    }
+  },
+  {
+    "run": "RadixArk-Qwen3.8-27B-NVFP4",
+    "tokens": 432,
+    "shapes_and_hashes_valid": true,
+    "metric_absolute_errors": {
+      "ppl": 0.0,
+      "kl_bf16_to_candidate": 0.0,
+      "top1_flip_rate": 0.0
+    }
+  },
+  {
+    "run": "RadixArk-Qwen3.8-27B-NVFP4-BF16-LMHead",
+    "tokens": 432,
+    "shapes_and_hashes_valid": true,
+    "metric_absolute_errors": {
+      "ppl": 0.0,
+      "kl_bf16_to_candidate": 0.0,
+      "top1_flip_rate": 0.0
+    }
+  },
+  {
+    "run": "RedHatAI-Qwen3.8-27B-NVFP4",
+    "tokens": 432,
+    "shapes_and_hashes_valid": true,
+    "metric_absolute_errors": {
+      "ppl": 0.0,
+      "kl_bf16_to_candidate": 1.734723475976807e-18,
+      "top1_flip_rate": 0.0
+    }
+  },
+  {
+    "run": "eNeural-Qwen3.8-27B-fast",
+    "tokens": 432,
+    "shapes_and_hashes_valid": true,
+    "metric_absolute_errors": {
+      "ppl": 0.0,
+      "kl_bf16_to_candidate": 3.469446951953614e-18,
+      "top1_flip_rate": 0.0
+    }
+  },
+  {
+    "run": "nvidia-Qwen3.8-27B-NVFP4",
+    "tokens": 432,
+    "shapes_and_hashes_valid": true,
+    "metric_absolute_errors": {
+      "ppl": 0.0,
+      "kl_bf16_to_candidate": 3.469446951953614e-18,
+      "top1_flip_rate": 0.0
+    }
+  },
+  {
+    "run": "unsloth-Qwen3.8-27B-NVFP4",
+    "tokens": 432,
+    "shapes_and_hashes_valid": true,
+    "metric_absolute_errors": {
+      "ppl": 0.0,
+      "kl_bf16_to_candidate": 0.0,
+      "top1_flip_rate": 0.0
+    }
+  }
+]

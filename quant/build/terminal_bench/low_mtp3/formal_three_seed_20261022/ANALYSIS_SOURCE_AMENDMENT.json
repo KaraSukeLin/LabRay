@@ -1,0 +1,26 @@
+{
+  "amendment": "Post-run USD cost reporting correction",
+  "recorded_at_epoch": 1792685931.7251036,
+  "scope": "Final reporting only; benchmark protocol, trial inputs, scores, verifiers, timeouts, seeds and sampling are unchanged.",
+  "reason": "The local inference attempts report cost_usd as null. Summing null values as zero would misstate an unavailable USD amount as zero.",
+  "behavior": "Sum cost_usd only when every model attempt reports a value; otherwise report JSON null, CSV blank, and Markdown NA. GPU-hours and token counts remain available as measured resource usage.",
+  "source_manifest": "SOURCE_MANIFEST.json remains the original pre-run manifest; exact baseline files are preserved in analysis_patch_baseline/.",
+  "changed_files": {
+    "src/terminal_formal_multiseed_analysis.py": {
+      "original_sha256": "40407af7d5d0e15626c3caadab3a023abcbc93b9b2975d71c04c251816870313",
+      "current_sha256": "c65dfe95c959da1af7369b29be49f55cd4d626bbd35512a348ad4514777a103d",
+      "baseline_copy": "build/terminal_bench/low_mtp3/formal_three_seed_20261022/analysis_patch_baseline/terminal_formal_multiseed_analysis.py"
+    },
+    "tests/test_terminal_formal_multiseed_analysis.py": {
+      "original_sha256": "fe1f771e6f4dde8041f6da0c040a5fcf8836464aa64b58f969926d81ee548fd6",
+      "current_sha256": "d70a765bcc4fad3bf65a65d14c6d1edb20a04c87998519dbee052d2c50eb3db2",
+      "baseline_copy": "build/terminal_bench/low_mtp3/formal_three_seed_20261022/analysis_patch_baseline/test_terminal_formal_multiseed_analysis.py"
+    }
+  },
+  "targeted_regression": {
+    "command": ".vllm-venv/bin/python -m pytest -q tests/test_terminal_formal_multiseed_analysis.py",
+    "passed": 3,
+    "failed": 0,
+    "coverage": "Known costs still sum; missing costs remain unavailable in JSON/CSV/Markdown."
+  }
+}

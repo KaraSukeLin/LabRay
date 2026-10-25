@@ -1,0 +1,14 @@
+{
+  "method": "SciPy percentile paired question bootstrap",
+  "strata": "task separately, fixed subject counts within MMMU-Pro",
+  "resamples": 999,
+  "seed": 20261016,
+  "family_size": 300,
+  "family_confidence": 0.9998333333333334,
+  "comparison": "candidate minus BF16 within one decoding mode",
+  "harmful_flip": "BF16 correct and candidate incorrect, divided by all questions",
+  "recovery_flip": "BF16 incorrect and candidate correct, divided by all questions",
+  "answer_flip": "parsed option differs for MMMU; exact stripped response differs for IFEval",
+  "extraction": "official MMMU random fallback, identically seeded by question ID",
+  "smoke": true
+}

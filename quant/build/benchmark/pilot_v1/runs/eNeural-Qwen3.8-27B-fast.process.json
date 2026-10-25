@@ -1,0 +1,25 @@
+{
+  "model": "eNeural-Qwen3.8-27B-fast",
+  "gpu": 2,
+  "command": [
+    "/root/projects/quant/.modelopt-venv/bin/python",
+    "-u",
+    "/root/projects/quant/src/benchmark.py",
+    "run",
+    "--model",
+    "eNeural-Qwen3.8-27B-fast",
+    "--config",
+    "/root/projects/quant/assets/benchmark_config.json",
+    "--data",
+    "/root/projects/quant/assets/benchmark/pilot_v1",
+    "--output",
+    "/root/projects/quant/build/benchmark/pilot_v1/runs/eNeural-Qwen3.8-27B-fast",
+    "--long-max-tokens",
+    "4096",
+    "--long-ids",
+    "/root/projects/quant/assets/benchmark/pilot_v1/long_ids.json"
+  ],
+  "exit_code": 0,
+  "start_offset_seconds": 0.0026147477328777313,
+  "process_wall_seconds": 14997.504489168525
+}

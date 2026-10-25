@@ -1,0 +1,138 @@
+{
+  "detected_utc": "2026-10-17T14:54:58.703522+00:00",
+  "reason": "Retained pre-pause controller started an out-of-scope 8192 stage after the authorized CPU merge; no new GPU command was issued by the report analysis scripts. The retained controller should have been stopped before merging.",
+  "controller": {
+    "pid": 9718,
+    "ppid": 1,
+    "pgid": 9717,
+    "args": ".modelopt-venv/bin/python -u -"
+  },
+  "processes": [
+    {
+      "pid": 9718,
+      "ppid": 1,
+      "pgid": 9717,
+      "args": ".modelopt-venv/bin/python -u -"
+    },
+    {
+      "pid": 22447,
+      "ppid": 9718,
+      "pgid": 9717,
+      "args": "/root/projects/quant/.modelopt-venv/bin/python -u src/run_benchmarks.py --data assets/benchmark/tail_8192 --per-model-data --config assets/benchmark_8192_config.json --output build/benchmark/pilot_v1/tail_8192_runs --gpus 0 1 2 3 4"
+    },
+    {
+      "pid": 22527,
+      "ppid": 22447,
+      "pgid": 9717,
+      "args": "nvidia-smi --query-gpu=timestamp,index,utilization.gpu,memory.used,power.draw,temperature.gpu --format=csv -l 10"
+    },
+    {
+      "pid": 22533,
+      "ppid": 22447,
+      "pgid": 9717,
+      "args": "/root/projects/quant/.modelopt-venv/bin/python -u /root/projects/quant/src/benchmark.py run --model Qwen-Qwen3.8-27B --config /root/projects/quant/assets/benchmark_8192_config.json --data /root/projects/quant/assets/benchmark/tail_8192/Qwen-Qwen3.8-27B --output /root/projects/quant/build/benchmark/pilot_v1/tail_8192_runs/Qwen-Qwen3.8-27B"
+    },
+    {
+      "pid": 22534,
+      "ppid": 22447,
+      "pgid": 9717,
+      "args": "/root/projects/quant/.modelopt-venv/bin/python -u /root/projects/quant/src/benchmark.py run --model eNeural-Qwen3.8-27B-fast --config /root/projects/quant/assets/benchmark_8192_config.json --data /root/projects/quant/assets/benchmark/tail_8192/eNeural-Qwen3.8-27B-fast --output /root/projects/quant/build/benchmark/pilot_v1/tail_8192_runs/eNeural-Qwen3.8-27B-fast"
+    },
+    {
+      "pid": 22535,
+      "ppid": 22447,
+      "pgid": 9717,
+      "args": "/root/projects/quant/.modelopt-venv/bin/python -u /root/projects/quant/src/benchmark.py run --model Qwen-Qwen3.8-27B-FP8 --config /root/projects/quant/assets/benchmark_8192_config.json --data /root/projects/quant/assets/benchmark/tail_8192/Qwen-Qwen3.8-27B-FP8 --output /root/projects/quant/build/benchmark/pilot_v1/tail_8192_runs/Qwen-Qwen3.8-27B-FP8"
+    },
+    {
+      "pid": 22536,
+      "ppid": 22447,
+      "pgid": 9717,
+      "args": "/root/projects/quant/.modelopt-venv/bin/python -u /root/projects/quant/src/benchmark.py run --model nvidia-Qwen3.8-27B-NVFP4 --config /root/projects/quant/assets/benchmark_8192_config.json --data /root/projects/quant/assets/benchmark/tail_8192/nvidia-Qwen3.8-27B-NVFP4 --output /root/projects/quant/build/benchmark/pilot_v1/tail_8192_runs/nvidia-Qwen3.8-27B-NVFP4"
+    },
+    {
+      "pid": 22537,
+      "ppid": 22447,
+      "pgid": 9717,
+      "args": "/root/projects/quant/.modelopt-venv/bin/python -u /root/projects/quant/src/benchmark.py run --model RedHatAI-Qwen3.8-27B-NVFP4 --config /root/projects/quant/assets/benchmark_8192_config.json --data /root/projects/quant/assets/benchmark/tail_8192/RedHatAI-Qwen3.8-27B-NVFP4 --output /root/projects/quant/build/benchmark/pilot_v1/tail_8192_runs/RedHatAI-Qwen3.8-27B-NVFP4"
+    },
+    {
+      "pid": 23384,
+      "ppid": 22535,
+      "pgid": 9717,
+      "args": "/root/projects/quant/.modelopt-venv/bin/python -c from multiprocessing.resource_tracker import main;main(54)"
+    },
+    {
+      "pid": 23385,
+      "ppid": 22535,
+      "pgid": 9717,
+      "args": "VLLM::EngineCore"
+    },
+    {
+      "pid": 23405,
+      "ppid": 22534,
+      "pgid": 9717,
+      "args": "/root/projects/quant/.modelopt-venv/bin/python -c from multiprocessing.resource_tracker import main;main(54)"
+    },
+    {
+      "pid": 23406,
+      "ppid": 22534,
+      "pgid": 9717,
+      "args": "VLLM::EngineCore"
+    },
+    {
+      "pid": 23419,
+      "ppid": 22533,
+      "pgid": 9717,
+      "args": "/root/projects/quant/.modelopt-venv/bin/python -c from multiprocessing.resource_tracker import main;main(54)"
+    },
+    {
+      "pid": 23420,
+      "ppid": 22533,
+      "pgid": 9717,
+      "args": "VLLM::EngineCore"
+    },
+    {
+      "pid": 23436,
+      "ppid": 22536,
+      "pgid": 9717,
+      "args": "/root/projects/quant/.modelopt-venv/bin/python -c from multiprocessing.resource_tracker import main;main(54)"
+    },
+    {
+      "pid": 23437,
+      "ppid": 22536,
+      "pgid": 9717,
+      "args": "VLLM::EngineCore"
+    },
+    {
+      "pid": 23480,
+      "ppid": 22537,
+      "pgid": 9717,
+      "args": "/root/projects/quant/.modelopt-venv/bin/python -c from multiprocessing.resource_tracker import main;main(54)"
+    },
+    {
+      "pid": 23481,
+      "ppid": 22537,
+      "pgid": 9717,
+      "args": "VLLM::EngineCore"
+    }
+  ],
+  "formal_results_include_these_outputs": false,
+  "raw_outputs": "build/benchmark/pilot_v1/interrupted_unexpected_8192/runs",
+  "action": "SIGTERM all retained-controller descendants; inspect remaining PIDs separately",
+  "confirmed_stopped_utc": "2026-10-17T14:56:00.502771+00:00",
+  "remaining_compute_apps": "gpu_uuid, pid, process_name, used_gpu_memory [MiB]\n",
+  "saved_answers_by_model": {
+    "Qwen-Qwen3.8-27B": 5,
+    "Qwen-Qwen3.8-27B-FP8": 3,
+    "RedHatAI-Qwen3.8-27B-NVFP4": 3,
+    "eNeural-Qwen3.8-27B-fast": 3,
+    "nvidia-Qwen3.8-27B-NVFP4": 3
+  },
+  "saved_answers": 17,
+  "saved_output_tokens": 113924,
+  "workers_start_utc": "2026-10-17T14:28:03+00:00",
+  "approx_worker_wall_hours": 0.4488065338888889,
+  "approx_occupied_gpu_hours": 2.2440326694444446,
+  "timing_limit": "Approximate from observed process starts and stop request; no completed launcher ledger, initialization included"
+}

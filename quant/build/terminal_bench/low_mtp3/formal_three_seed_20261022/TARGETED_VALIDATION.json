@@ -1,0 +1,33 @@
+{
+  "recorded_at_epoch": 1792634472.119989,
+  "runner_optimization_evidence": {
+    "source": "build/terminal_bench/low_mtp3/formal_20261021/RUNNER_AUDIT.json",
+    "live_release_simulation_seconds": 570,
+    "batch_barrier_simulation_seconds": 600,
+    "same_model_service_batch": 3,
+    "simulated_loads_for_15_trials": 5,
+    "one_trial_per_load_baseline": 15,
+    "interpretation": "Deterministic scheduler simulation, not a measured GPU benchmark."
+  },
+  "existing_scheduler_regressions": {
+    "passed": 21,
+    "failed": 0,
+    "source": "RUNNER_AUDIT.json"
+  },
+  "new_targeted_cpu_regressions": {
+    "command": ".vllm-venv/bin/python -m pytest -q tests/test_terminal_formal_multiseed_analysis.py tests/test_agentic_fidelity.py",
+    "passed": 4,
+    "failed": 0
+  },
+  "syntax_check": {
+    "command": ".harbor-venv/bin/python -m py_compile src/terminal_formal_multiseed_orchestrator.py src/terminal_formal_multiseed_analysis.py",
+    "passed": true
+  },
+  "live_orchestrator_check": {
+    "live_seed_one_controller_detected": true,
+    "queued_first_seed_evaluable_cells": 180,
+    "expected_first_seed_evaluable_cells": 180
+  },
+  "smoke_rerun": false,
+  "gpu_test_rerun": false
+}

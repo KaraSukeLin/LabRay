@@ -1,0 +1,66 @@
+[
+  {
+    "model": "Qwen-Qwen3.8-27B",
+    "config_download_revision": "1d4bf0f2ff6012fd82039f2fa52739d0dd7c60c0",
+    "config_sha256": "191e0af232104ed8b65258cf3fb2b842e288008baca7633c11b82a1ac7203aab",
+    "tokenizer_sha256": "0997f410c57a1f4e53b09e4be8f4a172d90edd9564368fb0847030937229b9f3",
+    "weight_bytes": 55563006776,
+    "quant_method": "none"
+  },
+  {
+    "model": "Qwen-Qwen3.8-27B-FP8",
+    "config_download_revision": "017b9c7af6b5689d5dd426a76e0bc077eb5ca20a",
+    "config_sha256": "74227dd615bf1ea975aa676bdf355a0379858c12f394b5365cd9dfa5fc2c70bc",
+    "tokenizer_sha256": "0997f410c57a1f4e53b09e4be8f4a172d90edd9564368fb0847030937229b9f3",
+    "weight_bytes": 30866866928,
+    "quant_method": "fp8"
+  },
+  {
+    "model": "RadixArk-Qwen3.8-27B-NVFP4",
+    "config_download_revision": "319f741cce68d7914884900c138a1fbb70a42f30",
+    "config_sha256": "7ff41ec6f96ad50efea3c92751cd261b63839d39936eb6e6ffc9066db8672740",
+    "tokenizer_sha256": "0997f410c57a1f4e53b09e4be8f4a172d90edd9564368fb0847030937229b9f3",
+    "weight_bytes": 21921697280,
+    "quant_method": "modelopt"
+  },
+  {
+    "model": "RadixArk-Qwen3.8-27B-NVFP4-BF16-LMHead",
+    "config_download_revision": "009632fef96dd349150baa780c984e62e70e91fe",
+    "config_sha256": "66402a06352ac861bc9012a26678e6d5e11a5fd22180165fc19c8a27d3a9e079",
+    "tokenizer_sha256": "0997f410c57a1f4e53b09e4be8f4a172d90edd9564368fb0847030937229b9f3",
+    "weight_bytes": 23749332688,
+    "quant_method": "modelopt"
+  },
+  {
+    "model": "RedHatAI-Qwen3.8-27B-NVFP4",
+    "config_download_revision": "2889ddeeda282f17fc9e159a42125e535159a5e5",
+    "config_sha256": "f88aad53f300b6445ca79249c9c98ec45f82576bfec27f7354ba1729d6788776",
+    "tokenizer_sha256": "06b9509352d2af50381ab2247e083b80d32d5c0aba91c272ca9ff729b6a0e523",
+    "weight_bytes": 24688495864,
+    "quant_method": "compressed-tensors"
+  },
+  {
+    "model": "eNeural-Qwen3.8-27B-fast",
+    "config_download_revision": "284b37dd7b7a5e0071268c0f17fbbb47e4f09b17",
+    "config_sha256": "c8caf1237022d0c475c9b0b406db101f962a98520cde0e592f5c871edb2858c4",
+    "tokenizer_sha256": "0997f410c57a1f4e53b09e4be8f4a172d90edd9564368fb0847030937229b9f3",
+    "weight_bytes": 23752003280,
+    "quant_method": "compressed-tensors"
+  },
+  {
+    "model": "nvidia-Qwen3.8-27B-NVFP4",
+    "config_download_revision": "482ca0f3832238542f8f5295dde86b5f22711d80",
+    "config_sha256": "71fa01bb64de20971045cd82a82c0ebb25a54e1b0a3f09ef23cf5479e9c54df8",
+    "tokenizer_sha256": "0997f410c57a1f4e53b09e4be8f4a172d90edd9564368fb0847030937229b9f3",
+    "weight_bytes": 21921697280,
+    "quant_method": "modelopt"
+  },
+  {
+    "model": "unsloth-Qwen3.8-27B-NVFP4",
+    "config_download_revision": "f0b7c9e722f5565102fff8481c99e4d86ae099c7",
+    "config_sha256": "1b3c71868d1299e52df6fc907deb202d5132b1ef0f72aae0ef6d15185dd53a5c",
+    "tokenizer_sha256": "06b9509352d2af50381ab2247e083b80d32d5c0aba91c272ca9ff729b6a0e523",
+    "weight_bytes": 23417592488,
+    "quant_method": "compressed-tensors"
+  }
+]

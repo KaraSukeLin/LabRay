@@ -1,0 +1,103 @@
+{
+  "status": "ok",
+  "model": "eNeural-Qwen3.8-27B-fast",
+  "smoke": true,
+  "limit_per_task": 1,
+  "max_tokens_override": 128,
+  "tasks": [
+    "ifeval",
+    "mmmu_standard",
+    "mmmu_vision"
+  ],
+  "questions": 3,
+  "seconds": 65.02061450108886,
+  "initialization_seconds": 47.058013405650854,
+  "speculative_config": {
+    "method": "mtp",
+    "num_speculative_tokens": 2
+  },
+  "speculative_metrics": [
+    {
+      "name": "vllm:spec_decode_num_drafts",
+      "labels": {
+        "model_name": "/root/model/eNeural-Qwen3.8-27B-fast",
+        "engine": "0"
+      },
+      "value": 155
+    },
+    {
+      "name": "vllm:spec_decode_num_draft_tokens",
+      "labels": {
+        "model_name": "/root/model/eNeural-Qwen3.8-27B-fast",
+        "engine": "0"
+      },
+      "value": 310
+    },
+    {
+      "name": "vllm:spec_decode_num_accepted_tokens",
+      "labels": {
+        "model_name": "/root/model/eNeural-Qwen3.8-27B-fast",
+        "engine": "0"
+      },
+      "value": 230
+    },
+    {
+      "name": "vllm:spec_decode_num_accepted_tokens_per_pos",
+      "labels": {
+        "engine": "0",
+        "model_name": "/root/model/eNeural-Qwen3.8-27B-fast"
+      },
+      "values": [
+        129,
+        101
+      ]
+    }
+  ],
+  "config": {
+    "models": [
+      "Qwen-Qwen3.8-27B",
+      "Qwen-Qwen3.8-27B-FP8",
+      "eNeural-Qwen3.8-27B-fast",
+      "nvidia-Qwen3.8-27B-NVFP4",
+      "RedHatAI-Qwen3.8-27B-NVFP4",
+      "unsloth-Qwen3.8-27B-NVFP4",
+      "RadixArk-Qwen3.8-27B-NVFP4-BF16-LMHead",
+      "rdtand-Qwen3.8-27B-PrismaAQUA-5.5bit-vllm",
+      "ModelOpt-Qwen3.8-27B-AutoQuantize-5.5bit"
+    ],
+    "baseline": "Qwen-Qwen3.8-27B",
+    "enable_thinking": false,
+    "temperature": 0,
+    "top_p": 1,
+    "top_k": -1,
+    "min_p": 0.0,
+    "presence_penalty": 0.0,
+    "repetition_penalty": 1.0,
+    "seed": 20261016,
+    "max_tokens": {
+      "ifeval": 4096,
+      "mmmu_standard": 1024,
+      "mmmu_vision": 1024
+    },
+    "max_model_len": 65536,
+    "max_images": 35,
+    "min_pixels": 65536,
+    "max_pixels": 16777216,
+    "mtp": true,
+    "kv_cache_dtype": "bfloat16",
+    "bootstrap_resamples": 19999,
+    "google_ifeval_revision": "3ef52111c1fabc301880818f5a547570e926a76b",
+    "ifeval_dataset_revision": "3ef52111c1fabc301880818f5a547570e926a76b",
+    "ifeval_dataset_source": "google-research/google-research/instruction_following_eval/data/input_data.jsonl",
+    "ifeval_hf_reference_revision": "966cd89545d6b6acfd7638bc708b98261ca58e84",
+    "mmmu_dataset_revision": "0d7426df4ccb3d8704a992fe6850abee7c262127"
+  },
+  "config_sha256": "26af179e20e406b8039c8a9d931d8e4c94b020c6775febb4245db53b572a540a",
+  "dataset_sha256": "c93381c86eed2eb407e4581346b5f814f3e84083c88ad8a54653074d0ac15103",
+  "source_sha256": "0aebc1e51f4d52589d6f22464c1f6a650e2c11e4bb8404f886bff783a5ad5726",
+  "environment": {
+    "vllm": "0.31.0+cu129",
+    "torch": "2.13.0+cu129",
+    "transformers": "5.17.0"
+  }
+}

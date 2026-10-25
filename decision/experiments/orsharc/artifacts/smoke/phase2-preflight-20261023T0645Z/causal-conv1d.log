@@ -1,0 +1,36 @@
++ uv pip install --python experiments/orsharc/artifacts/env/elephant/bin/python -c /root/model/orsharc-elephant/constraints.txt --no-build-isolation causal-conv1d
+Using Python 3.12.14 environment at: experiments/orsharc/artifacts/env/elephant
+Resolved 28 packages in 1.11s
+   Building causal-conv1d==1.7.0
+error: Failed to build `causal-conv1d==1.7.0`
+  cause: The build backend returned an error
+  cause: Call to `setuptools.build_meta.build_wheel` failed (exit status: 1)
+
+         [stdout]
+
+
+         torch.__version__  = 2.8.0+cu128
+
+
+
+         [stderr]
+         /root/projects/decision/experiments/orsharc/artifacts/env/elephant/lib/python3.12/site-packages/setuptools/_vendor/wheel/bdist_wheel.py:4: FutureWarning: The 'wheel' package is no longer the canonical location of the 'bdist_wheel' command, and will be removed in a future release. Please update to setuptools v70.1 or later which contains an integrated version of this command.
+           warn(
+         <string>:122: UserWarning: causal_conv1d was requested, but nvcc was not found.  Are you sure your environment has nvcc available?  If you're installing within a container from https://hub.docker.com/r/pytorch/pytorch, only images whose names contain 'devel' will provide nvcc.
+         Traceback (most recent call last):
+           File "<string>", line 11, in <module>
+           File "/root/projects/decision/experiments/orsharc/artifacts/env/elephant/lib/python3.12/site-packages/setuptools/build_meta.py", line 438, in build_wheel
+             return _build(['bdist_wheel'])
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+           File "/root/projects/decision/experiments/orsharc/artifacts/env/elephant/lib/python3.12/site-packages/setuptools/build_meta.py", line 429, in _build
+             return self._build_with_temp_dir(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+           File "/root/projects/decision/experiments/orsharc/artifacts/env/elephant/lib/python3.12/site-packages/setuptools/build_meta.py", line 410, in _build_with_temp_dir
+             self.run_setup()
+           File "/root/projects/decision/experiments/orsharc/artifacts/env/elephant/lib/python3.12/site-packages/setuptools/build_meta.py", line 317, in run_setup
+             exec(code, locals())  # noqa: S102 # exec is intentional here
+             ^^^^^^^^^^^^^^^^^^^^
+           File "<string>", line 185, in <module>
+         NameError: name 'bare_metal_version' is not defined
+
+hint: Build failures usually indicate a problem with the package or the build environment

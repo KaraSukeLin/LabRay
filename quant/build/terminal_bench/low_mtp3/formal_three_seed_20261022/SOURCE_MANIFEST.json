@@ -1,0 +1,22 @@
+{
+  "created_at_epoch": 1792635007.6994176,
+  "files": {
+    "src/terminal_formal_scheduler.py": "347db1b437cfc54c435b7984ba5c2312166ae913d61aaea632a6a09ce628aec8",
+    "src/terminal_formal_analysis.py": "43cb5dc3620c6c57b548e5a998f717b331d6317ed08c0c0c3a2f279b4f7e6803",
+    "src/terminal_formal_multiseed_analysis.py": "40407af7d5d0e15626c3caadab3a023abcbc93b9b2975d71c04c251816870313",
+    "src/terminal_formal_multiseed_orchestrator.py": "22a6af0165b8004731230cd5efa3f950432c60bec9edbb3bb92f05d9ffb38ecc",
+    "src/agentic_fidelity.py": "1feaa4733394b7851887a784a530ca42820518edf2aca548afc5368350ffcbec",
+    "tests/test_terminal_formal_scheduler.py": "24af311dff49a9107a89fee372cd7c921ef7464ed5291454cde7e2a61f917d23",
+    "tests/test_terminal_formal_multiseed_analysis.py": "fe1f771e6f4dde8041f6da0c040a5fcf8836464aa64b58f969926d81ee548fd6",
+    "tests/test_agentic_fidelity.py": "5dbfa857c07eff2116b323ce7de98a82299ebc9521b70713a32c6dda03fe2034",
+    "assets/terminal_bench_low_mtp3.json": "9cb73cfb84f5368cef045a029a89ffd43ee2ab0843f607631975480fd1288fd8",
+    "build/terminal_bench/low_mtp3/formal_three_seed_20261022/CONFIG_THREE_SEEDS.json": "cb2bbe34c6a337cb4b27065aa8169828bf2b643f3319a70394f368a6ca2d1701",
+    "build/terminal_bench/low_mtp3/formal_three_seed_20261022/configs/config_seed_20261020.json": "9cb73cfb84f5368cef045a029a89ffd43ee2ab0843f607631975480fd1288fd8",
+    "build/terminal_bench/low_mtp3/formal_three_seed_20261022/configs/config_seed_20261021.json": "4ba8f21789dac9c0262c883ec257d2800a7bc4b94454e4eea64e33dec799c1ac",
+    "build/terminal_bench/low_mtp3/formal_three_seed_20261022/configs/config_seed_20261022.json": "18e9226e2e1f0dfe6f2b73f798bd9328979f908564a466b1c2df40b149e8c41c",
+    "build/terminal_bench/low_mtp3/formal_three_seed_20261022/PROTOCOL.json": "752c5068aab6be98257cbe083f299f61642e4aee78810d39039f1c15816db87b",
+    "build/terminal_bench/low_mtp3/formal_three_seed_20261022/PROTOCOL_AMENDMENT.json": "d4ff960debfb7ebe7dfa577c0e293306a18773c0b85d2e216b9fc1cae8257679"
+  },
+  "note": "The root low_mtp3 asset is left unchanged while seed 20261020 runs. The orchestrator installs the matching frozen single-seed config only after each prior seed is terminal, and restores CONFIG_THREE_SEEDS.json after all three runs. Each run PLAN/source_snapshot records its actual config. The source config files remain byte-for-byte hash-tracked snapshots. Their historical one-seed/267-trial description is superseded by PROTOCOL_AMENDMENT.json, which records the user-authorized three-seed/801-slot design without changing runtime sampling or timeouts.",
+  "refreshed_at_epoch": 1792640311.6499088
+}

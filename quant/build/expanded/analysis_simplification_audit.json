@@ -1,0 +1,48 @@
+{
+  "passed": true,
+  "change": "Remove language groups that duplicate the one-to-one domain/language mapping; retain all domain, context and joint groups",
+  "checks": [
+    {
+      "file": "comparison.csv",
+      "before_rows": 8,
+      "after_rows": 8,
+      "all_retained_rows_exact": true
+    },
+    {
+      "file": "grouped.csv",
+      "before_rows": 192,
+      "after_rows": 160,
+      "all_retained_rows_exact": true
+    },
+    {
+      "file": "intervals.csv",
+      "before_rows": 1152,
+      "after_rows": 960,
+      "all_retained_rows_exact": true
+    },
+    {
+      "file": "fast_pairwise.csv",
+      "before_rows": 500,
+      "after_rows": 420,
+      "all_retained_rows_exact": true
+    },
+    {
+      "file": "leave_one_domain_out.csv",
+      "before_rows": 80,
+      "after_rows": 80,
+      "all_retained_rows_exact": true
+    },
+    {
+      "file": "document_stability.csv",
+      "before_rows": 12,
+      "after_rows": 12,
+      "all_retained_rows_exact": true
+    },
+    {
+      "file": "round1_comparison.csv",
+      "before_rows": 32,
+      "after_rows": 32,
+      "all_retained_rows_exact": true
+    }
+  ]
+}

@@ -1,0 +1,227 @@
+{
+  "model": "ModelOpt-Qwen3.8-27B-AutoQuantize-5.5bit",
+  "model_path": "/root/model/ModelOpt-Qwen3.8-27B-AutoQuantize-5.5bit",
+  "status": "ok",
+  "environment": {
+    "vllm": "0.31.0+cu129",
+    "torch": "2.13.0+cu129",
+    "transformers": "5.17.0",
+    "compressed-tensors": "0.17.0"
+  },
+  "gpu": "NVIDIA H100 80GB HBM3",
+  "cuda": "12.9",
+  "mtp": false,
+  "kv_cache_dtype": "bfloat16",
+  "quant_method": "modelopt",
+  "loaded": true,
+  "logprob_format": "dense",
+  "tokens_sha256": "0d69d61d948a25221c739420e4ab577679488c444842cd063556c434ba2c7f04",
+  "source_sha256": "90fcfa567abee03b3af1c90f6f1afcab5e0bccfa5ed3d09f14ca61198a2eb0dd",
+  "v2_model_runner": "1",
+  "tokens": 2304,
+  "ppl": 3.5277414238172486,
+  "reference_ppl": 3.5277414238172486,
+  "ppl_delta": 0.0,
+  "kl_bf16_to_candidate": 0.0,
+  "top1_flip_rate": 0.0,
+  "vocab_size": 248320,
+  "distribution_sha256": [
+    "30342afb9f8360c8b0977cdc948691df9c3eb4f5a020a503259bc46687a22523",
+    "a9b6de6c75f6720728ba5d5c03dc1a3d8b7dbc8ea6b39d35eb13e722516935e0",
+    "05bd77fe5e752e7dea5769b6d96a8e141cb063115a767b3dcf62409a5738bcc5",
+    "bfb641a92191cbac812c99c195708cbfb31f6270861b3d957b2eed8b7929eb12",
+    "71a7bc7b6fbee56edce2081b908a0a718518a0a3911f65959a8b7c848b8712d9",
+    "fbfbd1b65ec8b6efc567d19c1a2fc4a1464239f05b7c59bf09756c965410031f",
+    "cbf6e31fa5eebab3afb51bf0c779ac4c7b0225c885a0560a23f17308b5e9830d",
+    "c2a548d9820f620b1746ccd2d3032aa0abe85723d156998fd0c625b6111698f6",
+    "fb743694829b4cf895342d085ade787fa8326b248872e4cf4dbac912840fddbe",
+    "d179c0f2eb151e576ee48b390d380820ae026bf72cd0111109b5418a5d6080b6",
+    "0e13ef4936afdf0d62053cf899d5e328eff2d6446d1332ffd2fc27dc258f9d9d",
+    "72261b4f76b80d58b4a2c9a220ef880e9b72f63a7b1742d5ede3312f4cd584b5"
+  ],
+  "basic_inference_token_ids": [
+    [
+      198
+    ],
+    [
+      6
+    ],
+    [
+      198
+    ],
+    [
+      11
+    ],
+    [
+      13
+    ],
+    [
+      6535
+    ],
+    [
+      8
+    ],
+    [
+      13
+    ],
+    [
+      96797
+    ],
+    [
+      64
+    ],
+    [
+      696
+    ],
+    [
+      17878
+    ]
+  ],
+  "documents": [
+    {
+      "tokens": 192,
+      "nll": 136.22165969785857,
+      "ref_nll": 136.22165969785857,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "code-128-00",
+      "document_id": "code:Lib/test/test_free_threading/test_syslog.py",
+      "domain": "code",
+      "language": "Python",
+      "context": 128
+    },
+    {
+      "tokens": 192,
+      "nll": 58.28489259307918,
+      "ref_nll": 58.28489259307918,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "code-2048-00",
+      "document_id": "code:Lib/test/test_timeit.py",
+      "domain": "code",
+      "language": "Python",
+      "context": 2048
+    },
+    {
+      "tokens": 192,
+      "nll": 60.95854395102697,
+      "ref_nll": 60.95854395102697,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "code-512-00",
+      "document_id": "code:Lib/test/test_ctypes/test_random_things.py",
+      "domain": "code",
+      "language": "Python",
+      "context": 512
+    },
+    {
+      "tokens": 192,
+      "nll": 472.6806985778385,
+      "ref_nll": 472.6806985778385,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "knowledge_en-128-00",
+      "document_id": "knowledge_en:4562285",
+      "domain": "knowledge_en",
+      "language": "en",
+      "context": 128
+    },
+    {
+      "tokens": 192,
+      "nll": 368.4389669742086,
+      "ref_nll": 368.4389669742086,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "knowledge_en-2048-00",
+      "document_id": "knowledge_en:4985536",
+      "domain": "knowledge_en",
+      "language": "en",
+      "context": 2048
+    },
+    {
+      "tokens": 192,
+      "nll": 272.9768563027319,
+      "ref_nll": 272.9768563027319,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "knowledge_en-512-00",
+      "document_id": "knowledge_en:4906348",
+      "domain": "knowledge_en",
+      "language": "en",
+      "context": 512
+    },
+    {
+      "tokens": 192,
+      "nll": 350.38361304026694,
+      "ref_nll": 350.38361304026694,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "knowledge_zh-128-00",
+      "document_id": "knowledge_zh:144470",
+      "domain": "knowledge_zh",
+      "language": "zh",
+      "context": 128
+    },
+    {
+      "tokens": 192,
+      "nll": 311.6141967091512,
+      "ref_nll": 311.6141967091512,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "knowledge_zh-2048-00",
+      "document_id": "knowledge_zh:3417",
+      "domain": "knowledge_zh",
+      "language": "zh",
+      "context": 2048
+    },
+    {
+      "tokens": 192,
+      "nll": 472.5704475230159,
+      "ref_nll": 472.5704475230159,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "knowledge_zh-512-00",
+      "document_id": "knowledge_zh:930883",
+      "domain": "knowledge_zh",
+      "language": "zh",
+      "context": 512
+    },
+    {
+      "tokens": 192,
+      "nll": 134.06336839561936,
+      "ref_nll": 134.06336839561936,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "math-128-00",
+      "document_id": "math:Mathlib/Algebra/Order/Nonneg/Floor.lean",
+      "domain": "math",
+      "language": "en-Lean",
+      "context": 128
+    },
+    {
+      "tokens": 192,
+      "nll": 93.97251961518805,
+      "ref_nll": 93.97251961518805,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "math-2048-00",
+      "document_id": "math:Mathlib/Algebra/Homology/HomologicalComplexLimits.lean",
+      "domain": "math",
+      "language": "en-Lean",
+      "context": 2048
+    },
+    {
+      "tokens": 192,
+      "nll": 172.38990663789775,
+      "ref_nll": 172.38990663789775,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "math-512-00",
+      "document_id": "math:Mathlib/AlgebraicTopology/SimplicialSet/Subdivision.lean",
+      "domain": "math",
+      "language": "en-Lean",
+      "context": 512
+    }
+  ],
+  "elapsed_seconds": 53.79710507392883
+}

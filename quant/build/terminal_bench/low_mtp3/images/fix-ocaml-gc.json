@@ -1,0 +1,124 @@
+{
+  "pinned": {
+    "tag": "alexgshaw/fix-ocaml-gc:20251031",
+    "digest": "alexgshaw/fix-ocaml-gc@sha256:66a1e2293076c9ef27a118611b3089a6284fdf467fd4675592d0cce7d11e5b0b",
+    "resolved_at": 1792524213.001655
+  },
+  "manifest": "/root/projects/quant/build/terminal_bench/low_mtp3/images/blobs/sha256-66a1e2293076c9ef27a118611b3089a6284fdf467fd4675592d0cce7d11e5b0b",
+  "config_file": "/root/projects/quant/build/terminal_bench/low_mtp3/images/blobs/sha256-64b43d0dbddfbc0291d03486954c3def53d5d19c67426c8f758631d5dd9d7d85",
+  "config": {
+    "architecture": "amd64",
+    "config": {
+      "Env": [
+        "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
+      ],
+      "Cmd": [
+        "/bin/bash"
+      ],
+      "WorkingDir": "/app",
+      "Labels": {
+        "com.docker.compose.project": "harbor-build-fix-ocaml-gc",
+        "com.docker.compose.service": "task",
+        "com.docker.compose.version": "2.35.1",
+        "org.opencontainers.image.ref.name": "ubuntu",
+        "org.opencontainers.image.version": "24.04"
+      }
+    },
+    "created": "2025-10-28T22:07:07.91453874Z",
+    "history": [
+      {
+        "created": "2025-10-01T13:01:35.209126922Z",
+        "created_by": "/bin/sh -c #(nop)  ARG RELEASE",
+        "empty_layer": true
+      },
+      {
+        "created": "2025-10-01T13:01:35.239536352Z",
+        "created_by": "/bin/sh -c #(nop)  ARG LAUNCHPAD_BUILD_ARCH",
+        "empty_layer": true
+      },
+      {
+        "created": "2025-10-01T13:01:35.272673533Z",
+        "created_by": "/bin/sh -c #(nop)  LABEL org.opencontainers.image.ref.name=ubuntu",
+        "empty_layer": true
+      },
+      {
+        "created": "2025-10-01T13:01:35.298648213Z",
+        "created_by": "/bin/sh -c #(nop)  LABEL org.opencontainers.image.version=24.04",
+        "empty_layer": true
+      },
+      {
+        "created": "2025-10-01T13:01:37.490648801Z",
+        "created_by": "/bin/sh -c #(nop) ADD file:249778a1782b02a1c2bcf9f292f5778d81442a53c3de1958d712f10baf7e0b60 in / "
+      },
+      {
+        "created": "2025-10-01T13:01:37.838375075Z",
+        "created_by": "/bin/sh -c #(nop)  CMD [\"/bin/bash\"]",
+        "empty_layer": true
+      },
+      {
+        "created": "2025-10-22T02:31:16.720374204Z",
+        "created_by": "WORKDIR /app",
+        "comment": "buildkit.dockerfile.v0"
+      },
+      {
+        "created": "2025-10-28T22:06:30.745517793Z",
+        "created_by": "RUN /bin/sh -c apt update && apt install -y build-essential git gdb # buildkit",
+        "comment": "buildkit.dockerfile.v0"
+      },
+      {
+        "created": "2025-10-28T22:07:07.430271649Z",
+        "created_by": "RUN /bin/sh -c git clone https://github.com/sadiqj/ocaml/ && cd ocaml && git checkout tag_purposefully_broken_sweeping_changes # buildkit",
+        "comment": "buildkit.dockerfile.v0"
+      },
+      {
+        "created": "2025-10-28T22:07:07.91453874Z",
+        "created_by": "RUN /bin/sh -c rm -rf ocaml/.git # We don't want it cheating and just rolling back the recent changes # buildkit",
+        "comment": "buildkit.dockerfile.v0"
+      }
+    ],
+    "os": "linux",
+    "rootfs": {
+      "type": "layers",
+      "diff_ids": [
+        "sha256:073ec47a8c22dcaa4d6e5758799ccefe2f9bde943685830b1bf6fd2395f5eabc",
+        "sha256:e54d39dd357723fa47bd55e1fcadadd4e4882e84f0c323ad63413edd1a650020",
+        "sha256:4301ca2582783d1e24d10a36f7d8196f2be58370b25f12b94a099f3d19e3af84",
+        "sha256:ee239e6b556fc7f74a74a4b74137119b5812aac4caa267dc447ac5feafef107e",
+        "sha256:a774598c97ec78aa60b578e3f9f5e074c68a93c4d465117607a95e5bda435a0b"
+      ]
+    }
+  },
+  "layers": [
+    {
+      "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+      "size": 29723147,
+      "digest": "sha256:4b3ffd8ccb5201a0fc03585952effb4ed2d1ea5e704d2e7330212fb8b16c86a3",
+      "path": "/root/projects/quant/build/terminal_bench/low_mtp3/images/blobs/sha256-4b3ffd8ccb5201a0fc03585952effb4ed2d1ea5e704d2e7330212fb8b16c86a3"
+    },
+    {
+      "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+      "size": 93,
+      "digest": "sha256:9040135e24f8def558e39d9b4c5b54b721c749c33610ae4233bfab3ccb2c63b6",
+      "path": "/root/projects/quant/build/terminal_bench/low_mtp3/images/blobs/sha256-9040135e24f8def558e39d9b4c5b54b721c749c33610ae4233bfab3ccb2c63b6"
+    },
+    {
+      "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+      "size": 207369269,
+      "digest": "sha256:7a95f9abdbff02d0c51386fc8b20bf9ef124973b596b337294ecb201d17ce877",
+      "path": "/root/projects/quant/build/terminal_bench/low_mtp3/images/blobs/sha256-7a95f9abdbff02d0c51386fc8b20bf9ef124973b596b337294ecb201d17ce877"
+    },
+    {
+      "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+      "size": 528333157,
+      "digest": "sha256:5502f4618d3bb02dd00db32b97d76fb796b67999bb5640e18a025322c8250678",
+      "path": "/root/projects/quant/build/terminal_bench/low_mtp3/images/blobs/sha256-5502f4618d3bb02dd00db32b97d76fb796b67999bb5640e18a025322c8250678"
+    },
+    {
+      "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+      "size": 149,
+      "digest": "sha256:9dc0a3a34bff39bbf862d8936950eb5842fc267e39efc9aa8ea4447d76a1dee1",
+      "path": "/root/projects/quant/build/terminal_bench/low_mtp3/images/blobs/sha256-9dc0a3a34bff39bbf862d8936950eb5842fc267e39efc9aa8ea4447d76a1dee1"
+    }
+  ],
+  "time": 1792608842.7509146
+}

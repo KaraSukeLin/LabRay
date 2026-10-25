@@ -1,0 +1,19 @@
+{
+  "method": "kl_div",
+  "cost_model": "weight",
+  "cost": {
+    "excluded_module_name_patterns": [
+      "*visual*",
+      "*vision_tower*",
+      "*mtp*",
+      "*lm_head*"
+    ]
+  },
+  "cost_denominator_parameters": 24352522240.0,
+  "fixed_quantization_config": null,
+  "module_search_spaces": [],
+  "searchable_groups": 256,
+  "measured_quantized_candidates": 512,
+  "selected_effective_bits": 5.478834198982749,
+  "sensitivity_file_sha256": "5d93f11a9cbe7d38d68d8e71a35cb3d1d1e784a23b5b51520f0be17b39d151c0"
+}

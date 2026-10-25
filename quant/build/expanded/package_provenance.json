@@ -1,0 +1,72 @@
+[
+  {
+    "package": "vllm",
+    "version": "0.31.0+cu129",
+    "direct_url": {
+      "url": "https://github.com/vllm-project/vllm/releases/download/v0.31.0/vllm-0.31.0%2Bcu129-cp38-abi3-manylinux_2_28_x86_64.whl",
+      "archive_info": {}
+    }
+  },
+  {
+    "package": "torch",
+    "version": "2.13.0+cu129",
+    "direct_url": {
+      "url": "https://download.pytorch.org/whl/cu129/torch-2.13.0%2Bcu129-cp312-cp312-manylinux_2_28_x86_64.whl",
+      "archive_info": {}
+    }
+  },
+  {
+    "package": "torchvision",
+    "version": "0.28.0+cu129",
+    "direct_url": {
+      "url": "https://download.pytorch.org/whl/cu129/torchvision-0.28.0%2Bcu129-cp312-cp312-manylinux_2_28_x86_64.whl",
+      "archive_info": {}
+    }
+  },
+  {
+    "package": "torchaudio",
+    "version": "2.11.0+cu129",
+    "direct_url": {
+      "url": "https://download.pytorch.org/whl/cu129/torchaudio-2.11.0%2Bcu129-cp312-cp312-manylinux_2_28_x86_64.whl",
+      "archive_info": {}
+    }
+  },
+  {
+    "package": "torchcodec",
+    "version": "0.16.0+cu129",
+    "direct_url": {
+      "url": "https://download.pytorch.org/whl/cu129/torchcodec-0.16.0%2Bcu129-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+      "archive_info": {}
+    }
+  },
+  {
+    "package": "transformers",
+    "version": "5.17.0",
+    "direct_url": null
+  },
+  {
+    "package": "compressed-tensors",
+    "version": "0.17.0",
+    "direct_url": null
+  },
+  {
+    "package": "numpy",
+    "version": "2.3.5",
+    "direct_url": null
+  },
+  {
+    "package": "scipy",
+    "version": "1.18.0",
+    "direct_url": null
+  },
+  {
+    "package": "pyarrow",
+    "version": "23.0.1",
+    "direct_url": null
+  },
+  {
+    "package": "matplotlib",
+    "version": "3.11.2",
+    "direct_url": null
+  }
+]

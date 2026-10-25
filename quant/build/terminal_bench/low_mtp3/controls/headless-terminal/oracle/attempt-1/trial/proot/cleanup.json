@@ -1,0 +1,89 @@
+{
+  "before": [
+    {
+      "pid": 21239,
+      "start_ticks": "2308933668",
+      "exe": "/root/projects/quant/build/terminal_bench/diagnostics/proot_version_ab/downloads/proot",
+      "Name": "proot",
+      "State": "S (sleeping)",
+      "PPid": "51793",
+      "TracerPid": "0"
+    },
+    {
+      "pid": 23798,
+      "start_ticks": "2308936024",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/controls/headless-terminal/oracle/attempt-1/trial/proot/prooted-21239-rKSzeH",
+      "Name": "tmux: server",
+      "State": "S (sleeping)",
+      "PPid": "51793",
+      "TracerPid": "21239"
+    },
+    {
+      "pid": 23799,
+      "start_ticks": "2308936025",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/controls/headless-terminal/oracle/attempt-1/trial/proot/prooted-21239-rKSzeH",
+      "Name": "bash",
+      "State": "S (sleeping)",
+      "PPid": "23798",
+      "TracerPid": "21239"
+    },
+    {
+      "pid": 23836,
+      "start_ticks": "2308936127",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/controls/headless-terminal/oracle/attempt-1/trial/proot/prooted-21239-rKSzeH",
+      "Name": "bash",
+      "State": "S (sleeping)",
+      "PPid": "23798",
+      "TracerPid": "21239"
+    },
+    {
+      "pid": 23892,
+      "start_ticks": "2308936582",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/controls/headless-terminal/oracle/attempt-1/trial/proot/prooted-21239-rKSzeH",
+      "Name": "bash",
+      "State": "S (sleeping)",
+      "PPid": "23798",
+      "TracerPid": "21239"
+    },
+    {
+      "pid": 23905,
+      "start_ticks": "2308936685",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/controls/headless-terminal/oracle/attempt-1/trial/proot/prooted-21239-rKSzeH",
+      "Name": "bash",
+      "State": "S (sleeping)",
+      "PPid": "23798",
+      "TracerPid": "21239"
+    },
+    {
+      "pid": 23924,
+      "start_ticks": "2308936737",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/controls/headless-terminal/oracle/attempt-1/trial/proot/prooted-21239-rKSzeH",
+      "Name": "bash",
+      "State": "S (sleeping)",
+      "PPid": "23798",
+      "TracerPid": "21239"
+    },
+    {
+      "pid": 23979,
+      "start_ticks": "2308936840",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/controls/headless-terminal/oracle/attempt-1/trial/proot/prooted-21239-rKSzeH",
+      "Name": "bash",
+      "State": "S (sleeping)",
+      "PPid": "23798",
+      "TracerPid": "21239"
+    },
+    {
+      "pid": 23985,
+      "start_ticks": "2308936842",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/controls/headless-terminal/oracle/attempt-1/trial/proot/prooted-21239-rKSzeH",
+      "Name": "python",
+      "State": "S (sleeping)",
+      "PPid": "23979",
+      "TracerPid": "21239"
+    }
+  ],
+  "after": [],
+  "delete_requested": true,
+  "rootfs_retained_for_evidence": true,
+  "child_cpu": 2684.4569890000002
+}

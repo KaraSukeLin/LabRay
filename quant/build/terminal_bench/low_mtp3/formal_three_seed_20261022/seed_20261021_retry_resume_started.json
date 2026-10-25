@@ -1,0 +1,25 @@
+{
+  "time": 1792710326.0586228,
+  "queue_before": {
+    "ENVIRONMENT_FAIL": 12,
+    "MODEL_FAIL": 17,
+    "PASS": 93,
+    "PENDING": 11,
+    "TIMEOUT": 58,
+    "RUNNING": 0,
+    "all_rows": 191
+  },
+  "seed3_queue": {
+    "ENVIRONMENT_FAIL": 3,
+    "MODEL_FAIL": 25,
+    "PASS": 92,
+    "RUNNING": 2,
+    "TIMEOUT": 59,
+    "VERIFIER_FAIL": 2,
+    "PENDING": 0,
+    "all_rows": 183
+  },
+  "dispatch_policy": "dynamic free-GPU dispatch; seed2 frozen config loaded per worker",
+  "retry_attempts": 11,
+  "config_path": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_three_seed_20261022/configs/config_seed_20261021.json"
+}

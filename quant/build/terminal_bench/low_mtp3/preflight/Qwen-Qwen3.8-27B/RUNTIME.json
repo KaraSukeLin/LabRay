@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "services": [
+    {
+      "gpu": 0,
+      "model": "Qwen-Qwen3.8-27B",
+      "quantization": "None",
+      "mtp": 3,
+      "tp": 1,
+      "kv_dtype": "bfloat16",
+      "fp4_weight_only_marlin": false,
+      "source": "/root/projects/quant/build/terminal_bench/low_mtp3/preflight/Qwen-Qwen3.8-27B/services/gpu0/1792577059859819614/server.log"
+    }
+  ]
+}

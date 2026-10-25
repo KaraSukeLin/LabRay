@@ -1,0 +1,23 @@
+{
+  "passed": true,
+  "upstream_source_sha256": {
+    "build/autoquant/tools/google-research/instruction_following_eval/evaluation_main.py": "e6df07a04d25a0e7134933ba2400c26e0129a243e449c88df55043e583fc4b4a",
+    "build/autoquant/tools/google-research/instruction_following_eval/evaluation_lib.py": "35decc06000718487f44d7deafa6d3f48a8ec0886281edf40162c0265b7d248c",
+    "build/autoquant/tools/google-research/instruction_following_eval/instructions.py": "60e086f5342a03ce8e18b64bbcccf86308f523c08aa826707a562150a52f3edf",
+    "build/autoquant/tools/google-research/instruction_following_eval/instructions_registry.py": "ec92d72c264f6d906978613085db262356174300370a3fffe6fefd5969ce9cfc",
+    "build/autoquant/tools/google-research/instruction_following_eval/instructions_util.py": "a73797261eee5bf447e279d82a2b700b1bdd3cb1193412dbab1270a85832bc6b",
+    "build/autoquant/tools/MMMU/mmmu-pro/evaluate.py": "47e0928d9b786098a984d4c66ebee0e8cecd67732b955fbb6a31c2db78feb4cd",
+    "build/autoquant/tools/MMMU/mmmu-pro/prompts.yaml": "bc50ae312cbb94677b8c6e2c04f54f906741ebe20b9bbdd10c2debba18d9bc64",
+    "build/autoquant/tools/MMMU/mmmu-pro/infer/infer_transformers.py": "9f1bb70637d298088f2d081efadc53362a182d8616ccd189be9fa15caa680ad0"
+  },
+  "ifeval_questions_equal_to_google_repository": 541,
+  "mmmu_prompts_options_gold_subjects_equal": 3460,
+  "images_pixels_order_sha256_equal": 3778,
+  "google_cli_strict_and_loose_regraded": 702,
+  "official_mmmu_process_results_regraded": 1599,
+  "inference_run": false,
+  "runs": "build/benchmark/pilot_v1/combined_runs",
+  "data_audit_seconds": 190.51322412118316,
+  "scoring_replay_seconds": 13.177702847868204,
+  "total_seconds": 203.69092814996839
+}

@@ -1,0 +1,13 @@
+{
+  "command": [
+    ".modelopt-venv/bin/python",
+    "src/ifeval_modes.py",
+    "verify",
+    "--runs",
+    "build/benchmark/ifeval_modes_smoke_v1",
+    "--output",
+    "build/benchmark/ifeval_modes_validation/official_replay"
+  ],
+  "wall_seconds": 47.7309524230659,
+  "exit_code": 0
+}

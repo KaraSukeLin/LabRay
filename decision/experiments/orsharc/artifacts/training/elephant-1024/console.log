@@ -1,0 +1,172 @@
+2026-10-23 14:01:31,564 INFO train.sft loaded 1024 rows from /root/projects/decision/experiments/orsharc/artifacts/training/elephant-1024/data/train.jsonl (world size 1)
+2026-10-23 14:01:31,571 INFO train.sft eval set dev_select: 456 rows from /root/projects/decision/experiments/orsharc/artifacts/training/elephant-1024/data/dev_select.jsonl
+
+Loading weights:   0%|          | 0/427 [00:00<?, ?it/s]
+Loading weights:   0%|          | 1/427 [00:00<02:17,  3.10it/s]
+Loading weights:   0%|          | 2/427 [00:00<02:22,  2.98it/s]
+Loading weights:   6%|▋         | 27/427 [00:00<00:07, 50.98it/s]
+Loading weights:  10%|█         | 43/427 [00:00<00:05, 72.47it/s]
+Loading weights:  15%|█▍        | 63/427 [00:00<00:03, 101.29it/s]
+Loading weights:  19%|█▉        | 81/427 [00:01<00:02, 116.12it/s]
+Loading weights:  23%|██▎       | 99/427 [00:01<00:02, 128.93it/s]
+Loading weights:  28%|██▊       | 119/427 [00:01<00:02, 141.56it/s]
+Loading weights:  32%|███▏      | 137/427 [00:01<00:01, 151.68it/s]
+Loading weights:  36%|███▌      | 154/427 [00:01<00:01, 143.62it/s]
+Loading weights:  41%|████      | 174/427 [00:01<00:01, 157.82it/s]
+Loading weights:  47%|████▋     | 199/427 [00:01<00:01, 182.52it/s]
+Loading weights:  51%|█████▏    | 219/427 [00:01<00:01, 175.73it/s]
+Loading weights:  56%|█████▌    | 238/427 [00:02<00:01, 177.74it/s]
+Loading weights:  60%|██████    | 257/427 [00:02<00:01, 167.23it/s]
+Loading weights:  65%|██████▌   | 278/427 [00:02<00:00, 172.18it/s]
+Loading weights:  69%|██████▉   | 296/427 [00:02<00:00, 170.39it/s]
+Loading weights:  74%|███████▎  | 314/427 [00:02<00:00, 160.69it/s]
+Loading weights:  79%|███████▉  | 337/427 [00:02<00:00, 173.78it/s]
+Loading weights:  84%|████████▍ | 359/427 [00:02<00:00, 179.76it/s]
+Loading weights:  89%|████████▉ | 379/427 [00:02<00:00, 184.65it/s]
+Loading weights:  93%|█████████▎| 398/427 [00:02<00:00, 183.96it/s]
+Loading weights:  98%|█████████▊| 417/427 [00:03<00:00, 171.83it/s]
+Loading weights: 100%|██████████| 427/427 [00:03<00:00, 137.74it/s]
+2026-10-23 14:01:37,972 INFO train.sft model_type=qwen3_5_text template_kwargs={'enable_thinking': False}
+2026-10-23 14:01:37,974 INFO train.sft readout: attention noncausal, scores slot_lm
+2026-10-23 14:01:37,975 INFO train.sft LoRA target modules: 248 modules, kinds ['down_proj', 'gate_proj', 'in_proj_a', 'in_proj_b', 'in_proj_qkv', 'in_proj_z', 'k_proj', 'o_proj', 'out_proj', 'q_proj', 'up_proj', 'v_proj']
+2026-10-23 14:01:39,098 INFO train.sft trainable 43.28M of 8997.08M parameters (0.481%)
+2026-10-23 14:01:39,486 INFO train.sft 128 steps per epoch, 128 total steps, 4 warmup, 0 rows dropped over max-len, planned in 0s
+[transformers] `causal_conv1d_fn` is falling back to its reference PyTorch implementation because `causal_conv1d` is not installed. This is correct but much slower; install `causal_conv1d` for the optimized kernel.
+eval step 0 dev_select: n 456 acc 0.7588 state_macro 0.7588 nll 0.7394 ece 0.1092 {'choice': 0.7588} (30s)
+train [..............................] 1/128 (0.8%) loss 2.2623 ce 1.6471 brier 0.6152 slot_acc 0.625 gnorm 16.741 lr 5.00e-06 rows/s 0.24 tok/s 63 s/step 33.4 mem 17.4G eta 1.2h
+train [..............................] 2/128 (1.6%) loss 1.5972 ce 1.0679 brier 0.5292 slot_acc 0.625 gnorm 20.865 lr 1.00e-05 rows/s 2.87 tok/s 838 s/step 2.8 mem 17.6G eta 0.1h
+train [#.............................] 3/128 (2.3%) loss 0.3722 ce 0.2340 brier 0.1381 slot_acc 0.875 gnorm 28.960 lr 1.50e-05 rows/s 3.10 tok/s 776 s/step 2.6 mem 17.6G eta 0.1h
+train [#.............................] 4/128 (3.1%) loss 1.5875 ce 0.9468 brier 0.6407 slot_acc 0.500 gnorm 13.770 lr 2.00e-05 rows/s 3.11 tok/s 865 s/step 2.6 mem 17.6G eta 0.1h
+train [#.............................] 5/128 (3.9%) loss 0.4496 ce 0.2789 brier 0.1707 slot_acc 0.875 gnorm 7.558 lr 2.00e-05 rows/s 2.90 tok/s 720 s/step 2.8 mem 17.6G eta 0.1h
+train [#.............................] 6/128 (4.7%) loss 1.7579 ce 1.2378 brier 0.5202 slot_acc 0.625 gnorm 11.337 lr 2.00e-05 rows/s 3.13 tok/s 812 s/step 2.6 mem 17.6G eta 0.1h
+train [##............................] 7/128 (5.5%) loss 1.7986 ce 1.1421 brier 0.6565 slot_acc 0.500 gnorm 20.280 lr 2.00e-05 rows/s 2.94 tok/s 742 s/step 2.7 mem 17.6G eta 0.1h
+train [##............................] 8/128 (6.2%) loss 1.4945 ce 1.0113 brier 0.4832 slot_acc 0.750 gnorm 12.188 lr 1.99e-05 rows/s 3.10 tok/s 910 s/step 2.6 mem 17.6G eta 0.1h
+train [##............................] 9/128 (7.0%) loss 0.1643 ce 0.1227 brier 0.0417 slot_acc 1.000 gnorm 5.599 lr 1.99e-05 rows/s 2.93 tok/s 792 s/step 2.7 mem 17.6G eta 0.1h
+train [##............................] 10/128 (7.8%) loss 0.6174 ce 0.3889 brier 0.2285 slot_acc 0.875 gnorm 12.798 lr 1.99e-05 rows/s 3.14 tok/s 811 s/step 2.6 mem 17.6G eta 0.1h
+train [###...........................] 11/128 (8.6%) loss 2.2897 ce 1.7291 brier 0.5605 slot_acc 0.750 gnorm 12.937 lr 1.98e-05 rows/s 2.93 tok/s 792 s/step 2.7 mem 17.6G eta 0.1h
+train [###...........................] 12/128 (9.4%) loss 2.6847 ce 1.9031 brier 0.7816 slot_acc 0.500 gnorm 14.215 lr 1.98e-05 rows/s 3.09 tok/s 728 s/step 2.6 mem 17.6G eta 0.1h
+train [###...........................] 13/128 (10.2%) loss 0.9594 ce 0.6203 brier 0.3391 slot_acc 0.750 gnorm 14.721 lr 1.97e-05 rows/s 2.95 tok/s 732 s/step 2.7 mem 17.6G eta 0.1h
+train [###...........................] 14/128 (10.9%) loss 1.6335 ce 1.1006 brier 0.5328 slot_acc 0.750 gnorm 11.916 lr 1.97e-05 rows/s 3.12 tok/s 816 s/step 2.6 mem 17.6G eta 0.1h
+train [####..........................] 15/128 (11.7%) loss 1.4610 ce 0.9110 brier 0.5500 slot_acc 0.625 gnorm 9.649 lr 1.96e-05 rows/s 2.93 tok/s 842 s/step 2.7 mem 17.6G eta 0.1h
+train [####..........................] 16/128 (12.5%) loss 0.4597 ce 0.2920 brier 0.1677 slot_acc 0.875 gnorm 14.428 lr 1.95e-05 rows/s 3.13 tok/s 831 s/step 2.6 mem 17.6G eta 0.1h
+train [####..........................] 17/128 (13.3%) loss 1.6860 ce 1.0089 brier 0.6771 slot_acc 0.500 gnorm 24.099 lr 1.95e-05 rows/s 3.12 tok/s 849 s/step 2.6 mem 17.6G eta 0.1h
+train [####..........................] 18/128 (14.1%) loss 0.8906 ce 0.5600 brier 0.3306 slot_acc 0.875 gnorm 8.435 lr 1.94e-05 rows/s 2.92 tok/s 710 s/step 2.7 mem 17.6G eta 0.1h
+train [####..........................] 19/128 (14.8%) loss 0.9036 ce 0.5323 brier 0.3714 slot_acc 0.750 gnorm 20.915 lr 1.93e-05 rows/s 3.10 tok/s 861 s/step 2.6 mem 17.6G eta 0.1h
+train [#####.........................] 20/128 (15.6%) loss 0.6340 ce 0.4001 brier 0.2339 slot_acc 0.875 gnorm 9.367 lr 1.92e-05 rows/s 2.95 tok/s 747 s/step 2.7 mem 17.6G eta 0.1h
+train [#####.........................] 21/128 (16.4%) loss 1.3994 ce 0.8490 brier 0.5503 slot_acc 0.625 gnorm 11.104 lr 1.91e-05 rows/s 3.10 tok/s 937 s/step 2.6 mem 17.7G eta 0.1h
+train [#####.........................] 22/128 (17.2%) loss 1.4915 ce 0.9420 brier 0.5495 slot_acc 0.500 gnorm 15.580 lr 1.90e-05 rows/s 2.96 tok/s 782 s/step 2.7 mem 17.7G eta 0.1h
+train [#####.........................] 23/128 (18.0%) loss 0.2907 ce 0.1937 brier 0.0971 slot_acc 0.875 gnorm 6.249 lr 1.89e-05 rows/s 3.10 tok/s 862 s/step 2.6 mem 17.7G eta 0.1h
+train [######........................] 24/128 (18.8%) loss 1.0330 ce 0.6673 brier 0.3658 slot_acc 0.750 gnorm 9.362 lr 1.87e-05 rows/s 2.93 tok/s 854 s/step 2.7 mem 17.7G eta 0.1h
+train [######........................] 25/128 (19.5%) loss 0.1183 ce 0.0957 brier 0.0226 slot_acc 1.000 gnorm 3.250 lr 1.86e-05 rows/s 3.12 tok/s 826 s/step 2.6 mem 17.7G eta 0.1h
+train [######........................] 26/128 (20.3%) loss 1.0672 ce 0.7041 brier 0.3631 slot_acc 0.750 gnorm 10.160 lr 1.85e-05 rows/s 2.93 tok/s 753 s/step 2.7 mem 17.7G eta 0.1h
+train [######........................] 27/128 (21.1%) loss 0.5548 ce 0.3518 brier 0.2030 slot_acc 0.875 gnorm 8.946 lr 1.83e-05 rows/s 3.11 tok/s 845 s/step 2.6 mem 17.7G eta 0.1h
+train [#######.......................] 28/128 (21.9%) loss 0.7659 ce 0.5285 brier 0.2374 slot_acc 0.875 gnorm 7.526 lr 1.82e-05 rows/s 2.92 tok/s 781 s/step 2.7 mem 17.7G eta 0.1h
+train [#######.......................] 29/128 (22.7%) loss 0.6632 ce 0.4142 brier 0.2490 slot_acc 0.875 gnorm 8.170 lr 1.81e-05 rows/s 3.15 tok/s 790 s/step 2.5 mem 17.7G eta 0.1h
+train [#######.......................] 30/128 (23.4%) loss 0.5529 ce 0.3316 brier 0.2212 slot_acc 0.750 gnorm 12.546 lr 1.79e-05 rows/s 3.13 tok/s 829 s/step 2.6 mem 17.7G eta 0.1h
+train [#######.......................] 31/128 (24.2%) loss 1.3768 ce 0.8679 brier 0.5089 slot_acc 0.750 gnorm 9.335 lr 1.78e-05 rows/s 2.95 tok/s 742 s/step 2.7 mem 17.7G eta 0.1h
+train [########......................] 32/128 (25.0%) loss 0.2890 ce 0.1962 brier 0.0928 slot_acc 1.000 gnorm 4.892 lr 1.76e-05 rows/s 3.14 tok/s 815 s/step 2.5 mem 17.7G eta 0.1h
+train [########......................] 33/128 (25.8%) loss 0.7619 ce 0.4752 brier 0.2867 slot_acc 0.750 gnorm 11.258 lr 1.74e-05 rows/s 2.95 tok/s 769 s/step 2.7 mem 17.7G eta 0.1h
+train [########......................] 34/128 (26.6%) loss 0.8247 ce 0.5774 brier 0.2473 slot_acc 0.875 gnorm 5.390 lr 1.72e-05 rows/s 3.13 tok/s 789 s/step 2.6 mem 17.7G eta 0.1h
+train [########......................] 35/128 (27.3%) loss 0.4540 ce 0.2992 brier 0.1548 slot_acc 0.875 gnorm 12.885 lr 1.71e-05 rows/s 2.90 tok/s 833 s/step 2.8 mem 17.7G eta 0.1h
+train [########......................] 36/128 (28.1%) loss 1.6062 ce 1.0113 brier 0.5949 slot_acc 0.625 gnorm 10.912 lr 1.69e-05 rows/s 3.10 tok/s 848 s/step 2.6 mem 17.7G eta 0.1h
+train [#########.....................] 37/128 (28.9%) loss 0.2057 ce 0.1458 brier 0.0600 slot_acc 1.000 gnorm 3.149 lr 1.67e-05 rows/s 2.91 tok/s 749 s/step 2.8 mem 17.7G eta 0.1h
+train [#########.....................] 38/128 (29.7%) loss 0.9620 ce 0.5838 brier 0.3782 slot_acc 0.625 gnorm 8.209 lr 1.65e-05 rows/s 3.12 tok/s 720 s/step 2.6 mem 17.7G eta 0.1h
+train [#########.....................] 39/128 (30.5%) loss 1.4601 ce 0.9283 brier 0.5318 slot_acc 0.625 gnorm 9.162 lr 1.63e-05 rows/s 2.95 tok/s 799 s/step 2.7 mem 17.7G eta 0.1h
+train [#########.....................] 40/128 (31.2%) loss 0.7027 ce 0.4604 brier 0.2422 slot_acc 0.750 gnorm 10.549 lr 1.61e-05 rows/s 3.14 tok/s 860 s/step 2.5 mem 17.7G eta 0.1h
+train [##########....................] 41/128 (32.0%) loss 0.7877 ce 0.4873 brier 0.3004 slot_acc 0.750 gnorm 9.421 lr 1.59e-05 rows/s 2.99 tok/s 755 s/step 2.7 mem 17.7G eta 0.1h
+train [##########....................] 42/128 (32.8%) loss 0.7993 ce 0.5525 brier 0.2468 slot_acc 0.875 gnorm 5.094 lr 1.57e-05 rows/s 3.13 tok/s 854 s/step 2.6 mem 17.7G eta 0.1h
+train [##########....................] 43/128 (33.6%) loss 1.0486 ce 0.6417 brier 0.4069 slot_acc 0.625 gnorm 9.118 lr 1.55e-05 rows/s 3.13 tok/s 815 s/step 2.6 mem 17.7G eta 0.1h
+train [##########....................] 44/128 (34.4%) loss 1.9822 ce 1.3576 brier 0.6246 slot_acc 0.625 gnorm 14.890 lr 1.53e-05 rows/s 2.95 tok/s 787 s/step 2.7 mem 17.7G eta 0.1h
+train [###########...................] 45/128 (35.2%) loss 1.5609 ce 1.0276 brier 0.5333 slot_acc 0.625 gnorm 12.608 lr 1.51e-05 rows/s 3.11 tok/s 890 s/step 2.6 mem 17.7G eta 0.1h
+train [###########...................] 46/128 (35.9%) loss 1.2149 ce 0.7786 brier 0.4363 slot_acc 0.750 gnorm 13.460 lr 1.49e-05 rows/s 2.93 tok/s 742 s/step 2.7 mem 17.7G eta 0.1h
+train [###########...................] 47/128 (36.7%) loss 0.4420 ce 0.2831 brier 0.1590 slot_acc 0.750 gnorm 6.664 lr 1.46e-05 rows/s 3.13 tok/s 885 s/step 2.6 mem 17.7G eta 0.1h
+train [###########...................] 48/128 (37.5%) loss 1.0760 ce 0.6926 brier 0.3834 slot_acc 0.750 gnorm 6.983 lr 1.44e-05 rows/s 2.92 tok/s 803 s/step 2.7 mem 17.7G eta 0.1h
+train [###########...................] 49/128 (38.3%) loss 0.6359 ce 0.4063 brier 0.2296 slot_acc 0.875 gnorm 6.626 lr 1.42e-05 rows/s 3.13 tok/s 922 s/step 2.6 mem 17.7G eta 0.1h
+train [############..................] 50/128 (39.1%) loss 0.8362 ce 0.5043 brier 0.3319 slot_acc 0.750 gnorm 14.137 lr 1.39e-05 rows/s 2.97 tok/s 796 s/step 2.7 mem 17.7G eta 0.1h
+train [############..................] 51/128 (39.8%) loss 0.4695 ce 0.3038 brier 0.1657 slot_acc 0.875 gnorm 7.051 lr 1.37e-05 rows/s 3.14 tok/s 786 s/step 2.6 mem 17.7G eta 0.1h
+train [############..................] 52/128 (40.6%) loss 1.1406 ce 0.7055 brier 0.4350 slot_acc 0.625 gnorm 9.850 lr 1.35e-05 rows/s 2.98 tok/s 737 s/step 2.7 mem 17.7G eta 0.1h
+train [############..................] 53/128 (41.4%) loss 1.7334 ce 1.1037 brier 0.6296 slot_acc 0.625 gnorm 17.331 lr 1.32e-05 rows/s 3.14 tok/s 769 s/step 2.5 mem 17.7G eta 0.1h
+train [#############.................] 54/128 (42.2%) loss 1.1309 ce 0.7313 brier 0.3996 slot_acc 0.750 gnorm 9.229 lr 1.30e-05 rows/s 3.15 tok/s 858 s/step 2.5 mem 17.7G eta 0.1h
+train [#############.................] 55/128 (43.0%) loss 0.8645 ce 0.5349 brier 0.3296 slot_acc 0.750 gnorm 13.721 lr 1.28e-05 rows/s 2.97 tok/s 776 s/step 2.7 mem 17.7G eta 0.1h
+train [#############.................] 56/128 (43.8%) loss 0.7987 ce 0.5484 brier 0.2503 slot_acc 0.875 gnorm 4.485 lr 1.25e-05 rows/s 3.15 tok/s 762 s/step 2.5 mem 17.7G eta 0.1h
+train [#############.................] 57/128 (44.5%) loss 1.0527 ce 0.7380 brier 0.3147 slot_acc 0.875 gnorm 13.556 lr 1.23e-05 rows/s 2.96 tok/s 837 s/step 2.7 mem 17.7G eta 0.1h
+train [##############................] 58/128 (45.3%) loss 1.0025 ce 0.6426 brier 0.3598 slot_acc 0.750 gnorm 7.835 lr 1.20e-05 rows/s 3.14 tok/s 833 s/step 2.5 mem 17.7G eta 0.0h
+train [##############................] 59/128 (46.1%) loss 0.5987 ce 0.3777 brier 0.2209 slot_acc 0.750 gnorm 8.945 lr 1.18e-05 rows/s 2.95 tok/s 734 s/step 2.7 mem 17.7G eta 0.1h
+train [##############................] 60/128 (46.9%) loss 0.7254 ce 0.4649 brier 0.2605 slot_acc 0.750 gnorm 14.674 lr 1.15e-05 rows/s 3.13 tok/s 860 s/step 2.6 mem 17.7G eta 0.0h
+train [##############................] 61/128 (47.7%) loss 0.3249 ce 0.2239 brier 0.1010 slot_acc 1.000 gnorm 4.533 lr 1.13e-05 rows/s 2.97 tok/s 779 s/step 2.7 mem 17.7G eta 0.1h
+train [###############...............] 62/128 (48.4%) loss 1.3522 ce 0.8341 brier 0.5181 slot_acc 0.625 gnorm 10.188 lr 1.10e-05 rows/s 3.14 tok/s 801 s/step 2.5 mem 17.7G eta 0.0h
+train [###############...............] 63/128 (49.2%) loss 0.6223 ce 0.3933 brier 0.2290 slot_acc 0.875 gnorm 19.259 lr 1.08e-05 rows/s 2.95 tok/s 782 s/step 2.7 mem 17.7G eta 0.0h
+train [###############...............] 64/128 (50.0%) loss 0.6502 ce 0.4316 brier 0.2186 slot_acc 0.875 gnorm 3.554 lr 1.05e-05 rows/s 3.13 tok/s 886 s/step 2.6 mem 17.7G eta 0.0h
+train [###############...............] 65/128 (50.8%) loss 1.3321 ce 0.8334 brier 0.4988 slot_acc 0.625 gnorm 10.448 lr 1.03e-05 rows/s 3.15 tok/s 816 s/step 2.5 mem 17.7G eta 0.0h
+train [###############...............] 66/128 (51.6%) loss 2.0210 ce 1.3380 brier 0.6829 slot_acc 0.500 gnorm 8.248 lr 1.00e-05 rows/s 2.95 tok/s 882 s/step 2.7 mem 17.7G eta 0.0h
+train [################..............] 67/128 (52.3%) loss 1.4048 ce 0.8904 brier 0.5144 slot_acc 0.625 gnorm 11.291 lr 9.75e-06 rows/s 3.15 tok/s 743 s/step 2.5 mem 17.7G eta 0.0h
+train [################..............] 68/128 (53.1%) loss 0.5756 ce 0.3661 brier 0.2096 slot_acc 0.875 gnorm 11.518 lr 9.49e-06 rows/s 2.94 tok/s 834 s/step 2.7 mem 17.7G eta 0.0h
+train [################..............] 69/128 (53.9%) loss 0.6830 ce 0.4322 brier 0.2508 slot_acc 0.750 gnorm 8.783 lr 9.24e-06 rows/s 3.15 tok/s 916 s/step 2.5 mem 17.7G eta 0.0h
+train [################..............] 70/128 (54.7%) loss 2.2091 ce 1.4570 brier 0.7521 slot_acc 0.500 gnorm 17.261 lr 8.99e-06 rows/s 2.98 tok/s 765 s/step 2.7 mem 17.7G eta 0.0h
+train [#################.............] 71/128 (55.5%) loss 1.0879 ce 0.7448 brier 0.3432 slot_acc 0.875 gnorm 4.612 lr 8.74e-06 rows/s 3.13 tok/s 839 s/step 2.6 mem 17.7G eta 0.0h
+train [#################.............] 72/128 (56.2%) loss 0.4315 ce 0.2838 brier 0.1478 slot_acc 0.875 gnorm 6.917 lr 8.49e-06 rows/s 2.96 tok/s 748 s/step 2.7 mem 17.7G eta 0.0h
+train [#################.............] 73/128 (57.0%) loss 0.3347 ce 0.2319 brier 0.1028 slot_acc 1.000 gnorm 4.571 lr 8.24e-06 rows/s 3.13 tok/s 859 s/step 2.6 mem 17.7G eta 0.0h
+train [#################.............] 74/128 (57.8%) loss 1.3125 ce 0.8246 brier 0.4879 slot_acc 0.625 gnorm 10.360 lr 7.99e-06 rows/s 2.94 tok/s 803 s/step 2.7 mem 17.7G eta 0.0h
+train [##################............] 75/128 (58.6%) loss 1.1539 ce 0.7424 brier 0.4115 slot_acc 0.750 gnorm 10.925 lr 7.74e-06 rows/s 3.15 tok/s 811 s/step 2.5 mem 17.7G eta 0.0h
+train [##################............] 76/128 (59.4%) loss 0.4015 ce 0.2759 brier 0.1256 slot_acc 0.875 gnorm 6.659 lr 7.49e-06 rows/s 2.96 tok/s 764 s/step 2.7 mem 17.7G eta 0.0h
+train [##################............] 77/128 (60.2%) loss 0.6959 ce 0.4548 brier 0.2411 slot_acc 0.875 gnorm 5.334 lr 7.25e-06 rows/s 3.11 tok/s 888 s/step 2.6 mem 17.7G eta 0.0h
+train [##################............] 78/128 (60.9%) loss 0.7706 ce 0.5011 brier 0.2695 slot_acc 0.750 gnorm 7.517 lr 7.01e-06 rows/s 3.14 tok/s 759 s/step 2.5 mem 17.7G eta 0.0h
+train [###################...........] 79/128 (61.7%) loss 0.5576 ce 0.3583 brier 0.1993 slot_acc 0.875 gnorm 8.993 lr 6.77e-06 rows/s 2.96 tok/s 757 s/step 2.7 mem 17.7G eta 0.0h
+train [###################...........] 80/128 (62.5%) loss 2.2160 ce 1.4358 brier 0.7802 slot_acc 0.500 gnorm 11.839 lr 6.53e-06 rows/s 3.12 tok/s 866 s/step 2.6 mem 17.7G eta 0.0h
+train [###################...........] 81/128 (63.3%) loss 0.6017 ce 0.3962 brier 0.2055 slot_acc 0.875 gnorm 5.417 lr 6.29e-06 rows/s 2.91 tok/s 763 s/step 2.7 mem 17.7G eta 0.0h
+train [###################...........] 82/128 (64.1%) loss 0.9105 ce 0.5991 brier 0.3114 slot_acc 0.875 gnorm 8.788 lr 6.06e-06 rows/s 3.10 tok/s 828 s/step 2.6 mem 17.7G eta 0.0h
+train [###################...........] 83/128 (64.8%) loss 0.7799 ce 0.5081 brier 0.2718 slot_acc 0.875 gnorm 4.775 lr 5.82e-06 rows/s 2.93 tok/s 821 s/step 2.7 mem 17.7G eta 0.0h
+train [####################..........] 84/128 (65.6%) loss 1.3897 ce 0.8640 brier 0.5257 slot_acc 0.625 gnorm 9.027 lr 5.60e-06 rows/s 3.12 tok/s 802 s/step 2.6 mem 17.7G eta 0.0h
+train [####################..........] 85/128 (66.4%) loss 0.9058 ce 0.5612 brier 0.3446 slot_acc 0.750 gnorm 11.439 lr 5.37e-06 rows/s 2.94 tok/s 752 s/step 2.7 mem 17.7G eta 0.0h
+train [####################..........] 86/128 (67.2%) loss 0.9282 ce 0.5746 brier 0.3537 slot_acc 0.750 gnorm 11.830 lr 5.15e-06 rows/s 3.14 tok/s 845 s/step 2.5 mem 17.7G eta 0.0h
+train [####################..........] 87/128 (68.0%) loss 0.6808 ce 0.4320 brier 0.2488 slot_acc 0.875 gnorm 10.519 lr 4.93e-06 rows/s 2.94 tok/s 782 s/step 2.7 mem 17.7G eta 0.0h
+train [#####################.........] 88/128 (68.8%) loss 1.2520 ce 0.8427 brier 0.4092 slot_acc 0.750 gnorm 8.609 lr 4.71e-06 rows/s 3.13 tok/s 855 s/step 2.6 mem 17.7G eta 0.0h
+train [#####################.........] 89/128 (69.5%) loss 0.3180 ce 0.2132 brier 0.1047 slot_acc 0.875 gnorm 4.973 lr 4.50e-06 rows/s 2.94 tok/s 764 s/step 2.7 mem 17.7G eta 0.0h
+train [#####################.........] 90/128 (70.3%) loss 0.2633 ce 0.1969 brier 0.0665 slot_acc 1.000 gnorm 6.093 lr 4.29e-06 rows/s 3.14 tok/s 806 s/step 2.5 mem 17.7G eta 0.0h
+train [#####################.........] 91/128 (71.1%) loss 0.5885 ce 0.3705 brier 0.2180 slot_acc 0.750 gnorm 8.940 lr 4.08e-06 rows/s 2.95 tok/s 775 s/step 2.7 mem 17.7G eta 0.0h
+train [######################........] 92/128 (71.9%) loss 0.9747 ce 0.5928 brier 0.3819 slot_acc 0.750 gnorm 10.428 lr 3.88e-06 rows/s 3.14 tok/s 805 s/step 2.5 mem 17.7G eta 0.0h
+train [######################........] 93/128 (72.7%) loss 1.4520 ce 0.9071 brier 0.5449 slot_acc 0.625 gnorm 10.164 lr 3.68e-06 rows/s 3.14 tok/s 811 s/step 2.5 mem 17.7G eta 0.0h
+train [######################........] 94/128 (73.4%) loss 0.8515 ce 0.5407 brier 0.3108 slot_acc 0.750 gnorm 6.854 lr 3.49e-06 rows/s 2.91 tok/s 831 s/step 2.8 mem 17.7G eta 0.0h
+train [######################........] 95/128 (74.2%) loss 1.8205 ce 1.1549 brier 0.6655 slot_acc 0.500 gnorm 10.298 lr 3.30e-06 rows/s 3.16 tok/s 777 s/step 2.5 mem 17.7G eta 0.0h
+train [######################........] 96/128 (75.0%) loss 0.5878 ce 0.3634 brier 0.2244 slot_acc 0.750 gnorm 5.920 lr 3.11e-06 rows/s 2.97 tok/s 836 s/step 2.7 mem 17.7G eta 0.0h
+train [#######################.......] 97/128 (75.8%) loss 1.7458 ce 1.1481 brier 0.5977 slot_acc 0.750 gnorm 8.038 lr 2.93e-06 rows/s 3.13 tok/s 927 s/step 2.6 mem 17.7G eta 0.0h
+train [#######################.......] 98/128 (76.6%) loss 1.5762 ce 1.0213 brier 0.5549 slot_acc 0.625 gnorm 8.639 lr 2.75e-06 rows/s 2.95 tok/s 778 s/step 2.7 mem 17.7G eta 0.0h
+train [#######################.......] 99/128 (77.3%) loss 0.9190 ce 0.6001 brier 0.3189 slot_acc 0.750 gnorm 6.677 lr 2.58e-06 rows/s 3.12 tok/s 796 s/step 2.6 mem 17.7G eta 0.0h
+train [#######################.......] 100/128 (78.1%) loss 1.6389 ce 1.0057 brier 0.6332 slot_acc 0.500 gnorm 13.660 lr 2.41e-06 rows/s 2.96 tok/s 753 s/step 2.7 mem 17.7G eta 0.0h
+train [########################......] 101/128 (78.9%) loss 1.3983 ce 0.9253 brier 0.4729 slot_acc 0.625 gnorm 8.680 lr 2.25e-06 rows/s 3.15 tok/s 785 s/step 2.5 mem 17.7G eta 0.0h
+train [########################......] 102/128 (79.7%) loss 1.4927 ce 0.9418 brier 0.5508 slot_acc 0.500 gnorm 9.272 lr 2.09e-06 rows/s 2.97 tok/s 874 s/step 2.7 mem 17.7G eta 0.0h
+train [########################......] 103/128 (80.5%) loss 1.1275 ce 0.7108 brier 0.4168 slot_acc 0.625 gnorm 9.887 lr 1.94e-06 rows/s 3.17 tok/s 806 s/step 2.5 mem 17.7G eta 0.0h
+train [########################......] 104/128 (81.2%) loss 0.7362 ce 0.4569 brier 0.2793 slot_acc 0.750 gnorm 9.113 lr 1.79e-06 rows/s 2.98 tok/s 829 s/step 2.7 mem 17.7G eta 0.0h
+train [#########################.....] 105/128 (82.0%) loss 1.7055 ce 1.0874 brier 0.6182 slot_acc 0.625 gnorm 8.074 lr 1.65e-06 rows/s 3.14 tok/s 946 s/step 2.5 mem 17.7G eta 0.0h
+train [#########################.....] 106/128 (82.8%) loss 1.1369 ce 0.7171 brier 0.4198 slot_acc 0.750 gnorm 10.273 lr 1.51e-06 rows/s 3.17 tok/s 807 s/step 2.5 mem 17.7G eta 0.0h
+train [#########################.....] 107/128 (83.6%) loss 0.5005 ce 0.3259 brier 0.1745 slot_acc 0.875 gnorm 6.167 lr 1.38e-06 rows/s 2.98 tok/s 826 s/step 2.7 mem 17.7G eta 0.0h
+train [#########################.....] 108/128 (84.4%) loss 0.2175 ce 0.1641 brier 0.0535 slot_acc 1.000 gnorm 4.880 lr 1.26e-06 rows/s 3.15 tok/s 806 s/step 2.5 mem 17.7G eta 0.0h
+train [##########################....] 109/128 (85.2%) loss 1.1659 ce 0.7371 brier 0.4288 slot_acc 0.750 gnorm 8.410 lr 1.14e-06 rows/s 2.97 tok/s 805 s/step 2.7 mem 17.7G eta 0.0h
+train [##########################....] 110/128 (85.9%) loss 0.2819 ce 0.2030 brier 0.0789 slot_acc 1.000 gnorm 7.386 lr 1.02e-06 rows/s 3.14 tok/s 924 s/step 2.6 mem 17.7G eta 0.0h
+train [##########################....] 111/128 (86.7%) loss 1.8550 ce 1.1771 brier 0.6778 slot_acc 0.500 gnorm 9.696 lr 9.13e-07 rows/s 2.96 tok/s 739 s/step 2.7 mem 17.7G eta 0.0h
+train [##########################....] 112/128 (87.5%) loss 1.7757 ce 1.0808 brier 0.6949 slot_acc 0.375 gnorm 13.616 lr 8.10e-07 rows/s 3.16 tok/s 794 s/step 2.5 mem 17.7G eta 0.0h
+train [##########################....] 113/128 (88.3%) loss 1.6757 ce 1.0559 brier 0.6198 slot_acc 0.750 gnorm 10.776 lr 7.13e-07 rows/s 2.97 tok/s 847 s/step 2.7 mem 17.7G eta 0.0h
+train [###########################...] 114/128 (89.1%) loss 0.7130 ce 0.4577 brier 0.2553 slot_acc 0.750 gnorm 8.943 lr 6.22e-07 rows/s 3.15 tok/s 813 s/step 2.5 mem 17.7G eta 0.0h
+train [###########################...] 115/128 (89.8%) loss 0.7002 ce 0.4586 brier 0.2416 slot_acc 0.875 gnorm 7.783 lr 5.38e-07 rows/s 2.90 tok/s 815 s/step 2.8 mem 17.7G eta 0.0h
+train [###########################...] 116/128 (90.6%) loss 0.7983 ce 0.5289 brier 0.2693 slot_acc 0.875 gnorm 7.236 lr 4.59e-07 rows/s 3.11 tok/s 843 s/step 2.6 mem 17.7G eta 0.0h
+train [###########################...] 117/128 (91.4%) loss 0.9213 ce 0.5954 brier 0.3259 slot_acc 0.750 gnorm 7.724 lr 3.86e-07 rows/s 2.93 tok/s 819 s/step 2.7 mem 17.7G eta 0.0h
+train [############################..] 118/128 (92.2%) loss 0.3217 ce 0.2182 brier 0.1035 slot_acc 0.875 gnorm 4.151 lr 3.19e-07 rows/s 3.14 tok/s 893 s/step 2.6 mem 17.7G eta 0.0h
+train [############################..] 119/128 (93.0%) loss 0.5532 ce 0.3652 brier 0.1880 slot_acc 0.875 gnorm 8.374 lr 2.59e-07 rows/s 2.95 tok/s 765 s/step 2.7 mem 17.7G eta 0.0h
+train [############################..] 120/128 (93.8%) loss 0.3693 ce 0.2432 brier 0.1261 slot_acc 1.000 gnorm 4.869 lr 2.05e-07 rows/s 3.15 tok/s 846 s/step 2.5 mem 17.7G eta 0.0h
+train [############################..] 121/128 (94.5%) loss 0.4343 ce 0.2946 brier 0.1397 slot_acc 0.875 gnorm 5.687 lr 1.57e-07 rows/s 3.15 tok/s 801 s/step 2.5 mem 17.7G eta 0.0h
+train [#############################.] 122/128 (95.3%) loss 1.7710 ce 1.1092 brier 0.6618 slot_acc 0.500 gnorm 18.052 lr 1.15e-07 rows/s 2.97 tok/s 792 s/step 2.7 mem 17.7G eta 0.0h
+train [#############################.] 123/128 (96.1%) loss 0.8804 ce 0.5369 brier 0.3435 slot_acc 0.625 gnorm 10.636 lr 8.01e-08 rows/s 3.14 tok/s 887 s/step 2.5 mem 17.7G eta 0.0h
+train [#############################.] 124/128 (96.9%) loss 0.3700 ce 0.2530 brier 0.1170 slot_acc 0.875 gnorm 4.405 lr 5.13e-08 rows/s 2.99 tok/s 807 s/step 2.7 mem 17.7G eta 0.0h
+train [#############################.] 125/128 (97.7%) loss 1.4787 ce 0.9454 brier 0.5333 slot_acc 0.750 gnorm 8.845 lr 2.89e-08 rows/s 3.16 tok/s 882 s/step 2.5 mem 17.7G eta 0.0h
+train [##############################] 126/128 (98.4%) loss 1.0180 ce 0.6855 brier 0.3325 slot_acc 0.750 gnorm 6.524 lr 1.28e-08 rows/s 2.99 tok/s 673 s/step 2.7 mem 17.7G eta 0.0h
+train [##############################] 127/128 (99.2%) loss 0.5647 ce 0.3483 brier 0.2163 slot_acc 0.875 gnorm 7.453 lr 3.21e-09 rows/s 3.15 tok/s 829 s/step 2.5 mem 17.7G eta 0.0h
+train [##############################] 128/128 (100.0%) loss 1.4401 ce 0.8673 brier 0.5728 slot_acc 0.625 gnorm 14.369 lr 0.00e+00 rows/s 2.96 tok/s 795 s/step 2.7 mem 17.7G eta 0.0h
+eval step 128 dev_select: n 456 acc 0.7895 state_macro 0.7895 nll 0.5591 ece 0.0644 {'choice': 0.7895} (29s)
+2026-10-23 14:08:16,424 INFO train.sft saved final adapter to /root/projects/decision/experiments/orsharc/artifacts/training/elephant-1024/native/adapter
+done: 128 steps, 1024 examples, 396.6s, 2.58 examples/s
+
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]
+Writing model shards: 100%|██████████| 1/1 [00:20<00:00, 20.62s/it]
+Writing model shards: 100%|██████████| 1/1 [00:20<00:00, 20.62s/it]
+2026-10-23 14:08:37,266 INFO train.sft merged model written to /root/projects/decision/experiments/orsharc/artifacts/training/elephant-1024/native/merged
+merged model: /root/projects/decision/experiments/orsharc/artifacts/training/elephant-1024/native/merged

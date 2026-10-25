@@ -1,0 +1,24 @@
+{
+  "selection_date_utc": "2026-10-23",
+  "partition": "dev_select",
+  "partition_size": 456,
+  "source_file": "experiments/orsharc/artifacts/exports/onejev-4096/dev_select.jsonl",
+  "source_sha256": "25e0d2b3aae16fa3db357c871c9f90861ae17d0f5a6580e868b6958fbf3e5fde",
+  "input_file": "experiments/orsharc/artifacts/prepared/inputs/dev.jsonl",
+  "input_sha256": "925b078ab24068ecbd90ac38e27ca29b3d4b3e15cf95e9930e7f386571bf10af",
+  "selected_count": 24,
+  "selection_rule": "Within each gold label x Seen/Unseen stratum, select the nearest row at each of the 10th, 40th, 70th and 95th percentile of whitespace-token count; ties break by sample_id.",
+  "strata": {
+    "Yes/Seen": 4,
+    "Yes/Unseen": 4,
+    "No/Seen": 4,
+    "No/Unseen": 4,
+    "Inquire/Seen": 4,
+    "Inquire/Unseen": 4
+  },
+  "word_count_range": [
+    48,
+    171
+  ],
+  "scope": "Development selection partition only; no dev_calibrate or test labels used."
+}

@@ -1,0 +1,8 @@
+{
+  "state": "armed",
+  "runner_pid": 49163,
+  "first_launch_stamp": "launch-1792255388469383258.json",
+  "deadline_utc": "2026-10-18T22:43:08.469383+00:00",
+  "confirmed_utc": "2026-10-18T03:24:48.319209+00:00",
+  "basis": "30 hours after first formal launch; preserved across token-cap resume"
+}

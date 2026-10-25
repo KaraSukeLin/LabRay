@@ -1,0 +1,16 @@
+{
+  "measurement": "/root/projects/decision/experiments/orsharc/artifacts/smoke/phase3-20261023/measure-2",
+  "environment": "/root/projects/decision/experiments/orsharc/artifacts/env/elephant-repro/runtime.json",
+  "metadata": "/root/projects/decision/experiments/orsharc/artifacts/smoke/phase3-20261023/metadata.json",
+  "cli_inference": "/root/projects/decision/experiments/orsharc/artifacts/smoke/phase3-20261023/cli-inference",
+  "isolation": "/root/projects/decision/experiments/orsharc/artifacts/smoke/phase3-20261023/isolation.json",
+  "plans": "/root/projects/decision/experiments/orsharc/artifacts/smoke/phase3-20261023/plan-checks.json",
+  "capabilities": "/root/projects/decision/experiments/orsharc/artifacts/smoke/phase3-20261023/capabilities.json",
+  "verified_code_sha256": "b531da451d3dbaae1fdceba71a2783cbea3306320e524d663e6063c263a2247c",
+  "verified_configuration_sha256": {
+    "configs/matrices.json": "d1b3366e331bcb4e894e6c77e5dca8f36936305f1bfab86f6e2c3fd518b9b87f",
+    "configs/models.json": "78741898289da1a849195836af090299d43550d50f47feeef6b396dd09c4706b",
+    "configs/sources.json": "8d8d44e4aaca4ac1248b9e99cd0315a8af18ac46a98c8f23fc49eb39a9fc7181",
+    "configs/training.json": "505dd9eae84f5601dab7907eba06f1d422257ce07642f4f2f2f8595055d1c32a"
+  }
+}

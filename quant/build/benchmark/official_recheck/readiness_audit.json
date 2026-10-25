@@ -1,0 +1,181 @@
+{
+  "passed": true,
+  "canonical_ifeval_questions": 541,
+  "official_mmmu_questions": 3460,
+  "official_images": 3778,
+  "official_scoring_replays": 54,
+  "cpu_targeted_tests": 8,
+  "official_sampling_pilot_runs": 18,
+  "official_sampling_pilot_answers": 108,
+  "pilot_resolution": "1M pixels",
+  "official_resolution_native_mtp_models": 9,
+  "native_mtp_draft_and_acceptance_positive_for_all": true,
+  "official_resolution_greedy_answers": 33,
+  "greedy_paired_questions": 6,
+  "greedy_exact_output_matches": 4,
+  "greedy_pair_results": [
+    {
+      "model": "Qwen-Qwen3.8-27B",
+      "id": "ifeval/2785",
+      "same_prompt": true,
+      "same_output_tokens": true,
+      "common_output_token_prefix": 128,
+      "same_scored_correctness": true,
+      "off_fallback": null,
+      "on_fallback": null
+    },
+    {
+      "model": "Qwen-Qwen3.8-27B",
+      "id": "mmmu_standard/test_Geography_252",
+      "same_prompt": true,
+      "same_output_tokens": false,
+      "common_output_token_prefix": 64,
+      "same_scored_correctness": true,
+      "off_fallback": true,
+      "on_fallback": true
+    },
+    {
+      "model": "Qwen-Qwen3.8-27B",
+      "id": "mmmu_vision/validation_Public_Health_9",
+      "same_prompt": true,
+      "same_output_tokens": true,
+      "common_output_token_prefix": 128,
+      "same_scored_correctness": true,
+      "off_fallback": true,
+      "on_fallback": true
+    },
+    {
+      "model": "eNeural-Qwen3.8-27B-fast",
+      "id": "ifeval/2785",
+      "same_prompt": true,
+      "same_output_tokens": false,
+      "common_output_token_prefix": 42,
+      "same_scored_correctness": true,
+      "off_fallback": null,
+      "on_fallback": null
+    },
+    {
+      "model": "eNeural-Qwen3.8-27B-fast",
+      "id": "mmmu_standard/test_Geography_252",
+      "same_prompt": true,
+      "same_output_tokens": true,
+      "common_output_token_prefix": 128,
+      "same_scored_correctness": true,
+      "off_fallback": true,
+      "on_fallback": true
+    },
+    {
+      "model": "eNeural-Qwen3.8-27B-fast",
+      "id": "mmmu_vision/validation_Public_Health_9",
+      "same_prompt": true,
+      "same_output_tokens": true,
+      "common_output_token_prefix": 128,
+      "same_scored_correctness": true,
+      "off_fallback": true,
+      "on_fallback": true
+    }
+  ],
+  "mtp_counters": [
+    {
+      "model": "Qwen-Qwen3.8-27B",
+      "draft_tokens": 308,
+      "accepted_tokens": 228,
+      "acceptance_ratio": 0.7402597402597403,
+      "prompt_tokens": [
+        76,
+        7520,
+        8789
+      ]
+    },
+    {
+      "model": "Qwen-Qwen3.8-27B-FP8",
+      "draft_tokens": 314,
+      "accepted_tokens": 228,
+      "acceptance_ratio": 0.7261146496815286,
+      "prompt_tokens": [
+        76,
+        7520,
+        8789
+      ]
+    },
+    {
+      "model": "eNeural-Qwen3.8-27B-fast",
+      "draft_tokens": 310,
+      "accepted_tokens": 230,
+      "acceptance_ratio": 0.7419354838709677,
+      "prompt_tokens": [
+        76,
+        7520,
+        8789
+      ]
+    },
+    {
+      "model": "nvidia-Qwen3.8-27B-NVFP4",
+      "draft_tokens": 308,
+      "accepted_tokens": 228,
+      "acceptance_ratio": 0.7402597402597403,
+      "prompt_tokens": [
+        76,
+        7520,
+        8789
+      ]
+    },
+    {
+      "model": "RedHatAI-Qwen3.8-27B-NVFP4",
+      "draft_tokens": 314,
+      "accepted_tokens": 228,
+      "acceptance_ratio": 0.7261146496815286,
+      "prompt_tokens": [
+        76,
+        7520,
+        8789
+      ]
+    },
+    {
+      "model": "unsloth-Qwen3.8-27B-NVFP4",
+      "draft_tokens": 336,
+      "accepted_tokens": 215,
+      "acceptance_ratio": 0.6398809523809523,
+      "prompt_tokens": [
+        76,
+        7520,
+        8789
+      ]
+    },
+    {
+      "model": "RadixArk-Qwen3.8-27B-NVFP4-BF16-LMHead",
+      "draft_tokens": 310,
+      "accepted_tokens": 227,
+      "acceptance_ratio": 0.7322580645161291,
+      "prompt_tokens": [
+        76,
+        7520,
+        8789
+      ]
+    },
+    {
+      "model": "rdtand-Qwen3.8-27B-PrismaAQUA-5.5bit-vllm",
+      "draft_tokens": 302,
+      "accepted_tokens": 232,
+      "acceptance_ratio": 0.7682119205298014,
+      "prompt_tokens": [
+        76,
+        7520,
+        8789
+      ]
+    },
+    {
+      "model": "ModelOpt-Qwen3.8-27B-AutoQuantize-5.5bit",
+      "draft_tokens": 320,
+      "accepted_tokens": 223,
+      "acceptance_ratio": 0.696875,
+      "prompt_tokens": [
+        76,
+        7520,
+        8789
+      ]
+    }
+  ],
+  "full_capability_benchmark_run": false,
+  "fidelity_implementation_unchanged": true
+}

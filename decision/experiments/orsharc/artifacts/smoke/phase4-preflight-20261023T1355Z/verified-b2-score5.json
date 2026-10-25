@@ -1,0 +1,88 @@
+{
+  "condition": "elephant-original-score5-bf16-0shot",
+  "partitions": {
+    "dev_select": {
+      "n": 456,
+      "seen": 246,
+      "unseen": 210,
+      "prediction_sha256": "fa2dd8c191d70988db21e155416c5f487875c053c1bb9632a701dfc4873979e8",
+      "finite_normalized_probabilities": true
+    },
+    "dev_calibrate": {
+      "n": 649,
+      "seen": 254,
+      "unseen": 395,
+      "prediction_sha256": "5a622c9f4d78bbd4ecb17e869fa2ff4670e6a40d8b5fc28572e5eba626df6da0",
+      "finite_normalized_probabilities": true
+    },
+    "test": {
+      "n": 2373,
+      "seen": 1000,
+      "unseen": 1373,
+      "prediction_sha256": "2823fd6f55c8cfb30b47e8a28f37e004b0692c727ae81ac1b59c0590aed18b53",
+      "finite_normalized_probabilities": true
+    }
+  },
+  "reports_valid": true,
+  "test_metrics": {
+    "raw": {
+      "All": {
+        "accuracy": 0.8023598820058997,
+        "macro_f1": 0.7598906178366279,
+        "ece": 0.021417521689987076,
+        "brier": 0.2928035619730027,
+        "nll": 0.4511971270763047,
+        "aurc": 0.09645226926857199
+      },
+      "Seen": {
+        "accuracy": 0.785,
+        "macro_f1": 0.7519540826627441,
+        "ece": 0.03675013895659146,
+        "brier": 0.31514729101019834,
+        "nll": 0.4798333849870215,
+        "aurc": 0.11218584978354183
+      },
+      "Unseen": {
+        "accuracy": 0.8150036416605972,
+        "macro_f1": 0.7650683085877502,
+        "ece": 0.026288646065331624,
+        "brier": 0.2765299064470049,
+        "nll": 0.43034042065917577,
+        "aurc": 0.0839549090772304
+      }
+    },
+    "calibrated": {
+      "All": {
+        "accuracy": 0.8023598820058997,
+        "macro_f1": 0.7598906178366279,
+        "ece": 0.02006999262083547,
+        "brier": 0.2928174656393246,
+        "nll": 0.45127146082453673,
+        "aurc": 0.09645226926857199
+      },
+      "Seen": {
+        "accuracy": 0.785,
+        "macro_f1": 0.7519540826627441,
+        "ece": 0.03493769795119118,
+        "brier": 0.3148429441294964,
+        "nll": 0.47918826952820487,
+        "aurc": 0.11218584978354183
+      },
+      "Unseen": {
+        "accuracy": 0.8150036416605972,
+        "macro_f1": 0.7650683085877502,
+        "ece": 0.029589431061626037,
+        "brier": 0.27677560220875647,
+        "nll": 0.43093875237321244,
+        "aurc": 0.0839549090772304
+      }
+    }
+  },
+  "calibration": {
+    "threshold": 0.43,
+    "temperature": 1.0204276418505165,
+    "threshold_sweep_points": 99,
+    "dev_select_identity": "3dc82807e052162338f1090076cd349ba408cca6405c362cbfc7c1ca786a7e8e",
+    "dev_calibrate_identity": "d2d034ee008005cde0f8d7613abd7db5a24f4e6bcf3fe0bd641f8d991c31f6d3"
+  }
+}

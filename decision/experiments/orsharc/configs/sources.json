@@ -1,0 +1,46 @@
+{
+  "data_revision": "309c4ea3a7cc4c7a815d7f46292d91fc9a0de581",
+  "data_sha256": {
+    "id2snippet.json": "859a6c9fca2b153ff72b834b9fcef520117b09088d4da9a66f6b1db48b8f7124",
+    "open_retrieval_sharc_dev.json": "f58623a43829eb369a4bce1886f5b33790b939f404b27fdeb89fbce7d64061fd",
+    "open_retrieval_sharc_test.json": "a2ecee7f1cb014f28c862fa44df813501fb2f31a3c1ed64279efcf9e21ef4ce3",
+    "open_retrieval_sharc_train.json": "46ac9920a27fa0bedca59b0cb25a791aee2dee85508b6f518384342e4a1bbe51"
+  },
+  "models": {
+    "elephant": {
+      "repo": "baselabs/elephant-1",
+      "revision": "b3f8a93462fb1051a9de031e94a7ff380e254072"
+    },
+    "startlux": {
+      "repo": "startlux-models/StartLux-Decision-v1.1-9B-Instant",
+      "revision": "18a17f734966b213b2f00fa9c915e8b9af2a9b20"
+    },
+    "kev": {
+      "repo": "jaredpalmer/kev-9b",
+      "revision": "db029f08b290afd9fee4aa4bbcd9ae48602d1eb0"
+    },
+    "qwen": {
+      "repo": "Qwen/Qwen3.5-9B",
+      "revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a"
+    }
+  },
+  "code": {
+    "kev": {
+      "repo": "jaredpalmer/kev",
+      "sha": "2074cc44256200bb37540103fa4572901faa10f3"
+    },
+    "unsloth": {
+      "repo": "unslothai/unsloth",
+      "sha": "c032ada4551eb49b607cdf06ca6f6dcd1fe0b6e0"
+    },
+    "startlux": {
+      "repo": "StartLuxLabs/StartLux-Decision",
+      "sha": "83fe6c7d61a687a6e17f118b4f7d8f429f5d3a01"
+    }
+  },
+  "onejev": {
+    "repo": "OmniJev/OneJev",
+    "sha": "81ce62f1597c91e46767d4d02d6ac2e18534fe94"
+  },
+  "elephant_patch_sha256": "f234c125f1d38d82104b9e1f24e75bde51e4401928acfba2fbf5c59ef2fb46b8"
+}

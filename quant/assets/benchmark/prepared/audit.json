@@ -1,0 +1,37 @@
+{
+  "counts": {
+    "ifeval": 541,
+    "mmmu_standard": 1730,
+    "mmmu_vision": 1730
+  },
+  "unique_ids": 4001,
+  "images": 3778,
+  "max_image_references": 35,
+  "options_counts": {
+    "mmmu_standard": {
+      "10": 1213,
+      "9": 221,
+      "2": 28,
+      "5": 41,
+      "4": 125,
+      "3": 42,
+      "8": 31,
+      "7": 12,
+      "6": 16,
+      "12": 1
+    },
+    "mmmu_vision": {
+      "10": 1213,
+      "9": 221,
+      "2": 28,
+      "5": 41,
+      "4": 125,
+      "3": 42,
+      "8": 31,
+      "7": 12,
+      "6": 16,
+      "12": 1
+    }
+  },
+  "all_images_sha256_recorded": true
+}

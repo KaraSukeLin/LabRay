@@ -1,0 +1,7 @@
+Using Python 3.12.14 environment at: experiments/orsharc/artifacts/env/qwen
+Resolved 1 package in 860ms
+Downloading unsloth-zoo (2.5MiB)
+ Downloaded unsloth-zoo
+Prepared 1 package in 1.46s
+Installed 1 package in 24ms
+ + unsloth-zoo==2026.10.7

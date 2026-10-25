@@ -1,0 +1,30 @@
+{
+  "passed": true,
+  "smoke_completed": 60,
+  "unique_question_ids": 2,
+  "models": 5,
+  "modes": 2,
+  "seeds": [
+    20261016,
+    20261017,
+    20261018
+  ],
+  "formal_completed": 0,
+  "formal_planned": 16230,
+  "resume_original_prefix_unchanged": true,
+  "completed_noop_all_jsonl_sha256_equal": true,
+  "completed_noop_attempt_count_unchanged": true,
+  "model_load_attempts": 6,
+  "controlled_partial_stop_records": 1,
+  "resumed_bf16_new_records": 11,
+  "truncations": 0,
+  "missing_final": 0,
+  "thinking_with_nonempty_reasoning": 30,
+  "off_with_reasoning": 0,
+  "raw_vs_final_prompt_grade_differences": 15,
+  "inference_seconds_total": 747.3055676594377,
+  "output_tokens_total": 13092,
+  "cpu_tests": "20 targeted tests passed",
+  "full_test_suite_run": false,
+  "final_metadata_write_fix": "Atomic timing snapshot; CPU interruption injection test; inference/scoring AST unchanged"
+}

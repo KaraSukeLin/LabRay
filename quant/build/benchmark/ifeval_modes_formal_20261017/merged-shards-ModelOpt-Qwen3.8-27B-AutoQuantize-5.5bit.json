@@ -1,0 +1,10 @@
+{
+  "model": "ModelOpt-Qwen3.8-27B-AutoQuantize-5.5bit",
+  "merged": 529,
+  "files": [
+    "build/benchmark/ifeval_modes_formal_20261017/ModelOpt-Qwen3.8-27B-AutoQuantize-5.5bit/questions.shard-0-of-2.jsonl",
+    "build/benchmark/ifeval_modes_formal_20261017/ModelOpt-Qwen3.8-27B-AutoQuantize-5.5bit/questions.shard-1-of-2.jsonl"
+  ],
+  "archived_to": "build/benchmark/ifeval_modes_formal_20261017/ModelOpt-Qwen3.8-27B-AutoQuantize-5.5bit/merged-shards",
+  "completed_records": 3246
+}

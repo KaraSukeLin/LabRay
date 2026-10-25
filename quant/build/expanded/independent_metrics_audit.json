@@ -1,0 +1,155 @@
+{
+  "passed": true,
+  "method": "SciPy.special.rel_entr on independently recaptured full arrays, no renormalization; take_along_axis NLL; independent argmax flips",
+  "max_absolute_sum_error": 1.7763568394002505e-15,
+  "checks": [
+    {
+      "sample": "code-128-00",
+      "full_index": 0,
+      "errors": {
+        "tokens": 0,
+        "nll": 0.0,
+        "ref_nll": 0.0,
+        "kl_sum": 1.3322676295501878e-15,
+        "flips": 0
+      },
+      "passed": true
+    },
+    {
+      "sample": "code-2048-00",
+      "full_index": 24,
+      "errors": {
+        "tokens": 0,
+        "nll": 0.0,
+        "ref_nll": 0.0,
+        "kl_sum": 3.3306690738754696e-16,
+        "flips": 0
+      },
+      "passed": true
+    },
+    {
+      "sample": "code-512-00",
+      "full_index": 48,
+      "errors": {
+        "tokens": 0,
+        "nll": 0.0,
+        "ref_nll": 0.0,
+        "kl_sum": 1.5543122344752192e-15,
+        "flips": 0
+      },
+      "passed": true
+    },
+    {
+      "sample": "knowledge_en-128-00",
+      "full_index": 72,
+      "errors": {
+        "tokens": 0,
+        "nll": 0.0,
+        "ref_nll": 0.0,
+        "kl_sum": 0.0,
+        "flips": 0
+      },
+      "passed": true
+    },
+    {
+      "sample": "knowledge_en-2048-00",
+      "full_index": 96,
+      "errors": {
+        "tokens": 0,
+        "nll": 0.0,
+        "ref_nll": 0.0,
+        "kl_sum": 8.881784197001252e-16,
+        "flips": 0
+      },
+      "passed": true
+    },
+    {
+      "sample": "knowledge_en-512-00",
+      "full_index": 120,
+      "errors": {
+        "tokens": 0,
+        "nll": 0.0,
+        "ref_nll": 0.0,
+        "kl_sum": 0.0,
+        "flips": 0
+      },
+      "passed": true
+    },
+    {
+      "sample": "knowledge_zh-128-00",
+      "full_index": 144,
+      "errors": {
+        "tokens": 0,
+        "nll": 0.0,
+        "ref_nll": 0.0,
+        "kl_sum": 4.440892098500626e-16,
+        "flips": 0
+      },
+      "passed": true
+    },
+    {
+      "sample": "knowledge_zh-2048-00",
+      "full_index": 168,
+      "errors": {
+        "tokens": 0,
+        "nll": 0.0,
+        "ref_nll": 0.0,
+        "kl_sum": 1.3322676295501878e-15,
+        "flips": 0
+      },
+      "passed": true
+    },
+    {
+      "sample": "knowledge_zh-512-00",
+      "full_index": 192,
+      "errors": {
+        "tokens": 0,
+        "nll": 0.0,
+        "ref_nll": 0.0,
+        "kl_sum": 8.881784197001252e-16,
+        "flips": 0
+      },
+      "passed": true
+    },
+    {
+      "sample": "math-128-00",
+      "full_index": 216,
+      "errors": {
+        "tokens": 0,
+        "nll": 0.0,
+        "ref_nll": 0.0,
+        "kl_sum": 8.881784197001252e-16,
+        "flips": 0
+      },
+      "passed": true
+    },
+    {
+      "sample": "math-2048-00",
+      "full_index": 240,
+      "errors": {
+        "tokens": 0,
+        "nll": 0.0,
+        "ref_nll": 0.0,
+        "kl_sum": 6.661338147750939e-16,
+        "flips": 0
+      },
+      "passed": true
+    },
+    {
+      "sample": "math-512-00",
+      "full_index": 264,
+      "errors": {
+        "tokens": 0,
+        "nll": 0.0,
+        "ref_nll": 0.0,
+        "kl_sum": 1.7763568394002505e-15,
+        "flips": 0
+      },
+      "passed": true
+    }
+  ],
+  "legacy_fast_hashes_exact": true,
+  "capture_status": "ok",
+  "capture_and_audit_command_exit_code": 0,
+  "capture_log_checked_no_fatal_or_traceback": true
+}

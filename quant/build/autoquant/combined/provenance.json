@@ -1,0 +1,26 @@
+{
+  "original": "build/expanded/full",
+  "original_results_sha256": "4667738facaa144550e504f773d597b8652ded7fb656fb93d7fa85251a18644f",
+  "extensions": [
+    {
+      "path": "build/autoquant/fidelity_prisma",
+      "results_sha256": "74141940089e39b0a1ed922f072e16318d18b17c9359244e75b8b92e1df8f61f"
+    },
+    {
+      "path": "build/autoquant/fidelity_modelopt",
+      "results_sha256": "a5fdca2359d691c183f5a77598b95df536d3ac05d5c1f9940ba36f6d993d4b4f"
+    }
+  ],
+  "formal_models": [
+    "Qwen-Qwen3.8-27B",
+    "Qwen-Qwen3.8-27B-FP8",
+    "eNeural-Qwen3.8-27B-fast",
+    "nvidia-Qwen3.8-27B-NVFP4",
+    "RedHatAI-Qwen3.8-27B-NVFP4",
+    "unsloth-Qwen3.8-27B-NVFP4",
+    "RadixArk-Qwen3.8-27B-NVFP4-BF16-LMHead",
+    "rdtand-Qwen3.8-27B-PrismaAQUA-5.5bit-vllm",
+    "ModelOpt-Qwen3.8-27B-AutoQuantize-5.5bit"
+  ],
+  "excluded_historical_model": "RadixArk-Qwen3.8-27B-NVFP4"
+}

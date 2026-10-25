@@ -1,0 +1,468 @@
+{
+  "mmmu_1024": {
+    "optimistic": {
+      "occupied_gpu_hours": 345.360562927532,
+      "single_gpu_wall_hours": 345.360562927532,
+      "multi_gpu_wall_hours": 76.96987974296209,
+      "gpus": 5,
+      "reserved_cluster_gpu_hours": 384.8493987148105,
+      "schedule": [
+        {
+          "model": "Qwen-Qwen3.8-27B-FP8",
+          "gpu": 0,
+          "start_hours": 0.0,
+          "end_hours": 43.19485237119656,
+          "duration_hours": 43.19485237119656
+        },
+        {
+          "model": "RedHatAI-Qwen3.8-27B-NVFP4",
+          "gpu": 1,
+          "start_hours": 0.0,
+          "end_hours": 41.522669281430396,
+          "duration_hours": 41.522669281430396
+        },
+        {
+          "model": "eNeural-Qwen3.8-27B-fast",
+          "gpu": 2,
+          "start_hours": 0.0,
+          "end_hours": 41.220832143201044,
+          "duration_hours": 41.220832143201044
+        },
+        {
+          "model": "ModelOpt-Qwen3.8-27B-AutoQuantize-5.5bit",
+          "gpu": 3,
+          "start_hours": 0.0,
+          "end_hours": 38.915951752301474,
+          "duration_hours": 38.915951752301474
+        },
+        {
+          "model": "RadixArk-Qwen3.8-27B-NVFP4-BF16-LMHead",
+          "gpu": 4,
+          "start_hours": 0.0,
+          "end_hours": 38.982272376612706,
+          "duration_hours": 38.982272376612706
+        },
+        {
+          "model": "unsloth-Qwen3.8-27B-NVFP4",
+          "gpu": 3,
+          "start_hours": 38.915951752301474,
+          "end_hours": 76.47728087633578,
+          "duration_hours": 37.56132912403431
+        },
+        {
+          "model": "nvidia-Qwen3.8-27B-NVFP4",
+          "gpu": 4,
+          "start_hours": 38.982272376612706,
+          "end_hours": 75.80771376035574,
+          "duration_hours": 36.82544138374304
+        },
+        {
+          "model": "rdtand-Qwen3.8-27B-PrismaAQUA-5.5bit-vllm",
+          "gpu": 2,
+          "start_hours": 41.220832143201044,
+          "end_hours": 76.96987974296209,
+          "duration_hours": 35.74904759976104
+        },
+        {
+          "model": "Qwen-Qwen3.8-27B",
+          "gpu": 1,
+          "start_hours": 41.522669281430396,
+          "end_hours": 72.91083617668177,
+          "duration_hours": 31.388166895251373
+        }
+      ]
+    },
+    "typical": {
+      "occupied_gpu_hours": 364.1042883338644,
+      "single_gpu_wall_hours": 364.1042883338644,
+      "multi_gpu_wall_hours": 81.04409543142167,
+      "gpus": 5,
+      "reserved_cluster_gpu_hours": 405.22047715710835,
+      "schedule": [
+        {
+          "model": "Qwen-Qwen3.8-27B-FP8",
+          "gpu": 0,
+          "start_hours": 0.0,
+          "end_hours": 45.72618205885886,
+          "duration_hours": 45.72618205885886
+        },
+        {
+          "model": "RedHatAI-Qwen3.8-27B-NVFP4",
+          "gpu": 1,
+          "start_hours": 0.0,
+          "end_hours": 43.58496895718701,
+          "duration_hours": 43.58496895718701
+        },
+        {
+          "model": "eNeural-Qwen3.8-27B-fast",
+          "gpu": 2,
+          "start_hours": 0.0,
+          "end_hours": 43.173959622962265,
+          "duration_hours": 43.173959622962265
+        },
+        {
+          "model": "ModelOpt-Qwen3.8-27B-AutoQuantize-5.5bit",
+          "gpu": 3,
+          "start_hours": 0.0,
+          "end_hours": 40.93391066967233,
+          "duration_hours": 40.93391066967233
+        },
+        {
+          "model": "RadixArk-Qwen3.8-27B-NVFP4-BF16-LMHead",
+          "gpu": 4,
+          "start_hours": 0.0,
+          "end_hours": 40.86213535574847,
+          "duration_hours": 40.86213535574847
+        },
+        {
+          "model": "unsloth-Qwen3.8-27B-NVFP4",
+          "gpu": 4,
+          "start_hours": 40.86213535574847,
+          "end_hours": 80.5707385861111,
+          "duration_hours": 39.70860323036263
+        },
+        {
+          "model": "nvidia-Qwen3.8-27B-NVFP4",
+          "gpu": 3,
+          "start_hours": 40.93391066967233,
+          "end_hours": 79.98157078037124,
+          "duration_hours": 39.04766011069891
+        },
+        {
+          "model": "rdtand-Qwen3.8-27B-PrismaAQUA-5.5bit-vllm",
+          "gpu": 2,
+          "start_hours": 43.173959622962265,
+          "end_hours": 81.04409543142167,
+          "duration_hours": 37.8701358084594
+        },
+        {
+          "model": "Qwen-Qwen3.8-27B",
+          "gpu": 1,
+          "start_hours": 43.58496895718701,
+          "end_hours": 76.78170147710156,
+          "duration_hours": 33.196732519914555
+        }
+      ]
+    },
+    "conservative": {
+      "occupied_gpu_hours": 478.4637646560594,
+      "single_gpu_wall_hours": 478.4637646560594,
+      "multi_gpu_wall_hours": 106.38062595759578,
+      "gpus": 5,
+      "reserved_cluster_gpu_hours": 531.903129787979,
+      "schedule": [
+        {
+          "model": "Qwen-Qwen3.8-27B-FP8",
+          "gpu": 0,
+          "start_hours": 0.0,
+          "end_hours": 60.34451765327233,
+          "duration_hours": 60.34451765327233
+        },
+        {
+          "model": "RedHatAI-Qwen3.8-27B-NVFP4",
+          "gpu": 1,
+          "start_hours": 0.0,
+          "end_hours": 57.03635707917576,
+          "duration_hours": 57.03635707917576
+        },
+        {
+          "model": "eNeural-Qwen3.8-27B-fast",
+          "gpu": 2,
+          "start_hours": 0.0,
+          "end_hours": 56.43331844543767,
+          "duration_hours": 56.43331844543767
+        },
+        {
+          "model": "ModelOpt-Qwen3.8-27B-AutoQuantize-5.5bit",
+          "gpu": 3,
+          "start_hours": 0.0,
+          "end_hours": 53.682415058197684,
+          "duration_hours": 53.682415058197684
+        },
+        {
+          "model": "RadixArk-Qwen3.8-27B-NVFP4-BF16-LMHead",
+          "gpu": 4,
+          "start_hours": 0.0,
+          "end_hours": 53.42971238637715,
+          "duration_hours": 53.42971238637715
+        },
+        {
+          "model": "unsloth-Qwen3.8-27B-NVFP4",
+          "gpu": 4,
+          "start_hours": 53.42971238637715,
+          "end_hours": 105.73001718694232,
+          "duration_hours": 52.30030480056517
+        },
+        {
+          "model": "nvidia-Qwen3.8-27B-NVFP4",
+          "gpu": 3,
+          "start_hours": 53.682415058197684,
+          "end_hours": 105.2127598197859,
+          "duration_hours": 51.53034476158822
+        },
+        {
+          "model": "rdtand-Qwen3.8-27B-PrismaAQUA-5.5bit-vllm",
+          "gpu": 2,
+          "start_hours": 56.43331844543767,
+          "end_hours": 106.38062595759578,
+          "duration_hours": 49.94730751215811
+        },
+        {
+          "model": "Qwen-Qwen3.8-27B",
+          "gpu": 1,
+          "start_hours": 57.03635707917576,
+          "end_hours": 100.79584403846303,
+          "duration_hours": 43.759486959287266
+        }
+      ]
+    },
+    "joint_sampling_interval_gpu_hours": [
+      348.22515283400503,
+      379.8904527773829
+    ],
+    "model_order": [
+      "Qwen-Qwen3.8-27B-FP8",
+      "RedHatAI-Qwen3.8-27B-NVFP4",
+      "eNeural-Qwen3.8-27B-fast",
+      "ModelOpt-Qwen3.8-27B-AutoQuantize-5.5bit",
+      "RadixArk-Qwen3.8-27B-NVFP4-BF16-LMHead",
+      "unsloth-Qwen3.8-27B-NVFP4",
+      "nvidia-Qwen3.8-27B-NVFP4",
+      "rdtand-Qwen3.8-27B-PrismaAQUA-5.5bit-vllm",
+      "Qwen-Qwen3.8-27B"
+    ]
+  },
+  "mmmu_4096": {
+    "optimistic": {
+      "occupied_gpu_hours": 690.1855151488819,
+      "single_gpu_wall_hours": 690.1855151488819,
+      "multi_gpu_wall_hours": 153.45367677568456,
+      "gpus": 5,
+      "reserved_cluster_gpu_hours": 767.2683838784228,
+      "schedule": [
+        {
+          "model": "Qwen-Qwen3.8-27B-FP8",
+          "gpu": 0,
+          "start_hours": 0.0,
+          "end_hours": 86.28524442814961,
+          "duration_hours": 86.28524442814961
+        },
+        {
+          "model": "RedHatAI-Qwen3.8-27B-NVFP4",
+          "gpu": 1,
+          "start_hours": 0.0,
+          "end_hours": 83.53306918256368,
+          "duration_hours": 83.53306918256368
+        },
+        {
+          "model": "RadixArk-Qwen3.8-27B-NVFP4-BF16-LMHead",
+          "gpu": 2,
+          "start_hours": 0.0,
+          "end_hours": 80.55040544510652,
+          "duration_hours": 80.55040544510652
+        },
+        {
+          "model": "eNeural-Qwen3.8-27B-fast",
+          "gpu": 3,
+          "start_hours": 0.0,
+          "end_hours": 79.35716954153226,
+          "duration_hours": 79.35716954153226
+        },
+        {
+          "model": "ModelOpt-Qwen3.8-27B-AutoQuantize-5.5bit",
+          "gpu": 4,
+          "start_hours": 0.0,
+          "end_hours": 77.59265692533195,
+          "duration_hours": 77.59265692533195
+        },
+        {
+          "model": "nvidia-Qwen3.8-27B-NVFP4",
+          "gpu": 4,
+          "start_hours": 77.59265692533195,
+          "end_hours": 153.45367677568456,
+          "duration_hours": 75.8610198503526
+        },
+        {
+          "model": "rdtand-Qwen3.8-27B-PrismaAQUA-5.5bit-vllm",
+          "gpu": 3,
+          "start_hours": 79.35716954153226,
+          "end_hours": 152.95245517007305,
+          "duration_hours": 73.5952856285408
+        },
+        {
+          "model": "unsloth-Qwen3.8-27B-NVFP4",
+          "gpu": 2,
+          "start_hours": 80.55040544510652,
+          "end_hours": 152.43633647031314,
+          "duration_hours": 71.88593102520662
+        },
+        {
+          "model": "Qwen-Qwen3.8-27B",
+          "gpu": 1,
+          "start_hours": 83.53306918256368,
+          "end_hours": 145.0578023046616,
+          "duration_hours": 61.52473312209792
+        }
+      ]
+    },
+    "typical": {
+      "occupied_gpu_hours": 763.9708529651678,
+      "single_gpu_wall_hours": 763.9708529651678,
+      "multi_gpu_wall_hours": 169.96262518840774,
+      "gpus": 5,
+      "reserved_cluster_gpu_hours": 849.8131259420387,
+      "schedule": [
+        {
+          "model": "Qwen-Qwen3.8-27B-FP8",
+          "gpu": 0,
+          "start_hours": 0.0,
+          "end_hours": 96.4969705908949,
+          "duration_hours": 96.4969705908949
+        },
+        {
+          "model": "RedHatAI-Qwen3.8-27B-NVFP4",
+          "gpu": 1,
+          "start_hours": 0.0,
+          "end_hours": 92.74918301607072,
+          "duration_hours": 92.74918301607072
+        },
+        {
+          "model": "RadixArk-Qwen3.8-27B-NVFP4-BF16-LMHead",
+          "gpu": 2,
+          "start_hours": 0.0,
+          "end_hours": 88.24484362914033,
+          "duration_hours": 88.24484362914033
+        },
+        {
+          "model": "eNeural-Qwen3.8-27B-fast",
+          "gpu": 3,
+          "start_hours": 0.0,
+          "end_hours": 86.46946738758142,
+          "duration_hours": 86.46946738758142
+        },
+        {
+          "model": "ModelOpt-Qwen3.8-27B-AutoQuantize-5.5bit",
+          "gpu": 4,
+          "start_hours": 0.0,
+          "end_hours": 85.74662600127394,
+          "duration_hours": 85.74662600127394
+        },
+        {
+          "model": "nvidia-Qwen3.8-27B-NVFP4",
+          "gpu": 4,
+          "start_hours": 85.74662600127394,
+          "end_hours": 169.96262518840774,
+          "duration_hours": 84.21599918713379
+        },
+        {
+          "model": "rdtand-Qwen3.8-27B-PrismaAQUA-5.5bit-vllm",
+          "gpu": 3,
+          "start_hours": 86.46946738758142,
+          "end_hours": 167.63596979633107,
+          "duration_hours": 81.16650240874965
+        },
+        {
+          "model": "unsloth-Qwen3.8-27B-NVFP4",
+          "gpu": 2,
+          "start_hours": 88.24484362914033,
+          "end_hours": 168.35531104771815,
+          "duration_hours": 80.1104674185778
+        },
+        {
+          "model": "Qwen-Qwen3.8-27B",
+          "gpu": 1,
+          "start_hours": 92.74918301607072,
+          "end_hours": 161.51997634181586,
+          "duration_hours": 68.77079332574515
+        }
+      ]
+    },
+    "conservative": {
+      "occupied_gpu_hours": 1046.260830602571,
+      "single_gpu_wall_hours": 1046.260830602571,
+      "multi_gpu_wall_hours": 232.4770810606956,
+      "gpus": 5,
+      "reserved_cluster_gpu_hours": 1162.3854053034781,
+      "schedule": [
+        {
+          "model": "Qwen-Qwen3.8-27B-FP8",
+          "gpu": 0,
+          "start_hours": 0.0,
+          "end_hours": 133.13531674106662,
+          "duration_hours": 133.13531674106662
+        },
+        {
+          "model": "RedHatAI-Qwen3.8-27B-NVFP4",
+          "gpu": 1,
+          "start_hours": 0.0,
+          "end_hours": 127.43354887740082,
+          "duration_hours": 127.43354887740082
+        },
+        {
+          "model": "RadixArk-Qwen3.8-27B-NVFP4-BF16-LMHead",
+          "gpu": 2,
+          "start_hours": 0.0,
+          "end_hours": 119.87886387893877,
+          "duration_hours": 119.87886387893877
+        },
+        {
+          "model": "eNeural-Qwen3.8-27B-fast",
+          "gpu": 3,
+          "start_hours": 0.0,
+          "end_hours": 116.97114953242166,
+          "duration_hours": 116.97114953242166
+        },
+        {
+          "model": "ModelOpt-Qwen3.8-27B-AutoQuantize-5.5bit",
+          "gpu": 4,
+          "start_hours": 0.0,
+          "end_hours": 117.3000647439039,
+          "duration_hours": 117.3000647439039
+        },
+        {
+          "model": "nvidia-Qwen3.8-27B-NVFP4",
+          "gpu": 3,
+          "start_hours": 116.97114953242166,
+          "end_hours": 232.4770810606956,
+          "duration_hours": 115.50593152827395
+        },
+        {
+          "model": "rdtand-Qwen3.8-27B-PrismaAQUA-5.5bit-vllm",
+          "gpu": 4,
+          "start_hours": 117.3000647439039,
+          "end_hours": 228.1959527741696,
+          "duration_hours": 110.8958880302657
+        },
+        {
+          "model": "unsloth-Qwen3.8-27B-NVFP4",
+          "gpu": 2,
+          "start_hours": 119.87886387893877,
+          "end_hours": 230.11509875520608,
+          "duration_hours": 110.2362348762673
+        },
+        {
+          "model": "Qwen-Qwen3.8-27B",
+          "gpu": 1,
+          "start_hours": 127.43354887740082,
+          "end_hours": 222.33738127143312,
+          "duration_hours": 94.90383239403229
+        }
+      ]
+    },
+    "joint_sampling_interval_gpu_hours": [
+      700.9204019997846,
+      826.5963208574699
+    ],
+    "model_order": [
+      "Qwen-Qwen3.8-27B-FP8",
+      "RedHatAI-Qwen3.8-27B-NVFP4",
+      "RadixArk-Qwen3.8-27B-NVFP4-BF16-LMHead",
+      "eNeural-Qwen3.8-27B-fast",
+      "ModelOpt-Qwen3.8-27B-AutoQuantize-5.5bit",
+      "nvidia-Qwen3.8-27B-NVFP4",
+      "rdtand-Qwen3.8-27B-PrismaAQUA-5.5bit-vllm",
+      "unsloth-Qwen3.8-27B-NVFP4",
+      "Qwen-Qwen3.8-27B"
+    ]
+  }
+}

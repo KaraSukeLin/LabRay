@@ -1,0 +1,14 @@
+[
+  {
+    "source": "/root/projects/quant/build/benchmark/ifeval_modes_formal_20261017/cap_recovery_sensitivity_20261020/runs/experiment.json",
+    "action": "omit duplicate derived/intermediate result"
+  },
+  {
+    "source": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021_seed_20261021/analysis_before_retry_1792713234328186699/environment_validation.json",
+    "action": "omit duplicate derived/intermediate result"
+  },
+  {
+    "source": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021_seed_20261021/analysis_before_retry_1792713627797604508/environment_validation.json",
+    "action": "omit duplicate derived/intermediate result"
+  }
+]

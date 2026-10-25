@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "trial_ids": [
+    "226a25217e6670a06fe6c0ce"
+  ],
+  "actual_peak_concurrent_agents": 1,
+  "formal_trials": 0
+}

@@ -1,0 +1,58 @@
+{
+  "model": "rdtand-Qwen3.8-27B-PrismaAQUA-5.5bit-vllm",
+  "gpu": [
+    2,
+    2
+  ],
+  "exit_code": 0,
+  "process_wall_seconds": 14842.217191737145,
+  "component_processes": [
+    {
+      "model": "rdtand-Qwen3.8-27B-PrismaAQUA-5.5bit-vllm",
+      "gpu": 2,
+      "command": [
+        "/root/projects/quant/.modelopt-venv/bin/python",
+        "-u",
+        "/root/projects/quant/src/benchmark.py",
+        "run",
+        "--model",
+        "rdtand-Qwen3.8-27B-PrismaAQUA-5.5bit-vllm",
+        "--config",
+        "/root/projects/quant/assets/benchmark_config.json",
+        "--data",
+        "/root/projects/quant/assets/benchmark/pilot_v1",
+        "--output",
+        "/root/projects/quant/build/benchmark/pilot_v1/runs/rdtand-Qwen3.8-27B-PrismaAQUA-5.5bit-vllm",
+        "--long-max-tokens",
+        "4096",
+        "--long-ids",
+        "/root/projects/quant/assets/benchmark/pilot_v1/long_ids.json"
+      ],
+      "exit_code": 0,
+      "start_offset_seconds": 14997.50756208226,
+      "process_wall_seconds": 14151.15349946171
+    },
+    {
+      "model": "rdtand-Qwen3.8-27B-PrismaAQUA-5.5bit-vllm",
+      "gpu": 2,
+      "command": [
+        "/root/projects/quant/.modelopt-venv/bin/python",
+        "-u",
+        "/root/projects/quant/src/benchmark.py",
+        "run",
+        "--model",
+        "rdtand-Qwen3.8-27B-PrismaAQUA-5.5bit-vllm",
+        "--config",
+        "/root/projects/quant/assets/benchmark_config.json",
+        "--data",
+        "/root/projects/quant/assets/benchmark/pilot_if_supplement",
+        "--output",
+        "/root/projects/quant/build/benchmark/pilot_v1/ifeval_supplement_runs/rdtand-Qwen3.8-27B-PrismaAQUA-5.5bit-vllm"
+      ],
+      "exit_code": 0,
+      "start_offset_seconds": 686.5387431010604,
+      "process_wall_seconds": 691.0636922754347
+    }
+  ],
+  "derived": true
+}

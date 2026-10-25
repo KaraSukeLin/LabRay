@@ -1,0 +1,116 @@
++ B_PYTHON=/root/projects/decision/experiments/orsharc/artifacts/env/elephant/bin/python
++ bash experiments/orsharc/phase2_smoke.sh elephant
+{
+  "models": [
+    "elephant",
+    "startlux",
+    "kev",
+    "qwen"
+  ],
+  "configuration": "valid",
+  "dataset": {
+    "source": "https://raw.githubusercontent.com/Yifan-Gao/open_retrieval_conversational_machine_reading",
+    "revision": "309c4ea3a7cc4c7a815d7f46292d91fc9a0de581",
+    "raw_sha256": {
+      "id2snippet.json": "859a6c9fca2b153ff72b834b9fcef520117b09088d4da9a66f6b1db48b8f7124",
+      "open_retrieval_sharc_train.json": "46ac9920a27fa0bedca59b0cb25a791aee2dee85508b6f518384342e4a1bbe51",
+      "open_retrieval_sharc_dev.json": "f58623a43829eb369a4bce1886f5b33790b939f404b27fdeb89fbce7d64061fd",
+      "open_retrieval_sharc_test.json": "a2ecee7f1cb014f28c862fa44df813501fb2f31a3c1ed64279efcf9e21ef4ce3"
+    },
+    "files": {
+      "audit.json": "1ca90b9d56f81339229b43d049e285b92411ff95009905970937a4c770991225",
+      "inputs/dev.jsonl": "925b078ab24068ecbd90ac38e27ca29b3d4b3e15cf95e9930e7f386571bf10af",
+      "inputs/test.jsonl": "813ad966e3f3e8894a932a10c232270e90e6e4328dd8d8fa4da4b3b939485607",
+      "inputs/train.jsonl": "5cfeb0e8188aff1474365dca99ec8c6cc73a0ee8c77d4823f30c70ce437ed6aa",
+      "partitions.json": "50b6b48abc0da9d25d597f09fe5559a46c5de550736128788c446dc28c2d44aa",
+      "sealed/dev.jsonl": "05f00eab25f9f4300b5e10433d5bf4d3ea447f02578308f11708d17f2a713595",
+      "sealed/test.jsonl": "66d344fd819de0309b92a464c23516b6de03149a47dd5504d3015d7b11dee222",
+      "sealed/train.jsonl": "54e6843442537ae90987e36e7e73d5f96977273b40aa47547739bedcd23fdc84"
+    },
+    "counts": {
+      "train": 17936,
+      "dev": 1105,
+      "test": 2373
+    },
+    "partition_counts": {
+      "train": 17936,
+      "dev": 1105,
+      "dev_select": 456,
+      "dev_calibrate": 649,
+      "test": 2373,
+      "train_256": 256,
+      "train_1024": 1024,
+      "train_4096": 4096,
+      "demos_4": 4
+    },
+    "seed": 42
+  },
+  "fixtures": {
+    "information_allowlist": "passed",
+    "six_task_strategies": "passed",
+    "composition_conflicts": "passed",
+    "no_invented_score_labels": "passed",
+    "metric_arithmetic": "passed",
+    "temperature_nll": "passed",
+    "saved_result_report_dashboard": "passed; eight deterministic train fixtures; not model results",
+    "resume_skip_partial_write_identity": "passed",
+    "inference_does_not_open_gold": "passed; file-open guard",
+    "native_option_order_roundtrip": "passed"
+  }
+}
+Loading weights:   0%|          | 0/427 [00:00<?, ?it/s]Loading weights:   0%|          | 1/427 [00:00<03:00,  2.36it/s]Loading weights:   6%|▋         | 27/427 [00:00<00:05, 67.15it/s]Loading weights:  11%|█         | 46/427 [00:00<00:03, 96.15it/s]Loading weights:  16%|█▌        | 68/427 [00:00<00:02, 124.11it/s]Loading weights:  22%|██▏       | 94/427 [00:00<00:02, 159.48it/s]Loading weights:  27%|██▋       | 115/427 [00:00<00:01, 167.11it/s]Loading weights:  32%|███▏      | 135/427 [00:01<00:01, 164.98it/s]Loading weights:  36%|███▌      | 154/427 [00:01<00:01, 163.88it/s]Loading weights:  42%|████▏     | 180/427 [00:01<00:01, 189.49it/s]Loading weights:  47%|████▋     | 201/427 [00:01<00:01, 191.54it/s]Loading weights:  52%|█████▏    | 224/427 [00:01<00:01, 200.76it/s]Loading weights:  57%|█████▋    | 245/427 [00:01<00:00, 196.31it/s]Loading weights:  62%|██████▏   | 266/427 [00:01<00:00, 183.11it/s]Loading weights:  68%|██████▊   | 292/427 [00:01<00:00, 197.01it/s]Loading weights:  73%|███████▎  | 313/427 [00:02<00:00, 176.24it/s]Loading weights:  80%|███████▉  | 341/427 [00:02<00:00, 201.87it/s]Loading weights:  85%|████████▌ | 363/427 [00:02<00:00, 193.96it/s]Loading weights:  90%|█████████ | 385/427 [00:02<00:00, 193.24it/s]Loading weights:  96%|█████████▌| 409/427 [00:02<00:00, 205.07it/s]Loading weights: 100%|██████████| 427/427 [00:02<00:00, 163.75it/s]
+[transformers] `causal_conv1d_fn` is falling back to its reference PyTorch implementation because `causal_conv1d` is not installed. This is correct but much slower; install `causal_conv1d` for the optimized kernel.
+{
+  "status": "complete",
+  "n": 8
+}
+Loading weights:   0%|          | 0/427 [00:00<?, ?it/s]Loading weights:   0%|          | 1/427 [00:00<02:56,  2.42it/s]Loading weights:   6%|▋         | 27/427 [00:00<00:05, 68.28it/s]Loading weights:  11%|█         | 46/427 [00:00<00:03, 97.52it/s]Loading weights:  16%|█▌        | 68/427 [00:00<00:02, 125.48it/s]Loading weights:  22%|██▏       | 94/427 [00:00<00:02, 160.86it/s]Loading weights:  27%|██▋       | 115/427 [00:00<00:01, 171.07it/s]Loading weights:  32%|███▏      | 135/427 [00:01<00:01, 165.57it/s]Loading weights:  36%|███▌      | 154/427 [00:01<00:01, 164.85it/s]Loading weights:  43%|████▎     | 183/427 [00:01<00:01, 196.30it/s]Loading weights:  48%|████▊     | 204/427 [00:01<00:01, 189.82it/s]Loading weights:  53%|█████▎    | 226/427 [00:01<00:01, 191.72it/s]Loading weights:  59%|█████▉    | 252/427 [00:01<00:00, 209.75it/s]Loading weights:  64%|██████▍   | 274/427 [00:01<00:00, 202.25it/s]Loading weights:  69%|██████▉   | 295/427 [00:01<00:00, 193.25it/s]Loading weights:  74%|███████▍  | 315/427 [00:01<00:00, 188.99it/s]Loading weights:  81%|████████  | 344/427 [00:02<00:00, 214.53it/s]Loading weights:  86%|████████▌ | 366/427 [00:02<00:00, 186.80it/s]Loading weights:  93%|█████████▎| 396/427 [00:02<00:00, 213.28it/s]Loading weights:  98%|█████████▊| 419/427 [00:02<00:00, 188.70it/s]Loading weights: 100%|██████████| 427/427 [00:02<00:00, 169.06it/s]
+[transformers] `causal_conv1d_fn` is falling back to its reference PyTorch implementation because `causal_conv1d` is not installed. This is correct but much slower; install `causal_conv1d` for the optimized kernel.
+{
+  "status": "complete",
+  "n": 8
+}
+{
+  "identity": "8cd014d48c67667517bfd871679e0c7f90bcb8e6cd4281029e243aad7a41b7c1",
+  "utc": "2026-10-23T06:59:40Z",
+  "elapsed_seconds": 118.24372259527445,
+  "checkpoint": {
+    "path": "/root/projects/decision/experiments/orsharc/artifacts/smoke/elephant-20261023T065538Z/training/native/merged",
+    "sha256": "311d58e77404f3746f6cf417088ee8723b97f4a5303423b6fa8af8dd1a5fc9c4",
+    "files": {
+      "chat_template.jinja": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+      "config.json": "d4396c5e2f9ad6bcbcae413d356a3f56f305144372aea88d9a930c305987413b",
+      "generation_config.json": "290866a6d7d4a4442fe83ba2434a31517446f40a01de500ff97b4354e7e5d082",
+      "model.safetensors": "b3d911ffce678a601eb65571e28fefab7b70a78bc772e8e0d4a4ebf203152037",
+      "readout.json": "9118a7a57ca4a121221f43212181389b312cd79f432aab91cc5197d4c2b4ee21",
+      "tokenizer.json": "a5cd9732badce41de57e6efce8302930ded1c1188c5f81feb2bd6c24c4a1941f",
+      "tokenizer_config.json": "2984c03425a28d242744e234a5003786fd289b3713db79fe0958c65eb59d85b2"
+    }
+  },
+  "smoke_only": true,
+  "dev_selection": "evaluate complete dev_select with the common inference/report commands; no test selection",
+  "resume": "Trainer state for Qwen; native OneJev/Kev LoRA restart only"
+}
+Loading weights:   0%|          | 0/427 [00:00<?, ?it/s]Loading weights:   0%|          | 1/427 [00:00<02:01,  3.51it/s]Loading weights:   0%|          | 2/427 [00:00<02:09,  3.28it/s]Loading weights:   6%|▋         | 27/427 [00:00<00:07, 56.60it/s]Loading weights:  11%|█         | 46/427 [00:00<00:04, 86.05it/s]Loading weights:  16%|█▌        | 67/427 [00:00<00:03, 116.60it/s]Loading weights:  22%|██▏       | 93/427 [00:01<00:02, 153.24it/s]Loading weights:  26%|██▋       | 113/427 [00:01<00:01, 160.34it/s]Loading weights:  31%|███       | 132/427 [00:01<00:01, 166.72it/s]Loading weights:  35%|███▌      | 151/427 [00:01<00:01, 169.64it/s]Loading weights:  40%|████      | 172/427 [00:01<00:01, 176.76it/s]Loading weights:  45%|████▍     | 191/427 [00:01<00:01, 180.28it/s]Loading weights:  49%|████▉     | 210/427 [00:01<00:01, 176.02it/s]Loading weights:  55%|█████▌    | 235/427 [00:01<00:00, 195.67it/s]Loading weights:  60%|█████▉    | 256/427 [00:01<00:00, 189.80it/s]Loading weights:  65%|██████▍   | 277/427 [00:01<00:00, 195.44it/s]Loading weights:  71%|███████   | 302/427 [00:02<00:00, 205.53it/s]Loading weights:  76%|███████▌  | 323/427 [00:02<00:00, 192.26it/s]Loading weights:  81%|████████  | 345/427 [00:02<00:00, 196.46it/s]Loading weights:  85%|████████▌ | 365/427 [00:02<00:00, 182.96it/s]Loading weights:  90%|█████████ | 386/427 [00:02<00:00, 188.51it/s]Loading weights:  96%|█████████▋| 412/427 [00:02<00:00, 203.38it/s]Loading weights: 100%|██████████| 427/427 [00:02<00:00, 154.64it/s]
+[transformers] `causal_conv1d_fn` is falling back to its reference PyTorch implementation because `causal_conv1d` is not installed. This is correct but much slower; install `causal_conv1d` for the optimized kernel.
+{
+  "status": "complete",
+  "n": 8
+}
+{
+  "inference_reload_parity": "passed",
+  "max_probability_difference": 0.0,
+  "tolerance": 0.005,
+  "original_run": "f0ff61821c420efce17a033a8a3b0ae891022d3c5a87aeb3276175d1a2435333",
+  "formal_experiment_admission": false,
+  "remaining_gates": [
+    "production longest-input memory/throughput profile",
+    "trainable/frozen tensor scope audit",
+    "save/merge parity on the adapted model",
+    "Qwen exact-resume parity if resume will be used"
+  ],
+  "training_artifact_gate": "passed",
+  "finite_loss_records": 2,
+  "training_completion_sha256": "32f17b067a0244484c4860902811956b6cfff60798026ff548e90a44d010ac87",
+  "adapted_run": "142a62e278c8980753134631123bde1d3ded22b1f8769dd9514476d9058e5bca"
+}

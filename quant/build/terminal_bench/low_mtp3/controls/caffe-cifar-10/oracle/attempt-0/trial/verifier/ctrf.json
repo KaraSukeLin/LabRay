@@ -1,0 +1,86 @@
+{
+    "results": {
+        "tool": {
+            "name": "pytest",
+            "version": "8.4.1"
+        },
+        "summary": {
+            "tests": 6,
+            "passed": 2,
+            "failed": 4,
+            "skipped": 0,
+            "pending": 0,
+            "other": 0,
+            "start": 1792606633.3842134,
+            "stop": 1792606633.89538
+        },
+        "tests": [
+            {
+                "name": "test_outputs.py::test_caffe_version_and_source",
+                "status": "failed",
+                "raw_status": "call_failed",
+                "duration": 0.19484131410717964,
+                "start": 1792606633.4775598,
+                "stop": 1792606633.8736653,
+                "retries": 0,
+                "file_path": "test_outputs.py",
+                "trace": "def test_caffe_version_and_source():\n        \"\"\"Test that Caffe version is 1.0.0 and was cloned from BVLC\"\"\"\n        caffe_path = _find_caffe_binary()\n    \n        # Check version\n        result = subprocess.run(\n            [str(caffe_path), \"--version\"], capture_output=True, text=True\n        )\n>       assert result.returncode == 0, f\"Caffe version command failed: {result.stderr}\"\nE       AssertionError: Caffe version command failed: /app/caffe/.build_release/tools/caffe.bin: error while loading shared libraries: libcaffe.so.1.0.0: cannot open shared object file: No such file or directory\nE         \nE       assert 127 == 0\nE        +  where 127 = CompletedProcess(args=['/app/caffe/.build_release/tools/caffe.bin', '--version'], returncode=127, stdout='', stderr='/... error while loading shared libraries: libcaffe.so.1.0.0: cannot open shared object file: No such file or directory\\n').returncode\n\n/tests/test_outputs.py:34: AssertionError",
+                "message": "The test failed in the call phase due to an assertion error"
+            },
+            {
+                "name": "test_outputs.py::test_cifar10_model_exists",
+                "status": "failed",
+                "raw_status": "call_failed",
+                "duration": 0.0006160363554954529,
+                "start": 1792606633.8739045,
+                "stop": 1792606633.879702,
+                "retries": 0,
+                "file_path": "test_outputs.py",
+                "trace": "def test_cifar10_model_exists():\n        \"\"\"Test that CIFAR-10 model was actually trained, not just a dummy file\"\"\"\n        caffe_base = Path(\"/app/caffe\")\n        model_path = caffe_base / \"examples/cifar10/cifar10_quick_iter_500.caffemodel\"\n>       assert model_path.exists(), f\"File {model_path} does not exist\"\nE       AssertionError: File /app/caffe/examples/cifar10/cifar10_quick_iter_500.caffemodel does not exist\nE       assert False\nE        +  where False = exists()\nE        +    where exists = PosixPath('/app/caffe/examples/cifar10/cifar10_quick_iter_500.caffemodel').exists\n\n/tests/test_outputs.py:46: AssertionError",
+                "message": "The test failed in the call phase due to an assertion error"
+            },
+            {
+                "name": "test_outputs.py::test_prototxt_files_exist",
+                "status": "passed",
+                "duration": 0.0005841702222824097,
+                "start": 1792606633.8799307,
+                "stop": 1792606633.8806374,
+                "retries": 0,
+                "file_path": "test_outputs.py"
+            },
+            {
+                "name": "test_outputs.py::test_cpu_only_training_configured",
+                "status": "passed",
+                "duration": 0.0010298080742359161,
+                "start": 1792606633.8808234,
+                "stop": 1792606633.881964,
+                "retries": 0,
+                "file_path": "test_outputs.py"
+            },
+            {
+                "name": "test_outputs.py::test_training_completed_500_iterations",
+                "status": "failed",
+                "raw_status": "call_failed",
+                "duration": 0.0006528422236442566,
+                "start": 1792606633.8821447,
+                "stop": 1792606633.8886986,
+                "retries": 0,
+                "file_path": "test_outputs.py",
+                "trace": "def test_training_completed_500_iterations():\n        \"\"\"Test that training completed exactly 500 iterations with realistic output\"\"\"\n        caffe_base = Path(\"/app/caffe\")\n        training_output_file = caffe_base / \"training_output.txt\"\n    \n        assert training_output_file.exists(), (\n            f\"Training output file {training_output_file} does not exist\"\n        )\n    \n        with open(training_output_file, \"r\") as f:\n            training_content = f.read()\n    \n        # Check that training reached iteration 500\n>       assert \"Iteration 500\" in training_content, (\n            \"Training did not complete 500 iterations\"\n        )\nE       AssertionError: Training did not complete 500 iterations\nE       assert 'Iteration 500' in './build/tools/caffe: error while loading shared libraries: libcaffe.so.1.0.0: cannot open shared object file: No such file or directory\\n'\n\n/tests/test_outputs.py:130: AssertionError",
+                "message": "The test failed in the call phase due to an assertion error"
+            },
+            {
+                "name": "test_outputs.py::test_model_accuracy_verification",
+                "status": "failed",
+                "raw_status": "call_failed",
+                "duration": 0.0008866153657436371,
+                "start": 1792606633.888915,
+                "stop": 1792606633.8951964,
+                "retries": 0,
+                "file_path": "test_outputs.py",
+                "trace": "def test_model_accuracy_verification():\n        \"\"\"Test that model accuracy meets threshold and training output exists\"\"\"\n        caffe_base = Path(\"/app/caffe\")\n        caffe_bin = _find_caffe_binary()\n        model_file = str(caffe_base / \"examples/cifar10/cifar10_quick_train_test.prototxt\")\n        weights_file = str(\n            caffe_base / \"examples/cifar10/cifar10_quick_iter_500.caffemodel\"\n        )\n        training_output_file = caffe_base / \"training_output.txt\"\n    \n        assert training_output_file.exists(), (\n            f\"Training output file {training_output_file} does not exist\"\n        )\n    \n        with open(training_output_file, \"r\") as f:\n            training_content = f.read()\n    \n        # Extract final accuracy from training (test net evaluation during training)\n        train_accuracy_matches = re.findall(\n            r\"Test net output #0: accuracy = ([\\d.]+)\", training_content\n        )\n>       assert train_accuracy_matches, (\n            \"Could not find any accuracy measurements in training output\"\n        )\nE       AssertionError: Could not find any accuracy measurements in training output\nE       assert []\n\n/tests/test_outputs.py:176: AssertionError",
+                "message": "The test failed in the call phase due to an assertion error"
+            }
+        ]
+    }
+}

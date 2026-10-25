@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "previous_run": "build/benchmark/pilot_v1/runs/Qwen-Qwen3.8-27B/run.json",
+  "matched": [
+    "tensor_parallel_size",
+    "max_num_seqs",
+    "max_num_batched_tokens",
+    "enforce_eager",
+    "enable_prefix_caching",
+    "speculative_config",
+    "seed",
+    "kv_cache_dtype"
+  ],
+  "new_evaluation_framework": false,
+  "new_package_installations": false
+}

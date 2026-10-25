@@ -1,0 +1,60 @@
+{
+  "amendment": "Three-seed formal matrix correction",
+  "authorized_by": "User instruction",
+  "amended_at_epoch": 1792640311.6492255,
+  "supersedes": {
+    "path": "protocol_config.official_differences[4]",
+    "former_text": "One fixed seed per model/task for the planned 267-trial main comparison; 30 smoke trials remain separate."
+  },
+  "effective_matrix": {
+    "models": 3,
+    "tasks": 89,
+    "seeds": [
+      20261020,
+      20261021,
+      20261022
+    ],
+    "formula": "3 models × 89 tasks × 3 seeds = 801 slots",
+    "slots": 801,
+    "evaluable_tasks": 60,
+    "evaluable_trial_slots": 540,
+    "common_gate_non_evaluable_slots": 261
+  },
+  "seed_selection": {
+    "basis": "User specified fallback because the prior formal Goal defined only one seed",
+    "fixed_seed_order": [
+      20261020,
+      20261021,
+      20261022
+    ],
+    "values_explicitly_set_by_user": true,
+    "changed_after_observing_results": false
+  },
+  "effective_fixed_settings": {
+    "thinking": "low",
+    "mtp": 3,
+    "interleaved_thinking": false,
+    "sampling": {
+      "temperature": 1.0,
+      "top_p": 0.95,
+      "top_k": 20,
+      "min_p": 0.0,
+      "presence_penalty": 0.0,
+      "repetition_penalty": 1.0,
+      "max_tokens": 131072
+    },
+    "kv_cache_dtype": "bfloat16",
+    "timeout_multiplier": 1.0,
+    "max_model_len": 262144,
+    "official_task_timeout": "unchanged"
+  },
+  "source_config_snapshots_preserved": {
+    "assets/terminal_bench_low_mtp3.json": "9cb73cfb84f5368cef045a029a89ffd43ee2ab0843f607631975480fd1288fd8",
+    "CONFIG_THREE_SEEDS.json": "cb2bbe34c6a337cb4b27065aa8169828bf2b643f3319a70394f368a6ca2d1701",
+    "configs/config_seed_20261020.json": "9cb73cfb84f5368cef045a029a89ffd43ee2ab0843f607631975480fd1288fd8",
+    "configs/config_seed_20261021.json": "4ba8f21789dac9c0262c883ec257d2800a7bc4b94454e4eea64e33dec799c1ac",
+    "configs/config_seed_20261022.json": "18e9226e2e1f0dfe6f2b73f798bd9328979f908564a466b1c2df40b149e8c41c"
+  },
+  "runtime_sampling_or_timeout_changed": false,
+  "smoke_rerun": false
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "file": "cnn0.parquet",
+    "url": "https://huggingface.co/datasets/abisee/cnn_dailymail/resolve/96df5e686bee6baa90b8bee7c28b81fa3fa6223d/3.0.0/train-00000-of-00003.parquet",
+    "bytes": 256540614,
+    "sha256": "a56093836f6283ceac48128515f6c87ade70abb11aec31d23a176c4d90ae1736"
+  },
+  {
+    "file": "cnn1.parquet",
+    "url": "https://huggingface.co/datasets/abisee/cnn_dailymail/resolve/96df5e686bee6baa90b8bee7c28b81fa3fa6223d/3.0.0/train-00001-of-00003.parquet",
+    "bytes": 256588241,
+    "sha256": "7549c4f8f43c15750f4103aa3ec2966be1f3a51a990e60d97e3a1bac79f8802e"
+  },
+  {
+    "file": "cnn2.parquet",
+    "url": "https://huggingface.co/datasets/abisee/cnn_dailymail/resolve/96df5e686bee6baa90b8bee7c28b81fa3fa6223d/3.0.0/train-00002-of-00003.parquet",
+    "bytes": 259300551,
+    "sha256": "ef3b5a190df25ac99592b802f070e244251553b78a5157a0c88fa19d8ef1a13b"
+  },
+  {
+    "file": "perfectblend0.parquet",
+    "url": "https://huggingface.co/datasets/mlabonne/open-perfectblend/resolve/af60f3c18201652a83a93f46fcfee1b646ba3df7/data/train-00000-of-00006.parquet",
+    "bytes": 248696008,
+    "sha256": "06d223e493c9e3822c7862ae0705c1a0e4705fd21385276917fc8348e7ce7b0f"
+  }
+]

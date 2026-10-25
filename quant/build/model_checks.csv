@@ -1,0 +1,9 @@
+model,path,load,basic_inference,status,worker_exit_code,gpu,cuda,vllm,torch,transformers,quant_method,linear_kernels,mtp,kv_cache_dtype,reason
+Qwen-Qwen3.8-27B,/root/model/Qwen-Qwen3.8-27B,ok,ok,ok,0,NVIDIA H100 80GB HBM3,12.9,0.31.0+cu129,2.13.0+cu129,5.17.0,none,BF16 dense,False,bfloat16,
+Qwen-Qwen3.8-27B-FP8,/root/model/Qwen-Qwen3.8-27B-FP8,ok,ok,ok,0,NVIDIA H100 80GB HBM3,12.9,0.31.0+cu129,2.13.0+cu129,5.17.0,fp8,TritonFp8BlockScaledMMKernel,False,bfloat16,
+RadixArk-Qwen3.8-27B-NVFP4,/root/model/RadixArk-Qwen3.8-27B-NVFP4,ok,ok,ok,0,NVIDIA H100 80GB HBM3,12.9,0.31.0+cu129,2.13.0+cu129,5.17.0,modelopt,CutlassFP8ScaledMMLinearKernel; MarlinNvFp4LinearKernel,False,bfloat16,
+RadixArk-Qwen3.8-27B-NVFP4-BF16-LMHead,/root/model/RadixArk-Qwen3.8-27B-NVFP4-BF16-LMHead,ok,ok,ok,0,NVIDIA H100 80GB HBM3,12.9,0.31.0+cu129,2.13.0+cu129,5.17.0,modelopt,CutlassFP8ScaledMMLinearKernel; MarlinNvFp4LinearKernel,False,bfloat16,
+RedHatAI-Qwen3.8-27B-NVFP4,/root/model/RedHatAI-Qwen3.8-27B-NVFP4,ok,ok,ok,0,NVIDIA H100 80GB HBM3,12.9,0.31.0+cu129,2.13.0+cu129,5.17.0,compressed-tensors,CutlassFP8ScaledMMLinearKernel; MarlinNvFp4LinearKernel,False,bfloat16,
+eNeural-Qwen3.8-27B-fast,/root/model/eNeural-Qwen3.8-27B-fast,ok,ok,ok,0,NVIDIA H100 80GB HBM3,12.9,0.31.0+cu129,2.13.0+cu129,5.17.0,compressed-tensors,CutlassFP8ScaledMMLinearKernel; MarlinNvFp4LinearKernel,False,bfloat16,
+nvidia-Qwen3.8-27B-NVFP4,/root/model/nvidia-Qwen3.8-27B-NVFP4,ok,ok,ok,0,NVIDIA H100 80GB HBM3,12.9,0.31.0+cu129,2.13.0+cu129,5.17.0,modelopt,CutlassFP8ScaledMMLinearKernel; MarlinNvFp4LinearKernel,False,bfloat16,
+unsloth-Qwen3.8-27B-NVFP4,/root/model/unsloth-Qwen3.8-27B-NVFP4,ok,ok,ok,0,NVIDIA H100 80GB HBM3,12.9,0.31.0+cu129,2.13.0+cu129,5.17.0,compressed-tensors,CutlassFP8ScaledMMLinearKernel; MarlinNvFp4LinearKernel,False,bfloat16,

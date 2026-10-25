@@ -1,0 +1,208 @@
+{
+  "pinned": {
+    "tag": "alexgshaw/chess-best-move:20251031",
+    "digest": "alexgshaw/chess-best-move@sha256:bb447f94d9e2a8ed879f85c85a514b213b7418f9fe11fd7b2428a0b0e436e647",
+    "resolved_at": 1792524205.7799368
+  },
+  "manifest": "/root/projects/quant/build/terminal_bench/low_mtp3/images/blobs/sha256-bb447f94d9e2a8ed879f85c85a514b213b7418f9fe11fd7b2428a0b0e436e647",
+  "config_file": "/root/projects/quant/build/terminal_bench/low_mtp3/images/blobs/sha256-0977c69064c0e9d25a2267d99794290653e3683349a52e974c6f171e4293828f",
+  "config": {
+    "architecture": "amd64",
+    "config": {
+      "Env": [
+        "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
+      ],
+      "Cmd": [
+        "/bin/bash"
+      ],
+      "WorkingDir": "/app",
+      "Labels": {
+        "com.docker.compose.project": "harbor-build-chess-best-move",
+        "com.docker.compose.service": "task",
+        "com.docker.compose.version": "2.35.1",
+        "org.opencontainers.image.ref.name": "ubuntu",
+        "org.opencontainers.image.version": "24.04"
+      }
+    },
+    "created": "2025-10-28T21:56:18.86612692Z",
+    "history": [
+      {
+        "created": "2025-10-01T13:01:35.209126922Z",
+        "created_by": "/bin/sh -c #(nop)  ARG RELEASE",
+        "empty_layer": true
+      },
+      {
+        "created": "2025-10-01T13:01:35.239536352Z",
+        "created_by": "/bin/sh -c #(nop)  ARG LAUNCHPAD_BUILD_ARCH",
+        "empty_layer": true
+      },
+      {
+        "created": "2025-10-01T13:01:35.272673533Z",
+        "created_by": "/bin/sh -c #(nop)  LABEL org.opencontainers.image.ref.name=ubuntu",
+        "empty_layer": true
+      },
+      {
+        "created": "2025-10-01T13:01:35.298648213Z",
+        "created_by": "/bin/sh -c #(nop)  LABEL org.opencontainers.image.version=24.04",
+        "empty_layer": true
+      },
+      {
+        "created": "2025-10-01T13:01:37.490648801Z",
+        "created_by": "/bin/sh -c #(nop) ADD file:249778a1782b02a1c2bcf9f292f5778d81442a53c3de1958d712f10baf7e0b60 in / "
+      },
+      {
+        "created": "2025-10-01T13:01:37.838375075Z",
+        "created_by": "/bin/sh -c #(nop)  CMD [\"/bin/bash\"]",
+        "empty_layer": true
+      },
+      {
+        "created": "2025-10-22T02:31:16.720374204Z",
+        "created_by": "WORKDIR /app",
+        "comment": "buildkit.dockerfile.v0"
+      },
+      {
+        "created": "2025-10-22T04:41:39.441926328Z",
+        "created_by": "RUN /bin/sh -c apt update -y # buildkit",
+        "comment": "buildkit.dockerfile.v0"
+      },
+      {
+        "created": "2025-10-28T21:55:19.781525388Z",
+        "created_by": "RUN /bin/sh -c apt clean && apt update -y # buildkit",
+        "comment": "buildkit.dockerfile.v0"
+      },
+      {
+        "created": "2025-10-28T21:55:30.751931109Z",
+        "created_by": "RUN /bin/sh -c apt install -y curl # buildkit",
+        "comment": "buildkit.dockerfile.v0"
+      },
+      {
+        "created": "2025-10-28T21:56:12.191520147Z",
+        "created_by": "RUN /bin/sh -c apt install -y python3-pip # buildkit",
+        "comment": "buildkit.dockerfile.v0"
+      },
+      {
+        "created": "2025-10-28T21:56:15.094143806Z",
+        "created_by": "RUN /bin/sh -c pip3 install pillow==11.2.1 --break-system-packages # buildkit",
+        "comment": "buildkit.dockerfile.v0"
+      },
+      {
+        "created": "2025-10-28T21:56:15.671580136Z",
+        "created_by": "RUN /bin/sh -c mkdir -p /fonts # buildkit",
+        "comment": "buildkit.dockerfile.v0"
+      },
+      {
+        "created": "2025-10-28T21:56:17.470265215Z",
+        "created_by": "RUN /bin/sh -c curl https://notofonts.github.io/symbols/fonts/NotoSansSymbols2/full/ttf/NotoSansSymbols2-Regular.ttf > /fonts/noto.ttf # buildkit",
+        "comment": "buildkit.dockerfile.v0"
+      },
+      {
+        "created": "2025-10-28T21:56:17.518150734Z",
+        "created_by": "COPY make.py /app # buildkit",
+        "comment": "buildkit.dockerfile.v0"
+      },
+      {
+        "created": "2025-10-28T21:56:18.27098596Z",
+        "created_by": "RUN /bin/sh -c python3 make.py # buildkit",
+        "comment": "buildkit.dockerfile.v0"
+      },
+      {
+        "created": "2025-10-28T21:56:18.86612692Z",
+        "created_by": "RUN /bin/sh -c rm make.py # buildkit",
+        "comment": "buildkit.dockerfile.v0"
+      }
+    ],
+    "os": "linux",
+    "rootfs": {
+      "type": "layers",
+      "diff_ids": [
+        "sha256:073ec47a8c22dcaa4d6e5758799ccefe2f9bde943685830b1bf6fd2395f5eabc",
+        "sha256:e54d39dd357723fa47bd55e1fcadadd4e4882e84f0c323ad63413edd1a650020",
+        "sha256:e7b122d3e268f8ac286a9671ddc7c44744ff64e270ccc4d01ee5a11eee230396",
+        "sha256:e0c360f8f8437111d4aeb18aaae3793e791a3ee0ad1d5cf5c5df4f4325bd3a31",
+        "sha256:b2586d25a111f550115c7ebf8a7765ce8753ba99086e93f59c14b964af044f92",
+        "sha256:1a08b75a6bc6ea5b7931b92f5659f9a3791ae7a941a26872bae935d45e2fa180",
+        "sha256:c2682bba1af908386f8585efdd1defd9e5226950b2e699bae463981f07691892",
+        "sha256:23d19ab14ec4da11f4c70a2f48d9cff7b972f772ab2ef62323b66a58d4b19098",
+        "sha256:89f6f29c0f47e33e5c07fc7ce340530b08e5795e0e9fa24037a848e2911a0d84",
+        "sha256:fae4cd31e6279e7417e13b804cce78a608032f2648ac998381d2a95c55d646b3",
+        "sha256:2d8f43e4662543a7bf7b05d6bac729803f024362e0287ed15363178b40a713fd",
+        "sha256:2d0623db9238897a6887523c9c84962e6e55cb5bdae9ab82aa17490d68e265ec"
+      ]
+    }
+  },
+  "layers": [
+    {
+      "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+      "size": 29723147,
+      "digest": "sha256:4b3ffd8ccb5201a0fc03585952effb4ed2d1ea5e704d2e7330212fb8b16c86a3",
+      "path": "/root/projects/quant/build/terminal_bench/low_mtp3/images/blobs/sha256-4b3ffd8ccb5201a0fc03585952effb4ed2d1ea5e704d2e7330212fb8b16c86a3"
+    },
+    {
+      "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+      "size": 93,
+      "digest": "sha256:9040135e24f8def558e39d9b4c5b54b721c749c33610ae4233bfab3ccb2c63b6",
+      "path": "/root/projects/quant/build/terminal_bench/low_mtp3/images/blobs/sha256-9040135e24f8def558e39d9b4c5b54b721c749c33610ae4233bfab3ccb2c63b6"
+    },
+    {
+      "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+      "size": 38811653,
+      "digest": "sha256:64370410d5ca49aa5d0eea29bc2a46e2f2dd4b3b6934043944fd000c198f51d0",
+      "path": "/root/projects/quant/build/terminal_bench/low_mtp3/images/blobs/sha256-64370410d5ca49aa5d0eea29bc2a46e2f2dd4b3b6934043944fd000c198f51d0"
+    },
+    {
+      "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+      "size": 13514666,
+      "digest": "sha256:a77d67507195a38ba29f45064c745b8b92847a660fd3ec5557df6b8f1d975c04",
+      "path": "/root/projects/quant/build/terminal_bench/low_mtp3/images/blobs/sha256-a77d67507195a38ba29f45064c745b8b92847a660fd3ec5557df6b8f1d975c04"
+    },
+    {
+      "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+      "size": 3688639,
+      "digest": "sha256:d8f12b6818bde5a2babfd108809bd3683da8415816e5cd134308e071b473394c",
+      "path": "/root/projects/quant/build/terminal_bench/low_mtp3/images/blobs/sha256-d8f12b6818bde5a2babfd108809bd3683da8415816e5cd134308e071b473394c"
+    },
+    {
+      "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+      "size": 143798334,
+      "digest": "sha256:c38c7b25e3debb87a228e22d3d32e99ea6865e2a0af482a34ff56559f41f83ce",
+      "path": "/root/projects/quant/build/terminal_bench/low_mtp3/images/blobs/sha256-c38c7b25e3debb87a228e22d3d32e99ea6865e2a0af482a34ff56559f41f83ce"
+    },
+    {
+      "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+      "size": 10093263,
+      "digest": "sha256:9fcf91c5d8f30c93c240fbd6459127a40082f221d09e1e999285d6a97a924d7c",
+      "path": "/root/projects/quant/build/terminal_bench/low_mtp3/images/blobs/sha256-9fcf91c5d8f30c93c240fbd6459127a40082f221d09e1e999285d6a97a924d7c"
+    },
+    {
+      "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+      "size": 95,
+      "digest": "sha256:84d2affda6c86e46a57b6c4c1c33582c501109d93d74ce821e4c9eb655f20b63",
+      "path": "/root/projects/quant/build/terminal_bench/low_mtp3/images/blobs/sha256-84d2affda6c86e46a57b6c4c1c33582c501109d93d74ce821e4c9eb655f20b63"
+    },
+    {
+      "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+      "size": 538618,
+      "digest": "sha256:6ada36832d152f470c6e0efd88ccfb1df476abce4d06f6c45c15b2f8350457ea",
+      "path": "/root/projects/quant/build/terminal_bench/low_mtp3/images/blobs/sha256-6ada36832d152f470c6e0efd88ccfb1df476abce4d06f6c45c15b2f8350457ea"
+    },
+    {
+      "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+      "size": 1470,
+      "digest": "sha256:b2cc7717b0b69ee5dc2918574cea7bb9d7ae014c38eabe4f68404147e94a6bf7",
+      "path": "/root/projects/quant/build/terminal_bench/low_mtp3/images/blobs/sha256-b2cc7717b0b69ee5dc2918574cea7bb9d7ae014c38eabe4f68404147e94a6bf7"
+    },
+    {
+      "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+      "size": 34961,
+      "digest": "sha256:58eb935af274dadb6df9c76159d4d6fec60646a6009172cdc181633fa13d3ce0",
+      "path": "/root/projects/quant/build/terminal_bench/low_mtp3/images/blobs/sha256-58eb935af274dadb6df9c76159d4d6fec60646a6009172cdc181633fa13d3ce0"
+    },
+    {
+      "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+      "size": 130,
+      "digest": "sha256:79e41a00ade04d77ad59a288398910ef70cb0f1a0d87cef7c14aea299b1a255a",
+      "path": "/root/projects/quant/build/terminal_bench/low_mtp3/images/blobs/sha256-79e41a00ade04d77ad59a288398910ef70cb0f1a0d87cef7c14aea299b1a255a"
+    }
+  ],
+  "time": 1792608581.4591787
+}

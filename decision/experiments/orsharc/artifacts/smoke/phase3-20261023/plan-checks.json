@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "b1_b4_identical": true,
+  "qwen_ft_blocked": true,
+  "qwen_zero_four_shot_retained": true,
+  "calibration_before_test": true,
+  "elephant_quantization_blocked": [
+    {
+      "condition": "original",
+      "quantization": "bnb8",
+      "reason": "unsupported quantization path: qev/bnb8"
+    },
+    {
+      "condition": "original",
+      "quantization": "fp8",
+      "reason": "unsupported quantization path: qev/fp8"
+    },
+    {
+      "condition": "original",
+      "quantization": "bnb4",
+      "reason": "unsupported quantization path: qev/bnb4"
+    }
+  ],
+  "executed_matrix_commands": 0
+}

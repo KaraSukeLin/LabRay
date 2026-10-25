@@ -1,0 +1,26 @@
+{
+  "before": [
+    {
+      "pid": 14848,
+      "start_ticks": "2308853193",
+      "exe": "/root/projects/quant/build/terminal_bench/diagnostics/proot_version_ab/downloads/proot",
+      "Name": "proot",
+      "State": "S (sleeping)",
+      "PPid": "51794",
+      "TracerPid": "0"
+    },
+    {
+      "pid": 21607,
+      "start_ticks": "2308870139",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/controls/configure-git-webserver/oracle/attempt-1/trial/proot/prooted-14848-UwNWRe",
+      "Name": "sshd",
+      "State": "S (sleeping)",
+      "PPid": "51794",
+      "TracerPid": "14848"
+    }
+  ],
+  "after": [],
+  "delete_requested": true,
+  "rootfs_retained_for_evidence": true,
+  "child_cpu": 1508.9169889999998
+}

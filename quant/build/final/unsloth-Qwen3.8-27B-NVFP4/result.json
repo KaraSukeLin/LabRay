@@ -1,0 +1,61 @@
+{
+  "model": "unsloth-Qwen3.8-27B-NVFP4",
+  "model_path": "/root/model/unsloth-Qwen3.8-27B-NVFP4",
+  "status": "ok",
+  "environment": {
+    "vllm": "0.31.0+cu129",
+    "torch": "2.13.0+cu129",
+    "transformers": "5.17.0",
+    "compressed-tensors": "0.17.0"
+  },
+  "gpu": "NVIDIA H100 80GB HBM3",
+  "cuda": "12.9",
+  "mtp": false,
+  "kv_cache_dtype": "bfloat16",
+  "quant_method": "compressed-tensors",
+  "loaded": true,
+  "tokens": 432,
+  "ppl": 12.926735260898743,
+  "reference_ppl": 12.943072381460716,
+  "ppl_delta": -0.016337120561972895,
+  "kl_bf16_to_candidate": 0.013861838804902842,
+  "top1_flip_rate": 0.08564814814814815,
+  "vocab_size": 248320,
+  "distribution_sha256": [
+    "5ffd788c38974f080e99cc165cb24e0c4114cff3bc8fa80ce52b5f94467c27c3",
+    "c748ef6906d5d55ec882559ea9ea0c040229f8917932eb2e7c9b8f5c625ae234",
+    "8571e8096a198556750cdd8bc67f8c20255b819e960d30ece73e6b43ff9c47be",
+    "8904eb828204f8d8f6d68f1b33abaae284cbaec30c7f172c4474c10779d496fd",
+    "4ef035d25090a1dcec61da453fcd3f9b5c271fb7f54985f6f027789f6b842dbe",
+    "b8abab63f0a1395d305121f8a698821a25ace2ba998926c122cff698b7f7b7be",
+    "0c8250c75c909fee5f289ab0d8ca49779702582e6d21c08004d54e48ea9b8c44",
+    "23492ae3bb72f37a6c47fd97398911b38a4ab8e64e5557e097ba56e2cb6c9cdc"
+  ],
+  "basic_inference_token_ids": [
+    [
+      561
+    ],
+    [
+      271
+    ],
+    [
+      314
+    ],
+    [
+      561
+    ],
+    [
+      271
+    ],
+    [
+      271
+    ],
+    [
+      271
+    ],
+    [
+      271
+    ]
+  ],
+  "elapsed_seconds": 65.50438666343689
+}

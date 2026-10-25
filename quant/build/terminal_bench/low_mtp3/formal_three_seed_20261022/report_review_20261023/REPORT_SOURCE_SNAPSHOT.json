@@ -1,0 +1,145 @@
+{
+  "created_utc": "2026-10-23T02:49:15.428671+00:00",
+  "scope": "Post-completion report provenance snapshot; not a replacement for pre-run SOURCE_MANIFEST.",
+  "dataset": {
+    "repository": "https://github.com/harbor-framework/terminal-bench-2-1.git",
+    "revision": "7131e4375048a0e408a8fb404b5f499d726b695b",
+    "tasks": 89
+  },
+  "harbor": {
+    "repository": "https://github.com/harbor-framework/harbor.git",
+    "revision": "96ff9c6db90cc015f0fc0987d896670c9c5f1fad",
+    "version": "0.24.0"
+  },
+  "models": [
+    {
+      "model": "Qwen-Qwen3.8-27B",
+      "path": "/root/model/Qwen-Qwen3.8-27B",
+      "revision": "1d4bf0f2ff6012fd82039f2fa52739d0dd7c60c0",
+      "config_sha256": "191e0af232104ed8b65258cf3fb2b842e288008baca7633c11b82a1ac7203aab",
+      "shared_tokenizer_matches_fixed_manifest": true,
+      "source_crc_mismatches": [
+        {
+          "file": "chat_template.jinja",
+          "expected_crc32": "cf59f3ab",
+          "actual_crc32": "367cbad5",
+          "matches": false
+        },
+        {
+          "file": "generation_config.json",
+          "expected_crc32": "ac8d98f1",
+          "actual_crc32": "58cd7d0f",
+          "matches": false
+        },
+        {
+          "file": "tokenizer_config.json",
+          "expected_crc32": "7adf2118",
+          "actual_crc32": "f3d608c1",
+          "matches": false
+        }
+      ]
+    },
+    {
+      "model": "eNeural-Qwen3.8-27B-fast",
+      "path": "/root/model/eNeural-Qwen3.8-27B-fast",
+      "revision": "284b37dd7b7a5e0071268c0f17fbbb47e4f09b17",
+      "config_sha256": "c8caf1237022d0c475c9b0b406db101f962a98520cde0e592f5c871edb2858c4",
+      "shared_tokenizer_matches_fixed_manifest": true,
+      "source_crc_mismatches": [
+        {
+          "file": "chat_template.jinja",
+          "expected_crc32": "cf59f3ab",
+          "actual_crc32": "367cbad5",
+          "matches": false
+        },
+        {
+          "file": "generation_config.json",
+          "expected_crc32": "ac8d98f1",
+          "actual_crc32": "58cd7d0f",
+          "matches": false
+        },
+        {
+          "file": "tokenizer_config.json",
+          "expected_crc32": "7adf2118",
+          "actual_crc32": "f3d608c1",
+          "matches": false
+        }
+      ]
+    },
+    {
+      "model": "rdtand-Qwen3.8-27B-PrismaAQUA-5.5bit-vllm",
+      "path": "/root/model/rdtand-Qwen3.8-27B-PrismaAQUA-5.5bit-vllm",
+      "revision": "6dc090346f4f32acc320e48d9c413ea96a98d4c6",
+      "config_sha256": "a1929e346e22317692ef2036672d80b2224484787d0b6d5df934a8d1e843c00a",
+      "shared_tokenizer_matches_fixed_manifest": true,
+      "source_crc_mismatches": []
+    }
+  ],
+  "current_source_sha256": {
+    "src/terminal_formal_scheduler.py": "7dfc508bb6ce551957a5d575dc306ba1245150fed8e8bc0bd2566c32193b786d",
+    "src/terminal_formal_analysis.py": "43cb5dc3620c6c57b548e5a998f717b331d6317ed08c0c0c3a2f279b4f7e6803",
+    "src/terminal_formal_multiseed_analysis.py": "f23582798609176dea51e304b66d5fa9382f6123e9f47132540abd2a2c2c86f8",
+    "src/terminal_formal_multiseed_orchestrator.py": "22a6af0165b8004731230cd5efa3f950432c60bec9edbb3bb92f05d9ffb38ecc",
+    "src/agentic_fidelity.py": "d6f636612860ebc59782263184a8e6a6990761392f3b3d6b7586a7126ff1e4cb",
+    "tests/test_terminal_formal_scheduler.py": "3ba1df170da2644662039505724c0b428e99bd2ad00cef7bf78b7c50a77a0bf3",
+    "tests/test_terminal_formal_multiseed_analysis.py": "c55f5865843fb29d3db0052a850a51a4c20abff41560efcb7bf99f6e5c8b8139",
+    "tests/test_agentic_fidelity.py": "10c65d1e9a3b999df337806d0de4fde421e1db24edf7af3bba8ca402df2dafb2",
+    "assets/terminal_bench_low_mtp3.json": "cb2bbe34c6a337cb4b27065aa8169828bf2b643f3319a70394f368a6ca2d1701",
+    "build/terminal_bench/low_mtp3/formal_three_seed_20261022/CONFIG_THREE_SEEDS.json": "cb2bbe34c6a337cb4b27065aa8169828bf2b643f3319a70394f368a6ca2d1701",
+    "build/terminal_bench/low_mtp3/formal_three_seed_20261022/configs/config_seed_20261020.json": "9cb73cfb84f5368cef045a029a89ffd43ee2ab0843f607631975480fd1288fd8",
+    "build/terminal_bench/low_mtp3/formal_three_seed_20261022/configs/config_seed_20261021.json": "4ba8f21789dac9c0262c883ec257d2800a7bc4b94454e4eea64e33dec799c1ac",
+    "build/terminal_bench/low_mtp3/formal_three_seed_20261022/configs/config_seed_20261022.json": "18e9226e2e1f0dfe6f2b73f798bd9328979f908564a466b1c2df40b149e8c41c",
+    "build/terminal_bench/low_mtp3/formal_three_seed_20261022/PROTOCOL.json": "752c5068aab6be98257cbe083f299f61642e4aee78810d39039f1c15816db87b",
+    "build/terminal_bench/low_mtp3/formal_three_seed_20261022/PROTOCOL_AMENDMENT.json": "d4ff960debfb7ebe7dfa577c0e293306a18773c0b85d2e216b9fc1cae8257679",
+    "src/fidelity.py": "90fcfa567abee03b3af1c90f6f1afcab5e0bccfa5ed3d09f14ca61198a2eb0dd",
+    "src/analyze.py": "8e890ea5947d89e423e051e848f3354233bfda78ff2cd00d2cb48ba9d163674b",
+    "src/terminal_proot.py": "f1ef0663196c1c76d315ff83f61d7f081abdec72179e911d599c43f3d420d98d",
+    "assets/terminal_bench_manifest.json": "76b1a6a1ff0f1dc7d860a96bda488a77f92c715eadbfae2a4842233a47863cd6",
+    "assets/terminal_bench_images.json": "2c6b95021c57ed883e2ee7d300f9beb0c5a601ae513ead8e7c62dca3fd8d7869",
+    "build/terminal_bench/low_mtp3/model-audit.json": "2fda7befbf8cdec5128731f544f48432a13b425a3efeb7620e049cc11626a885"
+  },
+  "initial_manifest": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_three_seed_20261022/SOURCE_MANIFEST.json",
+  "initial_source_hash_differences": [
+    {
+      "path": "src/terminal_formal_scheduler.py",
+      "initial": "347db1b437cfc54c435b7984ba5c2312166ae913d61aaea632a6a09ce628aec8",
+      "current": "7dfc508bb6ce551957a5d575dc306ba1245150fed8e8bc0bd2566c32193b786d"
+    },
+    {
+      "path": "src/terminal_formal_multiseed_analysis.py",
+      "initial": "40407af7d5d0e15626c3caadab3a023abcbc93b9b2975d71c04c251816870313",
+      "current": "f23582798609176dea51e304b66d5fa9382f6123e9f47132540abd2a2c2c86f8"
+    },
+    {
+      "path": "src/agentic_fidelity.py",
+      "initial": "1feaa4733394b7851887a784a530ca42820518edf2aca548afc5368350ffcbec",
+      "current": "d6f636612860ebc59782263184a8e6a6990761392f3b3d6b7586a7126ff1e4cb"
+    },
+    {
+      "path": "tests/test_terminal_formal_scheduler.py",
+      "initial": "24af311dff49a9107a89fee372cd7c921ef7464ed5291454cde7e2a61f917d23",
+      "current": "3ba1df170da2644662039505724c0b428e99bd2ad00cef7bf78b7c50a77a0bf3"
+    },
+    {
+      "path": "tests/test_terminal_formal_multiseed_analysis.py",
+      "initial": "fe1f771e6f4dde8041f6da0c040a5fcf8836464aa64b58f969926d81ee548fd6",
+      "current": "c55f5865843fb29d3db0052a850a51a4c20abff41560efcb7bf99f6e5c8b8139"
+    },
+    {
+      "path": "tests/test_agentic_fidelity.py",
+      "initial": "5dbfa857c07eff2116b323ce7de98a82299ebc9521b70713a32c6dda03fe2034",
+      "current": "10c65d1e9a3b999df337806d0de4fde421e1db24edf7af3bba8ca402df2dafb2"
+    },
+    {
+      "path": "assets/terminal_bench_low_mtp3.json",
+      "initial": "9cb73cfb84f5368cef045a029a89ffd43ee2ab0843f607631975480fd1288fd8",
+      "current": "cb2bbe34c6a337cb4b27065aa8169828bf2b643f3319a70394f368a6ca2d1701"
+    }
+  ],
+  "tokenizer": {
+    "tokenizer.json": "0997f410c57a1f4e53b09e4be8f4a172d90edd9564368fb0847030937229b9f3",
+    "tokenizer_config.json": "b11349aafa7cdc6a320767cf7ceb29ed82f7eda5d65e8e0819e76f0ce947bf27",
+    "chat_template.jinja": "c3cf9e34abf4f9e36c2d72165aa9c132d3e2a725b6c2586aaa3a8af9d7a81041"
+  },
+  "fidelity_tokens_sha256": "9d4ac6c4c3e588b922d01de81e87006935b107fddda8abaa45f36a0820b38ea4"
+}

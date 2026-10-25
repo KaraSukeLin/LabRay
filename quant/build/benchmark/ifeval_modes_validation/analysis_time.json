@@ -1,0 +1,14 @@
+{
+  "command": [
+    ".modelopt-venv/bin/python",
+    "src/analyze_ifeval_modes.py",
+    "--runs",
+    "build/benchmark/ifeval_modes_smoke_v1",
+    "--output",
+    "build/benchmark/ifeval_modes_validation/analysis",
+    "--resamples",
+    "199999"
+  ],
+  "wall_seconds": 2.1369523108005524,
+  "exit_code": 0
+}

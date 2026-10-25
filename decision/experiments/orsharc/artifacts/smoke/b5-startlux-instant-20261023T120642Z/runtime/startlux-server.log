@@ -1,0 +1,52 @@
+[transformers] PyTorch was not found. Models won't be available and only tokenizers, configuration and file/data utilities can be used.
+Traceback (most recent call last):
+  File "/tmp/b5-startlux-smoke/venv/bin/startlux-decide", line 10, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/tmp/b5-startlux-smoke/venv/lib/python3.11/site-packages/startlux_decide/cli.py", line 375, in main
+    return commands[a.command](a)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/b5-startlux-smoke/venv/lib/python3.11/site-packages/startlux_decide/cli.py", line 238, in cmd_serve
+    web.run_app(app, host=a.host, port=a.port, access_log=None, ssl_context=tls,
+  File "/tmp/b5-startlux-smoke/venv/lib/python3.11/site-packages/aiohttp/web.py", line 502, in run_app
+    loop.run_until_complete(main_task)
+  File "/usr/lib/python3.11/asyncio/base_events.py", line 653, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/tmp/b5-startlux-smoke/venv/lib/python3.11/site-packages/aiohttp/web.py", line 319, in _run_app
+    await runner.setup()
+  File "/tmp/b5-startlux-smoke/venv/lib/python3.11/site-packages/aiohttp/web_runner.py", line 310, in setup
+    self._server = await self._make_server()
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/b5-startlux-smoke/venv/lib/python3.11/site-packages/aiohttp/web_runner.py", line 419, in _make_server
+    await self._app.startup()
+  File "/tmp/b5-startlux-smoke/venv/lib/python3.11/site-packages/aiohttp/web_app.py", line 465, in startup
+    await self.on_startup.send(self)
+  File "/tmp/b5-startlux-smoke/venv/lib/python3.11/site-packages/aiosignal/__init__.py", line 52, in send
+    await receiver(*args, **kwargs)
+  File "/tmp/b5-startlux-smoke/venv/lib/python3.11/site-packages/startlux_decide/server.py", line 250, in start
+    app[DECIDER] = Decider(folder, backend, defaults, max_budget, context_length, **(images or {}))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/b5-startlux-smoke/venv/lib/python3.11/site-packages/startlux_decide/pipeline.py", line 164, in __init__
+    self.letter_ids = check_tokenizer(self.tok)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/b5-startlux-smoke/venv/lib/python3.11/site-packages/startlux_decide/prompt.py", line 143, in check_tokenizer
+    text = tokenizer.apply_chat_template(probe, tokenize=False, add_generation_prompt=True, enable_thinking=False)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/b5-startlux-smoke/venv/lib/python3.11/site-packages/transformers/tokenization_utils_base.py", line 3145, in apply_chat_template
+    rendered_chat, generation_indices = render_jinja_template(
+                                        ^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/b5-startlux-smoke/venv/lib/python3.11/site-packages/transformers/utils/chat_template_utils.py", line 623, in render_jinja_template
+    compiled_template = _compile_jinja_template(chat_template)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/b5-startlux-smoke/venv/lib/python3.11/site-packages/transformers/utils/chat_template_utils.py", line 530, in _compile_jinja_template
+    return _cached_compile_jinja_template(chat_template)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/b5-startlux-smoke/venv/lib/python3.11/site-packages/transformers/utils/chat_template_utils.py", line 536, in _cached_compile_jinja_template
+    raise ImportError(
+ImportError: apply_chat_template requires jinja2 to be installed. Please install it using `pip install jinja2`.
+2026-10-23 12:42:03,267 ERROR asyncio: Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7f2c50650b10>
+2026-10-23 12:42:03,268 ERROR asyncio: Unclosed connector
+connections: ['deque([(<aiohttp.client_proto.ResponseHandler object at 0x7f2ba99d9bd0>, 23239090.50415492)])']
+connector: <aiohttp.connector.TCPConnector object at 0x7f2bad467fd0>

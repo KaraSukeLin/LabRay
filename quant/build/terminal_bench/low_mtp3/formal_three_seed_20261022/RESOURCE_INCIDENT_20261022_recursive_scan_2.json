@@ -1,0 +1,170 @@
+{
+  "schema": "terminal-resource-incident/v1",
+  "incident_id": "stale-recursive-diagnostic-scan-20261022-2",
+  "observed_at_utc": "2026-10-22T15:45:05.678788+00:00",
+  "interval_utc": {
+    "start": "2026-10-22T14:54:44.770000+00:00",
+    "stop": "2026-10-22T15:45:05.678788+00:00",
+    "duration_seconds": 3020.9087879657745
+  },
+  "processes": [
+    {
+      "pid": 40584,
+      "role": "shell",
+      "parent_pid": 22548,
+      "parent": "codex app-server",
+      "exit": "exited after child SIGTERM"
+    },
+    {
+      "pid": 40585,
+      "role": "Python recursive scanner",
+      "parent_pid": 40584,
+      "argv": ".harbor-venv/bin/python -",
+      "resolved_exe": "/root/.local/share/uv/python/cpython-3.12.14-linux-x86_64-gnu/bin/python3.12",
+      "command_signature": "read-only recursive glob over build/terminal_bench/low_mtp3/**/matrix.sqlite plus two JSON metadata reads",
+      "cpu_percent_observed_approx": 99.8,
+      "signal": "SIGTERM",
+      "still_present_after_stop": false
+    }
+  ],
+  "resource_use": {
+    "estimated_core_hours": 0.837463047330512,
+    "cpu_quota_at_stop": "5000000 100000",
+    "cpu_pressure_snapshot_at_stop": "some avg10=0.00 avg60=0.08 avg300=0.02 total=1012185053\nfull avg10=0.00 avg60=0.07 avg300=0.02 total=990891571",
+    "memory_events_snapshot_at_stop": "low 0\nhigh 0\nmax 19\noom 0\noom_kill 0",
+    "snapshot_limit": "Pressure and memory counters were sampled only at stop and do not describe the full incident interval."
+  },
+  "overlapping_trials": [
+    {
+      "id": "18dcfc0a943bb6f61de3a4c3",
+      "model": "Qwen-Qwen3.8-27B",
+      "task": "feal-linear-cryptanalysis",
+      "status_at_stop": "TIMEOUT",
+      "started_epoch": 1792679600.934406,
+      "finished_epoch": 1792681451.3446746
+    },
+    {
+      "id": "1d23dc6ea77e49c708699dc6",
+      "model": "rdtand-Qwen3.8-27B-PrismaAQUA-5.5bit-vllm",
+      "task": "winning-avg-corewars",
+      "status_at_stop": "TIMEOUT",
+      "started_epoch": 1792679733.6894078,
+      "finished_epoch": 1792683417.7934449
+    },
+    {
+      "id": "11fe835eb2f86bb79626b354",
+      "model": "eNeural-Qwen3.8-27B-fast",
+      "task": "db-wal-recovery",
+      "status_at_stop": "TIMEOUT",
+      "started_epoch": 1792679960.5457208,
+      "finished_epoch": 1792680930.702841
+    },
+    {
+      "id": "246a7c6ea5ae2c5e068b26bd",
+      "model": "Qwen-Qwen3.8-27B",
+      "task": "password-recovery",
+      "status_at_stop": "TIMEOUT",
+      "started_epoch": 1792680704.7795074,
+      "finished_epoch": 1792681681.1447244
+    },
+    {
+      "id": "185912bfe0a2588a1d7f9d09",
+      "model": "eNeural-Qwen3.8-27B-fast",
+      "task": "train-fasttext",
+      "status_at_stop": "RUNNING",
+      "started_epoch": 1792680809.8299308,
+      "finished_epoch": null
+    },
+    {
+      "id": "1e0adc086d1527499818637b",
+      "model": "eNeural-Qwen3.8-27B-fast",
+      "task": "llm-inference-batching-scheduler",
+      "status_at_stop": "TIMEOUT",
+      "started_epoch": 1792680930.7170613,
+      "finished_epoch": 1792682772.9047918
+    },
+    {
+      "id": "1e5f247e6cb0cb0d1b5d4134",
+      "model": "rdtand-Qwen3.8-27B-PrismaAQUA-5.5bit-vllm",
+      "task": "extract-moves-from-video",
+      "status_at_stop": "ENVIRONMENT_FAIL",
+      "started_epoch": 1792681452.0742433,
+      "finished_epoch": 1792681743.8207998
+    },
+    {
+      "id": "28125ab2e19b7b0d29b40a49",
+      "model": "Qwen-Qwen3.8-27B",
+      "task": "make-doom-for-mips",
+      "status_at_stop": "TIMEOUT",
+      "started_epoch": 1792681681.8245473,
+      "finished_epoch": 1792682717.4772651
+    },
+    {
+      "id": "1e7863b29625931f098c810d",
+      "model": "rdtand-Qwen3.8-27B-PrismaAQUA-5.5bit-vllm",
+      "task": "filter-js-from-html",
+      "status_at_stop": "PASS",
+      "started_epoch": 1792681743.8408322,
+      "finished_epoch": 1792682655.4272616
+    },
+    {
+      "id": "234b33d6f94325e454370f9c",
+      "model": "rdtand-Qwen3.8-27B-PrismaAQUA-5.5bit-vllm",
+      "task": "make-doom-for-mips",
+      "status_at_stop": "TIMEOUT",
+      "started_epoch": 1792682655.4417155,
+      "finished_epoch": 1792683642.0512471
+    },
+    {
+      "id": "3556f54385e2aa1a8921e301",
+      "model": "Qwen-Qwen3.8-27B",
+      "task": "train-fasttext",
+      "status_at_stop": "RUNNING",
+      "started_epoch": 1792682717.4918172,
+      "finished_epoch": null
+    },
+    {
+      "id": "21d5eedc1aa9ab37e8e73147",
+      "model": "eNeural-Qwen3.8-27B-fast",
+      "task": "dna-insert",
+      "status_at_stop": "MODEL_FAIL",
+      "started_epoch": 1792682773.5863783,
+      "finished_epoch": 1792683390.7542384
+    },
+    {
+      "id": "275520bbce0d0c7a095aa1d1",
+      "model": "eNeural-Qwen3.8-27B-fast",
+      "task": "sam-cell-seg",
+      "status_at_stop": "RUNNING",
+      "started_epoch": 1792683390.769046,
+      "finished_epoch": null
+    },
+    {
+      "id": "257a71f309bac4741cbb2db8",
+      "model": "rdtand-Qwen3.8-27B-PrismaAQUA-5.5bit-vllm",
+      "task": "video-processing",
+      "status_at_stop": "PASS",
+      "started_epoch": 1792683417.817967,
+      "finished_epoch": 1792683904.001877
+    },
+    {
+      "id": "25e392c4e7d036d310773db7",
+      "model": "rdtand-Qwen3.8-27B-PrismaAQUA-5.5bit-vllm",
+      "task": "train-fasttext",
+      "status_at_stop": "RUNNING",
+      "started_epoch": 1792683642.7300546,
+      "finished_epoch": null
+    },
+    {
+      "id": "2902143d407a8161cc4dc1ef",
+      "model": "rdtand-Qwen3.8-27B-PrismaAQUA-5.5bit-vllm",
+      "task": "constraints-scheduling",
+      "status_at_stop": "RUNNING",
+      "started_epoch": 1792683904.0149035,
+      "finished_epoch": null
+    }
+  ],
+  "overlap_count": 16,
+  "action": "Sent SIGTERM only to the verified scanner Python child; its shell exited. No scheduler, Trial worker, or model server was signaled.",
+  "interpretation": "A small effect on CPU-bound wall time cannot be ruled out. No score, timeout, verifier result, or Trial status was changed and no completed Trial was retried."
+}

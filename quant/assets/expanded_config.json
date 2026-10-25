@@ -1,0 +1,59 @@
+{
+  "version": "fidelity-public-v2.1",
+  "seed": 20261016,
+  "documents_per_cell": 24,
+  "scored_tokens_per_document": 192,
+  "contexts": [
+    128,
+    512,
+    2048
+  ],
+  "tokenizer": "/root/model/Qwen-Qwen3.8-27B",
+  "sources": {
+    "knowledge_en": {
+      "file": "wiki_en.parquet",
+      "type": "wikipedia",
+      "language": "en",
+      "revision": "b04c8d1ceb2f5cd4588862100d08de323dccfbaa",
+      "url": "https://huggingface.co/datasets/wikimedia/wikipedia/resolve/b04c8d1ceb2f5cd4588862100d08de323dccfbaa/20231101.en/train-00000-of-00041.parquet",
+      "license": "CC-BY-SA-3.0 and GFDL",
+      "sha256": "382e7f6f09e488b24793a7f7cfc659879d5a22da2cf2efec6491665f0c019677"
+    },
+    "knowledge_zh": {
+      "file": "wiki_zh.parquet",
+      "type": "wikipedia",
+      "language": "zh",
+      "revision": "b04c8d1ceb2f5cd4588862100d08de323dccfbaa",
+      "url": "https://huggingface.co/datasets/wikimedia/wikipedia/resolve/b04c8d1ceb2f5cd4588862100d08de323dccfbaa/20231101.zh/train-00000-of-00006.parquet",
+      "license": "CC-BY-SA-3.0 and GFDL",
+      "sha256": "853ddf4a138c792ad7386d6de831788f96326c03e1e3349f7a315498392e8b56"
+    },
+    "math": {
+      "file": "mathlib.tar.gz",
+      "type": "tar",
+      "language": "en-Lean",
+      "revision": "ccbef15ebdb41c2addfac682131f83c75904c3c1",
+      "url": "https://codeload.github.com/leanprover-community/mathlib4/tar.gz/ccbef15ebdb41c2addfac682131f83c75904c3c1",
+      "license": "Apache-2.0",
+      "prefix": "Mathlib/",
+      "suffix": ".lean",
+      "sha256": "aebc28f3a374beb40fa1e73dc152e6b0cbf31f85f61414e324b5e04ddc9dbfc0"
+    },
+    "code": {
+      "file": "cpython.tar.gz",
+      "type": "tar",
+      "language": "Python",
+      "revision": "c7a1716296446386c77d405d1f34b43bc2367016",
+      "url": "https://codeload.github.com/python/cpython/tar.gz/c7a1716296446386c77d405d1f34b43bc2367016",
+      "license": "PSF-2.0",
+      "prefix": "Lib/test/",
+      "suffix": ".py",
+      "sha256": "9602a2afed45535cad2d37278ef03cadd7a47bad1495597a90cfbc42027fe9af"
+    }
+  },
+  "exclude_document_ids": [
+    "knowledge_en:4463896",
+    "knowledge_en:4776064"
+  ],
+  "exclusion_reason": "Normalized 13-word overlap with complete CNN/DailyMail train; independent of model scores"
+}

@@ -1,0 +1,113 @@
+{
+  "sha": "c7a1716296446386c77d405d1f34b43bc2367016",
+  "node_id": "C_kwDOBN0Z8doAKGM3YTE3MTYyOTY0NDYzODZjNzdkNDA1ZDFmMzRiNDNiYzIzNjcwMTY",
+  "commit": {
+    "author": {
+      "name": "Petr Viktorin",
+      "email": "encukou@gmail.com",
+      "date": "2026-10-16T11:05:15Z"
+    },
+    "committer": {
+      "name": "GitHub",
+      "email": "noreply@github.com",
+      "date": "2026-10-16T11:05:15Z"
+    },
+    "message": "gh-157899: Skip test_readlink_is_marked_as_supports_fd() on older macOS & iOS (#159403)\n\n- Generalize `@requires_mac_ver` logic to add `@requires_ios_ver`\n- Skip test_readlink_is_marked_as_supports_fd() on lower Apple OS versions",
+    "tree": {
+      "sha": "c954b9371e5c5cb123dad8bdb8ceabe6b9923500",
+      "url": "https://api.github.com/repos/python/cpython/git/trees/c954b9371e5c5cb123dad8bdb8ceabe6b9923500"
+    },
+    "url": "https://api.github.com/repos/python/cpython/git/commits/c7a1716296446386c77d405d1f34b43bc2367016",
+    "comment_count": 0,
+    "verification": {
+      "verified": true,
+      "reason": "valid",
+      "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJq0gTrCRC1aQ7uu5UhlAAAlfkQAKBlVpxhwMaiTG95OtnryUO5\nybpiJHfJd99Uim3xiHlpxZmr04cTS8/VL5hZkFLjE51te34Ppsk9I7d148e77XCv\nwzzF/2vEtY6/nCUed9/SyxPJo/H5Xg679ViPiAReDmPuXcj9zHcF+Ux2baYMuPwS\nShmaW6L+ZOWHzsfu0Yjr66Z90WlEv1Y3z6DEHq9IKnjKA84/Ef67k0Ej3TYPWQEz\nj5KEIwnuWdul9M6AShQ2CRjVNCRrZ5AaDUBLqoqTGHVixOxyLXCDN1/vwdlzmB77\n8Ntn8zUx2ujCprzqVhmkN1CaHPfPUE/9AMFdmgjTwSl43caLJrpfSYsPgS57vgYF\nPaihvNEZ0piHBAWcjgahCbMyq8rqRWLQ920JiSgtJlcLALVKhpe87jYAT2cnBFhK\n7sL/m4SJNUms7yPEfFtNypSdab52UKuVPQbM+dzrVM3uYAvNpMv9zuSAVFrqniT/\nVTxPFsCrP/7w00n3qeuJs9Rddy8a8hcjqHHhRxILpXWN0L2TFZ3HOAkRZ4k3Ko3Y\nza5rVXNAkkO9bkM2EQC2vbHoYHXlxUM58Csis5rcnOsd+Xi/VmPDFXcZdUmeYmdM\nlAWdf2qSP3AuFjT0LgyFIgTiwXSiLoIUol55OCwDKHISKcJh/9J+VqarxCyBjtNO\nu7uSRX3h1h+TCRrS0nsH\n=AG7g\n-----END PGP SIGNATURE-----\n",
+      "payload": "tree c954b9371e5c5cb123dad8bdb8ceabe6b9923500\nparent 35a000974a97248ffe4137ac01373f391cfc3728\nauthor Petr Viktorin <encukou@gmail.com> 1792148715 +0200\ncommitter GitHub <noreply@github.com> 1792148715 +0200\n\ngh-157899: Skip test_readlink_is_marked_as_supports_fd() on older macOS & iOS (#159403)\n\n- Generalize `@requires_mac_ver` logic to add `@requires_ios_ver`\n- Skip test_readlink_is_marked_as_supports_fd() on lower Apple OS versions",
+      "verified_at": "2026-10-16T11:05:16Z"
+    }
+  },
+  "url": "https://api.github.com/repos/python/cpython/commits/c7a1716296446386c77d405d1f34b43bc2367016",
+  "html_url": "https://github.com/python/cpython/commit/c7a1716296446386c77d405d1f34b43bc2367016",
+  "comments_url": "https://api.github.com/repos/python/cpython/commits/c7a1716296446386c77d405d1f34b43bc2367016/comments",
+  "author": {
+    "login": "encukou",
+    "id": 302922,
+    "node_id": "MDQ6VXNlcjMwMjkyMg==",
+    "avatar_url": "https://avatars.githubusercontent.com/u/302922?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/encukou",
+    "html_url": "https://github.com/encukou",
+    "followers_url": "https://api.github.com/users/encukou/followers",
+    "following_url": "https://api.github.com/users/encukou/following{/other_user}",
+    "gists_url": "https://api.github.com/users/encukou/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/encukou/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/encukou/subscriptions",
+    "organizations_url": "https://api.github.com/users/encukou/orgs",
+    "repos_url": "https://api.github.com/users/encukou/repos",
+    "events_url": "https://api.github.com/users/encukou/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/encukou/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "committer": {
+    "login": "web-flow",
+    "id": 19864447,
+    "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+    "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/web-flow",
+    "html_url": "https://github.com/web-flow",
+    "followers_url": "https://api.github.com/users/web-flow/followers",
+    "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+    "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+    "organizations_url": "https://api.github.com/users/web-flow/orgs",
+    "repos_url": "https://api.github.com/users/web-flow/repos",
+    "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/web-flow/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "parents": [
+    {
+      "sha": "35a000974a97248ffe4137ac01373f391cfc3728",
+      "url": "https://api.github.com/repos/python/cpython/commits/35a000974a97248ffe4137ac01373f391cfc3728",
+      "html_url": "https://github.com/python/cpython/commit/35a000974a97248ffe4137ac01373f391cfc3728"
+    }
+  ],
+  "stats": {
+    "total": 51,
+    "additions": 35,
+    "deletions": 16
+  },
+  "files": [
+    {
+      "sha": "3bcb4b111d669c43cecdcfa3412e0c8be57b2ad3",
+      "filename": "Lib/test/support/__init__.py",
+      "status": "modified",
+      "additions": 33,
+      "deletions": 16,
+      "changes": 49,
+      "blob_url": "https://github.com/python/cpython/blob/c7a1716296446386c77d405d1f34b43bc2367016/Lib%2Ftest%2Fsupport%2F__init__.py",
+      "raw_url": "https://github.com/python/cpython/raw/c7a1716296446386c77d405d1f34b43bc2367016/Lib%2Ftest%2Fsupport%2F__init__.py",
+      "contents_url": "https://api.github.com/repos/python/cpython/contents/Lib%2Ftest%2Fsupport%2F__init__.py?ref=c7a1716296446386c77d405d1f34b43bc2367016",
+      "patch": "@@ -19,6 +19,7 @@\n import types\n import unittest\n import warnings\n+lazy import platform\n \n \n __all__ = [\n@@ -33,6 +34,7 @@\n     \"is_resource_enabled\", \"get_resource_value\", \"requires\", \"requires_resource\",\n     \"requires_freebsd_version\",\n     \"requires_gil_enabled\", \"requires_linux_version\", \"requires_mac_ver\",\n+    \"requires_ios_ver\",\n     \"check_syntax_error\",\n     \"requires_gzip\", \"requires_bz2\", \"requires_lzma\", \"requires_zstd\",\n     \"bigmemtest\", \"nomemtest\", \"bigaddrspacetest\", \"cpython_only\", \"get_attribute\",\n@@ -229,7 +231,6 @@ def _force_run(path, func, *args):\n def _is_gui_available():\n     if hasattr(_is_gui_available, 'result'):\n         return _is_gui_available.result\n-    import platform\n     reason = None\n     if sys.platform.startswith('win') and platform.win32_is_iot():\n         reason = \"gui is not available on Windows IoT Core\"\n@@ -354,7 +355,6 @@ def _requires_unix_version(sysname, min_version):\n     For example, @_requires_unix_version('FreeBSD', (7, 2)) raises SkipTest if\n     the FreeBSD version is less than 7.2.\n     \"\"\"\n-    import platform\n     min_version_txt = '.'.join(map(str, min_version))\n     version_txt = platform.release().split('-', 1)[0]\n     if platform.system() == sysname:\n@@ -392,19 +392,12 @@ def requires_linux_version(*min_version):\n     \"\"\"\n     return _requires_unix_version('Linux', min_version)\n \n-def requires_mac_ver(*min_version):\n-    \"\"\"Decorator raising SkipTest if the OS is Mac OS X and the OS X\n-    version if less than min_version.\n-\n-    For example, @requires_mac_ver(10, 5) raises SkipTest if the OS X version\n-    is lesser than 10.5.\n-    \"\"\"\n+def _requires_apple_os_version(name, sys_platform, get_version_text, min_version):\n     def decorator(func):\n         @functools.wraps(func)\n         def wrapper(*args, **kw):\n-            if sys.platform == 'darwin':\n-                import platform\n-                version_txt = platform.mac_ver()[0]\n+            if sys.platform == sys_platform:\n+                version_txt = get_version_text()\n                 try:\n                     version = tuple(map(int, version_txt.split('.')))\n                 except ValueError:\n@@ -413,14 +406,40 @@ def wrapper(*args, **kw):\n                     if version < min_version:\n                         min_version_txt = '.'.join(map(str, min_version))\n                         raise unittest.SkipTest(\n-                            \"Mac OS X %s or higher required, not %s\"\n-                            % (min_version_txt, version_txt))\n+                            f\"{name} {min_version_txt} or higher required, \"\n+                            + f\"not {version_txt}\")\n             return func(*args, **kw)\n         wrapper.min_version = min_version\n         return wrapper\n     return decorator\n \n \n+def requires_mac_ver(*min_version):\n+    \"\"\"Decorator raising SkipTest if the OS is Mac OS X and the OS X\n+    version if less than min_version.\n+\n+    For example, @requires_mac_ver(10, 5) raises SkipTest if the OS X version\n+    is lesser than 10.5.\n+    \"\"\"\n+    return _requires_apple_os_version(\n+        \"macOS\", \"darwin\",\n+        get_version_text=lambda: platform.mac_ver()[0],\n+        min_version=min_version)\n+\n+\n+def requires_ios_ver(*min_version):\n+    \"\"\"Decorator raising SkipTest if the OS is iOS and the OS version\n+    version if less than min_version.\n+\n+    For example, requires_ios_ver(16, 0) raises SkipTest if the iOS version\n+    is lesser than 16.0.\n+    \"\"\"\n+    return _requires_apple_os_version(\n+        \"iOS\", \"ios\",\n+        get_version_text=lambda: platform.ios_ver().release,\n+        min_version=min_version)\n+\n+\n def thread_unsafe(reason):\n     \"\"\"Mark a test as not thread safe. When the test runner is run with\n     --parallel-threads=N, the test will be run in a single thread.\"\"\"\n@@ -2223,7 +2242,6 @@ def setswitchinterval(interval):\n     if is_android and interval < minimum_interval:\n         global _old_android_emulator\n         if _old_android_emulator is None:\n-            import platform\n             av = platform.android_ver()\n             _old_android_emulator = av.is_emulator and av.api_level < 24\n         if _old_android_emulator:\n@@ -3480,7 +3498,6 @@ def linked_to_musl():\n \n     # On linux, we'll depend on the platform module to do the check, so new\n     # musl platforms should add support in that module if possible.\n-    import platform\n     lib, version = platform.libc_ver()\n     if lib != 'musl':\n         _linked_to_musl = False"
+    },
+    {
+      "sha": "82115c338906fc0b777b7eba8efd7a135ae96792",
+      "filename": "Lib/test/test_os/test_posix.py",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "changes": 2,
+      "blob_url": "https://github.com/python/cpython/blob/c7a1716296446386c77d405d1f34b43bc2367016/Lib%2Ftest%2Ftest_os%2Ftest_posix.py",
+      "raw_url": "https://github.com/python/cpython/raw/c7a1716296446386c77d405d1f34b43bc2367016/Lib%2Ftest%2Ftest_os%2Ftest_posix.py",
+      "contents_url": "https://api.github.com/repos/python/cpython/contents/Lib%2Ftest%2Ftest_os%2Ftest_posix.py?ref=c7a1716296446386c77d405d1f34b43bc2367016",
+      "patch": "@@ -1946,6 +1946,8 @@ def test_readlink_with_fd_throws_not_implemented_error(self):\n \n     @unittest.skipUnless(sys.platform in [\"linux\", \"android\", \"darwin\", \"ios\"],\n                          \"feature not supported on this platform\")\n+    @support.requires_mac_ver(13, 0)\n+    @support.requires_ios_ver(16, 0)\n     def test_readlink_is_marked_as_supports_fd(self):\n         self.assertIn(os.readlink, os.supports_fd)\n "
+    }
+  ]
+}

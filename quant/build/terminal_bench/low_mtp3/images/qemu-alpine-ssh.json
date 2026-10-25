@@ -1,0 +1,122 @@
+{
+  "pinned": {
+    "tag": "alexgshaw/qemu-alpine-ssh:20251031",
+    "digest": "alexgshaw/qemu-alpine-ssh@sha256:541e8214a8c4faa7b556531b899d45da21048fa2ca6dd328d8cb6c4cffa8e964",
+    "resolved_at": 1792524225.2455723
+  },
+  "manifest": "/root/projects/quant/build/terminal_bench/low_mtp3/images/blobs/sha256-541e8214a8c4faa7b556531b899d45da21048fa2ca6dd328d8cb6c4cffa8e964",
+  "config_file": "/root/projects/quant/build/terminal_bench/low_mtp3/images/blobs/sha256-e868510787ba024e1fced364e94b5ae42c9b3076fa2345498edb833752188f93",
+  "config": {
+    "architecture": "amd64",
+    "config": {
+      "Env": [
+        "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
+      ],
+      "Cmd": [
+        "bash"
+      ],
+      "WorkingDir": "/app",
+      "Labels": {
+        "com.docker.compose.project": "harbor-build-qemu-alpine-ssh",
+        "com.docker.compose.service": "task",
+        "com.docker.compose.version": "2.35.1"
+      }
+    },
+    "created": "2025-10-22T02:39:30.549436451Z",
+    "history": [
+      {
+        "created": "2025-10-20T00:00:00Z",
+        "created_by": "# debian.sh --arch 'amd64' out/ 'bullseye' '@1760918400'",
+        "comment": "debuerreotype 0.16"
+      },
+      {
+        "created": "2025-10-22T02:38:36.279294088Z",
+        "created_by": "RUN /bin/sh -c apt-get update && apt-get install -y     qemu-system-x86     qemu-utils     wget     ca-certificates     openssh-client     && rm -rf /var/lib/apt/lists/* # buildkit",
+        "comment": "buildkit.dockerfile.v0"
+      },
+      {
+        "created": "2025-10-22T02:38:36.944238815Z",
+        "created_by": "WORKDIR /app",
+        "comment": "buildkit.dockerfile.v0"
+      },
+      {
+        "created": "2025-10-22T02:38:52.882810501Z",
+        "created_by": "RUN /bin/sh -c wget -q https://dl-cdn.alpinelinux.org/alpine/v3.19/releases/x86_64/alpine-extended-3.19.0-x86_64.iso -O /app/alpine.iso # buildkit",
+        "comment": "buildkit.dockerfile.v0"
+      },
+      {
+        "created": "2025-10-22T02:38:54.67988591Z",
+        "created_by": "RUN /bin/sh -c qemu-img create -f qcow2 /app/alpine-disk.qcow2 32G # buildkit",
+        "comment": "buildkit.dockerfile.v0"
+      },
+      {
+        "created": "2025-10-22T02:39:01.16886678Z",
+        "created_by": "RUN /bin/sh -c apt update -y # buildkit",
+        "comment": "buildkit.dockerfile.v0"
+      },
+      {
+        "created": "2025-10-22T02:39:30.549436451Z",
+        "created_by": "RUN /bin/sh -c apt install -y telnet netcat expect tmux asciinema # buildkit",
+        "comment": "buildkit.dockerfile.v0"
+      }
+    ],
+    "os": "linux",
+    "rootfs": {
+      "type": "layers",
+      "diff_ids": [
+        "sha256:584a83027a87baa03abecf175bc8b63c45f7397cc88438b6a921f1558ba8c884",
+        "sha256:4366053a697428491710d864238b8086b3012e71c462d74678006defea124cad",
+        "sha256:b2211716e8a439006698653ec425e6efb7d18ee095c8402b3944597391cba8cd",
+        "sha256:d10ee47214d3592a1ef6ef54d62911e90400323cc7f1aa82fcefed4d8c482449",
+        "sha256:75bf4969696d0102c3073f66fb9f84526820e56d96b8ff31b41dfce8b0b523a3",
+        "sha256:464f1edcf3710241bce7962a5cc9541a3d86acc9c663d50446b53b705763db93",
+        "sha256:a38b7ba50684b860f8ac4e1285ac70b03194e36a08d9c7bed9d11f1d34ce738e"
+      ]
+    }
+  },
+  "layers": [
+    {
+      "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+      "size": 30258365,
+      "digest": "sha256:d207cc66da44f4d060efb9a20dc200ca0e6b10c76276d0c1db9c735eaee1d506",
+      "path": "/root/projects/quant/build/terminal_bench/low_mtp3/images/blobs/sha256-d207cc66da44f4d060efb9a20dc200ca0e6b10c76276d0c1db9c735eaee1d506"
+    },
+    {
+      "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+      "size": 260481185,
+      "digest": "sha256:3d84f27ee395d98d8ca14617b744516d447ce103b851c39a1478669fcb387097",
+      "path": "/root/projects/quant/build/terminal_bench/low_mtp3/images/blobs/sha256-3d84f27ee395d98d8ca14617b744516d447ce103b851c39a1478669fcb387097"
+    },
+    {
+      "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+      "size": 93,
+      "digest": "sha256:a74b6126a333adcd54dea3c776c12eb5819d39214dfab3e62eea4be826f1815b",
+      "path": "/root/projects/quant/build/terminal_bench/low_mtp3/images/blobs/sha256-a74b6126a333adcd54dea3c776c12eb5819d39214dfab3e62eea4be826f1815b"
+    },
+    {
+      "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+      "size": 991743246,
+      "digest": "sha256:fe2b0116b821f00079f74f01f60f7eb30931de23d171ef0970a72d7ae061b953",
+      "path": "/root/projects/quant/build/terminal_bench/low_mtp3/images/blobs/sha256-fe2b0116b821f00079f74f01f60f7eb30931de23d171ef0970a72d7ae061b953"
+    },
+    {
+      "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+      "size": 577,
+      "digest": "sha256:851bb1368529df0e304f7fb779766c987d214bc71adf05f1b2d0b32f86705309",
+      "path": "/root/projects/quant/build/terminal_bench/low_mtp3/images/blobs/sha256-851bb1368529df0e304f7fb779766c987d214bc71adf05f1b2d0b32f86705309"
+    },
+    {
+      "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+      "size": 14218775,
+      "digest": "sha256:90b04f7874fdeeaffb6a5760ca37860ce8fe46adfc42e84ba51bfa591bec1467",
+      "path": "/root/projects/quant/build/terminal_bench/low_mtp3/images/blobs/sha256-90b04f7874fdeeaffb6a5760ca37860ce8fe46adfc42e84ba51bfa591bec1467"
+    },
+    {
+      "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+      "size": 11847732,
+      "digest": "sha256:a0c6b4cb481d2a976773f893b12445bd54fc92f12df438ef826db562e189fd2d",
+      "path": "/root/projects/quant/build/terminal_bench/low_mtp3/images/blobs/sha256-a0c6b4cb481d2a976773f893b12445bd54fc92f12df438ef826db562e189fd2d"
+    }
+  ],
+  "time": 1792607203.4393785
+}

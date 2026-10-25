@@ -1,0 +1,116 @@
+{
+  "before": [
+    {
+      "pid": 51869,
+      "start_ticks": "2317909798",
+      "exe": "/root/projects/quant/build/terminal_bench/diagnostics/proot_version_ab/downloads/proot",
+      "Name": "proot",
+      "State": "S (sleeping)",
+      "PPid": "18443",
+      "TracerPid": "0"
+    },
+    {
+      "pid": 51873,
+      "start_ticks": "2317909799",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021_seed_20261022/trials/ac5803df534319730459df99/trial/proot/prooted-51869-wjL82a",
+      "Name": "tmux: server",
+      "State": "S (sleeping)",
+      "PPid": "18443",
+      "TracerPid": "51869"
+    },
+    {
+      "pid": 51874,
+      "start_ticks": "2317909800",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021_seed_20261022/trials/ac5803df534319730459df99/trial/proot/prooted-51869-wjL82a",
+      "Name": "bash",
+      "State": "S (sleeping)",
+      "PPid": "51873",
+      "TracerPid": "51869"
+    },
+    {
+      "pid": 51876,
+      "start_ticks": "2317909800",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021_seed_20261022/trials/ac5803df534319730459df99/trial/proot/prooted-51869-wjL82a",
+      "Name": "sh",
+      "State": "S (sleeping)",
+      "PPid": "51873",
+      "TracerPid": "51869"
+    },
+    {
+      "pid": 51878,
+      "start_ticks": "2317909801",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021_seed_20261022/trials/ac5803df534319730459df99/trial/proot/prooted-51869-wjL82a",
+      "Name": "cat",
+      "State": "S (sleeping)",
+      "PPid": "51876",
+      "TracerPid": "51869"
+    },
+    {
+      "pid": 51888,
+      "start_ticks": "2317909807",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021_seed_20261022/trials/ac5803df534319730459df99/trial/proot/prooted-51869-wjL82a",
+      "Name": "asciinema",
+      "State": "S (sleeping)",
+      "PPid": "51874",
+      "TracerPid": "51869"
+    },
+    {
+      "pid": 51890,
+      "start_ticks": "2317909819",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021_seed_20261022/trials/ac5803df534319730459df99/trial/proot/prooted-51869-wjL82a",
+      "Name": "asciinema",
+      "State": "S (sleeping)",
+      "PPid": "51888",
+      "TracerPid": "51869"
+    },
+    {
+      "pid": 51891,
+      "start_ticks": "2317909819",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021_seed_20261022/trials/ac5803df534319730459df99/trial/proot/prooted-51869-wjL82a",
+      "Name": "asciinema",
+      "State": "S (sleeping)",
+      "PPid": "51888",
+      "TracerPid": "51869"
+    },
+    {
+      "pid": 51892,
+      "start_ticks": "2317909819",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021_seed_20261022/trials/ac5803df534319730459df99/trial/proot/prooted-51869-wjL82a",
+      "Name": "sh",
+      "State": "S (sleeping)",
+      "PPid": "51888",
+      "TracerPid": "51869"
+    },
+    {
+      "pid": 51893,
+      "start_ticks": "2317909819",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021_seed_20261022/trials/ac5803df534319730459df99/trial/proot/prooted-51869-wjL82a",
+      "Name": "bash",
+      "State": "S (sleeping)",
+      "PPid": "51892",
+      "TracerPid": "51869"
+    },
+    {
+      "pid": 52863,
+      "start_ticks": "2317916935",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021_seed_20261022/trials/ac5803df534319730459df99/trial/proot/prooted-51869-wjL82a",
+      "Name": "bash",
+      "State": "S (sleeping)",
+      "PPid": "51893",
+      "TracerPid": "51869"
+    },
+    {
+      "pid": 52864,
+      "start_ticks": "2317916935",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021_seed_20261022/trials/ac5803df534319730459df99/trial/proot/prooted-51869-wjL82a",
+      "Name": "python",
+      "State": "S (sleeping)",
+      "PPid": "52863",
+      "TracerPid": "51869"
+    }
+  ],
+  "after": [],
+  "delete_requested": true,
+  "rootfs_retained_for_evidence": true,
+  "child_cpu": 23951.245287
+}

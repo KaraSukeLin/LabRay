@@ -1,0 +1,250 @@
+{
+  "id": "e15a324d-3262-42d6-813c-8eb84cae1543",
+  "task_name": "terminal-bench/train-fasttext",
+  "trial_name": "trial",
+  "trial_uri": "file:///root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021_seed_20261021/trials/b5d5e713bc54c1962e66ce5b/trial",
+  "task_id": {
+    "path": "/root/projects/quant/build/terminal_bench/sources/terminal-bench-2-1/tasks/train-fasttext"
+  },
+  "source": null,
+  "task_checksum": "be84205f314cc6c7318a200c4705fa61e4aba340b736de02a6ddaabcbbb4c524",
+  "config": {
+    "task": {
+      "path": "/root/projects/quant/build/terminal_bench/sources/terminal-bench-2-1/tasks/train-fasttext",
+      "git_url": null,
+      "git_commit_id": null,
+      "name": null,
+      "ref": null,
+      "overwrite": false,
+      "download_dir": null,
+      "source": null
+    },
+    "trial_name": "trial",
+    "trials_dir": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021_seed_20261021/trials/b5d5e713bc54c1962e66ce5b",
+    "install_only": false,
+    "timeout_multiplier": 1.0,
+    "agent_timeout_multiplier": null,
+    "verifier_timeout_multiplier": null,
+    "agent_setup_timeout_multiplier": null,
+    "environment_build_timeout_multiplier": null,
+    "agent": {
+      "name": "terminus-2",
+      "import_path": null,
+      "model_name": "hosted_vllm/rdtand-Qwen3.8-27B-PrismaAQUA-5.5bit-vllm",
+      "model_base_url": null,
+      "model_api_key_name": null,
+      "model_api_format": null,
+      "skip_model_parsing": false,
+      "n_concurrent": null,
+      "concurrency_group": null,
+      "skills": [],
+      "override_timeout_sec": null,
+      "override_setup_timeout_sec": null,
+      "max_timeout_sec": null,
+      "resume_trajectory": false,
+      "load_trajectory": null,
+      "extra_allowed_hosts": [],
+      "kwargs": {
+        "api_base": "http://127.0.0.1:18100/v1",
+        "temperature": 1.0,
+        "reasoning_effort": "low",
+        "interleaved_thinking": false,
+        "enable_summarize": true,
+        "proactive_summarization_threshold": 8000,
+        "collect_rollout_details": true,
+        "store_all_messages": true,
+        "session_id_headers": [
+          "X-Terminal-Trial"
+        ],
+        "model_info": {
+          "max_input_tokens": 131072,
+          "max_output_tokens": 131072,
+          "input_cost_per_token": 0.0,
+          "output_cost_per_token": 0.0,
+          "litellm_provider": "hosted_vllm",
+          "supports_reasoning": true
+        },
+        "llm_kwargs": {
+          "api_key": "local-only"
+        },
+        "llm_call_kwargs": {
+          "temperature": 1.0,
+          "top_p": 0.95,
+          "presence_penalty": 0.0,
+          "max_tokens": 131072,
+          "seed": 20261021,
+          "extra_body": {
+            "top_k": 20,
+            "min_p": 0.0,
+            "repetition_penalty": 1.0,
+            "chat_template_kwargs": {
+              "enable_thinking": true,
+              "reasoning_effort": "low",
+              "preserve_thinking": true
+            },
+            "return_token_ids": true
+          },
+          "extra_headers": {
+            "X-Terminal-Identity": "formal/rdtand-Qwen3.8-27B-PrismaAQUA-5.5bit-vllm/train-fasttext/b5d5e713bc54c1962e66ce5b"
+          }
+        }
+      },
+      "mcp_servers": []
+    },
+    "user_agent": null,
+    "environment": {
+      "type": null,
+      "import_path": "terminal_proot:PRootEnvironment",
+      "force_build": false,
+      "delete": true,
+      "stream": false,
+      "cpu_enforcement_policy": "auto",
+      "memory_enforcement_policy": "auto",
+      "override_cpus": null,
+      "override_memory_mb": null,
+      "override_storage_mb": null,
+      "override_gpus": null,
+      "override_tpu": null,
+      "mounts": null,
+      "extra_docker_compose": [],
+      "kwargs": {},
+      "extra_allowed_hosts": []
+    },
+    "verifier": {
+      "override_timeout_sec": null,
+      "max_timeout_sec": null,
+      "disable": false
+    },
+    "artifacts": [],
+    "extra_instruction_paths": [],
+    "extra_instructions": [],
+    "job_id": null,
+    "source_trial": null
+  },
+  "agent_info": {
+    "name": "terminus-2",
+    "version": "2.0.0",
+    "model_info": {
+      "name": "rdtand-Qwen3.8-27B-PrismaAQUA-5.5bit-vllm",
+      "provider": "hosted_vllm"
+    }
+  },
+  "agent_result": {
+    "n_input_tokens": 962746,
+    "n_cache_tokens": 0,
+    "n_output_tokens": 31550,
+    "cost_usd": null,
+    "model_usage": {
+      "rdtand-Qwen3.8-27B-PrismaAQUA-5.5bit-vllm": {
+        "n_input_tokens": 937469,
+        "n_cache_tokens": 0,
+        "n_output_tokens": 30491,
+        "cost_usd": null
+      }
+    },
+    "metadata": {
+      "n_episodes": 67,
+      "api_request_times_msec": [
+        6884.1142654418945,
+        7689.547300338745,
+        6629.573106765747,
+        12491.658210754395,
+        6569.973945617676,
+        4035.2461338043213,
+        28480.15069961548,
+        18075.604677200317,
+        3386.4269256591797,
+        8103.86848449707,
+        35638.161182403564,
+        14150.435447692871,
+        3263.9071941375732,
+        24152.631044387817,
+        4525.066375732422,
+        13528.64408493042,
+        29827.014684677124,
+        5246.519565582275,
+        5198.151588439941,
+        4212.97812461853,
+        11740.926265716553,
+        4220.894336700439,
+        4187.220573425293,
+        4031.284809112549,
+        5019.811391830444,
+        9743.059635162354,
+        13199.65934753418,
+        7088.01007270813,
+        7168.951988220215,
+        15817.023277282715,
+        5010.058879852295,
+        5658.416986465454,
+        5582.316160202026,
+        6362.16139793396,
+        7742.432594299316,
+        6714.99490737915,
+        7437.0574951171875,
+        10221.463680267334,
+        28887.437105178833,
+        8950.377702713013,
+        21979.64859008789,
+        10428.655862808228,
+        22560.90259552002,
+        11290.50064086914,
+        8325.578212738037,
+        42546.98038101196,
+        6192.580223083496,
+        22747.3406791687,
+        35474.65491294861,
+        21515.54036140442,
+        9336.038827896118,
+        26373.958349227905,
+        30261.52229309082,
+        6097.412586212158,
+        10232.081651687622,
+        6154.562473297119,
+        18752.655029296875,
+        7296.867609024048,
+        25919.58785057068,
+        6575.287342071533,
+        6447.267532348633,
+        15691.091537475586,
+        12618.877172470093,
+        10995.797634124756,
+        6067.9662227630615,
+        24764.057636260986,
+        26887.412548065186
+      ],
+      "summarization_count": 0
+    }
+  },
+  "verifier_result": {
+    "rewards": {
+      "reward": 0.0
+    }
+  },
+  "verifier_environment_mode": "shared",
+  "exception_info": {
+    "exception_type": "AgentTimeoutError",
+    "exception_message": "Agent execution timed out after 3600.0 seconds",
+    "exception_traceback": "Traceback (most recent call last):\n  File \"/root/.local/share/uv/python/cpython-3.12.14-linux-x86_64-gnu/lib/python3.12/asyncio/tasks.py\", line 520, in wait_for\n    return await fut\n           ^^^^^^^^^\n  File \"/root/projects/quant/build/terminal_bench/sources/harbor/src/harbor/agents/terminus_2/terminus_2.py\", line 1824, in run\n    await self._run_agent_loop(\n  File \"/root/projects/quant/build/terminal_bench/sources/harbor/src/harbor/agents/terminus_2/terminus_2.py\", line 1604, in _run_agent_loop\n    timeout_occurred, terminal_output = await self._execute_commands(\n                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/root/projects/quant/build/terminal_bench/sources/harbor/src/harbor/agents/terminus_2/terminus_2.py\", line 1420, in _execute_commands\n    await session.send_keys(\n  File \"/root/projects/quant/build/terminal_bench/sources/harbor/src/harbor/agents/terminus_2/tmux_session.py\", line 823, in send_keys\n    await self._send_non_blocking_keys(\n  File \"/root/projects/quant/build/terminal_bench/sources/harbor/src/harbor/agents/terminus_2/tmux_session.py\", line 783, in _send_non_blocking_keys\n    await asyncio.sleep(min_timeout_sec - elapsed_time_sec)\n  File \"/root/.local/share/uv/python/cpython-3.12.14-linux-x86_64-gnu/lib/python3.12/asyncio/tasks.py\", line 665, in sleep\n    return await future\n           ^^^^^^^^^^^^\nasyncio.exceptions.CancelledError\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File \"/root/projects/quant/build/terminal_bench/sources/harbor/src/harbor/trial/trial.py\", line 653, in _run_agent_phase\n    await asyncio.wait_for(\n  File \"/root/.local/share/uv/python/cpython-3.12.14-linux-x86_64-gnu/lib/python3.12/asyncio/tasks.py\", line 519, in wait_for\n    async with timeouts.timeout(timeout):\n               ^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/root/.local/share/uv/python/cpython-3.12.14-linux-x86_64-gnu/lib/python3.12/asyncio/timeouts.py\", line 115, in __aexit__\n    raise TimeoutError from exc_val\nTimeoutError\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File \"/root/projects/quant/build/terminal_bench/sources/harbor/src/harbor/trial/single_step.py\", line 76, in _run_agent\n    await self._run_agent_phase(\n  File \"/root/projects/quant/build/terminal_bench/sources/harbor/src/harbor/trial/trial.py\", line 662, in _run_agent_phase\n    raise AgentTimeoutError(\nharbor.trial.errors.AgentTimeoutError: Agent execution timed out after 3600.0 seconds\n",
+    "occurred_at": "2026-10-22T11:30:12.721547Z"
+  },
+  "started_at": "2026-10-22T10:29:40.390744Z",
+  "finished_at": "2026-10-22T11:30:58.052761Z",
+  "environment_setup": {
+    "started_at": "2026-10-22T10:29:40.406593Z",
+    "finished_at": "2026-10-22T10:29:53.530029Z"
+  },
+  "agent_setup": {
+    "started_at": "2026-10-22T10:29:53.530106Z",
+    "finished_at": "2026-10-22T10:30:11.709335Z"
+  },
+  "agent_execution": {
+    "started_at": "2026-10-22T10:30:11.709724Z",
+    "finished_at": "2026-10-22T11:30:12.720343Z"
+  },
+  "verifier": {
+    "started_at": "2026-10-22T11:30:12.831582Z",
+    "finished_at": "2026-10-22T11:30:57.630505Z"
+  },
+  "step_results": null
+}

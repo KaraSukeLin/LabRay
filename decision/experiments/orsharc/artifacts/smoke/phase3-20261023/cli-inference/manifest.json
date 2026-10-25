@@ -1,0 +1,97 @@
+{
+  "identity": "cddd756d081f3478ab9508dfd111097b093183bbb8f590656308ac3b3c0e4ada",
+  "created": "2026-10-23T08:04:09Z",
+  "spec": {
+    "model": {
+      "backend": "qev",
+      "checkpoint": "/root/projects/decision/experiments/orsharc/artifacts/smoke/phase3-20261023/production-training/native/merged",
+      "model_revision": "local:/root/projects/decision/experiments/orsharc/artifacts/smoke/phase3-20261023/production-training/native/merged",
+      "model_repository": "baselabs/elephant-1",
+      "quantization": "bf16",
+      "device": "cuda:0",
+      "max_length": 16384,
+      "checkpoint_sha256": "edcde1f2efb9a07a8abe00894a8b75ad39985e66ed4ed7679edffd8a1aa2e58b"
+    },
+    "checkpoint": {
+      "path": "/root/projects/decision/experiments/orsharc/artifacts/smoke/phase3-20261023/production-training/native/merged",
+      "sha256": "edcde1f2efb9a07a8abe00894a8b75ad39985e66ed4ed7679edffd8a1aa2e58b",
+      "files": {
+        "chat_template.jinja": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+        "config.json": "d4396c5e2f9ad6bcbcae413d356a3f56f305144372aea88d9a930c305987413b",
+        "ft_exposure.json": "12814ff4aec1115223538942156a395feb0c595b123c07ef9bc5d2e09d8bf0a1",
+        "generation_config.json": "290866a6d7d4a4442fe83ba2434a31517446f40a01de500ff97b4354e7e5d082",
+        "model.safetensors": "13755d6a39423b3174356517a9d6928d86094fd22bca3b50fac51574263e2351",
+        "readout.json": "9118a7a57ca4a121221f43212181389b312cd79f432aab91cc5197d4c2b4ee21",
+        "tokenizer.json": "a5cd9732badce41de57e6efce8302930ded1c1188c5f81feb2bd6c24c4a1941f",
+        "tokenizer_config.json": "2984c03425a28d242744e234a5003786fd289b3713db79fe0958c65eb59d85b2"
+      }
+    },
+    "runtime_source": {
+      "repo": "OmniJev/OneJev",
+      "revision": "81ce62f1597c91e46767d4d02d6ac2e18534fe94",
+      "python_sha256": "2e5f3046c777eaa297e3f7426597f847706c994bed7138f572150c289d1b5bd4",
+      "patch_sha256": "f234c125f1d38d82104b9e1f24e75bde51e4401928acfba2fbf5c59ef2fb46b8"
+    },
+    "data_manifest": "7da4b11e2bc3952109ea23f3c0f65bdbcbf6ea7ce1f1a52a2d3e5f4d84f78967",
+    "code_sha256": "1e9e73367272352024da4eea95a71898b5c0afbce62bfdec14c8300abf006d85",
+    "environment": {
+      "python": "3.12.14 (main, Sep 24 2026, 17:57:43) [Clang 22.1.3 ]",
+      "platform": "Linux-5.15.0-94-generic-x86_64-with-glibc2.36",
+      "libraries": {
+        "torch": "2.8.0",
+        "triton": "3.7.1",
+        "flash-linear-attention": "0.5.2",
+        "fla-core": "0.5.2",
+        "transformers": "5.19.0",
+        "unsloth": null,
+        "unsloth_zoo": null,
+        "peft": "0.21.2",
+        "trl": null,
+        "datasets": null,
+        "bitsandbytes": null,
+        "vllm": null
+      }
+    },
+    "partition": "train_256",
+    "task": "benchmark",
+    "strategy": "single_choice",
+    "shots": 0,
+    "demo_ids": [],
+    "ids": [
+      "b20fc4d1f66d9c3365da80b7f7741acf3894c1bb",
+      "1d9036e30f108ebcef0d14a6ee1e4c50257c4a36",
+      "ac68df3b8a082dc9b4e5ffb0982ac2cd875793a7",
+      "3a7f0199f11d9a619c08562e6110b79d9ffb4f89",
+      "0954d6862045ae2abbaddb5aec6ad9a5667b06e2",
+      "b9c29d44b69329390a4199bb7fdd739db7b8fe48",
+      "1b8193b08ccd89f03c505dff045c8427940671e3",
+      "0425da6624db6bc99227bf3fa0b82509fb65e9bf"
+    ],
+    "seed": 42,
+    "limit": 8,
+    "questions": {
+      "decision": {
+        "type": "choice",
+        "instructions": "What decision follows from the rule and user information?",
+        "criteria": {
+          "Yes": "The rules and supplied facts establish that the answer is yes.",
+          "No": "The rules and supplied facts establish that the answer is no.",
+          "Inquire": "A follow-up question is required because a necessary fact is missing."
+        }
+      }
+    },
+    "option_order": {
+      "decision": [
+        "Yes",
+        "No",
+        "Inquire"
+      ]
+    },
+    "latency_definition": "synchronized request wall time; excludes load and one warm-up; no cross-sample cache",
+    "probability_source": "raw T=1; upstream served calibration disabled",
+    "generalization_metadata": {
+      "snippet_seen": "rule present in complete official training split",
+      "ft_exposed": "per-budget rule membership in the nested 256/1024/4096 training subsets; full one-epoch checkpoints only, not partial smoke checkpoints"
+    }
+  }
+}

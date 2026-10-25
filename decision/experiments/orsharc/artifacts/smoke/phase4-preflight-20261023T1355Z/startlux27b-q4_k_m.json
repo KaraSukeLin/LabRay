@@ -1,0 +1,51 @@
+{
+  "backend": "startlux",
+  "checkpoint": "/root/model/StartLux-Decision-v1.1-27B-Instant-Q4_K_M",
+  "model_revision": "67834e921e8a6f977088d9b560ee9e02dffc87bc",
+  "model_repository": "startlux-models/StartLux-Decision-v1.1-27B-Instant-GGUF",
+  "model_file": "StartLux-Decision-v1.1-27B-Instant-Q4_K_M.gguf",
+  "health_model_name": "StartLux-Decision-v1.1-27B-Instant-Q4_K_M",
+  "quantization": "q4_k_m",
+  "device": "cuda:0",
+  "max_length": 16384,
+  "engine": "llamacpp",
+  "endpoint": "http://127.0.0.1:8090/v1/systemone",
+  "health_url": "http://127.0.0.1:8090/health",
+  "native_temperature_by_type": {
+    "noul": 1.7238,
+    "choice": 1.0867,
+    "score": 1.1841
+  },
+  "probability_source": "StartLux native type temperature applied upstream; Choice T=1.0867; then the separate OR-ShARC dev_calibrate temperature for this condition.",
+  "adapter_sha256": "7f75599267ed07d5c5cfe607745ef5b4e3fe068954a042e344e207ac0299c260",
+  "startlux_decide_version": "1.1.0",
+  "startlux_decide_revision": "83fe6c7d61a687a6e17f118b4f7d8f429f5d3a01",
+  "llama_cpp_version": "b11804",
+  "llama_cpp_commit": "c7fc5094179bf8a9c73c18593db714f8da41a402",
+  "runtime_image_digest": "sha256:490d8cd8000203a3ab8fdfce14ef931e2aa85affd4dd4447bcc75f299f00fd9a",
+  "server_context_length": 20480,
+  "server_flags": [
+    "--host 127.0.0.1",
+    "--port 8081",
+    "--device CUDA0",
+    "--split-mode none",
+    "-ngl 99",
+    "-c 20480",
+    "--parallel 1",
+    "--ctx-checkpoints 0",
+    "-b 16384",
+    "-ub 16384"
+  ],
+  "server_environment": {
+    "CUDA_VISIBLE_DEVICES": "0",
+    "STARTLUX_LLAMACPP_BIDIR": "server"
+  },
+  "request_defaults": {
+    "think_mode": "never",
+    "none_check": false,
+    "allow_none": false,
+    "cache_prompt": false,
+    "batch_size": 1,
+    "concurrency": 1
+  }
+}

@@ -1,0 +1,294 @@
+{
+  "passed": true,
+  "time": 1792598650.790204,
+  "identity": {
+    "config": {
+      "schema": 2,
+      "dataset": {
+        "repository": "https://github.com/harbor-framework/terminal-bench-2-1.git",
+        "revision": "7131e4375048a0e408a8fb404b5f499d726b695b",
+        "tasks": 89
+      },
+      "harbor": {
+        "repository": "https://github.com/harbor-framework/harbor.git",
+        "revision": "96ff9c6db90cc015f0fc0987d896670c9c5f1fad",
+        "version": "0.24.0"
+      },
+      "models": [
+        "Qwen-Qwen3.8-27B",
+        "eNeural-Qwen3.8-27B-fast",
+        "rdtand-Qwen3.8-27B-PrismaAQUA-5.5bit-vllm"
+      ],
+      "seeds": [
+        20261020
+      ],
+      "sampling": {
+        "temperature": 1.0,
+        "top_p": 0.95,
+        "top_k": 20,
+        "min_p": 0.0,
+        "presence_penalty": 0.0,
+        "repetition_penalty": 1.0,
+        "max_tokens": 131072
+      },
+      "chat_template_kwargs": {
+        "enable_thinking": true,
+        "reasoning_effort": "low",
+        "preserve_thinking": true
+      },
+      "reasoning_effort": "low",
+      "max_model_len": 262144,
+      "gpu_memory_utilization": 0.95,
+      "mtp": true,
+      "kv_cache_dtype": "bfloat16",
+      "interleaved_thinking": false,
+      "enable_summarize": true,
+      "proactive_summarization_threshold": 8000,
+      "timeout_multiplier": 1.0,
+      "port_base": 18100,
+      "smoke_tasks": {
+        "modernize-scientific-stack": 600,
+        "overfull-hbox": 750,
+        "fix-git": 900,
+        "regex-log": 900,
+        "extract-elf": 900
+      },
+      "bootstrap_seed": 20261020,
+      "bootstrap_resamples": 199999,
+      "comparison_family": 6,
+      "official_differences": [
+        "Use native 262144 context without YaRN, rather than optional 1M extension.",
+        "Use a single 131072-token reasoning+final output budget. Qwen recommends separate 262144 reasoning and 131072 final budgets within 1M context; this backend does not offer that pair of independent budgets.",
+        "Harbor max_input_tokens=131072 reserves the fixed 131072 output budget within the 262144-token service context; proactive summarization keeps its native 8000-token margin and approximate LiteLLM counter.",
+        "PRoot shared kernel, PID and network; no per-task cgroup enforcement; internal comparison only, not official Docker leaderboard scores.",
+        "One fixed seed per model/task for the planned 267-trial main comparison; 30 smoke trials remain separate."
+      ],
+      "harbor_max_input_tokens": 131072,
+      "num_speculative_tokens": 3,
+      "candidate_models": {
+        "NaviQuant": "eNeural-Qwen3.8-27B-fast",
+        "Aqua": "rdtand-Qwen3.8-27B-PrismaAQUA-5.5bit-vllm"
+      },
+      "stop_after_smoke": true,
+      "formal_requires_new_user_confirmation": true,
+      "model_mapping_confirmed_by_user": true
+    },
+    "models": {
+      "Qwen-Qwen3.8-27B": {
+        "revision": "1d4bf0f2ff6012fd82039f2fa52739d0dd7c60c0",
+        "config_sha256": "191e0af232104ed8b65258cf3fb2b842e288008baca7633c11b82a1ac7203aab",
+        "files": [
+          {
+            "name": "model-00001-of-00018.safetensors",
+            "bytes": 3966730552,
+            "mtime_ns": 1792138599424901297,
+            "sha256": "ba0ce20aae489ad196733da5064bcdf159a1fe84f53336648196e1ebb7751b1c",
+            "historical_match": true
+          },
+          {
+            "name": "model-00002-of-00018.safetensors",
+            "bytes": 3043080328,
+            "mtime_ns": 1792138574221570006,
+            "sha256": "06a148c01bfbe3faa14a5f184a7ff29a706f7ae1c8b2705d2058e26d17a001fb",
+            "historical_match": true
+          },
+          {
+            "name": "model-00003-of-00018.safetensors",
+            "bytes": 2542796952,
+            "mtime_ns": 1792138635371943820,
+            "sha256": "2e1bf62cbcd406eaa64b60d10353e1f0ef4039d0976e56f05cabe953454f9968",
+            "historical_match": true
+          },
+          {
+            "name": "model-00004-of-00018.safetensors",
+            "bytes": 3988973152,
+            "mtime_ns": 1792138681286727421,
+            "sha256": "511e34063187882659753c4d93f3859f93c019fd438d8813071921c81d9a3f1a",
+            "historical_match": true
+          },
+          {
+            "name": "model-00005-of-00018.safetensors",
+            "bytes": 2099339864,
+            "mtime_ns": 1792138726565486054,
+            "sha256": "635cb53446dc74f219740fc59e18b774f877b803b9722e289ca62575a6efa701",
+            "historical_match": true
+          },
+          {
+            "name": "model-00006-of-00018.safetensors",
+            "bytes": 3979553696,
+            "mtime_ns": 1792138772424288027,
+            "sha256": "0bc5214fac607f0e6cc92eec3789d4b8559410ef9fce66621ba8158e8410dae0",
+            "historical_match": true
+          },
+          {
+            "name": "model-00007-of-00018.safetensors",
+            "bytes": 2108759344,
+            "mtime_ns": 1792138799623574351,
+            "sha256": "80b0c49033e9a0d5762562aa12f4acdb7f54da586f3d0110f28c48d91cf07892",
+            "historical_match": true
+          },
+          {
+            "name": "model-00008-of-00018.safetensors",
+            "bytes": 3979553696,
+            "mtime_ns": 1792138843338416842,
+            "sha256": "7192c5b66185d3592927daabee1cc19e6f6e0ce75988ee20e824b624765fda79",
+            "historical_match": true
+          },
+          {
+            "name": "model-00009-of-00018.safetensors",
+            "bytes": 2108759344,
+            "mtime_ns": 1792138881481419367,
+            "sha256": "af3c48cc37af44f3db6ae0579baf019180d48d9c527caa0a1f03ff85813a56d8",
+            "historical_match": true
+          },
+          {
+            "name": "model-00010-of-00018.safetensors",
+            "bytes": 3979553696,
+            "mtime_ns": 1792138930508130310,
+            "sha256": "163490a76f3bea3a40855b7efc04ce6d27afaf1a34f0bbde495b9491f76457c9",
+            "historical_match": true
+          },
+          {
+            "name": "model-00011-of-00018.safetensors",
+            "bytes": 2108759344,
+            "mtime_ns": 1792138969539094425,
+            "sha256": "5f3ae1b948aeee39da77aec558e8236cd65fe4d7cb7686a76bb007acc563c6d8",
+            "historical_match": true
+          },
+          {
+            "name": "model-00012-of-00018.safetensors",
+            "bytes": 3979553696,
+            "mtime_ns": 1792139013137954269,
+            "sha256": "a3de1c7114677a8f5ac5c4892c90e8238ea5c1e2038c80e757dfc87c3902ca55",
+            "historical_match": true
+          },
+          {
+            "name": "model-00013-of-00018.safetensors",
+            "bytes": 2108759344,
+            "mtime_ns": 1792139045409122084,
+            "sha256": "06ab79a41f74c9c5cb734816feb0c7fc364104b227165ee7391231e1155aa02a",
+            "historical_match": true
+          },
+          {
+            "name": "model-00014-of-00018.safetensors",
+            "bytes": 3979553696,
+            "mtime_ns": 1792139093679869152,
+            "sha256": "4138ed94603065ba884bbcadedb04d7718bb40117e85e6f5c6fc5b9c05b7a85b",
+            "historical_match": true
+          },
+          {
+            "name": "model-00015-of-00018.safetensors",
+            "bytes": 2108759344,
+            "mtime_ns": 1792139131654886576,
+            "sha256": "69224e27b9de4e7dbf6fc936c6eaae08447bda3b80a6c31a871ab451173afd22",
+            "historical_match": true
+          },
+          {
+            "name": "model-00016-of-00018.safetensors",
+            "bytes": 3979564040,
+            "mtime_ns": 1792139177637711255,
+            "sha256": "73cb9a1089fb6155cb648609478d6633be8a5c7d9ca5a05bc8925ce8a553cefe",
+            "historical_match": true
+          },
+          {
+            "name": "model-00017-of-00018.safetensors",
+            "bytes": 2108759344,
+            "mtime_ns": 1792139213572849352,
+            "sha256": "beb51f01056142ac4984bd800507b0dd0fd18de57f8e9ef6ea41d1a3598983a8",
+            "historical_match": true
+          },
+          {
+            "name": "model-00018-of-00018.safetensors",
+            "bytes": 3392197344,
+            "mtime_ns": 1792139248699952378,
+            "sha256": "1d3479509e21494658f9b64d317f5ea8e55c4025d28c702d6c4d0b356ce8ea06",
+            "historical_match": true
+          }
+        ]
+      },
+      "eNeural-Qwen3.8-27B-fast": {
+        "revision": "284b37dd7b7a5e0071268c0f17fbbb47e4f09b17",
+        "config_sha256": "c8caf1237022d0c475c9b0b406db101f962a98520cde0e592f5c871edb2858c4",
+        "files": [
+          {
+            "name": "model-00001-of-00002.safetensors",
+            "bytes": 19998606776,
+            "mtime_ns": 1792135299478056509,
+            "sha256": "4e098a57869b4ff53ad2c78ff44333898150be24a83e1230e372fb1b15b89e7b",
+            "historical_match": true
+          },
+          {
+            "name": "model-00002-of-00002.safetensors",
+            "bytes": 2903996112,
+            "mtime_ns": 1792135080887729389,
+            "sha256": "3867039761f964e284b8011023006b36f6b293d0f736dd57580aa212635683ce",
+            "historical_match": true
+          },
+          {
+            "name": "model_mtp.safetensors",
+            "bytes": 849400392,
+            "mtime_ns": 1792135012133493252,
+            "sha256": "1d8268aa85ace093a561e3e7b63b9d390dac1cd55a90cd55b5ec509c3c9da9fe",
+            "historical_match": true
+          }
+        ]
+      },
+      "rdtand-Qwen3.8-27B-PrismaAQUA-5.5bit-vllm": {
+        "revision": "6dc090346f4f32acc320e48d9c413ea96a98d4c6",
+        "config_sha256": "a1929e346e22317692ef2036672d80b2224484787d0b6d5df934a8d1e843c00a",
+        "files": [
+          {
+            "name": "model-00001-of-00005.safetensors",
+            "bytes": 5353604152,
+            "mtime_ns": 1792181804931028036,
+            "sha256": "3a955b523c9b477dfeb8ecc1cf0e2bb6ff8d24fe794b8229e2f310b5ab639219",
+            "fingerprint_source": "local_huggingface_download_lfs_sha256"
+          },
+          {
+            "name": "model-00002-of-00005.safetensors",
+            "bytes": 5368283984,
+            "mtime_ns": 1792181806758982766,
+            "sha256": "bf7267ff569a2e58a1af5773ab676f6f7cc2656decc7f809bbb9fda8ca45b483",
+            "fingerprint_source": "local_huggingface_download_lfs_sha256"
+          },
+          {
+            "name": "model-00003-of-00005.safetensors",
+            "bytes": 5342656360,
+            "mtime_ns": 1792181808542938585,
+            "sha256": "549e5f47254f202d7a9410ff31b59b98e4e6a5d3022a58d759c861688880b3f0",
+            "fingerprint_source": "local_huggingface_download_lfs_sha256"
+          },
+          {
+            "name": "model-00004-of-00005.safetensors",
+            "bytes": 5306360552,
+            "mtime_ns": 1792181802855079448,
+            "sha256": "bb81e4dd53f5017a7b28710a74a98833fa222c47d431c3e78782f1fe1100e45e",
+            "fingerprint_source": "local_huggingface_download_lfs_sha256"
+          },
+          {
+            "name": "model-00005-of-00005.safetensors",
+            "bytes": 2232612720,
+            "mtime_ns": 1792181634831206125,
+            "sha256": "fd72152ca68d64f9b234ce64c10ac56b3cfadf0a4c3e693ac7efd2a2b1732583",
+            "fingerprint_source": "local_huggingface_download_lfs_sha256"
+          }
+        ]
+      }
+    },
+    "files": {
+      "assets/terminal_bench_low_mtp3.json": "9cb73cfb84f5368cef045a029a89ffd43ee2ab0843f607631975480fd1288fd8",
+      "assets/terminal_bench_manifest.json": "76b1a6a1ff0f1dc7d860a96bda488a77f92c715eadbfae2a4842233a47863cd6",
+      "assets/terminal_bench_images.json": "2c6b95021c57ed883e2ee7d300f9beb0c5a601ae513ead8e7c62dca3fd8d7869",
+      "src/terminal_smoke_scheduler.py": "a48a0dc0b685cac1a2381287a8dedcc1cdecf8cc64cf7250a8a2e8975777190b",
+      "src/terminal_queue.py": "c6ac22fc871a414400ea28db00b49f01e9e21db4de37efd0e47a378cfd64dcb2",
+      "src/terminal_low.py": "5154c445126620f8fef40ce668c3e842fe84ebeaff32d785bb8f508addefe22f",
+      "src/terminal_proot.py": "f1ef0663196c1c76d315ff83f61d7f081abdec72179e911d599c43f3d420d98d",
+      "src/terminal_proot_images.py": "34677e92f61d59122477a1acb56ae01aed46b6ca0c3cd6b5ce377d258fe3a922",
+      "src/terminal_observer.py": "f2ba963a2b4a19f4b5f68c7d4e4fab891e1ba1080df8ac6c78264b6aadf26c6b",
+      "src/terminal_bench.py": "d335ba121736484e02c0f504dce29c78d24e2a80928c4923cf3dc555d686404d"
+    }
+  },
+  "smoke_planned": 30,
+  "formal_authorized": false,
+  "stop_after_smoke": true
+}

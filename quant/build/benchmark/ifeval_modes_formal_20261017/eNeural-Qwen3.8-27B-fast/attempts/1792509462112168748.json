@@ -1,0 +1,39 @@
+{
+  "status": "interrupted",
+  "model": "eNeural-Qwen3.8-27B-fast",
+  "start_utc": "2026-10-20T15:17:42.112177+00:00",
+  "gpu_count": 1,
+  "cuda_visible_devices": "2",
+  "task_shard": {
+    "index": 1,
+    "count": 6
+  },
+  "initialization_seconds": 43.14834411069751,
+  "inference_seconds": 178.91170220822096,
+  "scoring_seconds": 0.31117843091487885,
+  "preprocessing_seconds": 0.018253333866596222,
+  "shutdown_seconds": 0.0,
+  "new_records": 1,
+  "completed_before": 3086,
+  "pending_before": 59,
+  "setup_seconds": 8.05171349272132,
+  "engine": {
+    "mtp": false,
+    "kv_cache_dtype": "bfloat16",
+    "tensor_parallel_size": 1,
+    "max_num_seqs": 1,
+    "max_model_len": 65536,
+    "enforce_eager": true,
+    "enable_prefix_caching": false,
+    "max_num_batched_tokens": 4096
+  },
+  "current_task": {
+    "question": "ifeval/3414",
+    "mode": "on",
+    "seed": 20261018
+  },
+  "wall_seconds": 230.44305165484548,
+  "termination_signal": "SIGTERM",
+  "error": "Stopped during shard rebalance after a duplicate-key race; durable output rows are retained and remaining rows will resume from the merged record set.",
+  "end_utc": "2026-10-20T15:23:25.103026+00:00"
+}

@@ -1,0 +1,759 @@
+{
+  "benchmark_score": false,
+  "full_vocabulary_kl": true,
+  "direction": "BF16 to candidate",
+  "cluster": "complete task, all selected windows jointly",
+  "results": [
+    {
+      "model": "Qwen-Qwen3.8-27B",
+      "stratum": "all",
+      "tasks": 59,
+      "scoring_positions": 7488,
+      "task_equal_weight": {
+        "ppl": 1.2209724435005438,
+        "reference_ppl": 1.2209724435005438,
+        "ppl_delta": 0.0,
+        "kl_bf16_to_candidate": 0.0,
+        "top1_flip_rate": 0.0
+      },
+      "token_weighted": {
+        "tokens": 7488,
+        "ppl": 1.2206961451589506,
+        "reference_ppl": 1.2206961451589506,
+        "ppl_delta": 0.0,
+        "kl_bf16_to_candidate": 0.0,
+        "top1_flip_rate": 0.0
+      },
+      "mean_nll": 0.19964762607826506,
+      "gpu_seconds": 335.55935168266296,
+      "full_vocabulary": 248320,
+      "task_cluster_95ci": {
+        "ppl": [
+          1.1917999337945329,
+          1.2526088983111159
+        ],
+        "ppl_delta": [
+          0.0,
+          0.0
+        ],
+        "delta_nll": [
+          0.0,
+          0.0
+        ],
+        "ppl_ratio": [
+          1.0,
+          1.0
+        ],
+        "kl_bf16_to_candidate": [
+          0.0,
+          0.0
+        ],
+        "top1_flip_rate": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "model": "Qwen-Qwen3.8-27B",
+      "stratum": "after_tool",
+      "tasks": 57,
+      "scoring_positions": 1920,
+      "task_equal_weight": {
+        "ppl": 1.304676288333676,
+        "reference_ppl": 1.304676288333676,
+        "ppl_delta": 0.0,
+        "kl_bf16_to_candidate": 0.0,
+        "top1_flip_rate": 0.0
+      },
+      "token_weighted": {
+        "tokens": 1920,
+        "ppl": 1.3049951660888741,
+        "reference_ppl": 1.3049951660888741,
+        "ppl_delta": 0.0,
+        "kl_bf16_to_candidate": 0.0,
+        "top1_flip_rate": 0.0
+      },
+      "mean_nll": 0.2659549550872239,
+      "gpu_seconds": 335.55935168266296,
+      "full_vocabulary": 248320,
+      "task_cluster_95ci": {
+        "ppl": [
+          1.2533916897678834,
+          1.3615627243630697
+        ],
+        "ppl_delta": [
+          0.0,
+          0.0
+        ],
+        "delta_nll": [
+          0.0,
+          0.0
+        ],
+        "ppl_ratio": [
+          1.0,
+          1.0
+        ],
+        "kl_bf16_to_candidate": [
+          0.0,
+          0.0
+        ],
+        "top1_flip_rate": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "model": "Qwen-Qwen3.8-27B",
+      "stratum": "code",
+      "tasks": 48,
+      "scoring_positions": 1536,
+      "task_equal_weight": {
+        "ppl": 1.0814586921030296,
+        "reference_ppl": 1.0814586921030296,
+        "ppl_delta": 0.0,
+        "kl_bf16_to_candidate": 0.0,
+        "top1_flip_rate": 0.0
+      },
+      "token_weighted": {
+        "tokens": 1536,
+        "ppl": 1.0814586921030296,
+        "reference_ppl": 1.0814586921030296,
+        "ppl_delta": 0.0,
+        "kl_bf16_to_candidate": 0.0,
+        "top1_flip_rate": 0.0
+      },
+      "mean_nll": 0.07831077067739513,
+      "gpu_seconds": 335.55935168266296,
+      "full_vocabulary": 248320,
+      "task_cluster_95ci": {
+        "ppl": [
+          1.0564931287703103,
+          1.1109445227284942
+        ],
+        "ppl_delta": [
+          0.0,
+          0.0
+        ],
+        "delta_nll": [
+          0.0,
+          0.0
+        ],
+        "ppl_ratio": [
+          1.0,
+          1.0
+        ],
+        "kl_bf16_to_candidate": [
+          0.0,
+          0.0
+        ],
+        "top1_flip_rate": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "model": "Qwen-Qwen3.8-27B",
+      "stratum": "reasoning",
+      "tasks": 59,
+      "scoring_positions": 3360,
+      "task_equal_weight": {
+        "ppl": 1.2655784101794716,
+        "reference_ppl": 1.2655784101794716,
+        "ppl_delta": 0.0,
+        "kl_bf16_to_candidate": 0.0,
+        "top1_flip_rate": 0.0
+      },
+      "token_weighted": {
+        "tokens": 3360,
+        "ppl": 1.2608628900037848,
+        "reference_ppl": 1.2608628900037848,
+        "ppl_delta": 0.0,
+        "kl_bf16_to_candidate": 0.0,
+        "top1_flip_rate": 0.0
+      },
+      "mean_nll": 0.2355292589251522,
+      "gpu_seconds": 335.55935168266296,
+      "full_vocabulary": 248320,
+      "task_cluster_95ci": {
+        "ppl": [
+          1.214371785806608,
+          1.3245288534521689
+        ],
+        "ppl_delta": [
+          0.0,
+          0.0
+        ],
+        "delta_nll": [
+          0.0,
+          0.0
+        ],
+        "ppl_ratio": [
+          1.0,
+          1.0
+        ],
+        "kl_bf16_to_candidate": [
+          0.0,
+          0.0
+        ],
+        "top1_flip_rate": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "model": "Qwen-Qwen3.8-27B",
+      "stratum": "terminal_command",
+      "tasks": 21,
+      "scoring_positions": 672,
+      "task_equal_weight": {
+        "ppl": 1.1315359446554227,
+        "reference_ppl": 1.1315359446554227,
+        "ppl_delta": 0.0,
+        "kl_bf16_to_candidate": 0.0,
+        "top1_flip_rate": 0.0
+      },
+      "token_weighted": {
+        "tokens": 672,
+        "ppl": 1.1315359446554227,
+        "reference_ppl": 1.1315359446554227,
+        "ppl_delta": 0.0,
+        "kl_bf16_to_candidate": 0.0,
+        "top1_flip_rate": 0.0
+      },
+      "mean_nll": 0.12357595284753377,
+      "gpu_seconds": 335.55935168266296,
+      "full_vocabulary": 248320,
+      "task_cluster_95ci": {
+        "ppl": [
+          1.08078309423056,
+          1.1881892321861536
+        ],
+        "ppl_delta": [
+          0.0,
+          0.0
+        ],
+        "delta_nll": [
+          0.0,
+          0.0
+        ],
+        "ppl_ratio": [
+          1.0,
+          1.0
+        ],
+        "kl_bf16_to_candidate": [
+          0.0,
+          0.0
+        ],
+        "top1_flip_rate": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "model": "eNeural-Qwen3.8-27B-fast",
+      "stratum": "all",
+      "tasks": 59,
+      "scoring_positions": 7488,
+      "task_equal_weight": {
+        "ppl": 1.2328448147962061,
+        "reference_ppl": 1.2209724435005438,
+        "ppl_delta": 0.01187237129566232,
+        "kl_bf16_to_candidate": 0.01049958395809095,
+        "top1_flip_rate": 0.024540960451977404
+      },
+      "token_weighted": {
+        "tokens": 7488,
+        "ppl": 1.232260207620752,
+        "reference_ppl": 1.2206961451589506,
+        "ppl_delta": 0.011564062461801417,
+        "kl_bf16_to_candidate": 0.010456065829933995,
+        "top1_flip_rate": 0.024439102564102564
+      },
+      "mean_nll": 0.20932435640409927,
+      "gpu_seconds": 453.10416984558105,
+      "full_vocabulary": 248320,
+      "task_cluster_95ci": {
+        "ppl": [
+          1.2028140475931495,
+          1.2656075944947378
+        ],
+        "ppl_delta": [
+          0.007968278645607752,
+          0.01588238676670886
+        ],
+        "delta_nll": [
+          0.006530194770593027,
+          0.01286535305232226
+        ],
+        "ppl_ratio": [
+          1.0065515629801958,
+          1.0129484677577818
+        ],
+        "kl_bf16_to_candidate": [
+          0.009237489783180857,
+          0.011907679334444305
+        ],
+        "top1_flip_rate": [
+          0.020789194915254237,
+          0.02842514124293785
+        ]
+      }
+    },
+    {
+      "model": "eNeural-Qwen3.8-27B-fast",
+      "stratum": "after_tool",
+      "tasks": 57,
+      "scoring_positions": 1920,
+      "task_equal_weight": {
+        "ppl": 1.3203479951517807,
+        "reference_ppl": 1.304676288333676,
+        "ppl_delta": 0.015671706818104703,
+        "kl_bf16_to_candidate": 0.01659245626774976,
+        "top1_flip_rate": 0.03289473684210526
+      },
+      "token_weighted": {
+        "tokens": 1920,
+        "ppl": 1.3200694649721403,
+        "reference_ppl": 1.3049951660888741,
+        "ppl_delta": 0.015074298883266168,
+        "kl_bf16_to_candidate": 0.016491487976823597,
+        "top1_flip_rate": 0.0328125
+      },
+      "mean_nll": 0.27789533454403104,
+      "gpu_seconds": 453.10416984558105,
+      "full_vocabulary": 248320,
+      "task_cluster_95ci": {
+        "ppl": [
+          1.2684282084667349,
+          1.37846491886675
+        ],
+        "ppl_delta": [
+          0.005419759243716364,
+          0.026429834303583765
+        ],
+        "delta_nll": [
+          0.004116845309015222,
+          0.020131067204325056
+        ],
+        "ppl_ratio": [
+          1.0041253311577203,
+          1.0203350637275415
+        ],
+        "kl_bf16_to_candidate": [
+          0.013679857535194084,
+          0.02016687119689837
+        ],
+        "top1_flip_rate": [
+          0.023300438596491228,
+          0.04358552631578947
+        ]
+      }
+    },
+    {
+      "model": "eNeural-Qwen3.8-27B-fast",
+      "stratum": "code",
+      "tasks": 48,
+      "scoring_positions": 1536,
+      "task_equal_weight": {
+        "ppl": 1.0888363704225303,
+        "reference_ppl": 1.0814586921030296,
+        "ppl_delta": 0.007377678319500758,
+        "kl_bf16_to_candidate": 0.006291233022389404,
+        "top1_flip_rate": 0.012369791666666666
+      },
+      "token_weighted": {
+        "tokens": 1536,
+        "ppl": 1.0888363704225303,
+        "reference_ppl": 1.0814586921030296,
+        "ppl_delta": 0.007377678319500758,
+        "kl_bf16_to_candidate": 0.006291233022389404,
+        "top1_flip_rate": 0.012369791666666666
+      },
+      "mean_nll": 0.08510957593252794,
+      "gpu_seconds": 453.10416984558105,
+      "full_vocabulary": 248320,
+      "task_cluster_95ci": {
+        "ppl": [
+          1.0630384076542423,
+          1.1190082358489446
+        ],
+        "ppl_delta": [
+          0.0020207713192683233,
+          0.013067625192192662
+        ],
+        "delta_nll": [
+          0.001866513546392202,
+          0.01199110568956485
+        ],
+        "ppl_ratio": [
+          1.0018682565673753,
+          1.0120632872210418
+        ],
+        "kl_bf16_to_candidate": [
+          0.004419563307799481,
+          0.008478546062344956
+        ],
+        "top1_flip_rate": [
+          0.007161458333333333,
+          0.018229166666666668
+        ]
+      }
+    },
+    {
+      "model": "eNeural-Qwen3.8-27B-fast",
+      "stratum": "reasoning",
+      "tasks": 59,
+      "scoring_positions": 3360,
+      "task_equal_weight": {
+        "ppl": 1.2796543181450215,
+        "reference_ppl": 1.2655784101794716,
+        "ppl_delta": 0.014075907965549916,
+        "kl_bf16_to_candidate": 0.009744018205035107,
+        "top1_flip_rate": 0.02476165254237288
+      },
+      "token_weighted": {
+        "tokens": 3360,
+        "ppl": 1.2740840772888193,
+        "reference_ppl": 1.2608628900037848,
+        "ppl_delta": 0.013221187285034519,
+        "kl_bf16_to_candidate": 0.009840463110911602,
+        "top1_flip_rate": 0.025297619047619048
+      },
+      "mean_nll": 0.24658997750848852,
+      "gpu_seconds": 453.10416984558105,
+      "full_vocabulary": 248320,
+      "task_cluster_95ci": {
+        "ppl": [
+          1.22722527976928,
+          1.3401266463725334
+        ],
+        "ppl_delta": [
+          0.007846563227488314,
+          0.02059619985351788
+        ],
+        "delta_nll": [
+          0.006205842643147118,
+          0.016041828790042158
+        ],
+        "ppl_ratio": [
+          1.0062251387802175,
+          1.0161711897288228
+        ],
+        "kl_bf16_to_candidate": [
+          0.007833564187617797,
+          0.012108582309315727
+        ],
+        "top1_flip_rate": [
+          0.018538135593220338,
+          0.03138241525423729
+        ]
+      }
+    },
+    {
+      "model": "eNeural-Qwen3.8-27B-fast",
+      "stratum": "terminal_command",
+      "tasks": 21,
+      "scoring_positions": 672,
+      "task_equal_weight": {
+        "ppl": 1.1366990209068495,
+        "reference_ppl": 1.1315359446554227,
+        "ppl_delta": 0.005163076251426757,
+        "kl_bf16_to_candidate": 0.005809633994034749,
+        "top1_flip_rate": 0.023809523809523808
+      },
+      "token_weighted": {
+        "tokens": 672,
+        "ppl": 1.1366990209068495,
+        "reference_ppl": 1.1315359446554227,
+        "ppl_delta": 0.005163076251426757,
+        "kl_bf16_to_candidate": 0.005809633994034749,
+        "top1_flip_rate": 0.023809523809523808
+      },
+      "mean_nll": 0.12812846636314307,
+      "gpu_seconds": 453.10416984558105,
+      "full_vocabulary": 248320,
+      "task_cluster_95ci": {
+        "ppl": [
+          1.083027812442399,
+          1.1985532501224612
+        ],
+        "ppl_delta": [
+          -0.004693094067539271,
+          0.015787715535300405
+        ],
+        "delta_nll": [
+          -0.00416956048604629,
+          0.013556467782185756
+        ],
+        "ppl_ratio": [
+          0.9958391200623966,
+          1.0136487733325235
+        ],
+        "kl_bf16_to_candidate": [
+          0.003564864152246482,
+          0.00836987417552599
+        ],
+        "top1_flip_rate": [
+          0.013392857142857142,
+          0.03571428571428571
+        ]
+      }
+    },
+    {
+      "model": "rdtand-Qwen3.8-27B-PrismaAQUA-5.5bit-vllm",
+      "stratum": "all",
+      "tasks": 59,
+      "scoring_positions": 7488,
+      "task_equal_weight": {
+        "ppl": 1.236822790429625,
+        "reference_ppl": 1.2209724435005438,
+        "ppl_delta": 0.01585034692908116,
+        "kl_bf16_to_candidate": 0.011010673455004815,
+        "top1_flip_rate": 0.02484992937853107
+      },
+      "token_weighted": {
+        "tokens": 7488,
+        "ppl": 1.2363673275980906,
+        "reference_ppl": 1.2206961451589506,
+        "ppl_delta": 0.015671182439140008,
+        "kl_bf16_to_candidate": 0.010963813072566168,
+        "top1_flip_rate": 0.02470619658119658
+      },
+      "mean_nll": 0.21254582561334953,
+      "gpu_seconds": 462.6860496997833,
+      "full_vocabulary": 248320,
+      "task_cluster_95ci": {
+        "ppl": [
+          1.2062142902074746,
+          1.2699016657884454
+        ],
+        "ppl_delta": [
+          0.012001034071150973,
+          0.019763667651191683
+        ],
+        "delta_nll": [
+          0.009834976595723332,
+          0.015946529016199158
+        ],
+        "ppl_ratio": [
+          1.0098834989195578,
+          1.0160743534582817
+        ],
+        "kl_bf16_to_candidate": [
+          0.00962319597895231,
+          0.012426119126335115
+        ],
+        "top1_flip_rate": [
+          0.019906426553672314,
+          0.030146539548022596
+        ]
+      }
+    },
+    {
+      "model": "rdtand-Qwen3.8-27B-PrismaAQUA-5.5bit-vllm",
+      "stratum": "after_tool",
+      "tasks": 57,
+      "scoring_positions": 1920,
+      "task_equal_weight": {
+        "ppl": 1.3259881357055223,
+        "reference_ppl": 1.304676288333676,
+        "ppl_delta": 0.021311847371846326,
+        "kl_bf16_to_candidate": 0.017441089294057407,
+        "top1_flip_rate": 0.03453947368421053
+      },
+      "token_weighted": {
+        "tokens": 1920,
+        "ppl": 1.3257272877229958,
+        "reference_ppl": 1.3049951660888741,
+        "ppl_delta": 0.020732121634121636,
+        "kl_bf16_to_candidate": 0.017696034371371617,
+        "top1_flip_rate": 0.034895833333333334
+      },
+      "mean_nll": 0.28215794429190955,
+      "gpu_seconds": 462.6860496997833,
+      "full_vocabulary": 248320,
+      "task_cluster_95ci": {
+        "ppl": [
+          1.2733079445346325,
+          1.3845321666497055
+        ],
+        "ppl_delta": [
+          0.013102856033497734,
+          0.02976802075055402
+        ],
+        "delta_nll": [
+          0.010001505792754956,
+          0.02247083237498062
+        ],
+        "ppl_ratio": [
+          1.0100516880122186,
+          1.0227252032642353
+        ],
+        "kl_bf16_to_candidate": [
+          0.014838901021930475,
+          0.020141558990848917
+        ],
+        "top1_flip_rate": [
+          0.023574561403508772,
+          0.046600877192982455
+        ]
+      }
+    },
+    {
+      "model": "rdtand-Qwen3.8-27B-PrismaAQUA-5.5bit-vllm",
+      "stratum": "code",
+      "tasks": 48,
+      "scoring_positions": 1536,
+      "task_equal_weight": {
+        "ppl": 1.0868862964925607,
+        "reference_ppl": 1.0814586921030296,
+        "ppl_delta": 0.00542760438953116,
+        "kl_bf16_to_candidate": 0.004986092946119945,
+        "top1_flip_rate": 0.0078125
+      },
+      "token_weighted": {
+        "tokens": 1536,
+        "ppl": 1.0868862964925607,
+        "reference_ppl": 1.0814586921030296,
+        "ppl_delta": 0.00542760438953116,
+        "kl_bf16_to_candidate": 0.004986092946119945,
+        "top1_flip_rate": 0.0078125
+      },
+      "mean_nll": 0.0833169996250702,
+      "gpu_seconds": 462.6860496997833,
+      "full_vocabulary": 248320,
+      "task_cluster_95ci": {
+        "ppl": [
+          1.059389299486207,
+          1.120065156271028
+        ],
+        "ppl_delta": [
+          -0.00017633193582757817,
+          0.01250089568473759
+        ],
+        "delta_nll": [
+          -0.0001642270030469399,
+          0.011355255544335788
+        ],
+        "ppl_ratio": [
+          0.9998357864814692,
+          1.0114199711809087
+        ],
+        "kl_bf16_to_candidate": [
+          0.003112559383451088,
+          0.007302159599344525
+        ],
+        "top1_flip_rate": [
+          0.0026041666666666665,
+          0.013671875
+        ]
+      }
+    },
+    {
+      "model": "rdtand-Qwen3.8-27B-PrismaAQUA-5.5bit-vllm",
+      "stratum": "reasoning",
+      "tasks": 59,
+      "scoring_positions": 3360,
+      "task_equal_weight": {
+        "ppl": 1.2857806611648048,
+        "reference_ppl": 1.2655784101794716,
+        "ppl_delta": 0.020202250985333237,
+        "kl_bf16_to_candidate": 0.010509117013043658,
+        "top1_flip_rate": 0.02767478813559322
+      },
+      "token_weighted": {
+        "tokens": 3360,
+        "ppl": 1.281788630941073,
+        "reference_ppl": 1.2608628900037848,
+        "ppl_delta": 0.020925740937288273,
+        "kl_bf16_to_candidate": 0.010608769804497055,
+        "top1_flip_rate": 0.02738095238095238
+      },
+      "mean_nll": 0.25136605229876724,
+      "gpu_seconds": 462.6860496997833,
+      "full_vocabulary": 248320,
+      "task_cluster_95ci": {
+        "ppl": [
+          1.2314808739272378,
+          1.3474550139638024
+        ],
+        "ppl_delta": [
+          0.013935318370523652,
+          0.02713223174692582
+        ],
+        "delta_nll": [
+          0.011110933668874822,
+          0.02083887033632278
+        ],
+        "ppl_ratio": [
+          1.0111728893416612,
+          1.0210575157279724
+        ],
+        "kl_bf16_to_candidate": [
+          0.008757420457701939,
+          0.012312625819791626
+        ],
+        "top1_flip_rate": [
+          0.020259533898305086,
+          0.0357521186440678
+        ]
+      }
+    },
+    {
+      "model": "rdtand-Qwen3.8-27B-PrismaAQUA-5.5bit-vllm",
+      "stratum": "terminal_command",
+      "tasks": 21,
+      "scoring_positions": 672,
+      "task_equal_weight": {
+        "ppl": 1.1353477374440681,
+        "reference_ppl": 1.1315359446554227,
+        "ppl_delta": 0.0038117927886454073,
+        "kl_bf16_to_candidate": 0.007167471705344683,
+        "top1_flip_rate": 0.020833333333333332
+      },
+      "token_weighted": {
+        "tokens": 672,
+        "ppl": 1.1353477374440681,
+        "reference_ppl": 1.1315359446554227,
+        "ppl_delta": 0.0038117927886454073,
+        "kl_bf16_to_candidate": 0.007167471705344683,
+        "top1_flip_rate": 0.020833333333333332
+      },
+      "mean_nll": 0.12693898061234188,
+      "gpu_seconds": 462.6860496997833,
+      "full_vocabulary": 248320,
+      "task_cluster_95ci": {
+        "ppl": [
+          1.08586201262125,
+          1.1916499898731039
+        ],
+        "ppl_delta": [
+          -0.004732324261153897,
+          0.012822846378613847
+        ],
+        "delta_nll": [
+          -0.004159935740815519,
+          0.011366280124676432
+        ],
+        "ppl_ratio": [
+          0.9958487048063434,
+          1.0114311217230414
+        ],
+        "kl_bf16_to_candidate": [
+          0.0048037580843750954,
+          0.00965881883860294
+        ],
+        "top1_flip_rate": [
+          0.010416666666666666,
+          0.03273809523809524
+        ]
+      }
+    }
+  ],
+  "note": "Small smoke data provide correctness evidence, not a model ranking."
+}

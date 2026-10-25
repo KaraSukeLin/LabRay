@@ -1,0 +1,59 @@
+{
+    "results": {
+        "tool": {
+            "name": "pytest",
+            "version": "8.4.1"
+        },
+        "summary": {
+            "tests": 4,
+            "passed": 1,
+            "failed": 3,
+            "skipped": 0,
+            "pending": 0,
+            "other": 0,
+            "start": 1792610686.7082746,
+            "stop": 1792611517.6959627
+        },
+        "tests": [
+            {
+                "name": "test_outputs.py::test_network_status",
+                "status": "failed",
+                "duration": 0.1943787857890129,
+                "start": 1792610686.8067887,
+                "stop": 1792610687.1777415,
+                "retries": 0,
+                "file_path": "test_outputs.py",
+                "trace": "@pytest.fixture\n    def netstat_output():\n        netstat_result = subprocess.run([\"netstat\", \"-tlnp\"], capture_output=True, text=True)\n>       assert netstat_result.returncode == 0, \"Failed to check network services\"\nE       AssertionError: Failed to check network services\nE       assert 1 == 0\nE        +  where 1 = CompletedProcess(args=['netstat', '-tlnp'], returncode=1, stdout='Active Internet connections (only servers)\\nProto Re...ddress         State       PID/Program name    \\n', stderr=\"netstat: no support for `AF INET (tcp)' on this system.\\n\").returncode\n\n/tests/test_outputs.py:65: AssertionError"
+            },
+            {
+                "name": "test_outputs.py::test_qemu_running_with_correct_params",
+                "status": "failed",
+                "duration": 0.1996690295636654,
+                "start": 1792610687.1780016,
+                "stop": 1792610687.3880587,
+                "retries": 0,
+                "file_path": "test_outputs.py",
+                "trace": "@pytest.fixture\n    def qemu_pid():\n        result = subprocess.run([\"pgrep\", \"qemu-system\"], capture_output=True, text=True)\n>       assert result.returncode == 0, (\n            \"QEMU process not found - Windows 3.11 VM is not running\"\n        )\nE       AssertionError: QEMU process not found - Windows 3.11 VM is not running\nE       assert 1 == 0\nE        +  where 1 = CompletedProcess(args=['pgrep', 'qemu-system'], returncode=1, stdout='', stderr='').returncode\n\n/tests/test_outputs.py:22: AssertionError"
+            },
+            {
+                "name": "test_outputs.py::test_windows_311_core_files_verification",
+                "status": "passed",
+                "duration": 830.2928913794458,
+                "start": 1792610687.3882928,
+                "stop": 1792611517.6814232,
+                "retries": 0,
+                "file_path": "test_outputs.py"
+            },
+            {
+                "name": "test_outputs.py::test_windows_keys_with_visual_feedback",
+                "status": "failed",
+                "duration": 0.0005725212395191193,
+                "start": 1792611517.6816971,
+                "stop": 1792611517.695722,
+                "retries": 0,
+                "file_path": "test_outputs.py",
+                "trace": "@pytest.fixture\n    def monitor_socket():\n        # Instruction specifies this exact path\n        socket_path = \"/tmp/qemu-monitor.sock\"\n>       assert Path(socket_path).is_socket(), (\n            f\"QEMU monitor socket not found at {socket_path}. \"\n            \"Configure QEMU with: -monitor unix:/tmp/qemu-monitor.sock,server,nowait\"\n        )\nE       AssertionError: QEMU monitor socket not found at /tmp/qemu-monitor.sock. Configure QEMU with: -monitor unix:/tmp/qemu-monitor.sock,server,nowait\nE       assert False\nE        +  where False = is_socket()\nE        +    where is_socket = PosixPath('/tmp/qemu-monitor.sock').is_socket\nE        +      where PosixPath('/tmp/qemu-monitor.sock') = Path('/tmp/qemu-monitor.sock')\n\n/tests/test_outputs.py:73: AssertionError"
+            }
+        ]
+    }
+}

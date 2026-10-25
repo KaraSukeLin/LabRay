@@ -1,0 +1,3 @@
+PASS: admission rejected zero_update
+PASS: admission rejected frozen_change
+PASS: admission rejected environment_drift

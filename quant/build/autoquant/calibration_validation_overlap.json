@@ -1,0 +1,7 @@
+{
+  "calibration_documents": 128,
+  "validation_documents": 32,
+  "document_id_overlap": [],
+  "identical_token_prefixes": 0,
+  "validation_documents_with_shared_13word_grams": []
+}

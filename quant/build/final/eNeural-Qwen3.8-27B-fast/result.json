@@ -1,0 +1,61 @@
+{
+  "model": "eNeural-Qwen3.8-27B-fast",
+  "model_path": "/root/model/eNeural-Qwen3.8-27B-fast",
+  "status": "ok",
+  "environment": {
+    "vllm": "0.31.0+cu129",
+    "torch": "2.13.0+cu129",
+    "transformers": "5.17.0",
+    "compressed-tensors": "0.17.0"
+  },
+  "gpu": "NVIDIA H100 80GB HBM3",
+  "cuda": "12.9",
+  "mtp": false,
+  "kv_cache_dtype": "bfloat16",
+  "quant_method": "compressed-tensors",
+  "loaded": true,
+  "tokens": 432,
+  "ppl": 13.029175520971611,
+  "reference_ppl": 12.943072381460716,
+  "ppl_delta": 0.08610313951089488,
+  "kl_bf16_to_candidate": 0.015567088232158988,
+  "top1_flip_rate": 0.0787037037037037,
+  "vocab_size": 248320,
+  "distribution_sha256": [
+    "1bc2c685e18c5cbaa2eab7066bf1aa32d624ce1b275e556f290ce194ea00a1f2",
+    "bf5f569d909d3589924cfd0c64b2543ab224f9c4e36b3358acd937615bc65018",
+    "06fa2411b2491c4c32e5fffbeb7457f6171703b3c0f73c78bc8771d0679a96e6",
+    "c068a2e7d5041be2ac888ce7450984e200a93b5ad21a8ffa889b3fe28583484c",
+    "6841fd95de80cf13f35d172a3a5f092b56bcf9c26b79a06df05aefdbbbe81109",
+    "77cc3c5cd231a3101e834c20467054e1ce14dfd953d6d6e7cd7f577f5dc7b0b2",
+    "16260321f054b3e62571dd3ac749e44f6f5e89a9abbe7d1ad5a24c3bcc6451a0",
+    "27d3be3331677501d6709ee84fb7afd6d297e666bf0173b0de248dc8b2f62765"
+  ],
+  "basic_inference_token_ids": [
+    [
+      3113
+    ],
+    [
+      271
+    ],
+    [
+      314
+    ],
+    [
+      561
+    ],
+    [
+      271
+    ],
+    [
+      271
+    ],
+    [
+      271
+    ],
+    [
+      271
+    ]
+  ],
+  "elapsed_seconds": 66.14275336265564
+}

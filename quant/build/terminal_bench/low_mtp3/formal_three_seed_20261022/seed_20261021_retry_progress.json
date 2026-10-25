@@ -1,0 +1,46 @@
+{
+  "time": 1792712791.1643348,
+  "queue": {
+    "ENVIRONMENT_FAIL": 12,
+    "MODEL_FAIL": 19,
+    "PASS": 100,
+    "RUNNING": 1,
+    "TIMEOUT": 59,
+    "PENDING": 0,
+    "all_rows": 191
+  },
+  "launched_gpus": [
+    0,
+    2,
+    3,
+    4
+  ],
+  "workers": {
+    "0": {
+      "pid": 26600,
+      "returncode": null
+    },
+    "2": {
+      "pid": 26608,
+      "returncode": null
+    },
+    "4": {
+      "pid": 26614,
+      "returncode": null
+    },
+    "3": {
+      "pid": 28287,
+      "returncode": null
+    }
+  },
+  "seed3_running_gpus": [
+    1
+  ],
+  "gpu_memory_mib": {
+    "0": 77952,
+    "1": 77960,
+    "2": 1,
+    "3": 1,
+    "4": 1
+  }
+}

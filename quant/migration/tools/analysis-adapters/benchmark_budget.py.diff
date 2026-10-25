@@ -1,0 +1,38 @@
+--- original/benchmark_budget.py
++++ migration/benchmark_budget.py
+@@ -185,7 +185,7 @@
+         extra = [json.loads(s) for s in (path/'extensions.jsonl').read_text().splitlines()]
+         assert len(records) == len(selected_ids) == len({r['id'] for r in records})
+         assert {r['id'] for r in records} == selected_ids
+-        assert all(r['input_tokens'] == len(r['prompt_token_ids']) and r['output_tokens'] == len(r['token_ids']) for r in records+extra)
++        assert all(r['input_tokens'] == r['prompt_token_ids_count'] and r['output_tokens'] == r['token_ids_count'] for r in records+extra)
+         assert all(r['input_tokens']+r['max_tokens'] <= info['config']['max_model_len'] for r in records+extra)
+         assert all(r['finish_reason'] in ['stop', 'length'] for r in records+extra)
+         assert info['speculative_config'] is None
+@@ -230,7 +230,7 @@
+                 truncated=sum(r['finish_reason'] == 'length' for r in subset),
+                 probability_truncated=sum(r['finish_reason'] == 'length' for r in prob),
+                 extraction_fallback=sum(r.get('extraction_fallback', False) for r in subset),
+-                empty_response=sum(not r['response'].strip() for r in subset),
++                empty_response=sum(r['response_empty'] for r in subset),
+                 inference_seconds=sum(r['inference_seconds'] for r in subset),
+                 preprocessing_seconds=sum(r['preprocessing_seconds'] for r in subset),
+                 scoring_seconds=sum(r['scoring_seconds'] for r in subset),
+@@ -259,7 +259,7 @@
+         for r in extra:
+             base = main_rows[-1][r['id']]
+             previous = extra_by_cap[r['id'], 4096] if r['max_tokens'] == 8192 else base
+-            assert base['prompt_token_ids'] == r['prompt_token_ids'] and base['image_sha256'] == r['image_sha256']
++            assert base['prompt_token_ids_sha256_json'] == r['prompt_token_ids_sha256_json'] and base['image_sha256'] == r['image_sha256']
+             cap_pairs.append(dict(model=model, id=r['id'], task=r['task'], probe_reason=r['probe_reason'],
+                 probe_max_tokens=r['max_tokens'],
+                 main_tokens=base['output_tokens'], long_tokens=r['output_tokens'],
+@@ -276,7 +276,7 @@
+         for key in ['config', 'config_sha256', 'dataset_sha256', 'environment', 'source_sha256']:
+             assert metadata[model][key] == first[key], (model, key)
+         for key in selected_ids:
+-            for field in ['prompt_token_ids', 'image_sha256']:
++            for field in ['prompt_token_ids_sha256_json', 'image_sha256']:
+                 assert main_rows[index][key][field] == main_rows[0][key][field], (model, key, field)
+     export(args.output/'smoke_results', summary)
+     export(args.output/'question_timings', timings)

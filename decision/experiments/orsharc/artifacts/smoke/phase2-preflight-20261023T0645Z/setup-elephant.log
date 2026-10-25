@@ -1,0 +1,60 @@
++ bash experiments/orsharc/setup_phase2.sh elephant
+{
+  "onejev": {
+    "repo": "OmniJev/OneJev",
+    "revision": "81ce62f1597c91e46767d4d02d6ac2e18534fe94",
+    "python_sha256": "2e5f3046c777eaa297e3f7426597f847706c994bed7138f572150c289d1b5bd4",
+    "patch_sha256": "f234c125f1d38d82104b9e1f24e75bde51e4401928acfba2fbf5c59ef2fb46b8"
+  },
+  "kev": {
+    "repo": "jaredpalmer/kev",
+    "revision": "2074cc44256200bb37540103fa4572901faa10f3",
+    "python_sha256": "32efcb86b7035cf569699045135dcacb119239a19fc9b26c1b82b2d56008a2ad",
+    "patch_sha256": null
+  },
+  "startlux": {
+    "repo": "StartLuxLabs/StartLux-Decision",
+    "revision": "83fe6c7d61a687a6e17f118b4f7d8f429f5d3a01",
+    "python_sha256": "cf549b3333318065e5d6ca3902b149ee40b08748f94cf0776c06777eb5602557",
+    "patch_sha256": null
+  },
+  "unsloth": {
+    "repo": "unslothai/unsloth",
+    "revision": "c032ada4551eb49b607cdf06ca6f6dcd1fe0b6e0",
+    "python_sha256": "f4bf5d16e463787d0bdded8fda16dc74fa3582a7b652cb547cc60ada0715166e",
+    "patch_sha256": null
+  }
+}
+Using CPython 3.12.14
+Creating virtual environment with seed packages at: experiments/orsharc/artifacts/env/elephant
+ + pip==26.2.2
+Activate with: source experiments/orsharc/artifacts/env/elephant/bin/activate
+Using Python 3.12.14 environment at: experiments/orsharc/artifacts/env/elephant
+Resolved 15 packages in 1.48s
+Prepared 3 packages in 333ms
+Installed 15 packages in 18ms
+ + anyio==4.15.1
+ + click==8.5.0
+ + filelock==4.2.4
+ + fsspec==2026.9.0
+ + h11==0.16.0
+ + hf-xet==1.7.0
+ + httpcore2==2.16.0
+ + httpx2==2.16.0
+ + huggingface-hub==2.2.0
+ + idna==3.20
+ + packaging==26.3
+ + pyyaml==6.0.3
+ + tqdm==4.70.1
+ + truststore==0.10.5
+ + typing-extensions==4.16.0
+Hint: The `hf-cli` skill is not installed. Run `hf skills add -g` to teach your AI agents how to use the `hf` CLI.
+Still waiting to acquire lock on /root/model/orsharc-elephant/.cache/huggingface/.gitignore.lock (elapsed: 0.1 seconds)
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+path=/root/model/orsharc-elephant
+Using Python 3.12.14 environment at: experiments/orsharc/artifacts/env/elephant
+error: Request failed after 3 retries in 5.6s
+  cause: Failed to fetch: `https://pypi.nvidia.com/nvidia-curand-cu12/nvidia_curand_cu12-10.3.9.90-py3-none-manylinux_2_27_x86_64.whl`
+  cause: error sending request for url (https://pypi.nvidia.com/nvidia-curand-cu12/nvidia_curand_cu12-10.3.9.90-py3-none-manylinux_2_27_x86_64.whl)
+  cause: client error (Connect)
+  cause: tls handshake eof

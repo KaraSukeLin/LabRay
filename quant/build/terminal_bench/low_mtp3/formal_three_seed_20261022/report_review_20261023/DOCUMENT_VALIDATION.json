@@ -1,0 +1,29 @@
+{
+  "created_utc": "2026-10-23T02:55:45.171886+00:00",
+  "passed": true,
+  "markdown_files_checked": 5,
+  "local_links_checked": 160,
+  "broken_links": [],
+  "required_native_result_and_summary_missing": [],
+  "matrix_rows": 801,
+  "unique_slot_keys": 801,
+  "evaluable_rows": 540,
+  "valid_scores": 533,
+  "known_reward_ones": 286,
+  "primary_successes": [
+    85,
+    78,
+    82
+  ],
+  "checks": [
+    "Local links and appendix Oracle links resolve.",
+    "801 unique slot keys and 554 attempts retained.",
+    "540 evaluable slots, 533 valid scores, 7 unknown outcomes.",
+    "286 native reward successes, including 9 TIMEOUT reward=1.",
+    "Token/tool totals match final source CSV.",
+    "Protocol and all formal source artifacts were read, not edited; new report artifacts created only."
+  ],
+  "formal_trials_rerun": false,
+  "smoke_rerun": false,
+  "tests_run_in_report_revision": false
+}

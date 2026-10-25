@@ -1,0 +1,26 @@
+{
+  "before": [
+    {
+      "pid": 29549,
+      "start_ticks": "2308941906",
+      "exe": "/root/projects/quant/build/terminal_bench/diagnostics/proot_version_ab/downloads/proot",
+      "Name": "proot",
+      "State": "S (sleeping)",
+      "PPid": "51793",
+      "TracerPid": "0"
+    },
+    {
+      "pid": 32162,
+      "start_ticks": "2308942875",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/controls/kv-store-grpc/oracle/attempt-1/trial/proot/prooted-29549-09Xz71",
+      "Name": "python",
+      "State": "S (sleeping)",
+      "PPid": "51793",
+      "TracerPid": "29549"
+    }
+  ],
+  "after": [],
+  "delete_requested": true,
+  "rootfs_retained_for_evidence": true,
+  "child_cpu": 2709.69411
+}

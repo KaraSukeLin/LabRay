@@ -1,0 +1,25 @@
+Traceback (most recent call last):
+  File "/root/projects/quant/build/terminal_bench/sources/harbor/src/harbor/trial/trial.py", line 499, in run
+    await self._prepare()
+  File "/root/projects/quant/build/terminal_bench/sources/harbor/src/harbor/trial/trial.py", line 538, in _prepare
+    await self._setup_agent_environment()
+  File "/root/projects/quant/build/terminal_bench/sources/harbor/src/harbor/trial/trial.py", line 1725, in _setup_agent_environment
+    await self._start_agent_environment()
+  File "/root/projects/quant/build/terminal_bench/sources/harbor/src/harbor/trial/trial.py", line 1731, in _start_agent_environment
+    await asyncio.wait_for(
+  File "/root/.local/share/uv/python/cpython-3.12.14-linux-x86_64-gnu/lib/python3.12/asyncio/tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "/root/projects/quant/src/terminal_proot.py", line 59, in start
+    omissions = await asyncio.to_thread(unpack, self.root, self.image)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/uv/python/cpython-3.12.14-linux-x86_64-gnu/lib/python3.12/asyncio/threads.py", line 25, in to_thread
+    return await loop.run_in_executor(None, func_call)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/uv/python/cpython-3.12.14-linux-x86_64-gnu/lib/python3.12/concurrent/futures/thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/projects/quant/src/terminal_proot_images.py", line 94, in unpack
+    assert parent.is_relative_to(root.resolve()), ('external archive parent', member.name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ('external archive parent', '.')

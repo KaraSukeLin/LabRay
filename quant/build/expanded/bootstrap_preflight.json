@@ -1,0 +1,37 @@
+{
+  "passed": true,
+  "documents": 288,
+  "resamples": 19999,
+  "results": {
+    "ppl": {
+      "estimate": 3.6726965657184056,
+      "low": 3.46402290574623,
+      "high": 3.8915605785133454
+    },
+    "ppl_delta": {
+      "estimate": 0.0,
+      "low": 0.0,
+      "high": 0.0
+    },
+    "delta_nll": {
+      "estimate": 0.0,
+      "low": 0.0,
+      "high": 0.0
+    },
+    "ppl_ratio": {
+      "estimate": 1.0,
+      "low": 1.0,
+      "high": 1.0
+    },
+    "kl_bf16_to_candidate": {
+      "estimate": 0.0,
+      "low": 0.0,
+      "high": 0.0
+    },
+    "top1_flip_rate": {
+      "estimate": 0.0,
+      "low": 0.0,
+      "high": 0.0
+    }
+  }
+}

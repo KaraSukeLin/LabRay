@@ -1,0 +1,188 @@
+{
+  "objective": "Complete Terminal-Bench 2.1 Low/MTP3 three-model capability-retention experiment",
+  "matrix": {
+    "models": 3,
+    "tasks": 89,
+    "seeds": [
+      20261020,
+      20261021,
+      20261022
+    ],
+    "slots": 801,
+    "formula": "3 models × 89 tasks × 3 seeds"
+  },
+  "seed_selection": {
+    "basis": "User specified fallback because the prior formal Goal defined only one seed",
+    "frozen_at_epoch": 1792633633.1964045,
+    "selection_not_based_on_observed_scores": true
+  },
+  "first_seed_run": "build/terminal_bench/low_mtp3/formal_20261021",
+  "order": "Complete all evaluable tasks for seed 20261020 first; then run 20261021 and 20261022.",
+  "protocol_config": {
+    "schema": 2,
+    "dataset": {
+      "repository": "https://github.com/harbor-framework/terminal-bench-2-1.git",
+      "revision": "7131e4375048a0e408a8fb404b5f499d726b695b",
+      "tasks": 89
+    },
+    "harbor": {
+      "repository": "https://github.com/harbor-framework/harbor.git",
+      "revision": "96ff9c6db90cc015f0fc0987d896670c9c5f1fad",
+      "version": "0.24.0"
+    },
+    "models": [
+      "Qwen-Qwen3.8-27B",
+      "eNeural-Qwen3.8-27B-fast",
+      "rdtand-Qwen3.8-27B-PrismaAQUA-5.5bit-vllm"
+    ],
+    "seeds": [
+      20261020,
+      20261021,
+      20261022
+    ],
+    "sampling": {
+      "temperature": 1.0,
+      "top_p": 0.95,
+      "top_k": 20,
+      "min_p": 0.0,
+      "presence_penalty": 0.0,
+      "repetition_penalty": 1.0,
+      "max_tokens": 131072
+    },
+    "chat_template_kwargs": {
+      "enable_thinking": true,
+      "reasoning_effort": "low",
+      "preserve_thinking": true
+    },
+    "reasoning_effort": "low",
+    "max_model_len": 262144,
+    "gpu_memory_utilization": 0.95,
+    "mtp": true,
+    "kv_cache_dtype": "bfloat16",
+    "interleaved_thinking": false,
+    "enable_summarize": true,
+    "proactive_summarization_threshold": 8000,
+    "timeout_multiplier": 1.0,
+    "port_base": 18100,
+    "smoke_tasks": {
+      "modernize-scientific-stack": 600,
+      "overfull-hbox": 750,
+      "fix-git": 900,
+      "regex-log": 900,
+      "extract-elf": 900
+    },
+    "bootstrap_seed": 20261020,
+    "bootstrap_resamples": 199999,
+    "comparison_family": 6,
+    "official_differences": [
+      "Use native 262144 context without YaRN, rather than optional 1M extension.",
+      "Use a single 131072-token reasoning+final output budget. Qwen recommends separate 262144 reasoning and 131072 final budgets within 1M context; this backend does not offer that pair of independent budgets.",
+      "Harbor max_input_tokens=131072 reserves the fixed 131072 output budget within the 262144-token service context; proactive summarization keeps its native 8000-token margin and approximate LiteLLM counter.",
+      "PRoot shared kernel, PID and network; no per-task cgroup enforcement; internal comparison only, not official Docker leaderboard scores.",
+      "One fixed seed per model/task for the planned 267-trial main comparison; 30 smoke trials remain separate."
+    ],
+    "harbor_max_input_tokens": 131072,
+    "num_speculative_tokens": 3,
+    "candidate_models": {
+      "NaviQuant": "eNeural-Qwen3.8-27B-fast",
+      "Aqua": "rdtand-Qwen3.8-27B-PrismaAQUA-5.5bit-vllm"
+    },
+    "stop_after_smoke": true,
+    "formal_requires_new_user_confirmation": true,
+    "model_mapping_confirmed_by_user": true
+  },
+  "config_before_amendment_sha256": "9cb73cfb84f5368cef045a029a89ffd43ee2ab0843f607631975480fd1288fd8",
+  "fixed_settings": {
+    "thinking": "low",
+    "mtp": 3,
+    "interleaved_thinking": false,
+    "sampling": {
+      "temperature": 1.0,
+      "top_p": 0.95,
+      "top_k": 20,
+      "min_p": 0.0,
+      "presence_penalty": 0.0,
+      "repetition_penalty": 1.0,
+      "max_tokens": 131072
+    },
+    "kv_cache_dtype": "bfloat16",
+    "timeout_multiplier": 1.0,
+    "max_model_len": 262144,
+    "official_task_timeout": "unchanged"
+  },
+  "gate_reuse": "Reuse the completed 89-task Oracle/NOP/Verifier gate ledger for all three seeds; do not rerun Smoke or gates.",
+  "nonstandard_environment": "PRoot; internal comparison only; not official Docker leaderboard results.",
+  "seed_run_directories": {
+    "20261020": "build/terminal_bench/low_mtp3/formal_20261021",
+    "20261021": "build/terminal_bench/low_mtp3/formal_20261021_seed_20261021",
+    "20261022": "build/terminal_bench/low_mtp3/formal_20261021_seed_20261022"
+  },
+  "gate_ledger_source": "build/terminal_bench/low_mtp3/formal_20261021/environment_validation.json",
+  "continuation_policy": "Keep the first-seed run intact. For each later seed, use its frozen seed-specific config and copy the first run’s final environment_validation.json into the new run directory before launching the same formal scheduler.",
+  "seed_config_files": {
+    "20261020": "build/terminal_bench/low_mtp3/formal_three_seed_20261022/configs/config_seed_20261020.json",
+    "20261021": "build/terminal_bench/low_mtp3/formal_three_seed_20261022/configs/config_seed_20261021.json",
+    "20261022": "build/terminal_bench/low_mtp3/formal_three_seed_20261022/configs/config_seed_20261022.json"
+  },
+  "seed_config_rule": "Each per-seed config is identical to CONFIG_THREE_SEEDS.json except that seeds contains only the current seed; install that exact file at assets/terminal_bench_low_mtp3.json before running/resuming the existing scheduler.",
+  "matrix_amendment": {
+    "amendment": "Three-seed formal matrix correction",
+    "authorized_by": "User instruction",
+    "amended_at_epoch": 1792640311.6492255,
+    "supersedes": {
+      "path": "protocol_config.official_differences[4]",
+      "former_text": "One fixed seed per model/task for the planned 267-trial main comparison; 30 smoke trials remain separate."
+    },
+    "effective_matrix": {
+      "models": 3,
+      "tasks": 89,
+      "seeds": [
+        20261020,
+        20261021,
+        20261022
+      ],
+      "formula": "3 models × 89 tasks × 3 seeds = 801 slots",
+      "slots": 801,
+      "evaluable_tasks": 60,
+      "evaluable_trial_slots": 540,
+      "common_gate_non_evaluable_slots": 261
+    },
+    "seed_selection": {
+      "basis": "User specified fallback because the prior formal Goal defined only one seed",
+      "fixed_seed_order": [
+        20261020,
+        20261021,
+        20261022
+      ],
+      "values_explicitly_set_by_user": true,
+      "changed_after_observing_results": false
+    },
+    "effective_fixed_settings": {
+      "thinking": "low",
+      "mtp": 3,
+      "interleaved_thinking": false,
+      "sampling": {
+        "temperature": 1.0,
+        "top_p": 0.95,
+        "top_k": 20,
+        "min_p": 0.0,
+        "presence_penalty": 0.0,
+        "repetition_penalty": 1.0,
+        "max_tokens": 131072
+      },
+      "kv_cache_dtype": "bfloat16",
+      "timeout_multiplier": 1.0,
+      "max_model_len": 262144,
+      "official_task_timeout": "unchanged"
+    },
+    "source_config_snapshots_preserved": {
+      "assets/terminal_bench_low_mtp3.json": "9cb73cfb84f5368cef045a029a89ffd43ee2ab0843f607631975480fd1288fd8",
+      "CONFIG_THREE_SEEDS.json": "cb2bbe34c6a337cb4b27065aa8169828bf2b643f3319a70394f368a6ca2d1701",
+      "configs/config_seed_20261020.json": "9cb73cfb84f5368cef045a029a89ffd43ee2ab0843f607631975480fd1288fd8",
+      "configs/config_seed_20261021.json": "4ba8f21789dac9c0262c883ec257d2800a7bc4b94454e4eea64e33dec799c1ac",
+      "configs/config_seed_20261022.json": "18e9226e2e1f0dfe6f2b73f798bd9328979f908564a466b1c2df40b149e8c41c"
+    },
+    "runtime_sampling_or_timeout_changed": false,
+    "smoke_rerun": false
+  }
+}

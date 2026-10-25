@@ -1,0 +1,75 @@
+2026-10-23 13:57:52,231 INFO train.sft loaded 256 rows from /root/projects/decision/experiments/orsharc/artifacts/training/elephant-256/data/train.jsonl (world size 1)
+2026-10-23 13:57:52,240 INFO train.sft eval set dev_select: 456 rows from /root/projects/decision/experiments/orsharc/artifacts/training/elephant-256/data/dev_select.jsonl
+
+Loading weights:   0%|          | 0/427 [00:00<?, ?it/s]
+Loading weights:   0%|          | 1/427 [00:00<04:42,  1.51it/s]
+Loading weights:   6%|▋         | 27/427 [00:00<00:08, 46.15it/s]
+Loading weights:  10%|█         | 43/427 [00:00<00:05, 67.06it/s]
+Loading weights:  15%|█▌        | 65/427 [00:00<00:03, 100.08it/s]
+Loading weights:  19%|█▉        | 83/427 [00:01<00:03, 111.97it/s]
+Loading weights:  23%|██▎       | 100/427 [00:01<00:02, 117.63it/s]
+Loading weights:  30%|███       | 129/427 [00:01<00:01, 153.83it/s]
+Loading weights:  35%|███▍      | 148/427 [00:01<00:01, 152.90it/s]
+Loading weights:  39%|███▉      | 168/427 [00:01<00:01, 161.66it/s]
+Loading weights:  44%|████▎     | 186/427 [00:01<00:01, 162.06it/s]
+Loading weights:  48%|████▊     | 204/427 [00:01<00:01, 161.62it/s]
+Loading weights:  53%|█████▎    | 225/427 [00:01<00:01, 168.80it/s]
+Loading weights:  57%|█████▋    | 243/427 [00:02<00:01, 166.81it/s]
+Loading weights:  61%|██████    | 261/427 [00:02<00:01, 156.91it/s]
+Loading weights:  67%|██████▋   | 288/427 [00:02<00:00, 182.99it/s]
+Loading weights:  72%|███████▏  | 307/427 [00:02<00:00, 174.02it/s]
+Loading weights:  77%|███████▋  | 327/427 [00:02<00:00, 180.94it/s]
+Loading weights:  81%|████████  | 346/427 [00:02<00:00, 173.06it/s]
+Loading weights:  85%|████████▌ | 364/427 [00:02<00:00, 170.80it/s]
+Loading weights:  90%|█████████ | 385/427 [00:02<00:00, 174.85it/s]
+Loading weights:  95%|█████████▍| 405/427 [00:02<00:00, 176.14it/s]
+Loading weights:  99%|█████████▉| 423/427 [00:03<00:00, 168.66it/s]
+Loading weights: 100%|██████████| 427/427 [00:03<00:00, 138.11it/s]
+2026-10-23 13:57:58,642 INFO train.sft model_type=qwen3_5_text template_kwargs={'enable_thinking': False}
+2026-10-23 13:57:58,644 INFO train.sft readout: attention noncausal, scores slot_lm
+2026-10-23 13:57:58,644 INFO train.sft LoRA target modules: 248 modules, kinds ['down_proj', 'gate_proj', 'in_proj_a', 'in_proj_b', 'in_proj_qkv', 'in_proj_z', 'k_proj', 'o_proj', 'out_proj', 'q_proj', 'up_proj', 'v_proj']
+2026-10-23 13:58:00,109 INFO train.sft trainable 43.28M of 8997.08M parameters (0.481%)
+2026-10-23 13:58:00,190 INFO train.sft 32 steps per epoch, 32 total steps, 1 warmup, 0 rows dropped over max-len, planned in 0s
+[transformers] `causal_conv1d_fn` is falling back to its reference PyTorch implementation because `causal_conv1d` is not installed. This is correct but much slower; install `causal_conv1d` for the optimized kernel.
+eval step 0 dev_select: n 456 acc 0.7588 state_macro 0.7588 nll 0.7394 ece 0.1092 {'choice': 0.7588} (30s)
+train [#.............................] 1/32 (3.1%) loss 1.2495 ce 0.7948 brier 0.4547 slot_acc 0.625 gnorm 9.076 lr 2.00e-05 rows/s 0.24 tok/s 64 s/step 33.1 mem 17.4G eta 0.3h
+train [##............................] 2/32 (6.2%) loss 1.4661 ce 0.9848 brier 0.4813 slot_acc 0.625 gnorm 15.708 lr 1.99e-05 rows/s 2.86 tok/s 716 s/step 2.8 mem 17.6G eta 0.0h
+train [###...........................] 3/32 (9.4%) loss 0.0453 ce 0.0407 brier 0.0046 slot_acc 1.000 gnorm 1.185 lr 1.98e-05 rows/s 3.08 tok/s 836 s/step 2.6 mem 17.6G eta 0.0h
+train [####..........................] 4/32 (12.5%) loss 1.2239 ce 0.8518 brier 0.3721 slot_acc 0.750 gnorm 13.558 lr 1.95e-05 rows/s 2.87 tok/s 821 s/step 2.8 mem 17.6G eta 0.0h
+train [#####.........................] 5/32 (15.6%) loss 1.3168 ce 0.8231 brier 0.4937 slot_acc 0.625 gnorm 18.350 lr 1.92e-05 rows/s 3.10 tok/s 799 s/step 2.6 mem 17.6G eta 0.0h
+train [######........................] 6/32 (18.8%) loss 0.3506 ce 0.2363 brier 0.1143 slot_acc 1.000 gnorm 7.340 lr 1.87e-05 rows/s 3.12 tok/s 814 s/step 2.6 mem 17.6G eta 0.0h
+train [#######.......................] 7/32 (21.9%) loss 2.2169 ce 1.4869 brier 0.7300 slot_acc 0.500 gnorm 12.976 lr 1.82e-05 rows/s 2.90 tok/s 727 s/step 2.8 mem 17.6G eta 0.0h
+train [########......................] 8/32 (25.0%) loss 0.7725 ce 0.5058 brier 0.2668 slot_acc 0.750 gnorm 9.657 lr 1.76e-05 rows/s 3.12 tok/s 817 s/step 2.6 mem 17.6G eta 0.0h
+train [########......................] 9/32 (28.1%) loss 1.3829 ce 0.9004 brier 0.4825 slot_acc 0.500 gnorm 22.719 lr 1.69e-05 rows/s 2.94 tok/s 750 s/step 2.7 mem 17.6G eta 0.0h
+train [#########.....................] 10/32 (31.2%) loss 1.9425 ce 1.2321 brier 0.7104 slot_acc 0.500 gnorm 28.159 lr 1.61e-05 rows/s 3.12 tok/s 793 s/step 2.6 mem 17.6G eta 0.0h
+train [##########....................] 11/32 (34.4%) loss 0.8767 ce 0.5157 brier 0.3610 slot_acc 0.750 gnorm 13.226 lr 1.53e-05 rows/s 2.90 tok/s 724 s/step 2.8 mem 17.6G eta 0.0h
+train [###########...................] 12/32 (37.5%) loss 1.0160 ce 0.6994 brier 0.3166 slot_acc 0.750 gnorm 16.070 lr 1.44e-05 rows/s 3.10 tok/s 863 s/step 2.6 mem 17.7G eta 0.0h
+train [############..................] 13/32 (40.6%) loss 1.3364 ce 0.8816 brier 0.4547 slot_acc 0.750 gnorm 18.763 lr 1.35e-05 rows/s 2.94 tok/s 762 s/step 2.7 mem 17.7G eta 0.0h
+train [#############.................] 14/32 (43.8%) loss 2.0198 ce 1.2248 brier 0.7950 slot_acc 0.375 gnorm 22.458 lr 1.25e-05 rows/s 3.09 tok/s 900 s/step 2.6 mem 17.7G eta 0.0h
+train [##############................] 15/32 (46.9%) loss 1.2913 ce 0.8290 brier 0.4622 slot_acc 0.625 gnorm 21.801 lr 1.15e-05 rows/s 2.95 tok/s 865 s/step 2.7 mem 17.7G eta 0.0h
+train [###############...............] 16/32 (50.0%) loss 1.2020 ce 0.9459 brier 0.2561 slot_acc 0.875 gnorm 4.690 lr 1.05e-05 rows/s 3.11 tok/s 827 s/step 2.6 mem 17.7G eta 0.0h
+train [################..............] 17/32 (53.1%) loss 0.9234 ce 0.6282 brier 0.2952 slot_acc 0.875 gnorm 7.638 lr 9.49e-06 rows/s 2.90 tok/s 835 s/step 2.8 mem 17.7G eta 0.0h
+train [#################.............] 18/32 (56.2%) loss 1.7511 ce 1.1326 brier 0.6184 slot_acc 0.625 gnorm 18.672 lr 8.49e-06 rows/s 3.12 tok/s 850 s/step 2.6 mem 17.7G eta 0.0h
+train [##################............] 19/32 (59.4%) loss 1.1016 ce 0.7183 brier 0.3833 slot_acc 0.750 gnorm 12.562 lr 7.49e-06 rows/s 2.92 tok/s 770 s/step 2.7 mem 17.7G eta 0.0h
+train [###################...........] 20/32 (62.5%) loss 1.7780 ce 1.0834 brier 0.6946 slot_acc 0.500 gnorm 20.808 lr 6.53e-06 rows/s 3.13 tok/s 817 s/step 2.6 mem 17.7G eta 0.0h
+train [####################..........] 21/32 (65.6%) loss 0.9797 ce 0.6382 brier 0.3415 slot_acc 0.750 gnorm 14.442 lr 5.60e-06 rows/s 2.94 tok/s 820 s/step 2.7 mem 17.7G eta 0.0h
+train [#####################.........] 22/32 (68.8%) loss 0.7695 ce 0.4649 brier 0.3047 slot_acc 0.750 gnorm 12.561 lr 4.71e-06 rows/s 3.14 tok/s 791 s/step 2.6 mem 17.7G eta 0.0h
+train [######################........] 23/32 (71.9%) loss 0.1862 ce 0.1327 brier 0.0535 slot_acc 1.000 gnorm 14.564 lr 3.88e-06 rows/s 3.11 tok/s 851 s/step 2.6 mem 17.7G eta 0.0h
+train [######################........] 24/32 (75.0%) loss 2.0180 ce 1.3668 brier 0.6512 slot_acc 0.625 gnorm 17.688 lr 3.11e-06 rows/s 2.93 tok/s 739 s/step 2.7 mem 17.7G eta 0.0h
+train [#######################.......] 25/32 (78.1%) loss 1.7906 ce 1.2937 brier 0.4969 slot_acc 0.750 gnorm 10.093 lr 2.41e-06 rows/s 3.15 tok/s 763 s/step 2.5 mem 17.7G eta 0.0h
+train [########################......] 26/32 (81.2%) loss 0.8999 ce 0.5665 brier 0.3334 slot_acc 0.750 gnorm 7.650 lr 1.79e-06 rows/s 2.92 tok/s 816 s/step 2.7 mem 17.7G eta 0.0h
+train [#########################.....] 27/32 (84.4%) loss 0.5476 ce 0.3360 brier 0.2116 slot_acc 0.875 gnorm 10.032 lr 1.26e-06 rows/s 3.11 tok/s 894 s/step 2.6 mem 17.7G eta 0.0h
+train [##########################....] 28/32 (87.5%) loss 0.4290 ce 0.2632 brier 0.1658 slot_acc 0.875 gnorm 7.875 lr 8.10e-07 rows/s 2.92 tok/s 748 s/step 2.7 mem 17.7G eta 0.0h
+train [###########################...] 29/32 (90.6%) loss 1.0025 ce 0.6327 brier 0.3698 slot_acc 0.750 gnorm 8.522 lr 4.59e-07 rows/s 3.14 tok/s 856 s/step 2.5 mem 17.7G eta 0.0h
+train [############################..] 30/32 (93.8%) loss 0.4657 ce 0.2934 brier 0.1723 slot_acc 0.875 gnorm 12.559 lr 2.05e-07 rows/s 2.95 tok/s 752 s/step 2.7 mem 17.7G eta 0.0h
+train [#############################.] 31/32 (96.9%) loss 0.3604 ce 0.2229 brier 0.1376 slot_acc 0.875 gnorm 12.673 lr 5.13e-08 rows/s 3.14 tok/s 879 s/step 2.5 mem 17.7G eta 0.0h
+train [##############################] 32/32 (100.0%) loss 2.1752 ce 1.3309 brier 0.8443 slot_acc 0.375 gnorm 16.700 lr 0.00e+00 rows/s 2.91 tok/s 781 s/step 2.8 mem 17.7G eta 0.0h
+eval step 32 dev_select: n 456 acc 0.7654 state_macro 0.7654 nll 0.7069 ece 0.0996 {'choice': 0.7654} (29s)
+2026-10-23 14:00:24,636 INFO train.sft saved final adapter to /root/projects/decision/experiments/orsharc/artifacts/training/elephant-256/native/adapter
+done: 32 steps, 256 examples, 144.1s, 1.78 examples/s
+
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]
+Writing model shards: 100%|██████████| 1/1 [00:23<00:00, 23.67s/it]
+Writing model shards: 100%|██████████| 1/1 [00:23<00:00, 23.67s/it]
+2026-10-23 14:00:48,527 INFO train.sft merged model written to /root/projects/decision/experiments/orsharc/artifacts/training/elephant-256/native/merged
+merged model: /root/projects/decision/experiments/orsharc/artifacts/training/elephant-256/native/merged

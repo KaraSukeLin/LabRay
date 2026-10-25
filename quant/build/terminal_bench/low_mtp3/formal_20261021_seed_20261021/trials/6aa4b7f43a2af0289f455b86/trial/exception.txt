@@ -1,0 +1,16 @@
+Traceback (most recent call last):
+  File "/root/projects/quant/build/terminal_bench/sources/harbor/src/harbor/trial/trial.py", line 499, in run
+    await self._prepare()
+  File "/root/projects/quant/build/terminal_bench/sources/harbor/src/harbor/trial/trial.py", line 545, in _prepare
+    await self._setup_agent()
+  File "/root/projects/quant/build/terminal_bench/sources/harbor/src/harbor/trial/trial.py", line 1761, in _setup_agent
+    await asyncio.wait_for(
+  File "/root/.local/share/uv/python/cpython-3.12.14-linux-x86_64-gnu/lib/python3.12/asyncio/tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "/root/projects/quant/build/terminal_bench/sources/harbor/src/harbor/agents/terminus_2/terminus_2.py", line 594, in setup
+    await self._session.start()
+  File "/root/projects/quant/build/terminal_bench/sources/harbor/src/harbor/agents/terminus_2/tmux_session.py", line 509, in start
+    raise RuntimeError(
+RuntimeError: Failed to start tmux session. Error: /bin/bash: line 1: tmux: command not found
+

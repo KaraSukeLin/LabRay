@@ -1,0 +1,4 @@
+model,paired_tasks,observations,successes,rate,retention
+Qwen-Qwen3.8-27B,53,159,85,0.5345911949685535,1.0
+eNeural-Qwen3.8-27B-fast,53,159,78,0.49056603773584906,0.9176470588235294
+rdtand-Qwen3.8-27B-PrismaAQUA-5.5bit-vllm,53,159,82,0.5157232704402516,0.9647058823529412

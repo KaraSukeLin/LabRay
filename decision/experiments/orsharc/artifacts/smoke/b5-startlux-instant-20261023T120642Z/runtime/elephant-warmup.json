@@ -1,0 +1,27 @@
+{
+  "sample_id": "73f6255a66ab43c03cb0fefe77e7131fce0925a4",
+  "wall_seconds": 0.12688468024134636,
+  "answers": {
+    "decision": {
+      "Yes": 0.000648,
+      "No": 0.990514,
+      "Inquire": 0.008838
+    }
+  },
+  "native": {
+    "decision": {
+      "type": "choice",
+      "choice": "No",
+      "probabilities": {
+        "Yes": 0.000648,
+        "No": 0.990514,
+        "Inquire": 0.008838
+      },
+      "confidence": 0.985772
+    }
+  },
+  "usage": {
+    "input_tokens": 216,
+    "output_tokens": 1
+  }
+}

@@ -1,0 +1,185 @@
+{
+  "id": "4981185d-a804-424c-b66b-1b8ac5c620ac",
+  "task_name": "terminal-bench/filter-js-from-html",
+  "trial_name": "trial",
+  "trial_uri": "file:///root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021_seed_20261022/trials/e43ac11f45dbf43bfff67d79/trial",
+  "task_id": {
+    "path": "/root/projects/quant/build/terminal_bench/sources/terminal-bench-2-1/tasks/filter-js-from-html"
+  },
+  "source": null,
+  "task_checksum": "ed037d7c41a92817e75d6a776fb2a669d1a50b19f77d37df8c049951ba75993e",
+  "config": {
+    "task": {
+      "path": "/root/projects/quant/build/terminal_bench/sources/terminal-bench-2-1/tasks/filter-js-from-html",
+      "git_url": null,
+      "git_commit_id": null,
+      "name": null,
+      "ref": null,
+      "overwrite": false,
+      "download_dir": null,
+      "source": null
+    },
+    "trial_name": "trial",
+    "trials_dir": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021_seed_20261022/trials/e43ac11f45dbf43bfff67d79",
+    "install_only": false,
+    "timeout_multiplier": 1.0,
+    "agent_timeout_multiplier": null,
+    "verifier_timeout_multiplier": null,
+    "agent_setup_timeout_multiplier": null,
+    "environment_build_timeout_multiplier": null,
+    "agent": {
+      "name": "terminus-2",
+      "import_path": null,
+      "model_name": "hosted_vllm/Qwen-Qwen3.8-27B",
+      "model_base_url": null,
+      "model_api_key_name": null,
+      "model_api_format": null,
+      "skip_model_parsing": false,
+      "n_concurrent": null,
+      "concurrency_group": null,
+      "skills": [],
+      "override_timeout_sec": null,
+      "override_setup_timeout_sec": null,
+      "max_timeout_sec": null,
+      "resume_trajectory": false,
+      "load_trajectory": null,
+      "extra_allowed_hosts": [],
+      "kwargs": {
+        "api_base": "http://127.0.0.1:18104/v1",
+        "temperature": 1.0,
+        "reasoning_effort": "low",
+        "interleaved_thinking": false,
+        "enable_summarize": true,
+        "proactive_summarization_threshold": 8000,
+        "collect_rollout_details": true,
+        "store_all_messages": true,
+        "session_id_headers": [
+          "X-Terminal-Trial"
+        ],
+        "model_info": {
+          "max_input_tokens": 131072,
+          "max_output_tokens": 131072,
+          "input_cost_per_token": 0.0,
+          "output_cost_per_token": 0.0,
+          "litellm_provider": "hosted_vllm",
+          "supports_reasoning": true
+        },
+        "llm_kwargs": {
+          "api_key": "local-only"
+        },
+        "llm_call_kwargs": {
+          "temperature": 1.0,
+          "top_p": 0.95,
+          "presence_penalty": 0.0,
+          "max_tokens": 131072,
+          "seed": 20261022,
+          "extra_body": {
+            "top_k": 20,
+            "min_p": 0.0,
+            "repetition_penalty": 1.0,
+            "chat_template_kwargs": {
+              "enable_thinking": true,
+              "reasoning_effort": "low",
+              "preserve_thinking": true
+            },
+            "return_token_ids": true
+          },
+          "extra_headers": {
+            "X-Terminal-Identity": "formal/Qwen-Qwen3.8-27B/filter-js-from-html/e43ac11f45dbf43bfff67d79"
+          }
+        }
+      },
+      "mcp_servers": []
+    },
+    "user_agent": null,
+    "environment": {
+      "type": null,
+      "import_path": "terminal_proot:PRootEnvironment",
+      "force_build": false,
+      "delete": true,
+      "stream": false,
+      "cpu_enforcement_policy": "auto",
+      "memory_enforcement_policy": "auto",
+      "override_cpus": null,
+      "override_memory_mb": null,
+      "override_storage_mb": null,
+      "override_gpus": null,
+      "override_tpu": null,
+      "mounts": null,
+      "extra_docker_compose": [],
+      "kwargs": {},
+      "extra_allowed_hosts": []
+    },
+    "verifier": {
+      "override_timeout_sec": null,
+      "max_timeout_sec": null,
+      "disable": false
+    },
+    "artifacts": [],
+    "extra_instruction_paths": [],
+    "extra_instructions": [],
+    "job_id": null,
+    "source_trial": null
+  },
+  "agent_info": {
+    "name": "terminus-2",
+    "version": "2.0.0",
+    "model_info": {
+      "name": "Qwen-Qwen3.8-27B",
+      "provider": "hosted_vllm"
+    }
+  },
+  "agent_result": {
+    "n_input_tokens": 48734,
+    "n_cache_tokens": 0,
+    "n_output_tokens": 13982,
+    "cost_usd": null,
+    "model_usage": {
+      "Qwen-Qwen3.8-27B": {
+        "n_input_tokens": 48734,
+        "n_cache_tokens": 0,
+        "n_output_tokens": 13982,
+        "cost_usd": null
+      }
+    },
+    "metadata": {
+      "n_episodes": 7,
+      "api_request_times_msec": [
+        31848.906993865967,
+        93131.17265701294,
+        49288.58280181885,
+        58265.13743400574,
+        15623.134136199951,
+        11982.208728790283,
+        9753.324270248413
+      ],
+      "summarization_count": 0
+    }
+  },
+  "verifier_result": {
+    "rewards": {
+      "reward": 1.0
+    }
+  },
+  "verifier_environment_mode": "shared",
+  "exception_info": null,
+  "started_at": "2026-10-22T21:37:35.682178Z",
+  "finished_at": "2026-10-22T21:53:49.008845Z",
+  "environment_setup": {
+    "started_at": "2026-10-22T21:37:35.684962Z",
+    "finished_at": "2026-10-22T21:37:53.381904Z"
+  },
+  "agent_setup": {
+    "started_at": "2026-10-22T21:37:53.381998Z",
+    "finished_at": "2026-10-22T21:38:03.590150Z"
+  },
+  "agent_execution": {
+    "started_at": "2026-10-22T21:38:03.590562Z",
+    "finished_at": "2026-10-22T21:42:49.955280Z"
+  },
+  "verifier": {
+    "started_at": "2026-10-22T21:42:49.996426Z",
+    "finished_at": "2026-10-22T21:53:48.666563Z"
+  },
+  "step_results": null
+}

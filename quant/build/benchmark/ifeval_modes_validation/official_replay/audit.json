@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "official_cli_responses": 60,
+  "parser_replays": 60,
+  "engine_sampling_matches": 60,
+  "prompt_tokens_identical_across_models_and_seeds": true,
+  "google_revision": "3ef52111c1fabc301880818f5a547570e926a76b",
+  "inference_started": false
+}

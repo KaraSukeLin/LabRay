@@ -1,0 +1,9 @@
+{
+  "models": 9,
+  "cases_per_model": 40,
+  "total_model_question_cases": 360,
+  "all_exit_codes_zero": true,
+  "eight_k_stage_started": false,
+  "final_report_started": false,
+  "pause_requested_by_user": true
+}

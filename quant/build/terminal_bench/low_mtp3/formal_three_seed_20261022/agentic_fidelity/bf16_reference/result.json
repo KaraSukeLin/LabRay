@@ -1,0 +1,3779 @@
+{
+  "model": "Qwen-Qwen3.8-27B",
+  "model_path": "/root/model/Qwen-Qwen3.8-27B",
+  "status": "ok",
+  "environment": {
+    "vllm": "0.31.0+cu129",
+    "torch": "2.13.0+cu129",
+    "transformers": "5.17.0",
+    "compressed-tensors": "0.17.0"
+  },
+  "gpu": "NVIDIA H100 80GB HBM3",
+  "cuda": "12.9",
+  "mtp": false,
+  "kv_cache_dtype": "bfloat16",
+  "quant_method": "none",
+  "loaded": true,
+  "logprob_format": "dense",
+  "tokens_sha256": "9d4ac6c4c3e588b922d01de81e87006935b107fddda8abaa45f36a0820b38ea4",
+  "source_sha256": "90fcfa567abee03b3af1c90f6f1afcab5e0bccfa5ed3d09f14ca61198a2eb0dd",
+  "v2_model_runner": "1",
+  "tokens": 7488,
+  "ppl": 1.2206961451589506,
+  "reference_ppl": 1.2206961451589506,
+  "ppl_delta": 0.0,
+  "kl_bf16_to_candidate": 0.0,
+  "top1_flip_rate": 0.0,
+  "vocab_size": 248320,
+  "distribution_sha256": [
+    "70d21869fa6d3e7ca6a7cca5b0730560b0ff9372b036c408463f226c182353ce",
+    "0d0461e698c2024bf78ea46258e4d805e9b2daed744c23159a4c1fe3e62d507e",
+    "086c1bb1082862ba29f71387e91dacdbbb1e815fcd57f24b9025ed7acd8f2271",
+    "f48fd6492b5841ddce65209c45739cb56c0e6f73f1f5be182fd1586e5599b6db",
+    "8e0cd1e295165e476478f9ebf977232ab2d38673f217053be69529d3e7ae1a97",
+    "364400a94add26fec497ad9435d31126bdcc653884f656e9e0e51bbc00052000",
+    "d5495a520045ed74e2e1b5782dff26f7805ebbfdd68880fe781fcb8431b7dbe9",
+    "ebfd87903699ce5ce97458a4dcb36d142d73b7aa0155d76b98b10cdbb904b15e",
+    "5c7753d6f811c416f955f095d0f350dd0e8842a07436e2091fc7f2ba6a022a97",
+    "4b39f40128bc22b43ad5fa81c689c9c6b2831b596533ec94ff1b224c8b0ac22d",
+    "66abc3f0cd1a76ee25fdfa6744d211516e43c2f7bb443facfcbf6d3b19e7a41d",
+    "1e5b420cd1de4a3ae72d734e744d96e38be88924a4b781a89847b0eaa9e2f64d",
+    "32b091fe3242bd184e81f10bbd9e2492e5368bb28f16f91176e964ab33a34d99",
+    "670cc354849515482366fbef80f6e9308feb3be0c3810a2908b29610542b193a",
+    "48746f198a6bb5c8ca35dcd7d3f5bc740082261c00b54479abae6d5bb47c6d5e",
+    "80322d1a5de37c7d6d0671a7a52e6ecd274fd684e4c0021b224cfdd27d23a33b",
+    "6aa5ff76621a05184c5e0b089774cd5bba98943c35527d5ba5ef70e8879f2e64",
+    "15291c2a7a1b0082958590ca4e21670d19c95c805c2b326adf0ccdea31df9095",
+    "cd34b13854d4e22273af587c2e511816bd13b7ad67295a3dda1d7597c83dea87",
+    "e04fd41cc4f5c1c3ba06ff7597cea30ce3a3ab8199d204faf74925eb08532d9b",
+    "3a917d24e4d9d8256d548b56594e8ff11d8df94d64ea87bc184499d2d7e65cb0",
+    "c04fbb5e376dcf33f178fec616d17e5396ca9dd4c60d162d1b972e0321e7991f",
+    "8cf47e5a2762bf501b49c4620b8267b1d4b54e0b834608dfb35dd344ffaa925d",
+    "65cd19833b2628676f26a19687babd977e4f6e55810ee7f63c818ea2eb8bd2c9",
+    "8d5db5e531486df51e95c2b5e4fb7bd7c94ae858a00c8b59a4f2e29ff2fdd5d5",
+    "956092e4bca45b582c22c397b00e7b8c75823250f0156f5039bbb4ed9697237a",
+    "a6902862a75ae8f4b91d1d086da3a0f2047f448d40b59adcc77f30acb7e12ca1",
+    "5bfb1c4e841e4ffaa9b9ffa53ffa4d4ab240a1b29045830bf1d0497f9599df2e",
+    "ea7901d0a6e72d0394124e5b0cbb1fab5d7163d62da3fa6e34df010ff92cf6c3",
+    "adf5a3a0d34b56a4eae0eb93d539c3d36c13eb30b5169d4ab3442ae62bb25176",
+    "aef087439229838f095f77bb27acdb09f4e38302d0eab9d2a23c6cc1a1a9b069",
+    "8932c5395404a3db048ef212374c444c85bbd713fdb7af375195d53f7224177e",
+    "f483c1de57873b923b166bb7f6b847af4738152b574d8959c3eae952cd55735c",
+    "6efe6a62e5aaac690b1b429a743760aed55874d29595fb6b76d526982980db5d",
+    "6f22f9cd6261e06391050a2ea2e9a13b641704b4f2036414c9538c8dc6d28345",
+    "e1c6d4562aa15a198d667e1509796663e8d1c25dd23381e821730c744dd9fc18",
+    "7b1cf538678d9724444be6819443b04234163a0a60aff4b5b6cb79eb3a939f02",
+    "bc08153ee3b43af0b0c4f06440c499fbfe0de002be3a09d063faa9d7f8f28236",
+    "b45caac33fd8025b0ac10fc27660e65e8798ed2bbd331f71e78ad6f26032ed88",
+    "0401660872366422aa491911f8fc5b8da70de51cf96d2016a8519fee76e0be09",
+    "e1b9b72115c167abf2e50a4798a63a8f801dfafc3a70c08168648e167f66e6a5",
+    "559b1ebb53ecabbaf1697b280ff5dab032e93bb79d95e6b30e7068b5a03242db",
+    "56afcd53eb5e86124e037e7cd0dcc23f5fb2425d9bf8215e608cd5c18a421b17",
+    "0b3963f698943ee85e41de8e13db32f8628f868540294f9f6bcdde33311d8f7f",
+    "504a3611cfcce3e14e110bdfed7c542ebb0f4f2e9fbfd1d31e2177293274e232",
+    "4db81a71826be95383e2c93cfaf2fb7516fba697862c569db4533137e702e336",
+    "a2f4a2eed4b871b1ec78da74b7a099c559926beaaa4d45d06a039e08c6e0f387",
+    "5be70ab6cafa66af8ee0981208d60be933cde736e34906b6bf6afe8c0df957f1",
+    "c4283da183c7cae5aaf52c3e17cf7537783262628562be4191add8c171372fed",
+    "95d25e1f0fc5d7fd2dc4bf0213e3400885262ad3bee39c84212ca05f0c78e18c",
+    "fce3385a3add2a4c5281a09fe97fb1bf909ed521221ab49b0d228353e0f97a3b",
+    "6de20193eeecc43ec106947a92cecd1d78ca49e995fddc799a262d3497934d5f",
+    "5aae5a0471588f975e98bca64162e2503c58c2fef129d3ae0d090e72cf6d612d",
+    "7ba0d3c0f8adece9a56692039e1caf542a5a58b7f854c1e414c7944683e4e2bb",
+    "a3453e867ff59854cd52525a1a8f5180e943e39716da7a42c1110ec426ea0007",
+    "b294f7326949f906b49339b3f06fa6d403b5802f8a100c5343b57006b3f4c056",
+    "5c0fd98cf51f93be2b0aaea7ad17edd7b9e6f118e8c9445afc786275c422f9b8",
+    "b6863704b0cf807a7c2f1dae7a5c939a8369cc0306dd2cc2756d0105f6b92cfb",
+    "02b55a77928c120fa195836b8ee7e50c0ca40162e69710cdf6e8a445c90ca889",
+    "c0b81cf44d89f19cbe6d715ba0df363edbd274b2351be375e6a80a5e73d06d11",
+    "62dced11b24c4490acd142e60bf87090cb2fe0b18ac271ee46dcfcf0fb81b4c2",
+    "748e6ce23b1b51064ea741e9b3f1ee6a7f715068824063fc439639f00225ec44",
+    "8795fee9bbd192ab423709c70db38d4bbd960525b2922a4d0f1eab8c4cf0d872",
+    "21b25510df7ea30f1374a4b03c6fd914f36f1a27625666e5115d08dfae5cc896",
+    "d53bfa8d74f62784baeee4fbed9209510ed2cb75109d21c4da3efa58f6ee0988",
+    "0560175ab04295b139a68705df1fd7c6de88670f1c633a80912f79e525f35cb7",
+    "2bccef7f110e9ec9a57aa5dcfb90917710a1296d050829e161faa89d25c92547",
+    "1d5795a0dcab708a7190c7b3b4c2e09852524d2432a2557e6d7b159592d54a6e",
+    "e295caed77996c30e57b62c68ad02d8bdacddcb832ce8bf8f56ed7b0d61ad608",
+    "b54888c7946916e93f8fbe3cc31f0eaa33b17b13f9a2eebbb069e41f5952e1d0",
+    "8af5d9c16be3e5e450886710cf1728c3153ad59e8c852cdf5182b4dd69d22210",
+    "4c20ba1a870e8a551f5aef22b1e84718821cfbeb639c1499520e7dcb82d2d36b",
+    "77cd7f1a5f064b80e9fa167a074c0eccb507e23d766f21947616df4b3925490d",
+    "26ef5f8e7f372a1cf7be11efe7541e92ebf9f96c3505659f07ce54e7b2d418e4",
+    "290f98a8143ab1ce301c3b6f623edec837edf74a0bfe5fe1e2052ef3456fc1a8",
+    "b67ca7600a8851172fd982a6f7f4281461f994848c482f5bce7591c2a50be105",
+    "270f66e10f569f60a850bd5381300fe653b2eedb8ce50a95582147da5a475a56",
+    "dbe635d79549326306da2f836f9fb1e73c49856bda372ecc5b3d228a2c34ffbc",
+    "e6a41d817ddd71df536c994df916a9a6a5e84f1a825e02664d1c4b05615ed8fa",
+    "dfbe88c2d552e3322f4393b33953636269a349e6d7219e4ad4c194d96d495bab",
+    "4775b1867f96f57bd122cdb53bf035eb40318d19a2c47be0964490eeef5c7335",
+    "ee89250a3f3b6b2597e0b42ccea01c8b5b5d74e76a792b51dc8fb7601561308a",
+    "0ce18efd65ab9c94f6d0c1a67448f91ad848695f4c7d323da308a2d4bd547c52",
+    "65cfa1f5807d900143eeb653b95a84e4876b777a1de524c94893e9049410fe9d",
+    "e5654b4d8c1320ff1467521c719e4ade79aa14367f25e5c88b79136165e60a0e",
+    "817269bd130b22a2376d9e4d67d474dd515c8f6e0d6b9ed60552428e7f215334",
+    "dcd6b8373511636469ecb2bdf8bc4af3e4e36e7caabd97db3865ecc8e10f1670",
+    "2adff5e31f273ab1d82e6525ecb034e3d0648fcd1f931500a552ec95b6a20850",
+    "752de57e4827812ad6da723510a056e8e86b7ca3e5308b99ce0a1104fb9cb3b9",
+    "aa479bef222275b244349ed8685a54084ecb090124a6f5acfeb83b728c3da9d6",
+    "036e676ce6ac350594efe9165e6df6eccd1fbacc52331133bd272ced5c31bed9",
+    "92526c4dcdc85d8c0b0b6e568f6dcd6ae242b4ac10259c5291b431067b7ddc6c",
+    "c18e584e2ec1dd793e84671fa6ff15d5eb79a6c944b6aedf03b6d2b6708dd442",
+    "1de5deab283b55b882cc27625bd55c54a949822849ce7374476548360df24a47",
+    "ccb12e2079d9a8a3c341262c4e12c6060d22ef25f72c41aa57afababd92ea32d",
+    "292779b9d7142ee64ba2fd5e0e968c3880e11b0d9a82060466fcfbe57ce7c860",
+    "1d1943b98e7bb9372249240f941f8d697ed5381d4f078139efa93a5143d695b1",
+    "6ac0cd941f6474ebd2a0a7412022b54e6feddd523ee817172218ac863652d5ea",
+    "411d3c68e73d6ebcf74a6dcf267153090f20c4321c8f7cbe7e7db73f07c6459d",
+    "f503d0109b8a0f514e6a69ca6da4d30f2f7e1e25bc765bc3760f219674eb3a55",
+    "eaee6b3d1d5abb0ea4738c5fdfbfc8302edbfc8fb7cace64f4b8d806c37c8036",
+    "4a614e9f9453a71368d4fd936db232df508deb9775f9945832d9f73593e01745",
+    "3a94e537fa85bff443c62083d696bbbd5061b508c00e90e85fb9f2e85b904674",
+    "6b8bcf03ad25a6a44ee1e3b0d805eef803e790cfae6a67e04a9bc84f01e4b46e",
+    "f70b37d8d04ed0f03406a8313903064594d662246ba03d5dea925bce3ccf1db0",
+    "1ad24753922e21b9862c6871a45e4a72c6bf848475e8ab69b5fad03b689c2cc1",
+    "4ab0d1e2d61fe75f364e8054f35af2866cf7028bfa67c0363dd5f0ec84ebf937",
+    "bd9ff3a503fc850653e3136448da6beac949c1af68b08be14b91d1f32725503c",
+    "961266dd2cef765cc58ce16d93aaa7d3c1a9291bb352e5522cd376c14e296a8c",
+    "1f5b241ee159d7e59a174976b71b6b93262eb8d0fa2204e89c008d101cabced2",
+    "c63f4b50616ef27ef910baf4ef586280ccd42de3175316aba9bca5acbb421b87",
+    "592ad23645329eb803dedd4469998d0fcb839b5bc1c6387be20ee31607c23a3f",
+    "cbd4c62b2cf7f18b53416de922ceb48ee1f782bb6a55b1bab0fb314e22fb015f",
+    "836c8842d55b230bef07c99d56d99fdd73b7dd40858b46036c5ec25f7fbc9a19",
+    "def25ae3eba5b2b2037eac6174fae16a56c0eb6f46f7eb4edf193b95c1cf4095",
+    "ab1c5b1ef8f39b8f22b6d7c16f617d8c54a5b05f23910358d67ddc696ad39fb1",
+    "c764ba8e44306cad5fd68193e2ad90b7f942d99f4813bd7043d5297ccaa18d75",
+    "eb7e0534b7eb5df8942057daf3eeb4e06a813b402ed859a850a4594dff46953e",
+    "a4446f05e9b1f596c8ef2928087a4b5d5f2fbd2ea6773c3bd3f633742749c36f",
+    "4bccb722a2b5a774db826911959e192106eee3ebc20f438d31140e5b7d9d4b3e",
+    "d23c0ab35b467141b8a7ae061793c329587505d0dfa43c3d40be233bb5faed00",
+    "da89d470f2303ef6d191786172e53b7e939c29eaa60e8cc4e804052461d0d752",
+    "e964e97c18efde72be41037d42af0093edcc9e9a640c7c0780f990145b287f2c",
+    "a9533a5dd5b983c62cf9cebce039495315cd4327ce34dd5e69e7ab27c1e685de",
+    "0f0be2de91387a96053eef3db9f48ed8eb0d82a3f3ca91b51da2924254780c63",
+    "d44491e919c756403edba6e9e6db9e0e79fef73cb9aa58ddf4918c7605146157",
+    "89e250f7a234ba23ba06d7535627b75dfb0e8c40ea2431f1806f5cd79b8c7a3b",
+    "db7b0ea925d2cd0e04b26f7f1cf616c0c5a38257bc792e869e762f40945ec718",
+    "9494294b8259c5e06be7b42602fdedd96f43b2dd75f37d059bf8a14c01529a76",
+    "f190542c4b81c843819b41e132623cacb7d79228e34dfefaea5435a48e783a9b",
+    "012a3b73599d11985b0b28bcdfe51340fcf85140fdad7dab969f0abdb59eae64",
+    "a5e91134353940c89499c08f1edf246f265f786731cfaecbc7e961aba548fbca",
+    "8d1ca1c81c3a3d9639cc5ef6bcb140e6ed54b2f009f5214ada013edbccc45b39",
+    "c52284a0ea5d507df0d71aa466941d9ae48864b0923bf774998b08006ecfbee2",
+    "1855afefcef5c70ce5f68ea9289cd189210f9597dcdc445231227ecdfb6973a8",
+    "aff5d45f24f026ac542174af7b1b7a718c0d68e39207c378511aa634f0b864c6",
+    "135c44d441c9409f0c0854828368e477a48788e01068bd07375a58bb3ae170a8",
+    "a4eb29f454cc1a1d803ccb0a0e3a316f8640dc82dc6889b9a10e59aee7e24b2a",
+    "8515a292e5d97fba0632107450a4008cefee9c7bc1769e803b27e966401b2600",
+    "2b7c4471f9417f8901c1465fce5908cf7c8975117de063e76ce44e945a98be29",
+    "9c377e6aeefd8854b82e8b480fa0ffb8dbc3d71adb0237e4ac3e7eae9773002e",
+    "0f67e9f84b4cca32a5a022b3d72c83c8b3533c67f5a428778ca315908b0476ea",
+    "6dda3743f90aa9a130062f4a60ec2a79ca64b6a4fc8415f97453296cfff946f1",
+    "68ab055ddfa2d5f15f92061eb7f4575eecf7f125312f8f9b0edb03fe8d067c91",
+    "7d0d0ea63215eed40473ef4aebc590e04ec2e449a1064105be772d9bbbe9a03d",
+    "e5c6e4264bab3fbc99f6e68099de06750513383c4ef0faf9d60dbf790470d0b6",
+    "fb39b529bf7a13844f60e6fcbe3142ad2f686fe8d0dd95b21243540a2eccf89b",
+    "44e4d34629fe6e60f6b919492da7d37de1f0c171bb71ba0ab8fe9f6bb0d1a318",
+    "3403944412c5bea9d1b8651dec63e9dc03ac2704e3ec30bb2599831fe4dd1674",
+    "cf5e82d187e57341835028cde71752e238395568e8b600ec540af7b8e4b419a5",
+    "ff29f1890261e3fca4a60cdb3e1a1e7e6dc4d49b52d1183363e333d63a1ea040",
+    "708e9c114df0f42689641839484de29c345656f736e56919bbe1b850a6caad58",
+    "7416d5a034f0528e16df027aaeec37134b9f6d3dd83c04c34f56019f608b4211",
+    "b0723685a500c5d87e6df7ecb00a7a7416128e3b49b26817519df7990960a00a",
+    "e17d47510bd87110eea67b76a935af5488b8d68332645e96ca205aa7fa2bc1c7",
+    "10f6dbc24e2d563827776f5bebd86190215e988bbcbd0cea3f06634b71ba248e",
+    "a3cc3b05eed3bbddedbb5a2d6d0282d557bcfbf7fe2d28989ad68b2978352f76",
+    "e07aeb81247565116f79a80f936ba099dc3148b491d6e840697768c914240a7d",
+    "8d4b29ffa6b0ec4556676d27d34153d3927975fd1fedb2491dcb5f2fb3b44a2c",
+    "987e57429783b06ddafa48f7cd56c842ebe7ff23ad0095a716ecd1464ee3c06a",
+    "e18a3df88205e69864d69b585878feae2d690de570d886dff47bcac7bc3b0fc0",
+    "727d3c841281dcfeb6d346851c6f65c26fad230240da64d39c6cb4331e41d076",
+    "0e2db8d289caafe745d3f7a3f95f892b9bb19360fb2f374533a492bc598ee769",
+    "881e262fed889b821dda43058e5e3bae817163536c0bf2f37e7e3b4dd6065391",
+    "6c74a7df319d40049f0dc89b331b2b1ea6efa6b195430daa7d93cc593835f496",
+    "21a42533b9124589adbda8038ba9bc87c0118f9a344c0e37efcf042078bcdb27",
+    "f631390a1ece0232c7ab70a1ee313f0cfc3fdc758e122d33f5d437681679e36d",
+    "31a6061b67c7d95fb354f29b38158c18f341c97d93abd04625f1b65eab116139",
+    "0d2243fa16f0784660c4aac19f710971036d6dd7de126e9a7e5d3eb3f4b7de07",
+    "6dc1b2d35882130490e42824480d48529584a0017a0628bcd21dbcc4dec1b8eb",
+    "7fcec29137a882d94e5db26868205e188bf6cbbc8401dff208ad07402107e7fe",
+    "5a5f8606571ceff6ccc36c4f6d090252c0d6e081c9792516f1af3af9cc65d4ad",
+    "145688d879c300285d875e4b14355fc2a336b0997a3ed6e1b0899fbca26126b3",
+    "abd3399585b779af136475a6dd5298f9f8bb843c94434f30561b442df07374cf",
+    "7b8fcb5d7a1fce44a31e0360a172cbf5ecf60ada6c6298fb36241341de4ccf00",
+    "322cc1949869908fc2999c080e8c01c366ba38f9af001fe9bc9bab4af4fe08ce",
+    "b014deabdf3211790a28f209bd5945b1a0f0640e8468bfef88df20b5de8ff351",
+    "a86abd874bb8a2f9ac7a6e637aa1cdb3bd30ac5ae44f59f6bb54bd6a38330e84",
+    "dc304b5c289f35e295bdf5964a266cdd369ffc5da8f02d655ff8ff597989df88",
+    "f368eea54755b05e1b7ae3c6f5299058f49eafeacf99f1b6f52bd6171a5b82a7",
+    "670065103959cc19e320d6a4a9a1a8ead34cabbacb2a11be979afc096dba5bfd",
+    "d30841871ab624a95dfb9f2f0e7e4e53611d12e771b4be4de184fdf4b43a3a80",
+    "1fb2cac834d306118d468666896485b7da3f43b7bd8767592ded541279308c99",
+    "d9faa17b667374df93b1578453316e2c74c7978f1ffe8bafbe13e96217960626",
+    "f2e9af2f67affdc8c85dfad67577a52653061153af6c5a5c6a8099cfa5034048",
+    "419c3c5e259d48409c50650342bfc5aa237b88b8171d04e4bbde83996873df48",
+    "4e6fccddaa19cf72974cfc436bb336c8b3c78f84c69eded1ceabd3de335e19e8",
+    "ece764c2e16214c7f26624c46a1c11eabac3b7623bc0ac0d84a99fb0e2857b3a",
+    "c581c66fa95360c3dc1e173bc27b60470ad320d070d9d1e6d6bac20717a50452",
+    "24a7dbc805d9d57f7677fb2ab62a7c5e811c55673c7bac86b0ad64d96f3f6bb6",
+    "19497e5e7934d86514439afad540d88f53b8df1adbac965e05767a406e41124f",
+    "abf5d0661ea085cddccb8fa5892d2718e64cc1b9904e87d0409134505f706268",
+    "e319cd63d2ac08fc5c202239157c1ace8d3b2ab6a3e075bebb6ce5404be1ed4e",
+    "8cacf94a81dd816e7b264eeb2022119d2e58548a332bf8fd08976c65eb5144eb",
+    "f7814092cca9edf2b5ac39de82cc0c81cc5e3f990d5c06bcaf4ce911a1912c0c",
+    "992425a05d325b641653e29649c78d3f96624dc1bf27c0810e8428cbff031a65",
+    "4ea6e58106d79bb82ed53d507ccc37d455debc32d7561cbdba7e31dddba9b062",
+    "102af47399f8f329bc6a6b1905586347ec9437edb5ce32dee6cd1b2e3e6ef329",
+    "cce5ad2c330d32abc68adfd0c6d9666806a9cd8af20189253bf54854a5eb5e08",
+    "b11345c5f3a38e17e7093b3f86aee6ed4cc52c27d8424edbec3036b20a92cb5b",
+    "288e9d9967a99f1d56d2a9c2c887b173147b635aab5ef9d72db832d039b8afd5",
+    "ce5375d52631745b46cee2cde30272bcd137adabfc19253cda6000ef1b698760",
+    "a87c83da8a95cca376040b746fa70e4bd0c53450816a183af70867026bf68f29",
+    "66a7edcd7d5da6437dc762f6d5de62887c17605bdef8c10daa32b8443c13db14",
+    "5092dd0f69873b24bb869d1824d7cd77d83c9e6fd8d473bac662aa4162c42118",
+    "f365ad0c011ea654c06bdf92f035f42f5fc7143e33a4088b99f925cdc675237d",
+    "b8cb9a974498d5f43d478fe60e9dd3cc06a50a5b1ad5234d9f6653eab21021f7",
+    "cd1a9c0a574004a265ad2b6e09edd50705256e8ba2b030dd15b19af1ce4c2482",
+    "464970c329f54a9c7b1013a33ed7214c82c18aff57b5a56ee853affd88593e42",
+    "44ceb944d6f8f560672820497d88c7d8d1c55d5a773d2556743df209031ef401",
+    "a5b348984d78a1468e701c8dd68d7507578b67c238107e61f73b9eda928bd779",
+    "f3e90e55917d6b57046c14d453441defd870a376e6e97fbcbcae25268bebac11",
+    "9694330700df5b0d64377620abe0a86382d4930aede6a0edafd176f4ea7bd6f4",
+    "0e2f3eaf4b381664c0004059e4389a75d689c7ecc479e39e73ac9f2113a8df85",
+    "132f55045e7438f8cdaa600c488bf764a3bba1888ed2033cdb873cb947a75a13",
+    "cc122f8766bf54ef6e2649a2bb9a32ed480d1756724d0f8eb43dafc29e4f1998",
+    "bd704173613e6bbbac484bfa9d03b013c0bad1325258e7e99072dbf492c58135",
+    "f7e9430f26ebd1a0cc9d85f1ab551b92cdb9b4bfb29d87ef87c65a35dff82f80",
+    "879a0f7aeb72c3a4a033673ef2aba255f3749a1ea00439512c4ca0872db63cdf",
+    "f879e6f22f2b492004ed2bbd7575b4ff55f86ab2247de3a6933faacd680084aa",
+    "b6ed5da4b5476c2006809406ba09da5efe7f2254cc21d81775916e130a9c2dbe",
+    "5ebfa1bdea0bf3c83302c44c1223fcd0ac846326b7233c9cec171c92a9806b7a",
+    "8aa466ffe79554c193e7dfacb931f3026f589dd27a4c7c5275790187b0d2fe03",
+    "f18197ef74b02ad705c4e49a561fe57328c7a895c4da687dfab85ff2bae260bd",
+    "131b21485348d219e2f5ff4d5be500f42a15681b3c649e32b5c739374398024e",
+    "fc480f3489cdbc3b0110488c83be93cc766aa599181e467a55bc0a6079e7397f",
+    "dd2c8a066f6a593963dd096af9ad37c174c38bf7074fab4feadd083aa9502491",
+    "b5f53f99f3befbf94453243f685a608accd111cd0e8f627a7cfbcf0d74de8f9e",
+    "9cfe7577b8f1651207c36421a3b11405e6c9eb45c07ae0e2a50df4478e0f0227",
+    "b682f2dd35cb8750fdf40a4c6890d7e4064513199caedaed0df14b297332a927",
+    "ef77945f7b5ac9df1531f8e39421226b60d142ecbad7a686a8a48717457cdb16",
+    "11bf284d0d896123cd1b35d7a9022844bfa89063b8fd790ded1c1783e71e1329",
+    "0609bdadee3eb10b09d62e8bef5909940a1a79b1106e11777419fc72bb6decfe",
+    "775446ca12dc7f5b9a0af8f912d0eeed0c030531e8bcf363de0ac13373a1d453"
+  ],
+  "basic_inference_token_ids": [
+    [
+      5058
+    ],
+    [
+      8
+    ],
+    [
+      3165
+    ],
+    [
+      220
+    ],
+    [
+      1970
+    ],
+    [
+      13428
+    ],
+    [
+      198
+    ],
+    [
+      12083
+    ],
+    [
+      11
+    ],
+    [
+      92
+    ],
+    [
+      25
+    ],
+    [
+      748
+    ],
+    [
+      3418
+    ],
+    [
+      248069
+    ],
+    [
+      15
+    ],
+    [
+      443
+    ],
+    [
+      3889
+    ],
+    [
+      5008
+    ],
+    [
+      30252
+    ],
+    [
+      15
+    ],
+    [
+      34643
+    ],
+    [
+      64
+    ],
+    [
+      20
+    ],
+    [
+      16
+    ],
+    [
+      12
+    ],
+    [
+      11286
+    ],
+    [
+      28021
+    ],
+    [
+      5869
+    ],
+    [
+      1698
+    ],
+    [
+      77
+    ],
+    [
+      5365
+    ],
+    [
+      7145
+    ],
+    [
+      63
+    ],
+    [
+      36066
+    ],
+    [
+      19
+    ],
+    [
+      763
+    ],
+    [
+      353
+    ],
+    [
+      17
+    ],
+    [
+      64915
+    ],
+    [
+      5372
+    ],
+    [
+      12
+    ],
+    [
+      15
+    ],
+    [
+      33761
+    ],
+    [
+      16
+    ],
+    [
+      20
+    ],
+    [
+      471
+    ],
+    [
+      766
+    ],
+    [
+      248069
+    ],
+    [
+      2167
+    ],
+    [
+      8533
+    ],
+    [
+      3312
+    ],
+    [
+      17
+    ],
+    [
+      1042
+    ],
+    [
+      60
+    ],
+    [
+      1
+    ],
+    [
+      70106
+    ],
+    [
+      728
+    ],
+    [
+      92
+    ],
+    [
+      5972
+    ],
+    [
+      13
+    ],
+    [
+      6108
+    ],
+    [
+      71093
+    ],
+    [
+      939
+    ],
+    [
+      9764
+    ],
+    [
+      77
+    ],
+    [
+      424
+    ],
+    [
+      248069
+    ],
+    [
+      11
+    ],
+    [
+      731
+    ],
+    [
+      279
+    ],
+    [
+      263
+    ],
+    [
+      15
+    ],
+    [
+      77
+    ],
+    [
+      4162
+    ],
+    [
+      310
+    ],
+    [
+      279
+    ],
+    [
+      1639
+    ],
+    [
+      487
+    ],
+    [
+      34
+    ],
+    [
+      248069
+    ],
+    [
+      2349
+    ],
+    [
+      1534
+    ],
+    [
+      50821
+    ],
+    [
+      248069
+    ],
+    [
+      21
+    ],
+    [
+      13
+    ],
+    [
+      248069
+    ],
+    [
+      21
+    ],
+    [
+      16
+    ],
+    [
+      32651
+    ],
+    [
+      279
+    ],
+    [
+      17
+    ],
+    [
+      487
+    ],
+    [
+      6747
+    ],
+    [
+      5099
+    ],
+    [
+      4290
+    ],
+    [
+      22
+    ],
+    [
+      553
+    ],
+    [
+      2400
+    ],
+    [
+      198
+    ],
+    [
+      487
+    ],
+    [
+      60607
+    ],
+    [
+      16
+    ],
+    [
+      86
+    ],
+    [
+      21555
+    ],
+    [
+      1088
+    ],
+    [
+      6558
+    ],
+    [
+      248069
+    ],
+    [
+      487
+    ],
+    [
+      1088
+    ],
+    [
+      1510
+    ],
+    [
+      24496
+    ],
+    [
+      77
+    ],
+    [
+      65
+    ],
+    [
+      17
+    ],
+    [
+      15
+    ],
+    [
+      471
+    ],
+    [
+      10713
+    ],
+    [
+      328
+    ],
+    [
+      6575
+    ],
+    [
+      15197
+    ],
+    [
+      58
+    ],
+    [
+      8
+    ],
+    [
+      2255
+    ],
+    [
+      77
+    ],
+    [
+      471
+    ],
+    [
+      279
+    ],
+    [
+      13
+    ],
+    [
+      6964
+    ],
+    [
+      12
+    ],
+    [
+      50821
+    ],
+    [
+      14
+    ],
+    [
+      94076
+    ],
+    [
+      51372
+    ],
+    [
+      17
+    ],
+    [
+      9764
+    ],
+    [
+      15
+    ],
+    [
+      279
+    ],
+    [
+      10813
+    ],
+    [
+      11
+    ],
+    [
+      1302
+    ],
+    [
+      81646
+    ],
+    [
+      248069
+    ],
+    [
+      364
+    ],
+    [
+      359
+    ],
+    [
+      1510
+    ],
+    [
+      264
+    ],
+    [
+      7658
+    ],
+    [
+      75340
+    ],
+    [
+      77
+    ],
+    [
+      189551
+    ],
+    [
+      1510
+    ],
+    [
+      35234
+    ],
+    [
+      1118
+    ],
+    [
+      70853
+    ],
+    [
+      11
+    ],
+    [
+      487
+    ],
+    [
+      295
+    ],
+    [
+      12654
+    ],
+    [
+      264
+    ],
+    [
+      262
+    ],
+    [
+      1228
+    ],
+    [
+      2
+    ],
+    [
+      381
+    ],
+    [
+      487
+    ],
+    [
+      283
+    ],
+    [
+      198
+    ],
+    [
+      318
+    ],
+    [
+      21555
+    ],
+    [
+      579
+    ],
+    [
+      22
+    ],
+    [
+      283
+    ],
+    [
+      77
+    ],
+    [
+      478
+    ],
+    [
+      6558
+    ],
+    [
+      17
+    ],
+    [
+      471
+    ],
+    [
+      11882
+    ],
+    [
+      4528
+    ],
+    [
+      7
+    ],
+    [
+      487
+    ],
+    [
+      220
+    ],
+    [
+      1608
+    ],
+    [
+      17
+    ],
+    [
+      1891
+    ],
+    [
+      3272
+    ],
+    [
+      22
+    ],
+    [
+      67
+    ],
+    [
+      5808
+    ],
+    [
+      15
+    ],
+    [
+      19130
+    ],
+    [
+      5375
+    ],
+    [
+      6
+    ],
+    [
+      837
+    ],
+    [
+      1
+    ],
+    [
+      76
+    ],
+    [
+      25
+    ],
+    [
+      22521
+    ],
+    [
+      55
+    ],
+    [
+      198
+    ],
+    [
+      1228
+    ],
+    [
+      561
+    ],
+    [
+      1228
+    ],
+    [
+      9016
+    ],
+    [
+      21555
+    ],
+    [
+      279
+    ],
+    [
+      20
+    ],
+    [
+      12
+    ],
+    [
+      306
+    ],
+    [
+      16
+    ],
+    [
+      369
+    ],
+    [
+      4706
+    ],
+    [
+      1302
+    ],
+    [
+      31114
+    ],
+    [
+      19
+    ],
+    [
+      29
+    ],
+    [
+      10383
+    ],
+    [
+      2610
+    ],
+    [
+      264
+    ],
+    [
+      2577
+    ],
+    [
+      13684
+    ],
+    [
+      13
+    ],
+    [
+      4434
+    ],
+    [
+      15
+    ],
+    [
+      1639
+    ],
+    [
+      67
+    ],
+    [
+      13
+    ],
+    [
+      5392
+    ],
+    [
+      4924
+    ],
+    [
+      11
+    ],
+    [
+      17
+    ],
+    [
+      506
+    ],
+    [
+      220
+    ],
+    [
+      411
+    ]
+  ],
+  "documents": [
+    {
+      "tokens": 32,
+      "nll": 10.04323717094271,
+      "ref_nll": 10.04323717094271,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "adaptive-rejection-sampler/0",
+      "document_id": "adaptive-rejection-sampler",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 1711
+    },
+    {
+      "tokens": 32,
+      "nll": 3.6952930196150646,
+      "ref_nll": 3.6952930196150646,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "adaptive-rejection-sampler/1",
+      "document_id": "adaptive-rejection-sampler",
+      "domain": "code",
+      "language": "agentic",
+      "context": 23063
+    },
+    {
+      "tokens": 32,
+      "nll": 10.043826230635943,
+      "ref_nll": 10.043826230635943,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "adaptive-rejection-sampler/2",
+      "document_id": "adaptive-rejection-sampler",
+      "domain": "after_tool",
+      "language": "agentic",
+      "context": 1606
+    },
+    {
+      "tokens": 32,
+      "nll": 2.9602107850213244,
+      "ref_nll": 2.9602107850213244,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "adaptive-rejection-sampler/3",
+      "document_id": "adaptive-rejection-sampler",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 19603
+    },
+    {
+      "tokens": 32,
+      "nll": 6.659780261288915,
+      "ref_nll": 6.659780261288915,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "cancel-async-tasks/0",
+      "document_id": "cancel-async-tasks",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 3386
+    },
+    {
+      "tokens": 32,
+      "nll": 3.506111169421878,
+      "ref_nll": 3.506111169421878,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "cancel-async-tasks/1",
+      "document_id": "cancel-async-tasks",
+      "domain": "code",
+      "language": "agentic",
+      "context": 2859
+    },
+    {
+      "tokens": 32,
+      "nll": 9.27610788728392,
+      "ref_nll": 9.27610788728392,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "cancel-async-tasks/2",
+      "document_id": "cancel-async-tasks",
+      "domain": "after_tool",
+      "language": "agentic",
+      "context": 3366
+    },
+    {
+      "tokens": 32,
+      "nll": 17.942557475050933,
+      "ref_nll": 17.942557475050933,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "cancel-async-tasks/3",
+      "document_id": "cancel-async-tasks",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 1923
+    },
+    {
+      "tokens": 32,
+      "nll": 20.436076211209183,
+      "ref_nll": 20.436076211209183,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "chess-best-move/0",
+      "document_id": "chess-best-move",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 1454
+    },
+    {
+      "tokens": 32,
+      "nll": 5.305609192330728,
+      "ref_nll": 5.305609192330728,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "chess-best-move/1",
+      "document_id": "chess-best-move",
+      "domain": "code",
+      "language": "agentic",
+      "context": 7114
+    },
+    {
+      "tokens": 32,
+      "nll": 12.630272739571978,
+      "ref_nll": 12.630272739571978,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "chess-best-move/2",
+      "document_id": "chess-best-move",
+      "domain": "after_tool",
+      "language": "agentic",
+      "context": 15650
+    },
+    {
+      "tokens": 32,
+      "nll": 2.1884192524876838,
+      "ref_nll": 2.1884192524876838,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "chess-best-move/3",
+      "document_id": "chess-best-move",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 22843
+    },
+    {
+      "tokens": 32,
+      "nll": 5.179775831624156,
+      "ref_nll": 5.179775831624156,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "circuit-fibsqrt/0",
+      "document_id": "circuit-fibsqrt",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 1123
+    },
+    {
+      "tokens": 32,
+      "nll": 5.839146532030959,
+      "ref_nll": 5.839146532030959,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "circuit-fibsqrt/1",
+      "document_id": "circuit-fibsqrt",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 1128
+    },
+    {
+      "tokens": 32,
+      "nll": 3.4376706818094647,
+      "ref_nll": 3.4376706818094647,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "circuit-fibsqrt/2",
+      "document_id": "circuit-fibsqrt",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 1080
+    },
+    {
+      "tokens": 32,
+      "nll": 3.474877562657298,
+      "ref_nll": 3.474877562657298,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "circuit-fibsqrt/3",
+      "document_id": "circuit-fibsqrt",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 1092
+    },
+    {
+      "tokens": 32,
+      "nll": 4.395178217889779,
+      "ref_nll": 4.395178217889779,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "cobol-modernization/0",
+      "document_id": "cobol-modernization",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 21664
+    },
+    {
+      "tokens": 32,
+      "nll": 7.4266004789623565,
+      "ref_nll": 7.4266004789623565,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "cobol-modernization/1",
+      "document_id": "cobol-modernization",
+      "domain": "terminal_command",
+      "language": "agentic",
+      "context": 19762
+    },
+    {
+      "tokens": 32,
+      "nll": 0.004668330854393332,
+      "ref_nll": 0.004668330854393332,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "cobol-modernization/2",
+      "document_id": "cobol-modernization",
+      "domain": "code",
+      "language": "agentic",
+      "context": 17101
+    },
+    {
+      "tokens": 32,
+      "nll": 8.832029506435504,
+      "ref_nll": 8.832029506435504,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "cobol-modernization/3",
+      "document_id": "cobol-modernization",
+      "domain": "after_tool",
+      "language": "agentic",
+      "context": 9361
+    },
+    {
+      "tokens": 32,
+      "nll": 5.397175549545182,
+      "ref_nll": 5.397175549545182,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "code-from-image/0",
+      "document_id": "code-from-image",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 2885
+    },
+    {
+      "tokens": 32,
+      "nll": 1.8759289006916902,
+      "ref_nll": 1.8759289006916902,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "code-from-image/1",
+      "document_id": "code-from-image",
+      "domain": "terminal_command",
+      "language": "agentic",
+      "context": 4345
+    },
+    {
+      "tokens": 32,
+      "nll": 6.097599948311995,
+      "ref_nll": 6.097599948311995,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "code-from-image/2",
+      "document_id": "code-from-image",
+      "domain": "code",
+      "language": "agentic",
+      "context": 3710
+    },
+    {
+      "tokens": 32,
+      "nll": 3.5386264157200316,
+      "ref_nll": 3.5386264157200316,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "code-from-image/3",
+      "document_id": "code-from-image",
+      "domain": "after_tool",
+      "language": "agentic",
+      "context": 4073
+    },
+    {
+      "tokens": 32,
+      "nll": 0.013840300694937469,
+      "ref_nll": 0.013840300694937469,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "constraints-scheduling/0",
+      "document_id": "constraints-scheduling",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 4587
+    },
+    {
+      "tokens": 32,
+      "nll": 2.4281021217953622,
+      "ref_nll": 2.4281021217953622,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "constraints-scheduling/1",
+      "document_id": "constraints-scheduling",
+      "domain": "terminal_command",
+      "language": "agentic",
+      "context": 6726
+    },
+    {
+      "tokens": 32,
+      "nll": 1.8095016478762105,
+      "ref_nll": 1.8095016478762105,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "constraints-scheduling/2",
+      "document_id": "constraints-scheduling",
+      "domain": "code",
+      "language": "agentic",
+      "context": 6061
+    },
+    {
+      "tokens": 32,
+      "nll": 5.8565444364162005,
+      "ref_nll": 5.8565444364162005,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "constraints-scheduling/3",
+      "document_id": "constraints-scheduling",
+      "domain": "after_tool",
+      "language": "agentic",
+      "context": 5987
+    },
+    {
+      "tokens": 32,
+      "nll": 5.858920813994104,
+      "ref_nll": 5.858920813994104,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "count-dataset-tokens/0",
+      "document_id": "count-dataset-tokens",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 1870
+    },
+    {
+      "tokens": 32,
+      "nll": 3.2812883179595644,
+      "ref_nll": 3.2812883179595644,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "count-dataset-tokens/1",
+      "document_id": "count-dataset-tokens",
+      "domain": "code",
+      "language": "agentic",
+      "context": 4600
+    },
+    {
+      "tokens": 32,
+      "nll": 6.918990443010323,
+      "ref_nll": 6.918990443010323,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "count-dataset-tokens/2",
+      "document_id": "count-dataset-tokens",
+      "domain": "after_tool",
+      "language": "agentic",
+      "context": 5483
+    },
+    {
+      "tokens": 32,
+      "nll": 1.4828179945247868,
+      "ref_nll": 1.4828179945247868,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "count-dataset-tokens/3",
+      "document_id": "count-dataset-tokens",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 887
+    },
+    {
+      "tokens": 32,
+      "nll": 6.141334051337822,
+      "ref_nll": 6.141334051337822,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "crack-7z-hash/0",
+      "document_id": "crack-7z-hash",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 1266
+    },
+    {
+      "tokens": 32,
+      "nll": 6.442686120736425,
+      "ref_nll": 6.442686120736425,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "crack-7z-hash/1",
+      "document_id": "crack-7z-hash",
+      "domain": "after_tool",
+      "language": "agentic",
+      "context": 1263
+    },
+    {
+      "tokens": 32,
+      "nll": 4.607010383282372,
+      "ref_nll": 4.607010383282372,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "crack-7z-hash/2",
+      "document_id": "crack-7z-hash",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 2404
+    },
+    {
+      "tokens": 32,
+      "nll": 9.110217075320406,
+      "ref_nll": 9.110217075320406,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "crack-7z-hash/3",
+      "document_id": "crack-7z-hash",
+      "domain": "after_tool",
+      "language": "agentic",
+      "context": 5825
+    },
+    {
+      "tokens": 32,
+      "nll": 13.152314771995748,
+      "ref_nll": 13.152314771995748,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "db-wal-recovery/0",
+      "document_id": "db-wal-recovery",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 6451
+    },
+    {
+      "tokens": 32,
+      "nll": 4.851904054510321,
+      "ref_nll": 4.851904054510321,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "db-wal-recovery/1",
+      "document_id": "db-wal-recovery",
+      "domain": "terminal_command",
+      "language": "agentic",
+      "context": 23825
+    },
+    {
+      "tokens": 32,
+      "nll": 2.616333028455955,
+      "ref_nll": 2.616333028455955,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "db-wal-recovery/2",
+      "document_id": "db-wal-recovery",
+      "domain": "code",
+      "language": "agentic",
+      "context": 15985
+    },
+    {
+      "tokens": 32,
+      "nll": 14.787045532822958,
+      "ref_nll": 14.787045532822958,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "db-wal-recovery/3",
+      "document_id": "db-wal-recovery",
+      "domain": "after_tool",
+      "language": "agentic",
+      "context": 24153
+    },
+    {
+      "tokens": 32,
+      "nll": 1.6838098798754118,
+      "ref_nll": 1.6838098798754118,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "distribution-search/0",
+      "document_id": "distribution-search",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 6240
+    },
+    {
+      "tokens": 32,
+      "nll": 0.31172304515246196,
+      "ref_nll": 0.31172304515246196,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "distribution-search/1",
+      "document_id": "distribution-search",
+      "domain": "code",
+      "language": "agentic",
+      "context": 14774
+    },
+    {
+      "tokens": 32,
+      "nll": 8.465777976825358,
+      "ref_nll": 8.465777976825358,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "distribution-search/2",
+      "document_id": "distribution-search",
+      "domain": "after_tool",
+      "language": "agentic",
+      "context": 6172
+    },
+    {
+      "tokens": 32,
+      "nll": 0.00017761741710842216,
+      "ref_nll": 0.00017761741710842216,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "distribution-search/3",
+      "document_id": "distribution-search",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 6688
+    },
+    {
+      "tokens": 32,
+      "nll": 0.06303237341370505,
+      "ref_nll": 0.06303237341370505,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "dna-assembly/0",
+      "document_id": "dna-assembly",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 16457
+    },
+    {
+      "tokens": 32,
+      "nll": 11.989441058066632,
+      "ref_nll": 11.989441058066632,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "dna-assembly/1",
+      "document_id": "dna-assembly",
+      "domain": "code",
+      "language": "agentic",
+      "context": 19352
+    },
+    {
+      "tokens": 32,
+      "nll": 3.906302927888504,
+      "ref_nll": 3.906302927888504,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "dna-assembly/2",
+      "document_id": "dna-assembly",
+      "domain": "after_tool",
+      "language": "agentic",
+      "context": 5313
+    },
+    {
+      "tokens": 32,
+      "nll": 11.018605640724445,
+      "ref_nll": 11.018605640724445,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "dna-assembly/3",
+      "document_id": "dna-assembly",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 11547
+    },
+    {
+      "tokens": 32,
+      "nll": 7.62649470416374,
+      "ref_nll": 7.62649470416374,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "dna-insert/0",
+      "document_id": "dna-insert",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 13935
+    },
+    {
+      "tokens": 32,
+      "nll": 6.057135406115421,
+      "ref_nll": 6.057135406115421,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "dna-insert/1",
+      "document_id": "dna-insert",
+      "domain": "terminal_command",
+      "language": "agentic",
+      "context": 9242
+    },
+    {
+      "tokens": 32,
+      "nll": 0.4469875627326303,
+      "ref_nll": 0.4469875627326303,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "dna-insert/2",
+      "document_id": "dna-insert",
+      "domain": "code",
+      "language": "agentic",
+      "context": 11845
+    },
+    {
+      "tokens": 32,
+      "nll": 5.0470187135696705,
+      "ref_nll": 5.0470187135696705,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "dna-insert/3",
+      "document_id": "dna-insert",
+      "domain": "after_tool",
+      "language": "agentic",
+      "context": 9497
+    },
+    {
+      "tokens": 32,
+      "nll": 2.680432437126214,
+      "ref_nll": 2.680432437126214,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "extract-elf/0",
+      "document_id": "extract-elf",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 990
+    },
+    {
+      "tokens": 32,
+      "nll": 3.8267907511048804,
+      "ref_nll": 3.8267907511048804,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "extract-elf/1",
+      "document_id": "extract-elf",
+      "domain": "code",
+      "language": "agentic",
+      "context": 14744
+    },
+    {
+      "tokens": 32,
+      "nll": 9.41263619472727,
+      "ref_nll": 9.41263619472727,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "extract-elf/2",
+      "document_id": "extract-elf",
+      "domain": "after_tool",
+      "language": "agentic",
+      "context": 10486
+    },
+    {
+      "tokens": 32,
+      "nll": 10.500319192533674,
+      "ref_nll": 10.500319192533674,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "extract-elf/3",
+      "document_id": "extract-elf",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 6904
+    },
+    {
+      "tokens": 32,
+      "nll": 16.534221384614852,
+      "ref_nll": 16.534221384614852,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "extract-moves-from-video/0",
+      "document_id": "extract-moves-from-video",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 27116
+    },
+    {
+      "tokens": 32,
+      "nll": 0.4857626095766534,
+      "ref_nll": 0.4857626095766534,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "extract-moves-from-video/1",
+      "document_id": "extract-moves-from-video",
+      "domain": "terminal_command",
+      "language": "agentic",
+      "context": 7854
+    },
+    {
+      "tokens": 32,
+      "nll": 22.813246540222273,
+      "ref_nll": 22.813246540222273,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "extract-moves-from-video/2",
+      "document_id": "extract-moves-from-video",
+      "domain": "after_tool",
+      "language": "agentic",
+      "context": 26377
+    },
+    {
+      "tokens": 32,
+      "nll": 21.180297514987274,
+      "ref_nll": 21.180297514987274,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "extract-moves-from-video/3",
+      "document_id": "extract-moves-from-video",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 28327
+    },
+    {
+      "tokens": 32,
+      "nll": 3.4506638824204856,
+      "ref_nll": 3.4506638824204856,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "feal-differential-cryptanalysis/0",
+      "document_id": "feal-differential-cryptanalysis",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 2833
+    },
+    {
+      "tokens": 32,
+      "nll": 6.938138014068272,
+      "ref_nll": 6.938138014068272,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "feal-differential-cryptanalysis/1",
+      "document_id": "feal-differential-cryptanalysis",
+      "domain": "after_tool",
+      "language": "agentic",
+      "context": 1836
+    },
+    {
+      "tokens": 32,
+      "nll": 8.779377063348647,
+      "ref_nll": 8.779377063348647,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "feal-differential-cryptanalysis/2",
+      "document_id": "feal-differential-cryptanalysis",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 4532
+    },
+    {
+      "tokens": 32,
+      "nll": 17.58028100655224,
+      "ref_nll": 17.58028100655224,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "feal-linear-cryptanalysis/0",
+      "document_id": "feal-linear-cryptanalysis",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 20713
+    },
+    {
+      "tokens": 32,
+      "nll": 0.2809672245193724,
+      "ref_nll": 0.2809672245193724,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "feal-linear-cryptanalysis/1",
+      "document_id": "feal-linear-cryptanalysis",
+      "domain": "code",
+      "language": "agentic",
+      "context": 16051
+    },
+    {
+      "tokens": 32,
+      "nll": 6.126875804729252,
+      "ref_nll": 6.126875804729252,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "feal-linear-cryptanalysis/2",
+      "document_id": "feal-linear-cryptanalysis",
+      "domain": "after_tool",
+      "language": "agentic",
+      "context": 19454
+    },
+    {
+      "tokens": 32,
+      "nll": 3.8075494142102,
+      "ref_nll": 3.8075494142102,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "feal-linear-cryptanalysis/3",
+      "document_id": "feal-linear-cryptanalysis",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 1231
+    },
+    {
+      "tokens": 32,
+      "nll": 9.157218837123395,
+      "ref_nll": 9.157218837123395,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "filter-js-from-html/0",
+      "document_id": "filter-js-from-html",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 2019
+    },
+    {
+      "tokens": 32,
+      "nll": 4.617399929425801,
+      "ref_nll": 4.617399929425801,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "filter-js-from-html/1",
+      "document_id": "filter-js-from-html",
+      "domain": "code",
+      "language": "agentic",
+      "context": 5085
+    },
+    {
+      "tokens": 32,
+      "nll": 10.89680660895965,
+      "ref_nll": 10.89680660895965,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "filter-js-from-html/2",
+      "document_id": "filter-js-from-html",
+      "domain": "after_tool",
+      "language": "agentic",
+      "context": 13409
+    },
+    {
+      "tokens": 32,
+      "nll": 16.190905369416924,
+      "ref_nll": 16.190905369416924,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "filter-js-from-html/3",
+      "document_id": "filter-js-from-html",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 18426
+    },
+    {
+      "tokens": 32,
+      "nll": 3.7641964892294197,
+      "ref_nll": 3.7641964892294197,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "financial-document-processor/0",
+      "document_id": "financial-document-processor",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 24279
+    },
+    {
+      "tokens": 32,
+      "nll": 0.5289547445833307,
+      "ref_nll": 0.5289547445833307,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "financial-document-processor/1",
+      "document_id": "financial-document-processor",
+      "domain": "code",
+      "language": "agentic",
+      "context": 27115
+    },
+    {
+      "tokens": 32,
+      "nll": 5.981653347364926,
+      "ref_nll": 5.981653347364926,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "financial-document-processor/2",
+      "document_id": "financial-document-processor",
+      "domain": "after_tool",
+      "language": "agentic",
+      "context": 2485
+    },
+    {
+      "tokens": 32,
+      "nll": 1.7464009656757753,
+      "ref_nll": 1.7464009656757753,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "financial-document-processor/3",
+      "document_id": "financial-document-processor",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 1041
+    },
+    {
+      "tokens": 32,
+      "nll": 0.31071086043020557,
+      "ref_nll": 0.31071086043020557,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "fix-code-vulnerability/0",
+      "document_id": "fix-code-vulnerability",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 11037
+    },
+    {
+      "tokens": 32,
+      "nll": 0.05460794300367411,
+      "ref_nll": 0.05460794300367411,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "fix-code-vulnerability/1",
+      "document_id": "fix-code-vulnerability",
+      "domain": "terminal_command",
+      "language": "agentic",
+      "context": 18339
+    },
+    {
+      "tokens": 32,
+      "nll": 11.89544889227119,
+      "ref_nll": 11.89544889227119,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "fix-code-vulnerability/2",
+      "document_id": "fix-code-vulnerability",
+      "domain": "code",
+      "language": "agentic",
+      "context": 9618
+    },
+    {
+      "tokens": 32,
+      "nll": 7.63090986141605,
+      "ref_nll": 7.63090986141605,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "fix-code-vulnerability/3",
+      "document_id": "fix-code-vulnerability",
+      "domain": "after_tool",
+      "language": "agentic",
+      "context": 6545
+    },
+    {
+      "tokens": 32,
+      "nll": 7.04359995763415,
+      "ref_nll": 7.04359995763415,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "fix-git/0",
+      "document_id": "fix-git",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 863
+    },
+    {
+      "tokens": 32,
+      "nll": 0.004104842834827593,
+      "ref_nll": 0.004104842834827593,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "fix-git/1",
+      "document_id": "fix-git",
+      "domain": "code",
+      "language": "agentic",
+      "context": 12167
+    },
+    {
+      "tokens": 32,
+      "nll": 3.004577768573647,
+      "ref_nll": 3.004577768573647,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "fix-git/2",
+      "document_id": "fix-git",
+      "domain": "after_tool",
+      "language": "agentic",
+      "context": 13015
+    },
+    {
+      "tokens": 32,
+      "nll": 13.122909259740482,
+      "ref_nll": 13.122909259740482,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "fix-git/3",
+      "document_id": "fix-git",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 6845
+    },
+    {
+      "tokens": 32,
+      "nll": 13.63241114044672,
+      "ref_nll": 13.63241114044672,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "fix-ocaml-gc/0",
+      "document_id": "fix-ocaml-gc",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 18114
+    },
+    {
+      "tokens": 32,
+      "nll": 11.229811951648003,
+      "ref_nll": 11.229811951648003,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "fix-ocaml-gc/1",
+      "document_id": "fix-ocaml-gc",
+      "domain": "terminal_command",
+      "language": "agentic",
+      "context": 4931
+    },
+    {
+      "tokens": 32,
+      "nll": 11.905104162616055,
+      "ref_nll": 11.905104162616055,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "fix-ocaml-gc/2",
+      "document_id": "fix-ocaml-gc",
+      "domain": "after_tool",
+      "language": "agentic",
+      "context": 13716
+    },
+    {
+      "tokens": 32,
+      "nll": 10.759475658251915,
+      "ref_nll": 10.759475658251915,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "fix-ocaml-gc/3",
+      "document_id": "fix-ocaml-gc",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 13718
+    },
+    {
+      "tokens": 32,
+      "nll": 21.436701070412255,
+      "ref_nll": 21.436701070412255,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "gcode-to-text/0",
+      "document_id": "gcode-to-text",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 22196
+    },
+    {
+      "tokens": 32,
+      "nll": 0.010748065114242422,
+      "ref_nll": 0.010748065114242422,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "gcode-to-text/1",
+      "document_id": "gcode-to-text",
+      "domain": "code",
+      "language": "agentic",
+      "context": 6461
+    },
+    {
+      "tokens": 32,
+      "nll": 18.671380453594793,
+      "ref_nll": 18.671380453594793,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "gcode-to-text/2",
+      "document_id": "gcode-to-text",
+      "domain": "after_tool",
+      "language": "agentic",
+      "context": 29508
+    },
+    {
+      "tokens": 32,
+      "nll": 8.382477557679515,
+      "ref_nll": 8.382477557679515,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "gcode-to-text/3",
+      "document_id": "gcode-to-text",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 30375
+    },
+    {
+      "tokens": 32,
+      "nll": 4.185158690844865,
+      "ref_nll": 4.185158690844865,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "git-leak-recovery/0",
+      "document_id": "git-leak-recovery",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 893
+    },
+    {
+      "tokens": 32,
+      "nll": 3.1654100052783107,
+      "ref_nll": 3.1654100052783107,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "git-leak-recovery/1",
+      "document_id": "git-leak-recovery",
+      "domain": "terminal_command",
+      "language": "agentic",
+      "context": 4049
+    },
+    {
+      "tokens": 32,
+      "nll": 2.5577245385211995,
+      "ref_nll": 2.5577245385211995,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "git-leak-recovery/2",
+      "document_id": "git-leak-recovery",
+      "domain": "after_tool",
+      "language": "agentic",
+      "context": 1790
+    },
+    {
+      "tokens": 32,
+      "nll": 8.454278163639117,
+      "ref_nll": 8.454278163639117,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "git-leak-recovery/3",
+      "document_id": "git-leak-recovery",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 2518
+    },
+    {
+      "tokens": 32,
+      "nll": 8.93526836877902,
+      "ref_nll": 8.93526836877902,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "gpt2-codegolf/0",
+      "document_id": "gpt2-codegolf",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 1647
+    },
+    {
+      "tokens": 32,
+      "nll": 9.58867611779172,
+      "ref_nll": 9.58867611779172,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "gpt2-codegolf/1",
+      "document_id": "gpt2-codegolf",
+      "domain": "code",
+      "language": "agentic",
+      "context": 9009
+    },
+    {
+      "tokens": 32,
+      "nll": 22.285463054931597,
+      "ref_nll": 22.285463054931597,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "gpt2-codegolf/2",
+      "document_id": "gpt2-codegolf",
+      "domain": "after_tool",
+      "language": "agentic",
+      "context": 3825
+    },
+    {
+      "tokens": 32,
+      "nll": 5.201920613538391,
+      "ref_nll": 5.201920613538391,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "gpt2-codegolf/3",
+      "document_id": "gpt2-codegolf",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 1127
+    },
+    {
+      "tokens": 32,
+      "nll": 6.440135683364105,
+      "ref_nll": 6.440135683364105,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "kv-store-grpc/0",
+      "document_id": "kv-store-grpc",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 4421
+    },
+    {
+      "tokens": 32,
+      "nll": 2.7924931787771072,
+      "ref_nll": 2.7924931787771072,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "kv-store-grpc/1",
+      "document_id": "kv-store-grpc",
+      "domain": "terminal_command",
+      "language": "agentic",
+      "context": 4681
+    },
+    {
+      "tokens": 32,
+      "nll": 0.021475079524869045,
+      "ref_nll": 0.021475079524869045,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "kv-store-grpc/2",
+      "document_id": "kv-store-grpc",
+      "domain": "code",
+      "language": "agentic",
+      "context": 1776
+    },
+    {
+      "tokens": 32,
+      "nll": 4.9061596307162745,
+      "ref_nll": 4.9061596307162745,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "kv-store-grpc/3",
+      "document_id": "kv-store-grpc",
+      "domain": "after_tool",
+      "language": "agentic",
+      "context": 3528
+    },
+    {
+      "tokens": 32,
+      "nll": 2.618181557639275,
+      "ref_nll": 2.618181557639275,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "large-scale-text-editing/0",
+      "document_id": "large-scale-text-editing",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 7766
+    },
+    {
+      "tokens": 32,
+      "nll": 4.683856731847094,
+      "ref_nll": 4.683856731847094,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "large-scale-text-editing/1",
+      "document_id": "large-scale-text-editing",
+      "domain": "terminal_command",
+      "language": "agentic",
+      "context": 4264
+    },
+    {
+      "tokens": 32,
+      "nll": 0.012103330395149214,
+      "ref_nll": 0.012103330395149214,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "large-scale-text-editing/2",
+      "document_id": "large-scale-text-editing",
+      "domain": "code",
+      "language": "agentic",
+      "context": 9019
+    },
+    {
+      "tokens": 32,
+      "nll": 4.600018334198694,
+      "ref_nll": 4.600018334198694,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "large-scale-text-editing/3",
+      "document_id": "large-scale-text-editing",
+      "domain": "after_tool",
+      "language": "agentic",
+      "context": 6712
+    },
+    {
+      "tokens": 32,
+      "nll": 11.432263539461019,
+      "ref_nll": 11.432263539461019,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "largest-eigenval/0",
+      "document_id": "largest-eigenval",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 27684
+    },
+    {
+      "tokens": 32,
+      "nll": 6.367946043527354,
+      "ref_nll": 6.367946043527354,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "largest-eigenval/1",
+      "document_id": "largest-eigenval",
+      "domain": "terminal_command",
+      "language": "agentic",
+      "context": 9952
+    },
+    {
+      "tokens": 32,
+      "nll": 0.01923662163176232,
+      "ref_nll": 0.01923662163176232,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "largest-eigenval/2",
+      "document_id": "largest-eigenval",
+      "domain": "code",
+      "language": "agentic",
+      "context": 14921
+    },
+    {
+      "tokens": 32,
+      "nll": 11.87488279021872,
+      "ref_nll": 11.87488279021872,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "largest-eigenval/3",
+      "document_id": "largest-eigenval",
+      "domain": "after_tool",
+      "language": "agentic",
+      "context": 5032
+    },
+    {
+      "tokens": 32,
+      "nll": 7.92525979142863,
+      "ref_nll": 7.92525979142863,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "llm-inference-batching-scheduler/0",
+      "document_id": "llm-inference-batching-scheduler",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 27575
+    },
+    {
+      "tokens": 32,
+      "nll": 2.4616638137485936,
+      "ref_nll": 2.4616638137485936,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "llm-inference-batching-scheduler/1",
+      "document_id": "llm-inference-batching-scheduler",
+      "domain": "code",
+      "language": "agentic",
+      "context": 9124
+    },
+    {
+      "tokens": 32,
+      "nll": 7.481578855239377,
+      "ref_nll": 7.481578855239377,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "llm-inference-batching-scheduler/2",
+      "document_id": "llm-inference-batching-scheduler",
+      "domain": "after_tool",
+      "language": "agentic",
+      "context": 39434
+    },
+    {
+      "tokens": 32,
+      "nll": 7.024974752549554,
+      "ref_nll": 7.024974752549554,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "llm-inference-batching-scheduler/3",
+      "document_id": "llm-inference-batching-scheduler",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 11929
+    },
+    {
+      "tokens": 32,
+      "nll": 0.000613912331139943,
+      "ref_nll": 0.000613912331139943,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "make-doom-for-mips/0",
+      "document_id": "make-doom-for-mips",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 21696
+    },
+    {
+      "tokens": 32,
+      "nll": 7.777905238680759,
+      "ref_nll": 7.777905238680759,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "make-doom-for-mips/1",
+      "document_id": "make-doom-for-mips",
+      "domain": "terminal_command",
+      "language": "agentic",
+      "context": 15988
+    },
+    {
+      "tokens": 32,
+      "nll": 1.1350174619097828,
+      "ref_nll": 1.1350174619097828,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "make-doom-for-mips/2",
+      "document_id": "make-doom-for-mips",
+      "domain": "code",
+      "language": "agentic",
+      "context": 26888
+    },
+    {
+      "tokens": 32,
+      "nll": 11.01353760486824,
+      "ref_nll": 11.01353760486824,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "make-doom-for-mips/3",
+      "document_id": "make-doom-for-mips",
+      "domain": "after_tool",
+      "language": "agentic",
+      "context": 12175
+    },
+    {
+      "tokens": 32,
+      "nll": 30.882986346801772,
+      "ref_nll": 30.882986346801772,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "make-mips-interpreter/0",
+      "document_id": "make-mips-interpreter",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 31154
+    },
+    {
+      "tokens": 32,
+      "nll": 11.176483417593715,
+      "ref_nll": 11.176483417593715,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "make-mips-interpreter/1",
+      "document_id": "make-mips-interpreter",
+      "domain": "terminal_command",
+      "language": "agentic",
+      "context": 16147
+    },
+    {
+      "tokens": 32,
+      "nll": 1.9919010713401804,
+      "ref_nll": 1.9919010713401804,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "make-mips-interpreter/2",
+      "document_id": "make-mips-interpreter",
+      "domain": "code",
+      "language": "agentic",
+      "context": 35654
+    },
+    {
+      "tokens": 32,
+      "nll": 7.897816690060381,
+      "ref_nll": 7.897816690060381,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "make-mips-interpreter/3",
+      "document_id": "make-mips-interpreter",
+      "domain": "after_tool",
+      "language": "agentic",
+      "context": 16208
+    },
+    {
+      "tokens": 32,
+      "nll": 8.370229117922179,
+      "ref_nll": 8.370229117922179,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "merge-diff-arc-agi-task/0",
+      "document_id": "merge-diff-arc-agi-task",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 4883
+    },
+    {
+      "tokens": 32,
+      "nll": 1.3228452313681416,
+      "ref_nll": 1.3228452313681416,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "merge-diff-arc-agi-task/1",
+      "document_id": "merge-diff-arc-agi-task",
+      "domain": "code",
+      "language": "agentic",
+      "context": 10105
+    },
+    {
+      "tokens": 32,
+      "nll": 4.509300801323597,
+      "ref_nll": 4.509300801323597,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "merge-diff-arc-agi-task/2",
+      "document_id": "merge-diff-arc-agi-task",
+      "domain": "after_tool",
+      "language": "agentic",
+      "context": 6560
+    },
+    {
+      "tokens": 32,
+      "nll": 7.950505493369462,
+      "ref_nll": 7.950505493369462,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "merge-diff-arc-agi-task/3",
+      "document_id": "merge-diff-arc-agi-task",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 4881
+    },
+    {
+      "tokens": 32,
+      "nll": 19.797941582491603,
+      "ref_nll": 19.797941582491603,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "model-extraction-relu-logits/0",
+      "document_id": "model-extraction-relu-logits",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 15924
+    },
+    {
+      "tokens": 32,
+      "nll": 0.12588537476656825,
+      "ref_nll": 0.12588537476656825,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "model-extraction-relu-logits/1",
+      "document_id": "model-extraction-relu-logits",
+      "domain": "code",
+      "language": "agentic",
+      "context": 8324
+    },
+    {
+      "tokens": 32,
+      "nll": 6.569854263486484,
+      "ref_nll": 6.569854263486484,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "model-extraction-relu-logits/2",
+      "document_id": "model-extraction-relu-logits",
+      "domain": "after_tool",
+      "language": "agentic",
+      "context": 1613
+    },
+    {
+      "tokens": 32,
+      "nll": 14.151552185348692,
+      "ref_nll": 14.151552185348692,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "model-extraction-relu-logits/3",
+      "document_id": "model-extraction-relu-logits",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 7088
+    },
+    {
+      "tokens": 32,
+      "nll": 0.9426413145439412,
+      "ref_nll": 0.9426413145439412,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "modernize-scientific-stack/0",
+      "document_id": "modernize-scientific-stack",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 4731
+    },
+    {
+      "tokens": 32,
+      "nll": 4.258128433927084,
+      "ref_nll": 4.258128433927084,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "modernize-scientific-stack/1",
+      "document_id": "modernize-scientific-stack",
+      "domain": "code",
+      "language": "agentic",
+      "context": 3747
+    },
+    {
+      "tokens": 32,
+      "nll": 4.720828850944365,
+      "ref_nll": 4.720828850944365,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "modernize-scientific-stack/2",
+      "document_id": "modernize-scientific-stack",
+      "domain": "after_tool",
+      "language": "agentic",
+      "context": 5644
+    },
+    {
+      "tokens": 32,
+      "nll": 7.336073197664291,
+      "ref_nll": 7.336073197664291,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "modernize-scientific-stack/3",
+      "document_id": "modernize-scientific-stack",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 2945
+    },
+    {
+      "tokens": 32,
+      "nll": 9.95539121344109,
+      "ref_nll": 9.95539121344109,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "mteb-leaderboard/0",
+      "document_id": "mteb-leaderboard",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 9773
+    },
+    {
+      "tokens": 32,
+      "nll": 2.7063781678650685,
+      "ref_nll": 2.7063781678650685,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "mteb-leaderboard/1",
+      "document_id": "mteb-leaderboard",
+      "domain": "code",
+      "language": "agentic",
+      "context": 17905
+    },
+    {
+      "tokens": 32,
+      "nll": 5.161353654204952,
+      "ref_nll": 5.161353654204952,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "mteb-leaderboard/2",
+      "document_id": "mteb-leaderboard",
+      "domain": "after_tool",
+      "language": "agentic",
+      "context": 26844
+    },
+    {
+      "tokens": 32,
+      "nll": 3.3143632783895995,
+      "ref_nll": 3.3143632783895995,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "mteb-leaderboard/3",
+      "document_id": "mteb-leaderboard",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 7131
+    },
+    {
+      "tokens": 32,
+      "nll": 8.624733607952834,
+      "ref_nll": 8.624733607952834,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "mteb-retrieve/0",
+      "document_id": "mteb-retrieve",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 5568
+    },
+    {
+      "tokens": 32,
+      "nll": 0.00013947397833646846,
+      "ref_nll": 0.00013947397833646846,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "mteb-retrieve/1",
+      "document_id": "mteb-retrieve",
+      "domain": "code",
+      "language": "agentic",
+      "context": 6031
+    },
+    {
+      "tokens": 32,
+      "nll": 12.207301509504987,
+      "ref_nll": 12.207301509504987,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "mteb-retrieve/2",
+      "document_id": "mteb-retrieve",
+      "domain": "after_tool",
+      "language": "agentic",
+      "context": 4108
+    },
+    {
+      "tokens": 32,
+      "nll": 10.654411893102946,
+      "ref_nll": 10.654411893102946,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "mteb-retrieve/3",
+      "document_id": "mteb-retrieve",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 5570
+    },
+    {
+      "tokens": 32,
+      "nll": 7.820378732096458,
+      "ref_nll": 7.820378732096458,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "multi-source-data-merger/0",
+      "document_id": "multi-source-data-merger",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 6170
+    },
+    {
+      "tokens": 32,
+      "nll": 1.2621143231950356,
+      "ref_nll": 1.2621143231950356,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "multi-source-data-merger/1",
+      "document_id": "multi-source-data-merger",
+      "domain": "code",
+      "language": "agentic",
+      "context": 4474
+    },
+    {
+      "tokens": 32,
+      "nll": 4.072680968488584,
+      "ref_nll": 4.072680968488584,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "multi-source-data-merger/2",
+      "document_id": "multi-source-data-merger",
+      "domain": "after_tool",
+      "language": "agentic",
+      "context": 2001
+    },
+    {
+      "tokens": 32,
+      "nll": 10.850760645950345,
+      "ref_nll": 10.850760645950345,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "multi-source-data-merger/3",
+      "document_id": "multi-source-data-merger",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 2709
+    },
+    {
+      "tokens": 32,
+      "nll": 2.7151175748130214,
+      "ref_nll": 2.7151175748130214,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "openssl-selfsigned-cert/0",
+      "document_id": "openssl-selfsigned-cert",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 3770
+    },
+    {
+      "tokens": 32,
+      "nll": 0.004227042019074645,
+      "ref_nll": 0.004227042019074645,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "openssl-selfsigned-cert/1",
+      "document_id": "openssl-selfsigned-cert",
+      "domain": "terminal_command",
+      "language": "agentic",
+      "context": 1474
+    },
+    {
+      "tokens": 32,
+      "nll": 3.0636448661702076,
+      "ref_nll": 3.0636448661702076,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "openssl-selfsigned-cert/2",
+      "document_id": "openssl-selfsigned-cert",
+      "domain": "code",
+      "language": "agentic",
+      "context": 1853
+    },
+    {
+      "tokens": 32,
+      "nll": 0.8252349089180697,
+      "ref_nll": 0.8252349089180697,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "openssl-selfsigned-cert/3",
+      "document_id": "openssl-selfsigned-cert",
+      "domain": "after_tool",
+      "language": "agentic",
+      "context": 5323
+    },
+    {
+      "tokens": 32,
+      "nll": 0.003622596753871221,
+      "ref_nll": 0.003622596753871221,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "overfull-hbox/0",
+      "document_id": "overfull-hbox",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 11525
+    },
+    {
+      "tokens": 32,
+      "nll": 18.269354769348183,
+      "ref_nll": 18.269354769348183,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "overfull-hbox/1",
+      "document_id": "overfull-hbox",
+      "domain": "after_tool",
+      "language": "agentic",
+      "context": 8680
+    },
+    {
+      "tokens": 32,
+      "nll": 10.13409878270835,
+      "ref_nll": 10.13409878270835,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "overfull-hbox/2",
+      "document_id": "overfull-hbox",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 3782
+    },
+    {
+      "tokens": 32,
+      "nll": 7.367322365015923,
+      "ref_nll": 7.367322365015923,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "overfull-hbox/3",
+      "document_id": "overfull-hbox",
+      "domain": "after_tool",
+      "language": "agentic",
+      "context": 11842
+    },
+    {
+      "tokens": 32,
+      "nll": 12.072921385220695,
+      "ref_nll": 12.072921385220695,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "password-recovery/0",
+      "document_id": "password-recovery",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 5736
+    },
+    {
+      "tokens": 32,
+      "nll": 0.1818762358263868,
+      "ref_nll": 0.1818762358263868,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "password-recovery/1",
+      "document_id": "password-recovery",
+      "domain": "terminal_command",
+      "language": "agentic",
+      "context": 5947
+    },
+    {
+      "tokens": 32,
+      "nll": 3.724027953457039,
+      "ref_nll": 3.724027953457039,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "password-recovery/2",
+      "document_id": "password-recovery",
+      "domain": "code",
+      "language": "agentic",
+      "context": 7747
+    },
+    {
+      "tokens": 32,
+      "nll": 10.134941589164498,
+      "ref_nll": 10.134941589164498,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "password-recovery/3",
+      "document_id": "password-recovery",
+      "domain": "after_tool",
+      "language": "agentic",
+      "context": 7345
+    },
+    {
+      "tokens": 32,
+      "nll": 5.651383906452722,
+      "ref_nll": 5.651383906452722,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "polyglot-c-py/0",
+      "document_id": "polyglot-c-py",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 1726
+    },
+    {
+      "tokens": 32,
+      "nll": 3.4451325348072714e-05,
+      "ref_nll": 3.4451325348072714e-05,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "polyglot-c-py/1",
+      "document_id": "polyglot-c-py",
+      "domain": "code",
+      "language": "agentic",
+      "context": 3919
+    },
+    {
+      "tokens": 32,
+      "nll": 8.352569928585687,
+      "ref_nll": 8.352569928585687,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "polyglot-c-py/2",
+      "document_id": "polyglot-c-py",
+      "domain": "after_tool",
+      "language": "agentic",
+      "context": 3550
+    },
+    {
+      "tokens": 32,
+      "nll": 6.446828728217042,
+      "ref_nll": 6.446828728217042,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "polyglot-c-py/3",
+      "document_id": "polyglot-c-py",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 3075
+    },
+    {
+      "tokens": 32,
+      "nll": 4.075984037174393,
+      "ref_nll": 4.075984037174393,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "polyglot-rust-c/0",
+      "document_id": "polyglot-rust-c",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 3955
+    },
+    {
+      "tokens": 32,
+      "nll": 0.3490569248109736,
+      "ref_nll": 0.3490569248109736,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "polyglot-rust-c/1",
+      "document_id": "polyglot-rust-c",
+      "domain": "terminal_command",
+      "language": "agentic",
+      "context": 15870
+    },
+    {
+      "tokens": 32,
+      "nll": 1.6093235515768356e-05,
+      "ref_nll": 1.6093235515768356e-05,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "polyglot-rust-c/2",
+      "document_id": "polyglot-rust-c",
+      "domain": "code",
+      "language": "agentic",
+      "context": 13579
+    },
+    {
+      "tokens": 32,
+      "nll": 5.181213901383657,
+      "ref_nll": 5.181213901383657,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "polyglot-rust-c/3",
+      "document_id": "polyglot-rust-c",
+      "domain": "after_tool",
+      "language": "agentic",
+      "context": 4536
+    },
+    {
+      "tokens": 32,
+      "nll": 18.286730319549633,
+      "ref_nll": 18.286730319549633,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "portfolio-optimization/0",
+      "document_id": "portfolio-optimization",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 5358
+    },
+    {
+      "tokens": 32,
+      "nll": 1.5252979010518217,
+      "ref_nll": 1.5252979010518217,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "portfolio-optimization/1",
+      "document_id": "portfolio-optimization",
+      "domain": "code",
+      "language": "agentic",
+      "context": 7870
+    },
+    {
+      "tokens": 32,
+      "nll": 10.65985814227514,
+      "ref_nll": 10.65985814227514,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "portfolio-optimization/2",
+      "document_id": "portfolio-optimization",
+      "domain": "after_tool",
+      "language": "agentic",
+      "context": 8862
+    },
+    {
+      "tokens": 32,
+      "nll": 1.7296358956008362,
+      "ref_nll": 1.7296358956008362,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "portfolio-optimization/3",
+      "document_id": "portfolio-optimization",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 12898
+    },
+    {
+      "tokens": 32,
+      "nll": 4.899778742107628,
+      "ref_nll": 4.899778742107628,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "prove-plus-comm/0",
+      "document_id": "prove-plus-comm",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 5647
+    },
+    {
+      "tokens": 32,
+      "nll": 0.0015344516875259728,
+      "ref_nll": 0.0015344516875259728,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "prove-plus-comm/1",
+      "document_id": "prove-plus-comm",
+      "domain": "code",
+      "language": "agentic",
+      "context": 4339
+    },
+    {
+      "tokens": 32,
+      "nll": 0.8199317432117823,
+      "ref_nll": 0.8199317432117823,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "prove-plus-comm/2",
+      "document_id": "prove-plus-comm",
+      "domain": "after_tool",
+      "language": "agentic",
+      "context": 1395
+    },
+    {
+      "tokens": 32,
+      "nll": 8.589112518441027,
+      "ref_nll": 8.589112518441027,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "prove-plus-comm/3",
+      "document_id": "prove-plus-comm",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 4966
+    },
+    {
+      "tokens": 32,
+      "nll": 8.063719942177642,
+      "ref_nll": 8.063719942177642,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "pytorch-model-cli/0",
+      "document_id": "pytorch-model-cli",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 6059
+    },
+    {
+      "tokens": 32,
+      "nll": 1.6923480597092109,
+      "ref_nll": 1.6923480597092109,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "pytorch-model-cli/1",
+      "document_id": "pytorch-model-cli",
+      "domain": "terminal_command",
+      "language": "agentic",
+      "context": 2145
+    },
+    {
+      "tokens": 32,
+      "nll": 3.5105550238395935,
+      "ref_nll": 3.5105550238395935,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "pytorch-model-cli/2",
+      "document_id": "pytorch-model-cli",
+      "domain": "code",
+      "language": "agentic",
+      "context": 4435
+    },
+    {
+      "tokens": 32,
+      "nll": 4.092397911328071,
+      "ref_nll": 4.092397911328071,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "pytorch-model-cli/3",
+      "document_id": "pytorch-model-cli",
+      "domain": "after_tool",
+      "language": "agentic",
+      "context": 4904
+    },
+    {
+      "tokens": 32,
+      "nll": 0.004877243723825586,
+      "ref_nll": 0.004877243723825586,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "pytorch-model-recovery/0",
+      "document_id": "pytorch-model-recovery",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 12250
+    },
+    {
+      "tokens": 32,
+      "nll": 2.1968626578283548,
+      "ref_nll": 2.1968626578283548,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "pytorch-model-recovery/1",
+      "document_id": "pytorch-model-recovery",
+      "domain": "code",
+      "language": "agentic",
+      "context": 1317
+    },
+    {
+      "tokens": 32,
+      "nll": 13.002594242071524,
+      "ref_nll": 13.002594242071524,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "pytorch-model-recovery/2",
+      "document_id": "pytorch-model-recovery",
+      "domain": "after_tool",
+      "language": "agentic",
+      "context": 11437
+    },
+    {
+      "tokens": 32,
+      "nll": 0.7296877903986001,
+      "ref_nll": 0.7296877903986001,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "pytorch-model-recovery/3",
+      "document_id": "pytorch-model-recovery",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 16650
+    },
+    {
+      "tokens": 32,
+      "nll": 4.090103902712428,
+      "ref_nll": 4.090103902712428,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "raman-fitting/0",
+      "document_id": "raman-fitting",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 1304
+    },
+    {
+      "tokens": 32,
+      "nll": 0.5677146011531704,
+      "ref_nll": 0.5677146011531704,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "raman-fitting/1",
+      "document_id": "raman-fitting",
+      "domain": "code",
+      "language": "agentic",
+      "context": 8524
+    },
+    {
+      "tokens": 32,
+      "nll": 8.737780844146982,
+      "ref_nll": 8.737780844146982,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "raman-fitting/2",
+      "document_id": "raman-fitting",
+      "domain": "after_tool",
+      "language": "agentic",
+      "context": 19207
+    },
+    {
+      "tokens": 32,
+      "nll": 5.342936771830196,
+      "ref_nll": 5.342936771830196,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "raman-fitting/3",
+      "document_id": "raman-fitting",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 36661
+    },
+    {
+      "tokens": 32,
+      "nll": 0.0046572051183275676,
+      "ref_nll": 0.0046572051183275676,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "regex-log/0",
+      "document_id": "regex-log",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 5736
+    },
+    {
+      "tokens": 32,
+      "nll": 3.7671111421284706,
+      "ref_nll": 3.7671111421284706,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "regex-log/1",
+      "document_id": "regex-log",
+      "domain": "code",
+      "language": "agentic",
+      "context": 10603
+    },
+    {
+      "tokens": 32,
+      "nll": 0.5960929254372473,
+      "ref_nll": 0.5960929254372473,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "regex-log/2",
+      "document_id": "regex-log",
+      "domain": "after_tool",
+      "language": "agentic",
+      "context": 4959
+    },
+    {
+      "tokens": 32,
+      "nll": 0.0014033533488984062,
+      "ref_nll": 0.0014033533488984062,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "regex-log/3",
+      "document_id": "regex-log",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 7896
+    },
+    {
+      "tokens": 32,
+      "nll": 9.542564357981917,
+      "ref_nll": 9.542564357981917,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "sam-cell-seg/0",
+      "document_id": "sam-cell-seg",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 12041
+    },
+    {
+      "tokens": 32,
+      "nll": 1.688189613183681,
+      "ref_nll": 1.688189613183681,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "sam-cell-seg/1",
+      "document_id": "sam-cell-seg",
+      "domain": "terminal_command",
+      "language": "agentic",
+      "context": 12290
+    },
+    {
+      "tokens": 32,
+      "nll": 5.3993513028715014,
+      "ref_nll": 5.3993513028715014,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "sam-cell-seg/2",
+      "document_id": "sam-cell-seg",
+      "domain": "code",
+      "language": "agentic",
+      "context": 25392
+    },
+    {
+      "tokens": 32,
+      "nll": 23.772667679041945,
+      "ref_nll": 23.772667679041945,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "sam-cell-seg/3",
+      "document_id": "sam-cell-seg",
+      "domain": "after_tool",
+      "language": "agentic",
+      "context": 25637
+    },
+    {
+      "tokens": 32,
+      "nll": 4.94716450418764e-05,
+      "ref_nll": 4.94716450418764e-05,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "sanitize-git-repo/0",
+      "document_id": "sanitize-git-repo",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 12646
+    },
+    {
+      "tokens": 32,
+      "nll": 8.752724150444692,
+      "ref_nll": 8.752724150444692,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "sanitize-git-repo/1",
+      "document_id": "sanitize-git-repo",
+      "domain": "terminal_command",
+      "language": "agentic",
+      "context": 11392
+    },
+    {
+      "tokens": 32,
+      "nll": 3.6748390525349848,
+      "ref_nll": 3.6748390525349848,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "sanitize-git-repo/2",
+      "document_id": "sanitize-git-repo",
+      "domain": "after_tool",
+      "language": "agentic",
+      "context": 12522
+    },
+    {
+      "tokens": 32,
+      "nll": 0.000674350735380358,
+      "ref_nll": 0.000674350735380358,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "sanitize-git-repo/3",
+      "document_id": "sanitize-git-repo",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 5717
+    },
+    {
+      "tokens": 32,
+      "nll": 8.83830145401813,
+      "ref_nll": 8.83830145401813,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "schemelike-metacircular-eval/0",
+      "document_id": "schemelike-metacircular-eval",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 3858
+    },
+    {
+      "tokens": 32,
+      "nll": 6.868367181745839,
+      "ref_nll": 6.868367181745839,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "schemelike-metacircular-eval/1",
+      "document_id": "schemelike-metacircular-eval",
+      "domain": "after_tool",
+      "language": "agentic",
+      "context": 15260
+    },
+    {
+      "tokens": 32,
+      "nll": 10.466055276153874,
+      "ref_nll": 10.466055276153874,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "schemelike-metacircular-eval/2",
+      "document_id": "schemelike-metacircular-eval",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 1098
+    },
+    {
+      "tokens": 32,
+      "nll": 3.943828955585097,
+      "ref_nll": 3.943828955585097,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "schemelike-metacircular-eval/3",
+      "document_id": "schemelike-metacircular-eval",
+      "domain": "after_tool",
+      "language": "agentic",
+      "context": 11402
+    },
+    {
+      "tokens": 32,
+      "nll": 3.070757458734988,
+      "ref_nll": 3.070757458734988,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "sparql-university/0",
+      "document_id": "sparql-university",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 10247
+    },
+    {
+      "tokens": 32,
+      "nll": 0.07292100189469863,
+      "ref_nll": 0.07292100189469863,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "sparql-university/1",
+      "document_id": "sparql-university",
+      "domain": "code",
+      "language": "agentic",
+      "context": 17626
+    },
+    {
+      "tokens": 32,
+      "nll": 6.308949422220621,
+      "ref_nll": 6.308949422220621,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "sparql-university/2",
+      "document_id": "sparql-university",
+      "domain": "after_tool",
+      "language": "agentic",
+      "context": 10048
+    },
+    {
+      "tokens": 32,
+      "nll": 0.00039004337500614383,
+      "ref_nll": 0.00039004337500614383,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "sparql-university/3",
+      "document_id": "sparql-university",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 13953
+    },
+    {
+      "tokens": 32,
+      "nll": 9.912108884686916,
+      "ref_nll": 9.912108884686916,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "sqlite-db-truncate/0",
+      "document_id": "sqlite-db-truncate",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 13224
+    },
+    {
+      "tokens": 32,
+      "nll": 1.0618224535391718,
+      "ref_nll": 1.0618224535391718,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "sqlite-db-truncate/1",
+      "document_id": "sqlite-db-truncate",
+      "domain": "code",
+      "language": "agentic",
+      "context": 11557
+    },
+    {
+      "tokens": 32,
+      "nll": 7.7586639202305605,
+      "ref_nll": 7.7586639202305605,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "sqlite-db-truncate/2",
+      "document_id": "sqlite-db-truncate",
+      "domain": "after_tool",
+      "language": "agentic",
+      "context": 10591
+    },
+    {
+      "tokens": 32,
+      "nll": 10.906451542818843,
+      "ref_nll": 10.906451542818843,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "sqlite-db-truncate/3",
+      "document_id": "sqlite-db-truncate",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 1355
+    },
+    {
+      "tokens": 32,
+      "nll": 20.832214654828704,
+      "ref_nll": 20.832214654828704,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "train-fasttext/0",
+      "document_id": "train-fasttext",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 12874
+    },
+    {
+      "tokens": 32,
+      "nll": 2.4961670377528833,
+      "ref_nll": 2.4961670377528833,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "train-fasttext/1",
+      "document_id": "train-fasttext",
+      "domain": "code",
+      "language": "agentic",
+      "context": 2047
+    },
+    {
+      "tokens": 32,
+      "nll": 6.419213473299521,
+      "ref_nll": 6.419213473299521,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "train-fasttext/2",
+      "document_id": "train-fasttext",
+      "domain": "after_tool",
+      "language": "agentic",
+      "context": 8456
+    },
+    {
+      "tokens": 32,
+      "nll": 0.10739864270441757,
+      "ref_nll": 0.10739864270441757,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "train-fasttext/3",
+      "document_id": "train-fasttext",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 16558
+    },
+    {
+      "tokens": 32,
+      "nll": 12.69259398513475,
+      "ref_nll": 12.69259398513475,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "tune-mjcf/0",
+      "document_id": "tune-mjcf",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 3139
+    },
+    {
+      "tokens": 32,
+      "nll": 0.6876084976337822,
+      "ref_nll": 0.6876084976337822,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "tune-mjcf/1",
+      "document_id": "tune-mjcf",
+      "domain": "code",
+      "language": "agentic",
+      "context": 15014
+    },
+    {
+      "tokens": 32,
+      "nll": 19.147950617712922,
+      "ref_nll": 19.147950617712922,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "tune-mjcf/2",
+      "document_id": "tune-mjcf",
+      "domain": "after_tool",
+      "language": "agentic",
+      "context": 16261
+    },
+    {
+      "tokens": 32,
+      "nll": 14.096260829528774,
+      "ref_nll": 14.096260829528774,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "tune-mjcf/3",
+      "document_id": "tune-mjcf",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 6400
+    },
+    {
+      "tokens": 32,
+      "nll": 17.08476122088905,
+      "ref_nll": 17.08476122088905,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "video-processing/0",
+      "document_id": "video-processing",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 6933
+    },
+    {
+      "tokens": 32,
+      "nll": 2.365309755443107,
+      "ref_nll": 2.365309755443107,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "video-processing/1",
+      "document_id": "video-processing",
+      "domain": "code",
+      "language": "agentic",
+      "context": 4014
+    },
+    {
+      "tokens": 32,
+      "nll": 8.172973653071374,
+      "ref_nll": 8.172973653071374,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "video-processing/2",
+      "document_id": "video-processing",
+      "domain": "after_tool",
+      "language": "agentic",
+      "context": 20219
+    },
+    {
+      "tokens": 32,
+      "nll": 13.520527729038122,
+      "ref_nll": 13.520527729038122,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "video-processing/3",
+      "document_id": "video-processing",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 20036
+    },
+    {
+      "tokens": 32,
+      "nll": 3.8189298726143406,
+      "ref_nll": 3.8189298726143406,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "vulnerable-secret/0",
+      "document_id": "vulnerable-secret",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 11673
+    },
+    {
+      "tokens": 32,
+      "nll": 0.0006702055408425167,
+      "ref_nll": 0.0006702055408425167,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "vulnerable-secret/1",
+      "document_id": "vulnerable-secret",
+      "domain": "terminal_command",
+      "language": "agentic",
+      "context": 11729
+    },
+    {
+      "tokens": 32,
+      "nll": 4.710829297393275,
+      "ref_nll": 4.710829297393275,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "vulnerable-secret/2",
+      "document_id": "vulnerable-secret",
+      "domain": "code",
+      "language": "agentic",
+      "context": 17765
+    },
+    {
+      "tokens": 32,
+      "nll": 7.081757756962361,
+      "ref_nll": 7.081757756962361,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "vulnerable-secret/3",
+      "document_id": "vulnerable-secret",
+      "domain": "after_tool",
+      "language": "agentic",
+      "context": 1176
+    },
+    {
+      "tokens": 32,
+      "nll": 5.632708265299932,
+      "ref_nll": 5.632708265299932,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "winning-avg-corewars/0",
+      "document_id": "winning-avg-corewars",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 1090
+    },
+    {
+      "tokens": 32,
+      "nll": 0.0394485431421856,
+      "ref_nll": 0.0394485431421856,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "winning-avg-corewars/1",
+      "document_id": "winning-avg-corewars",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 1135
+    },
+    {
+      "tokens": 32,
+      "nll": 0.4297608714249961,
+      "ref_nll": 0.4297608714249961,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "winning-avg-corewars/2",
+      "document_id": "winning-avg-corewars",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 1171
+    },
+    {
+      "tokens": 32,
+      "nll": 0.039183322180633695,
+      "ref_nll": 0.039183322180633695,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "winning-avg-corewars/3",
+      "document_id": "winning-avg-corewars",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 1141
+    },
+    {
+      "tokens": 32,
+      "nll": 2.653968566170377,
+      "ref_nll": 2.653968566170377,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "write-compressor/0",
+      "document_id": "write-compressor",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 902
+    },
+    {
+      "tokens": 32,
+      "nll": 11.818945020463445,
+      "ref_nll": 11.818945020463445,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "write-compressor/1",
+      "document_id": "write-compressor",
+      "domain": "after_tool",
+      "language": "agentic",
+      "context": 1703
+    },
+    {
+      "tokens": 32,
+      "nll": 9.775288045238653,
+      "ref_nll": 9.775288045238653,
+      "kl_sum": 0.0,
+      "flips": 0,
+      "id": "write-compressor/2",
+      "document_id": "write-compressor",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 1876
+    }
+  ],
+  "elapsed_seconds": 335.55935168266296
+}

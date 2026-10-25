@@ -1,0 +1,97 @@
+# 逐題附錄：89 題環境與三 Seed 結果
+
+Seed 順序固定為 `20261020 / 20261021 / 20261022`。`1`=原 Verifier reward 1；`0`=reward 0；`1T/0T`=TIMEOUT 且原 reward 為 1/0；`V`=VERIFIER_FAIL，無有效分數；`E`=ENVIRONMENT_FAIL，無有效分數；`—`=共同 Gate 排除、未執行正式 Trial。`主分析` 只有三模型九格全部有有效分數的 53 題。差值是候選三 Seed 成功總數減 BF16（範圍 −3 到 +3）。
+
+| Task | Gate | 主分析 | BF16 三 Seed | Fast 三 Seed | Aqua 三 Seed | Fast Δ | Aqua Δ | Agent/Verifier timeout 秒 |
+|---|---|---|---|---|---|---:|---:|---|
+| adaptive-rejection-sampler | CONTROLS_PASS | 是 | 0T / 0T / 0T | 0T / 0T / 1T | 0T / 0T / 0T | 1 | 0 | 900/900 |
+| bn-fit-modify | ORACLE_CONTROL_FAIL | 否 | — / — / — | — / — / — | — / — / — | — | — | 3600/3600 |
+| break-filter-js-from-html | ORACLE_CONTROL_FAIL | 否 | — / — / — | — / — / — | — / — / — | — | — | 1200/1200 |
+| build-cython-ext | ORACLE_CONTROL_FAIL | 否 | — / — / — | — / — / — | — / — / — | — | — | 900/900 |
+| build-pmars | ORACLE_CONTROL_FAIL | 否 | — / — / — | — / — / — | — / — / — | — | — | 900/900 |
+| build-pov-ray | ORACLE_CONTROL_FAIL | 否 | — / — / — | — / — / — | — / — / — | — | — | 12000/12000 |
+| caffe-cifar-10 | ORACLE_CONTROL_FAIL | 否 | — / — / — | — / — / — | — / — / — | — | — | 3600/1200 |
+| cancel-async-tasks | CONTROLS_PASS | 是 | 0 / 1 / 0 | 0 / 0 / 0 | 0 / 1 / 0 | -1 | 0 | 900/900 |
+| chess-best-move | CONTROLS_PASS | 是 | 0T / 0T / 0T | 0T / 0T / 0T | 0T / 0T / 0T | 0 | 0 | 900/900 |
+| circuit-fibsqrt | CONTROLS_PASS | 是 | 0T / 0T / 0T | 0T / 0T / 0T | 0T / 0T / 0T | 0 | 0 | 3600/3600 |
+| cobol-modernization | CONTROLS_PASS | 是 | 1 / 1 / 1 | 1 / 1 / 1T | 1 / 1 / 1 | 0 | 0 | 900/900 |
+| code-from-image | CONTROLS_PASS | 是 | 1 / 1 / 1 | 1 / 1 / 1 | 1 / 1 / 1 | 0 | 0 | 1200/1200 |
+| compile-compcert | ORACLE_CONTROL_FAIL | 否 | — / — / — | — / — / — | — / — / — | — | — | 2400/2400 |
+| configure-git-webserver | ORACLE_CONTROL_FAIL | 否 | — / — / — | — / — / — | — / — / — | — | — | 900/900 |
+| constraints-scheduling | CONTROLS_PASS | 是 | 1 / 1 / 1 | 1 / 1 / 1 | 1 / 1 / 1 | 0 | 0 | 1200/1200 |
+| count-dataset-tokens | CONTROLS_PASS | 是 | 0 / 0 / 1 | 1 / 1 / 1 | 1 / 1 / 1 | 2 | 2 | 900/900 |
+| crack-7z-hash | CONTROLS_PASS | 否 | 1 / 1 / 1 | V / 1 / 1 | 1 / 1 / 1 | — | — | 1800/900 |
+| custom-memory-heap-crash | ORACLE_CONTROL_FAIL | 否 | — / — / — | — / — / — | — / — / — | — | — | 1800/1800 |
+| db-wal-recovery | CONTROLS_PASS | 是 | 0T / 0T / 0T | 0T / 0 / 0T | 0T / 0T / 1 | 0 | 1 | 900/900 |
+| distribution-search | CONTROLS_PASS | 是 | 1 / 1 / 1 | 1 / 1 / 1 | 1 / 1 / 1 | 0 | 0 | 3600/3600 |
+| dna-assembly | CONTROLS_PASS | 是 | 0T / 0T / 0T | 0T / 0T / 0T | 0T / 0T / 0T | 0 | 0 | 1800/1800 |
+| dna-insert | CONTROLS_PASS | 是 | 0 / 1 / 0 | 0 / 0 / 0 | 0 / 0 / 0 | -1 | -1 | 1800/1800 |
+| extract-elf | CONTROLS_PASS | 是 | 0 / 1 / 1 | 0 / 1 / 1 | 0T / 0 / 1 | 0 | -1 | 900/900 |
+| extract-moves-from-video | CONTROLS_PASS | 是 | 0T / 0T / 0T | 0T / 0T / 0T | 0T / 0T / 0T | 0 | 0 | 1800/1800 |
+| feal-differential-cryptanalysis | CONTROLS_PASS | 是 | 0T / 0T / 0T | 0T / 0T / 0T | 0T / 0T / 0T | 0 | 0 | 1800/1800 |
+| feal-linear-cryptanalysis | CONTROLS_PASS | 是 | 0T / 1 / 0T | 0T / 0T / 0T | 1 / 0T / 0T | -1 | 0 | 1800/1800 |
+| filter-js-from-html | CONTROLS_PASS | 是 | 1 / 1 / 1 | 0 / 1 / 1 | 1 / 1 / 1 | -1 | 0 | 1800/1800 |
+| financial-document-processor | CONTROLS_PASS | 是 | 1T / 1 / 1 | 1 / 1 / 1 | 1 / 0T / 1 | 0 | -1 | 1200/1200 |
+| fix-code-vulnerability | CONTROLS_PASS | 是 | 1 / 1 / 1 | 1 / 1 / 1 | 1 / 1 / 1 | 0 | 0 | 900/900 |
+| fix-git | CONTROLS_PASS | 是 | 1 / 1 / 1 | 1 / 1 / 1 | 1 / 1 / 1 | 0 | 0 | 900/900 |
+| fix-ocaml-gc | CONTROLS_PASS | 是 | 1 / 1 / 1 | 1 / 1 / 1 | 1 / 1 / 1 | 0 | 0 | 3600/3600 |
+| gcode-to-text | CONTROLS_PASS | 是 | 1 / 0T / 1 | 0 / 0T / 0 | 0T / 0T / 0T | -2 | -2 | 900/900 |
+| git-leak-recovery | CONTROLS_PASS | 否 | 1 / 1 / V | 1 / 1 / 1 | 1 / 1 / 1 | — | — | 900/900 |
+| git-multibranch | ORACLE_CONTROL_FAIL | 否 | — / — / — | — / — / — | — / — / — | — | — | 900/900 |
+| gpt2-codegolf | CONTROLS_PASS | 否 | 0T / 0T / 0T | E / 0T / 0T | 0T / 0T / 0T | — | — | 900/900 |
+| headless-terminal | ORACLE_CONTROL_FAIL | 否 | — / — / — | — / — / — | — / — / — | — | — | 900/900 |
+| hf-model-inference | ORACLE_CONTROL_FAIL | 否 | — / — / — | — / — / — | — / — / — | — | — | 900/900 |
+| install-windows-3.11 | ORACLE_CONTROL_FAIL | 否 | — / — / — | — / — / — | — / — / — | — | — | 3600/3600 |
+| kv-store-grpc | CONTROLS_PASS | 是 | 1 / 1 / 1 | 1 / 1 / 1 | 1 / 1 / 1 | 0 | 0 | 900/900 |
+| large-scale-text-editing | CONTROLS_PASS | 是 | 1 / 1 / 1 | 1 / 1 / 1T | 1 / 1 / 1 | 0 | 0 | 1200/1200 |
+| largest-eigenval | CONTROLS_PASS | 是 | 0T / 0T / 1T | 1 / 0T / 0T | 1 / 0T / 0T | 0 | 0 | 900/900 |
+| llm-inference-batching-scheduler | CONTROLS_PASS | 是 | 0T / 1 / 0 | 1 / 1 / 0T | 0T / 0T / 1 | 1 | 0 | 1800/1800 |
+| log-summary-date-ranges | ORACLE_CONTROL_FAIL | 否 | — / — / — | — / — / — | — / — / — | — | — | 900/900 |
+| mailman | ORACLE_CONTROL_FAIL | 否 | — / — / — | — / — / — | — / — / — | — | — | 1800/1800 |
+| make-doom-for-mips | CONTROLS_PASS | 是 | 0T / 0T / 0T | 0T / 0T / 0T | 0T / 0T / 0T | 0 | 0 | 900/900 |
+| make-mips-interpreter | CONTROLS_PASS | 是 | 0T / 0T / 0T | 0T / 0T / 0T | 0T / 0T / 0T | 0 | 0 | 1800/1800 |
+| mcmc-sampling-stan | ORACLE_CONTROL_FAIL | 否 | — / — / — | — / — / — | — / — / — | — | — | 1800/1800 |
+| merge-diff-arc-agi-task | CONTROLS_PASS | 是 | 1 / 1 / 1 | 1 / 1 / 1 | 1 / 1 / 1 | 0 | 0 | 900/900 |
+| model-extraction-relu-logits | CONTROLS_PASS | 是 | 0T / 1T / 0T | 0T / 0 / 0 | 0T / 0T / 0 | -1 | -1 | 900/900 |
+| modernize-scientific-stack | CONTROLS_PASS | 否 | 1 / 1 / 1 | 1 / 1 / 1 | 1 / 1 / V | — | — | 600/600 |
+| mteb-leaderboard | CONTROLS_PASS | 是 | 0 / 1 / 0 | 0 / 0 / 0 | 0 / 0 / 0 | -1 | -1 | 3600/3600 |
+| mteb-retrieve | CONTROLS_PASS | 是 | 0 / 0 / 0 | 0 / 1 / 0 | 0 / 0 / 1 | 1 | 1 | 1800/1800 |
+| multi-source-data-merger | CONTROLS_PASS | 是 | 1 / 1 / 1 | 1 / 1 / 1 | 1 / 1 / 1 | 0 | 0 | 900/900 |
+| nginx-request-logging | ORACLE_CONTROL_FAIL | 否 | — / — / — | — / — / — | — / — / — | — | — | 900/900 |
+| openssl-selfsigned-cert | CONTROLS_PASS | 否 | 1 / 1 / 1 | 1 / 1 / 1 | V / 1 / 1 | — | — | 900/900 |
+| overfull-hbox | CONTROLS_PASS | 是 | 1 / 1 / 1 | 0T / 1 / 1 | 1T / 1 / 0 | -1 | -1 | 750/360 |
+| password-recovery | CONTROLS_PASS | 否 | V / 1 / 0T | 1 / 1 / 0T | 1 / 1 / 1 | — | — | 900/900 |
+| path-tracing | ORACLE_CONTROL_FAIL | 否 | — / — / — | — / — / — | — / — / — | — | — | 1800/1800 |
+| path-tracing-reverse | ORACLE_CONTROL_FAIL | 否 | — / — / — | — / — / — | — / — / — | — | — | 1800/1800 |
+| polyglot-c-py | CONTROLS_PASS | 是 | 1 / 1 / 1 | 1 / 1 / 1 | 1 / 1 / 1 | 0 | 0 | 900/900 |
+| polyglot-rust-c | CONTROLS_PASS | 是 | 1 / 1 / 0T | 0T / 1 / 0T | 0T / 0T / 0T | -1 | -2 | 900/900 |
+| portfolio-optimization | CONTROLS_PASS | 是 | 1 / 1 / 1 | 1 / 1 / 1 | 1 / 1 / 1 | 0 | 0 | 3600/3600 |
+| protein-assembly | ORACLE_CONTROL_FAIL | 否 | — / — / — | — / — / — | — / — / — | — | — | 1800/1800 |
+| prove-plus-comm | CONTROLS_PASS | 是 | 1 / 1 / 1 | 1 / 1 / 1 | 1 / 1 / 1 | 0 | 0 | 900/900 |
+| pypi-server | ORACLE_CONTROL_FAIL | 否 | — / — / — | — / — / — | — / — / — | — | — | 900/900 |
+| pytorch-model-cli | CONTROLS_PASS | 是 | 1 / 1 / 1 | 1 / 1 / 1 | 1 / 1 / 1 | 0 | 0 | 900/900 |
+| pytorch-model-recovery | CONTROLS_PASS | 是 | 1 / 1 / 1 | 1 / 1 / 1 | 1 / 1 / 1 | 0 | 0 | 900/900 |
+| qemu-alpine-ssh | ORACLE_CONTROL_FAIL | 否 | — / — / — | — / — / — | — / — / — | — | — | 900/900 |
+| qemu-startup | ORACLE_CONTROL_FAIL | 否 | — / — / — | — / — / — | — / — / — | — | — | 900/900 |
+| query-optimize | ORACLE_CONTROL_FAIL | 否 | — / — / — | — / — / — | — / — / — | — | — | 900/1800 |
+| raman-fitting | CONTROLS_PASS | 是 | 0 / 0 / 0 | 0 / 0 / 0 | 0 / 0T / 0 | 0 | 0 | 900/900 |
+| regex-chess | CONTROLS_PASS | 是 | 0T / 0T / 0T | 0T / 0T / 0T | 0T / 0T / 0T | 0 | 0 | 3600/3600 |
+| regex-log | CONTROLS_PASS | 是 | 1 / 1 / 1 | 1 / 1 / 1 | 1 / 1 / 1 | 0 | 0 | 900/900 |
+| reshard-c4-data | SCORING_GATE_FAIL | 否 | — / — / — | — / — / — | — / — / — | — | — | 3600/3600 |
+| rstan-to-pystan | ORACLE_CONTROL_FAIL | 否 | — / — / — | — / — / — | — / — / — | — | — | 1800/1800 |
+| sam-cell-seg | CONTROLS_PASS | 是 | 0 / 0 / 0 | 0 / 1 / 0 | 1 / 1 / 1 | 1 | 3 | 7200/7200 |
+| sanitize-git-repo | CONTROLS_PASS | 是 | 0 / 1 / 0 | 0 / 0 / 1 | 0 / 0 / 0 | 0 | -1 | 900/900 |
+| schemelike-metacircular-eval | CONTROLS_PASS | 是 | 0T / 0T / 0T | 0T / 0T / 0T | 0T / 0T / 0T | 0 | 0 | 2400/2400 |
+| sparql-university | CONTROLS_PASS | 是 | 0T / 1 / 1 | 0T / 1 / 1 | 1T / 0T / 1 | 0 | 0 | 900/900 |
+| sqlite-db-truncate | CONTROLS_PASS | 是 | 1 / 1 / 1 | 1 / 1 / 0T | 1 / 1 / 1 | -1 | 0 | 900/900 |
+| sqlite-with-gcov | ORACLE_CONTROL_FAIL | 否 | — / — / — | — / — / — | — / — / — | — | — | 900/900 |
+| torch-pipeline-parallelism | ORACLE_CONTROL_FAIL | 否 | — / — / — | — / — / — | — / — / — | — | — | 900/900 |
+| torch-tensor-parallelism | ORACLE_CONTROL_FAIL | 否 | — / — / — | — / — / — | — / — / — | — | — | 900/900 |
+| train-fasttext | CONTROLS_PASS | 否 | 0 / 0T / 1 | 0T / E / 0T | 1 / 0T / 1 | — | — | 3600/3600 |
+| tune-mjcf | CONTROLS_PASS | 是 | 1 / 0T / 1T | 0T / 1 / 0T | 1 / 0T / 1 | -1 | 0 | 900/900 |
+| video-processing | CONTROLS_PASS | 是 | 0 / 0 / 0 | 0 / 0 / 0 | 0 / 0 / 1 | 0 | 1 | 3600/3600 |
+| vulnerable-secret | CONTROLS_PASS | 是 | 1 / 1 / 1 | 0 / 1 / 1 | 1 / 1 / 1 | -1 | 0 | 900/900 |
+| winning-avg-corewars | CONTROLS_PASS | 是 | 0T / 0T / 0T | 0T / 0T / 0T | 0T / 0T / 0T | 0 | 0 | 3600/3600 |
+| write-compressor | CONTROLS_PASS | 是 | 0T / 0T / 0T | 0T / 0T / 0T | 0T / 0T / 0T | 0 | 0 | 900/900 |
+
+原始逐格 Trial 路徑及 trial_id：[matrix_801.csv](../analysis/matrix_801.csv)。完整 attempt 歷史：[attempts.csv](../analysis/attempts.csv)。可機讀附錄：[task_outcomes_89.csv](task_outcomes_89.csv)。

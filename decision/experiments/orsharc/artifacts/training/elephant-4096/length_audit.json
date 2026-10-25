@@ -1,0 +1,14 @@
+{
+  "train": {
+    "n": 4096,
+    "max_tokens": 457,
+    "tokens": 1084553,
+    "over_limit": 0
+  },
+  "dev_select": {
+    "n": 456,
+    "max_tokens": 399,
+    "tokens": 116658,
+    "over_limit": 0
+  }
+}

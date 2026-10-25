@@ -1,0 +1,71 @@
+{
+  "results": [
+    {
+      "model": "Qwen-Qwen3.8-27B",
+      "mode": "mtp",
+      "gpu": 0,
+      "exit_code": 0
+    },
+    {
+      "model": "unsloth-Qwen3.8-27B-NVFP4",
+      "mode": "mtp",
+      "gpu": 0,
+      "exit_code": 0
+    },
+    {
+      "model": "eNeural-Qwen3.8-27B-fast",
+      "mode": "off",
+      "gpu": 0,
+      "exit_code": 0
+    },
+    {
+      "model": "Qwen-Qwen3.8-27B-FP8",
+      "mode": "mtp",
+      "gpu": 1,
+      "exit_code": 0
+    },
+    {
+      "model": "RadixArk-Qwen3.8-27B-NVFP4-BF16-LMHead",
+      "mode": "mtp",
+      "gpu": 1,
+      "exit_code": 0
+    },
+    {
+      "model": "eNeural-Qwen3.8-27B-fast",
+      "mode": "mtp",
+      "gpu": 2,
+      "exit_code": 0
+    },
+    {
+      "model": "rdtand-Qwen3.8-27B-PrismaAQUA-5.5bit-vllm",
+      "mode": "mtp",
+      "gpu": 2,
+      "exit_code": 0
+    },
+    {
+      "model": "nvidia-Qwen3.8-27B-NVFP4",
+      "mode": "mtp",
+      "gpu": 3,
+      "exit_code": 0
+    },
+    {
+      "model": "ModelOpt-Qwen3.8-27B-AutoQuantize-5.5bit",
+      "mode": "mtp",
+      "gpu": 3,
+      "exit_code": 0
+    },
+    {
+      "model": "RedHatAI-Qwen3.8-27B-NVFP4",
+      "mode": "mtp",
+      "gpu": 4,
+      "exit_code": 0
+    },
+    {
+      "model": "Qwen-Qwen3.8-27B",
+      "mode": "off",
+      "gpu": 4,
+      "exit_code": 0
+    }
+  ],
+  "wall_seconds": 229.41616136580706
+}

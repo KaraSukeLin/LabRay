@@ -1,0 +1,33 @@
+{
+  "status": "ok",
+  "model": "ModelOpt-Qwen3.8-27B-AutoQuantize-5.5bit",
+  "start_utc": "2026-10-20T17:39:50.492453+00:00",
+  "gpu_count": 1,
+  "cuda_visible_devices": "0",
+  "task_shard": {
+    "index": 0,
+    "count": 1
+  },
+  "initialization_seconds": 41.50394136086106,
+  "inference_seconds": 888.7039936222136,
+  "scoring_seconds": 0.28820278495550156,
+  "preprocessing_seconds": 0.018237553536891937,
+  "shutdown_seconds": 2.1379953362047672,
+  "new_records": 1,
+  "completed_before": 0,
+  "pending_before": 1,
+  "setup_seconds": 6.616750758141279,
+  "engine": {
+    "mtp": false,
+    "kv_cache_dtype": "bfloat16",
+    "tensor_parallel_size": 1,
+    "max_num_seqs": 1,
+    "max_model_len": 131072,
+    "enforce_eager": true,
+    "enable_prefix_caching": false,
+    "max_num_batched_tokens": 4096
+  },
+  "current_task": null,
+  "wall_seconds": 939.2725171111524,
+  "end_utc": "2026-10-20T17:55:23.148238+00:00"
+}

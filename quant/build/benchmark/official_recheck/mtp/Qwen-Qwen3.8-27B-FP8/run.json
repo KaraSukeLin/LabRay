@@ -1,0 +1,64 @@
+{
+  "status": "ok",
+  "model": "Qwen-Qwen3.8-27B-FP8",
+  "smoke": true,
+  "limit_per_task": 2,
+  "max_tokens_override": null,
+  "tasks": [
+    "ifeval",
+    "mmmu_standard",
+    "mmmu_vision"
+  ],
+  "questions": 6,
+  "seconds": 119.95964343845844,
+  "initialization_seconds": 46.634571954607964,
+  "speculative_config": {
+    "method": "mtp",
+    "num_speculative_tokens": 2
+  },
+  "config": {
+    "models": [
+      "Qwen-Qwen3.8-27B",
+      "Qwen-Qwen3.8-27B-FP8",
+      "eNeural-Qwen3.8-27B-fast",
+      "nvidia-Qwen3.8-27B-NVFP4",
+      "RedHatAI-Qwen3.8-27B-NVFP4",
+      "unsloth-Qwen3.8-27B-NVFP4",
+      "RadixArk-Qwen3.8-27B-NVFP4-BF16-LMHead",
+      "rdtand-Qwen3.8-27B-PrismaAQUA-5.5bit-vllm",
+      "ModelOpt-Qwen3.8-27B-AutoQuantize-5.5bit"
+    ],
+    "baseline": "Qwen-Qwen3.8-27B",
+    "enable_thinking": false,
+    "temperature": 0.7,
+    "top_p": 0.8,
+    "top_k": 20,
+    "min_p": 0.0,
+    "presence_penalty": 1.5,
+    "repetition_penalty": 1.0,
+    "seed": 20261016,
+    "max_tokens": {
+      "ifeval": 4096,
+      "mmmu_standard": 1024,
+      "mmmu_vision": 1024
+    },
+    "max_model_len": 65536,
+    "max_images": 35,
+    "min_pixels": 65536,
+    "max_pixels": 1048576,
+    "mtp": true,
+    "kv_cache_dtype": "bfloat16",
+    "bootstrap_resamples": 19999,
+    "google_ifeval_revision": "3ef52111c1fabc301880818f5a547570e926a76b",
+    "ifeval_dataset_revision": "966cd89545d6b6acfd7638bc708b98261ca58e84",
+    "mmmu_dataset_revision": "0d7426df4ccb3d8704a992fe6850abee7c262127"
+  },
+  "config_sha256": "bfffb45f7b2cb6679335c02c9c6b49e2a9416d558bed0eb617f53e250852ecdf",
+  "dataset_sha256": "53e79f6b5837122ac30378275a91eea2991bdb3a5595a341954aa9e4fc9ed42c",
+  "source_sha256": "cdece226f955ba4c0c162508c8b169eed7218250a82e82946e8a9a4097b06104",
+  "environment": {
+    "vllm": "0.31.0+cu129",
+    "torch": "2.13.0+cu129",
+    "transformers": "5.17.0"
+  }
+}

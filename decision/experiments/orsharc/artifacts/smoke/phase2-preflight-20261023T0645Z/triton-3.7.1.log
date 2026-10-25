@@ -1,0 +1,7 @@
++ uv pip install --python experiments/orsharc/artifacts/env/elephant/bin/python --no-deps triton==3.7.1 --index-url https://pypi.org/simple
+Using Python 3.12.14 environment at: experiments/orsharc/artifacts/env/elephant
+Resolved 1 package in 1ms
+Uninstalled 1 package in 34ms
+Installed 1 package in 28ms
+ - triton==3.4.0
+ + triton==3.7.1

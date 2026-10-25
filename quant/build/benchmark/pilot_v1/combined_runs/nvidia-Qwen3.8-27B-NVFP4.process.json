@@ -1,0 +1,58 @@
+{
+  "model": "nvidia-Qwen3.8-27B-NVFP4",
+  "gpu": [
+    3,
+    3
+  ],
+  "exit_code": 0,
+  "process_wall_seconds": 15421.7472329773,
+  "component_processes": [
+    {
+      "model": "nvidia-Qwen3.8-27B-NVFP4",
+      "gpu": 3,
+      "command": [
+        "/root/projects/quant/.modelopt-venv/bin/python",
+        "-u",
+        "/root/projects/quant/src/benchmark.py",
+        "run",
+        "--model",
+        "nvidia-Qwen3.8-27B-NVFP4",
+        "--config",
+        "/root/projects/quant/assets/benchmark_config.json",
+        "--data",
+        "/root/projects/quant/assets/benchmark/pilot_v1",
+        "--output",
+        "/root/projects/quant/build/benchmark/pilot_v1/runs/nvidia-Qwen3.8-27B-NVFP4",
+        "--long-max-tokens",
+        "4096",
+        "--long-ids",
+        "/root/projects/quant/assets/benchmark/pilot_v1/long_ids.json"
+      ],
+      "exit_code": 0,
+      "start_offset_seconds": 0.0030105076730251312,
+      "process_wall_seconds": 14760.911275234073
+    },
+    {
+      "model": "nvidia-Qwen3.8-27B-NVFP4",
+      "gpu": 3,
+      "command": [
+        "/root/projects/quant/.modelopt-venv/bin/python",
+        "-u",
+        "/root/projects/quant/src/benchmark.py",
+        "run",
+        "--model",
+        "nvidia-Qwen3.8-27B-NVFP4",
+        "--config",
+        "/root/projects/quant/assets/benchmark_config.json",
+        "--data",
+        "/root/projects/quant/assets/benchmark/pilot_if_supplement",
+        "--output",
+        "/root/projects/quant/build/benchmark/pilot_v1/ifeval_supplement_runs/nvidia-Qwen3.8-27B-NVFP4"
+      ],
+      "exit_code": 0,
+      "start_offset_seconds": 0.0022662580013275146,
+      "process_wall_seconds": 660.8359577432275
+    }
+  ],
+  "derived": true
+}

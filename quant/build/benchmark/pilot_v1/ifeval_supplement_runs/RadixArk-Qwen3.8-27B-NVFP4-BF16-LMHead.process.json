@@ -1,0 +1,21 @@
+{
+  "model": "RadixArk-Qwen3.8-27B-NVFP4-BF16-LMHead",
+  "gpu": 3,
+  "command": [
+    "/root/projects/quant/.modelopt-venv/bin/python",
+    "-u",
+    "/root/projects/quant/src/benchmark.py",
+    "run",
+    "--model",
+    "RadixArk-Qwen3.8-27B-NVFP4-BF16-LMHead",
+    "--config",
+    "/root/projects/quant/assets/benchmark_config.json",
+    "--data",
+    "/root/projects/quant/assets/benchmark/pilot_if_supplement",
+    "--output",
+    "/root/projects/quant/build/benchmark/pilot_v1/ifeval_supplement_runs/RadixArk-Qwen3.8-27B-NVFP4-BF16-LMHead"
+  ],
+  "exit_code": 0,
+  "start_offset_seconds": 660.8386792317033,
+  "process_wall_seconds": 675.8276537619531
+}

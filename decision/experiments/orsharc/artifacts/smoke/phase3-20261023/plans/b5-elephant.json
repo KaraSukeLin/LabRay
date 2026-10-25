@@ -1,0 +1,142 @@
+{
+  "matrix": "b5",
+  "model": "elephant",
+  "checkpoint_override": null,
+  "optional": true,
+  "commands": [
+    [
+      "python",
+      "/root/projects/decision/experiments/orsharc/run.py",
+      "infer",
+      "--model",
+      "elephant",
+      "--prepared",
+      "/root/projects/decision/experiments/orsharc/artifacts/prepared",
+      "--out",
+      "/root/projects/decision/experiments/orsharc/artifacts/runs/elephant-original-single_choice-bf16-0shot/dev_select",
+      "--partition",
+      "dev_select",
+      "--task",
+      "benchmark",
+      "--strategy",
+      "single_choice",
+      "--quantization",
+      "bf16",
+      "--shots",
+      "0"
+    ],
+    [
+      "python",
+      "/root/projects/decision/experiments/orsharc/run.py",
+      "infer",
+      "--model",
+      "elephant",
+      "--prepared",
+      "/root/projects/decision/experiments/orsharc/artifacts/prepared",
+      "--out",
+      "/root/projects/decision/experiments/orsharc/artifacts/runs/elephant-original-single_choice-bf16-0shot/dev_calibrate",
+      "--partition",
+      "dev_calibrate",
+      "--task",
+      "benchmark",
+      "--strategy",
+      "single_choice",
+      "--quantization",
+      "bf16",
+      "--shots",
+      "0"
+    ],
+    [
+      "python",
+      "/root/projects/decision/experiments/orsharc/run.py",
+      "calibrate",
+      "--prepared",
+      "/root/projects/decision/experiments/orsharc/artifacts/prepared",
+      "--select-run",
+      "/root/projects/decision/experiments/orsharc/artifacts/runs/elephant-original-single_choice-bf16-0shot/dev_select",
+      "--calibration-run",
+      "/root/projects/decision/experiments/orsharc/artifacts/runs/elephant-original-single_choice-bf16-0shot/dev_calibrate",
+      "--out",
+      "/root/projects/decision/experiments/orsharc/artifacts/runs/elephant-original-single_choice-bf16-0shot/calibration.json"
+    ],
+    [
+      "python",
+      "/root/projects/decision/experiments/orsharc/run.py",
+      "infer",
+      "--model",
+      "elephant",
+      "--prepared",
+      "/root/projects/decision/experiments/orsharc/artifacts/prepared",
+      "--out",
+      "/root/projects/decision/experiments/orsharc/artifacts/runs/elephant-original-single_choice-bf16-0shot/test",
+      "--partition",
+      "test",
+      "--task",
+      "benchmark",
+      "--strategy",
+      "single_choice",
+      "--quantization",
+      "bf16",
+      "--shots",
+      "0"
+    ],
+    [
+      "python",
+      "/root/projects/decision/experiments/orsharc/run.py",
+      "report",
+      "--prepared",
+      "/root/projects/decision/experiments/orsharc/artifacts/prepared",
+      "--run",
+      "/root/projects/decision/experiments/orsharc/artifacts/runs/elephant-original-single_choice-bf16-0shot/dev_select",
+      "--calibration",
+      "/root/projects/decision/experiments/orsharc/artifacts/runs/elephant-original-single_choice-bf16-0shot/calibration.json",
+      "--out",
+      "/root/projects/decision/experiments/orsharc/artifacts/runs/elephant-original-single_choice-bf16-0shot/reports/dev_select"
+    ],
+    [
+      "python",
+      "/root/projects/decision/experiments/orsharc/run.py",
+      "report",
+      "--prepared",
+      "/root/projects/decision/experiments/orsharc/artifacts/prepared",
+      "--run",
+      "/root/projects/decision/experiments/orsharc/artifacts/runs/elephant-original-single_choice-bf16-0shot/dev_calibrate",
+      "--calibration",
+      "/root/projects/decision/experiments/orsharc/artifacts/runs/elephant-original-single_choice-bf16-0shot/calibration.json",
+      "--out",
+      "/root/projects/decision/experiments/orsharc/artifacts/runs/elephant-original-single_choice-bf16-0shot/reports/dev_calibrate"
+    ],
+    [
+      "python",
+      "/root/projects/decision/experiments/orsharc/run.py",
+      "report",
+      "--prepared",
+      "/root/projects/decision/experiments/orsharc/artifacts/prepared",
+      "--run",
+      "/root/projects/decision/experiments/orsharc/artifacts/runs/elephant-original-single_choice-bf16-0shot/test",
+      "--calibration",
+      "/root/projects/decision/experiments/orsharc/artifacts/runs/elephant-original-single_choice-bf16-0shot/calibration.json",
+      "--out",
+      "/root/projects/decision/experiments/orsharc/artifacts/runs/elephant-original-single_choice-bf16-0shot/reports/test"
+    ]
+  ],
+  "blocked": [
+    {
+      "condition": "original",
+      "quantization": "bnb8",
+      "reason": "unsupported quantization path: qev/bnb8"
+    },
+    {
+      "condition": "original",
+      "quantization": "fp8",
+      "reason": "unsupported quantization path: qev/fp8"
+    },
+    {
+      "condition": "original",
+      "quantization": "bnb4",
+      "reason": "unsupported quantization path: qev/bnb4"
+    }
+  ],
+  "script": "experiments/orsharc/artifacts/smoke/phase3-20261023/plans/b5-elephant.sh",
+  "phase": "2; generate does not execute"
+}

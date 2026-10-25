@@ -1,0 +1,21 @@
+{
+  "tokens_sha256": "09b41e1a10044975acc579331d3b22ac4ba54f26f89882bb704f6a319d4c2e0d",
+  "baseline_revision": "1d4bf0f2ff6012fd82039f2fa52739d0dd7c60c0",
+  "fast": "eNeural-Qwen3.8-27B-fast",
+  "peers": [
+    "RadixArk-Qwen3.8-27B-NVFP4-BF16-LMHead",
+    "nvidia-Qwen3.8-27B-NVFP4",
+    "RedHatAI-Qwen3.8-27B-NVFP4",
+    "unsloth-Qwen3.8-27B-NVFP4",
+    "rdtand-Qwen3.8-27B-PrismaAQUA-5.5bit-vllm",
+    "ModelOpt-Qwen3.8-27B-AutoQuantize-5.5bit"
+  ],
+  "primary_pair_metrics": ["delta_nll", "kl_difference", "flip_difference"],
+  "family_size": 18,
+  "family_error_rate": 0.05,
+  "correction": "Bonferroni; all six peers in one family",
+  "resamples": 19999,
+  "seed": 20261016,
+  "bootstrap": "paired whole-document percentile bootstrap within domain x context strata",
+  "ppl_summaries": "derived descriptions; primary PPL-direction inference uses delta NLL"
+}

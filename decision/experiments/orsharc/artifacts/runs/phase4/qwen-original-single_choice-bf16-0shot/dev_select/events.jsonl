@@ -1,0 +1,2 @@
+{"event":"loaded","utc":"2026-10-23T16:04:18Z","seconds":8.354189924895763,"provenance":{"temperature":1.0,"readout":"next-token letters, conditional on valid choices","thinking":false,"quantization_config":null}}
+{"event":"warmup","example_id":"b20fc4d1f66d9c3365da80b7f7741acf3894c1bb","seconds":0.5115365870296955,"utc":"2026-10-23T16:04:18Z"}

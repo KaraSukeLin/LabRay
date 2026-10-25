@@ -1,0 +1,60 @@
+{
+  "state": "DYNAMIC_SEED21_RETRIES_ON_FREE_GPUS",
+  "updated_at": 1792710456.3962615,
+  "exec_sessions": {
+    "old_wait_all_gpus_helper": 38056,
+    "dynamic_retry_controller": 67875,
+    "post_retry_finalize": 29205
+  },
+  "old_helper_exit_code": 130,
+  "trial_attempt_states": {
+    "seed21": {
+      "ENVIRONMENT_FAIL": 12,
+      "MODEL_FAIL": 17,
+      "PASS": 93,
+      "PENDING": 7,
+      "RUNNING": 4,
+      "TIMEOUT": 58
+    },
+    "seed22": {
+      "ENVIRONMENT_FAIL": 3,
+      "MODEL_FAIL": 25,
+      "PASS": 92,
+      "RUNNING": 1,
+      "TIMEOUT": 60,
+      "VERIFIER_FAIL": 2
+    }
+  },
+  "processes": [
+    {
+      "pid": 26597,
+      "role": "retry-controller",
+      "command": ".harbor-venv/bin/python build/terminal_bench/low_mtp3/formal_three_seed_20261022/seed_20261021_retry_resume.py"
+    },
+    {
+      "pid": 26600,
+      "role": "seed2-gpu-worker",
+      "command": "/root/projects/quant/.harbor-venv/bin/python /root/projects/quant/build/terminal_bench/low_mtp3/formal_three_seed_20261022/seed_20261021_retry_resume.py --worker 0"
+    },
+    {
+      "pid": 26608,
+      "role": "seed2-gpu-worker",
+      "command": "/root/projects/quant/.harbor-venv/bin/python /root/projects/quant/build/terminal_bench/low_mtp3/formal_three_seed_20261022/seed_20261021_retry_resume.py --worker 2"
+    },
+    {
+      "pid": 26614,
+      "role": "seed2-gpu-worker",
+      "command": "/root/projects/quant/.harbor-venv/bin/python /root/projects/quant/build/terminal_bench/low_mtp3/formal_three_seed_20261022/seed_20261021_retry_resume.py --worker 4"
+    },
+    {
+      "pid": 28287,
+      "role": "seed2-gpu-worker",
+      "command": "/root/projects/quant/.harbor-venv/bin/python /root/projects/quant/build/terminal_bench/low_mtp3/formal_three_seed_20261022/seed_20261021_retry_resume.py --worker 3"
+    },
+    {
+      "pid": 39569,
+      "role": "post-retry-finalizer",
+      "command": ".harbor-venv/bin/python build/terminal_bench/low_mtp3/formal_three_seed_20261022/post_retry_finalize.py"
+    }
+  ]
+}

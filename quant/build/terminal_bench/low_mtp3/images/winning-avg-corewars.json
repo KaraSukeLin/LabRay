@@ -1,0 +1,122 @@
+{
+  "pinned": {
+    "tag": "alexgshaw/winning-avg-corewars:20251031",
+    "digest": "alexgshaw/winning-avg-corewars@sha256:ad7a6b1c53aed59e10916c692aa7e2ae00042a4283187430aee1e3e79f72d5c6",
+    "resolved_at": 1792524231.9817526
+  },
+  "manifest": "/root/projects/quant/build/terminal_bench/low_mtp3/images/blobs/sha256-ad7a6b1c53aed59e10916c692aa7e2ae00042a4283187430aee1e3e79f72d5c6",
+  "config_file": "/root/projects/quant/build/terminal_bench/low_mtp3/images/blobs/sha256-d372f2022972a03c8a7d16f631e9171dad3a65e1d119a97d4875167f8db3e6ca",
+  "config": {
+    "architecture": "amd64",
+    "config": {
+      "Env": [
+        "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
+      ],
+      "Cmd": [
+        "bash"
+      ],
+      "WorkingDir": "/app",
+      "Labels": {
+        "com.docker.compose.project": "harbor-build-winning-avg-corewars",
+        "com.docker.compose.service": "task",
+        "com.docker.compose.version": "2.35.1"
+      }
+    },
+    "created": "2025-09-13T17:52:51.098196383Z",
+    "history": [
+      {
+        "created": "2025-08-11T00:00:00Z",
+        "created_by": "# debian.sh --arch 'amd64' out/ 'trixie' '@1754870400'",
+        "comment": "debuerreotype 0.15"
+      },
+      {
+        "created": "2025-09-07T07:03:54.819361644Z",
+        "created_by": "RUN /bin/sh -c apt-get update && apt-get install -y     tmux     asciinema     build-essential     libncurses-dev     ca-certificates     dpkg-dev     devscripts # buildkit",
+        "comment": "buildkit.dockerfile.v0"
+      },
+      {
+        "created": "2025-09-07T07:03:55.502141457Z",
+        "created_by": "RUN /bin/sh -c echo 'deb-src http://deb.debian.org/debian stable main' >> /etc/apt/sources.list.d/deb-src.list # buildkit",
+        "comment": "buildkit.dockerfile.v0"
+      },
+      {
+        "created": "2025-09-07T07:04:04.354308772Z",
+        "created_by": "RUN /bin/sh -c apt-get update # buildkit",
+        "comment": "buildkit.dockerfile.v0"
+      },
+      {
+        "created": "2025-09-07T07:04:04.527425042Z",
+        "created_by": "WORKDIR /app",
+        "comment": "buildkit.dockerfile.v0"
+      },
+      {
+        "created": "2025-09-07T07:04:10.015324632Z",
+        "created_by": "RUN /bin/sh -c apt-get source pmars &&     cd /app/pmars-*/src &&     sed -i 's/-DXWINGRAPHX//g' Makefile &&     sed -i 's/^LIB *=.*/LIB = -lncurses/' Makefile &&     make clean && make &&     install -m 0755 pmars /usr/local/bin/pmars # buildkit",
+        "comment": "buildkit.dockerfile.v0"
+      },
+      {
+        "created": "2025-09-13T17:52:51.098196383Z",
+        "created_by": "COPY warriors/ /app/warriors/ # buildkit",
+        "comment": "buildkit.dockerfile.v0"
+      }
+    ],
+    "os": "linux",
+    "rootfs": {
+      "type": "layers",
+      "diff_ids": [
+        "sha256:e6a3842ebc7f5e41d8a38f19a0aa5ea56c255475695ac6682882420800cf5465",
+        "sha256:9877db13e4c3c8c7173700198ce287f1704c9dea08603e9ef7b3da29bc659547",
+        "sha256:36dfa2e54c2565e6b06b615567522a03e2bbbf81368eedf21ddf2abb6028edf5",
+        "sha256:e46926828bea780ac30488f5f47a3d4c688b6695a64a2ac3ffaf90b1201e2913",
+        "sha256:8f3374a3a7497ba67f11c7e7c921244824ad5abc64cc16de173c36619b630c68",
+        "sha256:5c093fb613cc30b79cc2f57d82c75eda650f3a0b6b34e059b1017ab76e860bf9",
+        "sha256:06fd533df9a7cd0606114e1ef259013de065b8410fe3547e825452322bbf94fc"
+      ]
+    }
+  },
+  "layers": [
+    {
+      "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+      "size": 29773285,
+      "digest": "sha256:396b1da7636e2dcd10565cb4f2f952cbb4a8a38b58d3b86a2cacb172fb70117c",
+      "path": "/root/projects/quant/build/terminal_bench/low_mtp3/images/blobs/sha256-396b1da7636e2dcd10565cb4f2f952cbb4a8a38b58d3b86a2cacb172fb70117c"
+    },
+    {
+      "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+      "size": 236076951,
+      "digest": "sha256:f849e5b569f7988e20b5d57beb0da95655af113b478373022f7b921d13f6c04f",
+      "path": "/root/projects/quant/build/terminal_bench/low_mtp3/images/blobs/sha256-f849e5b569f7988e20b5d57beb0da95655af113b478373022f7b921d13f6c04f"
+    },
+    {
+      "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+      "size": 217,
+      "digest": "sha256:b8bfa28af3cb07559f81672b4eca67eb41e03c9ff864fe9ddb9feca5d53c616b",
+      "path": "/root/projects/quant/build/terminal_bench/low_mtp3/images/blobs/sha256-b8bfa28af3cb07559f81672b4eca67eb41e03c9ff864fe9ddb9feca5d53c616b"
+    },
+    {
+      "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+      "size": 27239210,
+      "digest": "sha256:9dd31a9fa29989526f4b8be121641c27f105302e722c1b097373175ad0be4faa",
+      "path": "/root/projects/quant/build/terminal_bench/low_mtp3/images/blobs/sha256-9dd31a9fa29989526f4b8be121641c27f105302e722c1b097373175ad0be4faa"
+    },
+    {
+      "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+      "size": 93,
+      "digest": "sha256:4713e371e45e13e4754e4434590188bac3bc2c331606d2ac01217086a59339b0",
+      "path": "/root/projects/quant/build/terminal_bench/low_mtp3/images/blobs/sha256-4713e371e45e13e4754e4434590188bac3bc2c331606d2ac01217086a59339b0"
+    },
+    {
+      "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+      "size": 575013,
+      "digest": "sha256:d1d8ff3cf1c7f87c77f31c575af9f8f292e47dd2850a0f28b31b317ddc9c5751",
+      "path": "/root/projects/quant/build/terminal_bench/low_mtp3/images/blobs/sha256-d1d8ff3cf1c7f87c77f31c575af9f8f292e47dd2850a0f28b31b317ddc9c5751"
+    },
+    {
+      "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+      "size": 2212,
+      "digest": "sha256:83283a05835c4c591c075a337a79a76b4f749a65cd6d7ded9cd33c5ab626cabf",
+      "path": "/root/projects/quant/build/terminal_bench/low_mtp3/images/blobs/sha256-83283a05835c4c591c075a337a79a76b4f749a65cd6d7ded9cd33c5ab626cabf"
+    }
+  ],
+  "time": 1792608489.3530385
+}

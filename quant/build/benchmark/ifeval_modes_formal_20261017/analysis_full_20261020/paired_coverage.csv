@@ -1,0 +1,20 @@
+comparison,questions,planned_questions,status
+eNeural-Qwen3.8-27B-fast:off minus BF16:off,541,541,complete
+rdtand-Qwen3.8-27B-PrismaAQUA-5.5bit-vllm:off minus BF16:off,541,541,complete
+ModelOpt-Qwen3.8-27B-AutoQuantize-5.5bit:off minus BF16:off,541,541,complete
+unsloth-Qwen3.8-27B-NVFP4:off minus BF16:off,541,541,complete
+eNeural-Qwen3.8-27B-fast:on minus BF16:on,541,541,complete
+rdtand-Qwen3.8-27B-PrismaAQUA-5.5bit-vllm:on minus BF16:on,541,541,complete
+ModelOpt-Qwen3.8-27B-AutoQuantize-5.5bit:on minus BF16:on,541,541,complete
+unsloth-Qwen3.8-27B-NVFP4:on minus BF16:on,541,541,complete
+Qwen-Qwen3.8-27B:on minus off,541,541,complete
+eNeural-Qwen3.8-27B-fast:on minus off,541,541,complete
+rdtand-Qwen3.8-27B-PrismaAQUA-5.5bit-vllm:on minus off,541,541,complete
+ModelOpt-Qwen3.8-27B-AutoQuantize-5.5bit:on minus off,541,541,complete
+unsloth-Qwen3.8-27B-NVFP4:on minus off,541,541,complete
+Fast:off minus rdtand-Qwen3.8-27B-PrismaAQUA-5.5bit-vllm:off,541,541,complete
+Fast:off minus ModelOpt-Qwen3.8-27B-AutoQuantize-5.5bit:off,541,541,complete
+Fast:off minus unsloth-Qwen3.8-27B-NVFP4:off,541,541,complete
+Fast:on minus rdtand-Qwen3.8-27B-PrismaAQUA-5.5bit-vllm:on,541,541,complete
+Fast:on minus ModelOpt-Qwen3.8-27B-AutoQuantize-5.5bit:on,541,541,complete
+Fast:on minus unsloth-Qwen3.8-27B-NVFP4:on,541,541,complete

@@ -1,0 +1,1340 @@
+{
+  "before": [
+    {
+      "pid": 20885,
+      "start_ticks": "2314378576",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021_seed_20261021/trials/b2b556c67552d3e6e30959eb/trial/proot/prooted-37883-PyfhaN",
+      "Name": "xargs",
+      "State": "t (tracing stop)",
+      "PPid": "37909",
+      "TracerPid": "37883"
+    },
+    {
+      "pid": 37883,
+      "start_ticks": "2314216797",
+      "exe": "/root/projects/quant/build/terminal_bench/diagnostics/proot_version_ab/downloads/proot",
+      "Name": "proot",
+      "State": "R (running)",
+      "PPid": "38191",
+      "TracerPid": "0"
+    },
+    {
+      "pid": 37887,
+      "start_ticks": "2314216798",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021_seed_20261021/trials/b2b556c67552d3e6e30959eb/trial/proot/prooted-37883-PyfhaN",
+      "Name": "tmux: server",
+      "State": "S (sleeping)",
+      "PPid": "38191",
+      "TracerPid": "37883"
+    },
+    {
+      "pid": 37888,
+      "start_ticks": "2314216799",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021_seed_20261021/trials/b2b556c67552d3e6e30959eb/trial/proot/prooted-37883-PyfhaN",
+      "Name": "bash",
+      "State": "S (sleeping)",
+      "PPid": "37887",
+      "TracerPid": "37883"
+    },
+    {
+      "pid": 37890,
+      "start_ticks": "2314216799",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021_seed_20261021/trials/b2b556c67552d3e6e30959eb/trial/proot/prooted-37883-PyfhaN",
+      "Name": "sh",
+      "State": "S (sleeping)",
+      "PPid": "37887",
+      "TracerPid": "37883"
+    },
+    {
+      "pid": 37892,
+      "start_ticks": "2314216799",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021_seed_20261021/trials/b2b556c67552d3e6e30959eb/trial/proot/prooted-37883-PyfhaN",
+      "Name": "cat",
+      "State": "S (sleeping)",
+      "PPid": "37890",
+      "TracerPid": "37883"
+    },
+    {
+      "pid": 37904,
+      "start_ticks": "2314216805",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021_seed_20261021/trials/b2b556c67552d3e6e30959eb/trial/proot/prooted-37883-PyfhaN",
+      "Name": "asciinema",
+      "State": "S (sleeping)",
+      "PPid": "37888",
+      "TracerPid": "37883"
+    },
+    {
+      "pid": 37906,
+      "start_ticks": "2314216817",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021_seed_20261021/trials/b2b556c67552d3e6e30959eb/trial/proot/prooted-37883-PyfhaN",
+      "Name": "asciinema",
+      "State": "S (sleeping)",
+      "PPid": "37904",
+      "TracerPid": "37883"
+    },
+    {
+      "pid": 37907,
+      "start_ticks": "2314216817",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021_seed_20261021/trials/b2b556c67552d3e6e30959eb/trial/proot/prooted-37883-PyfhaN",
+      "Name": "asciinema",
+      "State": "S (sleeping)",
+      "PPid": "37904",
+      "TracerPid": "37883"
+    },
+    {
+      "pid": 37908,
+      "start_ticks": "2314216817",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021_seed_20261021/trials/b2b556c67552d3e6e30959eb/trial/proot/prooted-37883-PyfhaN",
+      "Name": "sh",
+      "State": "S (sleeping)",
+      "PPid": "37904",
+      "TracerPid": "37883"
+    },
+    {
+      "pid": 37909,
+      "start_ticks": "2314216817",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021_seed_20261021/trials/b2b556c67552d3e6e30959eb/trial/proot/prooted-37883-PyfhaN",
+      "Name": "bash",
+      "State": "S (sleeping)",
+      "PPid": "37908",
+      "TracerPid": "37883"
+    },
+    {
+      "pid": 50437,
+      "start_ticks": "2314403400",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021_seed_20261021/trials/b2b556c67552d3e6e30959eb/trial/proot/prooted-37883-PyfhaN",
+      "Name": "sh",
+      "State": "S (sleeping)",
+      "PPid": "20885",
+      "TracerPid": "37883"
+    },
+    {
+      "pid": 50441,
+      "start_ticks": "2314403401",
+      "exe": "[unavailable]",
+      "Name": "tesseract",
+      "State": "Z (zombie)",
+      "PPid": "50437",
+      "TracerPid": "37883"
+    },
+    {
+      "pid": 50442,
+      "start_ticks": "2314403401",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021_seed_20261021/trials/b2b556c67552d3e6e30959eb/trial/proot/prooted-37883-PyfhaN",
+      "Name": "sh",
+      "State": "S (sleeping)",
+      "PPid": "20885",
+      "TracerPid": "37883"
+    },
+    {
+      "pid": 50444,
+      "start_ticks": "2314403402",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021_seed_20261021/trials/b2b556c67552d3e6e30959eb/trial/proot/prooted-37883-PyfhaN",
+      "Name": "tesseract",
+      "State": "t (tracing stop)",
+      "PPid": "50442",
+      "TracerPid": "37883"
+    },
+    {
+      "pid": 50451,
+      "start_ticks": "2314403411",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021_seed_20261021/trials/b2b556c67552d3e6e30959eb/trial/proot/prooted-37883-PyfhaN",
+      "Name": "sh",
+      "State": "S (sleeping)",
+      "PPid": "20885",
+      "TracerPid": "37883"
+    },
+    {
+      "pid": 50455,
+      "start_ticks": "2314403411",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021_seed_20261021/trials/b2b556c67552d3e6e30959eb/trial/proot/prooted-37883-PyfhaN",
+      "Name": "sh",
+      "State": "S (sleeping)",
+      "PPid": "20885",
+      "TracerPid": "37883"
+    },
+    {
+      "pid": 50458,
+      "start_ticks": "2314403412",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021_seed_20261021/trials/b2b556c67552d3e6e30959eb/trial/proot/prooted-37883-PyfhaN",
+      "Name": "tesseract",
+      "State": "R (running)",
+      "PPid": "50451",
+      "TracerPid": "37883"
+    },
+    {
+      "pid": 50459,
+      "start_ticks": "2314403412",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021_seed_20261021/trials/b2b556c67552d3e6e30959eb/trial/proot/prooted-37883-PyfhaN",
+      "Name": "tesseract",
+      "State": "R (running)",
+      "PPid": "50455",
+      "TracerPid": "37883"
+    },
+    {
+      "pid": 50466,
+      "start_ticks": "2314403421",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021_seed_20261021/trials/b2b556c67552d3e6e30959eb/trial/proot/prooted-37883-PyfhaN",
+      "Name": "sh",
+      "State": "S (sleeping)",
+      "PPid": "20885",
+      "TracerPid": "37883"
+    },
+    {
+      "pid": 50468,
+      "start_ticks": "2314403421",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021_seed_20261021/trials/b2b556c67552d3e6e30959eb/trial/proot/prooted-37883-PyfhaN",
+      "Name": "sh",
+      "State": "S (sleeping)",
+      "PPid": "20885",
+      "TracerPid": "37883"
+    },
+    {
+      "pid": 50470,
+      "start_ticks": "2314403422",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021_seed_20261021/trials/b2b556c67552d3e6e30959eb/trial/proot/prooted-37883-PyfhaN",
+      "Name": "sh",
+      "State": "S (sleeping)",
+      "PPid": "20885",
+      "TracerPid": "37883"
+    },
+    {
+      "pid": 50471,
+      "start_ticks": "2314403422",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021_seed_20261021/trials/b2b556c67552d3e6e30959eb/trial/proot/prooted-37883-PyfhaN",
+      "Name": "tesseract",
+      "State": "R (running)",
+      "PPid": "50466",
+      "TracerPid": "37883"
+    },
+    {
+      "pid": 50473,
+      "start_ticks": "2314403423",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021_seed_20261021/trials/b2b556c67552d3e6e30959eb/trial/proot/prooted-37883-PyfhaN",
+      "Name": "tesseract",
+      "State": "R (running)",
+      "PPid": "50470",
+      "TracerPid": "37883"
+    },
+    {
+      "pid": 50474,
+      "start_ticks": "2314403423",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021_seed_20261021/trials/b2b556c67552d3e6e30959eb/trial/proot/prooted-37883-PyfhaN",
+      "Name": "tesseract",
+      "State": "R (running)",
+      "PPid": "50468",
+      "TracerPid": "37883"
+    },
+    {
+      "pid": 50478,
+      "start_ticks": "2314403431",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021_seed_20261021/trials/b2b556c67552d3e6e30959eb/trial/proot/prooted-37883-PyfhaN",
+      "Name": "sh",
+      "State": "S (sleeping)",
+      "PPid": "20885",
+      "TracerPid": "37883"
+    },
+    {
+      "pid": 50479,
+      "start_ticks": "2314403431",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021_seed_20261021/trials/b2b556c67552d3e6e30959eb/trial/proot/prooted-37883-PyfhaN",
+      "Name": "sh",
+      "State": "S (sleeping)",
+      "PPid": "20885",
+      "TracerPid": "37883"
+    },
+    {
+      "pid": 50486,
+      "start_ticks": "2314403432",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021_seed_20261021/trials/b2b556c67552d3e6e30959eb/trial/proot/prooted-37883-PyfhaN",
+      "Name": "tesseract",
+      "State": "R (running)",
+      "PPid": "50478",
+      "TracerPid": "37883"
+    },
+    {
+      "pid": 50487,
+      "start_ticks": "2314403432",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021_seed_20261021/trials/b2b556c67552d3e6e30959eb/trial/proot/prooted-37883-PyfhaN",
+      "Name": "tesseract",
+      "State": "R (running)",
+      "PPid": "50479",
+      "TracerPid": "37883"
+    },
+    {
+      "pid": 50488,
+      "start_ticks": "2314403440",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021_seed_20261021/trials/b2b556c67552d3e6e30959eb/trial/proot/prooted-37883-PyfhaN",
+      "Name": "sh",
+      "State": "S (sleeping)",
+      "PPid": "20885",
+      "TracerPid": "37883"
+    },
+    {
+      "pid": 50492,
+      "start_ticks": "2314403441",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021_seed_20261021/trials/b2b556c67552d3e6e30959eb/trial/proot/prooted-37883-PyfhaN",
+      "Name": "tesseract",
+      "State": "R (running)",
+      "PPid": "50488",
+      "TracerPid": "37883"
+    },
+    {
+      "pid": 50495,
+      "start_ticks": "2314403441",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021_seed_20261021/trials/b2b556c67552d3e6e30959eb/trial/proot/prooted-37883-PyfhaN",
+      "Name": "sh",
+      "State": "S (sleeping)",
+      "PPid": "20885",
+      "TracerPid": "37883"
+    },
+    {
+      "pid": 50500,
+      "start_ticks": "2314403451",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021_seed_20261021/trials/b2b556c67552d3e6e30959eb/trial/proot/prooted-37883-PyfhaN",
+      "Name": "tesseract",
+      "State": "R (running)",
+      "PPid": "50495",
+      "TracerPid": "37883"
+    },
+    {
+      "pid": 50504,
+      "start_ticks": "2314403452",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021_seed_20261021/trials/b2b556c67552d3e6e30959eb/trial/proot/prooted-37883-PyfhaN",
+      "Name": "sh",
+      "State": "S (sleeping)",
+      "PPid": "20885",
+      "TracerPid": "37883"
+    },
+    {
+      "pid": 50506,
+      "start_ticks": "2314403452",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021_seed_20261021/trials/b2b556c67552d3e6e30959eb/trial/proot/prooted-37883-PyfhaN",
+      "Name": "sh",
+      "State": "S (sleeping)",
+      "PPid": "20885",
+      "TracerPid": "37883"
+    },
+    {
+      "pid": 50509,
+      "start_ticks": "2314403461",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021_seed_20261021/trials/b2b556c67552d3e6e30959eb/trial/proot/prooted-37883-PyfhaN",
+      "Name": "tesseract",
+      "State": "R (running)",
+      "PPid": "50504",
+      "TracerPid": "37883"
+    },
+    {
+      "pid": 50512,
+      "start_ticks": "2314403461",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021_seed_20261021/trials/b2b556c67552d3e6e30959eb/trial/proot/prooted-37883-PyfhaN",
+      "Name": "tesseract",
+      "State": "R (running)",
+      "PPid": "50506",
+      "TracerPid": "37883"
+    },
+    {
+      "pid": 50516,
+      "start_ticks": "2314403462",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021_seed_20261021/trials/b2b556c67552d3e6e30959eb/trial/proot/prooted-37883-PyfhaN",
+      "Name": "sh",
+      "State": "S (sleeping)",
+      "PPid": "20885",
+      "TracerPid": "37883"
+    },
+    {
+      "pid": 50517,
+      "start_ticks": "2314403462",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021_seed_20261021/trials/b2b556c67552d3e6e30959eb/trial/proot/prooted-37883-PyfhaN",
+      "Name": "sh",
+      "State": "S (sleeping)",
+      "PPid": "20885",
+      "TracerPid": "37883"
+    },
+    {
+      "pid": 50520,
+      "start_ticks": "2314403470",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021_seed_20261021/trials/b2b556c67552d3e6e30959eb/trial/proot/prooted-37883-PyfhaN",
+      "Name": "tesseract",
+      "State": "R (running)",
+      "PPid": "50517",
+      "TracerPid": "37883"
+    },
+    {
+      "pid": 50521,
+      "start_ticks": "2314403470",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021_seed_20261021/trials/b2b556c67552d3e6e30959eb/trial/proot/prooted-37883-PyfhaN",
+      "Name": "tesseract",
+      "State": "R (running)",
+      "PPid": "50516",
+      "TracerPid": "37883"
+    },
+    {
+      "pid": 50522,
+      "start_ticks": "2314403472",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021_seed_20261021/trials/b2b556c67552d3e6e30959eb/trial/proot/prooted-37883-PyfhaN",
+      "Name": "sh",
+      "State": "S (sleeping)",
+      "PPid": "20885",
+      "TracerPid": "37883"
+    },
+    {
+      "pid": 50523,
+      "start_ticks": "2314403472",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021_seed_20261021/trials/b2b556c67552d3e6e30959eb/trial/proot/prooted-37883-PyfhaN",
+      "Name": "sh",
+      "State": "S (sleeping)",
+      "PPid": "20885",
+      "TracerPid": "37883"
+    },
+    {
+      "pid": 50526,
+      "start_ticks": "2314403473",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021_seed_20261021/trials/b2b556c67552d3e6e30959eb/trial/proot/prooted-37883-PyfhaN",
+      "Name": "sh",
+      "State": "S (sleeping)",
+      "PPid": "20885",
+      "TracerPid": "37883"
+    },
+    {
+      "pid": 50527,
+      "start_ticks": "2314403480",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021_seed_20261021/trials/b2b556c67552d3e6e30959eb/trial/proot/prooted-37883-PyfhaN",
+      "Name": "tesseract",
+      "State": "R (running)",
+      "PPid": "50522",
+      "TracerPid": "37883"
+    },
+    {
+      "pid": 50529,
+      "start_ticks": "2314403480",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021_seed_20261021/trials/b2b556c67552d3e6e30959eb/trial/proot/prooted-37883-PyfhaN",
+      "Name": "tesseract",
+      "State": "t (tracing stop)",
+      "PPid": "50523",
+      "TracerPid": "37883"
+    },
+    {
+      "pid": 50531,
+      "start_ticks": "2314403481",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021_seed_20261021/trials/b2b556c67552d3e6e30959eb/trial/proot/prooted-37883-PyfhaN",
+      "Name": "tesseract",
+      "State": "R (running)",
+      "PPid": "50526",
+      "TracerPid": "37883"
+    },
+    {
+      "pid": 50536,
+      "start_ticks": "2314403482",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021_seed_20261021/trials/b2b556c67552d3e6e30959eb/trial/proot/prooted-37883-PyfhaN",
+      "Name": "sh",
+      "State": "S (sleeping)",
+      "PPid": "20885",
+      "TracerPid": "37883"
+    },
+    {
+      "pid": 50539,
+      "start_ticks": "2314403490",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021_seed_20261021/trials/b2b556c67552d3e6e30959eb/trial/proot/prooted-37883-PyfhaN",
+      "Name": "sh",
+      "State": "S (sleeping)",
+      "PPid": "20885",
+      "TracerPid": "37883"
+    },
+    {
+      "pid": 50541,
+      "start_ticks": "2314403490",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021_seed_20261021/trials/b2b556c67552d3e6e30959eb/trial/proot/prooted-37883-PyfhaN",
+      "Name": "sh",
+      "State": "S (sleeping)",
+      "PPid": "20885",
+      "TracerPid": "37883"
+    },
+    {
+      "pid": 50544,
+      "start_ticks": "2314403490",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021_seed_20261021/trials/b2b556c67552d3e6e30959eb/trial/proot/prooted-37883-PyfhaN",
+      "Name": "sh",
+      "State": "S (sleeping)",
+      "PPid": "20885",
+      "TracerPid": "37883"
+    },
+    {
+      "pid": 50546,
+      "start_ticks": "2314403491",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021_seed_20261021/trials/b2b556c67552d3e6e30959eb/trial/proot/prooted-37883-PyfhaN",
+      "Name": "sh",
+      "State": "S (sleeping)",
+      "PPid": "20885",
+      "TracerPid": "37883"
+    },
+    {
+      "pid": 50551,
+      "start_ticks": "2314403492",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021_seed_20261021/trials/b2b556c67552d3e6e30959eb/trial/proot/prooted-37883-PyfhaN",
+      "Name": "tesseract",
+      "State": "R (running)",
+      "PPid": "50544",
+      "TracerPid": "37883"
+    },
+    {
+      "pid": 50552,
+      "start_ticks": "2314403492",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021_seed_20261021/trials/b2b556c67552d3e6e30959eb/trial/proot/prooted-37883-PyfhaN",
+      "Name": "tesseract",
+      "State": "R (running)",
+      "PPid": "50546",
+      "TracerPid": "37883"
+    },
+    {
+      "pid": 50553,
+      "start_ticks": "2314403492",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021_seed_20261021/trials/b2b556c67552d3e6e30959eb/trial/proot/prooted-37883-PyfhaN",
+      "Name": "tesseract",
+      "State": "R (running)",
+      "PPid": "50536",
+      "TracerPid": "37883"
+    },
+    {
+      "pid": 50561,
+      "start_ticks": "2314403501",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021_seed_20261021/trials/b2b556c67552d3e6e30959eb/trial/proot/prooted-37883-PyfhaN",
+      "Name": "tesseract",
+      "State": "R (running)",
+      "PPid": "50541",
+      "TracerPid": "37883"
+    },
+    {
+      "pid": 50562,
+      "start_ticks": "2314403501",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021_seed_20261021/trials/b2b556c67552d3e6e30959eb/trial/proot/prooted-37883-PyfhaN",
+      "Name": "tesseract",
+      "State": "R (running)",
+      "PPid": "50539",
+      "TracerPid": "37883"
+    },
+    {
+      "pid": 50563,
+      "start_ticks": "2314403510",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021_seed_20261021/trials/b2b556c67552d3e6e30959eb/trial/proot/prooted-37883-PyfhaN",
+      "Name": "sh",
+      "State": "S (sleeping)",
+      "PPid": "20885",
+      "TracerPid": "37883"
+    },
+    {
+      "pid": 50567,
+      "start_ticks": "2314403510",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021_seed_20261021/trials/b2b556c67552d3e6e30959eb/trial/proot/prooted-37883-PyfhaN",
+      "Name": "sh",
+      "State": "S (sleeping)",
+      "PPid": "20885",
+      "TracerPid": "37883"
+    },
+    {
+      "pid": 50572,
+      "start_ticks": "2314403511",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021_seed_20261021/trials/b2b556c67552d3e6e30959eb/trial/proot/prooted-37883-PyfhaN",
+      "Name": "tesseract",
+      "State": "R (running)",
+      "PPid": "50567",
+      "TracerPid": "37883"
+    },
+    {
+      "pid": 50573,
+      "start_ticks": "2314403511",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021_seed_20261021/trials/b2b556c67552d3e6e30959eb/trial/proot/prooted-37883-PyfhaN",
+      "Name": "tesseract",
+      "State": "R (running)",
+      "PPid": "50563",
+      "TracerPid": "37883"
+    },
+    {
+      "pid": 50575,
+      "start_ticks": "2314403521",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021_seed_20261021/trials/b2b556c67552d3e6e30959eb/trial/proot/prooted-37883-PyfhaN",
+      "Name": "sh",
+      "State": "S (sleeping)",
+      "PPid": "20885",
+      "TracerPid": "37883"
+    },
+    {
+      "pid": 50594,
+      "start_ticks": "2314403532",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021_seed_20261021/trials/b2b556c67552d3e6e30959eb/trial/proot/prooted-37883-PyfhaN",
+      "Name": "tesseract",
+      "State": "R (running)",
+      "PPid": "50575",
+      "TracerPid": "37883"
+    },
+    {
+      "pid": 50596,
+      "start_ticks": "2314403540",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021_seed_20261021/trials/b2b556c67552d3e6e30959eb/trial/proot/prooted-37883-PyfhaN",
+      "Name": "sh",
+      "State": "S (sleeping)",
+      "PPid": "20885",
+      "TracerPid": "37883"
+    },
+    {
+      "pid": 50597,
+      "start_ticks": "2314403540",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021_seed_20261021/trials/b2b556c67552d3e6e30959eb/trial/proot/prooted-37883-PyfhaN",
+      "Name": "sh",
+      "State": "S (sleeping)",
+      "PPid": "20885",
+      "TracerPid": "37883"
+    },
+    {
+      "pid": 50599,
+      "start_ticks": "2314403541",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021_seed_20261021/trials/b2b556c67552d3e6e30959eb/trial/proot/prooted-37883-PyfhaN",
+      "Name": "sh",
+      "State": "S (sleeping)",
+      "PPid": "20885",
+      "TracerPid": "37883"
+    },
+    {
+      "pid": 50602,
+      "start_ticks": "2314403550",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021_seed_20261021/trials/b2b556c67552d3e6e30959eb/trial/proot/prooted-37883-PyfhaN",
+      "Name": "tesseract",
+      "State": "R (running)",
+      "PPid": "50596",
+      "TracerPid": "37883"
+    },
+    {
+      "pid": 50604,
+      "start_ticks": "2314403550",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021_seed_20261021/trials/b2b556c67552d3e6e30959eb/trial/proot/prooted-37883-PyfhaN",
+      "Name": "tesseract",
+      "State": "R (running)",
+      "PPid": "50597",
+      "TracerPid": "37883"
+    },
+    {
+      "pid": 50619,
+      "start_ticks": "2314403561",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021_seed_20261021/trials/b2b556c67552d3e6e30959eb/trial/proot/prooted-37883-PyfhaN",
+      "Name": "sh",
+      "State": "S (sleeping)",
+      "PPid": "20885",
+      "TracerPid": "37883"
+    },
+    {
+      "pid": 50625,
+      "start_ticks": "2314403570",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021_seed_20261021/trials/b2b556c67552d3e6e30959eb/trial/proot/prooted-37883-PyfhaN",
+      "Name": "tesseract",
+      "State": "R (running)",
+      "PPid": "50599",
+      "TracerPid": "37883"
+    },
+    {
+      "pid": 50633,
+      "start_ticks": "2314403580",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021_seed_20261021/trials/b2b556c67552d3e6e30959eb/trial/proot/prooted-37883-PyfhaN",
+      "Name": "sh",
+      "State": "S (sleeping)",
+      "PPid": "20885",
+      "TracerPid": "37883"
+    },
+    {
+      "pid": 50634,
+      "start_ticks": "2314403580",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021_seed_20261021/trials/b2b556c67552d3e6e30959eb/trial/proot/prooted-37883-PyfhaN",
+      "Name": "tesseract",
+      "State": "R (running)",
+      "PPid": "50619",
+      "TracerPid": "37883"
+    },
+    {
+      "pid": 50639,
+      "start_ticks": "2314403590",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021_seed_20261021/trials/b2b556c67552d3e6e30959eb/trial/proot/prooted-37883-PyfhaN",
+      "Name": "sh",
+      "State": "S (sleeping)",
+      "PPid": "20885",
+      "TracerPid": "37883"
+    },
+    {
+      "pid": 50651,
+      "start_ticks": "2314403601",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021_seed_20261021/trials/b2b556c67552d3e6e30959eb/trial/proot/prooted-37883-PyfhaN",
+      "Name": "tesseract",
+      "State": "R (running)",
+      "PPid": "50633",
+      "TracerPid": "37883"
+    },
+    {
+      "pid": 50652,
+      "start_ticks": "2314403610",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021_seed_20261021/trials/b2b556c67552d3e6e30959eb/trial/proot/prooted-37883-PyfhaN",
+      "Name": "tesseract",
+      "State": "R (running)",
+      "PPid": "50639",
+      "TracerPid": "37883"
+    },
+    {
+      "pid": 50653,
+      "start_ticks": "2314403611",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021_seed_20261021/trials/b2b556c67552d3e6e30959eb/trial/proot/prooted-37883-PyfhaN",
+      "Name": "sh",
+      "State": "S (sleeping)",
+      "PPid": "20885",
+      "TracerPid": "37883"
+    },
+    {
+      "pid": 50657,
+      "start_ticks": "2314403612",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021_seed_20261021/trials/b2b556c67552d3e6e30959eb/trial/proot/prooted-37883-PyfhaN",
+      "Name": "sh",
+      "State": "S (sleeping)",
+      "PPid": "20885",
+      "TracerPid": "37883"
+    },
+    {
+      "pid": 50663,
+      "start_ticks": "2314403621",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021_seed_20261021/trials/b2b556c67552d3e6e30959eb/trial/proot/prooted-37883-PyfhaN",
+      "Name": "tesseract",
+      "State": "R (running)",
+      "PPid": "50653",
+      "TracerPid": "37883"
+    },
+    {
+      "pid": 50664,
+      "start_ticks": "2314403621",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021_seed_20261021/trials/b2b556c67552d3e6e30959eb/trial/proot/prooted-37883-PyfhaN",
+      "Name": "tesseract",
+      "State": "R (running)",
+      "PPid": "50657",
+      "TracerPid": "37883"
+    },
+    {
+      "pid": 50682,
+      "start_ticks": "2314403632",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021_seed_20261021/trials/b2b556c67552d3e6e30959eb/trial/proot/prooted-37883-PyfhaN",
+      "Name": "sh",
+      "State": "S (sleeping)",
+      "PPid": "20885",
+      "TracerPid": "37883"
+    },
+    {
+      "pid": 50685,
+      "start_ticks": "2314403640",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021_seed_20261021/trials/b2b556c67552d3e6e30959eb/trial/proot/prooted-37883-PyfhaN",
+      "Name": "sh",
+      "State": "S (sleeping)",
+      "PPid": "20885",
+      "TracerPid": "37883"
+    },
+    {
+      "pid": 50686,
+      "start_ticks": "2314403641",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021_seed_20261021/trials/b2b556c67552d3e6e30959eb/trial/proot/prooted-37883-PyfhaN",
+      "Name": "sh",
+      "State": "S (sleeping)",
+      "PPid": "20885",
+      "TracerPid": "37883"
+    },
+    {
+      "pid": 50687,
+      "start_ticks": "2314403650",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021_seed_20261021/trials/b2b556c67552d3e6e30959eb/trial/proot/prooted-37883-PyfhaN",
+      "Name": "tesseract",
+      "State": "R (running)",
+      "PPid": "50682",
+      "TracerPid": "37883"
+    },
+    {
+      "pid": 50689,
+      "start_ticks": "2314403660",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021_seed_20261021/trials/b2b556c67552d3e6e30959eb/trial/proot/prooted-37883-PyfhaN",
+      "Name": "sh",
+      "State": "S (sleeping)",
+      "PPid": "20885",
+      "TracerPid": "37883"
+    },
+    {
+      "pid": 50690,
+      "start_ticks": "2314403660",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021_seed_20261021/trials/b2b556c67552d3e6e30959eb/trial/proot/prooted-37883-PyfhaN",
+      "Name": "tesseract",
+      "State": "R (running)",
+      "PPid": "50685",
+      "TracerPid": "37883"
+    },
+    {
+      "pid": 50696,
+      "start_ticks": "2314403670",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021_seed_20261021/trials/b2b556c67552d3e6e30959eb/trial/proot/prooted-37883-PyfhaN",
+      "Name": "tesseract",
+      "State": "R (running)",
+      "PPid": "50686",
+      "TracerPid": "37883"
+    },
+    {
+      "pid": 50697,
+      "start_ticks": "2314403672",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021_seed_20261021/trials/b2b556c67552d3e6e30959eb/trial/proot/prooted-37883-PyfhaN",
+      "Name": "sh",
+      "State": "S (sleeping)",
+      "PPid": "20885",
+      "TracerPid": "37883"
+    },
+    {
+      "pid": 50702,
+      "start_ticks": "2314403682",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021_seed_20261021/trials/b2b556c67552d3e6e30959eb/trial/proot/prooted-37883-PyfhaN",
+      "Name": "tesseract",
+      "State": "R (running)",
+      "PPid": "50697",
+      "TracerPid": "37883"
+    },
+    {
+      "pid": 50706,
+      "start_ticks": "2314403682",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021_seed_20261021/trials/b2b556c67552d3e6e30959eb/trial/proot/prooted-37883-PyfhaN",
+      "Name": "sh",
+      "State": "S (sleeping)",
+      "PPid": "20885",
+      "TracerPid": "37883"
+    },
+    {
+      "pid": 50708,
+      "start_ticks": "2314403691",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021_seed_20261021/trials/b2b556c67552d3e6e30959eb/trial/proot/prooted-37883-PyfhaN",
+      "Name": "tesseract",
+      "State": "R (running)",
+      "PPid": "50689",
+      "TracerPid": "37883"
+    },
+    {
+      "pid": 50710,
+      "start_ticks": "2314403700",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021_seed_20261021/trials/b2b556c67552d3e6e30959eb/trial/proot/prooted-37883-PyfhaN",
+      "Name": "tesseract",
+      "State": "R (running)",
+      "PPid": "50706",
+      "TracerPid": "37883"
+    },
+    {
+      "pid": 50716,
+      "start_ticks": "2314403710",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021_seed_20261021/trials/b2b556c67552d3e6e30959eb/trial/proot/prooted-37883-PyfhaN",
+      "Name": "sh",
+      "State": "S (sleeping)",
+      "PPid": "20885",
+      "TracerPid": "37883"
+    },
+    {
+      "pid": 50718,
+      "start_ticks": "2314403721",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021_seed_20261021/trials/b2b556c67552d3e6e30959eb/trial/proot/prooted-37883-PyfhaN",
+      "Name": "sh",
+      "State": "S (sleeping)",
+      "PPid": "20885",
+      "TracerPid": "37883"
+    },
+    {
+      "pid": 50719,
+      "start_ticks": "2314403721",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021_seed_20261021/trials/b2b556c67552d3e6e30959eb/trial/proot/prooted-37883-PyfhaN",
+      "Name": "sh",
+      "State": "S (sleeping)",
+      "PPid": "20885",
+      "TracerPid": "37883"
+    },
+    {
+      "pid": 50723,
+      "start_ticks": "2314403722",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021_seed_20261021/trials/b2b556c67552d3e6e30959eb/trial/proot/prooted-37883-PyfhaN",
+      "Name": "tesseract",
+      "State": "t (tracing stop)",
+      "PPid": "50716",
+      "TracerPid": "37883"
+    },
+    {
+      "pid": 50726,
+      "start_ticks": "2314403732",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021_seed_20261021/trials/b2b556c67552d3e6e30959eb/trial/proot/prooted-37883-PyfhaN",
+      "Name": "tesseract",
+      "State": "t (tracing stop)",
+      "PPid": "50718",
+      "TracerPid": "37883"
+    },
+    {
+      "pid": 50727,
+      "start_ticks": "2314403732",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021_seed_20261021/trials/b2b556c67552d3e6e30959eb/trial/proot/prooted-37883-PyfhaN",
+      "Name": "sh",
+      "State": "S (sleeping)",
+      "PPid": "20885",
+      "TracerPid": "37883"
+    },
+    {
+      "pid": 50731,
+      "start_ticks": "2314403741",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021_seed_20261021/trials/b2b556c67552d3e6e30959eb/trial/proot/prooted-37883-PyfhaN",
+      "Name": "tesseract",
+      "State": "t (tracing stop)",
+      "PPid": "50727",
+      "TracerPid": "37883"
+    },
+    {
+      "pid": 50732,
+      "start_ticks": "2314403741",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021_seed_20261021/trials/b2b556c67552d3e6e30959eb/trial/proot/prooted-37883-PyfhaN",
+      "Name": "tesseract",
+      "State": "R (running)",
+      "PPid": "50719",
+      "TracerPid": "37883"
+    },
+    {
+      "pid": 50736,
+      "start_ticks": "2314403751",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021_seed_20261021/trials/b2b556c67552d3e6e30959eb/trial/proot/prooted-37883-PyfhaN",
+      "Name": "sh",
+      "State": "S (sleeping)",
+      "PPid": "20885",
+      "TracerPid": "37883"
+    },
+    {
+      "pid": 50741,
+      "start_ticks": "2314403752",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021_seed_20261021/trials/b2b556c67552d3e6e30959eb/trial/proot/prooted-37883-PyfhaN",
+      "Name": "tesseract",
+      "State": "t (tracing stop)",
+      "PPid": "50736",
+      "TracerPid": "37883"
+    },
+    {
+      "pid": 50742,
+      "start_ticks": "2314403752",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021_seed_20261021/trials/b2b556c67552d3e6e30959eb/trial/proot/prooted-37883-PyfhaN",
+      "Name": "sh",
+      "State": "S (sleeping)",
+      "PPid": "20885",
+      "TracerPid": "37883"
+    },
+    {
+      "pid": 50743,
+      "start_ticks": "2314403760",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021_seed_20261021/trials/b2b556c67552d3e6e30959eb/trial/proot/prooted-37883-PyfhaN",
+      "Name": "sh",
+      "State": "S (sleeping)",
+      "PPid": "20885",
+      "TracerPid": "37883"
+    },
+    {
+      "pid": 50747,
+      "start_ticks": "2314403761",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021_seed_20261021/trials/b2b556c67552d3e6e30959eb/trial/proot/prooted-37883-PyfhaN",
+      "Name": "tesseract",
+      "State": "t (tracing stop)",
+      "PPid": "50742",
+      "TracerPid": "37883"
+    },
+    {
+      "pid": 50748,
+      "start_ticks": "2314403761",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021_seed_20261021/trials/b2b556c67552d3e6e30959eb/trial/proot/prooted-37883-PyfhaN",
+      "Name": "tesseract",
+      "State": "t (tracing stop)",
+      "PPid": "50743",
+      "TracerPid": "37883"
+    },
+    {
+      "pid": 50754,
+      "start_ticks": "2314403772",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021_seed_20261021/trials/b2b556c67552d3e6e30959eb/trial/proot/prooted-37883-PyfhaN",
+      "Name": "sh",
+      "State": "S (sleeping)",
+      "PPid": "20885",
+      "TracerPid": "37883"
+    },
+    {
+      "pid": 50758,
+      "start_ticks": "2314403772",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021_seed_20261021/trials/b2b556c67552d3e6e30959eb/trial/proot/prooted-37883-PyfhaN",
+      "Name": "sh",
+      "State": "S (sleeping)",
+      "PPid": "20885",
+      "TracerPid": "37883"
+    },
+    {
+      "pid": 50766,
+      "start_ticks": "2314403780",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021_seed_20261021/trials/b2b556c67552d3e6e30959eb/trial/proot/prooted-37883-PyfhaN",
+      "Name": "tesseract",
+      "State": "t (tracing stop)",
+      "PPid": "50754",
+      "TracerPid": "37883"
+    },
+    {
+      "pid": 50768,
+      "start_ticks": "2314403780",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021_seed_20261021/trials/b2b556c67552d3e6e30959eb/trial/proot/prooted-37883-PyfhaN",
+      "Name": "sh",
+      "State": "S (sleeping)",
+      "PPid": "20885",
+      "TracerPid": "37883"
+    },
+    {
+      "pid": 50769,
+      "start_ticks": "2314403780",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021_seed_20261021/trials/b2b556c67552d3e6e30959eb/trial/proot/prooted-37883-PyfhaN",
+      "Name": "sh",
+      "State": "S (sleeping)",
+      "PPid": "20885",
+      "TracerPid": "37883"
+    },
+    {
+      "pid": 50773,
+      "start_ticks": "2314403781",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021_seed_20261021/trials/b2b556c67552d3e6e30959eb/trial/proot/prooted-37883-PyfhaN",
+      "Name": "tesseract",
+      "State": "R (running)",
+      "PPid": "50768",
+      "TracerPid": "37883"
+    },
+    {
+      "pid": 50775,
+      "start_ticks": "2314403781",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021_seed_20261021/trials/b2b556c67552d3e6e30959eb/trial/proot/prooted-37883-PyfhaN",
+      "Name": "tesseract",
+      "State": "t (tracing stop)",
+      "PPid": "50769",
+      "TracerPid": "37883"
+    },
+    {
+      "pid": 50776,
+      "start_ticks": "2314403782",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021_seed_20261021/trials/b2b556c67552d3e6e30959eb/trial/proot/prooted-37883-PyfhaN",
+      "Name": "tesseract",
+      "State": "t (tracing stop)",
+      "PPid": "50758",
+      "TracerPid": "37883"
+    },
+    {
+      "pid": 50779,
+      "start_ticks": "2314403791",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021_seed_20261021/trials/b2b556c67552d3e6e30959eb/trial/proot/prooted-37883-PyfhaN",
+      "Name": "sh",
+      "State": "S (sleeping)",
+      "PPid": "20885",
+      "TracerPid": "37883"
+    },
+    {
+      "pid": 50787,
+      "start_ticks": "2314403792",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021_seed_20261021/trials/b2b556c67552d3e6e30959eb/trial/proot/prooted-37883-PyfhaN",
+      "Name": "sh",
+      "State": "S (sleeping)",
+      "PPid": "20885",
+      "TracerPid": "37883"
+    },
+    {
+      "pid": 50793,
+      "start_ticks": "2314403792",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021_seed_20261021/trials/b2b556c67552d3e6e30959eb/trial/proot/prooted-37883-PyfhaN",
+      "Name": "tesseract",
+      "State": "R (running)",
+      "PPid": "50779",
+      "TracerPid": "37883"
+    },
+    {
+      "pid": 50794,
+      "start_ticks": "2314403793",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021_seed_20261021/trials/b2b556c67552d3e6e30959eb/trial/proot/prooted-37883-PyfhaN",
+      "Name": "sh",
+      "State": "S (sleeping)",
+      "PPid": "20885",
+      "TracerPid": "37883"
+    },
+    {
+      "pid": 50797,
+      "start_ticks": "2314403800",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021_seed_20261021/trials/b2b556c67552d3e6e30959eb/trial/proot/prooted-37883-PyfhaN",
+      "Name": "tesseract",
+      "State": "t (tracing stop)",
+      "PPid": "50787",
+      "TracerPid": "37883"
+    },
+    {
+      "pid": 50801,
+      "start_ticks": "2314403810",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021_seed_20261021/trials/b2b556c67552d3e6e30959eb/trial/proot/prooted-37883-PyfhaN",
+      "Name": "tesseract",
+      "State": "t (tracing stop)",
+      "PPid": "50794",
+      "TracerPid": "37883"
+    },
+    {
+      "pid": 50805,
+      "start_ticks": "2314403811",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021_seed_20261021/trials/b2b556c67552d3e6e30959eb/trial/proot/prooted-37883-PyfhaN",
+      "Name": "sh",
+      "State": "S (sleeping)",
+      "PPid": "20885",
+      "TracerPid": "37883"
+    },
+    {
+      "pid": 50806,
+      "start_ticks": "2314403811",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021_seed_20261021/trials/b2b556c67552d3e6e30959eb/trial/proot/prooted-37883-PyfhaN",
+      "Name": "sh",
+      "State": "S (sleeping)",
+      "PPid": "20885",
+      "TracerPid": "37883"
+    },
+    {
+      "pid": 50809,
+      "start_ticks": "2314403820",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021_seed_20261021/trials/b2b556c67552d3e6e30959eb/trial/proot/prooted-37883-PyfhaN",
+      "Name": "tesseract",
+      "State": "R (running)",
+      "PPid": "50806",
+      "TracerPid": "37883"
+    },
+    {
+      "pid": 50810,
+      "start_ticks": "2314403820",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021_seed_20261021/trials/b2b556c67552d3e6e30959eb/trial/proot/prooted-37883-PyfhaN",
+      "Name": "tesseract",
+      "State": "R (running)",
+      "PPid": "50805",
+      "TracerPid": "37883"
+    },
+    {
+      "pid": 50817,
+      "start_ticks": "2314403831",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021_seed_20261021/trials/b2b556c67552d3e6e30959eb/trial/proot/prooted-37883-PyfhaN",
+      "Name": "sh",
+      "State": "S (sleeping)",
+      "PPid": "20885",
+      "TracerPid": "37883"
+    },
+    {
+      "pid": 50821,
+      "start_ticks": "2314403832",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021_seed_20261021/trials/b2b556c67552d3e6e30959eb/trial/proot/prooted-37883-PyfhaN",
+      "Name": "sh",
+      "State": "S (sleeping)",
+      "PPid": "20885",
+      "TracerPid": "37883"
+    },
+    {
+      "pid": 50828,
+      "start_ticks": "2314403840",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021_seed_20261021/trials/b2b556c67552d3e6e30959eb/trial/proot/prooted-37883-PyfhaN",
+      "Name": "tesseract",
+      "State": "t (tracing stop)",
+      "PPid": "50817",
+      "TracerPid": "37883"
+    },
+    {
+      "pid": 50831,
+      "start_ticks": "2314403841",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021_seed_20261021/trials/b2b556c67552d3e6e30959eb/trial/proot/prooted-37883-PyfhaN",
+      "Name": "tesseract",
+      "State": "t (tracing stop)",
+      "PPid": "50821",
+      "TracerPid": "37883"
+    },
+    {
+      "pid": 50832,
+      "start_ticks": "2314403842",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021_seed_20261021/trials/b2b556c67552d3e6e30959eb/trial/proot/prooted-37883-PyfhaN",
+      "Name": "sh",
+      "State": "S (sleeping)",
+      "PPid": "20885",
+      "TracerPid": "37883"
+    },
+    {
+      "pid": 50837,
+      "start_ticks": "2314403850",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021_seed_20261021/trials/b2b556c67552d3e6e30959eb/trial/proot/prooted-37883-PyfhaN",
+      "Name": "sh",
+      "State": "S (sleeping)",
+      "PPid": "20885",
+      "TracerPid": "37883"
+    },
+    {
+      "pid": 50838,
+      "start_ticks": "2314403851",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021_seed_20261021/trials/b2b556c67552d3e6e30959eb/trial/proot/prooted-37883-PyfhaN",
+      "Name": "tesseract",
+      "State": "t (tracing stop)",
+      "PPid": "50832",
+      "TracerPid": "37883"
+    },
+    {
+      "pid": 50839,
+      "start_ticks": "2314403851",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021_seed_20261021/trials/b2b556c67552d3e6e30959eb/trial/proot/prooted-37883-PyfhaN",
+      "Name": "sh",
+      "State": "S (sleeping)",
+      "PPid": "20885",
+      "TracerPid": "37883"
+    },
+    {
+      "pid": 50843,
+      "start_ticks": "2314403860",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021_seed_20261021/trials/b2b556c67552d3e6e30959eb/trial/proot/prooted-37883-PyfhaN",
+      "Name": "tesseract",
+      "State": "t (tracing stop)",
+      "PPid": "50837",
+      "TracerPid": "37883"
+    },
+    {
+      "pid": 50844,
+      "start_ticks": "2314403860",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021_seed_20261021/trials/b2b556c67552d3e6e30959eb/trial/proot/prooted-37883-PyfhaN",
+      "Name": "tesseract",
+      "State": "t (tracing stop)",
+      "PPid": "50839",
+      "TracerPid": "37883"
+    },
+    {
+      "pid": 50847,
+      "start_ticks": "2314403861",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021_seed_20261021/trials/b2b556c67552d3e6e30959eb/trial/proot/prooted-37883-PyfhaN",
+      "Name": "sh",
+      "State": "S (sleeping)",
+      "PPid": "20885",
+      "TracerPid": "37883"
+    },
+    {
+      "pid": 50848,
+      "start_ticks": "2314403862",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021_seed_20261021/trials/b2b556c67552d3e6e30959eb/trial/proot/prooted-37883-PyfhaN",
+      "Name": "sh",
+      "State": "S (sleeping)",
+      "PPid": "20885",
+      "TracerPid": "37883"
+    },
+    {
+      "pid": 50852,
+      "start_ticks": "2314403862",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021_seed_20261021/trials/b2b556c67552d3e6e30959eb/trial/proot/prooted-37883-PyfhaN",
+      "Name": "sh",
+      "State": "S (sleeping)",
+      "PPid": "20885",
+      "TracerPid": "37883"
+    },
+    {
+      "pid": 50854,
+      "start_ticks": "2314403862",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021_seed_20261021/trials/b2b556c67552d3e6e30959eb/trial/proot/prooted-37883-PyfhaN",
+      "Name": "sh",
+      "State": "S (sleeping)",
+      "PPid": "20885",
+      "TracerPid": "37883"
+    },
+    {
+      "pid": 50858,
+      "start_ticks": "2314403870",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021_seed_20261021/trials/b2b556c67552d3e6e30959eb/trial/proot/prooted-37883-PyfhaN",
+      "Name": "tesseract",
+      "State": "t (tracing stop)",
+      "PPid": "50848",
+      "TracerPid": "37883"
+    },
+    {
+      "pid": 50859,
+      "start_ticks": "2314403871",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021_seed_20261021/trials/b2b556c67552d3e6e30959eb/trial/proot/prooted-37883-PyfhaN",
+      "Name": "tesseract",
+      "State": "t (tracing stop)",
+      "PPid": "50852",
+      "TracerPid": "37883"
+    },
+    {
+      "pid": 50860,
+      "start_ticks": "2314403871",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021_seed_20261021/trials/b2b556c67552d3e6e30959eb/trial/proot/prooted-37883-PyfhaN",
+      "Name": "tesseract",
+      "State": "t (tracing stop)",
+      "PPid": "50847",
+      "TracerPid": "37883"
+    },
+    {
+      "pid": 50861,
+      "start_ticks": "2314403871",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021_seed_20261021/trials/b2b556c67552d3e6e30959eb/trial/proot/prooted-37883-PyfhaN",
+      "Name": "tesseract",
+      "State": "t (tracing stop)",
+      "PPid": "50854",
+      "TracerPid": "37883"
+    },
+    {
+      "pid": 50886,
+      "start_ticks": "2314403890",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021_seed_20261021/trials/b2b556c67552d3e6e30959eb/trial/proot/prooted-37883-PyfhaN",
+      "Name": "sh",
+      "State": "t (tracing stop)",
+      "PPid": "20885",
+      "TracerPid": "37883"
+    },
+    {
+      "pid": 50892,
+      "start_ticks": "2314403891",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021_seed_20261021/trials/b2b556c67552d3e6e30959eb/trial/proot/prooted-37883-PyfhaN",
+      "Name": "sh",
+      "State": "t (tracing stop)",
+      "PPid": "20885",
+      "TracerPid": "37883"
+    },
+    {
+      "pid": 50894,
+      "start_ticks": "2314403891",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021_seed_20261021/trials/b2b556c67552d3e6e30959eb/trial/proot/prooted-37883-PyfhaN",
+      "Name": "sh",
+      "State": "S (sleeping)",
+      "PPid": "20885",
+      "TracerPid": "37883"
+    },
+    {
+      "pid": 50895,
+      "start_ticks": "2314403891",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021_seed_20261021/trials/b2b556c67552d3e6e30959eb/trial/proot/prooted-37883-PyfhaN",
+      "Name": "sh",
+      "State": "S (sleeping)",
+      "PPid": "20885",
+      "TracerPid": "37883"
+    },
+    {
+      "pid": 50896,
+      "start_ticks": "2314403891",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021_seed_20261021/trials/b2b556c67552d3e6e30959eb/trial/proot/prooted-37883-PyfhaN",
+      "Name": "sh",
+      "State": "S (sleeping)",
+      "PPid": "20885",
+      "TracerPid": "37883"
+    },
+    {
+      "pid": 50910,
+      "start_ticks": "2314403901",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021_seed_20261021/trials/b2b556c67552d3e6e30959eb/trial/proot/prooted-37883-PyfhaN",
+      "Name": "tesseract",
+      "State": "t (tracing stop)",
+      "PPid": "50895",
+      "TracerPid": "37883"
+    },
+    {
+      "pid": 50911,
+      "start_ticks": "2314403901",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021_seed_20261021/trials/b2b556c67552d3e6e30959eb/trial/proot/prooted-37883-PyfhaN",
+      "Name": "tesseract",
+      "State": "R (running)",
+      "PPid": "50896",
+      "TracerPid": "37883"
+    }
+  ],
+  "after": [],
+  "delete_requested": true,
+  "rootfs_retained_for_evidence": true,
+  "child_cpu": 46263.416903
+}

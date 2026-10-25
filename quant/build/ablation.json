@@ -1,0 +1,91 @@
+{
+  "passed": true,
+  "source_versions": {
+    "before": "d96bda202d93e356a7fe81313c80c08963be9b70f61433d4fd30b86edce97a32",
+    "after": "1021d3843ae966ed6dacaf0b126c9d11b2bab3347fbee9174d8a2034b98b9de7"
+  },
+  "runs": [
+    {
+      "run": "bf16_reference",
+      "metrics_identical": true,
+      "full_distribution_hashes_identical": true,
+      "distributions": 8,
+      "worker_exit_code": 0,
+      "cleanup_error": false
+    },
+    {
+      "run": "bf16_repeat",
+      "metrics_identical": true,
+      "full_distribution_hashes_identical": true,
+      "distributions": 8,
+      "worker_exit_code": 0,
+      "cleanup_error": false
+    },
+    {
+      "run": "Qwen-Qwen3.8-27B-FP8",
+      "metrics_identical": true,
+      "full_distribution_hashes_identical": true,
+      "distributions": 8,
+      "worker_exit_code": 0,
+      "cleanup_error": false
+    },
+    {
+      "run": "RadixArk-Qwen3.8-27B-NVFP4",
+      "metrics_identical": true,
+      "full_distribution_hashes_identical": true,
+      "distributions": 8,
+      "worker_exit_code": 0,
+      "cleanup_error": false
+    },
+    {
+      "run": "RadixArk-Qwen3.8-27B-NVFP4-BF16-LMHead",
+      "metrics_identical": true,
+      "full_distribution_hashes_identical": true,
+      "distributions": 8,
+      "worker_exit_code": 0,
+      "cleanup_error": false
+    },
+    {
+      "run": "RedHatAI-Qwen3.8-27B-NVFP4",
+      "metrics_identical": true,
+      "full_distribution_hashes_identical": true,
+      "distributions": 8,
+      "worker_exit_code": 0,
+      "cleanup_error": false
+    },
+    {
+      "run": "eNeural-Qwen3.8-27B-fast",
+      "metrics_identical": true,
+      "full_distribution_hashes_identical": true,
+      "distributions": 8,
+      "worker_exit_code": 0,
+      "cleanup_error": false
+    },
+    {
+      "run": "nvidia-Qwen3.8-27B-NVFP4",
+      "metrics_identical": true,
+      "full_distribution_hashes_identical": true,
+      "distributions": 8,
+      "worker_exit_code": 0,
+      "cleanup_error": false
+    },
+    {
+      "run": "unsloth-Qwen3.8-27B-NVFP4",
+      "metrics_identical": true,
+      "full_distribution_hashes_identical": true,
+      "distributions": 8,
+      "worker_exit_code": 0,
+      "cleanup_error": false
+    }
+  ],
+  "total_matching_distributions": 72,
+  "simplifications": [
+    "Replace per-position sorting with NaN coverage check",
+    "Save only BF16 reference distribution files"
+  ],
+  "fixes": [
+    "Explicit engine shutdown before interpreter finalization",
+    "Record worker exit code",
+    "Resolve model root and validate token limit"
+  ]
+}

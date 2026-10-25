@@ -1,0 +1,6 @@
+PASS: admission rejected zero_update
+PASS: admission rejected frozen_change
+PASS: admission rejected environment_drift
+PASS: admission rejected stale_code
+PASS: admission rejected stale_configuration
+PASS: final admission, all evidence/configuration hashes, prepared files and negative gates

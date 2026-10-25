@@ -1,0 +1,98 @@
+{
+  "before": [
+    {
+      "pid": 43654,
+      "start_ticks": "2318163691",
+      "exe": "/root/projects/quant/build/terminal_bench/diagnostics/proot_version_ab/downloads/proot",
+      "Name": "proot",
+      "State": "S (sleeping)",
+      "PPid": "18441",
+      "TracerPid": "0"
+    },
+    {
+      "pid": 43665,
+      "start_ticks": "2318163692",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021_seed_20261022/trials/c2b5d8ce33ac063e7110c335/trial/proot/prooted-43654-sWgofF",
+      "Name": "tmux: server",
+      "State": "S (sleeping)",
+      "PPid": "18441",
+      "TracerPid": "43654"
+    },
+    {
+      "pid": 43666,
+      "start_ticks": "2318163693",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021_seed_20261022/trials/c2b5d8ce33ac063e7110c335/trial/proot/prooted-43654-sWgofF",
+      "Name": "bash",
+      "State": "S (sleeping)",
+      "PPid": "43665",
+      "TracerPid": "43654"
+    },
+    {
+      "pid": 43668,
+      "start_ticks": "2318163693",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021_seed_20261022/trials/c2b5d8ce33ac063e7110c335/trial/proot/prooted-43654-sWgofF",
+      "Name": "sh",
+      "State": "S (sleeping)",
+      "PPid": "43665",
+      "TracerPid": "43654"
+    },
+    {
+      "pid": 43670,
+      "start_ticks": "2318163694",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021_seed_20261022/trials/c2b5d8ce33ac063e7110c335/trial/proot/prooted-43654-sWgofF",
+      "Name": "cat",
+      "State": "S (sleeping)",
+      "PPid": "43668",
+      "TracerPid": "43654"
+    },
+    {
+      "pid": 43682,
+      "start_ticks": "2318163701",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021_seed_20261022/trials/c2b5d8ce33ac063e7110c335/trial/proot/prooted-43654-sWgofF",
+      "Name": "asciinema",
+      "State": "S (sleeping)",
+      "PPid": "43666",
+      "TracerPid": "43654"
+    },
+    {
+      "pid": 43684,
+      "start_ticks": "2318163712",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021_seed_20261022/trials/c2b5d8ce33ac063e7110c335/trial/proot/prooted-43654-sWgofF",
+      "Name": "asciinema",
+      "State": "S (sleeping)",
+      "PPid": "43682",
+      "TracerPid": "43654"
+    },
+    {
+      "pid": 43685,
+      "start_ticks": "2318163712",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021_seed_20261022/trials/c2b5d8ce33ac063e7110c335/trial/proot/prooted-43654-sWgofF",
+      "Name": "asciinema",
+      "State": "S (sleeping)",
+      "PPid": "43682",
+      "TracerPid": "43654"
+    },
+    {
+      "pid": 43686,
+      "start_ticks": "2318163712",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021_seed_20261022/trials/c2b5d8ce33ac063e7110c335/trial/proot/prooted-43654-sWgofF",
+      "Name": "sh",
+      "State": "S (sleeping)",
+      "PPid": "43682",
+      "TracerPid": "43654"
+    },
+    {
+      "pid": 43687,
+      "start_ticks": "2318163712",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021_seed_20261022/trials/c2b5d8ce33ac063e7110c335/trial/proot/prooted-43654-sWgofF",
+      "Name": "bash",
+      "State": "S (sleeping)",
+      "PPid": "43686",
+      "TracerPid": "43654"
+    }
+  ],
+  "after": [],
+  "delete_requested": true,
+  "rootfs_retained_for_evidence": true,
+  "child_cpu": 21337.971074999998
+}

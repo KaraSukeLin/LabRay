@@ -1,0 +1,11 @@
+--- build/expanded/analyze_pre_simplification.py
++++ src/analyze.py
+@@ -45,7 +45,7 @@
+ 
+ def groups(parts):
+     yield 'all', 'all', parts
+-    for key in ['domain', 'context', 'language']:
++    for key in ['domain', 'context']:
+         for value in sorted({p[key] for p in parts}, key=str):
+             yield key, str(value), [p for p in parts if p[key] == value]
+     for domain, context in sorted({(p['domain'], p['context']) for p in parts}):

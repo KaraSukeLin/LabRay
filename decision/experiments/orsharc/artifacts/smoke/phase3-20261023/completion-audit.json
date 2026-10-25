@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "requirements": {
+    "A_environment": "fresh replay, original preservation, successful native backward in reproduced environment",
+    "B_integrity": "exact optimizer membership; 496 updated LoRA tensors; 427 frozen hashes unchanged; finite losses and exact adapter save",
+    "C_parity": "native reload/merge and production serving complete distributions; unchanged labels; explicit precision tolerances; failed probes preserved",
+    "D_long_inputs": "complete train/dev length distribution; p50/p90/p95/p99/max panel; actual upper-tail training and inference; no truncation; resource estimates recorded",
+    "E_metadata": "raw/prepared hashes; complete label audit; official Seen retained; per-budget exposure traced to nested subsets; real inference sealed-file guard",
+    "optional_paths": "Qwen companion attempt and conflicts preserved; only LoRA blocked; Elephant quantization blocked separately",
+    "commands": "real native production CLI and eight-row inference/report/repeat verified; targeted plans and negative gates passed",
+    "deliverables": "Phase 3 report, Phase 4 handoff, exact commands, artifacts and limits present",
+    "scope": "no full training, formal matrix, full-dev calibration or final test inference executed"
+  },
+  "admission_evidence_sha256": "f7c12a9b9d985401b7d1a3b74c8d84f4bbd5d4b2e1a6c1f1e4805f4ca57411f2",
+  "code_sha256": "b531da451d3dbaae1fdceba71a2783cbea3306320e524d663e6063c263a2247c",
+  "resource_upper_bound_gpu_hours": 0.5358054996199078,
+  "final_evidence_hashes_verified": true,
+  "stale_code_configuration_rejection": "PASS"
+}

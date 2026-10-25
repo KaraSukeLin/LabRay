@@ -1,0 +1,74 @@
+{
+  "method": "official Transformers Qwen2VL smart_resize, patch16 merge2, plus text tokens +16/image +512 framing bound",
+  "max_row": {
+    "id": "mmmu_vision/validation_Public_Health_9",
+    "image_references": 1,
+    "visual_tokens": 8733,
+    "text_tokens": 42,
+    "bound_with_framing": 9303
+  },
+  "top_rows": [
+    {
+      "id": "mmmu_vision/validation_Public_Health_9",
+      "image_references": 1,
+      "visual_tokens": 8733,
+      "text_tokens": 42,
+      "bound_with_framing": 9303
+    },
+    {
+      "id": "mmmu_vision/test_Mechanical_Engineering_396",
+      "image_references": 1,
+      "visual_tokens": 8680,
+      "text_tokens": 42,
+      "bound_with_framing": 9250
+    },
+    {
+      "id": "mmmu_vision/validation_Public_Health_8",
+      "image_references": 1,
+      "visual_tokens": 8540,
+      "text_tokens": 42,
+      "bound_with_framing": 9110
+    },
+    {
+      "id": "mmmu_vision/validation_Computer_Science_29",
+      "image_references": 1,
+      "visual_tokens": 8520,
+      "text_tokens": 42,
+      "bound_with_framing": 9090
+    },
+    {
+      "id": "mmmu_vision/validation_Electronics_8",
+      "image_references": 1,
+      "visual_tokens": 8330,
+      "text_tokens": 42,
+      "bound_with_framing": 8900
+    },
+    {
+      "id": "mmmu_vision/validation_Manage_13",
+      "image_references": 1,
+      "visual_tokens": 8330,
+      "text_tokens": 42,
+      "bound_with_framing": 8900
+    },
+    {
+      "id": "mmmu_vision/test_Energy_and_Power_352",
+      "image_references": 1,
+      "visual_tokens": 8280,
+      "text_tokens": 42,
+      "bound_with_framing": 8850
+    },
+    {
+      "id": "mmmu_vision/test_Clinical_Medicine_127",
+      "image_references": 1,
+      "visual_tokens": 8184,
+      "text_tokens": 42,
+      "bound_with_framing": 8754
+    }
+  ],
+  "total_visual_tokens": {
+    "ifeval": 0,
+    "mmmu_standard": 881340,
+    "mmmu_vision": 5067719
+  },
+  "all_fit_65536_with_output": true
+}

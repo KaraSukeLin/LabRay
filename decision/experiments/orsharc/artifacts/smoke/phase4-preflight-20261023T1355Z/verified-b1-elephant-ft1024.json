@@ -1,0 +1,37 @@
+{
+  "condition": "elephant-ft_1024-single_choice-bf16-0shot",
+  "partitions": {
+    "dev_select": {
+      "n": 456,
+      "prediction_sha256": "f6dc2db17799270f325d94f395b18fa97e52b5179bd8768167353d7f7ba230d3",
+      "finite_normalized_probabilities": true
+    },
+    "dev_calibrate": {
+      "n": 649,
+      "prediction_sha256": "2bd4fd7da4e9b470059cd708fbdf912242c034012c315bb0d997114cc2812b09",
+      "finite_normalized_probabilities": true
+    },
+    "test": {
+      "n": 2373,
+      "prediction_sha256": "69f0958b426ac36b6fc25dd3924cf9f775278858a5927b6e612c82355d70ba99",
+      "finite_normalized_probabilities": true
+    }
+  },
+  "reports_valid": true,
+  "calibration_temperature": 1.2594540557848224,
+  "threshold": 0.5,
+  "metrics": {
+    "dev_select": {
+      "raw_accuracy": 0.7763157894736842,
+      "calibrated_accuracy": 0.7763157894736842
+    },
+    "dev_calibrate": {
+      "raw_accuracy": 0.7411402157164869,
+      "calibrated_accuracy": 0.7411402157164869
+    },
+    "test": {
+      "raw_accuracy": 0.7602191319005478,
+      "calibrated_accuracy": 0.7602191319005478
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "report_created_after_all_trials": true,
+  "raw_data_modified": false,
+  "formal_or_smoke_rerun": false,
+  "changes": [
+    {
+      "subject": "GPU service residency denominator",
+      "old": 0.9709544473592178,
+      "new": 0.9703985368108619,
+      "reason": "Old per-seed monitor ranges do not completely include cross-seed retry services. New denominator uses one global service interval, with union per GPU.",
+      "evidence": "gpu_schedule_recomputed.json"
+    },
+    {
+      "subject": "Raw environment completed counter",
+      "old": 0,
+      "derived": 89,
+      "reason": "Top-level completed counter is stale; all 89 task statuses are terminal. Raw ledger is preserved."
+    },
+    {
+      "subject": "Fidelity summary note",
+      "old": "Small smoke data provide correctness evidence, not a model ranking.",
+      "actual_smoke_flag": false,
+      "tasks": 59,
+      "positions": 7488,
+      "reason": "Shared summary generator retained smoke wording; actual preparation manifest and data sizes identify a formal post-matrix Fidelity run."
+    },
+    {
+      "subject": "Denominators and unknown scores",
+      "reason": "Explicitly distinguishes 801 terminal slots, 540 attempted evaluable slots, 533 valid scores, and 53 fully paired tasks; adds labeled post-run unknown-outcome bounds without imputing raw scores."
+    },
+    {
+      "subject": "Execution state versus reward",
+      "reason": "Preserves nine TIMEOUT trials with native reward 1; gives strict-timeout alternative separately."
+    },
+    {
+      "subject": "Protocol and source amendments",
+      "reason": "Documents effective three-seed amendment, narrow retry-policy change, analysis reporting fixes and Fidelity ingestion fix; current source hashes recorded separately from initial snapshot."
+    },
+    {
+      "subject": "Environment diagnostics coverage and paths",
+      "reason": "The original explicit PRoot-signal list did not cover all Verifier stdout. Reviewed reshard-c4-data stdout contains no /proc/self/exe error. The new control index uses native result paths rather than inferred evidence_path. Original Gate classifications and files remain unchanged.",
+      "evidence": "oracle_failure_diagnostics.json"
+    }
+  ]
+}

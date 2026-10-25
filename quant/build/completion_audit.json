@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "checked_at": "2026-10-16T10:07:43.220194+00:00",
+  "models": 8,
+  "checks": {
+    "all_model_shards_present": true,
+    "all_models_loaded_and_inferred": true,
+    "identical_tokenizer_vocabularies": true,
+    "shared_teacher_forcing_inputs": true,
+    "full_vocabulary_size": 248320,
+    "scored_tokens": 432,
+    "mtp_disabled": true,
+    "kv_cache_bfloat16": true,
+    "independent_bf16_sanity": true,
+    "all_model_simplification_ablation": true,
+    "all_workers_exit_zero": true,
+    "no_final_cleanup_errors": true,
+    "raw_distribution_metrics_recomputed": true,
+    "comparison_csv_and_markdown": true
+  }
+}

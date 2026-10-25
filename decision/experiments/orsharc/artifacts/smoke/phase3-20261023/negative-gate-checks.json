@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "rejected": [
+    "zero_update",
+    "frozen_change",
+    "environment_drift",
+    "stale_code",
+    "stale_configuration"
+  ]
+}

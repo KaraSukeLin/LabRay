@@ -1,0 +1,774 @@
+{
+  "schema": 1,
+  "recorded_at_utc": "2026-10-22T22:19:25+00:00",
+  "source": "build/terminal_bench/low_mtp3/formal_20261021/environment_validation.json",
+  "task_count": 89,
+  "gate_status_counts": {
+    "CONTROLS_PASS": 60,
+    "ORACLE_CONTROL_FAIL": 28,
+    "SCORING_GATE_FAIL": 1
+  },
+  "control_pass_tasks": 60,
+  "common_gate_exclusion_tasks": 29,
+  "formal_trial_slots": 540,
+  "common_non_evaluable_slots": 261,
+  "nonpassing_tasks": [
+    {
+      "task": "bn-fit-modify",
+      "gate_status": "ORACLE_CONTROL_FAIL",
+      "gate_attempt": 0,
+      "retryable": false,
+      "controls": {
+        "oracle": {
+          "status": "MODEL_FAIL",
+          "reward": 0.0,
+          "exception_type": null,
+          "exception_message": null,
+          "wall_seconds": 67.44377160072327,
+          "cleanup_clean": true,
+          "evidence_path": "build/terminal_bench/low_mtp3/formal_20261021/controls/bn-fit-modify/oracle/attempt-0"
+        },
+        "nop": {
+          "status": "MODEL_FAIL",
+          "reward": 0.0,
+          "exception_type": null,
+          "exception_message": null,
+          "wall_seconds": 54.85387372970581,
+          "cleanup_clean": true,
+          "evidence_path": "build/terminal_bench/low_mtp3/formal_20261021/controls/bn-fit-modify/nop/attempt-0"
+        }
+      }
+    },
+    {
+      "task": "break-filter-js-from-html",
+      "gate_status": "ORACLE_CONTROL_FAIL",
+      "gate_attempt": 0,
+      "retryable": false,
+      "controls": {
+        "oracle": {
+          "status": "MODEL_FAIL",
+          "reward": 0.0,
+          "exception_type": null,
+          "exception_message": null,
+          "wall_seconds": 80.68171000480652,
+          "cleanup_clean": true,
+          "evidence_path": "build/terminal_bench/low_mtp3/formal_20261021/controls/break-filter-js-from-html/oracle/attempt-0"
+        },
+        "nop": {
+          "status": "MODEL_FAIL",
+          "reward": 0.0,
+          "exception_type": null,
+          "exception_message": null,
+          "wall_seconds": 40.904460430145264,
+          "cleanup_clean": true,
+          "evidence_path": "build/terminal_bench/low_mtp3/formal_20261021/controls/break-filter-js-from-html/nop/attempt-0"
+        }
+      }
+    },
+    {
+      "task": "build-cython-ext",
+      "gate_status": "ORACLE_CONTROL_FAIL",
+      "gate_attempt": 0,
+      "retryable": false,
+      "controls": {
+        "oracle": {
+          "status": "MODEL_FAIL",
+          "reward": 0.0,
+          "exception_type": null,
+          "exception_message": null,
+          "wall_seconds": 133.70263648033142,
+          "cleanup_clean": true,
+          "evidence_path": "build/terminal_bench/low_mtp3/formal_20261021/controls/build-cython-ext/oracle/attempt-0"
+        },
+        "nop": {
+          "status": "MODEL_FAIL",
+          "reward": 0.0,
+          "exception_type": null,
+          "exception_message": null,
+          "wall_seconds": 28.21333956718445,
+          "cleanup_clean": true,
+          "evidence_path": "build/terminal_bench/low_mtp3/formal_20261021/controls/build-cython-ext/nop/attempt-0"
+        }
+      }
+    },
+    {
+      "task": "build-pmars",
+      "gate_status": "ORACLE_CONTROL_FAIL",
+      "gate_attempt": 0,
+      "retryable": false,
+      "controls": {
+        "oracle": {
+          "status": "MODEL_FAIL",
+          "reward": 0.0,
+          "exception_type": null,
+          "exception_message": null,
+          "wall_seconds": 77.93627667427063,
+          "cleanup_clean": true,
+          "evidence_path": "build/terminal_bench/low_mtp3/formal_20261021/controls/build-pmars/oracle/attempt-0"
+        },
+        "nop": {
+          "status": "MODEL_FAIL",
+          "reward": 0.0,
+          "exception_type": null,
+          "exception_message": null,
+          "wall_seconds": 23.553340911865234,
+          "cleanup_clean": true,
+          "evidence_path": "build/terminal_bench/low_mtp3/formal_20261021/controls/build-pmars/nop/attempt-0"
+        }
+      }
+    },
+    {
+      "task": "build-pov-ray",
+      "gate_status": "ORACLE_CONTROL_FAIL",
+      "gate_attempt": 0,
+      "retryable": false,
+      "controls": {
+        "oracle": {
+          "status": "MODEL_FAIL",
+          "reward": 0.0,
+          "exception_type": null,
+          "exception_message": null,
+          "wall_seconds": 107.5701675415039,
+          "cleanup_clean": true,
+          "evidence_path": "build/terminal_bench/low_mtp3/formal_20261021/controls/build-pov-ray/oracle/attempt-0"
+        },
+        "nop": {
+          "status": "MODEL_FAIL",
+          "reward": 0.0,
+          "exception_type": null,
+          "exception_message": null,
+          "wall_seconds": 46.8677020072937,
+          "cleanup_clean": true,
+          "evidence_path": "build/terminal_bench/low_mtp3/formal_20261021/controls/build-pov-ray/nop/attempt-0"
+        }
+      }
+    },
+    {
+      "task": "caffe-cifar-10",
+      "gate_status": "ORACLE_CONTROL_FAIL",
+      "gate_attempt": 0,
+      "retryable": false,
+      "controls": {
+        "oracle": {
+          "status": "MODEL_FAIL",
+          "reward": 0.0,
+          "exception_type": null,
+          "exception_message": null,
+          "wall_seconds": 667.108636379242,
+          "cleanup_clean": true,
+          "evidence_path": "build/terminal_bench/low_mtp3/formal_20261021/controls/caffe-cifar-10/oracle/attempt-0"
+        },
+        "nop": {
+          "status": "MODEL_FAIL",
+          "reward": 0.0,
+          "exception_type": null,
+          "exception_message": null,
+          "wall_seconds": 40.26859760284424,
+          "cleanup_clean": true,
+          "evidence_path": "build/terminal_bench/low_mtp3/formal_20261021/controls/caffe-cifar-10/nop/attempt-0"
+        }
+      }
+    },
+    {
+      "task": "compile-compcert",
+      "gate_status": "ORACLE_CONTROL_FAIL",
+      "gate_attempt": 1,
+      "retryable": false,
+      "controls": {
+        "oracle": {
+          "status": "MODEL_FAIL",
+          "reward": 0.0,
+          "exception_type": null,
+          "exception_message": null,
+          "wall_seconds": 103.39938640594482,
+          "cleanup_clean": true,
+          "evidence_path": "build/terminal_bench/low_mtp3/formal_20261021/controls/compile-compcert/oracle/attempt-1"
+        },
+        "nop": {
+          "status": "MODEL_FAIL",
+          "reward": 0.0,
+          "exception_type": null,
+          "exception_message": null,
+          "wall_seconds": 59.08227205276489,
+          "cleanup_clean": true,
+          "evidence_path": "build/terminal_bench/low_mtp3/formal_20261021/controls/compile-compcert/nop/attempt-1"
+        }
+      }
+    },
+    {
+      "task": "configure-git-webserver",
+      "gate_status": "ORACLE_CONTROL_FAIL",
+      "gate_attempt": 1,
+      "retryable": false,
+      "controls": {
+        "oracle": {
+          "status": "MODEL_FAIL",
+          "reward": 0.0,
+          "exception_type": null,
+          "exception_message": null,
+          "wall_seconds": 202.2153763771057,
+          "cleanup_clean": true,
+          "evidence_path": "build/terminal_bench/low_mtp3/formal_20261021/controls/configure-git-webserver/oracle/attempt-1"
+        },
+        "nop": {
+          "status": "MODEL_FAIL",
+          "reward": 0.0,
+          "exception_type": null,
+          "exception_message": null,
+          "wall_seconds": 37.05898404121399,
+          "cleanup_clean": true,
+          "evidence_path": "build/terminal_bench/low_mtp3/formal_20261021/controls/configure-git-webserver/nop/attempt-1"
+        }
+      }
+    },
+    {
+      "task": "custom-memory-heap-crash",
+      "gate_status": "ORACLE_CONTROL_FAIL",
+      "gate_attempt": 1,
+      "retryable": false,
+      "controls": {
+        "oracle": {
+          "status": "MODEL_FAIL",
+          "reward": 0.0,
+          "exception_type": null,
+          "exception_message": null,
+          "wall_seconds": 141.03301882743835,
+          "cleanup_clean": true,
+          "evidence_path": "build/terminal_bench/low_mtp3/formal_20261021/controls/custom-memory-heap-crash/oracle/attempt-1"
+        },
+        "nop": {
+          "status": "MODEL_FAIL",
+          "reward": 0.0,
+          "exception_type": null,
+          "exception_message": null,
+          "wall_seconds": 122.76703214645386,
+          "cleanup_clean": true,
+          "evidence_path": "build/terminal_bench/low_mtp3/formal_20261021/controls/custom-memory-heap-crash/nop/attempt-1"
+        }
+      }
+    },
+    {
+      "task": "git-multibranch",
+      "gate_status": "ORACLE_CONTROL_FAIL",
+      "gate_attempt": 1,
+      "retryable": false,
+      "controls": {
+        "oracle": {
+          "status": "MODEL_FAIL",
+          "reward": 0.0,
+          "exception_type": null,
+          "exception_message": null,
+          "wall_seconds": 95.19761848449707,
+          "cleanup_clean": true,
+          "evidence_path": "build/terminal_bench/low_mtp3/formal_20261021/controls/git-multibranch/oracle/attempt-1"
+        },
+        "nop": {
+          "status": "MODEL_FAIL",
+          "reward": 0.0,
+          "exception_type": null,
+          "exception_message": null,
+          "wall_seconds": 64.6604871749878,
+          "cleanup_clean": true,
+          "evidence_path": "build/terminal_bench/low_mtp3/formal_20261021/controls/git-multibranch/nop/attempt-1"
+        }
+      }
+    },
+    {
+      "task": "headless-terminal",
+      "gate_status": "ORACLE_CONTROL_FAIL",
+      "gate_attempt": 1,
+      "retryable": false,
+      "controls": {
+        "oracle": {
+          "status": "MODEL_FAIL",
+          "reward": 0.0,
+          "exception_type": null,
+          "exception_message": null,
+          "wall_seconds": 41.28396701812744,
+          "cleanup_clean": true,
+          "evidence_path": "build/terminal_bench/low_mtp3/formal_20261021/controls/headless-terminal/oracle/attempt-1"
+        },
+        "nop": {
+          "status": "MODEL_FAIL",
+          "reward": 0.0,
+          "exception_type": null,
+          "exception_message": null,
+          "wall_seconds": 33.76716589927673,
+          "cleanup_clean": true,
+          "evidence_path": "build/terminal_bench/low_mtp3/formal_20261021/controls/headless-terminal/nop/attempt-1"
+        }
+      }
+    },
+    {
+      "task": "hf-model-inference",
+      "gate_status": "ORACLE_CONTROL_FAIL",
+      "gate_attempt": 1,
+      "retryable": false,
+      "controls": {
+        "oracle": {
+          "status": "MODEL_FAIL",
+          "reward": 0.0,
+          "exception_type": null,
+          "exception_message": null,
+          "wall_seconds": 66.45791482925415,
+          "cleanup_clean": true,
+          "evidence_path": "build/terminal_bench/low_mtp3/formal_20261021/controls/hf-model-inference/oracle/attempt-1"
+        },
+        "nop": {
+          "status": "MODEL_FAIL",
+          "reward": 0.0,
+          "exception_type": null,
+          "exception_message": null,
+          "wall_seconds": 38.46433186531067,
+          "cleanup_clean": true,
+          "evidence_path": "build/terminal_bench/low_mtp3/formal_20261021/controls/hf-model-inference/nop/attempt-1"
+        }
+      }
+    },
+    {
+      "task": "install-windows-3.11",
+      "gate_status": "ORACLE_CONTROL_FAIL",
+      "gate_attempt": 1,
+      "retryable": false,
+      "controls": {
+        "oracle": {
+          "status": "MODEL_FAIL",
+          "reward": 0.0,
+          "exception_type": null,
+          "exception_message": null,
+          "wall_seconds": 920.7037279605865,
+          "cleanup_clean": true,
+          "evidence_path": "build/terminal_bench/low_mtp3/formal_20261021/controls/install-windows-3.11/oracle/attempt-1"
+        },
+        "nop": {
+          "status": "MODEL_FAIL",
+          "reward": 0.0,
+          "exception_type": null,
+          "exception_message": null,
+          "wall_seconds": 911.1000361442566,
+          "cleanup_clean": true,
+          "evidence_path": "build/terminal_bench/low_mtp3/formal_20261021/controls/install-windows-3.11/nop/attempt-1"
+        }
+      }
+    },
+    {
+      "task": "log-summary-date-ranges",
+      "gate_status": "ORACLE_CONTROL_FAIL",
+      "gate_attempt": 0,
+      "retryable": false,
+      "controls": {
+        "oracle": {
+          "status": "MODEL_FAIL",
+          "reward": 0.0,
+          "exception_type": null,
+          "exception_message": null,
+          "wall_seconds": 29.518154859542847,
+          "cleanup_clean": true,
+          "evidence_path": "build/terminal_bench/low_mtp3/formal_20261021/controls/log-summary-date-ranges/oracle/attempt-0"
+        },
+        "nop": {
+          "status": "MODEL_FAIL",
+          "reward": 0.0,
+          "exception_type": null,
+          "exception_message": null,
+          "wall_seconds": 24.37783408164978,
+          "cleanup_clean": true,
+          "evidence_path": "build/terminal_bench/low_mtp3/formal_20261021/controls/log-summary-date-ranges/nop/attempt-0"
+        }
+      }
+    },
+    {
+      "task": "mailman",
+      "gate_status": "ORACLE_CONTROL_FAIL",
+      "gate_attempt": 0,
+      "retryable": false,
+      "controls": {
+        "oracle": {
+          "status": "MODEL_FAIL",
+          "reward": 0.0,
+          "exception_type": null,
+          "exception_message": null,
+          "wall_seconds": 86.67569613456726,
+          "cleanup_clean": true,
+          "evidence_path": "build/terminal_bench/low_mtp3/formal_20261021/controls/mailman/oracle/attempt-0"
+        },
+        "nop": {
+          "status": "MODEL_FAIL",
+          "reward": 0.0,
+          "exception_type": null,
+          "exception_message": null,
+          "wall_seconds": 73.15724277496338,
+          "cleanup_clean": true,
+          "evidence_path": "build/terminal_bench/low_mtp3/formal_20261021/controls/mailman/nop/attempt-0"
+        }
+      }
+    },
+    {
+      "task": "mcmc-sampling-stan",
+      "gate_status": "ORACLE_CONTROL_FAIL",
+      "gate_attempt": 0,
+      "retryable": false,
+      "controls": {
+        "oracle": {
+          "status": "MODEL_FAIL",
+          "reward": 0.0,
+          "exception_type": null,
+          "exception_message": null,
+          "wall_seconds": 70.93107581138611,
+          "cleanup_clean": true,
+          "evidence_path": "build/terminal_bench/low_mtp3/formal_20261021/controls/mcmc-sampling-stan/oracle/attempt-0"
+        },
+        "nop": {
+          "status": "MODEL_FAIL",
+          "reward": 0.0,
+          "exception_type": null,
+          "exception_message": null,
+          "wall_seconds": 47.30416178703308,
+          "cleanup_clean": true,
+          "evidence_path": "build/terminal_bench/low_mtp3/formal_20261021/controls/mcmc-sampling-stan/nop/attempt-0"
+        }
+      }
+    },
+    {
+      "task": "nginx-request-logging",
+      "gate_status": "ORACLE_CONTROL_FAIL",
+      "gate_attempt": 0,
+      "retryable": false,
+      "controls": {
+        "oracle": {
+          "status": "MODEL_FAIL",
+          "reward": 0.0,
+          "exception_type": null,
+          "exception_message": null,
+          "wall_seconds": 44.575942516326904,
+          "cleanup_clean": true,
+          "evidence_path": "build/terminal_bench/low_mtp3/formal_20261021/controls/nginx-request-logging/oracle/attempt-0"
+        },
+        "nop": {
+          "status": "MODEL_FAIL",
+          "reward": 0.0,
+          "exception_type": null,
+          "exception_message": null,
+          "wall_seconds": 28.653030157089233,
+          "cleanup_clean": true,
+          "evidence_path": "build/terminal_bench/low_mtp3/formal_20261021/controls/nginx-request-logging/nop/attempt-0"
+        }
+      }
+    },
+    {
+      "task": "path-tracing",
+      "gate_status": "ORACLE_CONTROL_FAIL",
+      "gate_attempt": 0,
+      "retryable": false,
+      "controls": {
+        "oracle": {
+          "status": "MODEL_FAIL",
+          "reward": 0.0,
+          "exception_type": null,
+          "exception_message": null,
+          "wall_seconds": 47.367377281188965,
+          "cleanup_clean": true,
+          "evidence_path": "build/terminal_bench/low_mtp3/formal_20261021/controls/path-tracing/oracle/attempt-0"
+        },
+        "nop": {
+          "status": "MODEL_FAIL",
+          "reward": 0.0,
+          "exception_type": null,
+          "exception_message": null,
+          "wall_seconds": 51.71092772483826,
+          "cleanup_clean": true,
+          "evidence_path": "build/terminal_bench/low_mtp3/formal_20261021/controls/path-tracing/nop/attempt-0"
+        }
+      }
+    },
+    {
+      "task": "path-tracing-reverse",
+      "gate_status": "ORACLE_CONTROL_FAIL",
+      "gate_attempt": 0,
+      "retryable": false,
+      "controls": {
+        "oracle": {
+          "status": "MODEL_FAIL",
+          "reward": 0.0,
+          "exception_type": null,
+          "exception_message": null,
+          "wall_seconds": 38.66064119338989,
+          "cleanup_clean": true,
+          "evidence_path": "build/terminal_bench/low_mtp3/formal_20261021/controls/path-tracing-reverse/oracle/attempt-0"
+        },
+        "nop": {
+          "status": "MODEL_FAIL",
+          "reward": 0.0,
+          "exception_type": null,
+          "exception_message": null,
+          "wall_seconds": 39.94399929046631,
+          "cleanup_clean": true,
+          "evidence_path": "build/terminal_bench/low_mtp3/formal_20261021/controls/path-tracing-reverse/nop/attempt-0"
+        }
+      }
+    },
+    {
+      "task": "protein-assembly",
+      "gate_status": "ORACLE_CONTROL_FAIL",
+      "gate_attempt": 0,
+      "retryable": false,
+      "controls": {
+        "oracle": {
+          "status": "MODEL_FAIL",
+          "reward": 0.0,
+          "exception_type": null,
+          "exception_message": null,
+          "wall_seconds": 71.04728603363037,
+          "cleanup_clean": true,
+          "evidence_path": "build/terminal_bench/low_mtp3/formal_20261021/controls/protein-assembly/oracle/attempt-0"
+        },
+        "nop": {
+          "status": "MODEL_FAIL",
+          "reward": 0.0,
+          "exception_type": null,
+          "exception_message": null,
+          "wall_seconds": 28.36273694038391,
+          "cleanup_clean": true,
+          "evidence_path": "build/terminal_bench/low_mtp3/formal_20261021/controls/protein-assembly/nop/attempt-0"
+        }
+      }
+    },
+    {
+      "task": "pypi-server",
+      "gate_status": "ORACLE_CONTROL_FAIL",
+      "gate_attempt": 0,
+      "retryable": false,
+      "controls": {
+        "oracle": {
+          "status": "MODEL_FAIL",
+          "reward": 0.0,
+          "exception_type": null,
+          "exception_message": null,
+          "wall_seconds": 131.28091478347778,
+          "cleanup_clean": true,
+          "evidence_path": "build/terminal_bench/low_mtp3/formal_20261021/controls/pypi-server/oracle/attempt-0"
+        },
+        "nop": {
+          "status": "MODEL_FAIL",
+          "reward": 0.0,
+          "exception_type": null,
+          "exception_message": null,
+          "wall_seconds": 33.182724714279175,
+          "cleanup_clean": true,
+          "evidence_path": "build/terminal_bench/low_mtp3/formal_20261021/controls/pypi-server/nop/attempt-0"
+        }
+      }
+    },
+    {
+      "task": "qemu-alpine-ssh",
+      "gate_status": "ORACLE_CONTROL_FAIL",
+      "gate_attempt": 0,
+      "retryable": false,
+      "controls": {
+        "oracle": {
+          "status": "VERIFIER_FAIL",
+          "reward": null,
+          "exception_type": "RewardFileNotFoundError",
+          "exception_message": "No reward file found at /root/projects/quant/build/terminal_bench/low_mtp3/controls/qemu-alpine-ssh/oracle/attempt-0/trial/verifier/reward.txt or /root/projects/quant/build/terminal_bench/low_mtp3/controls/qemu-alpine-ssh/oracle/attempt-0/trial/verifier/reward.json",
+          "wall_seconds": 25.530386686325073,
+          "cleanup_clean": true,
+          "evidence_path": "build/terminal_bench/low_mtp3/formal_20261021/controls/qemu-alpine-ssh/oracle/attempt-0"
+        },
+        "nop": {
+          "status": "VERIFIER_FAIL",
+          "reward": null,
+          "exception_type": "RewardFileNotFoundError",
+          "exception_message": "No reward file found at /root/projects/quant/build/terminal_bench/low_mtp3/controls/qemu-alpine-ssh/nop/attempt-0/trial/verifier/reward.txt or /root/projects/quant/build/terminal_bench/low_mtp3/controls/qemu-alpine-ssh/nop/attempt-0/trial/verifier/reward.json",
+          "wall_seconds": 17.440838098526,
+          "cleanup_clean": true,
+          "evidence_path": "build/terminal_bench/low_mtp3/formal_20261021/controls/qemu-alpine-ssh/nop/attempt-0"
+        }
+      }
+    },
+    {
+      "task": "qemu-startup",
+      "gate_status": "ORACLE_CONTROL_FAIL",
+      "gate_attempt": 0,
+      "retryable": false,
+      "controls": {
+        "oracle": {
+          "status": "VERIFIER_FAIL",
+          "reward": null,
+          "exception_type": "RewardFileNotFoundError",
+          "exception_message": "No reward file found at /root/projects/quant/build/terminal_bench/low_mtp3/controls/qemu-startup/oracle/attempt-0/trial/verifier/reward.txt or /root/projects/quant/build/terminal_bench/low_mtp3/controls/qemu-startup/oracle/attempt-0/trial/verifier/reward.json",
+          "wall_seconds": 23.52700400352478,
+          "cleanup_clean": true,
+          "evidence_path": "build/terminal_bench/low_mtp3/formal_20261021/controls/qemu-startup/oracle/attempt-0"
+        },
+        "nop": {
+          "status": "VERIFIER_FAIL",
+          "reward": null,
+          "exception_type": "RewardFileNotFoundError",
+          "exception_message": "No reward file found at /root/projects/quant/build/terminal_bench/low_mtp3/controls/qemu-startup/nop/attempt-0/trial/verifier/reward.txt or /root/projects/quant/build/terminal_bench/low_mtp3/controls/qemu-startup/nop/attempt-0/trial/verifier/reward.json",
+          "wall_seconds": 17.48499822616577,
+          "cleanup_clean": true,
+          "evidence_path": "build/terminal_bench/low_mtp3/formal_20261021/controls/qemu-startup/nop/attempt-0"
+        }
+      }
+    },
+    {
+      "task": "query-optimize",
+      "gate_status": "ORACLE_CONTROL_FAIL",
+      "gate_attempt": 0,
+      "retryable": false,
+      "controls": {
+        "oracle": {
+          "status": "VERIFIER_FAIL",
+          "reward": null,
+          "exception_type": "VerifierTimeoutError",
+          "exception_message": "Verifier execution timed out after 1800.0 seconds",
+          "wall_seconds": 904.883957862854,
+          "cleanup_clean": true,
+          "evidence_path": "build/terminal_bench/low_mtp3/formal_20261021/controls/query-optimize/oracle/attempt-0"
+        },
+        "nop": {
+          "status": "VERIFIER_FAIL",
+          "reward": null,
+          "exception_type": "VerifierTimeoutError",
+          "exception_message": "Verifier execution timed out after 1800.0 seconds",
+          "wall_seconds": 905.0565626621246,
+          "cleanup_clean": true,
+          "evidence_path": "build/terminal_bench/low_mtp3/formal_20261021/controls/query-optimize/nop/attempt-0"
+        }
+      }
+    },
+    {
+      "task": "reshard-c4-data",
+      "gate_status": "SCORING_GATE_FAIL",
+      "gate_attempt": 0,
+      "retryable": false,
+      "controls": {
+        "oracle": {
+          "status": "VERIFIER_FAIL",
+          "reward": 0.0,
+          "exception_type": null,
+          "exception_message": null,
+          "wall_seconds": 35.166524171829224,
+          "cleanup_clean": true,
+          "evidence_path": "build/terminal_bench/low_mtp3/formal_20261021/controls/reshard-c4-data/oracle/attempt-0"
+        },
+        "nop": {
+          "status": "VERIFIER_FAIL",
+          "reward": 0.0,
+          "exception_type": null,
+          "exception_message": null,
+          "wall_seconds": 34.7629132270813,
+          "cleanup_clean": true,
+          "evidence_path": "build/terminal_bench/low_mtp3/formal_20261021/controls/reshard-c4-data/nop/attempt-0"
+        }
+      },
+      "scoring_gate_error": "FileNotFoundError: [Errno 2] No such file or directory: '/root/projects/quant/build/terminal_bench/low_mtp3/controls/reshard-c4-data/oracle/attempt-0/trial/verifier/ctrf.json'"
+    },
+    {
+      "task": "rstan-to-pystan",
+      "gate_status": "ORACLE_CONTROL_FAIL",
+      "gate_attempt": 0,
+      "retryable": false,
+      "controls": {
+        "oracle": {
+          "status": "MODEL_FAIL",
+          "reward": 0.0,
+          "exception_type": null,
+          "exception_message": null,
+          "wall_seconds": 162.30911231040955,
+          "cleanup_clean": true,
+          "evidence_path": "build/terminal_bench/low_mtp3/formal_20261021/controls/rstan-to-pystan/oracle/attempt-0"
+        },
+        "nop": {
+          "status": "MODEL_FAIL",
+          "reward": 0.0,
+          "exception_type": null,
+          "exception_message": null,
+          "wall_seconds": 38.89760160446167,
+          "cleanup_clean": true,
+          "evidence_path": "build/terminal_bench/low_mtp3/formal_20261021/controls/rstan-to-pystan/nop/attempt-0"
+        }
+      }
+    },
+    {
+      "task": "sqlite-with-gcov",
+      "gate_status": "ORACLE_CONTROL_FAIL",
+      "gate_attempt": 0,
+      "retryable": false,
+      "controls": {
+        "oracle": {
+          "status": "MODEL_FAIL",
+          "reward": 0.0,
+          "exception_type": null,
+          "exception_message": null,
+          "wall_seconds": 61.42447471618652,
+          "cleanup_clean": true,
+          "evidence_path": "build/terminal_bench/low_mtp3/formal_20261021/controls/sqlite-with-gcov/oracle/attempt-0"
+        },
+        "nop": {
+          "status": "MODEL_FAIL",
+          "reward": 0.0,
+          "exception_type": null,
+          "exception_message": null,
+          "wall_seconds": 47.47227954864502,
+          "cleanup_clean": true,
+          "evidence_path": "build/terminal_bench/low_mtp3/formal_20261021/controls/sqlite-with-gcov/nop/attempt-0"
+        }
+      }
+    },
+    {
+      "task": "torch-pipeline-parallelism",
+      "gate_status": "ORACLE_CONTROL_FAIL",
+      "gate_attempt": 0,
+      "retryable": false,
+      "controls": {
+        "oracle": {
+          "status": "VERIFIER_FAIL",
+          "reward": null,
+          "exception_type": "VerifierTimeoutError",
+          "exception_message": "Verifier execution timed out after 900.0 seconds",
+          "wall_seconds": 902.46346616745,
+          "cleanup_clean": true,
+          "evidence_path": "build/terminal_bench/low_mtp3/formal_20261021/controls/torch-pipeline-parallelism/oracle/attempt-0"
+        },
+        "nop": {
+          "status": "MODEL_FAIL",
+          "reward": 0.0,
+          "exception_type": null,
+          "exception_message": null,
+          "wall_seconds": 191.79950833320618,
+          "cleanup_clean": true,
+          "evidence_path": "build/terminal_bench/low_mtp3/formal_20261021/controls/torch-pipeline-parallelism/nop/attempt-0"
+        }
+      }
+    },
+    {
+      "task": "torch-tensor-parallelism",
+      "gate_status": "ORACLE_CONTROL_FAIL",
+      "gate_attempt": 0,
+      "retryable": false,
+      "controls": {
+        "oracle": {
+          "status": "MODEL_FAIL",
+          "reward": 0.0,
+          "exception_type": null,
+          "exception_message": null,
+          "wall_seconds": 226.01976919174194,
+          "cleanup_clean": true,
+          "evidence_path": "build/terminal_bench/low_mtp3/formal_20261021/controls/torch-tensor-parallelism/oracle/attempt-0"
+        },
+        "nop": {
+          "status": "MODEL_FAIL",
+          "reward": 0.0,
+          "exception_type": null,
+          "exception_message": null,
+          "wall_seconds": 220.38805747032166,
+          "cleanup_clean": true,
+          "evidence_path": "build/terminal_bench/low_mtp3/formal_20261021/controls/torch-tensor-parallelism/nop/attempt-0"
+        }
+      }
+    }
+  ],
+  "explicit_proot_incompatibility_signals": [],
+  "classification_note": "Nonpassing Oracle/NOP/Verifier/scoring controls are retained as common gate exclusions. Only explicit runtime PRoot failures are labeled as PRoot incompatibility; a stack path mentioning terminal_proot.py is not treated as evidence."
+}

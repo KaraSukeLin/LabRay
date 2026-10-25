@@ -1,0 +1,27 @@
+{
+  "amendment": "Final runner audit provenance selection correction",
+  "recorded_at_epoch": 1792686929.430478,
+  "scope": "Final analysis provenance only. No benchmark inputs, protocol, sampling, seeds, scores, verifier, timeout, or Trial state changed.",
+  "reason": "The three-seed RUNNER_AUDIT.json is stored next to PROTOCOL.json. The aggregator read only the first seed directory, which could omit the authoritative updated resource audit from the final output.",
+  "behavior": "Prefer RUNNER_AUDIT.json beside the protocol; fall back to the first seed run directory only when the parent audit is absent. The regression fixture includes stale per-seed and newer parent audits and checks that the final output copies the parent audit.",
+  "source_manifest": "SOURCE_MANIFEST.json remains the original frozen pre-run manifest. This analysis-only follow-up is recorded separately; exact pre-fix files are preserved in analysis_patch_baseline/.",
+  "prior_amendment": "ANALYSIS_SOURCE_AMENDMENT.json",
+  "changed_files": {
+    "src/terminal_formal_multiseed_analysis.py": {
+      "previous_sha256": "c65dfe95c959da1af7369b29be49f55cd4d626bbd35512a348ad4514777a103d",
+      "current_sha256": "f23582798609176dea51e304b66d5fa9382f6123e9f47132540abd2a2c2c86f8",
+      "baseline_copy": "build/terminal_bench/low_mtp3/formal_three_seed_20261022/analysis_patch_baseline/terminal_formal_multiseed_analysis.pre_runner_audit_fix.py"
+    },
+    "tests/test_terminal_formal_multiseed_analysis.py": {
+      "previous_sha256": "d70a765bcc4fad3bf65a65d14c6d1edb20a04c87998519dbee052d2c50eb3db2",
+      "current_sha256": "c55f5865843fb29d3db0052a850a51a4c20abff41560efcb7bf99f6e5c8b8139",
+      "baseline_copy": "build/terminal_bench/low_mtp3/formal_three_seed_20261022/analysis_patch_baseline/test_terminal_formal_multiseed_analysis.pre_runner_audit_fix.py"
+    }
+  },
+  "targeted_regression": {
+    "command": ".vllm-venv/bin/python -m pytest -q tests/test_terminal_formal_multiseed_analysis.py",
+    "passed": 3,
+    "failed": 0,
+    "coverage": "Final analysis uses the three-seed parent RUNNER_AUDIT even when the first seed directory contains an older audit."
+  }
+}

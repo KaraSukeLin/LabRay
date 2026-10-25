@@ -1,0 +1,34 @@
+{
+  "status": "interrupted",
+  "model": "unsloth-Qwen3.8-27B-NVFP4",
+  "start_utc": "2026-10-17T17:41:44.511319+00:00",
+  "gpu_count": 1,
+  "cuda_visible_devices": "4",
+  "initialization_seconds": 46.5587512627244,
+  "inference_seconds": 14569.944150790572,
+  "scoring_seconds": 32.69316242262721,
+  "preprocessing_seconds": 0.10468346625566483,
+  "shutdown_seconds": 2.192936737090349,
+  "new_records": 133,
+  "completed_before": 27,
+  "pending_before": 534,
+  "setup_seconds": 7.270865622907877,
+  "engine": {
+    "mtp": false,
+    "kv_cache_dtype": "bfloat16",
+    "tensor_parallel_size": 1,
+    "max_num_seqs": 1,
+    "max_model_len": 65536,
+    "enforce_eager": true,
+    "enable_prefix_caching": false,
+    "max_num_batched_tokens": 4096
+  },
+  "current_task": {
+    "question": "ifeval/1738",
+    "mode": "on",
+    "seed": 20261016
+  },
+  "wall_seconds": 14934.815368056297,
+  "error": "KeyboardInterrupt()",
+  "end_utc": "2026-10-17T21:50:32.055839+00:00"
+}

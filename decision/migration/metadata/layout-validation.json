@@ -1,0 +1,11 @@
+{
+  "project": "decision",
+  "original_research_files": 626,
+  "all_original_research_files_byte_identical": true,
+  "model_assets": 26,
+  "model_restore_passed": true,
+  "independent_project_paths": true,
+  "inference": false,
+  "regenerated_reports": 42,
+  "report_metrics_match_within_1e12": true
+}

@@ -1,0 +1,179 @@
+{
+  "date_utc": "2026-10-23",
+  "total_unique_conditions": 14,
+  "partitions": {
+    "dev_select": 456,
+    "dev_calibrate": 649,
+    "test": 2373
+  },
+  "condition_example_rows": 48692,
+  "requests": 55648,
+  "questions": 69560,
+  "all_conditions_valid": true,
+  "conditions": [
+    {
+      "run": "elephant-original-single_choice-bf16-0shot",
+      "receipt": "verified-b1-elephant-original.json",
+      "valid": true,
+      "partitions": {
+        "dev_select": 456,
+        "dev_calibrate": 649,
+        "test": 2373
+      }
+    },
+    {
+      "run": "elephant-ft_256-single_choice-bf16-0shot",
+      "receipt": "verified-b1-elephant-ft256.json",
+      "valid": true,
+      "partitions": {
+        "dev_select": 456,
+        "dev_calibrate": 649,
+        "test": 2373
+      }
+    },
+    {
+      "run": "elephant-ft_1024-single_choice-bf16-0shot",
+      "receipt": "verified-b1-elephant-ft1024.json",
+      "valid": true,
+      "partitions": {
+        "dev_select": 456,
+        "dev_calibrate": 649,
+        "test": 2373
+      }
+    },
+    {
+      "run": "elephant-ft_4096-single_choice-bf16-0shot",
+      "receipt": "verified-b1-elephant-ft4096.json",
+      "valid": true,
+      "partitions": {
+        "dev_select": 456,
+        "dev_calibrate": 649,
+        "test": 2373
+      }
+    },
+    {
+      "run": "elephant-original-noul-bf16-0shot",
+      "receipt": "verified-b2-noul.json",
+      "valid": true,
+      "partitions": {
+        "dev_select": 456,
+        "dev_calibrate": 649,
+        "test": 2373
+      }
+    },
+    {
+      "run": "elephant-original-choice2-bf16-0shot",
+      "receipt": "verified-b2-choice2.json",
+      "valid": true,
+      "partitions": {
+        "dev_select": 456,
+        "dev_calibrate": 649,
+        "test": 2373
+      }
+    },
+    {
+      "run": "elephant-original-score5-bf16-0shot",
+      "receipt": "verified-b2-score5.json",
+      "valid": true,
+      "partitions": {
+        "dev_select": 456,
+        "dev_calibrate": 649,
+        "test": 2373
+      }
+    },
+    {
+      "run": "elephant-original-hierarchical-bf16-0shot",
+      "receipt": "verified-b3-original-hierarchical.json",
+      "valid": true,
+      "partitions": {
+        "dev_select": 456,
+        "dev_calibrate": 649,
+        "test": 2373
+      }
+    },
+    {
+      "run": "elephant-original-parallel_noul-bf16-0shot",
+      "receipt": "verified-b3-original-parallel.json",
+      "valid": true,
+      "partitions": {
+        "dev_select": 456,
+        "dev_calibrate": 649,
+        "test": 2373
+      }
+    },
+    {
+      "run": "elephant-provided-2c62fb8392-hierarchical-bf16-0shot",
+      "receipt": "verified-b3-ft4096-hierarchical.json",
+      "valid": true,
+      "partitions": {
+        "dev_select": 456,
+        "dev_calibrate": 649,
+        "test": 2373
+      }
+    },
+    {
+      "run": "elephant-provided-2c62fb8392-parallel_noul-bf16-0shot",
+      "receipt": "verified-b3-ft4096-parallel.json",
+      "valid": true,
+      "partitions": {
+        "dev_select": 456,
+        "dev_calibrate": 649,
+        "test": 2373
+      }
+    },
+    {
+      "run": "qwen-original-single_choice-bf16-0shot",
+      "receipt": "verified-qwen-0shot.json",
+      "valid": true,
+      "partitions": {
+        "dev_select": 456,
+        "dev_calibrate": 649,
+        "test": 2373
+      }
+    },
+    {
+      "run": "qwen-original-single_choice-bf16-4shot",
+      "receipt": "verified-qwen-4shot.json",
+      "valid": true,
+      "partitions": {
+        "dev_select": 456,
+        "dev_calibrate": 649,
+        "test": 2373
+      }
+    },
+    {
+      "run": "startlux27b-original-single_choice-q4_k_m-0shot-llamacpp",
+      "receipt": "verified-b5-startlux.json",
+      "valid": true,
+      "partitions": {
+        "dev_select": 456,
+        "dev_calibrate": 649,
+        "test": 2373
+      }
+    }
+  ],
+  "elephant_training": [
+    {
+      "budget": 256,
+      "train_rows": 256,
+      "steps": 32,
+      "valid": true,
+      "checkpoint_sha256": "3513a195cbb973aaebfca42e83f67f2135a783d12ec3096f3b162ea6cc18e3c4"
+    },
+    {
+      "budget": 1024,
+      "train_rows": 1024,
+      "steps": 128,
+      "valid": true,
+      "checkpoint_sha256": "ca002255b63b66c1492d6e249e71a7aa1b9d569017d09bdd1bf68b6e10ad0ade"
+    },
+    {
+      "budget": 4096,
+      "train_rows": 4096,
+      "steps": 512,
+      "valid": true,
+      "checkpoint_sha256": "8909c5d52bbd2ea0247d8d8c0fc9d018ad16a0868c52c323e78e929b25e95ced"
+    }
+  ],
+  "b4_reuse": "Exact B1 outputs; no duplicate inference."
+}

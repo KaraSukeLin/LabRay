@@ -1,0 +1,18 @@
+{
+  "model": "eNeural-Qwen3.8-27B-fast",
+  "merged": 529,
+  "files": [
+    "build/benchmark/ifeval_modes_formal_20261017/eNeural-Qwen3.8-27B-fast/questions.shard-0-of-2.jsonl",
+    "build/benchmark/ifeval_modes_formal_20261017/eNeural-Qwen3.8-27B-fast/questions.shard-0-of-5.jsonl",
+    "build/benchmark/ifeval_modes_formal_20261017/eNeural-Qwen3.8-27B-fast/questions.shard-1-of-2.jsonl",
+    "build/benchmark/ifeval_modes_formal_20261017/eNeural-Qwen3.8-27B-fast/questions.shard-1-of-5.jsonl",
+    "build/benchmark/ifeval_modes_formal_20261017/eNeural-Qwen3.8-27B-fast/questions.shard-1-of-6.jsonl",
+    "build/benchmark/ifeval_modes_formal_20261017/eNeural-Qwen3.8-27B-fast/questions.shard-2-of-5.jsonl",
+    "build/benchmark/ifeval_modes_formal_20261017/eNeural-Qwen3.8-27B-fast/questions.shard-3-of-5.jsonl",
+    "build/benchmark/ifeval_modes_formal_20261017/eNeural-Qwen3.8-27B-fast/questions.shard-3-of-6.jsonl",
+    "build/benchmark/ifeval_modes_formal_20261017/eNeural-Qwen3.8-27B-fast/questions.shard-4-of-5.jsonl",
+    "build/benchmark/ifeval_modes_formal_20261017/eNeural-Qwen3.8-27B-fast/questions.shard-5-of-6.jsonl"
+  ],
+  "archived_to": "build/benchmark/ifeval_modes_formal_20261017/eNeural-Qwen3.8-27B-fast/merged-shards",
+  "completed_records": 3246
+}

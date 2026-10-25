@@ -1,0 +1,208 @@
+{
+  "created_utc": "2026-10-23T02:36:34.239668+00:00",
+  "report_is_post_run_reanalysis": true,
+  "official_task_files_checked": 1035,
+  "official_task_bytes_hashed": 58337992,
+  "official_file_hash_issues": [],
+  "matrix_unique_slots": 801,
+  "trial_attempts": 554,
+  "evaluable_slots": 540,
+  "scored_slots": 533,
+  "missing_score_slots": 7,
+  "primary_tasks": 53,
+  "primary_observations_per_model": 159,
+  "primary_results": [
+    {
+      "model": "Qwen-Qwen3.8-27B",
+      "paired_tasks": 53,
+      "observations": 159,
+      "successes": 85,
+      "rate": 0.5345911949685535,
+      "retention": 1.0
+    },
+    {
+      "model": "eNeural-Qwen3.8-27B-fast",
+      "paired_tasks": 53,
+      "observations": 159,
+      "successes": 78,
+      "rate": 0.49056603773584906,
+      "retention": 0.9176470588235294
+    },
+    {
+      "model": "rdtand-Qwen3.8-27B-PrismaAQUA-5.5bit-vllm",
+      "paired_tasks": 53,
+      "observations": 159,
+      "successes": 82,
+      "rate": 0.5157232704402516,
+      "retention": 0.9647058823529412
+    }
+  ],
+  "strict_timeout_sensitivity": [
+    {
+      "model": "Qwen-Qwen3.8-27B",
+      "observations": 159,
+      "strict_successes": 81,
+      "strict_rate": 0.5094339622641509,
+      "timeout_reward_one": 4,
+      "relative_retention": 1.0
+    },
+    {
+      "model": "eNeural-Qwen3.8-27B-fast",
+      "observations": 159,
+      "strict_successes": 75,
+      "strict_rate": 0.4716981132075472,
+      "timeout_reward_one": 3,
+      "relative_retention": 0.9259259259259259
+    },
+    {
+      "model": "rdtand-Qwen3.8-27B-PrismaAQUA-5.5bit-vllm",
+      "observations": 159,
+      "strict_successes": 80,
+      "strict_rate": 0.5031446540880503,
+      "timeout_reward_one": 2,
+      "relative_retention": 0.9876543209876543
+    }
+  ],
+  "sensitivity_full60": [
+    {
+      "model": "Qwen-Qwen3.8-27B",
+      "tasks": 60,
+      "slots": 180,
+      "scored": 178,
+      "unknown": 2,
+      "known_successes": 98,
+      "observed_only_rate": 0.550561797752809,
+      "success_lower": 0.5444444444444444,
+      "success_upper": 0.5555555555555556,
+      "relative_retention_lower": 1,
+      "relative_retention_upper": 1,
+      "delta_vs_bf16_lower": 0,
+      "delta_vs_bf16_upper": 0
+    },
+    {
+      "model": "eNeural-Qwen3.8-27B-fast",
+      "tasks": 60,
+      "slots": 180,
+      "scored": 177,
+      "unknown": 3,
+      "known_successes": 91,
+      "observed_only_rate": 0.5141242937853108,
+      "success_lower": 0.5055555555555555,
+      "success_upper": 0.5222222222222223,
+      "relative_retention_lower": 0.91,
+      "relative_retention_upper": 0.9591836734693877,
+      "delta_vs_bf16_lower": -0.05,
+      "delta_vs_bf16_upper": -0.022222222222222223
+    },
+    {
+      "model": "rdtand-Qwen3.8-27B-PrismaAQUA-5.5bit-vllm",
+      "tasks": 60,
+      "slots": 180,
+      "scored": 178,
+      "unknown": 2,
+      "known_successes": 97,
+      "observed_only_rate": 0.5449438202247191,
+      "success_lower": 0.5388888888888889,
+      "success_upper": 0.55,
+      "relative_retention_lower": 0.97,
+      "relative_retention_upper": 1.010204081632653,
+      "delta_vs_bf16_lower": -0.016666666666666666,
+      "delta_vs_bf16_upper": 0.005555555555555556
+    }
+  ],
+  "final_status_counts": {
+    "TIMEOUT": 182,
+    "ORACLE_CONTROL_FAIL": 252,
+    "MODEL_FAIL": 74,
+    "PASS": 277,
+    "VERIFIER_FAIL": 5,
+    "ENVIRONMENT_FAIL": 2,
+    "SCORING_GATE_FAIL": 9
+  },
+  "score_basis_counts": {
+    "('TIMEOUT', 'native_verifier_reward', '0')": 173,
+    "('MODEL_FAIL', 'native_verifier_reward', '0')": 74,
+    "('PASS', 'native_verifier_reward', '1')": 277,
+    "('VERIFIER_FAIL', '', '')": 5,
+    "('TIMEOUT', 'native_verifier_reward', '1')": 9,
+    "('ENVIRONMENT_FAIL', '', '')": 2
+  },
+  "retry_final_status_counts": {
+    "TIMEOUT": 4,
+    "PASS": 8,
+    "MODEL_FAIL": 2
+  },
+  "original_ledger_top_level_completed": 0,
+  "complete_environment_decisions": 89,
+  "schedule": {
+    "method": "Union of model-service [started_at, stopped_at] intervals per GPU; global earliest start to latest stop; all seeds and retries included; not GPU compute utilization.",
+    "start_utc": "2026-10-21T18:03:06.537031+00:00",
+    "end_utc": "2026-10-22T23:50:59.230164+00:00",
+    "wall_hours": 29.797970314820606,
+    "service_gpu_hours": 144.57953396717707,
+    "capacity_gpu_hours": 148.98985157410303,
+    "service_residency_fraction": 0.9703985368108619,
+    "idle_capacity_gpu_hours": 4.410317606925965,
+    "model_loads": 192,
+    "overlaps": [],
+    "stored_gpu_hours_sum": 144.57953396717707,
+    "startup_seconds_sum": 8767.840650320053,
+    "startup_seconds_median": 47.01357138156891,
+    "startup_seconds_min": 39.01105332374573,
+    "startup_seconds_max": 54.02297353744507,
+    "original_aggregate_allocated_fraction": 0.9709544473592178,
+    "original_sum_monitor_wall_hours": 29.780909776025347,
+    "completed_evaluable_slots_per_wall_hour": 18.12203966561509,
+    "scored_slots_per_wall_hour": 17.887124336616377
+  },
+  "resource_monitor_coverage": [
+    {
+      "seed": 20261020,
+      "samples": 2320,
+      "start_utc": "2026-10-21T18:03:06.009735+00:00",
+      "end_utc": "2026-10-22T03:57:00.200241+00:00",
+      "cpu_pressure_some_avg10_max": 74.59,
+      "memory_pressure_some_avg10_max": 1.08,
+      "io_pressure_some_avg10_max": 0.19,
+      "memory_oom_max": 0,
+      "memory_oom_kill_max": 0,
+      "max_memory_gib": 961.8368797302246
+    },
+    {
+      "seed": 20261021,
+      "samples": 2314,
+      "start_utc": "2026-10-22T03:57:37.028397+00:00",
+      "end_utc": "2026-10-22T13:44:59.936497+00:00",
+      "cpu_pressure_some_avg10_max": 61.41,
+      "memory_pressure_some_avg10_max": 3.54,
+      "io_pressure_some_avg10_max": 8.33,
+      "memory_oom_max": 0,
+      "memory_oom_kill_max": 0,
+      "max_memory_gib": 999.9941864013672
+    },
+    {
+      "seed": 20261022,
+      "samples": 2402,
+      "start_utc": "2026-10-22T13:45:29.206756+00:00",
+      "end_utc": "2026-10-22T23:51:03.383343+00:00",
+      "cpu_pressure_some_avg10_max": 19.39,
+      "memory_pressure_some_avg10_max": 3.13,
+      "io_pressure_some_avg10_max": 0.0,
+      "memory_oom_max": 0,
+      "memory_oom_kill_max": 0,
+      "max_memory_gib": 999.9861640930176
+    }
+  ],
+  "api_requests_recorded": 6544,
+  "api_incomplete_requests_recorded": 340,
+  "notes": [
+    "No formal Trial, reward, task, verifier, timeout, or source analysis CSV was changed.",
+    "Derived unknown-outcome bounds are sensitivity ranges, not confidence intervals.",
+    "Original aggregate allocated fraction uses inconsistent monitor coverage after cross-seed retry dispatch."
+  ],
+  "resource_measurement_sources": {
+    "pressure": "host /proc/pressure/{cpu,memory,io}",
+    "quota_and_memory_events": "current environment /sys/fs/cgroup",
+    "gpu": "nvidia-smi samples, not per-task compute attribution"
+  }
+}

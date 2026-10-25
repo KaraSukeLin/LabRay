@@ -1,0 +1,218 @@
+{
+  "schema_version": 1,
+  "created_utc": "2026-10-23T13:01:06.886599+00:00",
+  "objective": "Bounded native StartLux Instant Q4_K_M versus Original Elephant-1 BF16 H100 smoke.",
+  "scope": {
+    "gpu_smoke_only": true,
+    "formal_or_sharc_evaluation": false,
+    "training": false,
+    "b5_matrices_changed": false,
+    "official_final_test_accessed": false,
+    "h100_hour_budget": "Under one H100-hour; sampled >1 GiB allocation windows total about 0.164 H100-hours, including setup retries and the Elephant control. Downloads and environment preparation excluded."
+  },
+  "sample": {
+    "partition": "dev_select",
+    "source_export": "experiments/orsharc/artifacts/exports/onejev-4096/dev_select.jsonl",
+    "joined_inputs": "experiments/orsharc/artifacts/prepared/inputs/dev.jsonl",
+    "n": 24,
+    "cases_per_gold_label_and_rule_split": 4,
+    "gold_labels": [
+      "Yes",
+      "No",
+      "Inquire"
+    ],
+    "rule_splits": [
+      "Seen",
+      "Unseen"
+    ],
+    "word_count_min": 48,
+    "word_count_max": 171,
+    "selection": "Deterministic stratified selection over label × Seen/Unseen and word-count quantiles; fixed sample IDs and input hash are in sample_selection.json. Gold labels were not sent in prompts.",
+    "sample_selection_sha256": "ef2caa173db0e5bb53813d04069bdb929c94842a5fecbd7944c292cb421a4770",
+    "samples_sha256": "648314b2949cb6a003ca9e0183ec4ff6a40decb2c2b69ae61908850a2b480f97"
+  },
+  "startlux_model": {
+    "repository": "startlux-models/StartLux-Decision-v1.1-27B-Instant-GGUF",
+    "revision": "67834e921e8a6f977088d9b560ee9e02dffc87bc",
+    "file": "StartLux-Decision-v1.1-27B-Instant-Q4_K_M.gguf",
+    "files_downloaded": [
+      {
+        "path": "StartLux-Decision-v1.1-27B-Instant-Q4_K_M.gguf",
+        "size_bytes": 16547400128,
+        "sha256": "cf5d358624862e30cc9ee71182498c4795d31e9fb23315f29ac98ec440ba8b11"
+      },
+      {
+        "path": "config.json",
+        "size_bytes": 3680,
+        "sha256": "fb4bbaf0e92a82a4984e109b938085cedb2ac2491e082ee711039be315f84527"
+      },
+      {
+        "path": "decision_config.json",
+        "size_bytes": 521,
+        "sha256": "42453cbf44b01c48d26284af1200181d3122074c5c119c052d7ad56817010663"
+      },
+      {
+        "path": "tokenizer.json",
+        "size_bytes": 12809320,
+        "sha256": "0997f410c57a1f4e53b09e4be8f4a172d90edd9564368fb0847030937229b9f3"
+      },
+      {
+        "path": "tokenizer_config.json",
+        "size_bytes": 17928,
+        "sha256": "b11349aafa7cdc6a320767cf7ceb29ed82f7eda5d65e8e0819e76f0ce947bf27"
+      }
+    ],
+    "download_directory": "/root/model/StartLux-Decision-v1.1-27B-Instant-Q4_K_M",
+    "only_required_model_and_runtime_files_downloaded": true,
+    "base_repository": "startlux-models/StartLux-Decision-v1.1-27B-Instant",
+    "base_revision": "32e7d35d74db615c4a059181efbf21c5421f3561",
+    "license": "CC BY-NC 4.0 weights; Apache-2.0 inference code",
+    "source_urls": [
+      "https://huggingface.co/startlux-models/StartLux-Decision-v1.1-27B-Instant-GGUF",
+      "https://huggingface.co/startlux-models/StartLux-Decision-v1.1-27B-Instant",
+      "https://github.com/StartLuxLabs/StartLux-Decision/tree/83fe6c7d61a687a6e17f118b4f7d8f429f5d3a01"
+    ]
+  },
+  "startlux_decision_config": {
+    "prompt_attention": "bidirectional",
+    "temperature_by_type": {
+      "noul": 1.7238,
+      "choice": 1.0867,
+      "score": 1.1841
+    },
+    "max_options_per_pass": 26,
+    "wide_choice": {
+      "group": 25,
+      "keep": 3,
+      "residual": 0.001
+    }
+  },
+  "startlux_runtime": {
+    "package": "startlux-decide==1.1.0",
+    "source_revision": "83fe6c7d61a687a6e17f118b4f7d8f429f5d3a01",
+    "python": "3.11.2",
+    "transformers": "5.20.2",
+    "engine": "official ggml-org/llama.cpp CUDA server image",
+    "image_tag": "server-cuda",
+    "image_index_digest": "sha256:490d8cd8000203a3ab8fdfce14ef931e2aa85affd4dd4447bcc75f299f00fd9a",
+    "amd64_manifest_digest": "sha256:e28ed2eea6752a16e22fabb1d449c7557e0ab2494e5d80552e1b6961f1671086",
+    "llama_cpp_version": "b11804",
+    "llama_cpp_commit": "c7fc5094179bf8a9c73c18593db714f8da41a402",
+    "cuda_runtime": "12.8.1",
+    "source_label_build_date": "2026-10-22",
+    "model_card_tested_version": "b11549",
+    "version_deviation": "Used official upstream b11804 CUDA 12.8.1 image because local CUDA 12.8 compiler tools were incomplete; model card lists b11549 as tested. Native API and bidirectional mode worked on b11804.",
+    "environment": "/tmp/b5-startlux-smoke/venv",
+    "image_rootfs": "/tmp/b5-startlux-smoke/llama-bundle/rootfs",
+    "launcher": "experiments/orsharc/artifacts/smoke/b5-startlux-instant-20261023T120642Z/runtime/llama-server-launcher.sh"
+  },
+  "startlux_server_settings": {
+    "env": {
+      "CUDA_VISIBLE_DEVICES": "0",
+      "STARTLUX_LLAMACPP_BIDIR": "server"
+    },
+    "llama_server_flags": [
+      "--host 127.0.0.1",
+      "--port 8081",
+      "--device CUDA0",
+      "--split-mode none",
+      "-ngl 99",
+      "-c 20480",
+      "--parallel 1",
+      "--ctx-checkpoints 0",
+      "-b 16384",
+      "-ub 16384"
+    ],
+    "startlux_command": "startlux-decide serve --backend llamacpp --no-images --no-none-check --think-mode never",
+    "request_mode": "Native /v1/systemone typed choice; post-sampling option probabilities; sequential requests; batch size 1; prompts use cache_prompt=false.",
+    "offload_evidence": "llama.cpp log reports offloaded 65/65 layers to GPU; noncausal GGUF metadata and causal attention disabled; only GPU0 visible."
+  },
+  "elephant_baseline": {
+    "model": "Original Elephant-1 9B BF16",
+    "repository": "baselabs/elephant-1",
+    "revision": "b3f8a93462fb1051a9de031e94a7ff380e254072",
+    "checkpoint": "/root/model/orsharc-elephant",
+    "backend": "QevBackend",
+    "device": "cuda:0",
+    "dtype": "bfloat16",
+    "calibration": "identity; temperature 1.0",
+    "max_length": 16384,
+    "python": "3.12.14",
+    "torch": "2.8.0+cu128",
+    "transformers": "5.19.0",
+    "no_demos": true
+  },
+  "paired_conditions": {
+    "hardware": "NVIDIA H100 80GB HBM3",
+    "visible_gpu_count": 1,
+    "gpu_index": 0,
+    "concurrent_gpu_models": 0,
+    "batch_size": 1,
+    "concurrency": 1,
+    "same_information": true,
+    "same_state_question_and_choice_criteria": true,
+    "native_prompt_formats": true,
+    "calibration_policy": "Preserved native calibration: StartLux type temperatures from decision_config.json; Elephant identity calibration. No manual temperature override.",
+    "input_token_ranges": {
+      "startlux": [
+        178,
+        330
+      ],
+      "elephant": [
+        204,
+        356
+      ]
+    },
+    "output_token_counts": {
+      "startlux": [
+        0,
+        0
+      ],
+      "elephant": [
+        1,
+        1
+      ]
+    },
+    "truncation_observed": false
+  },
+  "compatibility_probes": {
+    "choice": {
+      "status": "success",
+      "probabilities_normalized": true
+    },
+    "noul": {
+      "status": "success",
+      "probabilities_normalized": true
+    },
+    "score": {
+      "status": "success",
+      "probabilities_normalized": true
+    },
+    "all_24_choice_responses_valid": true,
+    "all_24_confidence_values_match_native_package_formula": true,
+    "image_inference": "Not tested; text-only smoke and no vision encoder downloaded."
+  },
+  "warnings_and_failures": [
+    "The first local llama.cpp CUDA build route failed because the isolated CUDA 12.8 compiler package lacked nvcc/fatbinary. The smoke then used the official upstream b11804 CUDA image.",
+    "The isolated StartLux environment first lacked jinja2; jinja2 and markupsafe were added only to the /tmp venv.",
+    "A verbosity-5 debug warmup added high log I/O and was excluded from latency summaries; normal-verbosity measured requests are recorded separately.",
+    "Elephant warned that causal_conv1d_fn used the reference PyTorch fallback because causal_conv1d was not installed; this can reduce Elephant throughput."
+  ],
+  "preservation": {
+    "snapshot_path": "/tmp/b5-startlux-pre.json",
+    "preexisting_files_checked": 94134,
+    "missing": 0,
+    "changed": 0,
+    "new_files_outside_smoke_attempt_after_cleanup": 0,
+    "existing_model_environments_and_results_unchanged": true
+  },
+  "artifacts": {
+    "paired_results": "paired-results.jsonl",
+    "paired_summary": "paired_comparison.json",
+    "resources": "resource_summary.json",
+    "samples": "samples.jsonl",
+    "selection": "sample_selection.json",
+    "startlux_raw": "runtime/startlux-results.jsonl",
+    "elephant_raw": "runtime/elephant-results.jsonl"
+  }
+}

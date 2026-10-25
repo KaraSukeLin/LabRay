@@ -1,0 +1,314 @@
+{
+  "_id": "66cd3552a86724967498885a",
+  "id": "MMMU/MMMU_Pro",
+  "author": "MMMU",
+  "sha": "0d7426df4ccb3d8704a992fe6850abee7c262127",
+  "lastModified": "2026-10-05T01:55:47.000Z",
+  "private": false,
+  "gated": false,
+  "disabled": false,
+  "tags": [
+    "benchmark:official",
+    "benchmark:eval-yaml",
+    "task_categories:question-answering",
+    "task_categories:visual-question-answering",
+    "task_categories:multiple-choice",
+    "language:en",
+    "license:apache-2.0",
+    "size_categories:1K<n<10K",
+    "format:parquet",
+    "modality:image",
+    "modality:text",
+    "library:datasets",
+    "library:dask",
+    "library:polars",
+    "library:mlcroissant",
+    "arxiv:2409.02813",
+    "region:us",
+    "chemistry",
+    "biology",
+    "music",
+    "art",
+    "medical",
+    "math",
+    "science",
+    "engineering"
+  ],
+  "description": "\n\t\n\t\t\n\t\n\t\n\t\tMMMU-Pro (A More Robust Multi-discipline Multimodal Understanding Benchmark)\n\t\n\n\ud83c\udf10 Homepage | \ud83c\udfc6 Leaderboard | \ud83e\udd17 Dataset | \ud83e\udd17 Paper | \ud83d\udcd6 arXiv | GitHub\n\n\t\n\t\t\n\t\n\t\n\t\t\ud83d\udd14News\n\t\n\n\n\ud83d\udee0\ufe0f[2026-10-04] Fixed the option augmentation issue in Vision and Standard (10 options) settings. (test_Chemistry_240)\n\ud83d\udee0\ufe0f[2026-10-04] Added the missing condition to an under-specified question. (validation_Finance_5)\n\ud83d\udee0\ufe0f[2026-07-10] Fixed incorrect ground-truth answer labels. (validation_Design_15;\u2026 See the full description on the dataset page: https://huggingface.co/datasets/MMMU/MMMU_Pro.",
+  "downloads": 20672,
+  "likes": 92,
+  "cardData": {
+    "language": [
+      "en"
+    ],
+    "license": "apache-2.0",
+    "size_categories": [
+      "10K<n<100K"
+    ],
+    "task_categories": [
+      "question-answering",
+      "visual-question-answering",
+      "multiple-choice"
+    ],
+    "dataset_info": [
+      {
+        "config_name": "standard (10 options)",
+        "features": [
+          {
+            "name": "id",
+            "dtype": "string"
+          },
+          {
+            "name": "question",
+            "dtype": "string"
+          },
+          {
+            "name": "options",
+            "dtype": "string"
+          },
+          {
+            "name": "explanation",
+            "dtype": "string"
+          },
+          {
+            "name": "image_1",
+            "dtype": "image"
+          },
+          {
+            "name": "image_2",
+            "dtype": "image"
+          },
+          {
+            "name": "image_3",
+            "dtype": "image"
+          },
+          {
+            "name": "image_4",
+            "dtype": "image"
+          },
+          {
+            "name": "image_5",
+            "dtype": "image"
+          },
+          {
+            "name": "image_6",
+            "dtype": "image"
+          },
+          {
+            "name": "image_7",
+            "dtype": "image"
+          },
+          {
+            "name": "img_type",
+            "dtype": "string"
+          },
+          {
+            "name": "answer",
+            "dtype": "string"
+          },
+          {
+            "name": "topic_difficulty",
+            "dtype": "string"
+          },
+          {
+            "name": "subject",
+            "dtype": "string"
+          }
+        ],
+        "splits": [
+          {
+            "name": "test",
+            "num_bytes": 691464638,
+            "num_examples": 1730
+          }
+        ],
+        "download_size": 682266047,
+        "dataset_size": 691464638
+      },
+      {
+        "config_name": "standard (4 options)",
+        "features": [
+          {
+            "name": "id",
+            "dtype": "string"
+          },
+          {
+            "name": "question",
+            "dtype": "string"
+          },
+          {
+            "name": "options",
+            "dtype": "string"
+          },
+          {
+            "name": "explanation",
+            "dtype": "string"
+          },
+          {
+            "name": "image_1",
+            "dtype": "image"
+          },
+          {
+            "name": "image_2",
+            "dtype": "image"
+          },
+          {
+            "name": "image_3",
+            "dtype": "image"
+          },
+          {
+            "name": "image_4",
+            "dtype": "image"
+          },
+          {
+            "name": "image_5",
+            "dtype": "image"
+          },
+          {
+            "name": "image_6",
+            "dtype": "image"
+          },
+          {
+            "name": "image_7",
+            "dtype": "image"
+          },
+          {
+            "name": "img_type",
+            "dtype": "string"
+          },
+          {
+            "name": "answer",
+            "dtype": "string"
+          },
+          {
+            "name": "topic_difficulty",
+            "dtype": "string"
+          },
+          {
+            "name": "subject",
+            "dtype": "string"
+          }
+        ],
+        "splits": [
+          {
+            "name": "test",
+            "num_bytes": 691230606,
+            "num_examples": 1730
+          }
+        ],
+        "download_size": 682162156,
+        "dataset_size": 691230606
+      },
+      {
+        "config_name": "vision",
+        "features": [
+          {
+            "name": "id",
+            "dtype": "string"
+          },
+          {
+            "name": "image",
+            "dtype": "image"
+          },
+          {
+            "name": "options",
+            "dtype": "string"
+          },
+          {
+            "name": "answer",
+            "dtype": "string"
+          },
+          {
+            "name": "subject",
+            "dtype": "string"
+          }
+        ],
+        "splits": [
+          {
+            "name": "test",
+            "num_bytes": 1716064973,
+            "num_examples": 1730
+          }
+        ],
+        "download_size": 1662994881,
+        "dataset_size": 1716064973
+      }
+    ],
+    "configs": [
+      {
+        "config_name": "standard (10 options)",
+        "data_files": [
+          {
+            "split": "test",
+            "path": "standard (10 options)/test-*"
+          }
+        ]
+      },
+      {
+        "config_name": "standard (4 options)",
+        "data_files": [
+          {
+            "split": "test",
+            "path": "standard (4 options)/test-*"
+          }
+        ]
+      },
+      {
+        "config_name": "vision",
+        "data_files": [
+          {
+            "split": "test",
+            "path": "vision/test-*"
+          }
+        ]
+      }
+    ],
+    "tags": [
+      "chemistry",
+      "biology",
+      "music",
+      "art",
+      "medical",
+      "math",
+      "science",
+      "engineering"
+    ]
+  },
+  "siblings": [
+    {
+      "rfilename": ".gitattributes"
+    },
+    {
+      "rfilename": "README.md"
+    },
+    {
+      "rfilename": "eval.yaml"
+    },
+    {
+      "rfilename": "standard (10 options)/test-00000-of-00002.parquet"
+    },
+    {
+      "rfilename": "standard (10 options)/test-00001-of-00002.parquet"
+    },
+    {
+      "rfilename": "standard (4 options)/test-00000-of-00002.parquet"
+    },
+    {
+      "rfilename": "standard (4 options)/test-00001-of-00002.parquet"
+    },
+    {
+      "rfilename": "vision/test-00000-of-00004.parquet"
+    },
+    {
+      "rfilename": "vision/test-00001-of-00004.parquet"
+    },
+    {
+      "rfilename": "vision/test-00002-of-00004.parquet"
+    },
+    {
+      "rfilename": "vision/test-00003-of-00004.parquet"
+    }
+  ],
+  "createdAt": "2024-08-27T02:09:22.000Z",
+  "usedStorage": 15197062513
+}

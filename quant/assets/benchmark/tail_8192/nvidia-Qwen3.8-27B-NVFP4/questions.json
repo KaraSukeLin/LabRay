@@ -1,0 +1,298 @@
+[
+  {
+    "id": "mmmu_standard/test_Architecture_and_Engineering_320",
+    "task": "mmmu_standard",
+    "stratum": "Architecture_and_Engineering",
+    "prompt": "[image][image]A line of levels was run from A to B. The levelling was then continued to a B.M. of elevation 40.0 m. The readings obtained are as follows. Obtain the reduced levels of A and B.\nA. R.L. of A = 39.950 m, R.L. of B = 37.655 m\nB. R.L. of B = 37.950 m, R.L. of A = 37.655 m\nC. R.L. of A = 39.200 m, R.L. of B = 37.850 m\nD. R.L. of B = 37.150 m, R.L. of A = 37.455 m\nE. R.L. of A = 38.950 m, R.L. of B = 37.655 m\nF. R.L. of A = 38.750 m, R.L. of B = 38.655 m\nG. R.L. of A = 37.950 m, R.L. of B = 37.655 m\nH. R.L. of B = 36.850 m, R.L. of A = 36.950 m\nI. R.L. of B = 38.950 m, R.L. of A = 37.655 m\nJ. R.L. of A = 36.950 m, R.L. of B = 36.655 m\nAnswer with the option letter from the given choices directly.",
+    "images": [
+      "/root/projects/quant/assets/benchmark/prepared/images/mmmu_standard_test_Architecture_and_Engineering_320_0.png",
+      "/root/projects/quant/assets/benchmark/prepared/images/mmmu_standard_test_Architecture_and_Engineering_320_1.png"
+    ],
+    "options": "['R.L. of A = 39.950 m, R.L. of B = 37.655 m', 'R.L. of B = 37.950 m, R.L. of A = 37.655 m', 'R.L. of A = 39.200 m, R.L. of B = 37.850 m', 'R.L. of B = 37.150 m, R.L. of A = 37.455 m', 'R.L. of A = 38.950 m, R.L. of B = 37.655 m', 'R.L. of A = 38.750 m, R.L. of B = 38.655 m', 'R.L. of A = 37.950 m, R.L. of B = 37.655 m', 'R.L. of B = 36.850 m, R.L. of A = 36.950 m', 'R.L. of B = 38.950 m, R.L. of A = 37.655 m', 'R.L. of A = 36.950 m, R.L. of B = 36.655 m']",
+    "gold": "G",
+    "image_sha256": [
+      "1c35a55a0a9ead5ebd1384a7ef859c1b75cd4e1ffb96c5a025d8c42c5fa205ea",
+      "fa99558e6c1ec94816f87af1132eb54207e9a864b384da55c0d3ee58bc7408e6"
+    ]
+  },
+  {
+    "id": "mmmu_standard/test_Finance_313",
+    "task": "mmmu_standard",
+    "stratum": "Finance",
+    "prompt": "Marston Marble Corporation is considering a merger with the Conroy Concrete Company. Conroy is a publicly traded company, and its beta is 1.30. Conroy has been barely profitable, so it has paid an average of only 20% in taxes during the lastseveral years. In addition, it uses little debt; its target ratio is just 25%, with the cost of debt 9%. If the acquisition were made, Marston would operate Conroy as a separate, wholly owned subsidiary. Marston would pay taxes on a consolidated basis, and the tax rate would therefore increase to 35%. Marston also would increase the debt capitalization in the Conroy subsidiary to wd = 40%, for a total of $22.27 million in debt by the end of Year 4, and pay 9.5% on the debt. Marston's acquisition department estimates that Conroy, if acquired, would generate the following free cash flows and interest expenses (in millions of dollars) in Years 1-5: [image] In Year 5, Conroy's interest expense would be based on its beginning-of-year (that is, the end-of-Year-4) debt, and in subsequent years both interest expense and free cash flows are projected to grow at a rate of 6%. These cash flows include all acquisition effects. Marston's cost of equity is 10.5%, its beta is 1.0, and its cost of debt is 9.5%. The risk-free rate is 6%, and the market risk premium is 4.5%. (1): What is the dollar value of Conroy's operations? (2): If Conroy has $10 million in debt outstanding, how much would Marston be willing to pay for Conroy?\nA. (1): $43.52 million; (2): $22.15 million\nB. (1): $33.41 million; (2): $33.52 million\nC. (1): $44.80 million; (2): $34.80 million\nD. (1): $40.00 million; (2): $30.00 million\nE. (1): $42.13 million; (2): $32.13 million\nF. (1): $45.24 million; (2): $35.24 million\nG. (1): $38.60 million; (2): $28.60 million\nH. (1): $33.41 million; (2): $22.15 million\nI. (1): $35.67 million; (2): $25.67 million\nJ. (1): $43.52 million; (2): $33.52 million\nAnswer with the option letter from the given choices directly.",
+    "images": [
+      "/root/projects/quant/assets/benchmark/prepared/images/mmmu_standard_test_Finance_313_0.png"
+    ],
+    "options": "['(1): $43.52 million; (2): $22.15 million', '(1): $33.41 million; (2): $33.52 million', '(1): $44.80 million; (2): $34.80 million', '(1): $40.00 million; (2): $30.00 million', '(1): $42.13 million; (2): $32.13 million', '(1): $45.24 million; (2): $35.24 million', '(1): $38.60 million; (2): $28.60 million', '(1): $33.41 million; (2): $22.15 million', '(1): $35.67 million; (2): $25.67 million', '(1): $43.52 million; (2): $33.52 million']",
+    "gold": "J",
+    "image_sha256": [
+      "e5d303429c487f60d0e3be53af318490406152b8b4f90c50e0b8d5a918109c8c"
+    ]
+  },
+  {
+    "id": "mmmu_standard/test_Mechanical_Engineering_409",
+    "task": "mmmu_standard",
+    "stratum": "Mechanical_Engineering",
+    "prompt": "For the 8-in. I beam shown, compute the maximum transverse shear stress when the beam is simply supported at each end and subjected to a load of 1000 lb in the center. Compare your answer with the approximation obtained by dividing the shear load by the area of the web (only) with the web considered to extend for the full 8-in. depth.[image]\nA. 206.9psi,176.7psi\nB. 196.9psi,166.7psi\nC. 196.9psi,186.7psi\nD. 206.9psi,166.7psi\nE. 176.9psi,176.7psi\nF. 176.9psi,186.7psi\nG. 186.9psi,156.7psi\nH. 176.9psi,166.7psi\nI. 196.9psi,176.7psi\nJ. 186.9psi,186.7psi\nAnswer with the option letter from the given choices directly.",
+    "images": [
+      "/root/projects/quant/assets/benchmark/prepared/images/mmmu_standard_test_Mechanical_Engineering_409_0.png"
+    ],
+    "options": "['206.9psi,176.7psi', '196.9psi,166.7psi', '196.9psi,186.7psi', '206.9psi,166.7psi', '176.9psi,176.7psi', '176.9psi,186.7psi', '186.9psi,156.7psi', '176.9psi,166.7psi', '196.9psi,176.7psi', '186.9psi,186.7psi']",
+    "gold": "B",
+    "image_sha256": [
+      "fd17167f871af0749c2740b01aedb3b054891495a74c60d3f8d9e0be1ead709f"
+    ]
+  },
+  {
+    "id": "mmmu_standard/test_Pharmacy_35",
+    "task": "mmmu_standard",
+    "stratum": "Pharmacy",
+    "prompt": "The following is a code for a strand of DNA.[image],What would be the effect if G were substituted for T at base 14?\nA. Cysteine will be replaced by Methionine\nB. Cysteine will be replaced by Glutamine\nC. Cysteine will be replaced by Arginine\nD. Threonine will be replaced by Lysine\nE. Cysteine will be replaced by Proline\nF. Threonine will be replaced by Methionine\nG. Threonine will be replaced by Proline.\nH. Cysteine will be replaced by Lysine\nI. Threonine will be replaced by Glutamine\nJ. Threonine will be replaced by Arginine\nAnswer with the option letter from the given choices directly.",
+    "images": [
+      "/root/projects/quant/assets/benchmark/prepared/images/mmmu_standard_test_Pharmacy_35_0.png"
+    ],
+    "options": "['Cysteine will be replaced by Methionine', 'Cysteine will be replaced by Glutamine', 'Cysteine will be replaced by Arginine', 'Threonine will be replaced by Lysine', 'Cysteine will be replaced by Proline', 'Threonine will be replaced by Methionine', 'Threonine will be replaced by Proline.', 'Cysteine will be replaced by Lysine', 'Threonine will be replaced by Glutamine', 'Threonine will be replaced by Arginine']",
+    "gold": "G",
+    "image_sha256": [
+      "7e496494cf0e95d029f13b760697e7a2d8aab9fb6a2c9023e3e50b5776b16807"
+    ]
+  },
+  {
+    "id": "mmmu_standard/test_Sociology_140",
+    "task": "mmmu_standard",
+    "stratum": "Sociology",
+    "prompt": "What is [image]?\nA. The tendency to conform to social norms\nB. The process by which individuals learn and adopt the values and behaviors of their culture\nC. Refers to the process of self development through which we formulate a unique sense of ourselves and our relationship to the world around us\nD. The learning of gender roles begins at birth\nE. A process of socialization that involves adjusting and adapting to societal norms and expectations\nF. Rewards and punishments that can be given by most members of a group\nG. The process of learning about and accepting the standards and norms of one's society or culture\nH. The process by which people learn the characteristics of their group\nI. A method that is useful for gathering less detailed information from a larger group.\nJ. The process through which we learn and internalize the attitudes, roles, expectations, and cultural norms of society\nAnswer with the option letter from the given choices directly.",
+    "images": [
+      "/root/projects/quant/assets/benchmark/prepared/images/mmmu_standard_test_Sociology_140_0.png"
+    ],
+    "options": "['The tendency to conform to social norms', 'The process by which individuals learn and adopt the values and behaviors of their culture', 'Refers to the process of self development through which we formulate a unique sense of ourselves and our relationship to the world around us', 'The learning of gender roles begins at birth', 'A process of socialization that involves adjusting and adapting to societal norms and expectations', 'Rewards and punishments that can be given by most members of a group', \"The process of learning about and accepting the standards and norms of one's society or culture\", 'The process by which people learn the characteristics of their group', 'A method that is useful for gathering less detailed information from a larger group.', 'The process through which we learn and internalize the attitudes, roles, expectations, and cultural norms of society']",
+    "gold": "D",
+    "image_sha256": [
+      "c4572923419503d9cc0546c77c5c24a99c5043a78edd1ae64ba855aee373251d"
+    ]
+  },
+  {
+    "id": "mmmu_standard/validation_Electronics_7",
+    "task": "mmmu_standard",
+    "stratum": "Electronics",
+    "prompt": "Calculate the steady-state voltage, $v_c(t)$, for the network shown in [image]\nA. $\\sqrt(2) cos[(3/4)t]$\nB. $\\sqrt(5) cos[(2/3)t]$\nC. $\\sqrt(2) cos[(1/2)t]$\nD. $\\sqrt(4) cos[(1/3)t]$\nE. $\\sqrt(3) cos[(1/3)t]$\nF. $\\sqrt(3) cos[(4/3)t]$\nG. $\\sqrt(3) cos[(2/3)t]$\nH. $\\sqrt(2) cos[(1/3)t]$\nI. $\\sqrt(2) cos[(5/3)t]$\nJ. $\\sqrt(2) cos[(2/3)t]$\nAnswer with the option letter from the given choices directly.",
+    "images": [
+      "/root/projects/quant/assets/benchmark/prepared/images/mmmu_standard_validation_Electronics_7_0.png"
+    ],
+    "options": "['$\\\\sqrt(2) cos[(3/4)t]$', '$\\\\sqrt(5) cos[(2/3)t]$', '$\\\\sqrt(2) cos[(1/2)t]$', '$\\\\sqrt(4) cos[(1/3)t]$', '$\\\\sqrt(3) cos[(1/3)t]$', '$\\\\sqrt(3) cos[(4/3)t]$', '$\\\\sqrt(3) cos[(2/3)t]$', '$\\\\sqrt(2) cos[(1/3)t]$', '$\\\\sqrt(2) cos[(5/3)t]$', '$\\\\sqrt(2) cos[(2/3)t]$']",
+    "gold": "J",
+    "image_sha256": [
+      "c32e86f980884ed4a74b251dfe5d1be8cfcbb4ea4b8a0b5a8298430cb1ad092a"
+    ]
+  },
+  {
+    "id": "mmmu_standard/validation_Energy_and_Power_18",
+    "task": "mmmu_standard",
+    "stratum": "Energy_and_Power",
+    "prompt": "A room is kept at 25°C by a vapor-compressionrefrigeration cycle with R-134a as the refrigerant. Heat is rejected to cooling water that enters the condenser at 20°C at a rate of 0.13 kg/s and leaves at 28°C. The refrigerant enters the condenser at 1.2 MPa and 50°C and leave as a saturated liquid. If the compressor consumes 1.9 kW of power, determine the exergy destruction in the condenser. Take T0 = 20°C and $c_{p,water}$ = 4.18 kJ/kg⋅°C[image]\nA. 0.4 kW\nB. 0.3 kW\nC. 0.9 kW\nD. 0.8 kW\nE. 0.7 kW\nF. 0.5 kW\nG. 0.2 kW\nH. 0.6 kW\nI. 0.1 kW\nAnswer with the option letter from the given choices directly.",
+    "images": [
+      "/root/projects/quant/assets/benchmark/prepared/images/mmmu_standard_validation_Energy_and_Power_18_0.png"
+    ],
+    "options": "['0.4 kW', '0.3 kW', '0.9 kW', '0.8 kW', '0.7 kW', '0.5 kW', '0.2 kW', '0.6 kW', '0.1 kW']",
+    "gold": "B",
+    "image_sha256": [
+      "98cd38dbf07d92289f9471b03d7e60376ee46edea9ad1843c5325bd2bf0c8e0e"
+    ]
+  },
+  {
+    "id": "mmmu_standard/validation_Manage_15",
+    "task": "mmmu_standard",
+    "stratum": "Manage",
+    "prompt": "The [image] shows the information-oriented maturity model, in which its 15 capabilities come from three information functions. Which ability is not included in the following options?\nA. Information collection and integration\nB. IT practices\nC. Information management\nD. Information Behavior and Values\nE. Sensing\nF. Maintaining\nG. Collecting\nH. Sharing\nI. Transparency\nJ. Data Security\nAnswer with the option letter from the given choices directly.",
+    "images": [
+      "/root/projects/quant/assets/benchmark/prepared/images/mmmu_standard_validation_Manage_15_0.png"
+    ],
+    "options": "['Information collection and integration', 'IT practices', 'Information management', 'Information Behavior and Values', 'Sensing', 'Maintaining', 'Collecting', 'Sharing', 'Transparency', 'Data Security']",
+    "gold": "A",
+    "image_sha256": [
+      "564931e1e71786311c3e72105937ecfd18335a8b7bf81a1288a587e47e606346"
+    ]
+  },
+  {
+    "id": "mmmu_vision/test_Architecture_and_Engineering_207",
+    "task": "mmmu_vision",
+    "stratum": "Architecture_and_Engineering",
+    "prompt": "Answer with the option letter from the given choices directly. The last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of options.",
+    "images": [
+      "/root/projects/quant/assets/benchmark/prepared/images/mmmu_vision_test_Architecture_and_Engineering_207_0.png"
+    ],
+    "options": "['0', '20 tension', '10 tension', '10 compression', '15 tension', '30 compression', '20 compr', '25 compression', '5 compression', '15 compression']",
+    "gold": "A",
+    "image_sha256": [
+      "8027a4516eaeec87ad9881ea4930a7beabbfdfe14c0e016eb5b1132161690549"
+    ]
+  },
+  {
+    "id": "mmmu_vision/test_Architecture_and_Engineering_473",
+    "task": "mmmu_vision",
+    "stratum": "Architecture_and_Engineering",
+    "prompt": "Answer with the option letter from the given choices directly. The last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of options.",
+    "images": [
+      "/root/projects/quant/assets/benchmark/prepared/images/mmmu_vision_test_Architecture_and_Engineering_473_0.png"
+    ],
+    "options": "['71°30\\'48.68\"', '71°27\\'48.68\"', '71°22\\'48.68\"', '71°29\\'48.68\"', '71°23\\'48.68\"', '71°25\\'48.68\"', '71°26\\'48.68\"', '71°21\\'48.68\"', '71°28\\'48.68\"', '71°24\\'48.68\"']",
+    "gold": "B",
+    "image_sha256": [
+      "29b52384fe858ac9a5b79b706fe9e92a3a4d9f733ce02811f412346c3c92a389"
+    ]
+  },
+  {
+    "id": "mmmu_vision/test_Electronics_140",
+    "task": "mmmu_vision",
+    "stratum": "Electronics",
+    "prompt": "Answer with the option letter from the given choices directly. The last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of options.",
+    "images": [
+      "/root/projects/quant/assets/benchmark/prepared/images/mmmu_vision_test_Electronics_140_0.png"
+    ],
+    "options": "['7/5 + j15/5', '7/5 + j14/5', '3/5 + j14/5', '6/5 + j15/5', '3/5 + j17/5', '4/5 + j17/5', '5/5 + j13/5', '2/5 + j12/5', '8/5 + j16/5', '1/5 + j14/5']",
+    "gold": "B",
+    "image_sha256": [
+      "d5bef2fb0a0505956100dcf705629e1fafae1238de3d7ba967de396b1eb5eb58"
+    ]
+  },
+  {
+    "id": "mmmu_vision/test_Electronics_58",
+    "task": "mmmu_vision",
+    "stratum": "Electronics",
+    "prompt": "Answer with the option letter from the given choices directly. The last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of options.",
+    "images": [
+      "/root/projects/quant/assets/benchmark/prepared/images/mmmu_vision_test_Electronics_58_0.png"
+    ],
+    "options": "['$.01 (2 + e^{-25,000t}) u(t) A$', '$.01 (1 - e^{-25,000t}) u(t) A$', '$.01 (1 + e^{-25,000t}) u(t) A$', '$.01 (2 - e^{-25,000t}) u(t) A$', '$.02 (1 + e^{-25,000t}) u(t) A$', '$.02 (2 + e^{-25,000t}) u(t) A$', '$.03 (1 - e^{-25,000t}) u(t) A$', '$.01 (1 - e^{-15,000t}) u(t) A$', '$.02 (2 - e^{-25,000t}) u(t) A$', '$.02 (1 - e^{-25,000t}) u(t) A$']",
+    "gold": "J",
+    "image_sha256": [
+      "4de963ae9db7f6be14fb5dae2d7ad900d6419adb5e7ef1ef9cc1edeaaf6ada6b"
+    ]
+  },
+  {
+    "id": "mmmu_vision/test_Energy_and_Power_16",
+    "task": "mmmu_vision",
+    "stratum": "Energy_and_Power",
+    "prompt": "Answer with the option letter from the given choices directly. The last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of options.",
+    "images": [
+      "/root/projects/quant/assets/benchmark/prepared/images/mmmu_vision_test_Energy_and_Power_16_0.png"
+    ],
+    "options": "['15.2 A', '10.8 A', '16.4 A', '14.8 A', '9.8 A', '11.6 A', '8.7 A', '13.4 A', '12.8 A']",
+    "gold": "I",
+    "image_sha256": [
+      "6f53015cf0a8fa9634ddb114ca6ffb58be9e3f2d19a17fbbfd7468749c9731eb"
+    ]
+  },
+  {
+    "id": "mmmu_vision/test_Geography_428",
+    "task": "mmmu_vision",
+    "stratum": "Geography",
+    "prompt": "Answer with the option letter from the given choices directly. The last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of options.",
+    "images": [
+      "/root/projects/quant/assets/benchmark/prepared/images/mmmu_vision_test_Geography_428_0.png"
+    ],
+    "options": "['200', '240', '220', '320', '340', '360', '380', ' 300', ' 280', ' 260']",
+    "gold": "H",
+    "image_sha256": [
+      "431b7d569d320fa3af60584edebbf94cd85e753c8a2fc8d29b6889bb89c44f8b"
+    ]
+  },
+  {
+    "id": "mmmu_vision/test_Manage_80",
+    "task": "mmmu_vision",
+    "stratum": "Manage",
+    "prompt": "Answer with the option letter from the given choices directly. The last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of options.",
+    "images": [
+      "/root/projects/quant/assets/benchmark/prepared/images/mmmu_vision_test_Manage_80_0.png"
+    ],
+    "options": "['0.5', '0.2', '0.9', '0.1', '0.8', '0.6', '0.4', '0.7', '1.0', '0.3']",
+    "gold": "A",
+    "image_sha256": [
+      "af8ab7bfa88451ff3af30047808dba8be2b801250208c52ffb90b3a11806abe4"
+    ]
+  },
+  {
+    "id": "mmmu_vision/test_Music_60",
+    "task": "mmmu_vision",
+    "stratum": "Music",
+    "prompt": "Answer with the option letter from the given choices directly. The last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of options.",
+    "images": [
+      "/root/projects/quant/assets/benchmark/prepared/images/mmmu_vision_test_Music_60_0.png"
+    ],
+    "options": "['Minor third', 'Diminished fifth', 'Major second', 'Augmented sixth', 'Diminished third', 'Perfect fifth', 'Major seventh', 'Augmented second', 'Perfect fourth', 'Double augmented second']",
+    "gold": "D",
+    "image_sha256": [
+      "36838acfb18ade62092be8671eb2a4897578f273552824943e6b890c5261f8be"
+    ]
+  },
+  {
+    "id": "mmmu_vision/test_Psychology_220",
+    "task": "mmmu_vision",
+    "stratum": "Psychology",
+    "prompt": "Answer with the option letter from the given choices directly. The last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of options.",
+    "images": [
+      "/root/projects/quant/assets/benchmark/prepared/images/mmmu_vision_test_Psychology_220_0.png"
+    ],
+    "options": "['Distribution B and distribution C have the same variation.', 'Distribution A has more variation than distributions B or C.', 'The mean of distribution A is less than that of B or C.', 'The standard deviation of distribution B is zero.', 'Distribution A has less variation than distributions B or C.', 'The standard deviation of distribution A is infinite.', 'The standard deviation of distribution C is zero.', 'Distribution B has more variation than distributions A or C.', 'Distribution C has more variation than distributions A or B.', 'Distribution A and distribution C have the same variation.']",
+    "gold": "H",
+    "image_sha256": [
+      "fee9b572941e18206012a908efad2425c42137d4716ad27dc1f53baa1c27661f"
+    ]
+  },
+  {
+    "id": "mmmu_vision/validation_Diagnostics_and_Laboratory_Medicine_22",
+    "task": "mmmu_vision",
+    "stratum": "Diagnostics_and_Laboratory_Medicine",
+    "prompt": "Answer with the option letter from the given choices directly. The last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of options.",
+    "images": [
+      "/root/projects/quant/assets/benchmark/prepared/images/mmmu_vision_validation_Diagnostics_and_Laboratory_Medicine_22_0.png"
+    ],
+    "options": "['typically benign and slow-growing', 'more common in children than adults', 'also has binucleate neurons', 'is often associated with seizures', 'often results in loss of motor control', 'usually linked with severe headaches', 'may be intraventricular in children', 'often found in the peripheral nervous system', 'commonly associated with memory loss', 'rarely found in the brain stem']",
+    "gold": "G",
+    "image_sha256": [
+      "637037ec101181f2f0cb79e5bf647eb17e3e26eefab58fad4fcbdae80ef548a4"
+    ]
+  },
+  {
+    "id": "mmmu_vision/validation_Energy_and_Power_8",
+    "task": "mmmu_vision",
+    "stratum": "Energy_and_Power",
+    "prompt": "Answer with the option letter from the given choices directly. The last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of options.",
+    "images": [
+      "/root/projects/quant/assets/benchmark/prepared/images/mmmu_vision_validation_Energy_and_Power_8_0.png"
+    ],
+    "options": "['17.9 cm', '26.3 cm', '28.4 cm', '33.1 cm', '38.8 cm', '44.7 cm', '15.9 cm', '39.2 cm', '22.6 cm']",
+    "gold": "I",
+    "image_sha256": [
+      "4187bf65bfa2b69d9d08eb5f2a17d1b61fe0ebd1b29a0c3d6dcdabfbd309a318"
+    ]
+  },
+  {
+    "id": "mmmu_vision/validation_Finance_21",
+    "task": "mmmu_vision",
+    "stratum": "Finance",
+    "prompt": "Answer with the option letter from the given choices directly. The last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of options.",
+    "images": [
+      "/root/projects/quant/assets/benchmark/prepared/images/mmmu_vision_validation_Finance_21_0.png"
+    ],
+    "options": "['$2,100', '$5,600', '$6,100', '$3,100', '$4,100', '$5,100', '$2,600', '$1,100', '$4,600', '$3,600']",
+    "gold": "A",
+    "image_sha256": [
+      "61413d3d87ec9be4426b985e06e2dae051f64b1347751c9e49d3590c40b652bc"
+    ]
+  },
+  {
+    "id": "mmmu_vision/validation_Mechanical_Engineering_17",
+    "task": "mmmu_vision",
+    "stratum": "Mechanical_Engineering",
+    "prompt": "Answer with the option letter from the given choices directly. The last line of your response should be of the following format: 'Answer: $LETTER' (without quotes) where LETTER is one of options.",
+    "images": [
+      "/root/projects/quant/assets/benchmark/prepared/images/mmmu_vision_validation_Mechanical_Engineering_17_0.png"
+    ],
+    "options": "['C', 'B', 'A', 'D']",
+    "gold": "C",
+    "image_sha256": [
+      "2a21d0e007cfc78e76940f3d3a417986285c5b90bac3d61340602ee93ad47fd8"
+    ]
+  }
+]

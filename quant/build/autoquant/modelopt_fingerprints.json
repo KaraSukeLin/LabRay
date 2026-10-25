@@ -1,0 +1,17 @@
+[
+  {
+    "file": "model-00001-of-00003.safetensors",
+    "bytes": 9983239776,
+    "sha256": "1f0efa697539d8258c9e9c2ef7a01eb603af287c7947e10d56c4e5b3532bf01a"
+  },
+  {
+    "file": "model-00002-of-00003.safetensors",
+    "bytes": 9982301848,
+    "sha256": "f36664932a6ff74ae0cf3a46f7ca604343d541b08961fe2b532b5bbe6c136e00"
+  },
+  {
+    "file": "model-00003-of-00003.safetensors",
+    "bytes": 3570487072,
+    "sha256": "18c2e9be9e76f67e4ecaba4371e9c6bd2b9567eb4f86d157a23ac9adadbd7f67"
+  }
+]

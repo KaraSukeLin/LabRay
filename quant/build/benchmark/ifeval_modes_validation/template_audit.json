@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "questions_checked": 541,
+  "off_prompt_equal_previous": true,
+  "on_explicit_xhigh_equal_official_default": true,
+  "vllm_request_routes_effort_to_chat_template": true,
+  "effort_is_soft_prompt_instruction_not_token_budget": true,
+  "chat_template_sha256": "c3cf9e34abf4f9e36c2d72165aa9c132d3e2a725b6c2586aaa3a8af9d7a81041",
+  "max_thinking_input_tokens": 415,
+  "on_max_tokens": 32768,
+  "context": 65536,
+  "inference_started": false
+}

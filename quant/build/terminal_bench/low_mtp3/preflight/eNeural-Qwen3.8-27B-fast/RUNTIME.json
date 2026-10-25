@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "services": [
+    {
+      "gpu": 1,
+      "model": "eNeural-Qwen3.8-27B-fast",
+      "quantization": "compressed-tensors",
+      "mtp": 3,
+      "tp": 1,
+      "kv_dtype": "bfloat16",
+      "fp4_weight_only_marlin": true,
+      "source": "/root/projects/quant/build/terminal_bench/low_mtp3/preflight/eNeural-Qwen3.8-27B-fast/services/gpu1/1792598468970015789/server.log"
+    }
+  ]
+}

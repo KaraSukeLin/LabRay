@@ -1,0 +1,10 @@
++ experiments/orsharc/artifacts/env/qwen/bin/python -
+torch 2.8.0+cu128 cuda 12.8
+transformers 5.20.2
+triton 3.4.0
+bitsandbytes 0.50.2
+cuda_available True gpu0 NVIDIA H100 80GB HBM3
+bf16_supported True
+Traceback (most recent call last):
+  File "<stdin>", line 8, in <module>
+AttributeError: module 'bitsandbytes.cextension' has no attribute 'CUDASetup'

@@ -1,0 +1,38 @@
+{
+  "base": "/root/model/Qwen-Qwen3.8-27B",
+  "base_revision": "1d4bf0f2ff6012fd82039f2fa52739d0dd7c60c0",
+  "method": "kl_div",
+  "effective_bits": 5.5,
+  "cost_model": "weight",
+  "candidates": [
+    "NVFP4_DEFAULT_CFG",
+    "FP8_DEFAULT_CFG",
+    "BF16 (framework automatic fallback)"
+  ],
+  "disabled_layers": [
+    "*visual*",
+    "*vision_tower*",
+    "*mtp*",
+    "*lm_head*",
+    "*linear_attn.conv1d*",
+    "*linear_attn.in_proj_a*",
+    "*linear_attn.in_proj_b*"
+  ],
+  "cost_excluded": [
+    "*visual*",
+    "*vision_tower*",
+    "*mtp*",
+    "*lm_head*"
+  ],
+  "calibration_steps": 128,
+  "score_steps": 8,
+  "sequence_length": 512,
+  "data_manifest_sha256": "205f8ceaeec58ea55c9daba11bbbb883ba4e0e9d4bd38facf0b90338206b3f10",
+  "packages": {
+    "nvidia-modelopt": "0.0.1.dev1+ged66a9e0a",
+    "torch": "2.13.0+cu129",
+    "transformers": "5.17.0"
+  },
+  "probe": false,
+  "gpu": "NVIDIA H100 80GB HBM3"
+}

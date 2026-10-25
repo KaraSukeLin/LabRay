@@ -1,0 +1,866 @@
+{
+  "status": "PASS",
+  "results": {
+    "adapter": [
+      {
+        "example_id": "0b62a00bfbe7d2a33719239a96376f1b05612bd5",
+        "split": "train",
+        "percentile": 0.5,
+        "probabilities": {
+          "Yes": 0.014591,
+          "No": 0.968849,
+          "Inquire": 0.01656
+        },
+        "prediction": "No",
+        "seconds": 0.1387408822774887,
+        "input_tokens": 257,
+        "usage": {
+          "input_tokens": 257,
+          "output_tokens": 1
+        },
+        "stats": {
+          "prompt_version": "qev-labels-v2",
+          "prompt_sha256": "0f80594f4569dcb7fce46e66b35fef2fa64f71ddb9c27b1907510361b04a6589",
+          "fork_mode": "batched",
+          "prefix_tokens": 168,
+          "branches": 1,
+          "timing": {
+            "render_s": 0.0009154640138149261,
+            "forward_s": 0.13746526464819908,
+            "total_s": 0.13863296806812286
+          },
+          "diagnostics": {
+            "decision": {
+              "allowed_token_mass": 0.7475310564041138,
+              "slot_logits": [
+                [
+                  8.167810440063477,
+                  12.36351203918457,
+                  8.29438591003418
+                ]
+              ],
+              "temperature": 1.0
+            }
+          }
+        }
+      },
+      {
+        "example_id": "80adc236125ba047b4c62972e476429abae2ae05",
+        "split": "train",
+        "percentile": 0.9,
+        "probabilities": {
+          "Yes": 0.000677999322000678,
+          "No": 0.9387860612139387,
+          "Inquire": 0.06053593946406053
+        },
+        "prediction": "No",
+        "seconds": 0.16460448130965233,
+        "input_tokens": 329,
+        "usage": {
+          "input_tokens": 329,
+          "output_tokens": 1
+        },
+        "stats": {
+          "prompt_version": "qev-labels-v2",
+          "prompt_sha256": "32abd10d31aed9e1487e049637279a3582f0c882c77bfd18fc6c2238a071f09b",
+          "fork_mode": "batched",
+          "prefix_tokens": 240,
+          "branches": 1,
+          "timing": {
+            "render_s": 0.0011814646422863007,
+            "forward_s": 0.16307077184319496,
+            "total_s": 0.16450242698192596
+          },
+          "diagnostics": {
+            "decision": {
+              "allowed_token_mass": 0.8173204064369202,
+              "slot_logits": [
+                [
+                  5.551955223083496,
+                  12.785563468933105,
+                  10.044205665588379
+                ]
+              ],
+              "temperature": 1.0
+            }
+          }
+        }
+      },
+      {
+        "example_id": "cd75dc57ab8be49ead227bb8527b261b810d4c80",
+        "split": "train",
+        "percentile": 0.95,
+        "probabilities": {
+          "Yes": 0.10612089387910613,
+          "No": 0.49364550635449367,
+          "Inquire": 0.40023359976640027
+        },
+        "prediction": "No",
+        "seconds": 0.1559673808515072,
+        "input_tokens": 355,
+        "usage": {
+          "input_tokens": 355,
+          "output_tokens": 1
+        },
+        "stats": {
+          "prompt_version": "qev-labels-v2",
+          "prompt_sha256": "fa008caea235ab142e95cbc51e6c2f3dd4826a2f71c3f46a8fc4f6239f80d8f1",
+          "fork_mode": "batched",
+          "prefix_tokens": 266,
+          "branches": 1,
+          "timing": {
+            "render_s": 0.0011674128472805023,
+            "forward_s": 0.1544654294848442,
+            "total_s": 0.1558712162077427
+          },
+          "diagnostics": {
+            "decision": {
+              "allowed_token_mass": 0.32240167260169983,
+              "slot_logits": [
+                [
+                  8.110787391662598,
+                  9.648029327392578,
+                  9.43825912475586
+                ]
+              ],
+              "temperature": 1.0
+            }
+          }
+        }
+      },
+      {
+        "example_id": "299f9e4c08bce89be863478f3991800b99c1037f",
+        "split": "train",
+        "percentile": 0.99,
+        "probabilities": {
+          "Yes": 0.095955,
+          "No": 0.780776,
+          "Inquire": 0.123269
+        },
+        "prediction": "No",
+        "seconds": 0.15408481657505035,
+        "input_tokens": 405,
+        "usage": {
+          "input_tokens": 405,
+          "output_tokens": 1
+        },
+        "stats": {
+          "prompt_version": "qev-labels-v2",
+          "prompt_sha256": "0238aea2104abaea3d022660f5bf9dd3a19fc9f6b02233f2f12671434f586b29",
+          "fork_mode": "batched",
+          "prefix_tokens": 316,
+          "branches": 1,
+          "timing": {
+            "render_s": 0.0014674477279186249,
+            "forward_s": 0.15227844938635826,
+            "total_s": 0.15398471057415009
+          },
+          "diagnostics": {
+            "decision": {
+              "allowed_token_mass": 0.39133232831954956,
+              "slot_logits": [
+                [
+                  8.44217586517334,
+                  10.53858757019043,
+                  8.692671775817871
+                ]
+              ],
+              "temperature": 1.0
+            }
+          }
+        }
+      },
+      {
+        "example_id": "4c64486a447e0e7855342f18d05318d2ea5a3159",
+        "split": "train",
+        "percentile": 1.0,
+        "probabilities": {
+          "Yes": 0.020517,
+          "No": 0.682693,
+          "Inquire": 0.29679
+        },
+        "prediction": "No",
+        "seconds": 0.1542862318456173,
+        "input_tokens": 494,
+        "usage": {
+          "input_tokens": 494,
+          "output_tokens": 1
+        },
+        "stats": {
+          "prompt_version": "qev-labels-v2",
+          "prompt_sha256": "d02add4a07569406d8ad6f6f289da9253ff84fc168198b15967015a94aee4678",
+          "fork_mode": "batched",
+          "prefix_tokens": 405,
+          "branches": 1,
+          "timing": {
+            "render_s": 0.0016843043267726898,
+            "forward_s": 0.15226750075817108,
+            "total_s": 0.15418270602822304
+          },
+          "diagnostics": {
+            "decision": {
+              "allowed_token_mass": 0.4712435007095337,
+              "slot_logits": [
+                [
+                  7.215394496917725,
+                  10.720184326171875,
+                  9.887164115905762
+                ]
+              ],
+              "temperature": 1.0
+            }
+          }
+        }
+      },
+      {
+        "example_id": "1d152012cb1a40ac008680d4581846b53e376c6f",
+        "split": "dev",
+        "percentile": 0.5,
+        "probabilities": {
+          "Yes": 0.613075,
+          "No": 0.015371,
+          "Inquire": 0.371554
+        },
+        "prediction": "Yes",
+        "seconds": 0.1496661938726902,
+        "input_tokens": 247,
+        "usage": {
+          "input_tokens": 247,
+          "output_tokens": 1
+        },
+        "stats": {
+          "prompt_version": "qev-labels-v2",
+          "prompt_sha256": "6487ddd1218e224759e43782aed8b42dd36e800483148b8f00bc1a2c5f1c66fc",
+          "fork_mode": "batched",
+          "prefix_tokens": 158,
+          "branches": 1,
+          "timing": {
+            "render_s": 0.0008829385042190552,
+            "forward_s": 0.14846372231841087,
+            "total_s": 0.14957662671804428
+          },
+          "diagnostics": {
+            "decision": {
+              "allowed_token_mass": 0.4093000590801239,
+              "slot_logits": [
+                [
+                  10.323410987854004,
+                  6.637406826019287,
+                  9.822619438171387
+                ]
+              ],
+              "temperature": 1.0
+            }
+          }
+        }
+      },
+      {
+        "example_id": "acd895262bd94f1b9d8344b8165f31fe7014fd40",
+        "split": "dev",
+        "percentile": 0.9,
+        "probabilities": {
+          "Yes": 0.000531,
+          "No": 0.832468,
+          "Inquire": 0.167001
+        },
+        "prediction": "No",
+        "seconds": 0.1503113992512226,
+        "input_tokens": 294,
+        "usage": {
+          "input_tokens": 294,
+          "output_tokens": 1
+        },
+        "stats": {
+          "prompt_version": "qev-labels-v2",
+          "prompt_sha256": "ad235d4cb3b6582ed3a1d50c33d056e8cceba80cdafdc02fc7a38c3eb7a1f5f0",
+          "fork_mode": "batched",
+          "prefix_tokens": 205,
+          "branches": 1,
+          "timing": {
+            "render_s": 0.0010443218052387238,
+            "forward_s": 0.1489359326660633,
+            "total_s": 0.15021155029535294
+          },
+          "diagnostics": {
+            "decision": {
+              "allowed_token_mass": 0.7624791264533997,
+              "slot_logits": [
+                [
+                  4.94404935836792,
+                  12.302106857299805,
+                  10.695711135864258
+                ]
+              ],
+              "temperature": 1.0
+            }
+          }
+        }
+      },
+      {
+        "example_id": "c09a96debf4c2cde2ca94011b2a016e8c18553f2",
+        "split": "dev",
+        "percentile": 0.95,
+        "probabilities": {
+          "Yes": 0.964566,
+          "No": 0.008879,
+          "Inquire": 0.026555
+        },
+        "prediction": "Yes",
+        "seconds": 0.14840475842356682,
+        "input_tokens": 318,
+        "usage": {
+          "input_tokens": 318,
+          "output_tokens": 1
+        },
+        "stats": {
+          "prompt_version": "qev-labels-v2",
+          "prompt_sha256": "e330f039f8819426c0fcdb5a0cff4a4a6629d96d55ac86d00001b1a18ddb0aca",
+          "fork_mode": "batched",
+          "prefix_tokens": 229,
+          "branches": 1,
+          "timing": {
+            "render_s": 0.0011368617415428162,
+            "forward_s": 0.14693620800971985,
+            "total_s": 0.14831287041306496
+          },
+          "diagnostics": {
+            "decision": {
+              "allowed_token_mass": 0.7537742257118225,
+              "slot_logits": [
+                [
+                  12.379098892211914,
+                  7.691124439239502,
+                  8.786626815795898
+                ]
+              ],
+              "temperature": 1.0
+            }
+          }
+        }
+      },
+      {
+        "example_id": "d2354e65db17dc36e6bcdabc4112e79e9c958377",
+        "split": "dev",
+        "percentile": 0.99,
+        "probabilities": {
+          "Yes": 0.005629,
+          "No": 0.93672,
+          "Inquire": 0.057651
+        },
+        "prediction": "No",
+        "seconds": 0.14871735870838165,
+        "input_tokens": 376,
+        "usage": {
+          "input_tokens": 376,
+          "output_tokens": 1
+        },
+        "stats": {
+          "prompt_version": "qev-labels-v2",
+          "prompt_sha256": "4123198d9ee63ad60d5fed24d96d5e694be991fff3720201a04a94fe136cfe51",
+          "fork_mode": "batched",
+          "prefix_tokens": 287,
+          "branches": 1,
+          "timing": {
+            "render_s": 0.0013231895864009857,
+            "forward_s": 0.14707283303141594,
+            "total_s": 0.1486252173781395
+          },
+          "diagnostics": {
+            "decision": {
+              "allowed_token_mass": 0.7034107446670532,
+              "slot_logits": [
+                [
+                  7.066652774810791,
+                  12.181068420410156,
+                  9.393087387084961
+                ]
+              ],
+              "temperature": 1.0
+            }
+          }
+        }
+      },
+      {
+        "example_id": "6f35ffddcae4a2c41d62794cb4306e09a7cbf92f",
+        "split": "dev",
+        "percentile": 1.0,
+        "probabilities": {
+          "Yes": 0.966288,
+          "No": 0.009051,
+          "Inquire": 0.024661
+        },
+        "prediction": "Yes",
+        "seconds": 0.15046914666891098,
+        "input_tokens": 439,
+        "usage": {
+          "input_tokens": 439,
+          "output_tokens": 1
+        },
+        "stats": {
+          "prompt_version": "qev-labels-v2",
+          "prompt_sha256": "9c5cf998797824643b132d0c138e8861863e0c48c3b765867ca42212da2d5e58",
+          "fork_mode": "batched",
+          "prefix_tokens": 350,
+          "branches": 1,
+          "timing": {
+            "render_s": 0.0015257857739925385,
+            "forward_s": 0.14861318096518517,
+            "total_s": 0.15037282183766365
+          },
+          "diagnostics": {
+            "decision": {
+              "allowed_token_mass": 0.7409163117408752,
+              "slot_logits": [
+                [
+                  12.3001070022583,
+                  7.629534721374512,
+                  8.631863594055176
+                ]
+              ],
+              "temperature": 1.0
+            }
+          }
+        }
+      }
+    ],
+    "merged": [
+      {
+        "example_id": "0b62a00bfbe7d2a33719239a96376f1b05612bd5",
+        "split": "train",
+        "percentile": 0.5,
+        "probabilities": {
+          "Yes": 0.015647,
+          "No": 0.966998,
+          "Inquire": 0.017355
+        },
+        "prediction": "No",
+        "seconds": 0.09522953629493713,
+        "input_tokens": 257,
+        "usage": {
+          "input_tokens": 257,
+          "output_tokens": 1
+        },
+        "stats": {
+          "prompt_version": "qev-labels-v2",
+          "prompt_sha256": "0f80594f4569dcb7fce46e66b35fef2fa64f71ddb9c27b1907510361b04a6589",
+          "fork_mode": "batched",
+          "prefix_tokens": 168,
+          "branches": 1,
+          "timing": {
+            "render_s": 0.0009022988379001617,
+            "forward_s": 0.09398586675524712,
+            "total_s": 0.09513320401310921
+          },
+          "diagnostics": {
+            "decision": {
+              "allowed_token_mass": 0.7346766591072083,
+              "slot_logits": [
+                [
+                  8.16066837310791,
+                  12.284586906433105,
+                  8.264273643493652
+                ]
+              ],
+              "temperature": 1.0
+            }
+          }
+        }
+      },
+      {
+        "example_id": "80adc236125ba047b4c62972e476429abae2ae05",
+        "split": "train",
+        "percentile": 0.9,
+        "probabilities": {
+          "Yes": 0.0006530006530006529,
+          "No": 0.9420659420659421,
+          "Inquire": 0.05728105728105728
+        },
+        "prediction": "No",
+        "seconds": 0.09634178131818771,
+        "input_tokens": 329,
+        "usage": {
+          "input_tokens": 329,
+          "output_tokens": 1
+        },
+        "stats": {
+          "prompt_version": "qev-labels-v2",
+          "prompt_sha256": "32abd10d31aed9e1487e049637279a3582f0c882c77bfd18fc6c2238a071f09b",
+          "fork_mode": "batched",
+          "prefix_tokens": 240,
+          "branches": 1,
+          "timing": {
+            "render_s": 0.0011224225163459778,
+            "forward_s": 0.09488233923912048,
+            "total_s": 0.09624555334448814
+          },
+          "diagnostics": {
+            "decision": {
+              "allowed_token_mass": 0.8286054134368896,
+              "slot_logits": [
+                [
+                  5.599044322967529,
+                  12.87304973602295,
+                  10.072951316833496
+                ]
+              ],
+              "temperature": 1.0
+            }
+          }
+        }
+      },
+      {
+        "example_id": "cd75dc57ab8be49ead227bb8527b261b810d4c80",
+        "split": "train",
+        "percentile": 0.95,
+        "probabilities": {
+          "Yes": 0.108837,
+          "No": 0.477614,
+          "Inquire": 0.413549
+        },
+        "prediction": "No",
+        "seconds": 0.09750417247414589,
+        "input_tokens": 355,
+        "usage": {
+          "input_tokens": 355,
+          "output_tokens": 1
+        },
+        "stats": {
+          "prompt_version": "qev-labels-v2",
+          "prompt_sha256": "fa008caea235ab142e95cbc51e6c2f3dd4826a2f71c3f46a8fc4f6239f80d8f1",
+          "fork_mode": "batched",
+          "prefix_tokens": 266,
+          "branches": 1,
+          "timing": {
+            "render_s": 0.001180894672870636,
+            "forward_s": 0.09599211439490318,
+            "total_s": 0.09741028025746346
+          },
+          "diagnostics": {
+            "decision": {
+              "allowed_token_mass": 0.3220270872116089,
+              "slot_logits": [
+                [
+                  8.130086898803711,
+                  9.609033584594727,
+                  9.465006828308105
+                ]
+              ],
+              "temperature": 1.0
+            }
+          }
+        }
+      },
+      {
+        "example_id": "299f9e4c08bce89be863478f3991800b99c1037f",
+        "split": "train",
+        "percentile": 0.99,
+        "probabilities": {
+          "Yes": 0.088721,
+          "No": 0.796126,
+          "Inquire": 0.115153
+        },
+        "prediction": "No",
+        "seconds": 0.09790186583995819,
+        "input_tokens": 405,
+        "usage": {
+          "input_tokens": 405,
+          "output_tokens": 1
+        },
+        "stats": {
+          "prompt_version": "qev-labels-v2",
+          "prompt_sha256": "0238aea2104abaea3d022660f5bf9dd3a19fc9f6b02233f2f12671434f586b29",
+          "fork_mode": "batched",
+          "prefix_tokens": 316,
+          "branches": 1,
+          "timing": {
+            "render_s": 0.0013573579490184784,
+            "forward_s": 0.09621387720108032,
+            "total_s": 0.09780571609735489
+          },
+          "diagnostics": {
+            "decision": {
+              "allowed_token_mass": 0.402316689491272,
+              "slot_logits": [
+                [
+                  8.410602569580078,
+                  10.60486888885498,
+                  8.671372413635254
+                ]
+              ],
+              "temperature": 1.0
+            }
+          }
+        }
+      },
+      {
+        "example_id": "4c64486a447e0e7855342f18d05318d2ea5a3159",
+        "split": "train",
+        "percentile": 1.0,
+        "probabilities": {
+          "Yes": 0.020351000000000005,
+          "No": 0.7241690000000001,
+          "Inquire": 0.25548000000000004
+        },
+        "prediction": "No",
+        "seconds": 0.09787973389029503,
+        "input_tokens": 494,
+        "usage": {
+          "input_tokens": 494,
+          "output_tokens": 1
+        },
+        "stats": {
+          "prompt_version": "qev-labels-v2",
+          "prompt_sha256": "d02add4a07569406d8ad6f6f289da9253ff84fc168198b15967015a94aee4678",
+          "fork_mode": "batched",
+          "prefix_tokens": 405,
+          "branches": 1,
+          "timing": {
+            "render_s": 0.0016345083713531494,
+            "forward_s": 0.09590926393866539,
+            "total_s": 0.09777936339378357
+          },
+          "diagnostics": {
+            "decision": {
+              "allowed_token_mass": 0.47816213965415955,
+              "slot_logits": [
+                [
+                  7.257063865661621,
+                  10.828965187072754,
+                  9.787083625793457
+                ]
+              ],
+              "temperature": 1.0
+            }
+          }
+        }
+      },
+      {
+        "example_id": "1d152012cb1a40ac008680d4581846b53e376c6f",
+        "split": "dev",
+        "percentile": 0.5,
+        "probabilities": {
+          "Yes": 0.6034816034816035,
+          "No": 0.014857014857014858,
+          "Inquire": 0.38166138166138164
+        },
+        "prediction": "Yes",
+        "seconds": 0.09541793167591095,
+        "input_tokens": 247,
+        "usage": {
+          "input_tokens": 247,
+          "output_tokens": 1
+        },
+        "stats": {
+          "prompt_version": "qev-labels-v2",
+          "prompt_sha256": "6487ddd1218e224759e43782aed8b42dd36e800483148b8f00bc1a2c5f1c66fc",
+          "fork_mode": "batched",
+          "prefix_tokens": 158,
+          "branches": 1,
+          "timing": {
+            "render_s": 0.0008431226015090942,
+            "forward_s": 0.09425216913223267,
+            "total_s": 0.09532641619443893
+          },
+          "diagnostics": {
+            "decision": {
+              "allowed_token_mass": 0.4068991243839264,
+              "slot_logits": [
+                [
+                  10.29516887664795,
+                  6.590946197509766,
+                  9.836987495422363
+                ]
+              ],
+              "temperature": 1.0
+            }
+          }
+        }
+      },
+      {
+        "example_id": "acd895262bd94f1b9d8344b8165f31fe7014fd40",
+        "split": "dev",
+        "percentile": 0.9,
+        "probabilities": {
+          "Yes": 0.00053,
+          "No": 0.830623,
+          "Inquire": 0.168847
+        },
+        "prediction": "No",
+        "seconds": 0.09578117728233337,
+        "input_tokens": 294,
+        "usage": {
+          "input_tokens": 294,
+          "output_tokens": 1
+        },
+        "stats": {
+          "prompt_version": "qev-labels-v2",
+          "prompt_sha256": "ad235d4cb3b6582ed3a1d50c33d056e8cceba80cdafdc02fc7a38c3eb7a1f5f0",
+          "fork_mode": "batched",
+          "prefix_tokens": 205,
+          "branches": 1,
+          "timing": {
+            "render_s": 0.0010254159569740295,
+            "forward_s": 0.09443200007081032,
+            "total_s": 0.09568750858306885
+          },
+          "diagnostics": {
+            "decision": {
+              "allowed_token_mass": 0.761350691318512,
+              "slot_logits": [
+                [
+                  4.9438252449035645,
+                  12.300760269165039,
+                  10.707579612731934
+                ]
+              ],
+              "temperature": 1.0
+            }
+          }
+        }
+      },
+      {
+        "example_id": "c09a96debf4c2cde2ca94011b2a016e8c18553f2",
+        "split": "dev",
+        "percentile": 0.95,
+        "probabilities": {
+          "Yes": 0.9663310336689663,
+          "No": 0.008173991826008175,
+          "Inquire": 0.025494974505025497
+        },
+        "prediction": "Yes",
+        "seconds": 0.09637854620814323,
+        "input_tokens": 318,
+        "usage": {
+          "input_tokens": 318,
+          "output_tokens": 1
+        },
+        "stats": {
+          "prompt_version": "qev-labels-v2",
+          "prompt_sha256": "e330f039f8819426c0fcdb5a0cff4a4a6629d96d55ac86d00001b1a18ddb0aca",
+          "fork_mode": "batched",
+          "prefix_tokens": 229,
+          "branches": 1,
+          "timing": {
+            "render_s": 0.0010896436870098114,
+            "forward_s": 0.09496037289500237,
+            "total_s": 0.09628680348396301
+          },
+          "diagnostics": {
+            "decision": {
+              "allowed_token_mass": 0.7645062208175659,
+              "slot_logits": [
+                [
+                  12.442413330078125,
+                  7.669806957244873,
+                  8.807380676269531
+                ]
+              ],
+              "temperature": 1.0
+            }
+          }
+        }
+      },
+      {
+        "example_id": "d2354e65db17dc36e6bcdabc4112e79e9c958377",
+        "split": "dev",
+        "percentile": 0.99,
+        "probabilities": {
+          "Yes": 0.005549,
+          "No": 0.939237,
+          "Inquire": 0.055214
+        },
+        "prediction": "No",
+        "seconds": 0.09667911753058434,
+        "input_tokens": 376,
+        "usage": {
+          "input_tokens": 376,
+          "output_tokens": 1
+        },
+        "stats": {
+          "prompt_version": "qev-labels-v2",
+          "prompt_sha256": "4123198d9ee63ad60d5fed24d96d5e694be991fff3720201a04a94fe136cfe51",
+          "fork_mode": "batched",
+          "prefix_tokens": 287,
+          "branches": 1,
+          "timing": {
+            "render_s": 0.0012361928820610046,
+            "forward_s": 0.0951128676533699,
+            "total_s": 0.0965833030641079
+          },
+          "diagnostics": {
+            "decision": {
+              "allowed_token_mass": 0.7096961736679077,
+              "slot_logits": [
+                [
+                  7.0848708152771,
+                  12.216350555419922,
+                  9.382494926452637
+                ]
+              ],
+              "temperature": 1.0
+            }
+          }
+        }
+      },
+      {
+        "example_id": "6f35ffddcae4a2c41d62794cb4306e09a7cbf92f",
+        "split": "dev",
+        "percentile": 1.0,
+        "probabilities": {
+          "Yes": 0.966977,
+          "No": 0.00895,
+          "Inquire": 0.024073
+        },
+        "prediction": "Yes",
+        "seconds": 0.10578582435846329,
+        "input_tokens": 439,
+        "usage": {
+          "input_tokens": 439,
+          "output_tokens": 1
+        },
+        "stats": {
+          "prompt_version": "qev-labels-v2",
+          "prompt_sha256": "9c5cf998797824643b132d0c138e8861863e0c48c3b765867ca42212da2d5e58",
+          "fork_mode": "batched",
+          "prefix_tokens": 350,
+          "branches": 1,
+          "timing": {
+            "render_s": 0.001430269330739975,
+            "forward_s": 0.10402380675077438,
+            "total_s": 0.10569058358669281
+          },
+          "diagnostics": {
+            "decision": {
+              "allowed_token_mass": 0.7465344667434692,
+              "slot_logits": [
+                [
+                  12.331172943115234,
+                  7.648637771606445,
+                  8.638104438781738
+                ]
+              ],
+              "temperature": 1.0
+            }
+          }
+        }
+      }
+    ]
+  },
+  "max_abs_probability_difference": 0.04147600000000007,
+  "label_changes": [],
+  "atol": 0.05,
+  "rtol": 0,
+  "peak_gpu_bytes": {
+    "adapter": 24010347520,
+    "merged": 24043901952
+  },
+  "load_seconds": {
+    "adapter": 8.56434365361929,
+    "merged": 4.23108820989728
+  },
+  "truncated_records": 0,
+  "over_limit_rejected": true,
+  "head_precision": "production FP32 LM head; BF16 backbone; FP32 LoRA before merge",
+  "code_sha256": "1e9e73367272352024da4eea95a71898b5c0afbce62bfdec14c8300abf006d85",
+  "tolerance_basis": "upstream qev.engine documents BF16 cached/batched rounding and uses 0.05; native full-forward parity remains 0.02; no changed labels allowed"
+}

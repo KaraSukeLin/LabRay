@@ -1,0 +1,23 @@
+{
+  "record_key": {
+    "mode": "on",
+    "seed": 20261017,
+    "id": "ifeval/3414"
+  },
+  "kept_file": "questions.shard-1-of-2.jsonl",
+  "removed_file": "questions.shard-1-of-6.jsonl",
+  "response_equal": true,
+  "token_ids_equal": true,
+  "score_equal": true,
+  "only_different_fields": [
+    "preprocessing_seconds",
+    "inference_seconds",
+    "scoring_seconds",
+    "output_tokens_per_second",
+    "completed_utc",
+    "attempt"
+  ],
+  "removed_attempt": "1792509462112168748.json",
+  "removed_completed_utc": "2026-10-20T15:21:24.502943+00:00",
+  "repair_utc": "2026-10-20T15:23:25.101659+00:00"
+}

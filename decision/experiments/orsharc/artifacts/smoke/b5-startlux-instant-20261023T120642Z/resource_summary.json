@@ -1,0 +1,133 @@
+{
+  "schema_version": 1,
+  "created_utc": "2026-10-23T13:01:06.886011+00:00",
+  "sampling_method": "External nvidia-smi sampling on all GPUs at approximately 100 ms intervals; GPU0 used by each run; no other GPU process was present.",
+  "gpu": {
+    "model": "NVIDIA H100 80GB HBM3",
+    "visible_device_count_per_run": 1,
+    "reported_total_memory_mib": 81559,
+    "selection": "CUDA_VISIBLE_DEVICES=0"
+  },
+  "startlux": {
+    "external_nvidia_smi_peak_device_used_mib": 22344,
+    "external_nvidia_smi_peak_device_used_gib": 21.8203125,
+    "device_total_mib": 81559,
+    "peak_percent_of_reported_device_total": 27.39611814759867,
+    "pre_run_baseline_mib": 1,
+    "peak_delta_from_baseline_mib": 22343,
+    "process_snapshot_used_mib": 22330,
+    "process_snapshot_gpu0_used_mib": 22344,
+    "model_file_size_bytes": 16547400128,
+    "cold_first_successful_model_load_seconds": 46.728858,
+    "cache_hot_final_model_load_seconds": 4.688536,
+    "final_llama_server_start_to_health_ready_seconds": 7.840704292058945,
+    "final_startlux_api_start_to_ready_seconds": 6.649724517017603
+  },
+  "elephant": {
+    "external_nvidia_smi_peak_device_used_mib": 23644,
+    "external_nvidia_smi_peak_device_used_gib": 23.08984375,
+    "device_total_mib": 81559,
+    "peak_percent_of_reported_device_total": 28.990056278277077,
+    "pre_run_baseline_mib": 1,
+    "peak_delta_from_baseline_mib": 23643,
+    "model_regular_file_size_bytes": 18841854787,
+    "qev_load_seconds": 8.43243383988738,
+    "torch_peak_allocated_bytes": 24010347520,
+    "torch_peak_reserved_bytes": 24071110656,
+    "torch_peak_allocated_gib": 22.36137866973877,
+    "torch_peak_reserved_gib": 22.41796875
+  },
+  "peak_comparison": {
+    "difference_startlux_minus_elephant_mib": -1300,
+    "relative_difference_vs_elephant_percent": -5.4982236508205045,
+    "startlux_to_elephant_peak_ratio": 0.945017763491795,
+    "memory_match_defensible": true
+  },
+  "torch_metrics_note": "StartLux uses llama.cpp and has no PyTorch allocator metric. Elephant values are reported separately and are not compared as if they used the same allocator.",
+  "gpu_sampler_sessions": [
+    {
+      "file": "elephant-gpu-final.csv",
+      "device_index": 0,
+      "sample_count": 395,
+      "start_utc": "2026-10-23T12:49:59.428000Z",
+      "end_utc": "2026-10-23T12:50:39.060000Z",
+      "sample_window_seconds": 39.632,
+      "peak_used_mib": 23644,
+      "peak_time_utc": "2026-10-23T12:50:16.957000Z",
+      "device_total_mib": 81559,
+      "max_gpu_utilization_percent": 39,
+      "window_over_1000_mib_seconds": 7.632
+    },
+    {
+      "file": "startlux-gpu-final.csv",
+      "device_index": 0,
+      "sample_count": 2188,
+      "start_utc": "2026-10-23T12:44:36.279000Z",
+      "end_utc": "2026-10-23T12:48:15.889000Z",
+      "sample_window_seconds": 219.61,
+      "peak_used_mib": 22344,
+      "peak_time_utc": "2026-10-23T12:45:15.670000Z",
+      "device_total_mib": 81559,
+      "max_gpu_utilization_percent": 0,
+      "window_over_1000_mib_seconds": 207.767
+    },
+    {
+      "file": "startlux-gpu-retry1.csv",
+      "device_index": 0,
+      "sample_count": 1828,
+      "start_utc": "2026-10-23T12:37:30.801000Z",
+      "end_utc": "2026-10-23T12:40:34.411000Z",
+      "sample_window_seconds": 183.61,
+      "peak_used_mib": 22304,
+      "peak_time_utc": "2026-10-23T12:37:46.547000Z",
+      "device_total_mib": 81559,
+      "max_gpu_utilization_percent": 0,
+      "window_over_1000_mib_seconds": 173.712
+    },
+    {
+      "file": "startlux-gpu-retry2.csv",
+      "device_index": 0,
+      "sample_count": 2089,
+      "start_utc": "2026-10-23T12:40:53.779000Z",
+      "end_utc": "2026-10-23T12:44:23.352000Z",
+      "sample_window_seconds": 209.573,
+      "peak_used_mib": 22344,
+      "peak_time_utc": "2026-10-23T12:43:18.922000Z",
+      "device_total_mib": 81559,
+      "max_gpu_utilization_percent": 0,
+      "window_over_1000_mib_seconds": 200.399
+    },
+    {
+      "file": "startlux-gpu.csv",
+      "device_index": 0,
+      "sample_count": 538,
+      "start_utc": "2026-10-23T12:35:47.711000Z",
+      "end_utc": "2026-10-23T12:36:41.917000Z",
+      "sample_window_seconds": 54.206,
+      "peak_used_mib": 526,
+      "peak_time_utc": "2026-10-23T12:35:58.466000Z",
+      "device_total_mib": 81559,
+      "max_gpu_utilization_percent": 0,
+      "window_over_1000_mib_seconds": 0
+    }
+  ],
+  "sampled_time_over_1000_mib_seconds_total": 589.51,
+  "sampled_h100_hours_over_1000_mib": 0.16375277777777777,
+  "final_idle_check": {
+    "gpu0_to_gpu4_used_mib": [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "gpu0_to_gpu4_utilization_percent": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "compute_applications": 0
+  }
+}

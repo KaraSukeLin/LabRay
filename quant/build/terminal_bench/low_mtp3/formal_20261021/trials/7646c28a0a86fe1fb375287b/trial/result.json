@@ -1,0 +1,189 @@
+{
+  "id": "01fb2fef-5da2-4c98-b9de-c9ea8451a476",
+  "task_name": "terminal-bench/merge-diff-arc-agi-task",
+  "trial_name": "trial",
+  "trial_uri": "file:///root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021/trials/7646c28a0a86fe1fb375287b/trial",
+  "task_id": {
+    "path": "/root/projects/quant/build/terminal_bench/sources/terminal-bench-2-1/tasks/merge-diff-arc-agi-task"
+  },
+  "source": null,
+  "task_checksum": "857891f96e271854f0825dc399fc083f04505eed40e9fb67013d3fffbd2023d5",
+  "config": {
+    "task": {
+      "path": "/root/projects/quant/build/terminal_bench/sources/terminal-bench-2-1/tasks/merge-diff-arc-agi-task",
+      "git_url": null,
+      "git_commit_id": null,
+      "name": null,
+      "ref": null,
+      "overwrite": false,
+      "download_dir": null,
+      "source": null
+    },
+    "trial_name": "trial",
+    "trials_dir": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021/trials/7646c28a0a86fe1fb375287b",
+    "install_only": false,
+    "timeout_multiplier": 1.0,
+    "agent_timeout_multiplier": null,
+    "verifier_timeout_multiplier": null,
+    "agent_setup_timeout_multiplier": null,
+    "environment_build_timeout_multiplier": null,
+    "agent": {
+      "name": "terminus-2",
+      "import_path": null,
+      "model_name": "hosted_vllm/eNeural-Qwen3.8-27B-fast",
+      "model_base_url": null,
+      "model_api_key_name": null,
+      "model_api_format": null,
+      "skip_model_parsing": false,
+      "n_concurrent": null,
+      "concurrency_group": null,
+      "skills": [],
+      "override_timeout_sec": null,
+      "override_setup_timeout_sec": null,
+      "max_timeout_sec": null,
+      "resume_trajectory": false,
+      "load_trajectory": null,
+      "extra_allowed_hosts": [],
+      "kwargs": {
+        "api_base": "http://127.0.0.1:18100/v1",
+        "temperature": 1.0,
+        "reasoning_effort": "low",
+        "interleaved_thinking": false,
+        "enable_summarize": true,
+        "proactive_summarization_threshold": 8000,
+        "collect_rollout_details": true,
+        "store_all_messages": true,
+        "session_id_headers": [
+          "X-Terminal-Trial"
+        ],
+        "model_info": {
+          "max_input_tokens": 131072,
+          "max_output_tokens": 131072,
+          "input_cost_per_token": 0.0,
+          "output_cost_per_token": 0.0,
+          "litellm_provider": "hosted_vllm",
+          "supports_reasoning": true
+        },
+        "llm_kwargs": {
+          "api_key": "local-only"
+        },
+        "llm_call_kwargs": {
+          "temperature": 1.0,
+          "top_p": 0.95,
+          "presence_penalty": 0.0,
+          "max_tokens": 131072,
+          "seed": 20261020,
+          "extra_body": {
+            "top_k": 20,
+            "min_p": 0.0,
+            "repetition_penalty": 1.0,
+            "chat_template_kwargs": {
+              "enable_thinking": true,
+              "reasoning_effort": "low",
+              "preserve_thinking": true
+            },
+            "return_token_ids": true
+          },
+          "extra_headers": {
+            "X-Terminal-Identity": "formal/eNeural-Qwen3.8-27B-fast/merge-diff-arc-agi-task/7646c28a0a86fe1fb375287b"
+          }
+        }
+      },
+      "mcp_servers": []
+    },
+    "user_agent": null,
+    "environment": {
+      "type": null,
+      "import_path": "terminal_proot:PRootEnvironment",
+      "force_build": false,
+      "delete": true,
+      "stream": false,
+      "cpu_enforcement_policy": "auto",
+      "memory_enforcement_policy": "auto",
+      "override_cpus": null,
+      "override_memory_mb": null,
+      "override_storage_mb": null,
+      "override_gpus": null,
+      "override_tpu": null,
+      "mounts": null,
+      "extra_docker_compose": [],
+      "kwargs": {},
+      "extra_allowed_hosts": []
+    },
+    "verifier": {
+      "override_timeout_sec": null,
+      "max_timeout_sec": null,
+      "disable": false
+    },
+    "artifacts": [],
+    "extra_instruction_paths": [],
+    "extra_instructions": [],
+    "job_id": null,
+    "source_trial": null
+  },
+  "agent_info": {
+    "name": "terminus-2",
+    "version": "2.0.0",
+    "model_info": {
+      "name": "eNeural-Qwen3.8-27B-fast",
+      "provider": "hosted_vllm"
+    }
+  },
+  "agent_result": {
+    "n_input_tokens": 71170,
+    "n_cache_tokens": 0,
+    "n_output_tokens": 8834,
+    "cost_usd": null,
+    "model_usage": {
+      "eNeural-Qwen3.8-27B-fast": {
+        "n_input_tokens": 71170,
+        "n_cache_tokens": 0,
+        "n_output_tokens": 8834,
+        "cost_usd": null
+      }
+    },
+    "metadata": {
+      "n_episodes": 11,
+      "api_request_times_msec": [
+        8914.53742980957,
+        4642.77982711792,
+        7138.352155685425,
+        10856.687545776367,
+        8136.0485553741455,
+        68143.56088638306,
+        4538.865089416504,
+        51224.18975830078,
+        10089.364290237427,
+        8903.790473937988,
+        7992.643356323242
+      ],
+      "summarization_count": 0
+    }
+  },
+  "verifier_result": {
+    "rewards": {
+      "reward": 1.0
+    }
+  },
+  "verifier_environment_mode": "shared",
+  "exception_info": null,
+  "started_at": "2026-10-21T23:28:41.694839Z",
+  "finished_at": "2026-10-21T23:33:42.340829Z",
+  "environment_setup": {
+    "started_at": "2026-10-21T23:28:41.698404Z",
+    "finished_at": "2026-10-21T23:28:43.320119Z"
+  },
+  "agent_setup": {
+    "started_at": "2026-10-21T23:28:43.320153Z",
+    "finished_at": "2026-10-21T23:29:16.590853Z"
+  },
+  "agent_execution": {
+    "started_at": "2026-10-21T23:29:16.591101Z",
+    "finished_at": "2026-10-21T23:33:19.264143Z"
+  },
+  "verifier": {
+    "started_at": "2026-10-21T23:33:19.306653Z",
+    "finished_at": "2026-10-21T23:33:41.977587Z"
+  },
+  "step_results": null
+}

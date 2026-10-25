@@ -1,0 +1,12 @@
+| model | mode | evaluations | questions | complete | prompt_strict_accuracy | instruction_strict_accuracy | truncated | truncation_rate | missing_final |
+|---|---|---|---|---|---|---|---|---|---|
+| Qwen-Qwen3.8-27B | off | 6 | 2 | True | 1 | 1 | 0 | 0 | 0 |
+| Qwen-Qwen3.8-27B | on | 6 | 2 | True | 1 | 1 | 0 | 0 | 0 |
+| eNeural-Qwen3.8-27B-fast | off | 6 | 2 | True | 1 | 1 | 0 | 0 | 0 |
+| eNeural-Qwen3.8-27B-fast | on | 6 | 2 | True | 1 | 1 | 0 | 0 | 0 |
+| rdtand-Qwen3.8-27B-PrismaAQUA-5.5bit-vllm | off | 6 | 2 | True | 1 | 1 | 0 | 0 | 0 |
+| rdtand-Qwen3.8-27B-PrismaAQUA-5.5bit-vllm | on | 6 | 2 | True | 1 | 1 | 0 | 0 | 0 |
+| ModelOpt-Qwen3.8-27B-AutoQuantize-5.5bit | off | 6 | 2 | True | 1 | 1 | 0 | 0 | 0 |
+| ModelOpt-Qwen3.8-27B-AutoQuantize-5.5bit | on | 6 | 2 | True | 1 | 1 | 0 | 0 | 0 |
+| unsloth-Qwen3.8-27B-NVFP4 | off | 6 | 2 | True | 1 | 1 | 0 | 0 | 0 |
+| unsloth-Qwen3.8-27B-NVFP4 | on | 6 | 2 | True | 1 | 1 | 0 | 0 | 0 |

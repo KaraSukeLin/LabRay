@@ -1,0 +1,25 @@
+{
+  "model": "Qwen-Qwen3.8-27B-FP8",
+  "gpu": 1,
+  "command": [
+    "/root/projects/quant/.modelopt-venv/bin/python",
+    "-u",
+    "/root/projects/quant/src/benchmark.py",
+    "run",
+    "--model",
+    "Qwen-Qwen3.8-27B-FP8",
+    "--config",
+    "/root/projects/quant/assets/benchmark_config.json",
+    "--data",
+    "/root/projects/quant/assets/benchmark/pilot_v1",
+    "--output",
+    "/root/projects/quant/build/benchmark/pilot_v1/runs/Qwen-Qwen3.8-27B-FP8",
+    "--long-max-tokens",
+    "4096",
+    "--long-ids",
+    "/root/projects/quant/assets/benchmark/pilot_v1/long_ids.json"
+  ],
+  "exit_code": 0,
+  "start_offset_seconds": 0.0024092718958854675,
+  "process_wall_seconds": 16614.85535019636
+}

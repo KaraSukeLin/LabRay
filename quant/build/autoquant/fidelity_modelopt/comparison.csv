@@ -1,0 +1,2 @@
+model,status,ppl,ppl_delta,kl_bf16_to_candidate,top1_flip_rate,tokens,reason
+ModelOpt-Qwen3.8-27B-AutoQuantize-5.5bit,ok,3.7216300995524714,0.048933533834065734,0.019987509556208913,0.048412181712962965,55296,

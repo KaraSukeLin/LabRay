@@ -1,0 +1,83 @@
+{
+  "updated_utc": "2026-10-18T03:23:36Z",
+  "reason": "One Non-thinking response reached max_tokens=4096 (finish_reason=length); prevent further cap truncation.",
+  "old_max_tokens": 4096,
+  "new_max_tokens": 8192,
+  "changed_mode": "off",
+  "all_other_sampling_and_scoring_settings_unchanged": true,
+  "new_cap_applies_to_all_models_and_remaining_non_thinking_tasks": true,
+  "truncated_record_saved_to": "build/benchmark/ifeval_modes_formal_20261017/eNeural-Qwen3.8-27B-fast/output-cap4096-rerun.jsonl",
+  "truncated_record_removed_from_active_jsonl_for_single_rerun": true,
+  "completed_records_retained": true,
+  "deadline_utc": "2026-10-18T22:43:08.469383+00:00",
+  "interrupted_attempts_at_restart": [
+    {
+      "model": "Qwen-Qwen3.8-27B",
+      "attempt": "1792273917772441453.json",
+      "current_task": {
+        "question": "ifeval/1498",
+        "mode": "on",
+        "seed": 20261017
+      }
+    },
+    {
+      "model": "eNeural-Qwen3.8-27B-fast",
+      "attempt": "1792273918118056544.json",
+      "current_task": {
+        "question": "ifeval/1367",
+        "mode": "on",
+        "seed": 20261018
+      }
+    },
+    {
+      "model": "rdtand-Qwen3.8-27B-PrismaAQUA-5.5bit-vllm",
+      "attempt": "1792273918307415104.json",
+      "current_task": {
+        "question": "ifeval/1379",
+        "mode": "on",
+        "seed": 20261017
+      }
+    },
+    {
+      "model": "ModelOpt-Qwen3.8-27B-AutoQuantize-5.5bit",
+      "attempt": "1792273918008577066.json",
+      "current_task": {
+        "question": "ifeval/1307",
+        "mode": "on",
+        "seed": 20261018
+      }
+    },
+    {
+      "model": "unsloth-Qwen3.8-27B-NVFP4",
+      "attempt": "1792273918080541171.json",
+      "current_task": {
+        "question": "ifeval/1342",
+        "mode": "on",
+        "seed": 20261017
+      }
+    }
+  ],
+  "targeted_rerun_outcome": {
+    "key": {
+      "model": "eNeural-Qwen3.8-27B-fast",
+      "question": "ifeval/1265",
+      "mode": "off",
+      "seed": 20261016
+    },
+    "prior_cap": {
+      "max_tokens": 4096,
+      "output_tokens": 4096,
+      "finish_reason": "length",
+      "strict_correct": true,
+      "inference_seconds": 238.73870001733303
+    },
+    "raised_cap": {
+      "max_tokens": 8192,
+      "output_tokens": 8192,
+      "finish_reason": "length",
+      "strict_correct": true,
+      "inference_seconds": 501.5990219004452
+    },
+    "decision": "Keep the 8192-token result and do not rerun again: it is strict-correct, and the response continued to the higher ceiling. A further cap increase would add substantial cost without evidence that generation will stop."
+  }
+}

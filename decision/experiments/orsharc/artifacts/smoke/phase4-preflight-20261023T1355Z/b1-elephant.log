@@ -1,0 +1,258 @@
+{
+  "identity": "96dec2c3f9ff82986bf5b605df1fa66234be9ce16a8c3fa82ed705b1de6e9500",
+  "utc": "2026-10-23T14:00:49Z",
+  "elapsed_seconds": 186.67333263158798,
+  "checkpoint": {
+    "path": "/root/projects/decision/experiments/orsharc/artifacts/training/elephant-256/native/merged",
+    "sha256": "3513a195cbb973aaebfca42e83f67f2135a783d12ec3096f3b162ea6cc18e3c4",
+    "files": {
+      "chat_template.jinja": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+      "config.json": "d4396c5e2f9ad6bcbcae413d356a3f56f305144372aea88d9a930c305987413b",
+      "ft_exposure.json": "f1d7ed91db86047dc2ce89c514720e07416a94a39a743341e90e4745278a7674",
+      "generation_config.json": "290866a6d7d4a4442fe83ba2434a31517446f40a01de500ff97b4354e7e5d082",
+      "model.safetensors": "df438e7bdd8fa5e1f89bf5972b52756be08a7740082e8fe6851e543de8078c90",
+      "readout.json": "9118a7a57ca4a121221f43212181389b312cd79f432aab91cc5197d4c2b4ee21",
+      "tokenizer.json": "a5cd9732badce41de57e6efce8302930ded1c1188c5f81feb2bd6c24c4a1941f",
+      "tokenizer_config.json": "2984c03425a28d242744e234a5003786fd289b3713db79fe0958c65eb59d85b2"
+    }
+  },
+  "smoke_only": false,
+  "dev_selection": "evaluate complete dev_select with the common inference/report commands; no test selection",
+  "resume": "Trainer state for Qwen; native OneJev/Kev LoRA restart only"
+}
+{
+  "identity": "982551df17eacb1170d527347d6451670c0ccddde488913ba4a40981393f7b7b",
+  "utc": "2026-10-23T14:08:38Z",
+  "elapsed_seconds": 436.68662879243493,
+  "checkpoint": {
+    "path": "/root/projects/decision/experiments/orsharc/artifacts/training/elephant-1024/native/merged",
+    "sha256": "ca002255b63b66c1492d6e249e71a7aa1b9d569017d09bdd1bf68b6e10ad0ade",
+    "files": {
+      "chat_template.jinja": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+      "config.json": "d4396c5e2f9ad6bcbcae413d356a3f56f305144372aea88d9a930c305987413b",
+      "ft_exposure.json": "ae1f46282e48d3740d2abe7ec36b7372f9d1049f60d25d2499e59b92af2cf51e",
+      "generation_config.json": "290866a6d7d4a4442fe83ba2434a31517446f40a01de500ff97b4354e7e5d082",
+      "model.safetensors": "a7dac528caee277b4b0502ccfc17181704aa8f6f71192af1d1d7c9277253e28c",
+      "readout.json": "9118a7a57ca4a121221f43212181389b312cd79f432aab91cc5197d4c2b4ee21",
+      "tokenizer.json": "a5cd9732badce41de57e6efce8302930ded1c1188c5f81feb2bd6c24c4a1941f",
+      "tokenizer_config.json": "2984c03425a28d242744e234a5003786fd289b3713db79fe0958c65eb59d85b2"
+    }
+  },
+  "smoke_only": false,
+  "dev_selection": "evaluate complete dev_select with the common inference/report commands; no test selection",
+  "resume": "Trainer state for Qwen; native OneJev/Kev LoRA restart only"
+}
+{
+  "identity": "767a24aac7a7a847b96ed7a7ec8cc058f3b1cd3816cc89ec363d938b98decdbe",
+  "utc": "2026-10-23T14:33:38Z",
+  "elapsed_seconds": 1468.3645495437086,
+  "checkpoint": {
+    "path": "/root/projects/decision/experiments/orsharc/artifacts/training/elephant-4096/native/merged",
+    "sha256": "8909c5d52bbd2ea0247d8d8c0fc9d018ad16a0868c52c323e78e929b25e95ced",
+    "files": {
+      "chat_template.jinja": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+      "config.json": "d4396c5e2f9ad6bcbcae413d356a3f56f305144372aea88d9a930c305987413b",
+      "ft_exposure.json": "55c56ef0056e573a34840b679f14f45ef77e82dbbbc480c710448b8c96d6d8e4",
+      "generation_config.json": "290866a6d7d4a4442fe83ba2434a31517446f40a01de500ff97b4354e7e5d082",
+      "model.safetensors": "919a99bb0fa71b36a28ca932f607473dfe9fa4522fb274c09afae60cefc3f244",
+      "readout.json": "9118a7a57ca4a121221f43212181389b312cd79f432aab91cc5197d4c2b4ee21",
+      "tokenizer.json": "a5cd9732badce41de57e6efce8302930ded1c1188c5f81feb2bd6c24c4a1941f",
+      "tokenizer_config.json": "2984c03425a28d242744e234a5003786fd289b3713db79fe0958c65eb59d85b2"
+    }
+  },
+  "smoke_only": false,
+  "dev_selection": "evaluate complete dev_select with the common inference/report commands; no test selection",
+  "resume": "Trainer state for Qwen; native OneJev/Kev LoRA restart only"
+}
+Loading weights:   0%|          | 0/427 [00:00<?, ?it/s]Loading weights:   0%|          | 1/427 [00:00<01:40,  4.25it/s]Loading weights:   0%|          | 2/427 [00:00<01:48,  3.91it/s]Loading weights:   7%|▋         | 28/427 [00:00<00:05, 66.72it/s]Loading weights:  11%|█         | 47/427 [00:00<00:03, 98.62it/s]Loading weights:  17%|█▋        | 72/427 [00:00<00:02, 138.85it/s]Loading weights:  22%|██▏       | 96/427 [00:00<00:01, 165.84it/s]Loading weights:  28%|██▊       | 120/427 [00:01<00:01, 185.45it/s]Loading weights:  34%|███▍      | 147/427 [00:01<00:01, 204.60it/s]Loading weights:  40%|███▉      | 170/427 [00:01<00:01, 210.92it/s]Loading weights:  45%|████▌     | 193/427 [00:01<00:01, 210.35it/s]Loading weights:  50%|█████     | 215/427 [00:01<00:01, 204.58it/s]Loading weights:  56%|█████▌    | 240/427 [00:01<00:00, 215.07it/s]Loading weights:  62%|██████▏   | 263/427 [00:01<00:00, 210.43it/s]Loading weights:  68%|██████▊   | 292/427 [00:01<00:00, 229.10it/s]Loading weights:  74%|███████▍  | 316/427 [00:01<00:00, 210.32it/s]Loading weights:  81%|████████  | 345/427 [00:02<00:00, 229.09it/s]Loading weights:  86%|████████▋ | 369/427 [00:02<00:00, 206.36it/s]Loading weights:  93%|█████████▎| 398/427 [00:02<00:00, 225.03it/s]Loading weights:  99%|█████████▉| 422/427 [00:02<00:00, 213.89it/s]Loading weights: 100%|██████████| 427/427 [00:02<00:00, 177.39it/s]
+[transformers] `causal_conv1d_fn` is falling back to its reference PyTorch implementation because `causal_conv1d` is not installed. This is correct but much slower; install `causal_conv1d` for the optimized kernel.
+{
+  "status": "complete",
+  "n": 456
+}
+Loading weights:   0%|          | 0/427 [00:00<?, ?it/s]Loading weights:   0%|          | 1/427 [00:00<02:17,  3.10it/s]Loading weights:   0%|          | 2/427 [00:00<02:22,  2.99it/s]Loading weights:   6%|▌         | 26/427 [00:00<00:07, 50.54it/s]Loading weights:  10%|▉         | 42/427 [00:00<00:05, 73.24it/s]Loading weights:  15%|█▍        | 62/427 [00:00<00:03, 102.16it/s]Loading weights:  19%|█▊        | 80/427 [00:01<00:02, 120.37it/s]Loading weights:  22%|██▏       | 96/427 [00:01<00:02, 127.71it/s]Loading weights:  28%|██▊       | 119/427 [00:01<00:02, 148.38it/s]Loading weights:  32%|███▏      | 136/427 [00:01<00:01, 146.98it/s]Loading weights:  36%|███▌      | 153/427 [00:01<00:01, 140.05it/s]Loading weights:  41%|████      | 174/427 [00:01<00:01, 157.35it/s]Loading weights:  46%|████▌     | 197/427 [00:01<00:01, 175.15it/s]Loading weights:  51%|█████     | 216/427 [00:01<00:01, 165.23it/s]Loading weights:  56%|█████▌    | 239/427 [00:02<00:01, 175.07it/s]Loading weights:  60%|██████    | 257/427 [00:02<00:00, 171.37it/s]Loading weights:  65%|██████▌   | 278/427 [00:02<00:00, 174.86it/s]Loading weights:  69%|██████▉   | 296/427 [00:02<00:00, 172.19it/s]Loading weights:  74%|███████▎  | 314/427 [00:02<00:00, 160.86it/s]Loading weights:  80%|███████▉  | 340/427 [00:02<00:00, 184.25it/s]Loading weights:  84%|████████▍ | 359/427 [00:02<00:00, 184.32it/s]Loading weights:  89%|████████▊ | 378/427 [00:02<00:00, 176.96it/s]Loading weights:  93%|█████████▎| 398/427 [00:02<00:00, 181.11it/s]Loading weights:  98%|█████████▊| 417/427 [00:03<00:00, 171.30it/s]Loading weights: 100%|██████████| 427/427 [00:03<00:00, 138.04it/s]
+[transformers] `causal_conv1d_fn` is falling back to its reference PyTorch implementation because `causal_conv1d` is not installed. This is correct but much slower; install `causal_conv1d` for the optimized kernel.
+{
+  "status": "complete",
+  "n": 649
+}
+{
+  "condition": "d4baf82c8dbf0b40e02ab0b299066e4de156ca0785f13017b59572d65461f94b",
+  "temperature": 2.0303416013017817,
+  "threshold": 0.5,
+  "selection_run": "b313565c144292c32eb73d3ad1df638c3a2b80dcde6e0221c3dd568c1c3f60b1",
+  "calibration_run": "0f9aa0fdfef74554e119b64a18aaedb7c16440f6df59c7bc3c079f5159bd3386",
+  "data_manifest": "7da4b11e2bc3952109ea23f3c0f65bdbcbf6ea7ce1f1a52a2d3e5f4d84f78967",
+  "selection_predictions_sha256": "0b5a9b053f3fe1c810e3819959de1c8b30de4373c77e3a35953ad98804daf65e",
+  "calibration_predictions_sha256": "cf039daf151ad7310f892d4e8fa9536919d2b65a2f3a124a179d5af31395d235",
+  "threshold_sweep_dev_select": [],
+  "temperature_fit": "bounded NLL minimization, T in [0.05,20], dev_calibrate only",
+  "probability_stage": "after deterministic task projection/aggregation; binary Score uses expected level / 4",
+  "prediction_policy": "frozen raw threshold/routing labels retained after temperature scaling",
+  "temperature_at_bound": false
+}
+Loading weights:   0%|          | 0/427 [00:00<?, ?it/s]Loading weights:   0%|          | 1/427 [00:00<04:46,  1.49it/s]Loading weights:   6%|▌         | 26/427 [00:00<00:08, 44.66it/s]Loading weights:  10%|▉         | 42/427 [00:00<00:05, 66.13it/s]Loading weights:  14%|█▍        | 61/427 [00:00<00:03, 92.15it/s]Loading weights:  19%|█▊        | 80/427 [00:01<00:03, 114.18it/s]Loading weights:  23%|██▎       | 97/427 [00:01<00:02, 125.44it/s]Loading weights:  28%|██▊       | 119/427 [00:01<00:02, 143.96it/s]Loading weights:  32%|███▏      | 137/427 [00:01<00:01, 146.89it/s]Loading weights:  36%|███▌      | 154/427 [00:01<00:01, 138.74it/s]Loading weights:  41%|████      | 174/427 [00:01<00:01, 153.35it/s]Loading weights:  47%|████▋     | 199/427 [00:01<00:01, 178.33it/s]Loading weights:  51%|█████▏    | 219/427 [00:01<00:01, 165.04it/s]Loading weights:  56%|█████▌    | 240/427 [00:02<00:01, 169.37it/s]Loading weights:  60%|██████    | 258/427 [00:02<00:01, 167.28it/s]Loading weights:  65%|██████▌   | 279/427 [00:02<00:00, 172.12it/s]Loading weights:  71%|███████   | 302/427 [00:02<00:00, 185.28it/s]Loading weights:  75%|███████▌  | 321/427 [00:02<00:00, 169.60it/s]Loading weights:  81%|████████  | 345/427 [00:02<00:00, 180.83it/s]Loading weights:  85%|████████▌ | 364/427 [00:02<00:00, 168.63it/s]Loading weights:  90%|█████████ | 385/427 [00:02<00:00, 173.72it/s]Loading weights:  96%|█████████▌| 408/427 [00:02<00:00, 183.69it/s]Loading weights: 100%|██████████| 427/427 [00:03<00:00, 172.79it/s]Loading weights: 100%|██████████| 427/427 [00:03<00:00, 137.54it/s]
+[transformers] `causal_conv1d_fn` is falling back to its reference PyTorch implementation because `causal_conv1d` is not installed. This is correct but much slower; install `causal_conv1d` for the optimized kernel.
+{
+  "status": "complete",
+  "n": 2373
+}
+{
+  "run_identity": "b313565c144292c32eb73d3ad1df638c3a2b80dcde6e0221c3dd568c1c3f60b1",
+  "out": "/root/projects/decision/experiments/orsharc/artifacts/runs/phase4/elephant-original-single_choice-bf16-0shot/reports/dev_select",
+  "n": 456
+}
+{
+  "run_identity": "0f9aa0fdfef74554e119b64a18aaedb7c16440f6df59c7bc3c079f5159bd3386",
+  "out": "/root/projects/decision/experiments/orsharc/artifacts/runs/phase4/elephant-original-single_choice-bf16-0shot/reports/dev_calibrate",
+  "n": 649
+}
+{
+  "run_identity": "1e383ed1250fef431c73b7a2d7326428a4d9522b697c5992705c79dca433bbbc",
+  "out": "/root/projects/decision/experiments/orsharc/artifacts/runs/phase4/elephant-original-single_choice-bf16-0shot/reports/test",
+  "n": 2373
+}
+Loading weights:   0%|          | 0/427 [00:00<?, ?it/s]Loading weights:   0%|          | 1/427 [00:00<03:25,  2.08it/s]Loading weights:   6%|▋         | 27/427 [00:00<00:06, 59.98it/s]Loading weights:  10%|█         | 43/427 [00:00<00:04, 83.26it/s]Loading weights:  15%|█▌        | 66/427 [00:00<00:03, 117.83it/s]Loading weights:  20%|█▉        | 84/427 [00:00<00:02, 131.40it/s]Loading weights:  24%|██▍       | 102/427 [00:01<00:02, 136.23it/s]Loading weights:  30%|██▉       | 128/427 [00:01<00:01, 167.52it/s]Loading weights:  35%|███▍      | 148/427 [00:01<00:01, 167.56it/s]Loading weights:  40%|███▉      | 169/427 [00:01<00:01, 178.96it/s]Loading weights:  44%|████▍     | 189/427 [00:01<00:01, 172.89it/s]Loading weights:  49%|████▊     | 208/427 [00:01<00:01, 169.60it/s]Loading weights:  55%|█████▌    | 235/427 [00:01<00:00, 194.19it/s]Loading weights:  60%|█████▉    | 256/427 [00:01<00:00, 186.15it/s]Loading weights:  65%|██████▌   | 278/427 [00:01<00:00, 191.96it/s]Loading weights:  70%|██████▉   | 298/427 [00:02<00:00, 191.04it/s]Loading weights:  74%|███████▍  | 318/427 [00:02<00:00, 177.32it/s]Loading weights:  80%|████████  | 342/427 [00:02<00:00, 192.96it/s]Loading weights:  85%|████████▍ | 362/427 [00:02<00:00, 180.74it/s]Loading weights:  90%|████████▉ | 384/427 [00:02<00:00, 186.75it/s]Loading weights:  94%|█████████▍| 403/427 [00:02<00:00, 184.19it/s]Loading weights:  99%|█████████▉| 422/427 [00:02<00:00, 173.60it/s]Loading weights: 100%|██████████| 427/427 [00:02<00:00, 154.46it/s]
+[transformers] `causal_conv1d_fn` is falling back to its reference PyTorch implementation because `causal_conv1d` is not installed. This is correct but much slower; install `causal_conv1d` for the optimized kernel.
+{
+  "status": "complete",
+  "n": 456
+}
+Loading weights:   0%|          | 0/427 [00:00<?, ?it/s]Loading weights:   0%|          | 1/427 [00:00<01:06,  6.38it/s]Loading weights:   0%|          | 2/427 [00:00<01:44,  4.07it/s]Loading weights:   7%|▋         | 28/427 [00:00<00:05, 68.34it/s]Loading weights:  11%|█         | 47/427 [00:00<00:03, 96.79it/s]Loading weights:  19%|█▊        | 80/427 [00:00<00:02, 155.96it/s]Loading weights:  23%|██▎       | 100/427 [00:00<00:02, 158.66it/s]Loading weights:  29%|██▊       | 122/427 [00:01<00:01, 175.13it/s]Loading weights:  35%|███▍      | 148/427 [00:01<00:01, 192.74it/s]Loading weights:  41%|████      | 173/427 [00:01<00:01, 201.49it/s]Loading weights:  47%|████▋     | 200/427 [00:01<00:01, 220.46it/s]Loading weights:  53%|█████▎    | 225/427 [00:01<00:00, 223.25it/s]Loading weights:  59%|█████▉    | 253/427 [00:01<00:00, 231.16it/s]Loading weights:  65%|██████▌   | 278/427 [00:01<00:00, 229.32it/s]Loading weights:  71%|███████   | 303/427 [00:01<00:00, 231.58it/s]Loading weights:  77%|███████▋  | 327/427 [00:01<00:00, 231.32it/s]Loading weights:  82%|████████▏ | 351/427 [00:01<00:00, 229.15it/s]Loading weights:  88%|████████▊ | 375/427 [00:02<00:00, 223.86it/s]Loading weights:  93%|█████████▎| 399/427 [00:02<00:00, 218.66it/s]Loading weights:  99%|█████████▊| 421/427 [00:02<00:00, 217.05it/s]Loading weights: 100%|██████████| 427/427 [00:02<00:00, 182.96it/s]
+[transformers] `causal_conv1d_fn` is falling back to its reference PyTorch implementation because `causal_conv1d` is not installed. This is correct but much slower; install `causal_conv1d` for the optimized kernel.
+{
+  "status": "complete",
+  "n": 649
+}
+{
+  "condition": "ee4f7bddeebe9c4a6b054f96e5065b1917f8313645824d46713f2c25d06aea50",
+  "temperature": 1.9085270619698629,
+  "threshold": 0.5,
+  "selection_run": "c9b0c1d9e25db220d3b5bf569be4343668aafdac3b605a5388c879eb85205d55",
+  "calibration_run": "fad662419cc7a803395ee162dc385027e5e053bc79695e9434470265435d9bac",
+  "data_manifest": "7da4b11e2bc3952109ea23f3c0f65bdbcbf6ea7ce1f1a52a2d3e5f4d84f78967",
+  "selection_predictions_sha256": "0707bfe0fc7934040345b64ec19ff82e0f6baa0588e8bef8b79f61722357a912",
+  "calibration_predictions_sha256": "d3aa4f2d17e96b50163c275e4315844e94b6e08456ca73cb6ddcbc8a1f59fc02",
+  "threshold_sweep_dev_select": [],
+  "temperature_fit": "bounded NLL minimization, T in [0.05,20], dev_calibrate only",
+  "probability_stage": "after deterministic task projection/aggregation; binary Score uses expected level / 4",
+  "prediction_policy": "frozen raw threshold/routing labels retained after temperature scaling",
+  "temperature_at_bound": false
+}
+Loading weights:   0%|          | 0/427 [00:00<?, ?it/s]Loading weights:   0%|          | 1/427 [00:00<02:05,  3.39it/s]Loading weights:   0%|          | 2/427 [00:00<02:13,  3.19it/s]Loading weights:   6%|▋         | 27/427 [00:00<00:07, 54.35it/s]Loading weights:  10%|█         | 43/427 [00:00<00:04, 77.64it/s]Loading weights:  15%|█▌        | 66/427 [00:00<00:03, 112.40it/s]Loading weights:  19%|█▉        | 82/427 [00:01<00:02, 121.08it/s]Loading weights:  23%|██▎       | 100/427 [00:01<00:02, 134.46it/s]Loading weights:  28%|██▊       | 121/427 [00:01<00:02, 151.60it/s]Loading weights:  34%|███▍      | 147/427 [00:01<00:01, 175.81it/s]Loading weights:  39%|███▉      | 166/427 [00:01<00:01, 173.25it/s]Loading weights:  44%|████▍     | 187/427 [00:01<00:01, 176.71it/s]Loading weights:  48%|████▊     | 206/427 [00:01<00:01, 172.32it/s]Loading weights:  53%|█████▎    | 227/427 [00:01<00:01, 180.81it/s]Loading weights:  59%|█████▉    | 253/427 [00:01<00:00, 198.93it/s]Loading weights:  64%|██████▍   | 274/427 [00:02<00:00, 194.18it/s]Loading weights:  69%|██████▉   | 294/427 [00:02<00:00, 179.14it/s]Loading weights:  73%|███████▎  | 313/427 [00:02<00:00, 171.84it/s]Loading weights:  80%|███████▉  | 341/427 [00:02<00:00, 198.66it/s]Loading weights:  85%|████████▍ | 362/427 [00:02<00:00, 184.83it/s]Loading weights:  90%|████████▉ | 384/427 [00:02<00:00, 187.89it/s]Loading weights:  95%|█████████▍| 404/427 [00:02<00:00, 188.01it/s]Loading weights:  99%|█████████▉| 424/427 [00:02<00:00, 176.64it/s]Loading weights: 100%|██████████| 427/427 [00:02<00:00, 147.05it/s]
+[transformers] `causal_conv1d_fn` is falling back to its reference PyTorch implementation because `causal_conv1d` is not installed. This is correct but much slower; install `causal_conv1d` for the optimized kernel.
+{
+  "status": "complete",
+  "n": 2373
+}
+{
+  "run_identity": "c9b0c1d9e25db220d3b5bf569be4343668aafdac3b605a5388c879eb85205d55",
+  "out": "/root/projects/decision/experiments/orsharc/artifacts/runs/phase4/elephant-ft_256-single_choice-bf16-0shot/reports/dev_select",
+  "n": 456
+}
+{
+  "run_identity": "fad662419cc7a803395ee162dc385027e5e053bc79695e9434470265435d9bac",
+  "out": "/root/projects/decision/experiments/orsharc/artifacts/runs/phase4/elephant-ft_256-single_choice-bf16-0shot/reports/dev_calibrate",
+  "n": 649
+}
+{
+  "run_identity": "a54ab6339981e56cfa9708a21b442b60621846a73a1f23fca91be6968bb143e7",
+  "out": "/root/projects/decision/experiments/orsharc/artifacts/runs/phase4/elephant-ft_256-single_choice-bf16-0shot/reports/test",
+  "n": 2373
+}
+Loading weights:   0%|          | 0/427 [00:00<?, ?it/s]Loading weights:   0%|          | 1/427 [00:00<03:30,  2.02it/s]Loading weights:   6%|▋         | 27/427 [00:00<00:06, 58.42it/s]Loading weights:  10%|█         | 43/427 [00:00<00:04, 81.67it/s]Loading weights:  15%|█▌        | 66/427 [00:00<00:03, 114.15it/s]Loading weights:  19%|█▉        | 83/427 [00:00<00:02, 126.14it/s]Loading weights:  23%|██▎       | 100/427 [00:01<00:02, 134.73it/s]Loading weights:  28%|██▊       | 121/427 [00:01<00:02, 148.53it/s]Loading weights:  34%|███▍      | 147/427 [00:01<00:01, 173.66it/s]Loading weights:  39%|███▉      | 166/427 [00:01<00:01, 177.42it/s]Loading weights:  44%|████▎     | 186/427 [00:01<00:01, 177.63it/s]Loading weights:  48%|████▊     | 205/427 [00:01<00:01, 171.68it/s]Loading weights:  53%|█████▎    | 226/427 [00:01<00:01, 179.61it/s]Loading weights:  58%|█████▊    | 249/427 [00:01<00:00, 192.98it/s]Loading weights:  63%|██████▎   | 269/427 [00:01<00:00, 181.65it/s]Loading weights:  68%|██████▊   | 292/427 [00:02<00:00, 190.08it/s]Loading weights:  73%|███████▎  | 312/427 [00:02<00:00, 174.24it/s]Loading weights:  78%|███████▊  | 333/427 [00:02<00:00, 176.74it/s]Loading weights:  84%|████████▍ | 359/427 [00:02<00:00, 176.19it/s]Loading weights:  90%|████████▉ | 384/427 [00:02<00:00, 189.85it/s]Loading weights:  95%|█████████▍| 404/427 [00:02<00:00, 186.22it/s]Loading weights:  99%|█████████▉| 423/427 [00:02<00:00, 171.52it/s]Loading weights: 100%|██████████| 427/427 [00:02<00:00, 151.58it/s]
+[transformers] `causal_conv1d_fn` is falling back to its reference PyTorch implementation because `causal_conv1d` is not installed. This is correct but much slower; install `causal_conv1d` for the optimized kernel.
+{
+  "status": "complete",
+  "n": 456
+}
+Loading weights:   0%|          | 0/427 [00:00<?, ?it/s]Loading weights:   0%|          | 1/427 [00:00<01:01,  6.96it/s]Loading weights:   0%|          | 2/427 [00:00<01:48,  3.91it/s]Loading weights:   6%|▋         | 27/427 [00:00<00:06, 63.06it/s]Loading weights:  10%|█         | 43/427 [00:00<00:04, 86.79it/s]Loading weights:  15%|█▌        | 66/427 [00:00<00:02, 121.22it/s]Loading weights:  19%|█▉        | 82/427 [00:00<00:02, 128.89it/s]Loading weights:  23%|██▎       | 100/427 [00:01<00:02, 139.37it/s]Loading weights:  28%|██▊       | 121/427 [00:01<00:01, 153.96it/s]Loading weights:  34%|███▍      | 147/427 [00:01<00:01, 177.84it/s]Loading weights:  39%|███▉      | 166/427 [00:01<00:01, 180.44it/s]Loading weights:  44%|████▎     | 186/427 [00:01<00:01, 181.71it/s]Loading weights:  48%|████▊     | 205/427 [00:01<00:01, 174.50it/s]Loading weights:  53%|█████▎    | 226/427 [00:01<00:01, 171.96it/s]Loading weights:  59%|█████▉    | 253/427 [00:01<00:00, 193.26it/s]Loading weights:  64%|██████▍   | 274/427 [00:01<00:00, 192.83it/s]Loading weights:  69%|██████▉   | 294/427 [00:02<00:00, 179.37it/s]Loading weights:  73%|███████▎  | 313/427 [00:02<00:00, 171.71it/s]Loading weights:  80%|███████▉  | 341/427 [00:02<00:00, 191.24it/s]Loading weights:  85%|████████▍ | 361/427 [00:02<00:00, 181.08it/s]Loading weights:  90%|████████▉ | 384/427 [00:02<00:00, 188.48it/s]Loading weights:  95%|█████████▍| 404/427 [00:02<00:00, 186.84it/s]Loading weights:  99%|█████████▉| 423/427 [00:02<00:00, 170.95it/s]Loading weights: 100%|██████████| 427/427 [00:02<00:00, 153.23it/s]
+[transformers] `causal_conv1d_fn` is falling back to its reference PyTorch implementation because `causal_conv1d` is not installed. This is correct but much slower; install `causal_conv1d` for the optimized kernel.
+{
+  "status": "complete",
+  "n": 649
+}
+{
+  "condition": "4d6e9643f0ab3a663a8be3d11616f81be7ecf732c2cbe11e8641380c3c07d47d",
+  "temperature": 1.2594540557848224,
+  "threshold": 0.5,
+  "selection_run": "4a6d26e8340da0b147232e37e0ab7e413200b2ed710fb150ea6e08dd6c032ed1",
+  "calibration_run": "854e2e5feca3ed6c6950b93987a7a18a566e33d8b8681188ed58fbb31bbc8d9f",
+  "data_manifest": "7da4b11e2bc3952109ea23f3c0f65bdbcbf6ea7ce1f1a52a2d3e5f4d84f78967",
+  "selection_predictions_sha256": "f6dc2db17799270f325d94f395b18fa97e52b5179bd8768167353d7f7ba230d3",
+  "calibration_predictions_sha256": "2bd4fd7da4e9b470059cd708fbdf912242c034012c315bb0d997114cc2812b09",
+  "threshold_sweep_dev_select": [],
+  "temperature_fit": "bounded NLL minimization, T in [0.05,20], dev_calibrate only",
+  "probability_stage": "after deterministic task projection/aggregation; binary Score uses expected level / 4",
+  "prediction_policy": "frozen raw threshold/routing labels retained after temperature scaling",
+  "temperature_at_bound": false
+}
+Loading weights:   0%|          | 0/427 [00:00<?, ?it/s]Loading weights:   0%|          | 1/427 [00:00<02:05,  3.38it/s]Loading weights:   0%|          | 2/427 [00:00<02:15,  3.15it/s]Loading weights:   6%|▋         | 27/427 [00:00<00:07, 53.53it/s]Loading weights:  10%|█         | 43/427 [00:00<00:05, 76.63it/s]Loading weights:  15%|█▌        | 66/427 [00:00<00:03, 110.58it/s]Loading weights:  19%|█▉        | 82/427 [00:01<00:02, 120.66it/s]Loading weights:  23%|██▎       | 100/427 [00:01<00:02, 133.00it/s]Loading weights:  28%|██▊       | 120/427 [00:01<00:02, 146.03it/s]Loading weights:  34%|███▍      | 147/427 [00:01<00:01, 174.15it/s]Loading weights:  39%|███▉      | 166/427 [00:01<00:01, 177.76it/s]Loading weights:  44%|████▎     | 186/427 [00:01<00:01, 179.59it/s]Loading weights:  48%|████▊     | 205/427 [00:01<00:01, 172.65it/s]Loading weights:  53%|█████▎    | 226/427 [00:01<00:01, 179.98it/s]Loading weights:  58%|█████▊    | 246/427 [00:01<00:00, 185.53it/s]Loading weights:  62%|██████▏   | 265/427 [00:02<00:00, 174.14it/s]Loading weights:  68%|██████▊   | 289/427 [00:02<00:00, 191.94it/s]Loading weights:  72%|███████▏  | 309/427 [00:02<00:00, 179.77it/s]Loading weights:  78%|███████▊  | 331/427 [00:02<00:00, 185.63it/s]Loading weights:  82%|████████▏ | 350/427 [00:02<00:00, 181.87it/s]Loading weights:  86%|████████▋ | 369/427 [00:02<00:00, 171.25it/s]Loading weights:  92%|█████████▏| 393/427 [00:02<00:00, 185.29it/s]Loading weights:  96%|█████████▋| 412/427 [00:02<00:00, 179.10it/s]Loading weights: 100%|██████████| 427/427 [00:02<00:00, 143.86it/s]
+[transformers] `causal_conv1d_fn` is falling back to its reference PyTorch implementation because `causal_conv1d` is not installed. This is correct but much slower; install `causal_conv1d` for the optimized kernel.
+{
+  "status": "complete",
+  "n": 2373
+}
+{
+  "run_identity": "4a6d26e8340da0b147232e37e0ab7e413200b2ed710fb150ea6e08dd6c032ed1",
+  "out": "/root/projects/decision/experiments/orsharc/artifacts/runs/phase4/elephant-ft_1024-single_choice-bf16-0shot/reports/dev_select",
+  "n": 456
+}
+{
+  "run_identity": "854e2e5feca3ed6c6950b93987a7a18a566e33d8b8681188ed58fbb31bbc8d9f",
+  "out": "/root/projects/decision/experiments/orsharc/artifacts/runs/phase4/elephant-ft_1024-single_choice-bf16-0shot/reports/dev_calibrate",
+  "n": 649
+}
+{
+  "run_identity": "f984ee5a673435965d15c66f9c0351fce7724e0d17e2cf47c3aac18c4f64a820",
+  "out": "/root/projects/decision/experiments/orsharc/artifacts/runs/phase4/elephant-ft_1024-single_choice-bf16-0shot/reports/test",
+  "n": 2373
+}
+Loading weights:   0%|          | 0/427 [00:00<?, ?it/s]Loading weights:   0%|          | 1/427 [00:00<00:45,  9.37it/s]Loading weights:   0%|          | 2/427 [00:00<01:24,  5.00it/s]Loading weights:   7%|▋         | 28/427 [00:00<00:04, 80.33it/s]Loading weights:  11%|█         | 47/427 [00:00<00:03, 109.08it/s]Loading weights:  19%|█▊        | 79/427 [00:00<00:02, 162.97it/s]Loading weights:  24%|██▎       | 101/427 [00:00<00:01, 174.29it/s]Loading weights:  31%|███       | 133/427 [00:00<00:01, 211.74it/s]Loading weights:  37%|███▋      | 156/427 [00:01<00:01, 204.18it/s]Loading weights:  44%|████▎     | 186/427 [00:01<00:01, 229.12it/s]Loading weights:  49%|████▉     | 210/427 [00:01<00:00, 217.50it/s]Loading weights:  56%|█████▌    | 239/427 [00:01<00:00, 234.80it/s]Loading weights:  62%|██████▏   | 264/427 [00:01<00:00, 222.04it/s]Loading weights:  69%|██████▊   | 293/427 [00:01<00:00, 233.61it/s]Loading weights:  74%|███████▍  | 317/427 [00:01<00:00, 222.43it/s]Loading weights:  81%|████████  | 345/427 [00:01<00:00, 236.27it/s]Loading weights:  87%|████████▋ | 370/427 [00:01<00:00, 220.24it/s]Loading weights:  93%|█████████▎| 398/427 [00:02<00:00, 228.08it/s]Loading weights:  99%|█████████▉| 422/427 [00:02<00:00, 224.41it/s]Loading weights: 100%|██████████| 427/427 [00:02<00:00, 193.88it/s]
+[transformers] `causal_conv1d_fn` is falling back to its reference PyTorch implementation because `causal_conv1d` is not installed. This is correct but much slower; install `causal_conv1d` for the optimized kernel.
+{
+  "status": "complete",
+  "n": 456
+}
+Loading weights:   0%|          | 0/427 [00:00<?, ?it/s]Loading weights:   0%|          | 1/427 [00:00<01:00,  7.02it/s]Loading weights:   0%|          | 2/427 [00:00<01:49,  3.89it/s]Loading weights:   6%|▋         | 27/427 [00:00<00:06, 62.92it/s]Loading weights:  10%|█         | 43/427 [00:00<00:04, 86.39it/s]Loading weights:  15%|█▌        | 66/427 [00:00<00:02, 121.17it/s]Loading weights:  19%|█▉        | 82/427 [00:00<00:02, 130.69it/s]Loading weights:  23%|██▎       | 100/427 [00:01<00:02, 142.09it/s]Loading weights:  28%|██▊       | 121/427 [00:01<00:01, 155.40it/s]Loading weights:  34%|███▍      | 147/427 [00:01<00:01, 178.21it/s]Loading weights:  39%|███▉      | 166/427 [00:01<00:01, 180.63it/s]Loading weights:  44%|████▎     | 186/427 [00:01<00:01, 181.10it/s]Loading weights:  48%|████▊     | 205/427 [00:01<00:01, 172.74it/s]Loading weights:  53%|█████▎    | 226/427 [00:01<00:01, 177.75it/s]Loading weights:  58%|█████▊    | 249/427 [00:01<00:00, 191.75it/s]Loading weights:  63%|██████▎   | 269/427 [00:01<00:00, 178.66it/s]Loading weights:  68%|██████▊   | 292/427 [00:02<00:00, 186.64it/s]Loading weights:  73%|███████▎  | 311/427 [00:02<00:00, 177.06it/s]Loading weights:  78%|███████▊  | 332/427 [00:02<00:00, 181.45it/s]Loading weights:  83%|████████▎ | 355/427 [00:02<00:00, 188.50it/s]Loading weights:  88%|████████▊ | 374/427 [00:02<00:00, 174.68it/s]Loading weights:  93%|█████████▎| 398/427 [00:02<00:00, 184.54it/s]Loading weights:  98%|█████████▊| 417/427 [00:02<00:00, 174.71it/s]Loading weights: 100%|██████████| 427/427 [00:02<00:00, 152.69it/s]
+[transformers] `causal_conv1d_fn` is falling back to its reference PyTorch implementation because `causal_conv1d` is not installed. This is correct but much slower; install `causal_conv1d` for the optimized kernel.
+{
+  "status": "complete",
+  "n": 649
+}
+{
+  "condition": "a4054c5db4b0d593681ebde8d7e23b85bc873722be7df0b1332fc76c2b473803",
+  "temperature": 1.1523075606585433,
+  "threshold": 0.5,
+  "selection_run": "ff48d608f6d75f102586ad191a0d49942ebaa6dd3de95ab11a965d9c10abf92a",
+  "calibration_run": "ca9607c9a246fb903e03c457fd64fb5c8062ca662294eb6b2e9aa2134cf0e331",
+  "data_manifest": "7da4b11e2bc3952109ea23f3c0f65bdbcbf6ea7ce1f1a52a2d3e5f4d84f78967",
+  "selection_predictions_sha256": "9d953a2a18b06d139b2b90dd0956354e3324dca22a02be094b58904b1d67449f",
+  "calibration_predictions_sha256": "698ccf0c7356f4cc25e716904d7e6961a2fa4f267eb5528aebc9fdcc493e872f",
+  "threshold_sweep_dev_select": [],
+  "temperature_fit": "bounded NLL minimization, T in [0.05,20], dev_calibrate only",
+  "probability_stage": "after deterministic task projection/aggregation; binary Score uses expected level / 4",
+  "prediction_policy": "frozen raw threshold/routing labels retained after temperature scaling",
+  "temperature_at_bound": false
+}
+Loading weights:   0%|          | 0/427 [00:00<?, ?it/s]Loading weights:   0%|          | 1/427 [00:00<01:37,  4.39it/s]Loading weights:   0%|          | 2/427 [00:00<01:46,  4.00it/s]Loading weights:   7%|▋         | 28/427 [00:00<00:05, 68.38it/s]Loading weights:  11%|█         | 48/427 [00:00<00:03, 100.65it/s]Loading weights:  19%|█▊        | 80/427 [00:00<00:02, 158.87it/s]Loading weights:  24%|██▎       | 101/427 [00:00<00:01, 163.25it/s]Loading weights:  31%|███       | 133/427 [00:01<00:01, 196.13it/s]Loading weights:  36%|███▋      | 155/427 [00:01<00:01, 198.07it/s]Loading weights:  44%|████▎     | 186/427 [00:01<00:01, 227.35it/s]Loading weights:  49%|████▉     | 211/427 [00:01<00:00, 217.10it/s]Loading weights:  56%|█████▌    | 239/427 [00:01<00:00, 232.37it/s]Loading weights:  62%|██████▏   | 264/427 [00:01<00:00, 220.88it/s]Loading weights:  69%|██████▊   | 293/427 [00:01<00:00, 233.12it/s]Loading weights:  74%|███████▍  | 317/427 [00:01<00:00, 226.09it/s]Loading weights:  81%|████████  | 346/427 [00:01<00:00, 235.59it/s]Loading weights:  87%|████████▋ | 370/427 [00:02<00:00, 225.74it/s]Loading weights:  93%|█████████▎| 399/427 [00:02<00:00, 227.10it/s]Loading weights:  99%|█████████▉| 423/427 [00:02<00:00, 223.95it/s]Loading weights: 100%|██████████| 427/427 [00:02<00:00, 185.23it/s]
+[transformers] `causal_conv1d_fn` is falling back to its reference PyTorch implementation because `causal_conv1d` is not installed. This is correct but much slower; install `causal_conv1d` for the optimized kernel.
+{
+  "status": "complete",
+  "n": 2373
+}
+{
+  "run_identity": "ff48d608f6d75f102586ad191a0d49942ebaa6dd3de95ab11a965d9c10abf92a",
+  "out": "/root/projects/decision/experiments/orsharc/artifacts/runs/phase4/elephant-ft_4096-single_choice-bf16-0shot/reports/dev_select",
+  "n": 456
+}
+{
+  "run_identity": "ca9607c9a246fb903e03c457fd64fb5c8062ca662294eb6b2e9aa2134cf0e331",
+  "out": "/root/projects/decision/experiments/orsharc/artifacts/runs/phase4/elephant-ft_4096-single_choice-bf16-0shot/reports/dev_calibrate",
+  "n": 649
+}
+{
+  "run_identity": "9e0255f9eec0c082dd8d7b05fc16541350699a9571353f537632e9845c4b8045",
+  "out": "/root/projects/decision/experiments/orsharc/artifacts/runs/phase4/elephant-ft_4096-single_choice-bf16-0shot/reports/test",
+  "n": 2373
+}

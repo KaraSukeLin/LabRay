@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "scope": "Five official controls and BF16 bounded protocol preparation only",
+  "controls": 10,
+  "bf16_api_requests": 4,
+  "smoke": 0,
+  "formal": 0,
+  "goal_complete": false
+}

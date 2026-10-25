@@ -1,0 +1,4356 @@
+{
+  "source_model": "/home/rob/.cache/huggingface/hub/models--Qwen--Qwen3.8-27B/snapshots/1d4bf0f2ff6012fd82039f2fa52739d0dd7c60c0",
+  "source_recipe": "/home/rob/dq-runs/qwen38-27b-arm-b/artifacts/layer_config.json",
+  "format_histogram": {
+    "head_passthrough/BF16": 3,
+    "linear/FP8_E4M3_PRODUCTION_CACHE": 223,
+    "linear/BF16": 26,
+    "linear/NVFP4_PRODUCTION_CACHE": 247,
+    "layer_passthrough/BF16": 352,
+    "mtp_linear/BF16": 8,
+    "mtp_passthrough/BF16": 7
+  },
+  "n_assignment_entries": 614,
+  "source_assignment_entries": 614,
+  "fp8_source_passthrough_overrides": [],
+  "runtime_coercions": [],
+  "bf16_audit": {
+    "counts": {
+      "allocator_selected_bf16_alternate_8bit_legal": 53,
+      "allocator_selected_bf16_mxfp8_legal": 91
+    },
+    "entries": [
+      {
+        "name": "model.layers.0.linear_attn.in_proj_a",
+        "reason": "allocator_selected_bf16_alternate_8bit_legal",
+        "shape": [
+          48,
+          5120
+        ],
+        "eight_bit_candidates": {
+          "MXFP8_E4M3": {
+            "legal": false,
+            "reason": "kernel_shape",
+            "detail": "MXFP8_E4M3 runtime validator flashinfer_mxfp8_problem_size rejected (out_features=48, in_features=5120)"
+          },
+          "MXFP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          },
+          "FP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "FP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          }
+        }
+      },
+      {
+        "name": "model.layers.0.linear_attn.in_proj_b",
+        "reason": "allocator_selected_bf16_alternate_8bit_legal",
+        "shape": [
+          48,
+          5120
+        ],
+        "eight_bit_candidates": {
+          "MXFP8_E4M3": {
+            "legal": false,
+            "reason": "kernel_shape",
+            "detail": "MXFP8_E4M3 runtime validator flashinfer_mxfp8_problem_size rejected (out_features=48, in_features=5120)"
+          },
+          "MXFP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          },
+          "FP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "FP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          }
+        }
+      },
+      {
+        "name": "model.layers.1.linear_attn.in_proj_a",
+        "reason": "allocator_selected_bf16_alternate_8bit_legal",
+        "shape": [
+          48,
+          5120
+        ],
+        "eight_bit_candidates": {
+          "MXFP8_E4M3": {
+            "legal": false,
+            "reason": "kernel_shape",
+            "detail": "MXFP8_E4M3 runtime validator flashinfer_mxfp8_problem_size rejected (out_features=48, in_features=5120)"
+          },
+          "MXFP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          },
+          "FP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "FP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          }
+        }
+      },
+      {
+        "name": "model.layers.1.linear_attn.in_proj_b",
+        "reason": "allocator_selected_bf16_alternate_8bit_legal",
+        "shape": [
+          48,
+          5120
+        ],
+        "eight_bit_candidates": {
+          "MXFP8_E4M3": {
+            "legal": false,
+            "reason": "kernel_shape",
+            "detail": "MXFP8_E4M3 runtime validator flashinfer_mxfp8_problem_size rejected (out_features=48, in_features=5120)"
+          },
+          "MXFP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          },
+          "FP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "FP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          }
+        }
+      },
+      {
+        "name": "model.layers.10.linear_attn.in_proj_a",
+        "reason": "allocator_selected_bf16_alternate_8bit_legal",
+        "shape": [
+          48,
+          5120
+        ],
+        "eight_bit_candidates": {
+          "MXFP8_E4M3": {
+            "legal": false,
+            "reason": "kernel_shape",
+            "detail": "MXFP8_E4M3 runtime validator flashinfer_mxfp8_problem_size rejected (out_features=48, in_features=5120)"
+          },
+          "MXFP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          },
+          "FP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "FP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          }
+        }
+      },
+      {
+        "name": "model.layers.10.linear_attn.in_proj_b",
+        "reason": "allocator_selected_bf16_alternate_8bit_legal",
+        "shape": [
+          48,
+          5120
+        ],
+        "eight_bit_candidates": {
+          "MXFP8_E4M3": {
+            "legal": false,
+            "reason": "kernel_shape",
+            "detail": "MXFP8_E4M3 runtime validator flashinfer_mxfp8_problem_size rejected (out_features=48, in_features=5120)"
+          },
+          "MXFP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          },
+          "FP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "FP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          }
+        }
+      },
+      {
+        "name": "model.layers.13.linear_attn.in_proj_a",
+        "reason": "allocator_selected_bf16_alternate_8bit_legal",
+        "shape": [
+          48,
+          5120
+        ],
+        "eight_bit_candidates": {
+          "MXFP8_E4M3": {
+            "legal": false,
+            "reason": "kernel_shape",
+            "detail": "MXFP8_E4M3 runtime validator flashinfer_mxfp8_problem_size rejected (out_features=48, in_features=5120)"
+          },
+          "MXFP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          },
+          "FP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "FP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          }
+        }
+      },
+      {
+        "name": "model.layers.13.linear_attn.in_proj_b",
+        "reason": "allocator_selected_bf16_alternate_8bit_legal",
+        "shape": [
+          48,
+          5120
+        ],
+        "eight_bit_candidates": {
+          "MXFP8_E4M3": {
+            "legal": false,
+            "reason": "kernel_shape",
+            "detail": "MXFP8_E4M3 runtime validator flashinfer_mxfp8_problem_size rejected (out_features=48, in_features=5120)"
+          },
+          "MXFP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          },
+          "FP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "FP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          }
+        }
+      },
+      {
+        "name": "model.layers.14.linear_attn.in_proj_a",
+        "reason": "allocator_selected_bf16_alternate_8bit_legal",
+        "shape": [
+          48,
+          5120
+        ],
+        "eight_bit_candidates": {
+          "MXFP8_E4M3": {
+            "legal": false,
+            "reason": "kernel_shape",
+            "detail": "MXFP8_E4M3 runtime validator flashinfer_mxfp8_problem_size rejected (out_features=48, in_features=5120)"
+          },
+          "MXFP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          },
+          "FP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "FP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          }
+        }
+      },
+      {
+        "name": "model.layers.14.linear_attn.in_proj_b",
+        "reason": "allocator_selected_bf16_alternate_8bit_legal",
+        "shape": [
+          48,
+          5120
+        ],
+        "eight_bit_candidates": {
+          "MXFP8_E4M3": {
+            "legal": false,
+            "reason": "kernel_shape",
+            "detail": "MXFP8_E4M3 runtime validator flashinfer_mxfp8_problem_size rejected (out_features=48, in_features=5120)"
+          },
+          "MXFP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          },
+          "FP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "FP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          }
+        }
+      },
+      {
+        "name": "model.layers.16.linear_attn.in_proj_a",
+        "reason": "allocator_selected_bf16_alternate_8bit_legal",
+        "shape": [
+          48,
+          5120
+        ],
+        "eight_bit_candidates": {
+          "MXFP8_E4M3": {
+            "legal": false,
+            "reason": "kernel_shape",
+            "detail": "MXFP8_E4M3 runtime validator flashinfer_mxfp8_problem_size rejected (out_features=48, in_features=5120)"
+          },
+          "MXFP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          },
+          "FP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "FP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          }
+        }
+      },
+      {
+        "name": "model.layers.16.linear_attn.in_proj_b",
+        "reason": "allocator_selected_bf16_alternate_8bit_legal",
+        "shape": [
+          48,
+          5120
+        ],
+        "eight_bit_candidates": {
+          "MXFP8_E4M3": {
+            "legal": false,
+            "reason": "kernel_shape",
+            "detail": "MXFP8_E4M3 runtime validator flashinfer_mxfp8_problem_size rejected (out_features=48, in_features=5120)"
+          },
+          "MXFP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          },
+          "FP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "FP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          }
+        }
+      },
+      {
+        "name": "model.layers.2.linear_attn.in_proj_a",
+        "reason": "allocator_selected_bf16_alternate_8bit_legal",
+        "shape": [
+          48,
+          5120
+        ],
+        "eight_bit_candidates": {
+          "MXFP8_E4M3": {
+            "legal": false,
+            "reason": "kernel_shape",
+            "detail": "MXFP8_E4M3 runtime validator flashinfer_mxfp8_problem_size rejected (out_features=48, in_features=5120)"
+          },
+          "MXFP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          },
+          "FP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "FP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          }
+        }
+      },
+      {
+        "name": "model.layers.2.linear_attn.in_proj_b",
+        "reason": "allocator_selected_bf16_alternate_8bit_legal",
+        "shape": [
+          48,
+          5120
+        ],
+        "eight_bit_candidates": {
+          "MXFP8_E4M3": {
+            "legal": false,
+            "reason": "kernel_shape",
+            "detail": "MXFP8_E4M3 runtime validator flashinfer_mxfp8_problem_size rejected (out_features=48, in_features=5120)"
+          },
+          "MXFP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          },
+          "FP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "FP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          }
+        }
+      },
+      {
+        "name": "model.layers.26.linear_attn.in_proj_a",
+        "reason": "allocator_selected_bf16_alternate_8bit_legal",
+        "shape": [
+          48,
+          5120
+        ],
+        "eight_bit_candidates": {
+          "MXFP8_E4M3": {
+            "legal": false,
+            "reason": "kernel_shape",
+            "detail": "MXFP8_E4M3 runtime validator flashinfer_mxfp8_problem_size rejected (out_features=48, in_features=5120)"
+          },
+          "MXFP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          },
+          "FP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "FP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          }
+        }
+      },
+      {
+        "name": "model.layers.26.linear_attn.in_proj_b",
+        "reason": "allocator_selected_bf16_alternate_8bit_legal",
+        "shape": [
+          48,
+          5120
+        ],
+        "eight_bit_candidates": {
+          "MXFP8_E4M3": {
+            "legal": false,
+            "reason": "kernel_shape",
+            "detail": "MXFP8_E4M3 runtime validator flashinfer_mxfp8_problem_size rejected (out_features=48, in_features=5120)"
+          },
+          "MXFP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          },
+          "FP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "FP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          }
+        }
+      },
+      {
+        "name": "model.layers.28.linear_attn.in_proj_a",
+        "reason": "allocator_selected_bf16_alternate_8bit_legal",
+        "shape": [
+          48,
+          5120
+        ],
+        "eight_bit_candidates": {
+          "MXFP8_E4M3": {
+            "legal": false,
+            "reason": "kernel_shape",
+            "detail": "MXFP8_E4M3 runtime validator flashinfer_mxfp8_problem_size rejected (out_features=48, in_features=5120)"
+          },
+          "MXFP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          },
+          "FP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "FP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          }
+        }
+      },
+      {
+        "name": "model.layers.28.linear_attn.in_proj_b",
+        "reason": "allocator_selected_bf16_alternate_8bit_legal",
+        "shape": [
+          48,
+          5120
+        ],
+        "eight_bit_candidates": {
+          "MXFP8_E4M3": {
+            "legal": false,
+            "reason": "kernel_shape",
+            "detail": "MXFP8_E4M3 runtime validator flashinfer_mxfp8_problem_size rejected (out_features=48, in_features=5120)"
+          },
+          "MXFP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          },
+          "FP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "FP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          }
+        }
+      },
+      {
+        "name": "model.layers.32.linear_attn.in_proj_a",
+        "reason": "allocator_selected_bf16_alternate_8bit_legal",
+        "shape": [
+          48,
+          5120
+        ],
+        "eight_bit_candidates": {
+          "MXFP8_E4M3": {
+            "legal": false,
+            "reason": "kernel_shape",
+            "detail": "MXFP8_E4M3 runtime validator flashinfer_mxfp8_problem_size rejected (out_features=48, in_features=5120)"
+          },
+          "MXFP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          },
+          "FP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "FP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          }
+        }
+      },
+      {
+        "name": "model.layers.32.linear_attn.in_proj_b",
+        "reason": "allocator_selected_bf16_alternate_8bit_legal",
+        "shape": [
+          48,
+          5120
+        ],
+        "eight_bit_candidates": {
+          "MXFP8_E4M3": {
+            "legal": false,
+            "reason": "kernel_shape",
+            "detail": "MXFP8_E4M3 runtime validator flashinfer_mxfp8_problem_size rejected (out_features=48, in_features=5120)"
+          },
+          "MXFP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          },
+          "FP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "FP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          }
+        }
+      },
+      {
+        "name": "model.layers.4.linear_attn.in_proj_a",
+        "reason": "allocator_selected_bf16_alternate_8bit_legal",
+        "shape": [
+          48,
+          5120
+        ],
+        "eight_bit_candidates": {
+          "MXFP8_E4M3": {
+            "legal": false,
+            "reason": "kernel_shape",
+            "detail": "MXFP8_E4M3 runtime validator flashinfer_mxfp8_problem_size rejected (out_features=48, in_features=5120)"
+          },
+          "MXFP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          },
+          "FP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "FP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          }
+        }
+      },
+      {
+        "name": "model.layers.4.linear_attn.in_proj_b",
+        "reason": "allocator_selected_bf16_alternate_8bit_legal",
+        "shape": [
+          48,
+          5120
+        ],
+        "eight_bit_candidates": {
+          "MXFP8_E4M3": {
+            "legal": false,
+            "reason": "kernel_shape",
+            "detail": "MXFP8_E4M3 runtime validator flashinfer_mxfp8_problem_size rejected (out_features=48, in_features=5120)"
+          },
+          "MXFP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          },
+          "FP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "FP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          }
+        }
+      },
+      {
+        "name": "model.layers.6.linear_attn.in_proj_a",
+        "reason": "allocator_selected_bf16_alternate_8bit_legal",
+        "shape": [
+          48,
+          5120
+        ],
+        "eight_bit_candidates": {
+          "MXFP8_E4M3": {
+            "legal": false,
+            "reason": "kernel_shape",
+            "detail": "MXFP8_E4M3 runtime validator flashinfer_mxfp8_problem_size rejected (out_features=48, in_features=5120)"
+          },
+          "MXFP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          },
+          "FP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "FP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          }
+        }
+      },
+      {
+        "name": "model.layers.6.linear_attn.in_proj_b",
+        "reason": "allocator_selected_bf16_alternate_8bit_legal",
+        "shape": [
+          48,
+          5120
+        ],
+        "eight_bit_candidates": {
+          "MXFP8_E4M3": {
+            "legal": false,
+            "reason": "kernel_shape",
+            "detail": "MXFP8_E4M3 runtime validator flashinfer_mxfp8_problem_size rejected (out_features=48, in_features=5120)"
+          },
+          "MXFP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          },
+          "FP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "FP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          }
+        }
+      },
+      {
+        "name": "model.layers.9.linear_attn.in_proj_a",
+        "reason": "allocator_selected_bf16_alternate_8bit_legal",
+        "shape": [
+          48,
+          5120
+        ],
+        "eight_bit_candidates": {
+          "MXFP8_E4M3": {
+            "legal": false,
+            "reason": "kernel_shape",
+            "detail": "MXFP8_E4M3 runtime validator flashinfer_mxfp8_problem_size rejected (out_features=48, in_features=5120)"
+          },
+          "MXFP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          },
+          "FP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "FP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          }
+        }
+      },
+      {
+        "name": "model.layers.9.linear_attn.in_proj_b",
+        "reason": "allocator_selected_bf16_alternate_8bit_legal",
+        "shape": [
+          48,
+          5120
+        ],
+        "eight_bit_candidates": {
+          "MXFP8_E4M3": {
+            "legal": false,
+            "reason": "kernel_shape",
+            "detail": "MXFP8_E4M3 runtime validator flashinfer_mxfp8_problem_size rejected (out_features=48, in_features=5120)"
+          },
+          "MXFP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          },
+          "FP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "FP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          }
+        }
+      },
+      {
+        "name": "model.visual.blocks.0.attn.proj",
+        "reason": "allocator_selected_bf16_mxfp8_legal",
+        "shape": [
+          1152,
+          1152
+        ],
+        "eight_bit_candidates": {
+          "MXFP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "MXFP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          },
+          "FP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "FP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          }
+        }
+      },
+      {
+        "name": "model.visual.blocks.0.attn.qkv",
+        "reason": "allocator_selected_bf16_mxfp8_legal",
+        "shape": [
+          3456,
+          1152
+        ],
+        "eight_bit_candidates": {
+          "MXFP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "MXFP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          },
+          "FP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "FP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          }
+        }
+      },
+      {
+        "name": "model.visual.blocks.0.mlp.linear_fc1",
+        "reason": "allocator_selected_bf16_mxfp8_legal",
+        "shape": [
+          4304,
+          1152
+        ],
+        "eight_bit_candidates": {
+          "MXFP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "MXFP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          },
+          "FP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "FP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          }
+        }
+      },
+      {
+        "name": "model.visual.blocks.0.mlp.linear_fc2",
+        "reason": "allocator_selected_bf16_alternate_8bit_legal",
+        "shape": [
+          1152,
+          4304
+        ],
+        "eight_bit_candidates": {
+          "MXFP8_E4M3": {
+            "legal": false,
+            "reason": "group_divisibility",
+            "detail": "group_size=32 does not divide in_features=4304"
+          },
+          "MXFP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          },
+          "FP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "FP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          }
+        }
+      },
+      {
+        "name": "model.visual.blocks.1.attn.proj",
+        "reason": "allocator_selected_bf16_mxfp8_legal",
+        "shape": [
+          1152,
+          1152
+        ],
+        "eight_bit_candidates": {
+          "MXFP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "MXFP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          },
+          "FP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "FP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          }
+        }
+      },
+      {
+        "name": "model.visual.blocks.1.attn.qkv",
+        "reason": "allocator_selected_bf16_mxfp8_legal",
+        "shape": [
+          3456,
+          1152
+        ],
+        "eight_bit_candidates": {
+          "MXFP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "MXFP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          },
+          "FP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "FP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          }
+        }
+      },
+      {
+        "name": "model.visual.blocks.1.mlp.linear_fc1",
+        "reason": "allocator_selected_bf16_mxfp8_legal",
+        "shape": [
+          4304,
+          1152
+        ],
+        "eight_bit_candidates": {
+          "MXFP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "MXFP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          },
+          "FP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "FP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          }
+        }
+      },
+      {
+        "name": "model.visual.blocks.1.mlp.linear_fc2",
+        "reason": "allocator_selected_bf16_alternate_8bit_legal",
+        "shape": [
+          1152,
+          4304
+        ],
+        "eight_bit_candidates": {
+          "MXFP8_E4M3": {
+            "legal": false,
+            "reason": "group_divisibility",
+            "detail": "group_size=32 does not divide in_features=4304"
+          },
+          "MXFP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          },
+          "FP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "FP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          }
+        }
+      },
+      {
+        "name": "model.visual.blocks.10.attn.proj",
+        "reason": "allocator_selected_bf16_mxfp8_legal",
+        "shape": [
+          1152,
+          1152
+        ],
+        "eight_bit_candidates": {
+          "MXFP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "MXFP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          },
+          "FP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "FP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          }
+        }
+      },
+      {
+        "name": "model.visual.blocks.10.attn.qkv",
+        "reason": "allocator_selected_bf16_mxfp8_legal",
+        "shape": [
+          3456,
+          1152
+        ],
+        "eight_bit_candidates": {
+          "MXFP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "MXFP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          },
+          "FP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "FP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          }
+        }
+      },
+      {
+        "name": "model.visual.blocks.10.mlp.linear_fc1",
+        "reason": "allocator_selected_bf16_mxfp8_legal",
+        "shape": [
+          4304,
+          1152
+        ],
+        "eight_bit_candidates": {
+          "MXFP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "MXFP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          },
+          "FP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "FP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          }
+        }
+      },
+      {
+        "name": "model.visual.blocks.10.mlp.linear_fc2",
+        "reason": "allocator_selected_bf16_alternate_8bit_legal",
+        "shape": [
+          1152,
+          4304
+        ],
+        "eight_bit_candidates": {
+          "MXFP8_E4M3": {
+            "legal": false,
+            "reason": "group_divisibility",
+            "detail": "group_size=32 does not divide in_features=4304"
+          },
+          "MXFP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          },
+          "FP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "FP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          }
+        }
+      },
+      {
+        "name": "model.visual.blocks.11.attn.proj",
+        "reason": "allocator_selected_bf16_mxfp8_legal",
+        "shape": [
+          1152,
+          1152
+        ],
+        "eight_bit_candidates": {
+          "MXFP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "MXFP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          },
+          "FP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "FP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          }
+        }
+      },
+      {
+        "name": "model.visual.blocks.11.attn.qkv",
+        "reason": "allocator_selected_bf16_mxfp8_legal",
+        "shape": [
+          3456,
+          1152
+        ],
+        "eight_bit_candidates": {
+          "MXFP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "MXFP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          },
+          "FP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "FP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          }
+        }
+      },
+      {
+        "name": "model.visual.blocks.11.mlp.linear_fc1",
+        "reason": "allocator_selected_bf16_mxfp8_legal",
+        "shape": [
+          4304,
+          1152
+        ],
+        "eight_bit_candidates": {
+          "MXFP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "MXFP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          },
+          "FP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "FP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          }
+        }
+      },
+      {
+        "name": "model.visual.blocks.11.mlp.linear_fc2",
+        "reason": "allocator_selected_bf16_alternate_8bit_legal",
+        "shape": [
+          1152,
+          4304
+        ],
+        "eight_bit_candidates": {
+          "MXFP8_E4M3": {
+            "legal": false,
+            "reason": "group_divisibility",
+            "detail": "group_size=32 does not divide in_features=4304"
+          },
+          "MXFP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          },
+          "FP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "FP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          }
+        }
+      },
+      {
+        "name": "model.visual.blocks.12.attn.proj",
+        "reason": "allocator_selected_bf16_mxfp8_legal",
+        "shape": [
+          1152,
+          1152
+        ],
+        "eight_bit_candidates": {
+          "MXFP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "MXFP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          },
+          "FP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "FP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          }
+        }
+      },
+      {
+        "name": "model.visual.blocks.12.attn.qkv",
+        "reason": "allocator_selected_bf16_mxfp8_legal",
+        "shape": [
+          3456,
+          1152
+        ],
+        "eight_bit_candidates": {
+          "MXFP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "MXFP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          },
+          "FP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "FP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          }
+        }
+      },
+      {
+        "name": "model.visual.blocks.12.mlp.linear_fc1",
+        "reason": "allocator_selected_bf16_mxfp8_legal",
+        "shape": [
+          4304,
+          1152
+        ],
+        "eight_bit_candidates": {
+          "MXFP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "MXFP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          },
+          "FP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "FP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          }
+        }
+      },
+      {
+        "name": "model.visual.blocks.12.mlp.linear_fc2",
+        "reason": "allocator_selected_bf16_alternate_8bit_legal",
+        "shape": [
+          1152,
+          4304
+        ],
+        "eight_bit_candidates": {
+          "MXFP8_E4M3": {
+            "legal": false,
+            "reason": "group_divisibility",
+            "detail": "group_size=32 does not divide in_features=4304"
+          },
+          "MXFP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          },
+          "FP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "FP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          }
+        }
+      },
+      {
+        "name": "model.visual.blocks.13.attn.proj",
+        "reason": "allocator_selected_bf16_mxfp8_legal",
+        "shape": [
+          1152,
+          1152
+        ],
+        "eight_bit_candidates": {
+          "MXFP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "MXFP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          },
+          "FP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "FP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          }
+        }
+      },
+      {
+        "name": "model.visual.blocks.13.attn.qkv",
+        "reason": "allocator_selected_bf16_mxfp8_legal",
+        "shape": [
+          3456,
+          1152
+        ],
+        "eight_bit_candidates": {
+          "MXFP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "MXFP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          },
+          "FP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "FP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          }
+        }
+      },
+      {
+        "name": "model.visual.blocks.13.mlp.linear_fc1",
+        "reason": "allocator_selected_bf16_mxfp8_legal",
+        "shape": [
+          4304,
+          1152
+        ],
+        "eight_bit_candidates": {
+          "MXFP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "MXFP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          },
+          "FP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "FP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          }
+        }
+      },
+      {
+        "name": "model.visual.blocks.13.mlp.linear_fc2",
+        "reason": "allocator_selected_bf16_alternate_8bit_legal",
+        "shape": [
+          1152,
+          4304
+        ],
+        "eight_bit_candidates": {
+          "MXFP8_E4M3": {
+            "legal": false,
+            "reason": "group_divisibility",
+            "detail": "group_size=32 does not divide in_features=4304"
+          },
+          "MXFP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          },
+          "FP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "FP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          }
+        }
+      },
+      {
+        "name": "model.visual.blocks.14.attn.proj",
+        "reason": "allocator_selected_bf16_mxfp8_legal",
+        "shape": [
+          1152,
+          1152
+        ],
+        "eight_bit_candidates": {
+          "MXFP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "MXFP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          },
+          "FP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "FP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          }
+        }
+      },
+      {
+        "name": "model.visual.blocks.14.attn.qkv",
+        "reason": "allocator_selected_bf16_mxfp8_legal",
+        "shape": [
+          3456,
+          1152
+        ],
+        "eight_bit_candidates": {
+          "MXFP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "MXFP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          },
+          "FP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "FP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          }
+        }
+      },
+      {
+        "name": "model.visual.blocks.14.mlp.linear_fc1",
+        "reason": "allocator_selected_bf16_mxfp8_legal",
+        "shape": [
+          4304,
+          1152
+        ],
+        "eight_bit_candidates": {
+          "MXFP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "MXFP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          },
+          "FP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "FP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          }
+        }
+      },
+      {
+        "name": "model.visual.blocks.14.mlp.linear_fc2",
+        "reason": "allocator_selected_bf16_alternate_8bit_legal",
+        "shape": [
+          1152,
+          4304
+        ],
+        "eight_bit_candidates": {
+          "MXFP8_E4M3": {
+            "legal": false,
+            "reason": "group_divisibility",
+            "detail": "group_size=32 does not divide in_features=4304"
+          },
+          "MXFP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          },
+          "FP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "FP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          }
+        }
+      },
+      {
+        "name": "model.visual.blocks.15.attn.proj",
+        "reason": "allocator_selected_bf16_mxfp8_legal",
+        "shape": [
+          1152,
+          1152
+        ],
+        "eight_bit_candidates": {
+          "MXFP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "MXFP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          },
+          "FP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "FP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          }
+        }
+      },
+      {
+        "name": "model.visual.blocks.15.attn.qkv",
+        "reason": "allocator_selected_bf16_mxfp8_legal",
+        "shape": [
+          3456,
+          1152
+        ],
+        "eight_bit_candidates": {
+          "MXFP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "MXFP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          },
+          "FP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "FP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          }
+        }
+      },
+      {
+        "name": "model.visual.blocks.15.mlp.linear_fc1",
+        "reason": "allocator_selected_bf16_mxfp8_legal",
+        "shape": [
+          4304,
+          1152
+        ],
+        "eight_bit_candidates": {
+          "MXFP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "MXFP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          },
+          "FP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "FP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          }
+        }
+      },
+      {
+        "name": "model.visual.blocks.15.mlp.linear_fc2",
+        "reason": "allocator_selected_bf16_alternate_8bit_legal",
+        "shape": [
+          1152,
+          4304
+        ],
+        "eight_bit_candidates": {
+          "MXFP8_E4M3": {
+            "legal": false,
+            "reason": "group_divisibility",
+            "detail": "group_size=32 does not divide in_features=4304"
+          },
+          "MXFP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          },
+          "FP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "FP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          }
+        }
+      },
+      {
+        "name": "model.visual.blocks.16.attn.proj",
+        "reason": "allocator_selected_bf16_mxfp8_legal",
+        "shape": [
+          1152,
+          1152
+        ],
+        "eight_bit_candidates": {
+          "MXFP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "MXFP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          },
+          "FP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "FP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          }
+        }
+      },
+      {
+        "name": "model.visual.blocks.16.attn.qkv",
+        "reason": "allocator_selected_bf16_mxfp8_legal",
+        "shape": [
+          3456,
+          1152
+        ],
+        "eight_bit_candidates": {
+          "MXFP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "MXFP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          },
+          "FP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "FP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          }
+        }
+      },
+      {
+        "name": "model.visual.blocks.16.mlp.linear_fc1",
+        "reason": "allocator_selected_bf16_mxfp8_legal",
+        "shape": [
+          4304,
+          1152
+        ],
+        "eight_bit_candidates": {
+          "MXFP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "MXFP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          },
+          "FP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "FP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          }
+        }
+      },
+      {
+        "name": "model.visual.blocks.16.mlp.linear_fc2",
+        "reason": "allocator_selected_bf16_alternate_8bit_legal",
+        "shape": [
+          1152,
+          4304
+        ],
+        "eight_bit_candidates": {
+          "MXFP8_E4M3": {
+            "legal": false,
+            "reason": "group_divisibility",
+            "detail": "group_size=32 does not divide in_features=4304"
+          },
+          "MXFP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          },
+          "FP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "FP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          }
+        }
+      },
+      {
+        "name": "model.visual.blocks.17.attn.proj",
+        "reason": "allocator_selected_bf16_mxfp8_legal",
+        "shape": [
+          1152,
+          1152
+        ],
+        "eight_bit_candidates": {
+          "MXFP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "MXFP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          },
+          "FP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "FP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          }
+        }
+      },
+      {
+        "name": "model.visual.blocks.17.attn.qkv",
+        "reason": "allocator_selected_bf16_mxfp8_legal",
+        "shape": [
+          3456,
+          1152
+        ],
+        "eight_bit_candidates": {
+          "MXFP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "MXFP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          },
+          "FP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "FP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          }
+        }
+      },
+      {
+        "name": "model.visual.blocks.17.mlp.linear_fc1",
+        "reason": "allocator_selected_bf16_mxfp8_legal",
+        "shape": [
+          4304,
+          1152
+        ],
+        "eight_bit_candidates": {
+          "MXFP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "MXFP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          },
+          "FP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "FP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          }
+        }
+      },
+      {
+        "name": "model.visual.blocks.17.mlp.linear_fc2",
+        "reason": "allocator_selected_bf16_alternate_8bit_legal",
+        "shape": [
+          1152,
+          4304
+        ],
+        "eight_bit_candidates": {
+          "MXFP8_E4M3": {
+            "legal": false,
+            "reason": "group_divisibility",
+            "detail": "group_size=32 does not divide in_features=4304"
+          },
+          "MXFP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          },
+          "FP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "FP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          }
+        }
+      },
+      {
+        "name": "model.visual.blocks.18.attn.proj",
+        "reason": "allocator_selected_bf16_mxfp8_legal",
+        "shape": [
+          1152,
+          1152
+        ],
+        "eight_bit_candidates": {
+          "MXFP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "MXFP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          },
+          "FP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "FP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          }
+        }
+      },
+      {
+        "name": "model.visual.blocks.18.attn.qkv",
+        "reason": "allocator_selected_bf16_mxfp8_legal",
+        "shape": [
+          3456,
+          1152
+        ],
+        "eight_bit_candidates": {
+          "MXFP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "MXFP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          },
+          "FP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "FP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          }
+        }
+      },
+      {
+        "name": "model.visual.blocks.18.mlp.linear_fc1",
+        "reason": "allocator_selected_bf16_mxfp8_legal",
+        "shape": [
+          4304,
+          1152
+        ],
+        "eight_bit_candidates": {
+          "MXFP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "MXFP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          },
+          "FP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "FP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          }
+        }
+      },
+      {
+        "name": "model.visual.blocks.18.mlp.linear_fc2",
+        "reason": "allocator_selected_bf16_alternate_8bit_legal",
+        "shape": [
+          1152,
+          4304
+        ],
+        "eight_bit_candidates": {
+          "MXFP8_E4M3": {
+            "legal": false,
+            "reason": "group_divisibility",
+            "detail": "group_size=32 does not divide in_features=4304"
+          },
+          "MXFP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          },
+          "FP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "FP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          }
+        }
+      },
+      {
+        "name": "model.visual.blocks.19.attn.proj",
+        "reason": "allocator_selected_bf16_mxfp8_legal",
+        "shape": [
+          1152,
+          1152
+        ],
+        "eight_bit_candidates": {
+          "MXFP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "MXFP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          },
+          "FP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "FP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          }
+        }
+      },
+      {
+        "name": "model.visual.blocks.19.attn.qkv",
+        "reason": "allocator_selected_bf16_mxfp8_legal",
+        "shape": [
+          3456,
+          1152
+        ],
+        "eight_bit_candidates": {
+          "MXFP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "MXFP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          },
+          "FP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "FP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          }
+        }
+      },
+      {
+        "name": "model.visual.blocks.19.mlp.linear_fc1",
+        "reason": "allocator_selected_bf16_mxfp8_legal",
+        "shape": [
+          4304,
+          1152
+        ],
+        "eight_bit_candidates": {
+          "MXFP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "MXFP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          },
+          "FP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "FP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          }
+        }
+      },
+      {
+        "name": "model.visual.blocks.19.mlp.linear_fc2",
+        "reason": "allocator_selected_bf16_alternate_8bit_legal",
+        "shape": [
+          1152,
+          4304
+        ],
+        "eight_bit_candidates": {
+          "MXFP8_E4M3": {
+            "legal": false,
+            "reason": "group_divisibility",
+            "detail": "group_size=32 does not divide in_features=4304"
+          },
+          "MXFP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          },
+          "FP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "FP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          }
+        }
+      },
+      {
+        "name": "model.visual.blocks.2.attn.proj",
+        "reason": "allocator_selected_bf16_mxfp8_legal",
+        "shape": [
+          1152,
+          1152
+        ],
+        "eight_bit_candidates": {
+          "MXFP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "MXFP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          },
+          "FP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "FP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          }
+        }
+      },
+      {
+        "name": "model.visual.blocks.2.attn.qkv",
+        "reason": "allocator_selected_bf16_mxfp8_legal",
+        "shape": [
+          3456,
+          1152
+        ],
+        "eight_bit_candidates": {
+          "MXFP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "MXFP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          },
+          "FP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "FP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          }
+        }
+      },
+      {
+        "name": "model.visual.blocks.2.mlp.linear_fc1",
+        "reason": "allocator_selected_bf16_mxfp8_legal",
+        "shape": [
+          4304,
+          1152
+        ],
+        "eight_bit_candidates": {
+          "MXFP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "MXFP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          },
+          "FP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "FP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          }
+        }
+      },
+      {
+        "name": "model.visual.blocks.2.mlp.linear_fc2",
+        "reason": "allocator_selected_bf16_alternate_8bit_legal",
+        "shape": [
+          1152,
+          4304
+        ],
+        "eight_bit_candidates": {
+          "MXFP8_E4M3": {
+            "legal": false,
+            "reason": "group_divisibility",
+            "detail": "group_size=32 does not divide in_features=4304"
+          },
+          "MXFP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          },
+          "FP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "FP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          }
+        }
+      },
+      {
+        "name": "model.visual.blocks.20.attn.proj",
+        "reason": "allocator_selected_bf16_mxfp8_legal",
+        "shape": [
+          1152,
+          1152
+        ],
+        "eight_bit_candidates": {
+          "MXFP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "MXFP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          },
+          "FP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "FP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          }
+        }
+      },
+      {
+        "name": "model.visual.blocks.20.attn.qkv",
+        "reason": "allocator_selected_bf16_mxfp8_legal",
+        "shape": [
+          3456,
+          1152
+        ],
+        "eight_bit_candidates": {
+          "MXFP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "MXFP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          },
+          "FP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "FP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          }
+        }
+      },
+      {
+        "name": "model.visual.blocks.20.mlp.linear_fc1",
+        "reason": "allocator_selected_bf16_mxfp8_legal",
+        "shape": [
+          4304,
+          1152
+        ],
+        "eight_bit_candidates": {
+          "MXFP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "MXFP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          },
+          "FP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "FP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          }
+        }
+      },
+      {
+        "name": "model.visual.blocks.20.mlp.linear_fc2",
+        "reason": "allocator_selected_bf16_alternate_8bit_legal",
+        "shape": [
+          1152,
+          4304
+        ],
+        "eight_bit_candidates": {
+          "MXFP8_E4M3": {
+            "legal": false,
+            "reason": "group_divisibility",
+            "detail": "group_size=32 does not divide in_features=4304"
+          },
+          "MXFP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          },
+          "FP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "FP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          }
+        }
+      },
+      {
+        "name": "model.visual.blocks.21.attn.proj",
+        "reason": "allocator_selected_bf16_mxfp8_legal",
+        "shape": [
+          1152,
+          1152
+        ],
+        "eight_bit_candidates": {
+          "MXFP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "MXFP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          },
+          "FP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "FP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          }
+        }
+      },
+      {
+        "name": "model.visual.blocks.21.attn.qkv",
+        "reason": "allocator_selected_bf16_mxfp8_legal",
+        "shape": [
+          3456,
+          1152
+        ],
+        "eight_bit_candidates": {
+          "MXFP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "MXFP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          },
+          "FP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "FP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          }
+        }
+      },
+      {
+        "name": "model.visual.blocks.21.mlp.linear_fc1",
+        "reason": "allocator_selected_bf16_mxfp8_legal",
+        "shape": [
+          4304,
+          1152
+        ],
+        "eight_bit_candidates": {
+          "MXFP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "MXFP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          },
+          "FP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "FP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          }
+        }
+      },
+      {
+        "name": "model.visual.blocks.21.mlp.linear_fc2",
+        "reason": "allocator_selected_bf16_alternate_8bit_legal",
+        "shape": [
+          1152,
+          4304
+        ],
+        "eight_bit_candidates": {
+          "MXFP8_E4M3": {
+            "legal": false,
+            "reason": "group_divisibility",
+            "detail": "group_size=32 does not divide in_features=4304"
+          },
+          "MXFP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          },
+          "FP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "FP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          }
+        }
+      },
+      {
+        "name": "model.visual.blocks.22.attn.proj",
+        "reason": "allocator_selected_bf16_mxfp8_legal",
+        "shape": [
+          1152,
+          1152
+        ],
+        "eight_bit_candidates": {
+          "MXFP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "MXFP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          },
+          "FP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "FP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          }
+        }
+      },
+      {
+        "name": "model.visual.blocks.22.attn.qkv",
+        "reason": "allocator_selected_bf16_mxfp8_legal",
+        "shape": [
+          3456,
+          1152
+        ],
+        "eight_bit_candidates": {
+          "MXFP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "MXFP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          },
+          "FP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "FP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          }
+        }
+      },
+      {
+        "name": "model.visual.blocks.22.mlp.linear_fc1",
+        "reason": "allocator_selected_bf16_mxfp8_legal",
+        "shape": [
+          4304,
+          1152
+        ],
+        "eight_bit_candidates": {
+          "MXFP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "MXFP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          },
+          "FP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "FP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          }
+        }
+      },
+      {
+        "name": "model.visual.blocks.22.mlp.linear_fc2",
+        "reason": "allocator_selected_bf16_alternate_8bit_legal",
+        "shape": [
+          1152,
+          4304
+        ],
+        "eight_bit_candidates": {
+          "MXFP8_E4M3": {
+            "legal": false,
+            "reason": "group_divisibility",
+            "detail": "group_size=32 does not divide in_features=4304"
+          },
+          "MXFP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          },
+          "FP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "FP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          }
+        }
+      },
+      {
+        "name": "model.visual.blocks.23.attn.proj",
+        "reason": "allocator_selected_bf16_mxfp8_legal",
+        "shape": [
+          1152,
+          1152
+        ],
+        "eight_bit_candidates": {
+          "MXFP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "MXFP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          },
+          "FP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "FP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          }
+        }
+      },
+      {
+        "name": "model.visual.blocks.23.attn.qkv",
+        "reason": "allocator_selected_bf16_mxfp8_legal",
+        "shape": [
+          3456,
+          1152
+        ],
+        "eight_bit_candidates": {
+          "MXFP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "MXFP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          },
+          "FP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "FP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          }
+        }
+      },
+      {
+        "name": "model.visual.blocks.23.mlp.linear_fc1",
+        "reason": "allocator_selected_bf16_mxfp8_legal",
+        "shape": [
+          4304,
+          1152
+        ],
+        "eight_bit_candidates": {
+          "MXFP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "MXFP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          },
+          "FP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "FP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          }
+        }
+      },
+      {
+        "name": "model.visual.blocks.23.mlp.linear_fc2",
+        "reason": "allocator_selected_bf16_alternate_8bit_legal",
+        "shape": [
+          1152,
+          4304
+        ],
+        "eight_bit_candidates": {
+          "MXFP8_E4M3": {
+            "legal": false,
+            "reason": "group_divisibility",
+            "detail": "group_size=32 does not divide in_features=4304"
+          },
+          "MXFP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          },
+          "FP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "FP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          }
+        }
+      },
+      {
+        "name": "model.visual.blocks.24.attn.proj",
+        "reason": "allocator_selected_bf16_mxfp8_legal",
+        "shape": [
+          1152,
+          1152
+        ],
+        "eight_bit_candidates": {
+          "MXFP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "MXFP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          },
+          "FP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "FP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          }
+        }
+      },
+      {
+        "name": "model.visual.blocks.24.attn.qkv",
+        "reason": "allocator_selected_bf16_mxfp8_legal",
+        "shape": [
+          3456,
+          1152
+        ],
+        "eight_bit_candidates": {
+          "MXFP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "MXFP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          },
+          "FP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "FP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          }
+        }
+      },
+      {
+        "name": "model.visual.blocks.24.mlp.linear_fc1",
+        "reason": "allocator_selected_bf16_mxfp8_legal",
+        "shape": [
+          4304,
+          1152
+        ],
+        "eight_bit_candidates": {
+          "MXFP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "MXFP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          },
+          "FP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "FP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          }
+        }
+      },
+      {
+        "name": "model.visual.blocks.24.mlp.linear_fc2",
+        "reason": "allocator_selected_bf16_alternate_8bit_legal",
+        "shape": [
+          1152,
+          4304
+        ],
+        "eight_bit_candidates": {
+          "MXFP8_E4M3": {
+            "legal": false,
+            "reason": "group_divisibility",
+            "detail": "group_size=32 does not divide in_features=4304"
+          },
+          "MXFP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          },
+          "FP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "FP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          }
+        }
+      },
+      {
+        "name": "model.visual.blocks.25.attn.proj",
+        "reason": "allocator_selected_bf16_mxfp8_legal",
+        "shape": [
+          1152,
+          1152
+        ],
+        "eight_bit_candidates": {
+          "MXFP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "MXFP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          },
+          "FP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "FP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          }
+        }
+      },
+      {
+        "name": "model.visual.blocks.25.attn.qkv",
+        "reason": "allocator_selected_bf16_mxfp8_legal",
+        "shape": [
+          3456,
+          1152
+        ],
+        "eight_bit_candidates": {
+          "MXFP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "MXFP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          },
+          "FP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "FP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          }
+        }
+      },
+      {
+        "name": "model.visual.blocks.25.mlp.linear_fc1",
+        "reason": "allocator_selected_bf16_mxfp8_legal",
+        "shape": [
+          4304,
+          1152
+        ],
+        "eight_bit_candidates": {
+          "MXFP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "MXFP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          },
+          "FP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "FP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          }
+        }
+      },
+      {
+        "name": "model.visual.blocks.25.mlp.linear_fc2",
+        "reason": "allocator_selected_bf16_alternate_8bit_legal",
+        "shape": [
+          1152,
+          4304
+        ],
+        "eight_bit_candidates": {
+          "MXFP8_E4M3": {
+            "legal": false,
+            "reason": "group_divisibility",
+            "detail": "group_size=32 does not divide in_features=4304"
+          },
+          "MXFP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          },
+          "FP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "FP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          }
+        }
+      },
+      {
+        "name": "model.visual.blocks.26.attn.proj",
+        "reason": "allocator_selected_bf16_mxfp8_legal",
+        "shape": [
+          1152,
+          1152
+        ],
+        "eight_bit_candidates": {
+          "MXFP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "MXFP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          },
+          "FP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "FP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          }
+        }
+      },
+      {
+        "name": "model.visual.blocks.26.attn.qkv",
+        "reason": "allocator_selected_bf16_mxfp8_legal",
+        "shape": [
+          3456,
+          1152
+        ],
+        "eight_bit_candidates": {
+          "MXFP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "MXFP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          },
+          "FP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "FP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          }
+        }
+      },
+      {
+        "name": "model.visual.blocks.26.mlp.linear_fc1",
+        "reason": "allocator_selected_bf16_mxfp8_legal",
+        "shape": [
+          4304,
+          1152
+        ],
+        "eight_bit_candidates": {
+          "MXFP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "MXFP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          },
+          "FP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "FP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          }
+        }
+      },
+      {
+        "name": "model.visual.blocks.26.mlp.linear_fc2",
+        "reason": "allocator_selected_bf16_alternate_8bit_legal",
+        "shape": [
+          1152,
+          4304
+        ],
+        "eight_bit_candidates": {
+          "MXFP8_E4M3": {
+            "legal": false,
+            "reason": "group_divisibility",
+            "detail": "group_size=32 does not divide in_features=4304"
+          },
+          "MXFP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          },
+          "FP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "FP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          }
+        }
+      },
+      {
+        "name": "model.visual.blocks.3.attn.proj",
+        "reason": "allocator_selected_bf16_mxfp8_legal",
+        "shape": [
+          1152,
+          1152
+        ],
+        "eight_bit_candidates": {
+          "MXFP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "MXFP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          },
+          "FP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "FP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          }
+        }
+      },
+      {
+        "name": "model.visual.blocks.3.attn.qkv",
+        "reason": "allocator_selected_bf16_mxfp8_legal",
+        "shape": [
+          3456,
+          1152
+        ],
+        "eight_bit_candidates": {
+          "MXFP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "MXFP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          },
+          "FP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "FP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          }
+        }
+      },
+      {
+        "name": "model.visual.blocks.3.mlp.linear_fc1",
+        "reason": "allocator_selected_bf16_mxfp8_legal",
+        "shape": [
+          4304,
+          1152
+        ],
+        "eight_bit_candidates": {
+          "MXFP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "MXFP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          },
+          "FP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "FP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          }
+        }
+      },
+      {
+        "name": "model.visual.blocks.3.mlp.linear_fc2",
+        "reason": "allocator_selected_bf16_alternate_8bit_legal",
+        "shape": [
+          1152,
+          4304
+        ],
+        "eight_bit_candidates": {
+          "MXFP8_E4M3": {
+            "legal": false,
+            "reason": "group_divisibility",
+            "detail": "group_size=32 does not divide in_features=4304"
+          },
+          "MXFP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          },
+          "FP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "FP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          }
+        }
+      },
+      {
+        "name": "model.visual.blocks.4.attn.proj",
+        "reason": "allocator_selected_bf16_mxfp8_legal",
+        "shape": [
+          1152,
+          1152
+        ],
+        "eight_bit_candidates": {
+          "MXFP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "MXFP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          },
+          "FP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "FP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          }
+        }
+      },
+      {
+        "name": "model.visual.blocks.4.attn.qkv",
+        "reason": "allocator_selected_bf16_mxfp8_legal",
+        "shape": [
+          3456,
+          1152
+        ],
+        "eight_bit_candidates": {
+          "MXFP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "MXFP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          },
+          "FP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "FP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          }
+        }
+      },
+      {
+        "name": "model.visual.blocks.4.mlp.linear_fc1",
+        "reason": "allocator_selected_bf16_mxfp8_legal",
+        "shape": [
+          4304,
+          1152
+        ],
+        "eight_bit_candidates": {
+          "MXFP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "MXFP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          },
+          "FP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "FP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          }
+        }
+      },
+      {
+        "name": "model.visual.blocks.4.mlp.linear_fc2",
+        "reason": "allocator_selected_bf16_alternate_8bit_legal",
+        "shape": [
+          1152,
+          4304
+        ],
+        "eight_bit_candidates": {
+          "MXFP8_E4M3": {
+            "legal": false,
+            "reason": "group_divisibility",
+            "detail": "group_size=32 does not divide in_features=4304"
+          },
+          "MXFP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          },
+          "FP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "FP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          }
+        }
+      },
+      {
+        "name": "model.visual.blocks.5.attn.proj",
+        "reason": "allocator_selected_bf16_mxfp8_legal",
+        "shape": [
+          1152,
+          1152
+        ],
+        "eight_bit_candidates": {
+          "MXFP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "MXFP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          },
+          "FP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "FP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          }
+        }
+      },
+      {
+        "name": "model.visual.blocks.5.attn.qkv",
+        "reason": "allocator_selected_bf16_mxfp8_legal",
+        "shape": [
+          3456,
+          1152
+        ],
+        "eight_bit_candidates": {
+          "MXFP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "MXFP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          },
+          "FP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "FP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          }
+        }
+      },
+      {
+        "name": "model.visual.blocks.5.mlp.linear_fc1",
+        "reason": "allocator_selected_bf16_mxfp8_legal",
+        "shape": [
+          4304,
+          1152
+        ],
+        "eight_bit_candidates": {
+          "MXFP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "MXFP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          },
+          "FP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "FP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          }
+        }
+      },
+      {
+        "name": "model.visual.blocks.5.mlp.linear_fc2",
+        "reason": "allocator_selected_bf16_alternate_8bit_legal",
+        "shape": [
+          1152,
+          4304
+        ],
+        "eight_bit_candidates": {
+          "MXFP8_E4M3": {
+            "legal": false,
+            "reason": "group_divisibility",
+            "detail": "group_size=32 does not divide in_features=4304"
+          },
+          "MXFP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          },
+          "FP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "FP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          }
+        }
+      },
+      {
+        "name": "model.visual.blocks.6.attn.proj",
+        "reason": "allocator_selected_bf16_mxfp8_legal",
+        "shape": [
+          1152,
+          1152
+        ],
+        "eight_bit_candidates": {
+          "MXFP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "MXFP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          },
+          "FP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "FP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          }
+        }
+      },
+      {
+        "name": "model.visual.blocks.6.attn.qkv",
+        "reason": "allocator_selected_bf16_mxfp8_legal",
+        "shape": [
+          3456,
+          1152
+        ],
+        "eight_bit_candidates": {
+          "MXFP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "MXFP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          },
+          "FP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "FP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          }
+        }
+      },
+      {
+        "name": "model.visual.blocks.6.mlp.linear_fc1",
+        "reason": "allocator_selected_bf16_mxfp8_legal",
+        "shape": [
+          4304,
+          1152
+        ],
+        "eight_bit_candidates": {
+          "MXFP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "MXFP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          },
+          "FP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "FP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          }
+        }
+      },
+      {
+        "name": "model.visual.blocks.6.mlp.linear_fc2",
+        "reason": "allocator_selected_bf16_alternate_8bit_legal",
+        "shape": [
+          1152,
+          4304
+        ],
+        "eight_bit_candidates": {
+          "MXFP8_E4M3": {
+            "legal": false,
+            "reason": "group_divisibility",
+            "detail": "group_size=32 does not divide in_features=4304"
+          },
+          "MXFP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          },
+          "FP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "FP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          }
+        }
+      },
+      {
+        "name": "model.visual.blocks.7.attn.proj",
+        "reason": "allocator_selected_bf16_mxfp8_legal",
+        "shape": [
+          1152,
+          1152
+        ],
+        "eight_bit_candidates": {
+          "MXFP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "MXFP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          },
+          "FP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "FP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          }
+        }
+      },
+      {
+        "name": "model.visual.blocks.7.attn.qkv",
+        "reason": "allocator_selected_bf16_mxfp8_legal",
+        "shape": [
+          3456,
+          1152
+        ],
+        "eight_bit_candidates": {
+          "MXFP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "MXFP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          },
+          "FP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "FP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          }
+        }
+      },
+      {
+        "name": "model.visual.blocks.7.mlp.linear_fc1",
+        "reason": "allocator_selected_bf16_mxfp8_legal",
+        "shape": [
+          4304,
+          1152
+        ],
+        "eight_bit_candidates": {
+          "MXFP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "MXFP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          },
+          "FP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "FP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          }
+        }
+      },
+      {
+        "name": "model.visual.blocks.7.mlp.linear_fc2",
+        "reason": "allocator_selected_bf16_alternate_8bit_legal",
+        "shape": [
+          1152,
+          4304
+        ],
+        "eight_bit_candidates": {
+          "MXFP8_E4M3": {
+            "legal": false,
+            "reason": "group_divisibility",
+            "detail": "group_size=32 does not divide in_features=4304"
+          },
+          "MXFP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          },
+          "FP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "FP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          }
+        }
+      },
+      {
+        "name": "model.visual.blocks.8.attn.proj",
+        "reason": "allocator_selected_bf16_mxfp8_legal",
+        "shape": [
+          1152,
+          1152
+        ],
+        "eight_bit_candidates": {
+          "MXFP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "MXFP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          },
+          "FP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "FP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          }
+        }
+      },
+      {
+        "name": "model.visual.blocks.8.attn.qkv",
+        "reason": "allocator_selected_bf16_mxfp8_legal",
+        "shape": [
+          3456,
+          1152
+        ],
+        "eight_bit_candidates": {
+          "MXFP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "MXFP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          },
+          "FP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "FP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          }
+        }
+      },
+      {
+        "name": "model.visual.blocks.8.mlp.linear_fc1",
+        "reason": "allocator_selected_bf16_mxfp8_legal",
+        "shape": [
+          4304,
+          1152
+        ],
+        "eight_bit_candidates": {
+          "MXFP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "MXFP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          },
+          "FP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "FP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          }
+        }
+      },
+      {
+        "name": "model.visual.blocks.8.mlp.linear_fc2",
+        "reason": "allocator_selected_bf16_alternate_8bit_legal",
+        "shape": [
+          1152,
+          4304
+        ],
+        "eight_bit_candidates": {
+          "MXFP8_E4M3": {
+            "legal": false,
+            "reason": "group_divisibility",
+            "detail": "group_size=32 does not divide in_features=4304"
+          },
+          "MXFP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          },
+          "FP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "FP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          }
+        }
+      },
+      {
+        "name": "model.visual.blocks.9.attn.proj",
+        "reason": "allocator_selected_bf16_mxfp8_legal",
+        "shape": [
+          1152,
+          1152
+        ],
+        "eight_bit_candidates": {
+          "MXFP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "MXFP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          },
+          "FP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "FP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          }
+        }
+      },
+      {
+        "name": "model.visual.blocks.9.attn.qkv",
+        "reason": "allocator_selected_bf16_mxfp8_legal",
+        "shape": [
+          3456,
+          1152
+        ],
+        "eight_bit_candidates": {
+          "MXFP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "MXFP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          },
+          "FP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "FP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          }
+        }
+      },
+      {
+        "name": "model.visual.blocks.9.mlp.linear_fc1",
+        "reason": "allocator_selected_bf16_mxfp8_legal",
+        "shape": [
+          4304,
+          1152
+        ],
+        "eight_bit_candidates": {
+          "MXFP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "MXFP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          },
+          "FP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "FP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          }
+        }
+      },
+      {
+        "name": "model.visual.blocks.9.mlp.linear_fc2",
+        "reason": "allocator_selected_bf16_alternate_8bit_legal",
+        "shape": [
+          1152,
+          4304
+        ],
+        "eight_bit_candidates": {
+          "MXFP8_E4M3": {
+            "legal": false,
+            "reason": "group_divisibility",
+            "detail": "group_size=32 does not divide in_features=4304"
+          },
+          "MXFP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          },
+          "FP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "FP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          }
+        }
+      },
+      {
+        "name": "model.visual.merger.linear_fc1",
+        "reason": "allocator_selected_bf16_mxfp8_legal",
+        "shape": [
+          4608,
+          4608
+        ],
+        "eight_bit_candidates": {
+          "MXFP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "MXFP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          },
+          "FP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "FP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          }
+        }
+      },
+      {
+        "name": "model.visual.merger.linear_fc2",
+        "reason": "allocator_selected_bf16_mxfp8_legal",
+        "shape": [
+          5120,
+          4608
+        ],
+        "eight_bit_candidates": {
+          "MXFP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "MXFP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          },
+          "FP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "FP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          }
+        }
+      },
+      {
+        "name": "mtp.fc",
+        "reason": "allocator_selected_bf16_mxfp8_legal",
+        "shape": [
+          5120,
+          10240
+        ],
+        "eight_bit_candidates": {
+          "MXFP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "MXFP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          },
+          "FP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "FP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          }
+        }
+      },
+      {
+        "name": "mtp.layers.0.mlp.down_proj",
+        "reason": "allocator_selected_bf16_mxfp8_legal",
+        "shape": [
+          5120,
+          17408
+        ],
+        "eight_bit_candidates": {
+          "MXFP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "MXFP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          },
+          "FP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "FP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          }
+        }
+      },
+      {
+        "name": "mtp.layers.0.mlp.gate_proj",
+        "reason": "allocator_selected_bf16_mxfp8_legal",
+        "shape": [
+          17408,
+          5120
+        ],
+        "eight_bit_candidates": {
+          "MXFP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "MXFP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          },
+          "FP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "FP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          }
+        }
+      },
+      {
+        "name": "mtp.layers.0.mlp.up_proj",
+        "reason": "allocator_selected_bf16_mxfp8_legal",
+        "shape": [
+          17408,
+          5120
+        ],
+        "eight_bit_candidates": {
+          "MXFP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "MXFP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          },
+          "FP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "FP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          }
+        }
+      },
+      {
+        "name": "mtp.layers.0.self_attn.k_proj",
+        "reason": "allocator_selected_bf16_mxfp8_legal",
+        "shape": [
+          1024,
+          5120
+        ],
+        "eight_bit_candidates": {
+          "MXFP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "MXFP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          },
+          "FP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "FP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          }
+        }
+      },
+      {
+        "name": "mtp.layers.0.self_attn.o_proj",
+        "reason": "allocator_selected_bf16_mxfp8_legal",
+        "shape": [
+          5120,
+          6144
+        ],
+        "eight_bit_candidates": {
+          "MXFP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "MXFP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          },
+          "FP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "FP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          }
+        }
+      },
+      {
+        "name": "mtp.layers.0.self_attn.q_proj",
+        "reason": "allocator_selected_bf16_mxfp8_legal",
+        "shape": [
+          12288,
+          5120
+        ],
+        "eight_bit_candidates": {
+          "MXFP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "MXFP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          },
+          "FP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "FP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          }
+        }
+      },
+      {
+        "name": "mtp.layers.0.self_attn.v_proj",
+        "reason": "allocator_selected_bf16_mxfp8_legal",
+        "shape": [
+          1024,
+          5120
+        ],
+        "eight_bit_candidates": {
+          "MXFP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "MXFP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          },
+          "FP8_E4M3": {
+            "legal": true,
+            "reason": null,
+            "detail": ""
+          },
+          "FP8_E5M2": {
+            "legal": false,
+            "reason": "profile_mismatch",
+            "detail": "This format is not enabled for dense Linears in the selected vLLM serving profile"
+          }
+        }
+      }
+    ],
+    "target_profile": "vllm_packed_moe"
+  },
+  "do_no_harm": {},
+  "packed_expert_export": {
+    "rtn_escape_enabled": false,
+    "inline_expert_gptq_enabled": false,
+    "cache_has_packed_expert_coverage": false,
+    "cache_packed_expert_coverage": {}
+  },
+  "ignore": [
+    "lm_head"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "created_utc": "2026-10-17T21:51:50.464461+00:00",
+  "stage": "paired_matrix_question_first",
+  "modes": [
+    "off",
+    "on"
+  ],
+  "seeds": [
+    20261016,
+    20261017,
+    20261018
+  ],
+  "models": [
+    "Qwen-Qwen3.8-27B",
+    "eNeural-Qwen3.8-27B-fast",
+    "rdtand-Qwen3.8-27B-PrismaAQUA-5.5bit-vllm",
+    "ModelOpt-Qwen3.8-27B-AutoQuantize-5.5bit",
+    "unsloth-Qwen3.8-27B-NVFP4"
+  ],
+  "question_count": 541,
+  "question_ids_sha256": "c28dfc73b453195bdb9740f174eb82a042b34df98d4b87df7a00f388a77cf1f6",
+  "experiment_sha256": "32837cce0f0c478582966f28e50ff0a62b964d54eaeb780a1458aa09707080da",
+  "cutoff_utc": "2026-10-18T22:00:00+00:00",
+  "max_run_seconds": 86769,
+  "folder_gpu_hours_before_start": 25.754404407912453,
+  "gpu_hours_remaining_after_reserve": 123.24559559208754,
+  "sampling": {
+    "off": {
+      "enable_thinking": false,
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "top_k": 20,
+      "min_p": 0.0,
+      "presence_penalty": 1.5,
+      "repetition_penalty": 1.0,
+      "max_tokens": 4096
+    },
+    "on": {
+      "enable_thinking": true,
+      "reasoning_effort": "xhigh",
+      "temperature": 1.0,
+      "top_p": 0.95,
+      "top_k": 20,
+      "min_p": 0.0,
+      "presence_penalty": 0.0,
+      "repetition_penalty": 1.0,
+      "max_tokens": 32768
+    }
+  },
+  "mtp": false,
+  "kv_cache_dtype": "bfloat16",
+  "queue_order": "question, then mode, then seed; existing completed records are skipped"
+}

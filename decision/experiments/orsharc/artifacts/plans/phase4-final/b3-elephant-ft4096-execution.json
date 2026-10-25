@@ -1,0 +1,10 @@
+{
+  "plan": "b3-elephant.json",
+  "execution_script": "experiments/orsharc/artifacts/plans/phase4-final/b3-elephant-ft4096-hier-parallel.sh",
+  "commands": 14,
+  "included_strategies": [
+    "hierarchical",
+    "parallel_noul"
+  ],
+  "single_choice": "reused from matching B1 Original/FT4096 outputs"
+}

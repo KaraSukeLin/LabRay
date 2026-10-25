@@ -1,0 +1,10 @@
+{"example_id":"0b62a00bfbe7d2a33719239a96376f1b05612bd5","probabilities":{"Yes":0.062797,"No":0.888846,"Inquire":0.048357},"prediction":"No","seconds":0.14498965814709663}
+{"example_id":"80adc236125ba047b4c62972e476429abae2ae05","probabilities":{"Yes":0.004659,"No":0.98201,"Inquire":0.013331},"prediction":"No","seconds":0.1453673169016838}
+{"example_id":"cd75dc57ab8be49ead227bb8527b261b810d4c80","probabilities":{"Yes":0.156549,"No":0.645859,"Inquire":0.197592},"prediction":"No","seconds":0.16839328035712242}
+{"example_id":"299f9e4c08bce89be863478f3991800b99c1037f","probabilities":{"Yes":0.085371,"No":0.87829,"Inquire":0.036339},"prediction":"No","seconds":0.16991538181900978}
+{"example_id":"4c64486a447e0e7855342f18d05318d2ea5a3159","probabilities":{"Yes":0.055409,"No":0.776336,"Inquire":0.168255},"prediction":"No","seconds":0.21460695564746857}
+{"example_id":"1d152012cb1a40ac008680d4581846b53e376c6f","probabilities":{"Yes":0.439348,"No":0.04141,"Inquire":0.519242},"prediction":"Inquire","seconds":0.12992637231945992}
+{"example_id":"acd895262bd94f1b9d8344b8165f31fe7014fd40","probabilities":{"Yes":0.003654,"No":0.91094,"Inquire":0.085406},"prediction":"No","seconds":0.1440691016614437}
+{"example_id":"c09a96debf4c2cde2ca94011b2a016e8c18553f2","probabilities":{"Yes":0.887851,"No":0.031877,"Inquire":0.080272},"prediction":"Yes","seconds":0.14437797665596008}
+{"example_id":"d2354e65db17dc36e6bcdabc4112e79e9c958377","probabilities":{"Yes":0.018418,"No":0.912562,"Inquire":0.069019},"prediction":"No","seconds":0.16888893768191338}
+{"example_id":"6f35ffddcae4a2c41d62794cb4306e09a7cbf92f","probabilities":{"Yes":0.793829,"No":0.102508,"Inquire":0.103663},"prediction":"Yes","seconds":0.1903245709836483}

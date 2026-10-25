@@ -1,0 +1,50 @@
+{
+  "passed": true,
+  "time": 1792604530.444039,
+  "smoke_trials": 30,
+  "unique_native_trials": 30,
+  "original_baseline_unchanged": true,
+  "full_goal_complete": false,
+  "formal_trials_started": 0,
+  "stop_after_smoke": true,
+  "services_stopped": 16,
+  "owned_cleanup_processes_still_present": [],
+  "gpus": {
+    "0": {
+      "index": 0,
+      "uuid": "GPU-9a1165be-37c0-766c-40d4-3b1096d975f2",
+      "used_mb": 1,
+      "total_mb": 81559,
+      "utilization": 0
+    },
+    "1": {
+      "index": 1,
+      "uuid": "GPU-4795b27c-d51a-69b5-7c97-8c1781187d45",
+      "used_mb": 1,
+      "total_mb": 81559,
+      "utilization": 0
+    },
+    "2": {
+      "index": 2,
+      "uuid": "GPU-d7fbe2aa-7def-6d79-fd51-b4a4f0438278",
+      "used_mb": 1,
+      "total_mb": 81559,
+      "utilization": 0
+    },
+    "3": {
+      "index": 3,
+      "uuid": "GPU-dace8cc8-e267-8f1a-d50f-6989ca8a7058",
+      "used_mb": 1,
+      "total_mb": 81559,
+      "utilization": 0
+    },
+    "4": {
+      "index": 4,
+      "uuid": "GPU-b5638096-bf7c-0f36-82f5-fc40e0a37473",
+      "used_mb": 1,
+      "total_mb": 81559,
+      "utilization": 0
+    }
+  },
+  "scope": "Thirty smoke trials, protocol/Verifier/recording/cleanup and immutable inputs only. Formal evaluation and full-vocabulary Fidelity remain pending user confirmation."
+}

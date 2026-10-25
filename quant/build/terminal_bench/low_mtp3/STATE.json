@@ -1,0 +1,7 @@
+{
+  "state": "PAUSED_AWAITING_USER_CONFIRMATION",
+  "smoke_completed": 30,
+  "formal_trials_started": 0,
+  "stop_after_smoke": true,
+  "note": "Review smoke trajectories, prompt audits and stability before formal authorization."
+}

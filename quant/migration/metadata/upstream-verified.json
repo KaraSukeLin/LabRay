@@ -1,0 +1,34 @@
+[
+  {
+    "name": "Model-Optimizer",
+    "path": "quant/build/autoquant/tools/Model-Optimizer",
+    "revision": "ed66a9e0a33db681f0d550f65e7f47f817f6e3c2",
+    "origin": "https://github.com/NVIDIA/Model-Optimizer.git",
+    "diff": "",
+    "status": ""
+  },
+  {
+    "name": "MMMU",
+    "path": "quant/build/autoquant/tools/MMMU",
+    "revision": "268471d0d488258990025331c7528359c324aa25",
+    "origin": "https://github.com/MMMU-Benchmark/MMMU.git",
+    "diff": "",
+    "status": ""
+  },
+  {
+    "name": "Harbor",
+    "path": "quant/build/terminal_bench/sources/harbor",
+    "revision": "96ff9c6db90cc015f0fc0987d896670c9c5f1fad",
+    "origin": "https://github.com/harbor-framework/harbor.git",
+    "diff": "",
+    "status": ""
+  },
+  {
+    "name": "Terminal-Bench",
+    "path": "quant/build/terminal_bench/sources/terminal-bench-2-1",
+    "revision": "7131e4375048a0e408a8fb404b5f499d726b695b",
+    "origin": "https://github.com/harbor-framework/terminal-bench-2-1.git",
+    "diff": "",
+    "status": ""
+  }
+]

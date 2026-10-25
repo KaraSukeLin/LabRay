@@ -1,0 +1,20 @@
+{
+  "results": {
+    "in_memory": {
+      "max_probability_difference": 0.00018499999999999073,
+      "label_changes": [],
+      "status": "FAIL"
+    },
+    "reloaded": {
+      "max_probability_difference": 0.281625,
+      "label_changes": [
+        "cd75dc57ab8be49ead227bb8527b261b810d4c80",
+        "1d152012cb1a40ac008680d4581846b53e376c6f"
+      ],
+      "status": "FAIL"
+    }
+  },
+  "seconds": 140.1640067473054,
+  "peak_gpu_bytes": 36774511616,
+  "tolerance": 0.0001
+}

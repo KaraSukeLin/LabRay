@@ -1,0 +1,271 @@
+{
+  "utc": "2026-10-23T04:54:01Z",
+  "phase": 1,
+  "code_sha256": "7e47f32c4bc86da5331296b6e5122bdd124cebab299e01c1ceaac9183050686d",
+  "environment": {
+    "python": "3.11.2 (main, Apr 28 2025, 14:11:48) [GCC 12.2.0]",
+    "platform": "Linux-5.15.0-94-generic-x86_64-with-glibc2.36",
+    "libraries": {
+      "torch": null,
+      "transformers": null,
+      "unsloth": null,
+      "unsloth_zoo": null,
+      "peft": null,
+      "trl": null,
+      "datasets": null,
+      "bitsandbytes": null,
+      "vllm": null
+    }
+  },
+  "gpu_work_performed": false,
+  "checks": {
+    "imports": "all local modules imported without torch",
+    "dataset_integrity": "passed official pinned hashes, labels, IDs, overlap, nested subsets and tree-group dev separation",
+    "fixtures": {
+      "information_allowlist": "passed",
+      "six_task_strategies": "passed",
+      "composition_conflicts": "passed",
+      "no_invented_score_labels": "passed",
+      "metric_arithmetic": "passed",
+      "temperature_nll": "passed",
+      "saved_result_report_dashboard": "passed; eight deterministic train fixtures; not model results",
+      "resume_skip_partial_write_identity": "passed",
+      "inference_does_not_open_gold": "passed; file-open guard",
+      "native_option_order_roundtrip": "passed"
+    },
+    "matrix_count": 20,
+    "matrix_cli_and_shell": "passed all generated commands and scripts",
+    "native_exports": "passed 3 schemas x 3 sizes; exact counts and option order",
+    "source_receipts": {
+      "elephant": {
+        "repo": "OmniJev/OneJev",
+        "revision": "81ce62f1597c91e46767d4d02d6ac2e18534fe94",
+        "python_sha256": "2e5f3046c777eaa297e3f7426597f847706c994bed7138f572150c289d1b5bd4",
+        "patch_sha256": "f234c125f1d38d82104b9e1f24e75bde51e4401928acfba2fbf5c59ef2fb46b8"
+      },
+      "startlux": {
+        "repo": "StartLuxLabs/StartLux-Decision",
+        "revision": "83fe6c7d61a687a6e17f118b4f7d8f429f5d3a01",
+        "python_sha256": "cf549b3333318065e5d6ca3902b149ee40b08748f94cf0776c06777eb5602557",
+        "patch_sha256": null
+      },
+      "kev": {
+        "repo": "jaredpalmer/kev",
+        "revision": "2074cc44256200bb37540103fa4572901faa10f3",
+        "python_sha256": "32efcb86b7035cf569699045135dcacb119239a19fc9b26c1b82b2d56008a2ad",
+        "patch_sha256": null
+      }
+    },
+    "data_preparation_idempotence": "passed",
+    "shell_entrypoints": "syntax and executable bits passed",
+    "documentation_links": "passed",
+    "ruff": "0.17.2 lint passed; format applied",
+    "dashboard_javascript": "node --check passed on the delivered fixture"
+  },
+  "data_manifest_sha256": "80a437efa71dc5f45bce29037c4f978143cc725c56d423967533844c2e663792",
+  "matrix_plans": [
+    {
+      "model": "elephant",
+      "matrix": "b1",
+      "commands": 31,
+      "unsupported_cells": []
+    },
+    {
+      "model": "elephant",
+      "matrix": "b2",
+      "commands": 21,
+      "unsupported_cells": []
+    },
+    {
+      "model": "elephant",
+      "matrix": "b3",
+      "commands": 21,
+      "unsupported_cells": []
+    },
+    {
+      "model": "elephant",
+      "matrix": "b4",
+      "commands": 31,
+      "unsupported_cells": []
+    },
+    {
+      "model": "elephant",
+      "matrix": "b5",
+      "commands": 7,
+      "unsupported_cells": [
+        {
+          "condition": "original",
+          "quantization": "bnb8",
+          "reason": "unsupported quantization path: qev/bnb8"
+        },
+        {
+          "condition": "original",
+          "quantization": "fp8",
+          "reason": "unsupported quantization path: qev/fp8"
+        },
+        {
+          "condition": "original",
+          "quantization": "bnb4",
+          "reason": "unsupported quantization path: qev/bnb4"
+        }
+      ]
+    },
+    {
+      "model": "startlux",
+      "matrix": "b1",
+      "commands": 7,
+      "unsupported_cells": [
+        {
+          "condition": "ft_256",
+          "reason": "StartLux v1.1 trainer compatibility is unverified; use Elephant or Kev"
+        },
+        {
+          "condition": "ft_1024",
+          "reason": "StartLux v1.1 trainer compatibility is unverified; use Elephant or Kev"
+        },
+        {
+          "condition": "ft_4096",
+          "reason": "StartLux v1.1 trainer compatibility is unverified; use Elephant or Kev"
+        }
+      ]
+    },
+    {
+      "model": "startlux",
+      "matrix": "b2",
+      "commands": 21,
+      "unsupported_cells": []
+    },
+    {
+      "model": "startlux",
+      "matrix": "b3",
+      "commands": 21,
+      "unsupported_cells": []
+    },
+    {
+      "model": "startlux",
+      "matrix": "b4",
+      "commands": 7,
+      "unsupported_cells": [
+        {
+          "condition": "ft_256",
+          "reason": "StartLux v1.1 trainer compatibility is unverified; use Elephant or Kev"
+        },
+        {
+          "condition": "ft_1024",
+          "reason": "StartLux v1.1 trainer compatibility is unverified; use Elephant or Kev"
+        },
+        {
+          "condition": "ft_4096",
+          "reason": "StartLux v1.1 trainer compatibility is unverified; use Elephant or Kev"
+        }
+      ]
+    },
+    {
+      "model": "startlux",
+      "matrix": "b5",
+      "commands": 14,
+      "unsupported_cells": [
+        {
+          "condition": "original",
+          "quantization": "bnb8",
+          "reason": "unsupported quantization path: startlux/bnb8"
+        },
+        {
+          "condition": "original",
+          "quantization": "bnb4",
+          "reason": "unsupported quantization path: startlux/bnb4"
+        }
+      ]
+    },
+    {
+      "model": "kev",
+      "matrix": "b1",
+      "commands": 31,
+      "unsupported_cells": []
+    },
+    {
+      "model": "kev",
+      "matrix": "b2",
+      "commands": 21,
+      "unsupported_cells": []
+    },
+    {
+      "model": "kev",
+      "matrix": "b3",
+      "commands": 21,
+      "unsupported_cells": []
+    },
+    {
+      "model": "kev",
+      "matrix": "b4",
+      "commands": 31,
+      "unsupported_cells": []
+    },
+    {
+      "model": "kev",
+      "matrix": "b5",
+      "commands": 7,
+      "unsupported_cells": [
+        {
+          "condition": "original",
+          "quantization": "bnb8",
+          "reason": "unsupported quantization path: kev/bnb8"
+        },
+        {
+          "condition": "original",
+          "quantization": "fp8",
+          "reason": "unsupported quantization path: kev/fp8"
+        },
+        {
+          "condition": "original",
+          "quantization": "bnb4",
+          "reason": "unsupported quantization path: kev/bnb4"
+        }
+      ]
+    },
+    {
+      "model": "qwen",
+      "matrix": "b1",
+      "commands": 38,
+      "unsupported_cells": []
+    },
+    {
+      "model": "qwen",
+      "matrix": "b2",
+      "commands": 21,
+      "unsupported_cells": []
+    },
+    {
+      "model": "qwen",
+      "matrix": "b3",
+      "commands": 21,
+      "unsupported_cells": []
+    },
+    {
+      "model": "qwen",
+      "matrix": "b4",
+      "commands": 38,
+      "unsupported_cells": []
+    },
+    {
+      "model": "qwen",
+      "matrix": "b5",
+      "commands": 21,
+      "unsupported_cells": [
+        {
+          "condition": "original",
+          "quantization": "fp8",
+          "reason": "unsupported quantization path: qwen/fp8"
+        }
+      ]
+    }
+  ],
+  "not_run": [
+    "GPU model imports/loads",
+    "GPU smoke tests",
+    "optimizer steps/model training",
+    "full model evaluations",
+    "research ablations"
+  ],
+  "phase2": "PHASE2.md and phase2_smoke.sh; all GPU paths require runtime evidence"
+}

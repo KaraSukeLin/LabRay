@@ -1,0 +1,12 @@
+{
+  "condition": "elephant-ft1024",
+  "train_rows": 1024,
+  "complete_budget": true,
+  "budget": 1024,
+  "rule_id_count": 372,
+  "steps": 128,
+  "finite_losses": true,
+  "checkpoint_files": 8,
+  "all_file_hashes_match": true,
+  "checkpoint_sha256": "ca002255b63b66c1492d6e249e71a7aa1b9d569017d09bdd1bf68b6e10ad0ade"
+}

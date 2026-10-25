@@ -1,0 +1,24 @@
+--- original/analyze_ifeval_modes.py
++++ migration/analyze_ifeval_modes.py
+@@ -108,7 +108,7 @@
+                 assert len(r['strict_instructions']) == counts[r['id']]
+                 assert r['correct'] == all(r['strict_instructions'])
+                 assert r['answer'] == r['final_answer'].strip()
+-                assert r['response'] == r['raw_output']
++                assert r['response_sha256_json'] == r['raw_output_sha256_json']
+                 assert record_sampling_matches(r, config['modes'][mode], r['seed'])
+             summaries.append(dict(model=model, mode=mode, evaluations=len(subset),
+                 observed_evaluations=len(subset),
+@@ -192,9 +192,9 @@
+             b = [right[right_mode, s, q] for s in seeds]
+             for x, y in zip(a, b):
+                 if left_mode == right_mode:
+-                    assert x['prompt_token_ids'] == y['prompt_token_ids'], 'Unpaired prompt tokens'
+-            assert all(r['prompt_token_ids'] == a[0]['prompt_token_ids'] for r in a)
+-            assert all(r['prompt_token_ids'] == b[0]['prompt_token_ids'] for r in b)
++                    assert x['prompt_token_ids_sha256_json'] == y['prompt_token_ids_sha256_json'], 'Unpaired prompt tokens'
++            assert all(r['prompt_token_ids_sha256_json'] == a[0]['prompt_token_ids_sha256_json'] for r in a)
++            assert all(r['prompt_token_ids_sha256_json'] == b[0]['prompt_token_ids_sha256_json'] for r in b)
+             numerator, denominator = paired_question(a, b)
+             numerators.append(numerator)
+             denominators.append(denominator)

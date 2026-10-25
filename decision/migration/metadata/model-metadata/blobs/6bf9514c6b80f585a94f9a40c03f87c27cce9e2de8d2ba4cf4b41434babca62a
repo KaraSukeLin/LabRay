@@ -1,0 +1,16 @@
+# Usage: bash setup.sh [WORKDIR=.]   (image: pytorch/pytorch:2.8.0-cuda12.8-cudnn9-devel, one CUDA GPU)
+# Installs the serving runtime (OneJev @81ce62f + serve.patch) and the Decision Index kit, pinned as in our runs.
+set -e
+B=$(cd "$(dirname "$0")" && pwd); W=${1:-.}
+ONEJEV=81ce62f1597c91e46767d4d02d6ac2e18534fe94; KIT=f5a6e4fd85fed05e77878dfc4966d0568bfb45ec
+command -v git >/dev/null || { apt-get update -qq; apt-get install -y -qq git >/dev/null; }
+cd "$W"
+[ -d OneJev ] || git clone -q https://github.com/OmniJev/OneJev.git
+git -C OneJev checkout -q -f $ONEJEV && git -C OneJev clean -fdq && git -C OneJev apply "$B/serve.patch"
+[ -d decision-index ] || git clone -q https://github.com/apolinario/decision-index.git
+git -C decision-index checkout -q -f $KIT
+# Keep the image's CUDA build of torch: unpinned, pip resolves torch>=2.6 to the newest wheel (another CUDA).
+python -c "import torch, torchvision; print(f'torch=={torch.__version__}\ntorchvision=={torchvision.__version__}')" > image-torch.txt
+pip install -q -c "$B/constraints.txt" -c image-torch.txt -e "./OneJev[train]" huggingface_hub hf_xet brotli flash-linear-attention httpx
+pip install -q -c "$B/constraints.txt" -c image-torch.txt --no-build-isolation causal-conv1d
+pip install -q --no-deps -e ./decision-index

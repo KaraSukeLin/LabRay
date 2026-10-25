@@ -1,0 +1,74 @@
+{
+    "results": {
+        "tool": {
+            "name": "pytest",
+            "version": "8.4.1"
+        },
+        "summary": {
+            "tests": 6,
+            "passed": 6,
+            "failed": 0,
+            "skipped": 0,
+            "pending": 0,
+            "other": 0,
+            "start": 1792649102.740282,
+            "stop": 1792649102.7784925
+        },
+        "tests": [
+            {
+                "name": "test_outputs.py::test_report_file_exists_example",
+                "status": "passed",
+                "duration": 0.0005487017333507538,
+                "start": 1792649102.7559118,
+                "stop": 1792649102.7566566,
+                "retries": 0,
+                "file_path": "test_outputs.py"
+            },
+            {
+                "name": "test_outputs.py::test_vul_file",
+                "status": "passed",
+                "duration": 0.0005133487284183502,
+                "start": 1792649102.7568767,
+                "stop": 1792649102.7575614,
+                "retries": 0,
+                "file_path": "test_outputs.py"
+            },
+            {
+                "name": "test_outputs.py::test_cwe_id",
+                "status": "passed",
+                "duration": 0.0004925094544887543,
+                "start": 1792649102.7577696,
+                "stop": 1792649102.7584183,
+                "retries": 0,
+                "file_path": "test_outputs.py"
+            },
+            {
+                "name": "test_outputs.py::test_hkey_basic_cases",
+                "status": "passed",
+                "duration": 0.017904050648212433,
+                "start": 1792649102.7586284,
+                "stop": 1792649102.7767093,
+                "retries": 0,
+                "file_path": "test_outputs.py"
+            },
+            {
+                "name": "test_outputs.py::test_hkey_error_cases",
+                "status": "passed",
+                "duration": 0.00045543909072875977,
+                "start": 1792649102.7769635,
+                "stop": 1792649102.7775662,
+                "retries": 0,
+                "file_path": "test_outputs.py"
+            },
+            {
+                "name": "test_outputs.py::test_hkey_real_world_examples",
+                "status": "passed",
+                "duration": 0.0004058443009853363,
+                "start": 1792649102.777786,
+                "stop": 1792649102.7783175,
+                "retries": 0,
+                "file_path": "test_outputs.py"
+            }
+        ]
+    }
+}

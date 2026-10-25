@@ -1,0 +1,6 @@
+{
+  "terminal_smoke_audit.py": "32b1af850ef92993f05f68f4e564646b742be3de7d60f2b16b2f1848b1b3acd8",
+  "terminal_parse_audit.py": "2321e84f622924ab0e9200af0eb61b8c75cc172cc55a989e88f27c8a78257a60",
+  "terminal_smoke_report.py": "e2de6b8480145f38f7eb1bb7e9c869ae5ed911ad08d8c43ae73739542e80a9b5",
+  "terminal_smoke_completion.py": "f71222e1795b2b0194742530afd9efaae50b2dd282e5cb4d1a468a63af8e547d"
+}

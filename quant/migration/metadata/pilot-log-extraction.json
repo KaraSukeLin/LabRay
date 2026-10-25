@@ -1,0 +1,56 @@
+[
+  {
+    "source": "/root/projects/quant/build/benchmark/pilot_v1/combined_runs/ModelOpt-Qwen3.8-27B-AutoQuantize-5.5bit.log",
+    "sha256": "dafcf7c8373aaf4c570ed9dd409bf0ec760a1ff7ec2334e70edb47e176f7303d",
+    "path": "quant/build/benchmark/pilot_v1/combined_runs/ModelOpt-Qwen3.8-27B-AutoQuantize-5.5bit.log",
+    "lines": 6
+  },
+  {
+    "source": "/root/projects/quant/build/benchmark/pilot_v1/combined_runs/Qwen-Qwen3.8-27B-FP8.log",
+    "sha256": "6d7cf92d2c1d8fc404bbc14040420140781f9ef53645a349ea851f1eda91c0b6",
+    "path": "quant/build/benchmark/pilot_v1/combined_runs/Qwen-Qwen3.8-27B-FP8.log",
+    "lines": 6
+  },
+  {
+    "source": "/root/projects/quant/build/benchmark/pilot_v1/combined_runs/Qwen-Qwen3.8-27B.log",
+    "sha256": "345227bfa43a7bab4915822993c27e6b731b3be7e47e883045faca5bcd501ccd",
+    "path": "quant/build/benchmark/pilot_v1/combined_runs/Qwen-Qwen3.8-27B.log",
+    "lines": 6
+  },
+  {
+    "source": "/root/projects/quant/build/benchmark/pilot_v1/combined_runs/RadixArk-Qwen3.8-27B-NVFP4-BF16-LMHead.log",
+    "sha256": "6277050a52933b8130377ebe3be0c5a4bb48d808789374c0329ab198ea751f6e",
+    "path": "quant/build/benchmark/pilot_v1/combined_runs/RadixArk-Qwen3.8-27B-NVFP4-BF16-LMHead.log",
+    "lines": 6
+  },
+  {
+    "source": "/root/projects/quant/build/benchmark/pilot_v1/combined_runs/RedHatAI-Qwen3.8-27B-NVFP4.log",
+    "sha256": "4733b413fad3eace214919457a40269d5fec720528758f1be6efa6cf5ccc37b6",
+    "path": "quant/build/benchmark/pilot_v1/combined_runs/RedHatAI-Qwen3.8-27B-NVFP4.log",
+    "lines": 6
+  },
+  {
+    "source": "/root/projects/quant/build/benchmark/pilot_v1/combined_runs/eNeural-Qwen3.8-27B-fast.log",
+    "sha256": "23b27ba25e8132f2043a4b804026ec0df1c2db42f173276622f600b596c8f36c",
+    "path": "quant/build/benchmark/pilot_v1/combined_runs/eNeural-Qwen3.8-27B-fast.log",
+    "lines": 6
+  },
+  {
+    "source": "/root/projects/quant/build/benchmark/pilot_v1/combined_runs/nvidia-Qwen3.8-27B-NVFP4.log",
+    "sha256": "4785d968ddd138ab217df6618baf5babed2f69581ecc6bc0b0f51296e6901faf",
+    "path": "quant/build/benchmark/pilot_v1/combined_runs/nvidia-Qwen3.8-27B-NVFP4.log",
+    "lines": 6
+  },
+  {
+    "source": "/root/projects/quant/build/benchmark/pilot_v1/combined_runs/rdtand-Qwen3.8-27B-PrismaAQUA-5.5bit-vllm.log",
+    "sha256": "d37292960b5660e4b0a4607ce04f731e63a03226428eda6022b92b8e258f05c8",
+    "path": "quant/build/benchmark/pilot_v1/combined_runs/rdtand-Qwen3.8-27B-PrismaAQUA-5.5bit-vllm.log",
+    "lines": 6
+  },
+  {
+    "source": "/root/projects/quant/build/benchmark/pilot_v1/combined_runs/unsloth-Qwen3.8-27B-NVFP4.log",
+    "sha256": "bc118f1a31dc4ed14d88ff4d9d050913af5e521ba30b58218c4266907cd16a63",
+    "path": "quant/build/benchmark/pilot_v1/combined_runs/unsloth-Qwen3.8-27B-NVFP4.log",
+    "lines": 6
+  }
+]

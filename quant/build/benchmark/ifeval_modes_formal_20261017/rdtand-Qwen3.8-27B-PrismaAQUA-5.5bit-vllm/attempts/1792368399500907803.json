@@ -1,0 +1,34 @@
+{
+  "status": "interrupted",
+  "model": "rdtand-Qwen3.8-27B-PrismaAQUA-5.5bit-vllm",
+  "start_utc": "2026-10-19T00:06:39.500915+00:00",
+  "gpu_count": 1,
+  "cuda_visible_devices": "2",
+  "initialization_seconds": 51.64749292656779,
+  "inference_seconds": 95985.44248323143,
+  "scoring_seconds": 339.78719238191843,
+  "preprocessing_seconds": 0.766168836504221,
+  "shutdown_seconds": 2.821279115974903,
+  "new_records": 1404,
+  "completed_before": 1431,
+  "pending_before": 1815,
+  "setup_seconds": 7.693904988467693,
+  "engine": {
+    "mtp": false,
+    "kv_cache_dtype": "bfloat16",
+    "tensor_parallel_size": 1,
+    "max_num_seqs": 1,
+    "max_model_len": 65536,
+    "enforce_eager": true,
+    "enable_prefix_caching": false,
+    "max_num_batched_tokens": 4096
+  },
+  "current_task": {
+    "question": "ifeval/3439",
+    "mode": "on",
+    "seed": 20261016
+  },
+  "wall_seconds": 98758.92283895239,
+  "error": "KeyboardInterrupt()",
+  "end_utc": "2026-10-20T03:32:30.729868+00:00"
+}

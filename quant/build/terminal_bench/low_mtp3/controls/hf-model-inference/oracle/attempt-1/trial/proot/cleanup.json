@@ -1,0 +1,26 @@
+{
+  "before": [
+    {
+      "pid": 39735,
+      "start_ticks": "2308952808",
+      "exe": "/root/projects/quant/build/terminal_bench/diagnostics/proot_version_ab/downloads/proot",
+      "Name": "proot",
+      "State": "S (sleeping)",
+      "PPid": "51795",
+      "TracerPid": "0"
+    },
+    {
+      "pid": 40760,
+      "start_ticks": "2308955137",
+      "exe": "/root/projects/quant/build/terminal_bench/low_mtp3/controls/hf-model-inference/oracle/attempt-1/trial/proot/prooted-39735-8Ts5z2",
+      "Name": "python",
+      "State": "S (sleeping)",
+      "PPid": "51795",
+      "TracerPid": "39735"
+    }
+  ],
+  "after": [],
+  "delete_requested": true,
+  "rootfs_retained_for_evidence": true,
+  "child_cpu": 2732.955716
+}

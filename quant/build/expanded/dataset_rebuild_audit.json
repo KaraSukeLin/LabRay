@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "files": [
+    {
+      "file": "tokens.json",
+      "exact": true,
+      "sha256": "09b41e1a10044975acc579331d3b22ac4ba54f26f89882bb704f6a319d4c2e0d"
+    },
+    {
+      "file": "documents.jsonl",
+      "exact": true,
+      "sha256": "e495dab370bbd379c4606c0fd04da47ae6e9e0cb1bd47639a55121abdaedd3f7"
+    },
+    {
+      "file": "manifest.json",
+      "exact": true,
+      "sha256": "4516bc5631153c26e96d34fd9f8357caf7182a12e6404d3c558de4ed143456a6"
+    }
+  ]
+}

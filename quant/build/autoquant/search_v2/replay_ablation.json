@@ -1,0 +1,32 @@
+{
+  "original_allocation_reproduced": true,
+  "official_api": "mtq.get_auto_quantize_config",
+  "only_changed": "effective_bits constraint; identical saved sensitivities",
+  "new_calibration_or_gpu_inference": false,
+  "budgets": [
+    {
+      "target_bits": 5.0,
+      "weight_quantizer_formats": {
+        "(4, 3)": 53,
+        "(2, 1)": 347
+      },
+      "same_as_original": false
+    },
+    {
+      "target_bits": 5.5,
+      "weight_quantizer_formats": {
+        "(4, 3)": 99,
+        "(2, 1)": 301
+      },
+      "same_as_original": true
+    },
+    {
+      "target_bits": 6.0,
+      "weight_quantizer_formats": {
+        "(4, 3)": 153,
+        "(2, 1)": 247
+      },
+      "same_as_original": false
+    }
+  ]
+}

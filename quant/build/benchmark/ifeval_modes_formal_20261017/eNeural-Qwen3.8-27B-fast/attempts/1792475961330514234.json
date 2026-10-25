@@ -1,0 +1,33 @@
+{
+  "status": "ok",
+  "model": "eNeural-Qwen3.8-27B-fast",
+  "start_utc": "2026-10-20T05:59:21.330521+00:00",
+  "gpu_count": 1,
+  "cuda_visible_devices": "1",
+  "task_shard": {
+    "index": 0,
+    "count": 1
+  },
+  "initialization_seconds": 42.57498373091221,
+  "inference_seconds": 215.1405924037099,
+  "scoring_seconds": 5.918046925216913,
+  "preprocessing_seconds": 0.031081970781087875,
+  "shutdown_seconds": 2.1869970075786114,
+  "new_records": 24,
+  "completed_before": 2669,
+  "pending_before": 24,
+  "setup_seconds": 7.708482664078474,
+  "engine": {
+    "mtp": false,
+    "kv_cache_dtype": "bfloat16",
+    "tensor_parallel_size": 1,
+    "max_num_seqs": 1,
+    "max_model_len": 65536,
+    "enforce_eager": true,
+    "enable_prefix_caching": false,
+    "max_num_batched_tokens": 4096
+  },
+  "current_task": null,
+  "wall_seconds": 273.58860137313604,
+  "end_utc": "2026-10-20T06:03:47.210660+00:00"
+}

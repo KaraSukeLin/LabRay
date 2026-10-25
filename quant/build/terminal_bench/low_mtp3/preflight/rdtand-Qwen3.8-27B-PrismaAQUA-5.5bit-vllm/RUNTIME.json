@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "services": [
+    {
+      "gpu": 3,
+      "model": "rdtand-Qwen3.8-27B-PrismaAQUA-5.5bit-vllm",
+      "quantization": "compressed-tensors",
+      "mtp": 3,
+      "tp": 1,
+      "kv_dtype": "bfloat16",
+      "fp4_weight_only_marlin": true,
+      "source": "/root/projects/quant/build/terminal_bench/low_mtp3/preflight/rdtand-Qwen3.8-27B-PrismaAQUA-5.5bit-vllm/services/gpu3/1792598471924092265/server.log"
+    }
+  ]
+}

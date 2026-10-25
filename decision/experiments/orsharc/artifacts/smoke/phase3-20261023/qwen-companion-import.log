@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/root/projects/decision/experiments/orsharc/artifacts/upstream/unsloth/unsloth/__init__.py", line 1684, in <module>
+    from ._gpu_init import *
+  File "/root/projects/decision/experiments/orsharc/artifacts/upstream/unsloth/unsloth/_gpu_init.py", line 245, in <module>
+    import unsloth_zoo
+  File "/root/projects/decision/experiments/orsharc/artifacts/env/qwen/lib/python3.12/site-packages/unsloth_zoo/__init__.py", line 578, in <module>
+    from .rl_environments import (
+  File "/root/projects/decision/experiments/orsharc/artifacts/env/qwen/lib/python3.12/site-packages/unsloth_zoo/rl_environments.py", line 1426, in <module>
+    import requests
+ModuleNotFoundError: No module named 'requests'
+🦥 Unsloth: Will patch your computer to enable 2x faster free finetuning.

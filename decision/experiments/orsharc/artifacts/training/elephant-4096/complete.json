@@ -1,0 +1,22 @@
+{
+  "identity": "767a24aac7a7a847b96ed7a7ec8cc058f3b1cd3816cc89ec363d938b98decdbe",
+  "utc": "2026-10-23T14:33:38Z",
+  "elapsed_seconds": 1468.3645495437086,
+  "checkpoint": {
+    "path": "/root/projects/decision/experiments/orsharc/artifacts/training/elephant-4096/native/merged",
+    "sha256": "8909c5d52bbd2ea0247d8d8c0fc9d018ad16a0868c52c323e78e929b25e95ced",
+    "files": {
+      "chat_template.jinja": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+      "config.json": "d4396c5e2f9ad6bcbcae413d356a3f56f305144372aea88d9a930c305987413b",
+      "ft_exposure.json": "55c56ef0056e573a34840b679f14f45ef77e82dbbbc480c710448b8c96d6d8e4",
+      "generation_config.json": "290866a6d7d4a4442fe83ba2434a31517446f40a01de500ff97b4354e7e5d082",
+      "model.safetensors": "919a99bb0fa71b36a28ca932f607473dfe9fa4522fb274c09afae60cefc3f244",
+      "readout.json": "9118a7a57ca4a121221f43212181389b312cd79f432aab91cc5197d4c2b4ee21",
+      "tokenizer.json": "a5cd9732badce41de57e6efce8302930ded1c1188c5f81feb2bd6c24c4a1941f",
+      "tokenizer_config.json": "2984c03425a28d242744e234a5003786fd289b3713db79fe0958c65eb59d85b2"
+    }
+  },
+  "smoke_only": false,
+  "dev_selection": "evaluate complete dev_select with the common inference/report commands; no test selection",
+  "resume": "Trainer state for Qwen; native OneJev/Kev LoRA restart only"
+}

@@ -1,0 +1,33 @@
+{
+  "status": "ok",
+  "model": "rdtand-Qwen3.8-27B-PrismaAQUA-5.5bit-vllm",
+  "start_utc": "2026-10-20T07:49:40.489745+00:00",
+  "gpu_count": 1,
+  "cuda_visible_devices": "2",
+  "task_shard": {
+    "index": 0,
+    "count": 2
+  },
+  "initialization_seconds": 49.787751603871584,
+  "inference_seconds": 10324.349139347672,
+  "scoring_seconds": 36.2353761382401,
+  "preprocessing_seconds": 0.1013035960495472,
+  "shutdown_seconds": 2.2243905775249004,
+  "new_records": 150,
+  "completed_before": 2964,
+  "pending_before": 150,
+  "setup_seconds": 7.81405783444643,
+  "engine": {
+    "mtp": false,
+    "kv_cache_dtype": "bfloat16",
+    "tensor_parallel_size": 1,
+    "max_num_seqs": 1,
+    "max_model_len": 65536,
+    "enforce_eager": true,
+    "enable_prefix_caching": false,
+    "max_num_batched_tokens": 4096
+  },
+  "current_task": null,
+  "wall_seconds": 10420.815378807485,
+  "end_utc": "2026-10-20T10:43:13.491085+00:00"
+}

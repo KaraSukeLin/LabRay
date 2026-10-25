@@ -1,0 +1,276 @@
+{
+  "seeds": [
+    20261016,
+    20261017,
+    20261018
+  ],
+  "resamples_per_seed": 19999,
+  "confidence": 0.9958333333333333,
+  "all_primary_conclusions_unchanged": true,
+  "checks": [
+    {
+      "peer": "RadixArk-Qwen3.8-27B-NVFP4-BF16-LMHead",
+      "seed": 20261017,
+      "metric": "delta_nll",
+      "estimate": -0.0003589008888800205,
+      "low": -0.0021661280681342797,
+      "high": 0.0014609925874989583,
+      "direction": "uncertain",
+      "reference_direction": "uncertain",
+      "same_direction": true
+    },
+    {
+      "peer": "RadixArk-Qwen3.8-27B-NVFP4-BF16-LMHead",
+      "seed": 20261017,
+      "metric": "kl_difference",
+      "estimate": -0.0010176656752286634,
+      "low": -0.0017158432975615515,
+      "high": -0.00047585482577790737,
+      "direction": "negative",
+      "reference_direction": "negative",
+      "same_direction": true
+    },
+    {
+      "peer": "RadixArk-Qwen3.8-27B-NVFP4-BF16-LMHead",
+      "seed": 20261017,
+      "metric": "flip_difference",
+      "estimate": -0.0011393229166666667,
+      "low": -0.0031828703703703706,
+      "high": 0.0009464970341435448,
+      "direction": "uncertain",
+      "reference_direction": "uncertain",
+      "same_direction": true
+    },
+    {
+      "peer": "RadixArk-Qwen3.8-27B-NVFP4-BF16-LMHead",
+      "seed": 20261018,
+      "metric": "delta_nll",
+      "estimate": -0.0003589008888800205,
+      "low": -0.0021702605360087567,
+      "high": 0.0014386381293706773,
+      "direction": "uncertain",
+      "reference_direction": "uncertain",
+      "same_direction": true
+    },
+    {
+      "peer": "RadixArk-Qwen3.8-27B-NVFP4-BF16-LMHead",
+      "seed": 20261018,
+      "metric": "kl_difference",
+      "estimate": -0.0010176656752286634,
+      "low": -0.0016727535023893746,
+      "high": -0.0004904569849275582,
+      "direction": "negative",
+      "reference_direction": "negative",
+      "same_direction": true
+    },
+    {
+      "peer": "RadixArk-Qwen3.8-27B-NVFP4-BF16-LMHead",
+      "seed": 20261018,
+      "metric": "flip_difference",
+      "estimate": -0.0011393229166666667,
+      "low": -0.003188973885995373,
+      "high": 0.0009223090277777778,
+      "direction": "uncertain",
+      "reference_direction": "uncertain",
+      "same_direction": true
+    },
+    {
+      "peer": "nvidia-Qwen3.8-27B-NVFP4",
+      "seed": 20261017,
+      "metric": "delta_nll",
+      "estimate": 0.0005365712304079562,
+      "low": -0.002983743800688541,
+      "high": 0.003983699243960634,
+      "direction": "uncertain",
+      "reference_direction": "uncertain",
+      "same_direction": true
+    },
+    {
+      "peer": "nvidia-Qwen3.8-27B-NVFP4",
+      "seed": 20261017,
+      "metric": "kl_difference",
+      "estimate": -0.0007073545833924908,
+      "low": -0.001611476239526029,
+      "high": 9.611384291190452e-05,
+      "direction": "uncertain",
+      "reference_direction": "uncertain",
+      "same_direction": true
+    },
+    {
+      "peer": "nvidia-Qwen3.8-27B-NVFP4",
+      "seed": 20261017,
+      "metric": "flip_difference",
+      "estimate": -0.004665798611111111,
+      "low": -0.007523148148148148,
+      "high": -0.0017180266203703702,
+      "direction": "negative",
+      "reference_direction": "negative",
+      "same_direction": true
+    },
+    {
+      "peer": "nvidia-Qwen3.8-27B-NVFP4",
+      "seed": 20261018,
+      "metric": "delta_nll",
+      "estimate": 0.0005365712304079562,
+      "low": -0.0029964440953073827,
+      "high": 0.003984893065500053,
+      "direction": "uncertain",
+      "reference_direction": "uncertain",
+      "same_direction": true
+    },
+    {
+      "peer": "nvidia-Qwen3.8-27B-NVFP4",
+      "seed": 20261018,
+      "metric": "kl_difference",
+      "estimate": -0.0007073545833924908,
+      "low": -0.0015719302321449817,
+      "high": 9.099210986060927e-05,
+      "direction": "uncertain",
+      "reference_direction": "uncertain",
+      "same_direction": true
+    },
+    {
+      "peer": "nvidia-Qwen3.8-27B-NVFP4",
+      "seed": 20261018,
+      "metric": "flip_difference",
+      "estimate": -0.004665798611111111,
+      "low": -0.007710096571180559,
+      "high": -0.0016938386140046033,
+      "direction": "negative",
+      "reference_direction": "negative",
+      "same_direction": true
+    },
+    {
+      "peer": "RedHatAI-Qwen3.8-27B-NVFP4",
+      "seed": 20261017,
+      "metric": "delta_nll",
+      "estimate": 0.003595082219117085,
+      "low": 0.0001836618677410573,
+      "high": 0.006973044156363966,
+      "direction": "positive",
+      "reference_direction": "positive",
+      "same_direction": true
+    },
+    {
+      "peer": "RedHatAI-Qwen3.8-27B-NVFP4",
+      "seed": 20261017,
+      "metric": "kl_difference",
+      "estimate": 0.0025213822384020732,
+      "low": 0.0016960817011626398,
+      "high": 0.0033251404615033805,
+      "direction": "positive",
+      "reference_direction": "positive",
+      "same_direction": true
+    },
+    {
+      "peer": "RedHatAI-Qwen3.8-27B-NVFP4",
+      "seed": 20261017,
+      "metric": "flip_difference",
+      "estimate": 0.0035807291666666665,
+      "low": 0.0009042245370370369,
+      "high": 0.006480351200810212,
+      "direction": "positive",
+      "reference_direction": "positive",
+      "same_direction": true
+    },
+    {
+      "peer": "RedHatAI-Qwen3.8-27B-NVFP4",
+      "seed": 20261018,
+      "metric": "delta_nll",
+      "estimate": 0.003595082219117085,
+      "low": 0.00017035168401036965,
+      "high": 0.007005738499952318,
+      "direction": "positive",
+      "reference_direction": "positive",
+      "same_direction": true
+    },
+    {
+      "peer": "RedHatAI-Qwen3.8-27B-NVFP4",
+      "seed": 20261018,
+      "metric": "kl_difference",
+      "estimate": 0.0025213822384020732,
+      "low": 0.0016770398464683082,
+      "high": 0.003326257080873289,
+      "direction": "positive",
+      "reference_direction": "positive",
+      "same_direction": true
+    },
+    {
+      "peer": "RedHatAI-Qwen3.8-27B-NVFP4",
+      "seed": 20261018,
+      "metric": "flip_difference",
+      "estimate": 0.0035807291666666665,
+      "low": 0.0007052951388888889,
+      "high": 0.006371844256365767,
+      "direction": "positive",
+      "reference_direction": "positive",
+      "same_direction": true
+    },
+    {
+      "peer": "unsloth-Qwen3.8-27B-NVFP4",
+      "seed": 20261017,
+      "metric": "delta_nll",
+      "estimate": 0.0046002376184728355,
+      "low": 0.0015464734425547576,
+      "high": 0.007717793690054405,
+      "direction": "positive",
+      "reference_direction": "positive",
+      "same_direction": true
+    },
+    {
+      "peer": "unsloth-Qwen3.8-27B-NVFP4",
+      "seed": 20261017,
+      "metric": "kl_difference",
+      "estimate": 0.003461587617627369,
+      "low": 0.0028294331789911913,
+      "high": 0.004104720749603946,
+      "direction": "positive",
+      "reference_direction": "positive",
+      "same_direction": true
+    },
+    {
+      "peer": "unsloth-Qwen3.8-27B-NVFP4",
+      "seed": 20261017,
+      "metric": "flip_difference",
+      "estimate": 0.0006148726851851852,
+      "low": -0.0023328993055555555,
+      "high": 0.003562644675925926,
+      "direction": "uncertain",
+      "reference_direction": "uncertain",
+      "same_direction": true
+    },
+    {
+      "peer": "unsloth-Qwen3.8-27B-NVFP4",
+      "seed": 20261018,
+      "metric": "delta_nll",
+      "estimate": 0.0046002376184728355,
+      "low": 0.0015402460762061324,
+      "high": 0.007730843156591574,
+      "direction": "positive",
+      "reference_direction": "positive",
+      "same_direction": true
+    },
+    {
+      "peer": "unsloth-Qwen3.8-27B-NVFP4",
+      "seed": 20261018,
+      "metric": "kl_difference",
+      "estimate": 0.003461587617627369,
+      "low": 0.0028323453893176875,
+      "high": 0.004104961551053809,
+      "direction": "positive",
+      "reference_direction": "positive",
+      "same_direction": true
+    },
+    {
+      "peer": "unsloth-Qwen3.8-27B-NVFP4",
+      "seed": 20261018,
+      "metric": "flip_difference",
+      "estimate": 0.0006148726851851852,
+      "low": -0.00237517180266204,
+      "high": 0.0036711516203703698,
+      "direction": "uncertain",
+      "reference_direction": "uncertain",
+      "same_direction": true
+    }
+  ]
+}

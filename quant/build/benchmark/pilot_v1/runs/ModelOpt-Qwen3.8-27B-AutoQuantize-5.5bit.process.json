@@ -1,0 +1,25 @@
+{
+  "model": "ModelOpt-Qwen3.8-27B-AutoQuantize-5.5bit",
+  "gpu": 4,
+  "command": [
+    "/root/projects/quant/.modelopt-venv/bin/python",
+    "-u",
+    "/root/projects/quant/src/benchmark.py",
+    "run",
+    "--model",
+    "ModelOpt-Qwen3.8-27B-AutoQuantize-5.5bit",
+    "--config",
+    "/root/projects/quant/assets/benchmark_config.json",
+    "--data",
+    "/root/projects/quant/assets/benchmark/pilot_v1",
+    "--output",
+    "/root/projects/quant/build/benchmark/pilot_v1/runs/ModelOpt-Qwen3.8-27B-AutoQuantize-5.5bit",
+    "--long-max-tokens",
+    "4096",
+    "--long-ids",
+    "/root/projects/quant/assets/benchmark/pilot_v1/long_ids.json"
+  ],
+  "exit_code": 0,
+  "start_offset_seconds": 15771.620547350496,
+  "process_wall_seconds": 15289.593036107719
+}

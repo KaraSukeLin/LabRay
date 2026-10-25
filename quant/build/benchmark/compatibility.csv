@@ -1,0 +1,10 @@
+model,mtp_test,dspark_test,matching_mtp_dspark_prompts,mtp_public_evidence,dspark_public_evidence
+Qwen-Qwen3.8-27B,pass: 3 prompts x 32 tokens,pass: 3 prompts x 32 tokens,2,vLLM supports Qwen3.5 family; checkpoint-specific claim not established,exact target not claimed in the draft card
+Qwen-Qwen3.8-27B-FP8,pass: 3 prompts x 32 tokens,pass: 3 prompts x 32 tokens,2,vLLM supports Qwen3.5 family; checkpoint-specific claim not established,draft card explicitly tests FP8 target under SGLang
+eNeural-Qwen3.8-27B-fast,pass: 3 prompts x 32 tokens,pass: 3 prompts x 32 tokens,1,vLLM supports Qwen3.5 family; checkpoint-specific claim not established,exact target not claimed in the draft card
+nvidia-Qwen3.8-27B-NVFP4,pass: 3 prompts x 32 tokens,pass: 3 prompts x 32 tokens,2,vLLM supports Qwen3.5 family; checkpoint-specific claim not established,exact target not claimed in the draft card
+RedHatAI-Qwen3.8-27B-NVFP4,pass: 3 prompts x 32 tokens,pass: 3 prompts x 32 tokens,1,vLLM supports Qwen3.5 family; checkpoint-specific claim not established,exact target not claimed in the draft card
+unsloth-Qwen3.8-27B-NVFP4,pass: 3 prompts x 32 tokens,pass: 3 prompts x 32 tokens,2,vLLM supports Qwen3.5 family; checkpoint-specific claim not established,exact target not claimed in the draft card
+RadixArk-Qwen3.8-27B-NVFP4-BF16-LMHead,pass: 3 prompts x 32 tokens,pass: 3 prompts x 32 tokens,3,vLLM supports Qwen3.5 family; checkpoint-specific claim not established,exact target not claimed in the draft card
+rdtand-Qwen3.8-27B-PrismaAQUA-5.5bit-vllm,pass: 3 prompts x 32 tokens,pass: 3 prompts x 32 tokens,2,Prisma model card includes MTP command,exact target not claimed in the draft card
+ModelOpt-Qwen3.8-27B-AutoQuantize-5.5bit,pass: 3 prompts x 32 tokens,pass: 3 prompts x 32 tokens,3,vLLM supports Qwen3.5 family; checkpoint-specific claim not established,exact target not claimed in the draft card

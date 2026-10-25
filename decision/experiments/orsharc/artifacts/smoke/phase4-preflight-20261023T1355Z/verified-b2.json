@@ -1,0 +1,27 @@
+{
+  "matrix": "B2",
+  "conditions": {
+    "noul": {
+      "verified": true,
+      "test_accuracy_raw": 0.8023598820058997,
+      "test_accuracy_calibrated": 0.8023598820058997,
+      "threshold": 0.33,
+      "temperature": 1.9650753127925247
+    },
+    "choice2": {
+      "verified": true,
+      "test_accuracy_raw": 0.8044669195111673,
+      "test_accuracy_calibrated": 0.8044669195111673,
+      "threshold": 0.25,
+      "temperature": 1.9971347991913972
+    },
+    "score5": {
+      "verified": true,
+      "test_accuracy_raw": 0.8023598820058997,
+      "test_accuracy_calibrated": 0.8023598820058997,
+      "threshold": 0.43,
+      "temperature": 1.0204276418505165
+    }
+  },
+  "all_valid": true
+}

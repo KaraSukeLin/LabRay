@@ -1,0 +1,68 @@
+{
+  "schema": 1,
+  "incident_id": "short-recursive-inspection-20261022-1632",
+  "observed_at_utc": "2026-10-22T16:33:27Z",
+  "classification": "assistant_read_only_diagnostic_process",
+  "interval_utc_approx": {
+    "started_after": "2026-10-22T16:31:57Z",
+    "completed_before": "2026-10-22T16:33:10Z"
+  },
+  "operations": [
+    {
+      "command_signature": "find over Seed 3 trial tree for recent Terminus pane files",
+      "observed_wall_seconds": 5.2
+    },
+    {
+      "command_signature": "Path.rglob over one completed MTEB trial tree and emitted paths",
+      "observed_wall_seconds": 5.7,
+      "tool_output": "Tool truncated a multi-million-token listing; no file content was intentionally edited."
+    }
+  ],
+  "resource_use": {
+    "combined_observed_command_wall_seconds": 10.9,
+    "cpu_seconds": null,
+    "io_bytes": null,
+    "note": "CPU and I/O counters were not sampled for these short commands; the wall values are tool-reported command durations."
+  },
+  "overlap_observation": {
+    "active_trials_observed_during_interval": [
+      {
+        "seed": 20261022,
+        "trial_id": "467c419dfec136b94c980f2c",
+        "task": "circuit-fibsqrt",
+        "model": "eNeural-Qwen3.8-27B-fast",
+        "gpu": 4
+      },
+      {
+        "seed": 20261022,
+        "trial_id": "5f2d7c806f24926314e03710",
+        "task": "db-wal-recovery",
+        "model": "Qwen-Qwen3.8-27B",
+        "gpu": 2
+      },
+      {
+        "seed": 20261022,
+        "trial_id": "3365c0a41fcc603515fdc0c0",
+        "task": "distribution-search",
+        "model": "rdtand-Qwen3.8-27B-PrismaAQUA-5.5bit-vllm",
+        "gpu": 1
+      },
+      {
+        "seed": 20261022,
+        "trial_id": "4fbdd9500571574b2c05a990",
+        "task": "make-mips-interpreter",
+        "model": "Qwen-Qwen3.8-27B",
+        "gpu": 3
+      },
+      {
+        "seed": 20261022,
+        "trial_id": "47d33f65501cfa3e9dc938c1",
+        "task": "regex-log",
+        "model": "eNeural-Qwen3.8-27B-fast",
+        "gpu": 0
+      }
+    ],
+    "interpretation": "A small transient CPU or filesystem effect on wall time cannot be ruled out. The completed mteb-retrieve PASS predates these scans; no Trial status changed between the 16:31:57 and 16:33:10 database snapshots, and no completed Trial was retried."
+  },
+  "action": "No running Trial, scheduler, worker, or model server was signaled. Avoid further recursive scans while the formal matrix runs."
+}

@@ -1,0 +1,39 @@
+{
+  "elephant": {
+    "backend": "qev",
+    "checkpoint": "/root/model/orsharc-elephant",
+    "model_revision": "b3f8a93462fb1051a9de031e94a7ff380e254072",
+    "model_repository": "baselabs/elephant-1",
+    "quantization": "bf16",
+    "device": "cuda:0",
+    "max_length": 16384
+  },
+  "startlux": {
+    "backend": "startlux",
+    "checkpoint": "/root/model/orsharc-startlux",
+    "model_revision": "18a17f734966b213b2f00fa9c915e8b9af2a9b20",
+    "model_repository": "startlux-models/StartLux-Decision-v1.1-9B-Instant",
+    "quantization": "bf16",
+    "device": "cuda:0",
+    "max_length": 16384
+  },
+  "kev": {
+    "backend": "kev",
+    "checkpoint": "/root/model/orsharc-kev",
+    "model_revision": "db029f08b290afd9fee4aa4bbcd9ae48602d1eb0",
+    "model_repository": "jaredpalmer/kev-9b",
+    "quantization": "bf16",
+    "device": "cuda:0",
+    "max_length": 16384
+  },
+  "qwen": {
+    "backend": "qwen",
+    "training_blocker": "Phase 3: unsloth_zoo 2026.10.7 import/dependency gate failed; requires transformers<=5.17 and datasets<5, conflicting with preserved 5.20.2/5.1.0. See PHASE3_REPORT.md. BF16/BNB8 inference remains available.",
+    "checkpoint": "/root/model/orsharc-qwen",
+    "model_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+    "model_repository": "Qwen/Qwen3.5-9B",
+    "quantization": "bf16",
+    "device": "cuda:0",
+    "max_length": 16384
+  }
+}

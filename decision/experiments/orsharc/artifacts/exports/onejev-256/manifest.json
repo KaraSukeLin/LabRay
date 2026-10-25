@@ -1,0 +1,20 @@
+{
+  "recipe": "onejev",
+  "size": 256,
+  "task": "benchmark",
+  "strategy": "single_choice",
+  "seed": 42,
+  "files": {
+    "train": {
+      "path": "/root/projects/decision/experiments/orsharc/artifacts/exports/onejev-256/train.jsonl",
+      "sha256": "85289e850e8c46df928c65c9549520e93b2b7cb9200ed1a4eb6b8d86fbd2299d",
+      "records": 256
+    },
+    "dev_select": {
+      "path": "/root/projects/decision/experiments/orsharc/artifacts/exports/onejev-256/dev_select.jsonl",
+      "sha256": "25e0d2b3aae16fa3db357c871c9f90861ae17d0f5a6580e868b6958fbf3e5fde",
+      "records": 456
+    }
+  },
+  "selection": "dev_select only; no dev_calibrate or test labels"
+}

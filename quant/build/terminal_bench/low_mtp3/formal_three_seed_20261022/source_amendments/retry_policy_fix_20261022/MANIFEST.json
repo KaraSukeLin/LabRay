@@ -1,0 +1,16 @@
+{
+  "recorded_at_utc": "2026-10-22T22:13:19+00:00",
+  "baseline_run": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_20261021_seed_20261022",
+  "source_files": {
+    "src/terminal_formal_scheduler.py": {
+      "baseline_sha256": "347db1b437cfc54c435b7984ba5c2312166ae913d61aaea632a6a09ce628aec8",
+      "amended_sha256": "7dfc508bb6ce551957a5d575dc306ba1245150fed8e8bc0bd2566c32193b786d",
+      "amended_copy": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_three_seed_20261022/source_amendments/retry_policy_fix_20261022/src/terminal_formal_scheduler.py"
+    },
+    "tests/test_terminal_formal_scheduler.py": {
+      "baseline_sha256": "24af311dff49a9107a89fee372cd7c921ef7464ed5291454cde7e2a61f917d23",
+      "amended_sha256": "3ba1df170da2644662039505724c0b428e99bd2ad00cef7bf78b7c50a77a0bf3",
+      "amended_copy": "/root/projects/quant/build/terminal_bench/low_mtp3/formal_three_seed_20261022/source_amendments/retry_policy_fix_20261022/tests/test_terminal_formal_scheduler.py"
+    }
+  }
+}

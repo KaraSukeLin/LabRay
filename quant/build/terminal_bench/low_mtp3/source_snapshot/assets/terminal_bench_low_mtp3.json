@@ -1,0 +1,71 @@
+{
+  "schema": 2,
+  "dataset": {
+    "repository": "https://github.com/harbor-framework/terminal-bench-2-1.git",
+    "revision": "7131e4375048a0e408a8fb404b5f499d726b695b",
+    "tasks": 89
+  },
+  "harbor": {
+    "repository": "https://github.com/harbor-framework/harbor.git",
+    "revision": "96ff9c6db90cc015f0fc0987d896670c9c5f1fad",
+    "version": "0.24.0"
+  },
+  "models": [
+    "Qwen-Qwen3.8-27B",
+    "eNeural-Qwen3.8-27B-fast",
+    "rdtand-Qwen3.8-27B-PrismaAQUA-5.5bit-vllm"
+  ],
+  "seeds": [
+    20261020
+  ],
+  "sampling": {
+    "temperature": 1.0,
+    "top_p": 0.95,
+    "top_k": 20,
+    "min_p": 0.0,
+    "presence_penalty": 0.0,
+    "repetition_penalty": 1.0,
+    "max_tokens": 131072
+  },
+  "chat_template_kwargs": {
+    "enable_thinking": true,
+    "reasoning_effort": "low",
+    "preserve_thinking": true
+  },
+  "reasoning_effort": "low",
+  "max_model_len": 262144,
+  "gpu_memory_utilization": 0.95,
+  "mtp": true,
+  "kv_cache_dtype": "bfloat16",
+  "interleaved_thinking": false,
+  "enable_summarize": true,
+  "proactive_summarization_threshold": 8000,
+  "timeout_multiplier": 1.0,
+  "port_base": 18100,
+  "smoke_tasks": {
+    "modernize-scientific-stack": 600,
+    "overfull-hbox": 750,
+    "fix-git": 900,
+    "regex-log": 900,
+    "extract-elf": 900
+  },
+  "bootstrap_seed": 20261020,
+  "bootstrap_resamples": 199999,
+  "comparison_family": 6,
+  "official_differences": [
+    "Use native 262144 context without YaRN, rather than optional 1M extension.",
+    "Use a single 131072-token reasoning+final output budget. Qwen recommends separate 262144 reasoning and 131072 final budgets within 1M context; this backend does not offer that pair of independent budgets.",
+    "Harbor max_input_tokens=131072 reserves the fixed 131072 output budget within the 262144-token service context; proactive summarization keeps its native 8000-token margin and approximate LiteLLM counter.",
+    "PRoot shared kernel, PID and network; no per-task cgroup enforcement; internal comparison only, not official Docker leaderboard scores.",
+    "One fixed seed per model/task for the planned 267-trial main comparison; 30 smoke trials remain separate."
+  ],
+  "harbor_max_input_tokens": 131072,
+  "num_speculative_tokens": 3,
+  "candidate_models": {
+    "NaviQuant": "eNeural-Qwen3.8-27B-fast",
+    "Aqua": "rdtand-Qwen3.8-27B-PrismaAQUA-5.5bit-vllm"
+  },
+  "stop_after_smoke": true,
+  "formal_requires_new_user_confirmation": true,
+  "model_mapping_confirmed_by_user": true
+}

@@ -1,0 +1,50 @@
+[
+  {
+    "model": "Qwen-Qwen3.8-27B",
+    "vocabulary_equal": true,
+    "vocabulary_size": 248077,
+    "different_token_ids": 0
+  },
+  {
+    "model": "Qwen-Qwen3.8-27B-FP8",
+    "vocabulary_equal": true,
+    "vocabulary_size": 248077,
+    "different_token_ids": 0
+  },
+  {
+    "model": "RadixArk-Qwen3.8-27B-NVFP4",
+    "vocabulary_equal": true,
+    "vocabulary_size": 248077,
+    "different_token_ids": 0
+  },
+  {
+    "model": "RadixArk-Qwen3.8-27B-NVFP4-BF16-LMHead",
+    "vocabulary_equal": true,
+    "vocabulary_size": 248077,
+    "different_token_ids": 0
+  },
+  {
+    "model": "RedHatAI-Qwen3.8-27B-NVFP4",
+    "vocabulary_equal": true,
+    "vocabulary_size": 248077,
+    "different_token_ids": 0
+  },
+  {
+    "model": "eNeural-Qwen3.8-27B-fast",
+    "vocabulary_equal": true,
+    "vocabulary_size": 248077,
+    "different_token_ids": 0
+  },
+  {
+    "model": "nvidia-Qwen3.8-27B-NVFP4",
+    "vocabulary_equal": true,
+    "vocabulary_size": 248077,
+    "different_token_ids": 0
+  },
+  {
+    "model": "unsloth-Qwen3.8-27B-NVFP4",
+    "vocabulary_equal": true,
+    "vocabulary_size": 248077,
+    "different_token_ids": 0
+  }
+]

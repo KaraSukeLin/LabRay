@@ -1,0 +1,18 @@
+{
+  "reloaded": {
+    "status": "PASS",
+    "max_abs_probability_difference": 0.0,
+    "label_changes": [],
+    "atol": 1e-06,
+    "rtol": 0,
+    "n": 10
+  },
+  "merged": {
+    "status": "PASS",
+    "max_abs_probability_difference": 0.016394615173339844,
+    "label_changes": [],
+    "atol": 0.02,
+    "rtol": 0,
+    "n": 10
+  }
+}

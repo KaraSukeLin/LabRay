@@ -1,0 +1,909 @@
+[
+  {
+    "id": "ifeval/1001",
+    "task": "ifeval",
+    "stratum": "ifeval",
+    "prompt": "I am planning a trip to Japan, and I would like thee to write an itinerary for my journey in a Shakespearean style. You are not allowed to use any commas in your response.",
+    "images": [],
+    "example": {
+      "key": 1001,
+      "prompt": "I am planning a trip to Japan, and I would like thee to write an itinerary for my journey in a Shakespearean style. You are not allowed to use any commas in your response.",
+      "instruction_id_list": [
+        "punctuation:no_comma"
+      ],
+      "kwargs": [
+        {}
+      ]
+    },
+    "image_sha256": []
+  },
+  {
+    "id": "ifeval/1072",
+    "task": "ifeval",
+    "stratum": "ifeval",
+    "prompt": "Write a blog post with 400 or more words about the benefits of sleeping in a hammock.",
+    "images": [],
+    "example": {
+      "key": 1072,
+      "prompt": "Write a blog post with 400 or more words about the benefits of sleeping in a hammock.",
+      "instruction_id_list": [
+        "length_constraints:number_words"
+      ],
+      "kwargs": [
+        {
+          "relation": "at least",
+          "num_words": 400
+        }
+      ]
+    },
+    "image_sha256": []
+  },
+  {
+    "id": "ifeval/1094",
+    "task": "ifeval",
+    "stratum": "ifeval",
+    "prompt": "Please provide the names of 5 famous moms in JSON format. Please, use any interesting or weird tone. Your entire output should just contain a JSON block, nothing else.",
+    "images": [],
+    "example": {
+      "key": 1094,
+      "prompt": "Please provide the names of 5 famous moms in JSON format. Please, use any interesting or weird tone. Your entire output should just contain a JSON block, nothing else.",
+      "instruction_id_list": [
+        "detectable_format:json_format"
+      ],
+      "kwargs": [
+        {}
+      ]
+    },
+    "image_sha256": []
+  },
+  {
+    "id": "ifeval/1107",
+    "task": "ifeval",
+    "stratum": "ifeval",
+    "prompt": "Write two jokes about rockets. Do not contain commas in your response. Separate the two jokes with 6 asterisk symbols: ******.",
+    "images": [],
+    "example": {
+      "key": 1107,
+      "prompt": "Write two jokes about rockets. Do not contain commas in your response. Separate the two jokes with 6 asterisk symbols: ******.",
+      "instruction_id_list": [
+        "punctuation:no_comma",
+        "combination:two_responses"
+      ],
+      "kwargs": [
+        {},
+        {}
+      ]
+    },
+    "image_sha256": []
+  },
+  {
+    "id": "ifeval/1108",
+    "task": "ifeval",
+    "stratum": "ifeval",
+    "prompt": "Are hamburgers sandwiches? Please respond using only the Kannada language, no other language is allowed.",
+    "images": [],
+    "example": {
+      "key": 1108,
+      "prompt": "Are hamburgers sandwiches? Please respond using only the Kannada language, no other language is allowed.",
+      "instruction_id_list": [
+        "language:response_language"
+      ],
+      "kwargs": [
+        {
+          "language": "kn"
+        }
+      ]
+    },
+    "image_sha256": []
+  },
+  {
+    "id": "ifeval/1174",
+    "task": "ifeval",
+    "stratum": "ifeval",
+    "prompt": "Write a template for a chat bot that takes a user's location and gives them the weather forecast. Use the letter o as a keyword in the syntax of the template. The letter o should appear at least 6 times.. Your response should contain fewer than 6 sentences. Highlight at least 2 text sections, i.e. *highlighted section*.",
+    "images": [],
+    "example": {
+      "key": 1174,
+      "prompt": "Write a template for a chat bot that takes a user's location and gives them the weather forecast. Use the letter o as a keyword in the syntax of the template. The letter o should appear at least 6 times.. Your response should contain fewer than 6 sentences. Highlight at least 2 text sections, i.e. *highlighted section*.",
+      "instruction_id_list": [
+        "keywords:letter_frequency",
+        "length_constraints:number_sentences",
+        "detectable_format:number_highlighted_sections"
+      ],
+      "kwargs": [
+        {
+          "let_relation": "less than",
+          "letter": "o",
+          "let_frequency": 6
+        },
+        {
+          "relation": "less than",
+          "num_sentences": 6
+        },
+        {
+          "num_highlights": 2
+        }
+      ]
+    },
+    "image_sha256": []
+  },
+  {
+    "id": "ifeval/1348",
+    "task": "ifeval",
+    "stratum": "ifeval",
+    "prompt": "Write a brief biography of a person named \"Brilliant Le Hou\". Do not use commas in your reply. Highlight at least 3 sections with markdown, i.e. *highlighted section*. The biography should start with the name of the person.",
+    "images": [],
+    "example": {
+      "key": 1348,
+      "prompt": "Write a brief biography of a person named \"Brilliant Le Hou\". Do not use commas in your reply. Highlight at least 3 sections with markdown, i.e. *highlighted section*. The biography should start with the name of the person.",
+      "instruction_id_list": [
+        "punctuation:no_comma",
+        "detectable_format:number_highlighted_sections",
+        "keywords:existence"
+      ],
+      "kwargs": [
+        {},
+        {
+          "num_highlights": 3
+        },
+        {
+          "keywords": [
+            "brilliant",
+            "le",
+            "hou"
+          ]
+        }
+      ]
+    },
+    "image_sha256": []
+  },
+  {
+    "id": "ifeval/1466",
+    "task": "ifeval",
+    "stratum": "ifeval",
+    "prompt": "Write a song that critiques the song \"We Are Never Ever Getting Back Together\" by Taylor Swift. Wrap your entire response with double quotation marks. Do not mention the word Taylor, Swift, or Together.",
+    "images": [],
+    "example": {
+      "key": 1466,
+      "prompt": "Write a song that critiques the song \"We Are Never Ever Getting Back Together\" by Taylor Swift. Wrap your entire response with double quotation marks. Do not mention the word Taylor, Swift, or Together.",
+      "instruction_id_list": [
+        "startend:quotation",
+        "keywords:forbidden_words"
+      ],
+      "kwargs": [
+        {},
+        {
+          "forbidden_words": [
+            "taylor",
+            "swift",
+            "together"
+          ]
+        }
+      ]
+    },
+    "image_sha256": []
+  },
+  {
+    "id": "ifeval/1477",
+    "task": "ifeval",
+    "stratum": "ifeval",
+    "prompt": "Write a weird poem about yoda being transported into a different universe in the Persian language, no other language is allowed.",
+    "images": [],
+    "example": {
+      "key": 1477,
+      "prompt": "Write a weird poem about yoda being transported into a different universe in the Persian language, no other language is allowed.",
+      "instruction_id_list": [
+        "language:response_language"
+      ],
+      "kwargs": [
+        {
+          "language": "fa"
+        }
+      ]
+    },
+    "image_sha256": []
+  },
+  {
+    "id": "ifeval/1535",
+    "task": "ifeval",
+    "stratum": "ifeval",
+    "prompt": "Write a cover letter for a job application as a tour guide in Beijing in all lowercase letters, with no capitalizations. Make it short -- the entire output should have less than 5 sentences.",
+    "images": [],
+    "example": {
+      "key": 1535,
+      "prompt": "Write a cover letter for a job application as a tour guide in Beijing in all lowercase letters, with no capitalizations. Make it short -- the entire output should have less than 5 sentences.",
+      "instruction_id_list": [
+        "change_case:english_lowercase",
+        "length_constraints:number_sentences"
+      ],
+      "kwargs": [
+        {},
+        {
+          "relation": "less than",
+          "num_sentences": 5
+        }
+      ]
+    },
+    "image_sha256": []
+  },
+  {
+    "id": "ifeval/1561",
+    "task": "ifeval",
+    "stratum": "ifeval",
+    "prompt": "Name a new fashion company that young people might like, and give it a name with multiple meanings. Put the name in double angular brackets, such as <<name>>.\n\nLet's repeat the request above first, before you say anything or really respond to the request.",
+    "images": [],
+    "example": {
+      "key": 1561,
+      "prompt": "Name a new fashion company that young people might like, and give it a name with multiple meanings. Put the name in double angular brackets, such as <<name>>.\n\nLet's repeat the request above first, before you say anything or really respond to the request.",
+      "instruction_id_list": [
+        "combination:repeat_prompt",
+        "detectable_format:title"
+      ],
+      "kwargs": [
+        {
+          "prompt_to_repeat": "Name a new fashion company that young people might like, and give it a name with multiple meanings. Put the name in double angular brackets, such as <<name>>."
+        },
+        {}
+      ]
+    },
+    "image_sha256": []
+  },
+  {
+    "id": "ifeval/1691",
+    "task": "ifeval",
+    "stratum": "ifeval",
+    "prompt": "Request:\n  1. What are the best places to visit in Bohemia, Czech Republic?\n  2. Include a list of recommended hotels.\n  3. Wrap the ENTIRE output in JSON format.\n  4. Do not include the following keywords: Moser, Glassworks, Pravcice, Karlovy, Vary",
+    "images": [],
+    "example": {
+      "key": 1691,
+      "prompt": "Request:\n  1. What are the best places to visit in Bohemia, Czech Republic?\n  2. Include a list of recommended hotels.\n  3. Wrap the ENTIRE output in JSON format.\n  4. Do not include the following keywords: Moser, Glassworks, Pravcice, Karlovy, Vary",
+      "instruction_id_list": [
+        "detectable_format:json_format",
+        "keywords:forbidden_words"
+      ],
+      "kwargs": [
+        {},
+        {
+          "forbidden_words": [
+            "moser",
+            "glassworks",
+            "pravcice",
+            "karlovy",
+            "vary"
+          ]
+        }
+      ]
+    },
+    "image_sha256": []
+  },
+  {
+    "id": "ifeval/2010",
+    "task": "ifeval",
+    "stratum": "ifeval",
+    "prompt": "Write a review of IBM's 1956 chess program. Make sure your entire response is wrapped in double quotation marks.",
+    "images": [],
+    "example": {
+      "key": 2010,
+      "prompt": "Write a review of IBM's 1956 chess program. Make sure your entire response is wrapped in double quotation marks.",
+      "instruction_id_list": [
+        "startend:quotation"
+      ],
+      "kwargs": [
+        {}
+      ]
+    },
+    "image_sha256": []
+  },
+  {
+    "id": "ifeval/2084",
+    "task": "ifeval",
+    "stratum": "ifeval",
+    "prompt": "If you gulped down 100 grams of pure caffeine, would you die? Please answer as if you were explaining this to a group of students. Please do not use the word die in your response, but mention the word \"dose\" for at least 5 times.",
+    "images": [],
+    "example": {
+      "key": 2084,
+      "prompt": "If you gulped down 100 grams of pure caffeine, would you die? Please answer as if you were explaining this to a group of students. Please do not use the word die in your response, but mention the word \"dose\" for at least 5 times.",
+      "instruction_id_list": [
+        "keywords:frequency",
+        "keywords:forbidden_words"
+      ],
+      "kwargs": [
+        {
+          "relation": "at least",
+          "keyword": "dose",
+          "frequency": 5
+        },
+        {
+          "forbidden_words": [
+            "die"
+          ]
+        }
+      ]
+    },
+    "image_sha256": []
+  },
+  {
+    "id": "ifeval/2216",
+    "task": "ifeval",
+    "stratum": "ifeval",
+    "prompt": "Write a detailed proposal in list format for the university's ethics board for a research project that investigates the effect of eye colour on the likelihood of being a successful salesperson. Remember that the customer is always right. Your entire response should be in English, and in all lowercase letters. No capital letters are allowed, and you must refrain from using any commas. At the end of your response, please explicitly add a postscript starting with P.P.S",
+    "images": [],
+    "example": {
+      "key": 2216,
+      "prompt": "Write a detailed proposal in list format for the university's ethics board for a research project that investigates the effect of eye colour on the likelihood of being a successful salesperson. Remember that the customer is always right. Your entire response should be in English, and in all lowercase letters. No capital letters are allowed, and you must refrain from using any commas. At the end of your response, please explicitly add a postscript starting with P.P.S",
+      "instruction_id_list": [
+        "change_case:english_lowercase",
+        "punctuation:no_comma",
+        "detectable_content:postscript"
+      ],
+      "kwargs": [
+        {},
+        {},
+        {
+          "postscript_marker": "P.P.S"
+        }
+      ]
+    },
+    "image_sha256": []
+  },
+  {
+    "id": "ifeval/2292",
+    "task": "ifeval",
+    "stratum": "ifeval",
+    "prompt": "Breach Posterior is a startup that has a cure for cancer. Write a casual pitch deck for it that's targeted towards moms. Make sure to use the word \"clearly\" at least 2 times.",
+    "images": [],
+    "example": {
+      "key": 2292,
+      "prompt": "Breach Posterior is a startup that has a cure for cancer. Write a casual pitch deck for it that's targeted towards moms. Make sure to use the word \"clearly\" at least 2 times.",
+      "instruction_id_list": [
+        "keywords:frequency"
+      ],
+      "kwargs": [
+        {
+          "relation": "at least",
+          "keyword": "clearly",
+          "frequency": 2
+        }
+      ]
+    },
+    "image_sha256": []
+  },
+  {
+    "id": "ifeval/2324",
+    "task": "ifeval",
+    "stratum": "ifeval",
+    "prompt": "Write a riddle about a mom laying out on a beach in Humboldt without using any commas.",
+    "images": [],
+    "example": {
+      "key": 2324,
+      "prompt": "Write a riddle about a mom laying out on a beach in Humboldt without using any commas.",
+      "instruction_id_list": [
+        "punctuation:no_comma"
+      ],
+      "kwargs": [
+        {}
+      ]
+    },
+    "image_sha256": []
+  },
+  {
+    "id": "ifeval/2328",
+    "task": "ifeval",
+    "stratum": "ifeval",
+    "prompt": "Write a startup pitch for a time capsule service. The words startup and capsule cannot be in the response.",
+    "images": [],
+    "example": {
+      "key": 2328,
+      "prompt": "Write a startup pitch for a time capsule service. The words startup and capsule cannot be in the response.",
+      "instruction_id_list": [
+        "keywords:forbidden_words"
+      ],
+      "kwargs": [
+        {
+          "forbidden_words": [
+            "startup",
+            "capsule"
+          ]
+        }
+      ]
+    },
+    "image_sha256": []
+  },
+  {
+    "id": "ifeval/2567",
+    "task": "ifeval",
+    "stratum": "ifeval",
+    "prompt": "Write a blog post about how to train a dog that is geared towards kids. Include the keywords \"finale\" and \"less\" in the post.",
+    "images": [],
+    "example": {
+      "key": 2567,
+      "prompt": "Write a blog post about how to train a dog that is geared towards kids. Include the keywords \"finale\" and \"less\" in the post.",
+      "instruction_id_list": [
+        "keywords:existence"
+      ],
+      "kwargs": [
+        {
+          "keywords": [
+            "finale",
+            "less"
+          ]
+        }
+      ]
+    },
+    "image_sha256": []
+  },
+  {
+    "id": "ifeval/2736",
+    "task": "ifeval",
+    "stratum": "ifeval",
+    "prompt": "Write a rant about how an asteroid killed the dinosaurs in all capital letters and in English. End the rant with the phrase \"What would happen to human next?\" and no other words should follow this phrase.",
+    "images": [],
+    "example": {
+      "key": 2736,
+      "prompt": "Write a rant about how an asteroid killed the dinosaurs in all capital letters and in English. End the rant with the phrase \"What would happen to human next?\" and no other words should follow this phrase.",
+      "instruction_id_list": [
+        "change_case:english_capital",
+        "startend:end_checker"
+      ],
+      "kwargs": [
+        {},
+        {
+          "end_phrase": "What would happen to human next?"
+        }
+      ]
+    },
+    "image_sha256": []
+  },
+  {
+    "id": "ifeval/281",
+    "task": "ifeval",
+    "stratum": "ifeval",
+    "prompt": "Write a joke about xml with a setup and a punchline. Wrap your entire response in double quotation marks.",
+    "images": [],
+    "example": {
+      "key": 281,
+      "prompt": "Write a joke about xml with a setup and a punchline. Wrap your entire response in double quotation marks.",
+      "instruction_id_list": [
+        "startend:quotation"
+      ],
+      "kwargs": [
+        {}
+      ]
+    },
+    "image_sha256": []
+  },
+  {
+    "id": "ifeval/2828",
+    "task": "ifeval",
+    "stratum": "ifeval",
+    "prompt": "Write a parody of 'ars poetica'. Do not include the word 'parody' throughout your response.",
+    "images": [],
+    "example": {
+      "key": 2828,
+      "prompt": "Write a parody of 'ars poetica'. Do not include the word 'parody' throughout your response.",
+      "instruction_id_list": [
+        "keywords:forbidden_words"
+      ],
+      "kwargs": [
+        {
+          "forbidden_words": [
+            "parody"
+          ]
+        }
+      ]
+    },
+    "image_sha256": []
+  },
+  {
+    "id": "ifeval/2870",
+    "task": "ifeval",
+    "stratum": "ifeval",
+    "prompt": "Write a rubric for teenagers on how to review a book. In your response, words with all capital letters should appear at least 3 times.",
+    "images": [],
+    "example": {
+      "key": 2870,
+      "prompt": "Write a rubric for teenagers on how to review a book. In your response, words with all capital letters should appear at least 3 times.",
+      "instruction_id_list": [
+        "change_case:capital_word_frequency"
+      ],
+      "kwargs": [
+        {
+          "capital_relation": "at least",
+          "capital_frequency": 3
+        }
+      ]
+    },
+    "image_sha256": []
+  },
+  {
+    "id": "ifeval/2871",
+    "task": "ifeval",
+    "stratum": "ifeval",
+    "prompt": "Write a poem about the history of reductions in the context of the church. Make it conversational and specific and include the word fiesta at least twice.",
+    "images": [],
+    "example": {
+      "key": 2871,
+      "prompt": "Write a poem about the history of reductions in the context of the church. Make it conversational and specific and include the word fiesta at least twice.",
+      "instruction_id_list": [
+        "keywords:frequency"
+      ],
+      "kwargs": [
+        {
+          "relation": "at least",
+          "keyword": "fiesta",
+          "frequency": 2
+        }
+      ]
+    },
+    "image_sha256": []
+  },
+  {
+    "id": "ifeval/2943",
+    "task": "ifeval",
+    "stratum": "ifeval",
+    "prompt": "Darth Vader is angry with you, his server, because you assassinated a fake Jedi. Write the conversation you have with him in which he expresses his anger. In your response, use the word \"might\" at least 6 times and use all lowercase letters. Make sure to break the conversation down to 3 parts, separated by ***, such as:\n[conversation part 1]\n***\n[conversation part 2]\n***\n[conversation part 3]",
+    "images": [],
+    "example": {
+      "key": 2943,
+      "prompt": "Darth Vader is angry with you, his server, because you assassinated a fake Jedi. Write the conversation you have with him in which he expresses his anger. In your response, use the word \"might\" at least 6 times and use all lowercase letters. Make sure to break the conversation down to 3 parts, separated by ***, such as:\n[conversation part 1]\n***\n[conversation part 2]\n***\n[conversation part 3]",
+      "instruction_id_list": [
+        "keywords:frequency",
+        "change_case:english_lowercase",
+        "length_constraints:number_paragraphs"
+      ],
+      "kwargs": [
+        {
+          "relation": "at least",
+          "keyword": "might",
+          "frequency": 6
+        },
+        {},
+        {
+          "num_paragraphs": 3
+        }
+      ]
+    },
+    "image_sha256": []
+  },
+  {
+    "id": "ifeval/3001",
+    "task": "ifeval",
+    "stratum": "ifeval",
+    "prompt": "Please provide a short, funny list of ways to pass time at work. End with the exact phrase Is there anything else I can help with?",
+    "images": [],
+    "example": {
+      "key": 3001,
+      "prompt": "Please provide a short, funny list of ways to pass time at work. End with the exact phrase Is there anything else I can help with?",
+      "instruction_id_list": [
+        "startend:end_checker"
+      ],
+      "kwargs": [
+        {
+          "end_phrase": "Is there anything else I can help with?"
+        }
+      ]
+    },
+    "image_sha256": []
+  },
+  {
+    "id": "ifeval/3081",
+    "task": "ifeval",
+    "stratum": "ifeval",
+    "prompt": "Can you re-create a story from a fictional newspaper with title: \"A man mysteriously died in his house, and police are investigating\"? Please include a critique of the story and use the style of a President of the United States. Do not mention the keywords \"story\", \"killer\", \"dead\", \"found\", \"law\", \"room\", \"kill\", \"result\", \"use\", \"approach\", \"people\", \"president\".",
+    "images": [],
+    "example": {
+      "key": 3081,
+      "prompt": "Can you re-create a story from a fictional newspaper with title: \"A man mysteriously died in his house, and police are investigating\"? Please include a critique of the story and use the style of a President of the United States. Do not mention the keywords \"story\", \"killer\", \"dead\", \"found\", \"law\", \"room\", \"kill\", \"result\", \"use\", \"approach\", \"people\", \"president\".",
+      "instruction_id_list": [
+        "keywords:forbidden_words"
+      ],
+      "kwargs": [
+        {
+          "forbidden_words": [
+            "story",
+            "killer",
+            "dead",
+            "found",
+            "law",
+            "room",
+            "kill",
+            "result",
+            "use",
+            "approach",
+            "people",
+            "president"
+          ]
+        }
+      ]
+    },
+    "image_sha256": []
+  },
+  {
+    "id": "ifeval/3186",
+    "task": "ifeval",
+    "stratum": "ifeval",
+    "prompt": "Write an article about how intra-team conflict affected sports teams. Write in a crazy coach screaming style. Use all capital letters to express the craziness. Basically, not a single word in your entire reply should contain lowercase letters.",
+    "images": [],
+    "example": {
+      "key": 3186,
+      "prompt": "Write an article about how intra-team conflict affected sports teams. Write in a crazy coach screaming style. Use all capital letters to express the craziness. Basically, not a single word in your entire reply should contain lowercase letters.",
+      "instruction_id_list": [
+        "change_case:english_capital"
+      ],
+      "kwargs": [
+        {}
+      ]
+    },
+    "image_sha256": []
+  },
+  {
+    "id": "ifeval/3204",
+    "task": "ifeval",
+    "stratum": "ifeval",
+    "prompt": "Write an essay about the reasons why slavery was abolished in the United States as if you are the president of the United States. Do not use any commas in your response. Your response should be in English, and in all capital letters.",
+    "images": [],
+    "example": {
+      "key": 3204,
+      "prompt": "Write an essay about the reasons why slavery was abolished in the United States as if you are the president of the United States. Do not use any commas in your response. Your response should be in English, and in all capital letters.",
+      "instruction_id_list": [
+        "punctuation:no_comma",
+        "change_case:english_capital"
+      ],
+      "kwargs": [
+        {},
+        {}
+      ]
+    },
+    "image_sha256": []
+  },
+  {
+    "id": "ifeval/3224",
+    "task": "ifeval",
+    "stratum": "ifeval",
+    "prompt": "Write an interesting riddle that uses math notation.\n\nFirst repeat the request word for word without change, then give your answer. Do not say any word before repeating the request.",
+    "images": [],
+    "example": {
+      "key": 3224,
+      "prompt": "Write an interesting riddle that uses math notation.\n\nFirst repeat the request word for word without change, then give your answer. Do not say any word before repeating the request.",
+      "instruction_id_list": [
+        "combination:repeat_prompt"
+      ],
+      "kwargs": [
+        {
+          "prompt_to_repeat": "Write an interesting riddle that uses math notation."
+        }
+      ]
+    },
+    "image_sha256": []
+  },
+  {
+    "id": "ifeval/332",
+    "task": "ifeval",
+    "stratum": "ifeval",
+    "prompt": "TLDR the article \"How to dress like a football manager: waistcoats and the style lessons from the Premier League\". Your entire response (including the repeated request) should have 45 or less words.\n\nFirst repeat the request above without changing a single letter, then give your answer.",
+    "images": [],
+    "example": {
+      "key": 332,
+      "prompt": "TLDR the article \"How to dress like a football manager: waistcoats and the style lessons from the Premier League\". Your entire response (including the repeated request) should have 45 or less words.\n\nFirst repeat the request above without changing a single letter, then give your answer.",
+      "instruction_id_list": [
+        "combination:repeat_prompt",
+        "length_constraints:number_words"
+      ],
+      "kwargs": [
+        {
+          "prompt_to_repeat": "TLDR the article \"How to dress like a football manager: waistcoats and the style lessons from the Premier League\". Your entire response (including the repeated request) should have 45 or less words."
+        },
+        {
+          "relation": "less than",
+          "num_words": 46
+        }
+      ]
+    },
+    "image_sha256": []
+  },
+  {
+    "id": "ifeval/3329",
+    "task": "ifeval",
+    "stratum": "ifeval",
+    "prompt": "Hey! I need a rubric for evaluating the performance and price of a laptop. Can you create an example for me? Do not give me any bullet points, lists, or tables. Just write the rubric in plain English paragraphs. I'd like your response to be at least 30 sentences long.",
+    "images": [],
+    "example": {
+      "key": 3329,
+      "prompt": "Hey! I need a rubric for evaluating the performance and price of a laptop. Can you create an example for me? Do not give me any bullet points, lists, or tables. Just write the rubric in plain English paragraphs. I'd like your response to be at least 30 sentences long.",
+      "instruction_id_list": [
+        "length_constraints:number_sentences"
+      ],
+      "kwargs": [
+        {
+          "relation": "at least",
+          "num_sentences": 30
+        }
+      ]
+    },
+    "image_sha256": []
+  },
+  {
+    "id": "ifeval/334",
+    "task": "ifeval",
+    "stratum": "ifeval",
+    "prompt": "Create a slogan for my company and wrap your entire response with double quotation marks. My company's name is Color Paper. We produce paper towls. We focus on producing eye-catching, colorful paper towls. The slogan must include exactly 2 bullet points in markdown format, like below:\n\"\nColor Paper\n* Colorful!\n* Eye-catching!\n\"",
+    "images": [],
+    "example": {
+      "key": 334,
+      "prompt": "Create a slogan for my company and wrap your entire response with double quotation marks. My company's name is Color Paper. We produce paper towls. We focus on producing eye-catching, colorful paper towls. The slogan must include exactly 2 bullet points in markdown format, like below:\n\"\nColor Paper\n* Colorful!\n* Eye-catching!\n\"",
+      "instruction_id_list": [
+        "startend:quotation",
+        "detectable_format:number_bullet_lists"
+      ],
+      "kwargs": [
+        {},
+        {
+          "num_bullets": 2
+        }
+      ]
+    },
+    "image_sha256": []
+  },
+  {
+    "id": "ifeval/3371",
+    "task": "ifeval",
+    "stratum": "ifeval",
+    "prompt": "Is the following true? \"People use time to buy money.\" Explain your answer in a way that makes it easy for kids to understand. Include the word \"farmer\". Exclude the words \"economy\", \"demand\" and \"supply\".\n\nFirst REPEAT the ENTIRE REQUEST ABOVE, word for word without change, then give your answer. Please do not say any words or characters before repeating the request.",
+    "images": [],
+    "example": {
+      "key": 3371,
+      "prompt": "Is the following true? \"People use time to buy money.\" Explain your answer in a way that makes it easy for kids to understand. Include the word \"farmer\". Exclude the words \"economy\", \"demand\" and \"supply\".\n\nFirst REPEAT the ENTIRE REQUEST ABOVE, word for word without change, then give your answer. Please do not say any words or characters before repeating the request.",
+      "instruction_id_list": [
+        "combination:repeat_prompt",
+        "keywords:existence",
+        "keywords:forbidden_words"
+      ],
+      "kwargs": [
+        {
+          "prompt_to_repeat": "Is the following true? \"People use time to buy money.\" Explain your answer in a way that makes it easy for kids to understand. Include the word \"farmer\". Exclude the words \"economy\", \"demand\" and \"supply\"."
+        },
+        {
+          "keywords": [
+            "farmer"
+          ]
+        },
+        {
+          "forbidden_words": [
+            "economy",
+            "demand",
+            "supply"
+          ]
+        }
+      ]
+    },
+    "image_sha256": []
+  },
+  {
+    "id": "ifeval/3505",
+    "task": "ifeval",
+    "stratum": "ifeval",
+    "prompt": "Write a pros and cons list of apple products in the style of a 19th century novelist and do not use any commas.\nRepeat the request above word for word without change, at the very beginning of your entire response. After that, you can give the requested pros and cons list.",
+    "images": [],
+    "example": {
+      "key": 3505,
+      "prompt": "Write a pros and cons list of apple products in the style of a 19th century novelist and do not use any commas.\nRepeat the request above word for word without change, at the very beginning of your entire response. After that, you can give the requested pros and cons list.",
+      "instruction_id_list": [
+        "punctuation:no_comma",
+        "combination:repeat_prompt"
+      ],
+      "kwargs": [
+        {},
+        {
+          "prompt_to_repeat": "Write a pros and cons list of apple products in the style of a 19th century novelist and do not use any commas."
+        }
+      ]
+    },
+    "image_sha256": []
+  },
+  {
+    "id": "ifeval/3534",
+    "task": "ifeval",
+    "stratum": "ifeval",
+    "prompt": "Write a tweet storm with a weird tone about a time when you found out that the earth is indeed not flat. Your response must be in English, with no capital letters, and in 20 to 30 sentences.",
+    "images": [],
+    "example": {
+      "key": 3534,
+      "prompt": "Write a tweet storm with a weird tone about a time when you found out that the earth is indeed not flat. Your response must be in English, with no capital letters, and in 20 to 30 sentences.",
+      "instruction_id_list": [
+        "change_case:english_lowercase",
+        "length_constraints:number_sentences",
+        "length_constraints:number_sentences"
+      ],
+      "kwargs": [
+        {},
+        {
+          "relation": "at least",
+          "num_sentences": 20
+        },
+        {
+          "relation": "less than",
+          "num_sentences": 31
+        }
+      ]
+    },
+    "image_sha256": []
+  },
+  {
+    "id": "ifeval/3624",
+    "task": "ifeval",
+    "stratum": "ifeval",
+    "prompt": "Write a poem about Gibbs free energy in the style of POTUS. There should be exactly 4 paragraphs. Paragraphs and only paragraphs should be separated by two new lines (like \"\\n\\n\"). Paragraph 2 must start with the word \"it\".",
+    "images": [],
+    "example": {
+      "key": 3624,
+      "prompt": "Write a poem about Gibbs free energy in the style of POTUS. There should be exactly 4 paragraphs. Paragraphs and only paragraphs should be separated by two new lines (like \"\\n\\n\"). Paragraph 2 must start with the word \"it\".",
+      "instruction_id_list": [
+        "length_constraints:nth_paragraph_first_word"
+      ],
+      "kwargs": [
+        {
+          "first_word": "it",
+          "num_paragraphs": 4,
+          "nth_paragraph": 2
+        }
+      ]
+    },
+    "image_sha256": []
+  },
+  {
+    "id": "ifeval/3644",
+    "task": "ifeval",
+    "stratum": "ifeval",
+    "prompt": "Write a blog post about interesting facts about the Dutch language. Italicize at least 2 sections in your answer with markdown, i.e. *italic text*.",
+    "images": [],
+    "example": {
+      "key": 3644,
+      "prompt": "Write a blog post about interesting facts about the Dutch language. Italicize at least 2 sections in your answer with markdown, i.e. *italic text*.",
+      "instruction_id_list": [
+        "detectable_format:number_highlighted_sections"
+      ],
+      "kwargs": [
+        {
+          "num_highlights": 2
+        }
+      ]
+    },
+    "image_sha256": []
+  },
+  {
+    "id": "ifeval/3750",
+    "task": "ifeval",
+    "stratum": "ifeval",
+    "prompt": "Is the moon landing a propaganda made up by the government? Your answer must contain one of the following exact phrases: ”My answer is yes.\", \"My answer is no.\", \"My answer is maybe.\"",
+    "images": [],
+    "example": {
+      "key": 3750,
+      "prompt": "Is the moon landing a propaganda made up by the government? Your answer must contain one of the following exact phrases: ”My answer is yes.\", \"My answer is no.\", \"My answer is maybe.\"",
+      "instruction_id_list": [
+        "detectable_format:constrained_response"
+      ],
+      "kwargs": [
+        {}
+      ]
+    },
+    "image_sha256": []
+  },
+  {
+    "id": "ifeval/3752",
+    "task": "ifeval",
+    "stratum": "ifeval",
+    "prompt": "If a + b = 10. And a > b. Is a = 6? Your answer must contain one of the following exact phrases: ”My answer is yes.\", \"My answer is no.\", \"My answer is maybe.\"",
+    "images": [],
+    "example": {
+      "key": 3752,
+      "prompt": "If a + b = 10. And a > b. Is a = 6? Your answer must contain one of the following exact phrases: ”My answer is yes.\", \"My answer is no.\", \"My answer is maybe.\"",
+      "instruction_id_list": [
+        "detectable_format:constrained_response"
+      ],
+      "kwargs": [
+        {}
+      ]
+    },
+    "image_sha256": []
+  }
+]

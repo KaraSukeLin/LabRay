@@ -1,0 +1,40 @@
+{
+  "passed": true,
+  "default_projection_equals_explicit_original_formula": [
+    "ifeval",
+    "mmmu_standard",
+    "mmmu_vision"
+  ],
+  "main_95pct_paired_rows_unchanged": 96,
+  "original_raw_files_equal_to_byte_concatenated_union": 18,
+  "joint_subset_scenarios_equal_to_original_estimator": true,
+  "targeted_tests": ".................                                                        [100%]\n17 passed in 5.19s",
+  "no_gpu_inference": true,
+  "full_budget_csv_byte_identical_after_direct_4k_support": [
+    "smoke_results.csv",
+    "question_timings.csv",
+    "model_load_and_wall.csv",
+    "long_cap_pairs.csv",
+    "full_estimates.csv",
+    "full_model_estimates.csv",
+    "weighting_sensitivity.csv"
+  ],
+  "source_sha256": {
+    "src/benchmark_analysis.py": "aa3be69e2347fcf804f719d2e667a977f285f2e368b583f71dc69482bda508de",
+    "src/benchmark_budget.py": "9299329f8c47d932bf93a44bc731f2941a49ed457e7cacfb02b6bc08040b5ae7",
+    "src/summarize_benchmark_pilot.py": "82f3c00c4d5380f0a439b9188b8d69b305e33bcd41bec461b2bc4450d72b505d",
+    "src/plot_benchmark_pilot.py": "40d0838690aad101f788ed97e99b611ced8bf5925cd7038bb76bd9e70d54e564",
+    "scripts/run_representative_pilot.sh": "7fb9f202e56ac4b2f10410e8dd5855870796dc268674f82c97e831417cc527c4",
+    "assets/benchmark_4096_config.json": "720fcb2249fe85cde243b118d115f904ce9f49c0d73f7c5f53bc165c19d8e058",
+    "assets/benchmark_research4_4096_config.json": "85fd8013d0867246040e0a69b47354a3f59cc950dc8ca7d5cfc7ff644d9655fc"
+  },
+  "actual_saved_response_subset_analysis_matches_full_results": true,
+  "validated_subset_models": [
+    "Qwen-Qwen3.8-27B",
+    "eNeural-Qwen3.8-27B-fast",
+    "rdtand-Qwen3.8-27B-PrismaAQUA-5.5bit-vllm",
+    "ModelOpt-Qwen3.8-27B-AutoQuantize-5.5bit"
+  ],
+  "local_markdown_links_checked": 153,
+  "source_union_rechecked_after_background_stop": true
+}

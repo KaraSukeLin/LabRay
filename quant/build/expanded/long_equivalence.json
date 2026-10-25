@@ -1,0 +1,17 @@
+{
+  "sample_id": "code-2048-00",
+  "context": 2048,
+  "shape": [
+    192,
+    248320
+  ],
+  "exact": true,
+  "max_abs": 0.0,
+  "flat_sha256": "e1ec6c3db9f3f399c40e967b9afd07d5b990fd53629bd73be661795b5d415e2f",
+  "dense_sha256": "e1ec6c3db9f3f399c40e967b9afd07d5b990fd53629bd73be661795b5d415e2f",
+  "full_run_reference_sha256": "e1ec6c3db9f3f399c40e967b9afd07d5b990fd53629bd73be661795b5d415e2f",
+  "full_run_sample_index": 24,
+  "probe_worker_exit_code": 0,
+  "probe_gpu_memory_utilization": 0.75,
+  "full_run_gpu_memory_utilization": 0.85
+}

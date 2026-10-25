@@ -1,0 +1,58 @@
+{
+  "models": [
+    "elephant",
+    "startlux",
+    "kev",
+    "qwen"
+  ],
+  "configuration": "valid",
+  "dataset": {
+    "source": "https://raw.githubusercontent.com/Yifan-Gao/open_retrieval_conversational_machine_reading",
+    "revision": "309c4ea3a7cc4c7a815d7f46292d91fc9a0de581",
+    "raw_sha256": {
+      "id2snippet.json": "859a6c9fca2b153ff72b834b9fcef520117b09088d4da9a66f6b1db48b8f7124",
+      "open_retrieval_sharc_train.json": "46ac9920a27fa0bedca59b0cb25a791aee2dee85508b6f518384342e4a1bbe51",
+      "open_retrieval_sharc_dev.json": "f58623a43829eb369a4bce1886f5b33790b939f404b27fdeb89fbce7d64061fd",
+      "open_retrieval_sharc_test.json": "a2ecee7f1cb014f28c862fa44df813501fb2f31a3c1ed64279efcf9e21ef4ce3"
+    },
+    "files": {
+      "audit.json": "1ca90b9d56f81339229b43d049e285b92411ff95009905970937a4c770991225",
+      "inputs/dev.jsonl": "925b078ab24068ecbd90ac38e27ca29b3d4b3e15cf95e9930e7f386571bf10af",
+      "inputs/test.jsonl": "813ad966e3f3e8894a932a10c232270e90e6e4328dd8d8fa4da4b3b939485607",
+      "inputs/train.jsonl": "5cfeb0e8188aff1474365dca99ec8c6cc73a0ee8c77d4823f30c70ce437ed6aa",
+      "partitions.json": "50b6b48abc0da9d25d597f09fe5559a46c5de550736128788c446dc28c2d44aa",
+      "sealed/dev.jsonl": "05f00eab25f9f4300b5e10433d5bf4d3ea447f02578308f11708d17f2a713595",
+      "sealed/test.jsonl": "66d344fd819de0309b92a464c23516b6de03149a47dd5504d3015d7b11dee222",
+      "sealed/train.jsonl": "54e6843442537ae90987e36e7e73d5f96977273b40aa47547739bedcd23fdc84"
+    },
+    "counts": {
+      "train": 17936,
+      "dev": 1105,
+      "test": 2373
+    },
+    "partition_counts": {
+      "train": 17936,
+      "dev": 1105,
+      "dev_select": 456,
+      "dev_calibrate": 649,
+      "test": 2373,
+      "train_256": 256,
+      "train_1024": 1024,
+      "train_4096": 4096,
+      "demos_4": 4
+    },
+    "seed": 42
+  },
+  "fixtures": {
+    "information_allowlist": "passed",
+    "six_task_strategies": "passed",
+    "composition_conflicts": "passed",
+    "no_invented_score_labels": "passed",
+    "metric_arithmetic": "passed",
+    "temperature_nll": "passed",
+    "saved_result_report_dashboard": "passed; eight deterministic train fixtures; not model results",
+    "resume_skip_partial_write_identity": "passed",
+    "inference_does_not_open_gold": "passed; file-open guard",
+    "native_option_order_roundtrip": "passed"
+  }
+}

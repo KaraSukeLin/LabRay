@@ -1,0 +1,13 @@
+{
+  "trigger": "Wide phase-1 BF16 IFEval sampling range",
+  "point_gpu_hours": 3.1357638813710462,
+  "sampling_95_hours": [
+    0.9358790490701406,
+    6.7274603424651644
+  ],
+  "resamples": 4999,
+  "additional_ifeval_questions": 40,
+  "additional_seed": 20261018,
+  "conditional_method": "Known 38 outcomes counted exactly; SRS 40 from remaining 503 questions, weight 503/40",
+  "full_benchmark_started": false
+}

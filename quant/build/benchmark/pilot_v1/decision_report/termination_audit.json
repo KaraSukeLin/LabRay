@@ -1,0 +1,58 @@
+{
+  "partial": false,
+  "observed_records": 2301,
+  "censored_records": 638,
+  "censored_contains_eos": [],
+  "eos_config": {
+    "Qwen-Qwen3.8-27B": [
+      248046,
+      248044
+    ],
+    "Qwen-Qwen3.8-27B-FP8": [
+      248046,
+      248044
+    ],
+    "eNeural-Qwen3.8-27B-fast": [
+      248046,
+      248044
+    ],
+    "nvidia-Qwen3.8-27B-NVFP4": [
+      248046,
+      248044
+    ],
+    "RedHatAI-Qwen3.8-27B-NVFP4": [
+      248046,
+      248044
+    ],
+    "unsloth-Qwen3.8-27B-NVFP4": [
+      248046,
+      248044
+    ],
+    "RadixArk-Qwen3.8-27B-NVFP4-BF16-LMHead": [
+      248046,
+      248044
+    ],
+    "rdtand-Qwen3.8-27B-PrismaAQUA-5.5bit-vllm": [
+      248046,
+      248044
+    ],
+    "ModelOpt-Qwen3.8-27B-AutoQuantize-5.5bit": [
+      248046,
+      248044
+    ]
+  },
+  "implementation": "InputProcessor.generation_config_fields uses ModelConfig.try_get_generation_config even when neutral vllm sampling defaults are selected",
+  "vllm_version": "0.31.0+cu129",
+  "source_sha256": {
+    "config/model.py": "e33d28deab39c42b1c209116296dcb6e98c6da8b4e42ee0dbca0e8bf098c534c",
+    "v1/engine/input_processor.py": "d79601e4a053a7bacb0d6a23e273348435e4ab70c6a315dcccb2d428ed57d96b",
+    "sampling_params.py": "3c37c655a0a60851e3d96d946eb10d1cbb347dee6cd143f38a7fc18c6f66dd8b"
+  },
+  "no_inference": true,
+  "native_stop_last_token_ids": {
+    "248046": 1663
+  },
+  "vllm_stop_reason_counts": {
+    "None": 1663
+  }
+}

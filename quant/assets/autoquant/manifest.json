@@ -1,0 +1,20 @@
+{
+  "source": "CNN/DailyMail 3.0.0 train",
+  "source_metadata": {
+    "file": "cnn0.parquet",
+    "url": "https://huggingface.co/datasets/abisee/cnn_dailymail/resolve/96df5e686bee6baa90b8bee7c28b81fa3fa6223d/3.0.0/train-00000-of-00003.parquet",
+    "bytes": 256540614,
+    "sha256": "a56093836f6283ceac48128515f6c87ade70abb11aec31d23a176c4d90ae1736"
+  },
+  "source_file_sha256": "a56093836f6283ceac48128515f6c87ade70abb11aec31d23a176c4d90ae1736",
+  "selection": "first 160 documents with >=512 tokens and no normalized 13-word overlap with any Fidelity input",
+  "calibration_documents": 128,
+  "validation_documents": 32,
+  "tokens_per_document": 512,
+  "evaluation_overlap_13word": 0,
+  "calibration_validation_document_overlap": 0,
+  "sha256": {
+    "calibration.json": "5eb8482414217b1d2818ec5ccfad8332bc68e0ed0e33b2612ae77eb35b57bbfd",
+    "validation.json": "e2eaa038208bd9b081ce54d62cbf63cf6fc9f1c8a6399f0f92e33715f8317e71"
+  }
+}

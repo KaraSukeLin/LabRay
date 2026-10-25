@@ -1,0 +1,75 @@
+{
+  "reason": "User requested a lower Thinking output limit to reduce extreme-tail runtime and report truncation explicitly.",
+  "applied_at_utc": "2026-10-20T03:34:45.613163+00:00",
+  "previous_thinking_on_max_tokens": 65000,
+  "new_thinking_on_max_tokens": 20480,
+  "thinking_off_max_tokens_unchanged": 16384,
+  "records_before_change": 6939,
+  "previous_records_over_new_cap": 40,
+  "fraction_previous_records_over_new_cap": 0.005764519383196426,
+  "previous_p99_output_tokens": 16444,
+  "previous_max_output_tokens": 61475,
+  "previous_truncated": 0,
+  "per_model": {
+    "Qwen-Qwen3.8-27B": {
+      "thinking_on_records": 1623,
+      "previous_cap_counts": {
+        "32768": 723,
+        "65000": 900
+      },
+      "above_20480": 12,
+      "max_output_tokens": 56407,
+      "truncated": 0
+    },
+    "eNeural-Qwen3.8-27B-fast": {
+      "thinking_on_records": 1272,
+      "previous_cap_counts": {
+        "32768": 570,
+        "49152": 24,
+        "65000": 678
+      },
+      "above_20480": 9,
+      "max_output_tokens": 61475,
+      "truncated": 0
+    },
+    "rdtand-Qwen3.8-27B-PrismaAQUA-5.5bit-vllm": {
+      "thinking_on_records": 1416,
+      "previous_cap_counts": {
+        "32768": 681,
+        "49152": 1,
+        "65000": 734
+      },
+      "above_20480": 6,
+      "max_output_tokens": 38472,
+      "truncated": 0
+    },
+    "ModelOpt-Qwen3.8-27B-AutoQuantize-5.5bit": {
+      "thinking_on_records": 1329,
+      "previous_cap_counts": {
+        "32768": 597,
+        "49152": 3,
+        "65000": 729
+      },
+      "above_20480": 6,
+      "max_output_tokens": 60052,
+      "truncated": 0
+    },
+    "unsloth-Qwen3.8-27B-NVFP4": {
+      "thinking_on_records": 1299,
+      "previous_cap_counts": {
+        "32768": 617,
+        "49152": 1,
+        "65000": 681
+      },
+      "above_20480": 7,
+      "max_output_tokens": 52366,
+      "truncated": 0
+    }
+  },
+  "note": "Each question row records its actual max_tokens. Existing completed rows remain unchanged; resume fills missing cells using the new cap. The historical >20,480 fraction describes pre-change completed Thinking outputs, not the expected truncation rate among remaining questions. The 20,480-token PrismaAQUA response was archived and removed from the main JSONL so it can be rerun at 65,000; it remains preserved in the archive.",
+  "previous_p95_output_tokens": 8082,
+  "restored_at_utc": "2026-10-20T03:59:59.853484+00:00",
+  "restored_thinking_on_max_tokens": 65000,
+  "truncated_rows_archived_for_rerun": 1,
+  "rerun_archive": "build/benchmark/ifeval_modes_formal_20261017/cap-20k-truncated-rerun-source.jsonl"
+}

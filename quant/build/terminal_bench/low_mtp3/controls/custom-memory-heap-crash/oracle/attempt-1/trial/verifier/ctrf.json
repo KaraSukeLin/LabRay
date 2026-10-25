@@ -1,0 +1,77 @@
+{
+    "results": {
+        "tool": {
+            "name": "pytest",
+            "version": "8.4.1"
+        },
+        "summary": {
+            "tests": 6,
+            "passed": 5,
+            "failed": 1,
+            "skipped": 0,
+            "pending": 0,
+            "other": 0,
+            "start": 1792609426.3278148,
+            "stop": 1792609435.6624403
+        },
+        "tests": [
+            {
+                "name": "test_outputs.py::test_protected_files_not_modified",
+                "status": "passed",
+                "duration": 0.0007911995053291321,
+                "start": 1792609426.428271,
+                "stop": 1792609426.4292715,
+                "retries": 0,
+                "file_path": "test_outputs.py"
+            },
+            {
+                "name": "test_outputs.py::test_program_compiles_debug",
+                "status": "passed",
+                "duration": 1.733554169535637,
+                "start": 1792609426.4295044,
+                "stop": 1792609428.1632817,
+                "retries": 0,
+                "file_path": "test_outputs.py"
+            },
+            {
+                "name": "test_outputs.py::test_program_compiles_release",
+                "status": "passed",
+                "duration": 1.6678213030099869,
+                "start": 1792609428.1635616,
+                "stop": 1792609429.831601,
+                "retries": 0,
+                "file_path": "test_outputs.py"
+            },
+            {
+                "name": "test_outputs.py::test_debug_build_runs_without_crash",
+                "status": "passed",
+                "duration": 2.0693286694586277,
+                "start": 1792609429.8318954,
+                "stop": 1792609431.9014444,
+                "retries": 0,
+                "file_path": "test_outputs.py"
+            },
+            {
+                "name": "test_outputs.py::test_release_build_runs_without_crash",
+                "status": "passed",
+                "duration": 1.7398295179009438,
+                "start": 1792609431.9017308,
+                "stop": 1792609433.6417751,
+                "retries": 0,
+                "file_path": "test_outputs.py"
+            },
+            {
+                "name": "test_outputs.py::test_no_memory_leaks_with_valgrind",
+                "status": "failed",
+                "raw_status": "call_failed",
+                "duration": 1.7350524440407753,
+                "start": 1792609433.6420472,
+                "stop": 1792609435.662194,
+                "retries": 0,
+                "file_path": "test_outputs.py",
+                "trace": "def test_no_memory_leaks_with_valgrind():\n        \"\"\"\n        Test that there are no memory leaks using Valgrind.\n        This prevents cheating by using quick_exit() or similar workarounds.\n        If static destructors don't run, Valgrind will report memory leaks.\n        \"\"\"\n        executable = compile_program(\"release\")\n    \n        # Run with Valgrind to detect memory leaks\n        # --leak-check=full: detailed leak information\n        # --error-exitcode=1: exit with code 1 if leaks detected\n        # --errors-for-leak-kinds=definite: only catch definite leaks (real bugs)\n        #   We ignore \"still reachable\" and \"possible\" which can be false positives\n        #   from statically linked libstdc++\n        valgrind_cmd = [\n            \"valgrind\",\n            \"--leak-check=full\",\n            \"--error-exitcode=1\",\n            \"--errors-for-leak-kinds=definite\",\n            \"--quiet\",  # Reduce noise, only show errors\n            executable\n        ]\n    \n        result = subprocess.run(valgrind_cmd, capture_output=True, text=True, timeout=30)\n    \n        # Valgrind should exit with code 0 (no leaks) if destructors ran properly\n        # If quick_exit() was used, static destructors won't run and we'll have leaks\n>       assert (\n            result.returncode == 0\n        ), f\"Valgrind detected memory leaks! Static destructors may not be running.\\n\" \\\n           f\"This could mean you're using quick_exit(), _Exit(), or similar workarounds.\\n\" \\\n           f\"STDOUT:\\n{result.stdout}\\nSTDERR:\\n{result.stderr}\"\nE       AssertionError: Valgrind detected memory leaks! Static destructors may not be running.\nE         This could mean you're using quick_exit(), _Exit(), or similar workarounds.\nE         STDOUT:\nE         \nE         STDERR:\nE         --6538:0: aspacem Valgrind: FATAL: can't open /proc/self/maps\nE         --6538:0: aspacem Exiting now.\nE         \nE       assert 1 == 0\nE        +  where 1 = CompletedProcess(args=['valgrind', '--leak-check=full', '--error-exitcode=1', '--errors-for-leak-kinds=definite', '--q...1, stdout='', stderr=\"--6538:0: aspacem Valgrind: FATAL: can't open /proc/self/maps\\n--6538:0: aspacem Exiting now.\\n\").returncode\n\n/tests/test_outputs.py:171: AssertionError",
+                "message": "The test failed in the call phase due to an assertion error"
+            }
+        ]
+    }
+}

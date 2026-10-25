@@ -1,0 +1,61 @@
+{
+  "model": "RadixArk-Qwen3.8-27B-NVFP4",
+  "model_path": "/root/model/RadixArk-Qwen3.8-27B-NVFP4",
+  "status": "ok",
+  "environment": {
+    "vllm": "0.31.0+cu129",
+    "torch": "2.13.0+cu129",
+    "transformers": "5.17.0",
+    "compressed-tensors": "0.17.0"
+  },
+  "gpu": "NVIDIA H100 80GB HBM3",
+  "cuda": "12.9",
+  "mtp": false,
+  "kv_cache_dtype": "bfloat16",
+  "quant_method": "modelopt",
+  "loaded": true,
+  "tokens": 432,
+  "ppl": 12.978358331259404,
+  "reference_ppl": 12.943072381460716,
+  "ppl_delta": 0.03528594979868771,
+  "kl_bf16_to_candidate": 0.028370775587747945,
+  "top1_flip_rate": 0.10185185185185185,
+  "vocab_size": 248320,
+  "distribution_sha256": [
+    "658d7b98ec8b858d794fd023c447c71ea6e7da60087ac6643a68d75e905b6871",
+    "023bd98753d62a5b85cf7f882c847b8725290e60540a45330e90361d3d7331fd",
+    "4cebcc5e603c584d439bebd4ac335cf73f45ac3080671476efb90719ec62ed99",
+    "dba7d242342e1913f9ddebc48150433e6ecb85c1b4f1ecc742b3ef802c4c575d",
+    "05eeaf54ab2beab962751a0d86bdc6e5defdc4db1c9a382bdad4df28311ecd43",
+    "b8a40078b0ec901d90b9d33fa82f8725dbc63d8e63db47581eee64a675f7be67",
+    "a8cc778cee35be09f0c96434b6b376be4e2c0f5b50b7579db2468795111e32bb",
+    "5c3db0170e94e99a3a1538444e7b024e50f591c94632831863b69a83c23f6469"
+  ],
+  "basic_inference_token_ids": [
+    [
+      3113
+    ],
+    [
+      271
+    ],
+    [
+      314
+    ],
+    [
+      561
+    ],
+    [
+      271
+    ],
+    [
+      271
+    ],
+    [
+      271
+    ],
+    [
+      271
+    ]
+  ],
+  "elapsed_seconds": 64.65354204177856
+}

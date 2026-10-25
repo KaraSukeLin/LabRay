@@ -1,0 +1,42 @@
+Traceback (most recent call last):
+  File "/root/projects/quant/src/terminal_proot.py", line 185, in exec
+    await asyncio.sleep(0.01)
+  File "/root/.local/share/uv/python/cpython-3.12.14-linux-x86_64-gnu/lib/python3.12/asyncio/tasks.py", line 665, in sleep
+    return await future
+           ^^^^^^^^^^^^
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/root/projects/quant/build/terminal_bench/sources/harbor/src/harbor/trial/trial.py", line 861, in _verify_with_timeout
+    return await asyncio.wait_for(verifier.verify(), timeout=timeout_sec)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/uv/python/cpython-3.12.14-linux-x86_64-gnu/lib/python3.12/asyncio/tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "/root/projects/quant/build/terminal_bench/sources/harbor/src/harbor/verifier/verifier.py", line 267, in verify
+    await self.environment.exec(
+  File "/root/projects/quant/src/terminal_proot.py", line 182, in exec
+    async with asyncio.timeout(timeout_sec if timeout_sec is not None else 900):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/uv/python/cpython-3.12.14-linux-x86_64-gnu/lib/python3.12/asyncio/timeouts.py", line 115, in __aexit__
+    raise TimeoutError from exc_val
+TimeoutError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/root/projects/quant/build/terminal_bench/sources/harbor/src/harbor/trial/trial.py", line 502, in run
+    await self._run()
+  File "/root/projects/quant/build/terminal_bench/sources/harbor/src/harbor/trial/single_step.py", line 51, in _run
+    await self._run_verifier()
+  File "/root/projects/quant/build/terminal_bench/sources/harbor/src/harbor/trial/single_step.py", line 105, in _run_verifier
+    self.result.verifier_result = await self._run_shared_verifier(
+                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/projects/quant/build/terminal_bench/sources/harbor/src/harbor/trial/trial.py", line 898, in _run_shared_verifier
+    return await self._verify_with_timeout(verifier, timeout_sec)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/projects/quant/build/terminal_bench/sources/harbor/src/harbor/trial/trial.py", line 865, in _verify_with_timeout
+    raise VerifierTimeoutError(
+harbor.trial.errors.VerifierTimeoutError: Verifier execution timed out after 1800.0 seconds

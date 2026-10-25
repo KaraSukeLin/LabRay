@@ -1,0 +1,58 @@
+{
+  "model": "unsloth-Qwen3.8-27B-NVFP4",
+  "gpu": [
+    0,
+    0
+  ],
+  "exit_code": 0,
+  "process_wall_seconds": 14772.279419764876,
+  "component_processes": [
+    {
+      "model": "unsloth-Qwen3.8-27B-NVFP4",
+      "gpu": 0,
+      "command": [
+        "/root/projects/quant/.modelopt-venv/bin/python",
+        "-u",
+        "/root/projects/quant/src/benchmark.py",
+        "run",
+        "--model",
+        "unsloth-Qwen3.8-27B-NVFP4",
+        "--config",
+        "/root/projects/quant/assets/benchmark_config.json",
+        "--data",
+        "/root/projects/quant/assets/benchmark/pilot_v1",
+        "--output",
+        "/root/projects/quant/build/benchmark/pilot_v1/runs/unsloth-Qwen3.8-27B-NVFP4",
+        "--long-max-tokens",
+        "4096",
+        "--long-ids",
+        "/root/projects/quant/assets/benchmark/pilot_v1/long_ids.json"
+      ],
+      "exit_code": 0,
+      "start_offset_seconds": 11927.379994764924,
+      "process_wall_seconds": 14057.454486574978
+    },
+    {
+      "model": "unsloth-Qwen3.8-27B-NVFP4",
+      "gpu": 0,
+      "command": [
+        "/root/projects/quant/.modelopt-venv/bin/python",
+        "-u",
+        "/root/projects/quant/src/benchmark.py",
+        "run",
+        "--model",
+        "unsloth-Qwen3.8-27B-NVFP4",
+        "--config",
+        "/root/projects/quant/assets/benchmark_config.json",
+        "--data",
+        "/root/projects/quant/assets/benchmark/pilot_if_supplement",
+        "--output",
+        "/root/projects/quant/build/benchmark/pilot_v1/ifeval_supplement_runs/unsloth-Qwen3.8-27B-NVFP4"
+      ],
+      "exit_code": 0,
+      "start_offset_seconds": 560.6213411875069,
+      "process_wall_seconds": 714.8249331898987
+    }
+  ],
+  "derived": true
+}

@@ -1,0 +1,35 @@
+{
+  "passed": true,
+  "formal_models": 9,
+  "full_fidelity_tokens_per_model": 55296,
+  "fresh_bf16_identical_distributions": 288,
+  "primary_comparisons": 18,
+  "search": {
+    "method": "kl_div",
+    "cost_model": "weight",
+    "cost": {
+      "excluded_module_name_patterns": [
+        "*visual*",
+        "*vision_tower*",
+        "*mtp*",
+        "*lm_head*"
+      ]
+    },
+    "cost_denominator_parameters": 24352522240.0,
+    "fixed_quantization_config": null,
+    "module_search_spaces": [],
+    "searchable_groups": 256,
+    "measured_quantized_candidates": 512,
+    "selected_effective_bits": 5.478834198982749,
+    "sensitivity_file_sha256": "5d93f11a9cbe7d38d68d8e71a35cb3d1d1e784a23b5b51520f0be17b39d151c0"
+  },
+  "independent_raw_documents": 24,
+  "safetensors_header_checks": 17571,
+  "benchmark_smoke_questions": 54,
+  "full_capability_benchmark_run": false,
+  "speculative_startup_tests": 18,
+  "cpu_tests": 13,
+  "source_precision_tensors_identical_per_new_model": 350,
+  "fidelity_implementation_unchanged": true,
+  "search_gpu_hours": 0.2127199210961246
+}

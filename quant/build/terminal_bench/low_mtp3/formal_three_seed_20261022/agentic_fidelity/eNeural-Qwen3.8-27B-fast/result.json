@@ -1,0 +1,3779 @@
+{
+  "model": "eNeural-Qwen3.8-27B-fast",
+  "model_path": "/root/model/eNeural-Qwen3.8-27B-fast",
+  "status": "ok",
+  "environment": {
+    "vllm": "0.31.0+cu129",
+    "torch": "2.13.0+cu129",
+    "transformers": "5.17.0",
+    "compressed-tensors": "0.17.0"
+  },
+  "gpu": "NVIDIA H100 80GB HBM3",
+  "cuda": "12.9",
+  "mtp": false,
+  "kv_cache_dtype": "bfloat16",
+  "quant_method": "compressed-tensors",
+  "loaded": true,
+  "logprob_format": "dense",
+  "tokens_sha256": "9d4ac6c4c3e588b922d01de81e87006935b107fddda8abaa45f36a0820b38ea4",
+  "source_sha256": "90fcfa567abee03b3af1c90f6f1afcab5e0bccfa5ed3d09f14ca61198a2eb0dd",
+  "v2_model_runner": "1",
+  "tokens": 7488,
+  "ppl": 1.232260207620752,
+  "reference_ppl": 1.2206961451589506,
+  "ppl_delta": 0.011564062461801417,
+  "kl_bf16_to_candidate": 0.010456065829933995,
+  "top1_flip_rate": 0.024439102564102564,
+  "vocab_size": 248320,
+  "distribution_sha256": [
+    "ee78785deb292dff780d5959187dc72acf2194fe314b51ce135ba29c76ab3124",
+    "237812dfd71e6dfa323ceebf10212f7b646f6b57b85a61b0deb623b1ae21711d",
+    "e8eff69559ce47eaa80cca63e9e8487d1361e120944aa9f0fcb584011012ac14",
+    "f5af07bd9640820e5ba4e36ffd979471bf4c05ce10154981c7d29d20a130786b",
+    "6578c3a32ab537b093144983a90709e6e011769c9c59a6bd07f700fdc5cb9c2b",
+    "2d5ee3c0254f6f635ac44b9d699422d5a4ae6e30f727577a5379ccb569454862",
+    "261d55f45a8e016692355399717681c16f70bd94c8741b298f482dec39a065a0",
+    "7de9a5b4d165a9769fbd51bb53a08ac72e9cccb900d493067ce81fbb51075443",
+    "52cfe8ce476bcae5dc93598854d3e2c59753eefe5c946405472e5eab7dba229a",
+    "47372035ca995990c45817bbf65e79aa67f7cbbd9732ef79ccadc931edaecc85",
+    "fbeec57162753cb20d778b8cc1736a70368de15852858df021f5cabf861fdfd1",
+    "d6cedbd94986cd9740fc515939f9564451082b395e99674906efe0eda47ce4d8",
+    "d9bbb488e7631c0d10d5b6bb5dab3067b60d902a3ad7147dd4d69fe3e275801a",
+    "e867c7319246f22c2885a070bdea8d4657f1ccf8fec2dc1654b39c371c7e1ea7",
+    "9240b55c415ad49d1e62e7d6abc8cce1a2134e1c98f1f0007bb52f3a7b3d34c3",
+    "3b5820e0614a8717b4e93e09575506ef13a7dc56e26253bb4a1282d6e1339194",
+    "67fef792bac1a384445e9567598f2057ee7e1fca2931f273c3e632fd24447a94",
+    "1077f75bcb815cf34abc1b0fc0118c65efb1260117c9fde9db64314161e1b06b",
+    "125513b5aea8d73b0cbef44c3401300190422a11b69154a8412778fd3b0c85b9",
+    "d828f8e120fd2dc9da84532c78f721ad182d76436da2a7174a977b10da86b0e4",
+    "8f5ec2844efd18c41e17dff8cf4c055509432711d668c05d8f27b1485bf3dffe",
+    "1101d35c40d206b7dc18e0520e1bf0edf1187a409f0ea97fcc3f88c312b572f1",
+    "32f2d9ab7dd6be2711b70a9a646891d594bac3608e5bd7bf559c8a8ce4081d73",
+    "da4c35bea9f98000627cdbf25fe31a4bde5596d95488cbf122c543b955655406",
+    "cadb4527b4def537f4ff04f6460171747831d1d91facdf42bee6d942f8c73d94",
+    "9f9bc88c3e78e7275ed3299d0868d8e5aaabcd942caa1b7a3323e56a3e30281b",
+    "3c5ff938e6c3e85023e25bc8876a26cc97abcc4e5a397aa603834c9e427f9a2c",
+    "10ca8590f1db5d87e2fdbd795a1d4778fcc4f0e2f8fe02848898aa740c17e38b",
+    "fa605c53c9a02d812c60611a8d05eeff486d8a7abae242db4b327169ecf7f2e7",
+    "29c7068b5395d6e12d892846c3bdfcec1c415017f746a9d38c31f579d412b149",
+    "f900fb46315d328f604724be6834a290cfc683414515a62e54c83516240918c1",
+    "820756f95ffcaa96076b415723d20aa62b1d245fb7d3556f1fca1dfa40e11709",
+    "0ce864fc020230acd4e19aa99b5e5711b95a8247512f877ebb7fdc0227c2e7ff",
+    "2ea5c57dfb7e04393524426d1f008c266b9547deebf04325a001ec195113b553",
+    "08f16aab755d4253dfde7818fa98053074af97794791f67830e659b97b45640d",
+    "f379512710fe940aee5817fa88f1a52b2351baee696af3d101c923ce1e1212fe",
+    "1dc3da8f926ca61cc7a43b43584bec77522d3ff40a4fb189888f3c939e2dd199",
+    "870077c7da36ec4e60c07989cd6d7a6f4ca019fb47724e6e8a0e0d60462deaa9",
+    "f8cb5685fb694b895d2c82bb57852aab44b4062d1248391706a650aec6b60681",
+    "fc0108e34d242818d3cd9f58066ae377f6ba95957277b3b77e4593955ea4f33f",
+    "94e7ae76eb75281ebdf2b141911d73be0a16f2a52fa53f9fd5d23c6c600d8268",
+    "0a8ce1e8fe3e3969e5654455df8797e7d84b928dd0001ecf6312423c38df1832",
+    "125a84975d4f6c5d2ed58dea6da574543e27f7d8763dacd5e63cb199a27e7d01",
+    "cddc85a225cc7d7c07d1efd4256c2ec7caa7a04886ff8a612ae0495570d137a7",
+    "fd47e083f42c8352d1e519e8fc2547fb3feeb6738873c163900f83f3786acf96",
+    "3efb94c3e789de94c2ec8744104d6d0507d2ca336e07edc1fe516c504151502b",
+    "8f9af819ba8f3ce127ccc9714bc0a91c62ad9d3de4ce592cf1024f4ca6c425f3",
+    "29ab9f83ef6d6bcd3764311b9d818204703ffe20b67f913153de7037371a47b7",
+    "03ac70e94b5ad48e7a9388f83c33ea51dc39bc81cc10ea3a681a5cad4cf9baab",
+    "61bbca20ab0137a7b67243b3cf3160c6731be6f7a4ecc8c362a7c76f25c0b6e9",
+    "2a4a44f5b5c4ffc16174d900876e1b25f4aa3216a4cbe3b5ebb6747f60c42f20",
+    "2540934bc94ff0e2dadf2895d58667699a49a9f062549c9bff98f13f2775c8b9",
+    "675abcfb4a33ab204dcd84122b917bd9f03e74d49fa10b990d25cfaa0a947705",
+    "0e4f06c276e8d11119dac31336c7d92defbfb8aaa41170c51955d8a7583071fa",
+    "dc33db71d49f826cdb7f13b5db9982c2822b5523181ebd57e91064875c02bcc6",
+    "0de7f1f5a7c3b1393d5495ebc0c0d995c9833caf11ca50fedefe4dc5ec5d74b0",
+    "5f158d9d12607c41cf3868c70c0415c2b38044b14816a330fa8353fb8be480d1",
+    "ae7c923d05d642a76ff2025c1c8a19693e82fb878c634810c3b86aac24963599",
+    "4fd366e29259dc0c67ba93875abe36f056e760cd6db6dcbb13e6cb34c370db19",
+    "c02c3d260231ef5794a55fdeba6e3f51a616d88d913bae6a5f574e1b842abca3",
+    "b908458be2572e80a6cacee3f0e8be7ff51d718321c63ffc54edaca0ccc6e4b6",
+    "4daf6d6ca8d1e69106eb52128dfe0da20df7239326b71b31ab32668d2aec5ce9",
+    "3fdb426a598c5b0284de625fc3158ea89a5b221d3b045e9aef7fd60f71c63391",
+    "348ac9672a97bc5492db7c87a6a66a9cccd64a65138f364189aa085e72151292",
+    "5906794029a3739da761fbdda626e9c9635df1e1b0a4afb5de39d7a7ad4b5173",
+    "3029a7ef423efdc976ff379116dd410d6176c484e29ac275917d3e7f2e55ca01",
+    "2e935768723b3bb41332cffeb42a42fb828cc37b4e7b34a68ffa33e8d7ba684c",
+    "7ea4b993d62ab1d5adf2a96639d1e4aaa7c4ccda238d7e26ed7e920653095333",
+    "14c23c6756da401e612f16851b966dcd85faca7ff440c5fd831ea908e10e4d6a",
+    "92d141eca319ad38da36efc6c4b43e2159b99b44fa235d538aeca239d54fd39f",
+    "562c8dce8f7a22df5d7708ed16968afe1306eb3f5d8dee8dfed9d8c2368fc134",
+    "4579379355f0b9f3743feee64293755ea053e1ca2fce128dc131f5999ff5adeb",
+    "96dd73a5cfa7c7f39e176851b97ac244d4e490ac1726d803e2b2e73fd1b99af6",
+    "be46a8942a1857b24e51471c8370c1c5ed4c5c34cfd7045fce50efb2873b7643",
+    "862784b82085de07b3892ee6b557a25f727646cc9fa140abe2548caf5d030c7f",
+    "28ccac305de7951534241de462559afb8b47b5f9864970df4629044307c974bf",
+    "33c34a36eba4befee77766459ed98d3f333a060609bcbf4da8860ad9cbb4d8ef",
+    "7d3f66dcbc197d29e574237a71d6c96b70211ae506235706fbfdaa095e3df0af",
+    "846c0131ff02494c58644eeb5e977e4e2546073fa02f6ad4908bbcf6e56d2b14",
+    "95791638ed49110d15435869ce21907b6128403d2515ea9cbe7f191621f7f936",
+    "e822ac76e2b136553aac64db6a450f6057b78c971db8a3ed00fde5961026b1bf",
+    "4e51bdf77888fabe8eb0bbb42ba1c0ebdc6b6422457b93107e40ff0f260a5ef4",
+    "b7658cca33074a9a81c9869f19cca22725b13aa8c313bc958b37df0093d74e9d",
+    "afd0ca3b38acb14876c35c2c66c82dba741cfac08bc1323086b81654089c3ab7",
+    "01d7f22b84cdb81f5314e31e7ca730b269dfc97c412f0e7a2d9ae2b183402681",
+    "393838ee759030efc4fe572038ab8c948083b34b145e608554d6bccfc9e1303a",
+    "304913497db1b39db886fe5e7c5c1b05e3b0432db2977c39539a21d928e98e8f",
+    "8e75c370ef66be32f2602db5e87303b405a07c6abe338626026068556fe13254",
+    "e37df5c552b2a6899244544a5fd55c9d9e2c143505f35a77844fb36673422864",
+    "7988810357d24c5c362c50dcd5f9fb488657c3b091eb66b1e68d304d02f85bb9",
+    "f5fdd8771937de242d037b2946f30f8c8cfbd367e84e2d5fb397f97b0a243aae",
+    "b1d612176ee1ee0ea9d6d7f71054d454602c018b96c54b89ecb22a1116e359bb",
+    "15ae6eef376929c9f6ea36d9f87444b514238a2dd03b82ccaef4d52526bca552",
+    "e45088ffba048b85142e3afa2ab9d1230fb95e38470223d52976fc2e8872df49",
+    "16eb46f7a407ab829ddbb72e0b1c28adb72b2839bb2cd4ba62119115fd3784e3",
+    "65e0c8dfb81b49c6c0ad148145c4dfe97b62aa190eaa3bcbe8cf0b6b34c86aee",
+    "3a4f7e007e18c1b919a0580fc4d07a3405eec20bbf2ae92d62319a241fbf0fee",
+    "16a07a34b4605304ff8ffc8cb7ec7c7c7694664bce4587fbabfb5b819d22fb8c",
+    "ba93cc133ffba00d46f455c104eefebf5ba033e9cbe4859e552165a6971e12bb",
+    "c04e40482469011a239f871c82b0fc0d7352270099022aa7e06e82ef33175bb0",
+    "63a09adfa1982586f459c8c3da40f999f80e47f9569c98540ca1245d65976c69",
+    "113caf837aaee08f54283caf9357ee1ae96e0f2820aaa3b2cfd3a3e5230ea470",
+    "ab6ed42e9d21fb55b2b3f216ec571b924021d9649a74494cde11485f5940129a",
+    "70de0c009060ef96bd3d224f69c3a36de12f904e7246d8fc33ed1f89cb523b8b",
+    "ce6ff7ad8e5d13c28d3e1f0f2c76944228f40be1210c7a0117584d63a7f875e6",
+    "490d3ea0175be36b5666a3dfc5f97e124e887c2f0daca929872baf83e847e51c",
+    "deb00323505b57bed9939e33e9cb9a7a675033ee2755900312353d40848e38af",
+    "412bc2831fb79609f517fd531c23bedd44a880d018856268a799b47469a1c1e8",
+    "118f1fca0d3bbbb431583c49a03c6da08cd23e6351aa883a3d7b52a53e816a47",
+    "2075e2010f05e593b18d69933880cab9f1cd9ab1d132e1d059a861bb8e4c8222",
+    "da104933e482d524b3c09761c024bdb8bf3f4f81cda31c4aec888931f3b7a1cd",
+    "38afc35b7a0959777115e91377206476f088f8cb486c9443ef15242c628ff994",
+    "dbe4fb79515e2cfc13b0d5828693b0eb0db123b217a6cb9f4ce24eceac74d44f",
+    "6011f00bd9b875851e4531d5191011f107faa0071a79e56525ed89958789a21f",
+    "9464da825ab8320d9eeac3ea3ec4593713b290c3060bbb70eebbcebd6cd0a362",
+    "cc77d5684a7787201b3198109174e6f1922e712a8b49accaf1c6dad953d28dfe",
+    "9bc39f37970bb1a764aa1dccf804ff5d632351a084fee3a059b5b4416ae065c2",
+    "3a36656eedc0079d0e31da3b0768e0f558417077f54bb06bb213acd0c454b8d3",
+    "16978a5d12397b7f7e6f0ebc1c3ac75b03ab1fb3f833a868f6d566f09fc415e4",
+    "e9c964c44ee1fbf88b332823fac475f1b872b72716607d2d22f001653af2691a",
+    "2bfdab218251de84649bcce7c06fb040999c2f714b84684280735826f41fb120",
+    "9e8b88ce6393612ae21c3e0fb4b481858c3aa6c9783a3b5cced7211d4174eddb",
+    "2dd85e615590dd94f3f0477ceff53f6ebfa62afba54b218e35319e2ded1bf709",
+    "24335fb292672c138207ae5696fa528edfc554e09d65fc344fa6559af5ef8586",
+    "ac44b581fffaf5dcb30a509bd1269f6e90ce72ecae8a80755e0c3dd040e72809",
+    "1776310b99b2c9dec70ffa84b8ff6e54539eeaf98e8deca25929de1f691a18df",
+    "7bd44c1dcd37c42c5c2288dd04e1f064e33af68494a2504f5053be17f3d2c35b",
+    "6962ffa0ce3f4b3ed57fcbd4cf4dd6fa0eb2e1aea44d67d9c08e0b7610a20342",
+    "19d03580020f3b3a666b7a1844e3030547ee9feb87e7adaf1b7b57c15def00db",
+    "7ae3d3686076fac8835e692b4ce9e29da8385ca18c66b00d52db51c3175c8585",
+    "4d3e802070b1e0074c1484c5ec4092cdb3095f207e1d3b932a10a13c4bb0a0ee",
+    "14f4b9171ca605bef0fde55ae32952ff741a54d179eda8708c459520d27cb1e0",
+    "a579f6e59adc03a0ee550bacf2ee92eb08bb4e8967274357046d6c103e9b2ff8",
+    "ce2b8d8a6973565c72f58e070a4d9939f72eee0af0bdf9f2cfb5e46d722060d3",
+    "abe6b98ac7f7d9945c9df400aaf62486a22ae45a23ff257601748796fb97e543",
+    "cb195f0b21d5a676f7e9cf621263b81cd0add12aaca4adb0bdd8ca4d23970091",
+    "a30c71d8e5842ea029a72433a7048ef0f2ecbb3a217885e1d697471bcffe5d41",
+    "3f2970fc04865f343ce23468dac5913f6a2ccb2fd12a40d8f3adde5998467f91",
+    "10176fda93526bc44723e07ab59ba1d7f563fa3be41adea35e52985fed297907",
+    "2010ccc482282a83ca70b8102df43f256cfa35f96a91fcbfbee7cf59bcffe028",
+    "5cb5c16e66274b68fe5e248229d5d43c07e9a6b5254a6be256e4b8a17c481121",
+    "d608142a82c4229f9a0f930195cb166bb58634c33eb190417889c61527da4a32",
+    "f87e209326637694288b2f61d7c548bc5d5d673d34d6805db50445d3fec63124",
+    "a4730b97cb8f2429d6f3b10a6a8174ae0b9559ddbc8313e91dbda706ffbab11a",
+    "77ef60b6e5c222331da6061de980a349e860a39905d0b3dc6291293851c9a0f1",
+    "e4de9e60a05a22f44e08e8fac420be107078271f918072b177c410a0347f8c24",
+    "ece1e4d42742a4b9111611437d80bc2cbf3dd2d887c97083ad14004b91195ee5",
+    "beb254907ac3f053e61ac015149590310c8d4a25ac0e75d5502a8367c9b81589",
+    "52f14f2af0d538fdd55720eb7f34aa73deb22955f5c6f6c3b0a4bc3287a471c9",
+    "570bcfaf233b732242e4e431b487b8e83a2b9d72f57539e7cea026d7ea2eaa3a",
+    "3e3a531f1ce79e01e2e7b382f5233a0a65516efe16dc60ad4173a3939fcb0c84",
+    "b66ea4e0cd702937636d22bc076de202dbb821e12617d59971e90a60d690e550",
+    "26177ce609834b0796423452985594263c9e5362a5e14df75695d63eb29c2dec",
+    "241eddc6caa307d104da17b3eeb764674564fb8465758ad4c37bb4a802eee705",
+    "f1f1a1f97c6c9fc9e86c910f7b4c3238272a0b5a43abc6d4322a3e663e462a2e",
+    "c50dbc1d9805e5b7fb89322fbd79382b5d85b3affaaf6950b2177745e4553c4d",
+    "0725d976e238e82d5e034d75cb6793259606c6947d095a37bfa90457f95c92db",
+    "de47f18da9b731be9abed58013076de849444a82db44f82b9c67bd1db138b5be",
+    "cbd57b1701e4671560036b240a74277d5cdd4bb4c9a8b69928fad02d3b3aca50",
+    "f7d58143d8619fdfc296b45e24fa5b7bbaf4089cc213d876ef8c4166bedc0a51",
+    "58c4671389d2e64a8aa9fca6f79a8b2e3e2636ee400890b74850776ea0610f50",
+    "462f1685637fd73bf1970291e5581811743013a7d55148ec0abcb56460709e74",
+    "8f7d05eb2bcc119ea1e55211eaa494871151e9671cb1d965268a394b9fbf96f7",
+    "84dd2e8d26074eff304cdbc4eef84fe43bf004c4281a014a6feabf01a910904e",
+    "0fd37896c06c178a0a9b40008983d94a724d59ee564cd6393cd900a483d3537b",
+    "6f307d3d87cde27655a18dfa80da1585a370dc186a5a0afa8cb42cbbbc5f8f0d",
+    "21773cac2825cedd30324e9abc77a0de29642c31970b74bc47cee295fecab0a8",
+    "0f131fd920944b1fb3f169b92c1b1b905486946852fc3fe6b4c09eee2ffd20d5",
+    "f1c8fbdfab1c222b24f3548ce106fb29cd030ddeb0c32a4efcc8b01f4f249ba2",
+    "951ae67de32545d1d09ced46dafb5a673480db0d8d7271999129c5339e068cd5",
+    "cb333332cc11c510f2031032a16e989211bcefd88dd10ffd93bd955f3546903a",
+    "7b63bd48dcfe2f42fccfcca8ba2a02ea8726fb259a50ef3e1f31c51db8b2d146",
+    "0841ad13f7b061a9153873fb3457a76a047f59d378b7f44011f3caff3dfc41fc",
+    "1ee061524f72fb6e96986f811fb5c5844d7dd47cc8a17c139693fe0e31ae265f",
+    "74456a2a85e9943846a66052164168fe05126e870e29fc51136746cdae9b0e09",
+    "3410163cbc0ad05d6077cf346743202b3a2934254e78d46cf43cc3471fd0c37b",
+    "bdbaf240e5a3a01e5c0429d50ed6bf3567c42430710451d51fe57053768fe56a",
+    "941c433f0423e955c963ab6041107cc3df5c8502cc3109261f1bfd60141cd6d2",
+    "d405562786af0f7930e49de5d4305c0a859383e9339ad9589c671d33be140aad",
+    "a3b45d3187a2d1227b91c3715d075befce50c2bdbed07d095e237b5f300aff3e",
+    "2f718e7816f6a7c3fe06e4b083fb22a5f1f7b17793cf0d3bf23e92cf38c6086a",
+    "b2d7dc0e22b90f1689e272c883bf79a09d157e26656cab3fa732d3a3406b5cee",
+    "e19e64ce9c036b59523e2501ac582a1c74b68f3e421d7b02a89ae84c8532116f",
+    "66eee9dbe2135c8acf3477b6366dccc0ccaa4551944f3c802e3c6d7496557a82",
+    "b28745a3e0790e6617365aba2dfd0c78198995b201d71f5254c8a291ccc56331",
+    "62b64a50b1eb6d024f549ae03345a8ccd765dc3f6006b2b9a0e34c60b348bdfe",
+    "1e57a322acfdec2e5c44452ff2938f785a935313dd5a9e9a9d89750e58bad199",
+    "5ce8db74ba53f064d4b5c0fc295119a4ca6565f2229f1db06442f082e61e5437",
+    "be5e19108e46da68a2b1b8cf0466c0f3521d63bb1c10c8916d302d4cdee20f03",
+    "28f283b633fa0df3432207245adba0c1ca5e09453b6dcc55385981942603e007",
+    "03e8484677560cf2fc9972be7defec06d88a53868c5f9c4caedab5136a30007e",
+    "15e8fad0def3adb8667d45fd01cdac13d7ff1ae2093040a8d38a07d8d711e214",
+    "ee1d55df54c6fddfd0b7e282dc702e9f0d7e73f793f953927e4f6d3c196554ac",
+    "53ebf2e4a7bc3411ad19a785a4135a6f248acae367df7ffc9e878dfbe5163be0",
+    "5d8623e615fe0bc03e4c996119ec9aabc44e5ed9137ec2af8f8e1ee679194fe5",
+    "e84c4ce325219ad529248fdcee551ca4f9ab37d129f9ddc89bed5497e26be378",
+    "55d5f0a1753dfd45bbdb85da841b19f1a9ad78169d43af3974fdfe547eda2368",
+    "33f9d95c706c84389b023c205d9d36df72f04e14e66fd53a48546cc7d36ee99c",
+    "a768e25e2ea8f197c7969a5e15eda999347c6db45f687406c4cc39be38f6fcae",
+    "42d2cb1f75772d60c35e03b7593028b897b7c903cf85e9359fa28eeab478243b",
+    "0b65f855c8b6794c4ccf36a222580a08fd0fd141dab7b8f8209b93fe1caca02d",
+    "16ad7f0bab9ba1ff7333eed84a9e19cd8ad72fa7670f3066ff8b54233a84bee0",
+    "26da6a7cbe1bb3301e4a1bca3b6dadaf380192b81282a14c5615deec0e71a555",
+    "fb1866d48ae6236b131647b6d706e68b7b4bb57ecf73a4505a20b17856bcd39c",
+    "ee0e4c2225b627009a4f6f07ca0d7652ccecaba699786aad0b3a300a9871de8d",
+    "b6b42111cc13f0eec9d3562f5d59b0493f81275a273466ec6ebf24364a81f9c8",
+    "4ad99c3d9671a3e906e011f5e8bfd9fcbdc1ece1a15b94f11297ea77efb7c46d",
+    "fbe415794c93f564dee795b2819e7325a60f99b3cf7803949989a16717dfe7ce",
+    "bec6df298aff67298f40fe634142bf1205f79fc851f65b744dd02f9a723b90d5",
+    "609179d35bd35df667cd92610b7627572ed6cd068fb5d62ecd0810f0174f8a50",
+    "919d5b98f6fded72a7986b28d65226e2499bc7a234dc07b6c7aace006731a5d3",
+    "a97cbb140eaa38cb9451a1dbf7743fd768bf07223da75519bd8fe3314d51ad31",
+    "29c7391d061462d6f249a73d0e8389689612e000e6191e4af830b4348f18de68",
+    "9dc08d082a03ebea59e26865db96b4e1cbacdaaa4847205d11eb22b0ea4e2221",
+    "603204d06ed91c68f63932412a6d4aa665bca081ecadbf8407f0eb1e67968f6a",
+    "e03989b4e1b1f65157e981ebadc759c6904c1106c762aff479c1fd0a193b98ed",
+    "27fe35146a9adb004f58f01445e0ab2ddeb9040d8e7281170ed127b1a8c5cf9f",
+    "2ed771295cba5e6d721118c9fae04f1119387a1b368da1424e166cd70b96fa3f",
+    "02c0bba4cce94185c9d33185c1185cbd23b94c65487686c6380d607da13babf8",
+    "65a663c61425000acb02b9c366e1f8a7957885b2e6fd6bf86d05b7cf58a10000",
+    "869e9cf8d107eed91a5b42ae34fa3882ca53cbf3f8e03e533054cf1e39fc5006",
+    "c5bd99d119d7448207413eaf26329459fbd621c2a6db34e55856091ce735002e",
+    "84d43a7a23cfe9deb72ffe0cdf57cea0de358b94897d0658f8c6d54541ebd0b0",
+    "23a0a14ed5736a6403c690e1664422a8fdece0912df687d96af86e9e53138568",
+    "aea041c09ecd5e0ec5ae579a1161302eb0b3d3fa4208f4842f9fff7227d46e6c",
+    "9e438a2ca18cfd6a6f60e971720f82f09a43ce2ba207706781e17212202a11f9",
+    "a1387370ce7d812ccee199fc6068ce50c4268db29d05fc2c1126859acb3bf21b",
+    "f9bbba82fdacedea31af41dbb3b1a2538ef0849b3dd71b281d1730381d4b17ab",
+    "0de86bcd05bde1641ba090d1df5a65e56a2ff1dc86bbd43630b9ada885db496b",
+    "05db81088e9cc7fbe6764a27537fa9d206f7bdcd5f4a5ea61c0857ad8fff01c0",
+    "4d85e6f7e3daa776ba6b59f63227c58f0327d76aa258191a6de76b086d4587fa",
+    "a791171d4ab8ed7ec1f3fe9de8d93c2904259ec1eb19ba63da39664414f41fac",
+    "43e3b959f1a8d555afbbddd354cfaf6a9fddba5bf35357aa4aab05a1a9656da0",
+    "9fcdac6b34c2a6b7cff496579bb171c8a8abdffcd6cd0a7f9dc090482e89f349"
+  ],
+  "basic_inference_token_ids": [
+    [
+      5058
+    ],
+    [
+      8
+    ],
+    [
+      3165
+    ],
+    [
+      220
+    ],
+    [
+      1970
+    ],
+    [
+      13428
+    ],
+    [
+      198
+    ],
+    [
+      12083
+    ],
+    [
+      11
+    ],
+    [
+      92
+    ],
+    [
+      25
+    ],
+    [
+      748
+    ],
+    [
+      3418
+    ],
+    [
+      248069
+    ],
+    [
+      15
+    ],
+    [
+      443
+    ],
+    [
+      3889
+    ],
+    [
+      5008
+    ],
+    [
+      30252
+    ],
+    [
+      15
+    ],
+    [
+      34643
+    ],
+    [
+      64
+    ],
+    [
+      20
+    ],
+    [
+      16
+    ],
+    [
+      12
+    ],
+    [
+      11286
+    ],
+    [
+      28021
+    ],
+    [
+      5869
+    ],
+    [
+      1698
+    ],
+    [
+      77
+    ],
+    [
+      5365
+    ],
+    [
+      7145
+    ],
+    [
+      63
+    ],
+    [
+      36066
+    ],
+    [
+      19
+    ],
+    [
+      763
+    ],
+    [
+      353
+    ],
+    [
+      17
+    ],
+    [
+      64915
+    ],
+    [
+      5372
+    ],
+    [
+      12
+    ],
+    [
+      15
+    ],
+    [
+      33761
+    ],
+    [
+      16
+    ],
+    [
+      20
+    ],
+    [
+      471
+    ],
+    [
+      766
+    ],
+    [
+      248069
+    ],
+    [
+      2167
+    ],
+    [
+      8533
+    ],
+    [
+      3312
+    ],
+    [
+      17
+    ],
+    [
+      1042
+    ],
+    [
+      60
+    ],
+    [
+      1
+    ],
+    [
+      70106
+    ],
+    [
+      728
+    ],
+    [
+      92
+    ],
+    [
+      5972
+    ],
+    [
+      13
+    ],
+    [
+      6108
+    ],
+    [
+      71093
+    ],
+    [
+      939
+    ],
+    [
+      9764
+    ],
+    [
+      77
+    ],
+    [
+      424
+    ],
+    [
+      248069
+    ],
+    [
+      11
+    ],
+    [
+      731
+    ],
+    [
+      279
+    ],
+    [
+      263
+    ],
+    [
+      15
+    ],
+    [
+      77
+    ],
+    [
+      4162
+    ],
+    [
+      310
+    ],
+    [
+      279
+    ],
+    [
+      1639
+    ],
+    [
+      487
+    ],
+    [
+      34
+    ],
+    [
+      248069
+    ],
+    [
+      2349
+    ],
+    [
+      1534
+    ],
+    [
+      50821
+    ],
+    [
+      248069
+    ],
+    [
+      21
+    ],
+    [
+      13
+    ],
+    [
+      248069
+    ],
+    [
+      21
+    ],
+    [
+      16
+    ],
+    [
+      32651
+    ],
+    [
+      279
+    ],
+    [
+      17
+    ],
+    [
+      487
+    ],
+    [
+      6747
+    ],
+    [
+      5099
+    ],
+    [
+      369
+    ],
+    [
+      22
+    ],
+    [
+      553
+    ],
+    [
+      2400
+    ],
+    [
+      198
+    ],
+    [
+      487
+    ],
+    [
+      60607
+    ],
+    [
+      16
+    ],
+    [
+      86
+    ],
+    [
+      21555
+    ],
+    [
+      1088
+    ],
+    [
+      6558
+    ],
+    [
+      248069
+    ],
+    [
+      487
+    ],
+    [
+      1088
+    ],
+    [
+      1510
+    ],
+    [
+      24496
+    ],
+    [
+      77
+    ],
+    [
+      65
+    ],
+    [
+      17
+    ],
+    [
+      15
+    ],
+    [
+      471
+    ],
+    [
+      10713
+    ],
+    [
+      328
+    ],
+    [
+      2493
+    ],
+    [
+      15197
+    ],
+    [
+      58
+    ],
+    [
+      8
+    ],
+    [
+      2255
+    ],
+    [
+      77
+    ],
+    [
+      471
+    ],
+    [
+      279
+    ],
+    [
+      13
+    ],
+    [
+      6964
+    ],
+    [
+      12
+    ],
+    [
+      50821
+    ],
+    [
+      14
+    ],
+    [
+      94076
+    ],
+    [
+      51372
+    ],
+    [
+      17
+    ],
+    [
+      9764
+    ],
+    [
+      15
+    ],
+    [
+      279
+    ],
+    [
+      10813
+    ],
+    [
+      11
+    ],
+    [
+      1302
+    ],
+    [
+      81646
+    ],
+    [
+      248069
+    ],
+    [
+      364
+    ],
+    [
+      359
+    ],
+    [
+      1510
+    ],
+    [
+      279
+    ],
+    [
+      7658
+    ],
+    [
+      75340
+    ],
+    [
+      77
+    ],
+    [
+      189551
+    ],
+    [
+      1510
+    ],
+    [
+      35234
+    ],
+    [
+      1118
+    ],
+    [
+      70853
+    ],
+    [
+      11
+    ],
+    [
+      487
+    ],
+    [
+      295
+    ],
+    [
+      12654
+    ],
+    [
+      264
+    ],
+    [
+      262
+    ],
+    [
+      1228
+    ],
+    [
+      2
+    ],
+    [
+      381
+    ],
+    [
+      487
+    ],
+    [
+      283
+    ],
+    [
+      198
+    ],
+    [
+      318
+    ],
+    [
+      21555
+    ],
+    [
+      579
+    ],
+    [
+      22
+    ],
+    [
+      283
+    ],
+    [
+      77
+    ],
+    [
+      478
+    ],
+    [
+      6558
+    ],
+    [
+      17
+    ],
+    [
+      471
+    ],
+    [
+      11882
+    ],
+    [
+      4528
+    ],
+    [
+      7
+    ],
+    [
+      487
+    ],
+    [
+      220
+    ],
+    [
+      1608
+    ],
+    [
+      17
+    ],
+    [
+      1891
+    ],
+    [
+      3272
+    ],
+    [
+      22
+    ],
+    [
+      67
+    ],
+    [
+      5808
+    ],
+    [
+      15
+    ],
+    [
+      19130
+    ],
+    [
+      5375
+    ],
+    [
+      6
+    ],
+    [
+      837
+    ],
+    [
+      1
+    ],
+    [
+      76
+    ],
+    [
+      25
+    ],
+    [
+      22521
+    ],
+    [
+      55
+    ],
+    [
+      198
+    ],
+    [
+      1228
+    ],
+    [
+      561
+    ],
+    [
+      1228
+    ],
+    [
+      9016
+    ],
+    [
+      21555
+    ],
+    [
+      279
+    ],
+    [
+      20
+    ],
+    [
+      12
+    ],
+    [
+      306
+    ],
+    [
+      16
+    ],
+    [
+      369
+    ],
+    [
+      4706
+    ],
+    [
+      1302
+    ],
+    [
+      31114
+    ],
+    [
+      19
+    ],
+    [
+      29
+    ],
+    [
+      10383
+    ],
+    [
+      2610
+    ],
+    [
+      279
+    ],
+    [
+      2577
+    ],
+    [
+      13684
+    ],
+    [
+      13
+    ],
+    [
+      4434
+    ],
+    [
+      15
+    ],
+    [
+      1639
+    ],
+    [
+      67
+    ],
+    [
+      13
+    ],
+    [
+      5392
+    ],
+    [
+      4924
+    ],
+    [
+      11
+    ],
+    [
+      17
+    ],
+    [
+      506
+    ],
+    [
+      220
+    ],
+    [
+      411
+    ]
+  ],
+  "documents": [
+    {
+      "tokens": 32,
+      "nll": 10.457329888646086,
+      "ref_nll": 10.04323717094271,
+      "kl_sum": 0.37816612303152325,
+      "flips": 0,
+      "id": "adaptive-rejection-sampler/0",
+      "document_id": "adaptive-rejection-sampler",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 1711
+    },
+    {
+      "tokens": 32,
+      "nll": 5.047125090107102,
+      "ref_nll": 3.6952930196150646,
+      "kl_sum": 0.22882256533252593,
+      "flips": 1,
+      "id": "adaptive-rejection-sampler/1",
+      "document_id": "adaptive-rejection-sampler",
+      "domain": "code",
+      "language": "agentic",
+      "context": 23063
+    },
+    {
+      "tokens": 32,
+      "nll": 10.463747415187754,
+      "ref_nll": 10.043826230635943,
+      "kl_sum": 0.39517060325541764,
+      "flips": 1,
+      "id": "adaptive-rejection-sampler/2",
+      "document_id": "adaptive-rejection-sampler",
+      "domain": "after_tool",
+      "language": "agentic",
+      "context": 1606
+    },
+    {
+      "tokens": 32,
+      "nll": 3.13592020542913,
+      "ref_nll": 2.9602107850213244,
+      "kl_sum": 0.17098665954579773,
+      "flips": 0,
+      "id": "adaptive-rejection-sampler/3",
+      "document_id": "adaptive-rejection-sampler",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 19603
+    },
+    {
+      "tokens": 32,
+      "nll": 5.285195452480295,
+      "ref_nll": 6.659780261288915,
+      "kl_sum": 0.4370941372407213,
+      "flips": 1,
+      "id": "cancel-async-tasks/0",
+      "document_id": "cancel-async-tasks",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 3386
+    },
+    {
+      "tokens": 32,
+      "nll": 3.899504460533244,
+      "ref_nll": 3.506111169421878,
+      "kl_sum": 0.09840638016864972,
+      "flips": 1,
+      "id": "cancel-async-tasks/1",
+      "document_id": "cancel-async-tasks",
+      "domain": "code",
+      "language": "agentic",
+      "context": 2859
+    },
+    {
+      "tokens": 32,
+      "nll": 7.74907729191488,
+      "ref_nll": 9.27610788728392,
+      "kl_sum": 0.4324664718916642,
+      "flips": 2,
+      "id": "cancel-async-tasks/2",
+      "document_id": "cancel-async-tasks",
+      "domain": "after_tool",
+      "language": "agentic",
+      "context": 3366
+    },
+    {
+      "tokens": 32,
+      "nll": 18.28668812728165,
+      "ref_nll": 17.942557475050933,
+      "kl_sum": 0.526470790926501,
+      "flips": 2,
+      "id": "cancel-async-tasks/3",
+      "document_id": "cancel-async-tasks",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 1923
+    },
+    {
+      "tokens": 32,
+      "nll": 19.926996531996338,
+      "ref_nll": 20.436076211209183,
+      "kl_sum": 0.4193622005339258,
+      "flips": 0,
+      "id": "chess-best-move/0",
+      "document_id": "chess-best-move",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 1454
+    },
+    {
+      "tokens": 32,
+      "nll": 5.521061472869945,
+      "ref_nll": 5.305609192330728,
+      "kl_sum": 0.273989752441269,
+      "flips": 0,
+      "id": "chess-best-move/1",
+      "document_id": "chess-best-move",
+      "domain": "code",
+      "language": "agentic",
+      "context": 7114
+    },
+    {
+      "tokens": 32,
+      "nll": 14.780807162498604,
+      "ref_nll": 12.630272739571978,
+      "kl_sum": 1.1094468684380279,
+      "flips": 3,
+      "id": "chess-best-move/2",
+      "document_id": "chess-best-move",
+      "domain": "after_tool",
+      "language": "agentic",
+      "context": 15650
+    },
+    {
+      "tokens": 32,
+      "nll": 2.21113528887372,
+      "ref_nll": 2.1884192524876838,
+      "kl_sum": 0.24050130337016262,
+      "flips": 1,
+      "id": "chess-best-move/3",
+      "document_id": "chess-best-move",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 22843
+    },
+    {
+      "tokens": 32,
+      "nll": 4.939241429450519,
+      "ref_nll": 5.179775831624156,
+      "kl_sum": 0.2014602622366339,
+      "flips": 0,
+      "id": "circuit-fibsqrt/0",
+      "document_id": "circuit-fibsqrt",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 1123
+    },
+    {
+      "tokens": 32,
+      "nll": 5.356980682940865,
+      "ref_nll": 5.839146532030959,
+      "kl_sum": 0.1745119134446099,
+      "flips": 1,
+      "id": "circuit-fibsqrt/1",
+      "document_id": "circuit-fibsqrt",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 1128
+    },
+    {
+      "tokens": 32,
+      "nll": 4.675344365016542,
+      "ref_nll": 3.4376706818094647,
+      "kl_sum": 0.2144041093872258,
+      "flips": 0,
+      "id": "circuit-fibsqrt/2",
+      "document_id": "circuit-fibsqrt",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 1080
+    },
+    {
+      "tokens": 32,
+      "nll": 3.9762493211083196,
+      "ref_nll": 3.474877562657298,
+      "kl_sum": 0.11890757950846728,
+      "flips": 0,
+      "id": "circuit-fibsqrt/3",
+      "document_id": "circuit-fibsqrt",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 1092
+    },
+    {
+      "tokens": 32,
+      "nll": 4.376510995536634,
+      "ref_nll": 4.395178217889779,
+      "kl_sum": 0.0996480743152793,
+      "flips": 0,
+      "id": "cobol-modernization/0",
+      "document_id": "cobol-modernization",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 21664
+    },
+    {
+      "tokens": 32,
+      "nll": 9.058288068498733,
+      "ref_nll": 7.4266004789623565,
+      "kl_sum": 0.3332829817363371,
+      "flips": 2,
+      "id": "cobol-modernization/1",
+      "document_id": "cobol-modernization",
+      "domain": "terminal_command",
+      "language": "agentic",
+      "context": 19762
+    },
+    {
+      "tokens": 32,
+      "nll": 0.0027783072524769636,
+      "ref_nll": 0.004668330854393332,
+      "kl_sum": 0.0012265710731155352,
+      "flips": 0,
+      "id": "cobol-modernization/2",
+      "document_id": "cobol-modernization",
+      "domain": "code",
+      "language": "agentic",
+      "context": 17101
+    },
+    {
+      "tokens": 32,
+      "nll": 9.995569802987802,
+      "ref_nll": 8.832029506435504,
+      "kl_sum": 0.3561754268142845,
+      "flips": 2,
+      "id": "cobol-modernization/3",
+      "document_id": "cobol-modernization",
+      "domain": "after_tool",
+      "language": "agentic",
+      "context": 9361
+    },
+    {
+      "tokens": 32,
+      "nll": 5.745916348271635,
+      "ref_nll": 5.397175549545182,
+      "kl_sum": 0.255971154133701,
+      "flips": 0,
+      "id": "code-from-image/0",
+      "document_id": "code-from-image",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 2885
+    },
+    {
+      "tokens": 32,
+      "nll": 2.208608983658678,
+      "ref_nll": 1.8759289006916902,
+      "kl_sum": 0.01012080035622655,
+      "flips": 0,
+      "id": "code-from-image/1",
+      "document_id": "code-from-image",
+      "domain": "terminal_command",
+      "language": "agentic",
+      "context": 4345
+    },
+    {
+      "tokens": 32,
+      "nll": 5.741066251137056,
+      "ref_nll": 6.097599948311995,
+      "kl_sum": 0.2833862759098437,
+      "flips": 2,
+      "id": "code-from-image/2",
+      "document_id": "code-from-image",
+      "domain": "code",
+      "language": "agentic",
+      "context": 3710
+    },
+    {
+      "tokens": 32,
+      "nll": 3.8753639529390327,
+      "ref_nll": 3.5386264157200316,
+      "kl_sum": 0.23995912520873686,
+      "flips": 3,
+      "id": "code-from-image/3",
+      "document_id": "code-from-image",
+      "domain": "after_tool",
+      "language": "agentic",
+      "context": 4073
+    },
+    {
+      "tokens": 32,
+      "nll": 0.02636768591537475,
+      "ref_nll": 0.013840300694937469,
+      "kl_sum": 0.0037549297368918086,
+      "flips": 0,
+      "id": "constraints-scheduling/0",
+      "document_id": "constraints-scheduling",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 4587
+    },
+    {
+      "tokens": 32,
+      "nll": 2.201331258521769,
+      "ref_nll": 2.4281021217953622,
+      "kl_sum": 0.028286680323694687,
+      "flips": 0,
+      "id": "constraints-scheduling/1",
+      "document_id": "constraints-scheduling",
+      "domain": "terminal_command",
+      "language": "agentic",
+      "context": 6726
+    },
+    {
+      "tokens": 32,
+      "nll": 3.109166979142479,
+      "ref_nll": 1.8095016478762105,
+      "kl_sum": 0.5344488492741062,
+      "flips": 2,
+      "id": "constraints-scheduling/2",
+      "document_id": "constraints-scheduling",
+      "domain": "code",
+      "language": "agentic",
+      "context": 6061
+    },
+    {
+      "tokens": 32,
+      "nll": 6.258749645642638,
+      "ref_nll": 5.8565444364162005,
+      "kl_sum": 0.426762392979914,
+      "flips": 0,
+      "id": "constraints-scheduling/3",
+      "document_id": "constraints-scheduling",
+      "domain": "after_tool",
+      "language": "agentic",
+      "context": 5987
+    },
+    {
+      "tokens": 32,
+      "nll": 6.531644021134355,
+      "ref_nll": 5.858920813994104,
+      "kl_sum": 0.12655757003086732,
+      "flips": 0,
+      "id": "count-dataset-tokens/0",
+      "document_id": "count-dataset-tokens",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 1870
+    },
+    {
+      "tokens": 32,
+      "nll": 3.271942713457605,
+      "ref_nll": 3.2812883179595644,
+      "kl_sum": 0.1233812512436539,
+      "flips": 0,
+      "id": "count-dataset-tokens/1",
+      "document_id": "count-dataset-tokens",
+      "domain": "code",
+      "language": "agentic",
+      "context": 4600
+    },
+    {
+      "tokens": 32,
+      "nll": 6.8838672023657566,
+      "ref_nll": 6.918990443010323,
+      "kl_sum": 0.13565982558660616,
+      "flips": 0,
+      "id": "count-dataset-tokens/2",
+      "document_id": "count-dataset-tokens",
+      "domain": "after_tool",
+      "language": "agentic",
+      "context": 5483
+    },
+    {
+      "tokens": 32,
+      "nll": 1.5944893767229544,
+      "ref_nll": 1.4828179945247868,
+      "kl_sum": 0.06310787854749544,
+      "flips": 1,
+      "id": "count-dataset-tokens/3",
+      "document_id": "count-dataset-tokens",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 887
+    },
+    {
+      "tokens": 32,
+      "nll": 5.947887284310212,
+      "ref_nll": 6.141334051337822,
+      "kl_sum": 0.13382655084569178,
+      "flips": 0,
+      "id": "crack-7z-hash/0",
+      "document_id": "crack-7z-hash",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 1266
+    },
+    {
+      "tokens": 32,
+      "nll": 6.154225418039601,
+      "ref_nll": 6.442686120736425,
+      "kl_sum": 0.17953492854747807,
+      "flips": 0,
+      "id": "crack-7z-hash/1",
+      "document_id": "crack-7z-hash",
+      "domain": "after_tool",
+      "language": "agentic",
+      "context": 1263
+    },
+    {
+      "tokens": 32,
+      "nll": 4.576926742134205,
+      "ref_nll": 4.607010383282372,
+      "kl_sum": 0.5615277049126155,
+      "flips": 0,
+      "id": "crack-7z-hash/2",
+      "document_id": "crack-7z-hash",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 2404
+    },
+    {
+      "tokens": 32,
+      "nll": 9.092787079287795,
+      "ref_nll": 9.110217075320406,
+      "kl_sum": 0.3221447524884652,
+      "flips": 0,
+      "id": "crack-7z-hash/3",
+      "document_id": "crack-7z-hash",
+      "domain": "after_tool",
+      "language": "agentic",
+      "context": 5825
+    },
+    {
+      "tokens": 32,
+      "nll": 13.390453277243012,
+      "ref_nll": 13.152314771995748,
+      "kl_sum": 0.4151202947149377,
+      "flips": 1,
+      "id": "db-wal-recovery/0",
+      "document_id": "db-wal-recovery",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 6451
+    },
+    {
+      "tokens": 32,
+      "nll": 3.6529433174173036,
+      "ref_nll": 4.851904054510321,
+      "kl_sum": 0.3876902999341333,
+      "flips": 2,
+      "id": "db-wal-recovery/1",
+      "document_id": "db-wal-recovery",
+      "domain": "terminal_command",
+      "language": "agentic",
+      "context": 23825
+    },
+    {
+      "tokens": 32,
+      "nll": 2.8394905154985395,
+      "ref_nll": 2.616333028455955,
+      "kl_sum": 0.21658620798440548,
+      "flips": 0,
+      "id": "db-wal-recovery/2",
+      "document_id": "db-wal-recovery",
+      "domain": "code",
+      "language": "agentic",
+      "context": 15985
+    },
+    {
+      "tokens": 32,
+      "nll": 15.874698720563174,
+      "ref_nll": 14.787045532822958,
+      "kl_sum": 0.7059527389695899,
+      "flips": 1,
+      "id": "db-wal-recovery/3",
+      "document_id": "db-wal-recovery",
+      "domain": "after_tool",
+      "language": "agentic",
+      "context": 24153
+    },
+    {
+      "tokens": 32,
+      "nll": 2.317585416560803,
+      "ref_nll": 1.6838098798754118,
+      "kl_sum": 0.10887499630791383,
+      "flips": 0,
+      "id": "distribution-search/0",
+      "document_id": "distribution-search",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 6240
+    },
+    {
+      "tokens": 32,
+      "nll": 0.49966587109272353,
+      "ref_nll": 0.31172304515246196,
+      "kl_sum": 0.06539334385251652,
+      "flips": 0,
+      "id": "distribution-search/1",
+      "document_id": "distribution-search",
+      "domain": "code",
+      "language": "agentic",
+      "context": 14774
+    },
+    {
+      "tokens": 32,
+      "nll": 8.175572892030083,
+      "ref_nll": 8.465777976825358,
+      "kl_sum": 0.6959309639683116,
+      "flips": 2,
+      "id": "distribution-search/2",
+      "document_id": "distribution-search",
+      "domain": "after_tool",
+      "language": "agentic",
+      "context": 6172
+    },
+    {
+      "tokens": 32,
+      "nll": 0.00013148610265290017,
+      "ref_nll": 0.00017761741710842216,
+      "kl_sum": 2.424575448690752e-05,
+      "flips": 0,
+      "id": "distribution-search/3",
+      "document_id": "distribution-search",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 6688
+    },
+    {
+      "tokens": 32,
+      "nll": 0.057993331074385424,
+      "ref_nll": 0.06303237341370505,
+      "kl_sum": 0.0026398153093410833,
+      "flips": 0,
+      "id": "dna-assembly/0",
+      "document_id": "dna-assembly",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 16457
+    },
+    {
+      "tokens": 32,
+      "nll": 11.201707679546416,
+      "ref_nll": 11.989441058066632,
+      "kl_sum": 1.208630678717752,
+      "flips": 1,
+      "id": "dna-assembly/1",
+      "document_id": "dna-assembly",
+      "domain": "code",
+      "language": "agentic",
+      "context": 19352
+    },
+    {
+      "tokens": 32,
+      "nll": 4.553661851081557,
+      "ref_nll": 3.906302927888504,
+      "kl_sum": 0.479690438599537,
+      "flips": 0,
+      "id": "dna-assembly/2",
+      "document_id": "dna-assembly",
+      "domain": "after_tool",
+      "language": "agentic",
+      "context": 5313
+    },
+    {
+      "tokens": 32,
+      "nll": 12.501180594457765,
+      "ref_nll": 11.018605640724445,
+      "kl_sum": 0.40499940349163466,
+      "flips": 4,
+      "id": "dna-assembly/3",
+      "document_id": "dna-assembly",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 11547
+    },
+    {
+      "tokens": 32,
+      "nll": 8.177245705525557,
+      "ref_nll": 7.62649470416374,
+      "kl_sum": 0.1279068349003775,
+      "flips": 0,
+      "id": "dna-insert/0",
+      "document_id": "dna-insert",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 13935
+    },
+    {
+      "tokens": 32,
+      "nll": 4.8390493643553825,
+      "ref_nll": 6.057135406115421,
+      "kl_sum": 0.33006182820193203,
+      "flips": 1,
+      "id": "dna-insert/1",
+      "document_id": "dna-insert",
+      "domain": "terminal_command",
+      "language": "agentic",
+      "context": 9242
+    },
+    {
+      "tokens": 32,
+      "nll": 0.4873961420323951,
+      "ref_nll": 0.4469875627326303,
+      "kl_sum": 0.026299536740305426,
+      "flips": 0,
+      "id": "dna-insert/2",
+      "document_id": "dna-insert",
+      "domain": "code",
+      "language": "agentic",
+      "context": 11845
+    },
+    {
+      "tokens": 32,
+      "nll": 6.040104202480279,
+      "ref_nll": 5.0470187135696705,
+      "kl_sum": 0.5591031400266531,
+      "flips": 0,
+      "id": "dna-insert/3",
+      "document_id": "dna-insert",
+      "domain": "after_tool",
+      "language": "agentic",
+      "context": 9497
+    },
+    {
+      "tokens": 32,
+      "nll": 2.273882043648136,
+      "ref_nll": 2.680432437126214,
+      "kl_sum": 0.20503953455445265,
+      "flips": 0,
+      "id": "extract-elf/0",
+      "document_id": "extract-elf",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 990
+    },
+    {
+      "tokens": 32,
+      "nll": 4.1959334533998955,
+      "ref_nll": 3.8267907511048804,
+      "kl_sum": 0.2512869845550429,
+      "flips": 1,
+      "id": "extract-elf/1",
+      "document_id": "extract-elf",
+      "domain": "code",
+      "language": "agentic",
+      "context": 14744
+    },
+    {
+      "tokens": 32,
+      "nll": 9.100964578206117,
+      "ref_nll": 9.41263619472727,
+      "kl_sum": 0.38263886746099957,
+      "flips": 0,
+      "id": "extract-elf/2",
+      "document_id": "extract-elf",
+      "domain": "after_tool",
+      "language": "agentic",
+      "context": 10486
+    },
+    {
+      "tokens": 32,
+      "nll": 12.716458266052598,
+      "ref_nll": 10.500319192533674,
+      "kl_sum": 0.5161827290033542,
+      "flips": 3,
+      "id": "extract-elf/3",
+      "document_id": "extract-elf",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 6904
+    },
+    {
+      "tokens": 32,
+      "nll": 15.984339218070545,
+      "ref_nll": 16.534221384614852,
+      "kl_sum": 0.4515149362751256,
+      "flips": 2,
+      "id": "extract-moves-from-video/0",
+      "document_id": "extract-moves-from-video",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 27116
+    },
+    {
+      "tokens": 32,
+      "nll": 0.3796330455550958,
+      "ref_nll": 0.4857626095766534,
+      "kl_sum": 0.017360586020714015,
+      "flips": 0,
+      "id": "extract-moves-from-video/1",
+      "document_id": "extract-moves-from-video",
+      "domain": "terminal_command",
+      "language": "agentic",
+      "context": 7854
+    },
+    {
+      "tokens": 32,
+      "nll": 24.775179913684042,
+      "ref_nll": 22.813246540222273,
+      "kl_sum": 0.7809700232234302,
+      "flips": 2,
+      "id": "extract-moves-from-video/2",
+      "document_id": "extract-moves-from-video",
+      "domain": "after_tool",
+      "language": "agentic",
+      "context": 26377
+    },
+    {
+      "tokens": 32,
+      "nll": 22.2396959401824,
+      "ref_nll": 21.180297514987274,
+      "kl_sum": 0.4363292119214979,
+      "flips": 0,
+      "id": "extract-moves-from-video/3",
+      "document_id": "extract-moves-from-video",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 28327
+    },
+    {
+      "tokens": 32,
+      "nll": 3.8189818315798334,
+      "ref_nll": 3.4506638824204856,
+      "kl_sum": 0.22405243166921776,
+      "flips": 1,
+      "id": "feal-differential-cryptanalysis/0",
+      "document_id": "feal-differential-cryptanalysis",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 2833
+    },
+    {
+      "tokens": 32,
+      "nll": 8.086116962256256,
+      "ref_nll": 6.938138014068272,
+      "kl_sum": 0.5269597323675494,
+      "flips": 1,
+      "id": "feal-differential-cryptanalysis/1",
+      "document_id": "feal-differential-cryptanalysis",
+      "domain": "after_tool",
+      "language": "agentic",
+      "context": 1836
+    },
+    {
+      "tokens": 32,
+      "nll": 12.11935444175856,
+      "ref_nll": 8.779377063348647,
+      "kl_sum": 1.0129148114525799,
+      "flips": 3,
+      "id": "feal-differential-cryptanalysis/2",
+      "document_id": "feal-differential-cryptanalysis",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 4532
+    },
+    {
+      "tokens": 32,
+      "nll": 20.754743674184056,
+      "ref_nll": 17.58028100655224,
+      "kl_sum": 0.4754564361510931,
+      "flips": 2,
+      "id": "feal-linear-cryptanalysis/0",
+      "document_id": "feal-linear-cryptanalysis",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 20713
+    },
+    {
+      "tokens": 32,
+      "nll": 0.18933495262945144,
+      "ref_nll": 0.2809672245193724,
+      "kl_sum": 0.04906171651645967,
+      "flips": 0,
+      "id": "feal-linear-cryptanalysis/1",
+      "document_id": "feal-linear-cryptanalysis",
+      "domain": "code",
+      "language": "agentic",
+      "context": 16051
+    },
+    {
+      "tokens": 32,
+      "nll": 5.993359948718535,
+      "ref_nll": 6.126875804729252,
+      "kl_sum": 0.329569323490595,
+      "flips": 0,
+      "id": "feal-linear-cryptanalysis/2",
+      "document_id": "feal-linear-cryptanalysis",
+      "domain": "after_tool",
+      "language": "agentic",
+      "context": 19454
+    },
+    {
+      "tokens": 32,
+      "nll": 4.171860071572439,
+      "ref_nll": 3.8075494142102,
+      "kl_sum": 0.21837362607660044,
+      "flips": 1,
+      "id": "feal-linear-cryptanalysis/3",
+      "document_id": "feal-linear-cryptanalysis",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 1231
+    },
+    {
+      "tokens": 32,
+      "nll": 7.9665456650747615,
+      "ref_nll": 9.157218837123395,
+      "kl_sum": 2.6527637193048355,
+      "flips": 4,
+      "id": "filter-js-from-html/0",
+      "document_id": "filter-js-from-html",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 2019
+    },
+    {
+      "tokens": 32,
+      "nll": 4.734394502381264,
+      "ref_nll": 4.617399929425801,
+      "kl_sum": 0.10168139194885725,
+      "flips": 1,
+      "id": "filter-js-from-html/1",
+      "document_id": "filter-js-from-html",
+      "domain": "code",
+      "language": "agentic",
+      "context": 5085
+    },
+    {
+      "tokens": 32,
+      "nll": 11.266875499458308,
+      "ref_nll": 10.89680660895965,
+      "kl_sum": 0.29010080328148957,
+      "flips": 0,
+      "id": "filter-js-from-html/2",
+      "document_id": "filter-js-from-html",
+      "domain": "after_tool",
+      "language": "agentic",
+      "context": 13409
+    },
+    {
+      "tokens": 32,
+      "nll": 15.100370608479913,
+      "ref_nll": 16.190905369416924,
+      "kl_sum": 1.295568358057931,
+      "flips": 2,
+      "id": "filter-js-from-html/3",
+      "document_id": "filter-js-from-html",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 18426
+    },
+    {
+      "tokens": 32,
+      "nll": 3.158819323346222,
+      "ref_nll": 3.7641964892294197,
+      "kl_sum": 0.47319038417753634,
+      "flips": 1,
+      "id": "financial-document-processor/0",
+      "document_id": "financial-document-processor",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 24279
+    },
+    {
+      "tokens": 32,
+      "nll": 0.4576537717287792,
+      "ref_nll": 0.5289547445833307,
+      "kl_sum": 0.08173895485121721,
+      "flips": 0,
+      "id": "financial-document-processor/1",
+      "document_id": "financial-document-processor",
+      "domain": "code",
+      "language": "agentic",
+      "context": 27115
+    },
+    {
+      "tokens": 32,
+      "nll": 4.203280940198852,
+      "ref_nll": 5.981653347364926,
+      "kl_sum": 0.3630909335907213,
+      "flips": 0,
+      "id": "financial-document-processor/2",
+      "document_id": "financial-document-processor",
+      "domain": "after_tool",
+      "language": "agentic",
+      "context": 2485
+    },
+    {
+      "tokens": 32,
+      "nll": 1.7617599000846837,
+      "ref_nll": 1.7464009656757753,
+      "kl_sum": 0.06192471967494581,
+      "flips": 0,
+      "id": "financial-document-processor/3",
+      "document_id": "financial-document-processor",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 1041
+    },
+    {
+      "tokens": 32,
+      "nll": 0.33275010223368184,
+      "ref_nll": 0.31071086043020557,
+      "kl_sum": 0.03222205530748993,
+      "flips": 0,
+      "id": "fix-code-vulnerability/0",
+      "document_id": "fix-code-vulnerability",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 11037
+    },
+    {
+      "tokens": 32,
+      "nll": 0.17147256365665697,
+      "ref_nll": 0.05460794300367411,
+      "kl_sum": 0.05975267881438782,
+      "flips": 0,
+      "id": "fix-code-vulnerability/1",
+      "document_id": "fix-code-vulnerability",
+      "domain": "terminal_command",
+      "language": "agentic",
+      "context": 18339
+    },
+    {
+      "tokens": 32,
+      "nll": 12.452982798215203,
+      "ref_nll": 11.89544889227119,
+      "kl_sum": 0.542086913446799,
+      "flips": 2,
+      "id": "fix-code-vulnerability/2",
+      "document_id": "fix-code-vulnerability",
+      "domain": "code",
+      "language": "agentic",
+      "context": 9618
+    },
+    {
+      "tokens": 32,
+      "nll": 8.924545881341487,
+      "ref_nll": 7.63090986141605,
+      "kl_sum": 0.48157778438879595,
+      "flips": 0,
+      "id": "fix-code-vulnerability/3",
+      "document_id": "fix-code-vulnerability",
+      "domain": "after_tool",
+      "language": "agentic",
+      "context": 6545
+    },
+    {
+      "tokens": 32,
+      "nll": 7.672726189428772,
+      "ref_nll": 7.04359995763415,
+      "kl_sum": 0.399115636515519,
+      "flips": 0,
+      "id": "fix-git/0",
+      "document_id": "fix-git",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 863
+    },
+    {
+      "tokens": 32,
+      "nll": 0.002828737357781108,
+      "ref_nll": 0.004104842834827593,
+      "kl_sum": 0.0004718899403557417,
+      "flips": 0,
+      "id": "fix-git/1",
+      "document_id": "fix-git",
+      "domain": "code",
+      "language": "agentic",
+      "context": 12167
+    },
+    {
+      "tokens": 32,
+      "nll": 3.6704589226349,
+      "ref_nll": 3.004577768573647,
+      "kl_sum": 0.39350135460137237,
+      "flips": 0,
+      "id": "fix-git/2",
+      "document_id": "fix-git",
+      "domain": "after_tool",
+      "language": "agentic",
+      "context": 13015
+    },
+    {
+      "tokens": 32,
+      "nll": 14.69099669361458,
+      "ref_nll": 13.122909259740482,
+      "kl_sum": 0.49590533476514,
+      "flips": 4,
+      "id": "fix-git/3",
+      "document_id": "fix-git",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 6845
+    },
+    {
+      "tokens": 32,
+      "nll": 13.916814307021014,
+      "ref_nll": 13.63241114044672,
+      "kl_sum": 0.39627908604004447,
+      "flips": 1,
+      "id": "fix-ocaml-gc/0",
+      "document_id": "fix-ocaml-gc",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 18114
+    },
+    {
+      "tokens": 32,
+      "nll": 12.637636829700568,
+      "ref_nll": 11.229811951648003,
+      "kl_sum": 0.7485008854610714,
+      "flips": 3,
+      "id": "fix-ocaml-gc/1",
+      "document_id": "fix-ocaml-gc",
+      "domain": "terminal_command",
+      "language": "agentic",
+      "context": 4931
+    },
+    {
+      "tokens": 32,
+      "nll": 12.723953466827197,
+      "ref_nll": 11.905104162616055,
+      "kl_sum": 0.7080973771135998,
+      "flips": 2,
+      "id": "fix-ocaml-gc/2",
+      "document_id": "fix-ocaml-gc",
+      "domain": "after_tool",
+      "language": "agentic",
+      "context": 13716
+    },
+    {
+      "tokens": 32,
+      "nll": 11.989154245670534,
+      "ref_nll": 10.759475658251915,
+      "kl_sum": 0.7127843366460366,
+      "flips": 2,
+      "id": "fix-ocaml-gc/3",
+      "document_id": "fix-ocaml-gc",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 13718
+    },
+    {
+      "tokens": 32,
+      "nll": 21.12622173075215,
+      "ref_nll": 21.436701070412255,
+      "kl_sum": 0.5570094564220801,
+      "flips": 1,
+      "id": "gcode-to-text/0",
+      "document_id": "gcode-to-text",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 22196
+    },
+    {
+      "tokens": 32,
+      "nll": 0.011405106835738366,
+      "ref_nll": 0.010748065114242422,
+      "kl_sum": 0.0007021487089112418,
+      "flips": 0,
+      "id": "gcode-to-text/1",
+      "document_id": "gcode-to-text",
+      "domain": "code",
+      "language": "agentic",
+      "context": 6461
+    },
+    {
+      "tokens": 32,
+      "nll": 16.248836115913946,
+      "ref_nll": 18.671380453594793,
+      "kl_sum": 0.4766212780423252,
+      "flips": 0,
+      "id": "gcode-to-text/2",
+      "document_id": "gcode-to-text",
+      "domain": "after_tool",
+      "language": "agentic",
+      "context": 29508
+    },
+    {
+      "tokens": 32,
+      "nll": 8.964833363743303,
+      "ref_nll": 8.382477557679515,
+      "kl_sum": 0.31812998249106017,
+      "flips": 1,
+      "id": "gcode-to-text/3",
+      "document_id": "gcode-to-text",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 30375
+    },
+    {
+      "tokens": 32,
+      "nll": 5.744861595589832,
+      "ref_nll": 4.185158690844865,
+      "kl_sum": 0.6140034759321076,
+      "flips": 0,
+      "id": "git-leak-recovery/0",
+      "document_id": "git-leak-recovery",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 893
+    },
+    {
+      "tokens": 32,
+      "nll": 3.2337684063873553,
+      "ref_nll": 3.1654100052783107,
+      "kl_sum": 0.06251674783581859,
+      "flips": 0,
+      "id": "git-leak-recovery/1",
+      "document_id": "git-leak-recovery",
+      "domain": "terminal_command",
+      "language": "agentic",
+      "context": 4049
+    },
+    {
+      "tokens": 32,
+      "nll": 2.257337328963061,
+      "ref_nll": 2.5577245385211995,
+      "kl_sum": 0.22080048944046743,
+      "flips": 0,
+      "id": "git-leak-recovery/2",
+      "document_id": "git-leak-recovery",
+      "domain": "after_tool",
+      "language": "agentic",
+      "context": 1790
+    },
+    {
+      "tokens": 32,
+      "nll": 8.871306126183455,
+      "ref_nll": 8.454278163639117,
+      "kl_sum": 0.7717328978852795,
+      "flips": 2,
+      "id": "git-leak-recovery/3",
+      "document_id": "git-leak-recovery",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 2518
+    },
+    {
+      "tokens": 32,
+      "nll": 11.635915744925995,
+      "ref_nll": 8.93526836877902,
+      "kl_sum": 0.619115718995328,
+      "flips": 2,
+      "id": "gpt2-codegolf/0",
+      "document_id": "gpt2-codegolf",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 1647
+    },
+    {
+      "tokens": 32,
+      "nll": 10.328541358005708,
+      "ref_nll": 9.58867611779172,
+      "kl_sum": 0.4881985199820097,
+      "flips": 0,
+      "id": "gpt2-codegolf/1",
+      "document_id": "gpt2-codegolf",
+      "domain": "code",
+      "language": "agentic",
+      "context": 9009
+    },
+    {
+      "tokens": 32,
+      "nll": 21.293222200384662,
+      "ref_nll": 22.285463054931597,
+      "kl_sum": 0.48881022000447927,
+      "flips": 2,
+      "id": "gpt2-codegolf/2",
+      "document_id": "gpt2-codegolf",
+      "domain": "after_tool",
+      "language": "agentic",
+      "context": 3825
+    },
+    {
+      "tokens": 32,
+      "nll": 4.190691422400391,
+      "ref_nll": 5.201920613538391,
+      "kl_sum": 0.3489328968549007,
+      "flips": 1,
+      "id": "gpt2-codegolf/3",
+      "document_id": "gpt2-codegolf",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 1127
+    },
+    {
+      "tokens": 32,
+      "nll": 7.057237904456528,
+      "ref_nll": 6.440135683364105,
+      "kl_sum": 0.27171319461316834,
+      "flips": 0,
+      "id": "kv-store-grpc/0",
+      "document_id": "kv-store-grpc",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 4421
+    },
+    {
+      "tokens": 32,
+      "nll": 3.570324731095809,
+      "ref_nll": 2.7924931787771072,
+      "kl_sum": 0.3540266711550476,
+      "flips": 1,
+      "id": "kv-store-grpc/1",
+      "document_id": "kv-store-grpc",
+      "domain": "terminal_command",
+      "language": "agentic",
+      "context": 4681
+    },
+    {
+      "tokens": 32,
+      "nll": 0.38873239083943645,
+      "ref_nll": 0.021475079524869045,
+      "kl_sum": 0.30342976951163614,
+      "flips": 0,
+      "id": "kv-store-grpc/2",
+      "document_id": "kv-store-grpc",
+      "domain": "code",
+      "language": "agentic",
+      "context": 1776
+    },
+    {
+      "tokens": 32,
+      "nll": 5.076744712495042,
+      "ref_nll": 4.9061596307162745,
+      "kl_sum": 0.9141823336619265,
+      "flips": 3,
+      "id": "kv-store-grpc/3",
+      "document_id": "kv-store-grpc",
+      "domain": "after_tool",
+      "language": "agentic",
+      "context": 3528
+    },
+    {
+      "tokens": 32,
+      "nll": 2.2213185402554245,
+      "ref_nll": 2.618181557639275,
+      "kl_sum": 0.19490481579626312,
+      "flips": 1,
+      "id": "large-scale-text-editing/0",
+      "document_id": "large-scale-text-editing",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 7766
+    },
+    {
+      "tokens": 32,
+      "nll": 4.5489030430339525,
+      "ref_nll": 4.683856731847094,
+      "kl_sum": 0.08916260865393065,
+      "flips": 1,
+      "id": "large-scale-text-editing/1",
+      "document_id": "large-scale-text-editing",
+      "domain": "terminal_command",
+      "language": "agentic",
+      "context": 4264
+    },
+    {
+      "tokens": 32,
+      "nll": 0.013076259258490097,
+      "ref_nll": 0.012103330395149214,
+      "kl_sum": 0.0013633804937576476,
+      "flips": 0,
+      "id": "large-scale-text-editing/2",
+      "document_id": "large-scale-text-editing",
+      "domain": "code",
+      "language": "agentic",
+      "context": 9019
+    },
+    {
+      "tokens": 32,
+      "nll": 4.749705386630467,
+      "ref_nll": 4.600018334198694,
+      "kl_sum": 0.3255119837777526,
+      "flips": 1,
+      "id": "large-scale-text-editing/3",
+      "document_id": "large-scale-text-editing",
+      "domain": "after_tool",
+      "language": "agentic",
+      "context": 6712
+    },
+    {
+      "tokens": 32,
+      "nll": 12.876879656338133,
+      "ref_nll": 11.432263539461019,
+      "kl_sum": 0.3484845397949594,
+      "flips": 1,
+      "id": "largest-eigenval/0",
+      "document_id": "largest-eigenval",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 27684
+    },
+    {
+      "tokens": 32,
+      "nll": 6.2863860276682075,
+      "ref_nll": 6.367946043527354,
+      "kl_sum": 0.19359768435497202,
+      "flips": 1,
+      "id": "largest-eigenval/1",
+      "document_id": "largest-eigenval",
+      "domain": "terminal_command",
+      "language": "agentic",
+      "context": 9952
+    },
+    {
+      "tokens": 32,
+      "nll": 0.023759489792226418,
+      "ref_nll": 0.01923662163176232,
+      "kl_sum": 0.0015211345503643762,
+      "flips": 0,
+      "id": "largest-eigenval/2",
+      "document_id": "largest-eigenval",
+      "domain": "code",
+      "language": "agentic",
+      "context": 14921
+    },
+    {
+      "tokens": 32,
+      "nll": 12.137115464033911,
+      "ref_nll": 11.87488279021872,
+      "kl_sum": 0.6512497189989579,
+      "flips": 2,
+      "id": "largest-eigenval/3",
+      "document_id": "largest-eigenval",
+      "domain": "after_tool",
+      "language": "agentic",
+      "context": 5032
+    },
+    {
+      "tokens": 32,
+      "nll": 8.594648968914157,
+      "ref_nll": 7.92525979142863,
+      "kl_sum": 0.24656106727687538,
+      "flips": 0,
+      "id": "llm-inference-batching-scheduler/0",
+      "document_id": "llm-inference-batching-scheduler",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 27575
+    },
+    {
+      "tokens": 32,
+      "nll": 2.802726580260007,
+      "ref_nll": 2.4616638137485936,
+      "kl_sum": 0.2167783814912317,
+      "flips": 1,
+      "id": "llm-inference-batching-scheduler/1",
+      "document_id": "llm-inference-batching-scheduler",
+      "domain": "code",
+      "language": "agentic",
+      "context": 9124
+    },
+    {
+      "tokens": 32,
+      "nll": 7.435601181025959,
+      "ref_nll": 7.481578855239377,
+      "kl_sum": 0.33318811332497583,
+      "flips": 1,
+      "id": "llm-inference-batching-scheduler/2",
+      "document_id": "llm-inference-batching-scheduler",
+      "domain": "after_tool",
+      "language": "agentic",
+      "context": 39434
+    },
+    {
+      "tokens": 32,
+      "nll": 6.846808700363795,
+      "ref_nll": 7.024974752549554,
+      "kl_sum": 0.13556186039797477,
+      "flips": 1,
+      "id": "llm-inference-batching-scheduler/3",
+      "document_id": "llm-inference-batching-scheduler",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 11929
+    },
+    {
+      "tokens": 32,
+      "nll": 0.0010624550530451415,
+      "ref_nll": 0.000613912331139943,
+      "kl_sum": 0.00039520801005345934,
+      "flips": 0,
+      "id": "make-doom-for-mips/0",
+      "document_id": "make-doom-for-mips",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 21696
+    },
+    {
+      "tokens": 32,
+      "nll": 7.706574896809457,
+      "ref_nll": 7.777905238680759,
+      "kl_sum": 0.1672199215425879,
+      "flips": 0,
+      "id": "make-doom-for-mips/1",
+      "document_id": "make-doom-for-mips",
+      "domain": "terminal_command",
+      "language": "agentic",
+      "context": 15988
+    },
+    {
+      "tokens": 32,
+      "nll": 2.500729707316168,
+      "ref_nll": 1.1350174619097828,
+      "kl_sum": 0.6374623986203682,
+      "flips": 1,
+      "id": "make-doom-for-mips/2",
+      "document_id": "make-doom-for-mips",
+      "domain": "code",
+      "language": "agentic",
+      "context": 26888
+    },
+    {
+      "tokens": 32,
+      "nll": 11.384018318022186,
+      "ref_nll": 11.01353760486824,
+      "kl_sum": 0.3742213253724648,
+      "flips": 1,
+      "id": "make-doom-for-mips/3",
+      "document_id": "make-doom-for-mips",
+      "domain": "after_tool",
+      "language": "agentic",
+      "context": 12175
+    },
+    {
+      "tokens": 32,
+      "nll": 31.51062446051219,
+      "ref_nll": 30.882986346801772,
+      "kl_sum": 0.5299217297403869,
+      "flips": 3,
+      "id": "make-mips-interpreter/0",
+      "document_id": "make-mips-interpreter",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 31154
+    },
+    {
+      "tokens": 32,
+      "nll": 11.977244248255367,
+      "ref_nll": 11.176483417593715,
+      "kl_sum": 0.13460452999099465,
+      "flips": 1,
+      "id": "make-mips-interpreter/1",
+      "document_id": "make-mips-interpreter",
+      "domain": "terminal_command",
+      "language": "agentic",
+      "context": 16147
+    },
+    {
+      "tokens": 32,
+      "nll": 3.9991470252316503,
+      "ref_nll": 1.9919010713401804,
+      "kl_sum": 0.3402190663060624,
+      "flips": 0,
+      "id": "make-mips-interpreter/2",
+      "document_id": "make-mips-interpreter",
+      "domain": "code",
+      "language": "agentic",
+      "context": 35654
+    },
+    {
+      "tokens": 32,
+      "nll": 9.01463266249084,
+      "ref_nll": 7.897816690060381,
+      "kl_sum": 0.42739000245229514,
+      "flips": 0,
+      "id": "make-mips-interpreter/3",
+      "document_id": "make-mips-interpreter",
+      "domain": "after_tool",
+      "language": "agentic",
+      "context": 16208
+    },
+    {
+      "tokens": 32,
+      "nll": 7.459989510903654,
+      "ref_nll": 8.370229117922179,
+      "kl_sum": 0.26957842984988556,
+      "flips": 2,
+      "id": "merge-diff-arc-agi-task/0",
+      "document_id": "merge-diff-arc-agi-task",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 4883
+    },
+    {
+      "tokens": 32,
+      "nll": 0.8358939746959493,
+      "ref_nll": 1.3228452313681416,
+      "kl_sum": 0.26531452638785336,
+      "flips": 1,
+      "id": "merge-diff-arc-agi-task/1",
+      "document_id": "merge-diff-arc-agi-task",
+      "domain": "code",
+      "language": "agentic",
+      "context": 10105
+    },
+    {
+      "tokens": 32,
+      "nll": 5.556335676921655,
+      "ref_nll": 4.509300801323597,
+      "kl_sum": 0.2713399377496833,
+      "flips": 0,
+      "id": "merge-diff-arc-agi-task/2",
+      "document_id": "merge-diff-arc-agi-task",
+      "domain": "after_tool",
+      "language": "agentic",
+      "context": 6560
+    },
+    {
+      "tokens": 32,
+      "nll": 7.3554980082022325,
+      "ref_nll": 7.950505493369462,
+      "kl_sum": 0.1417663860672085,
+      "flips": 2,
+      "id": "merge-diff-arc-agi-task/3",
+      "document_id": "merge-diff-arc-agi-task",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 4881
+    },
+    {
+      "tokens": 32,
+      "nll": 20.102758422578518,
+      "ref_nll": 19.797941582491603,
+      "kl_sum": 0.35031350819983875,
+      "flips": 4,
+      "id": "model-extraction-relu-logits/0",
+      "document_id": "model-extraction-relu-logits",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 15924
+    },
+    {
+      "tokens": 32,
+      "nll": 0.12708255679367397,
+      "ref_nll": 0.12588537476656825,
+      "kl_sum": 0.006351023876905563,
+      "flips": 0,
+      "id": "model-extraction-relu-logits/1",
+      "document_id": "model-extraction-relu-logits",
+      "domain": "code",
+      "language": "agentic",
+      "context": 8324
+    },
+    {
+      "tokens": 32,
+      "nll": 8.098982281790278,
+      "ref_nll": 6.569854263486484,
+      "kl_sum": 0.3300529427305303,
+      "flips": 1,
+      "id": "model-extraction-relu-logits/2",
+      "document_id": "model-extraction-relu-logits",
+      "domain": "after_tool",
+      "language": "agentic",
+      "context": 1613
+    },
+    {
+      "tokens": 32,
+      "nll": 14.017344358721687,
+      "ref_nll": 14.151552185348692,
+      "kl_sum": 0.33974074947675226,
+      "flips": 0,
+      "id": "model-extraction-relu-logits/3",
+      "document_id": "model-extraction-relu-logits",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 7088
+    },
+    {
+      "tokens": 32,
+      "nll": 1.1898757508241005,
+      "ref_nll": 0.9426413145439412,
+      "kl_sum": 0.06843887862784809,
+      "flips": 0,
+      "id": "modernize-scientific-stack/0",
+      "document_id": "modernize-scientific-stack",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 4731
+    },
+    {
+      "tokens": 32,
+      "nll": 3.5698663293707114,
+      "ref_nll": 4.258128433927084,
+      "kl_sum": 0.26566152457116404,
+      "flips": 1,
+      "id": "modernize-scientific-stack/1",
+      "document_id": "modernize-scientific-stack",
+      "domain": "code",
+      "language": "agentic",
+      "context": 3747
+    },
+    {
+      "tokens": 32,
+      "nll": 4.552457544107931,
+      "ref_nll": 4.720828850944365,
+      "kl_sum": 0.7399856372826308,
+      "flips": 0,
+      "id": "modernize-scientific-stack/2",
+      "document_id": "modernize-scientific-stack",
+      "domain": "after_tool",
+      "language": "agentic",
+      "context": 5644
+    },
+    {
+      "tokens": 32,
+      "nll": 7.634835253310712,
+      "ref_nll": 7.336073197664291,
+      "kl_sum": 0.31585609784159313,
+      "flips": 0,
+      "id": "modernize-scientific-stack/3",
+      "document_id": "modernize-scientific-stack",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 2945
+    },
+    {
+      "tokens": 32,
+      "nll": 11.447539778551345,
+      "ref_nll": 9.95539121344109,
+      "kl_sum": 0.2767532966322318,
+      "flips": 1,
+      "id": "mteb-leaderboard/0",
+      "document_id": "mteb-leaderboard",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 9773
+    },
+    {
+      "tokens": 32,
+      "nll": 3.0900381679798556,
+      "ref_nll": 2.7063781678650685,
+      "kl_sum": 0.09919508562224044,
+      "flips": 1,
+      "id": "mteb-leaderboard/1",
+      "document_id": "mteb-leaderboard",
+      "domain": "code",
+      "language": "agentic",
+      "context": 17905
+    },
+    {
+      "tokens": 32,
+      "nll": 5.50789727634514,
+      "ref_nll": 5.161353654204952,
+      "kl_sum": 0.21471637474114194,
+      "flips": 1,
+      "id": "mteb-leaderboard/2",
+      "document_id": "mteb-leaderboard",
+      "domain": "after_tool",
+      "language": "agentic",
+      "context": 26844
+    },
+    {
+      "tokens": 32,
+      "nll": 4.175059579340598,
+      "ref_nll": 3.3143632783895995,
+      "kl_sum": 0.25094511988158497,
+      "flips": 0,
+      "id": "mteb-leaderboard/3",
+      "document_id": "mteb-leaderboard",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 7131
+    },
+    {
+      "tokens": 32,
+      "nll": 8.431994636415595,
+      "ref_nll": 8.624733607952834,
+      "kl_sum": 0.4700100945818903,
+      "flips": 1,
+      "id": "mteb-retrieve/0",
+      "document_id": "mteb-retrieve",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 5568
+    },
+    {
+      "tokens": 32,
+      "nll": 0.00013470555056471767,
+      "ref_nll": 0.00013947397833646846,
+      "kl_sum": 2.3409002355314232e-05,
+      "flips": 0,
+      "id": "mteb-retrieve/1",
+      "document_id": "mteb-retrieve",
+      "domain": "code",
+      "language": "agentic",
+      "context": 6031
+    },
+    {
+      "tokens": 32,
+      "nll": 13.116465502774531,
+      "ref_nll": 12.207301509504987,
+      "kl_sum": 0.4489144428617608,
+      "flips": 2,
+      "id": "mteb-retrieve/2",
+      "document_id": "mteb-retrieve",
+      "domain": "after_tool",
+      "language": "agentic",
+      "context": 4108
+    },
+    {
+      "tokens": 32,
+      "nll": 10.698535913475382,
+      "ref_nll": 10.654411893102946,
+      "kl_sum": 0.5413450892778631,
+      "flips": 1,
+      "id": "mteb-retrieve/3",
+      "document_id": "mteb-retrieve",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 5570
+    },
+    {
+      "tokens": 32,
+      "nll": 7.76621191613242,
+      "ref_nll": 7.820378732096458,
+      "kl_sum": 0.3420928767613237,
+      "flips": 2,
+      "id": "multi-source-data-merger/0",
+      "document_id": "multi-source-data-merger",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 6170
+    },
+    {
+      "tokens": 32,
+      "nll": 1.707540626965148,
+      "ref_nll": 1.2621143231950356,
+      "kl_sum": 0.09641698875038472,
+      "flips": 0,
+      "id": "multi-source-data-merger/1",
+      "document_id": "multi-source-data-merger",
+      "domain": "code",
+      "language": "agentic",
+      "context": 4474
+    },
+    {
+      "tokens": 32,
+      "nll": 4.2979276684780245,
+      "ref_nll": 4.072680968488584,
+      "kl_sum": 0.19380878222919565,
+      "flips": 2,
+      "id": "multi-source-data-merger/2",
+      "document_id": "multi-source-data-merger",
+      "domain": "after_tool",
+      "language": "agentic",
+      "context": 2001
+    },
+    {
+      "tokens": 32,
+      "nll": 10.394655590566117,
+      "ref_nll": 10.850760645950345,
+      "kl_sum": 0.32736127293390116,
+      "flips": 0,
+      "id": "multi-source-data-merger/3",
+      "document_id": "multi-source-data-merger",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 2709
+    },
+    {
+      "tokens": 32,
+      "nll": 4.774241210292686,
+      "ref_nll": 2.7151175748130214,
+      "kl_sum": 0.5368943639248367,
+      "flips": 0,
+      "id": "openssl-selfsigned-cert/0",
+      "document_id": "openssl-selfsigned-cert",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 3770
+    },
+    {
+      "tokens": 32,
+      "nll": 0.008488016198214154,
+      "ref_nll": 0.004227042019074645,
+      "kl_sum": 0.005203771563673631,
+      "flips": 0,
+      "id": "openssl-selfsigned-cert/1",
+      "document_id": "openssl-selfsigned-cert",
+      "domain": "terminal_command",
+      "language": "agentic",
+      "context": 1474
+    },
+    {
+      "tokens": 32,
+      "nll": 3.0466425739601704,
+      "ref_nll": 3.0636448661702076,
+      "kl_sum": 0.1063415673615728,
+      "flips": 0,
+      "id": "openssl-selfsigned-cert/2",
+      "document_id": "openssl-selfsigned-cert",
+      "domain": "code",
+      "language": "agentic",
+      "context": 1853
+    },
+    {
+      "tokens": 32,
+      "nll": 1.5442921202222806,
+      "ref_nll": 0.8252349089180697,
+      "kl_sum": 0.5261024498000166,
+      "flips": 0,
+      "id": "openssl-selfsigned-cert/3",
+      "document_id": "openssl-selfsigned-cert",
+      "domain": "after_tool",
+      "language": "agentic",
+      "context": 5323
+    },
+    {
+      "tokens": 32,
+      "nll": 0.004411326886383904,
+      "ref_nll": 0.003622596753871221,
+      "kl_sum": 0.0002984869254694821,
+      "flips": 0,
+      "id": "overfull-hbox/0",
+      "document_id": "overfull-hbox",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 11525
+    },
+    {
+      "tokens": 32,
+      "nll": 19.917052094133737,
+      "ref_nll": 18.269354769348183,
+      "kl_sum": 0.5881713120977455,
+      "flips": 4,
+      "id": "overfull-hbox/1",
+      "document_id": "overfull-hbox",
+      "domain": "after_tool",
+      "language": "agentic",
+      "context": 8680
+    },
+    {
+      "tokens": 32,
+      "nll": 9.693748510871899,
+      "ref_nll": 10.13409878270835,
+      "kl_sum": 0.5073112795648891,
+      "flips": 0,
+      "id": "overfull-hbox/2",
+      "document_id": "overfull-hbox",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 3782
+    },
+    {
+      "tokens": 32,
+      "nll": 6.435088674703195,
+      "ref_nll": 7.367322365015923,
+      "kl_sum": 0.8009271130292086,
+      "flips": 1,
+      "id": "overfull-hbox/3",
+      "document_id": "overfull-hbox",
+      "domain": "after_tool",
+      "language": "agentic",
+      "context": 11842
+    },
+    {
+      "tokens": 32,
+      "nll": 13.359770782670523,
+      "ref_nll": 12.072921385220695,
+      "kl_sum": 0.3185724420028846,
+      "flips": 0,
+      "id": "password-recovery/0",
+      "document_id": "password-recovery",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 5736
+    },
+    {
+      "tokens": 32,
+      "nll": 0.11484742331168718,
+      "ref_nll": 0.1818762358263868,
+      "kl_sum": 0.04230988743621951,
+      "flips": 0,
+      "id": "password-recovery/1",
+      "document_id": "password-recovery",
+      "domain": "terminal_command",
+      "language": "agentic",
+      "context": 5947
+    },
+    {
+      "tokens": 32,
+      "nll": 4.002425169634961,
+      "ref_nll": 3.724027953457039,
+      "kl_sum": 0.19633869513464075,
+      "flips": 0,
+      "id": "password-recovery/2",
+      "document_id": "password-recovery",
+      "domain": "code",
+      "language": "agentic",
+      "context": 7747
+    },
+    {
+      "tokens": 32,
+      "nll": 9.994871891457876,
+      "ref_nll": 10.134941589164498,
+      "kl_sum": 0.801925659924718,
+      "flips": 3,
+      "id": "password-recovery/3",
+      "document_id": "password-recovery",
+      "domain": "after_tool",
+      "language": "agentic",
+      "context": 7345
+    },
+    {
+      "tokens": 32,
+      "nll": 5.955135415493906,
+      "ref_nll": 5.651383906452722,
+      "kl_sum": 0.11465277922995956,
+      "flips": 0,
+      "id": "polyglot-c-py/0",
+      "document_id": "polyglot-c-py",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 1726
+    },
+    {
+      "tokens": 32,
+      "nll": 1.5854825399230776e-05,
+      "ref_nll": 3.4451325348072714e-05,
+      "kl_sum": 2.93297327913267e-05,
+      "flips": 0,
+      "id": "polyglot-c-py/1",
+      "document_id": "polyglot-c-py",
+      "domain": "code",
+      "language": "agentic",
+      "context": 3919
+    },
+    {
+      "tokens": 32,
+      "nll": 9.127203264935375,
+      "ref_nll": 8.352569928585687,
+      "kl_sum": 2.659654909277028,
+      "flips": 3,
+      "id": "polyglot-c-py/2",
+      "document_id": "polyglot-c-py",
+      "domain": "after_tool",
+      "language": "agentic",
+      "context": 3550
+    },
+    {
+      "tokens": 32,
+      "nll": 6.988302137142455,
+      "ref_nll": 6.446828728217042,
+      "kl_sum": 0.2729627808330395,
+      "flips": 0,
+      "id": "polyglot-c-py/3",
+      "document_id": "polyglot-c-py",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 3075
+    },
+    {
+      "tokens": 32,
+      "nll": 3.7346517652371034,
+      "ref_nll": 4.075984037174393,
+      "kl_sum": 0.13305485584893592,
+      "flips": 0,
+      "id": "polyglot-rust-c/0",
+      "document_id": "polyglot-rust-c",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 3955
+    },
+    {
+      "tokens": 32,
+      "nll": 0.826334491446346,
+      "ref_nll": 0.3490569248109736,
+      "kl_sum": 0.14660822198309637,
+      "flips": 1,
+      "id": "polyglot-rust-c/1",
+      "document_id": "polyglot-rust-c",
+      "domain": "terminal_command",
+      "language": "agentic",
+      "context": 15870
+    },
+    {
+      "tokens": 32,
+      "nll": 2.0027132613620324e-05,
+      "ref_nll": 1.6093235515768356e-05,
+      "kl_sum": 3.3055737274093637e-06,
+      "flips": 0,
+      "id": "polyglot-rust-c/2",
+      "document_id": "polyglot-rust-c",
+      "domain": "code",
+      "language": "agentic",
+      "context": 13579
+    },
+    {
+      "tokens": 32,
+      "nll": 5.719938651870294,
+      "ref_nll": 5.181213901383657,
+      "kl_sum": 0.6567735521339344,
+      "flips": 0,
+      "id": "polyglot-rust-c/3",
+      "document_id": "polyglot-rust-c",
+      "domain": "after_tool",
+      "language": "agentic",
+      "context": 4536
+    },
+    {
+      "tokens": 32,
+      "nll": 18.409349592703848,
+      "ref_nll": 18.286730319549633,
+      "kl_sum": 0.4902711412510657,
+      "flips": 2,
+      "id": "portfolio-optimization/0",
+      "document_id": "portfolio-optimization",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 5358
+    },
+    {
+      "tokens": 32,
+      "nll": 2.0152155309967554,
+      "ref_nll": 1.5252979010518217,
+      "kl_sum": 0.059080288554332366,
+      "flips": 0,
+      "id": "portfolio-optimization/1",
+      "document_id": "portfolio-optimization",
+      "domain": "code",
+      "language": "agentic",
+      "context": 7870
+    },
+    {
+      "tokens": 32,
+      "nll": 9.436206046294934,
+      "ref_nll": 10.65985814227514,
+      "kl_sum": 0.6214870206326711,
+      "flips": 0,
+      "id": "portfolio-optimization/2",
+      "document_id": "portfolio-optimization",
+      "domain": "after_tool",
+      "language": "agentic",
+      "context": 8862
+    },
+    {
+      "tokens": 32,
+      "nll": 1.4216753031410647,
+      "ref_nll": 1.7296358956008362,
+      "kl_sum": 0.03536075639867367,
+      "flips": 0,
+      "id": "portfolio-optimization/3",
+      "document_id": "portfolio-optimization",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 12898
+    },
+    {
+      "tokens": 32,
+      "nll": 5.303233840496205,
+      "ref_nll": 4.899778742107628,
+      "kl_sum": 0.10290380575026124,
+      "flips": 1,
+      "id": "prove-plus-comm/0",
+      "document_id": "prove-plus-comm",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 5647
+    },
+    {
+      "tokens": 32,
+      "nll": 0.002719190419959716,
+      "ref_nll": 0.0015344516875259728,
+      "kl_sum": 0.0003439971125687466,
+      "flips": 0,
+      "id": "prove-plus-comm/1",
+      "document_id": "prove-plus-comm",
+      "domain": "code",
+      "language": "agentic",
+      "context": 4339
+    },
+    {
+      "tokens": 32,
+      "nll": 1.0752888880755123,
+      "ref_nll": 0.8199317432117823,
+      "kl_sum": 0.10701865642357221,
+      "flips": 0,
+      "id": "prove-plus-comm/2",
+      "document_id": "prove-plus-comm",
+      "domain": "after_tool",
+      "language": "agentic",
+      "context": 1395
+    },
+    {
+      "tokens": 32,
+      "nll": 8.580364519686377,
+      "ref_nll": 8.589112518441027,
+      "kl_sum": 0.27097827957255183,
+      "flips": 1,
+      "id": "prove-plus-comm/3",
+      "document_id": "prove-plus-comm",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 4966
+    },
+    {
+      "tokens": 32,
+      "nll": 9.35644753766195,
+      "ref_nll": 8.063719942177642,
+      "kl_sum": 0.3469848874410014,
+      "flips": 1,
+      "id": "pytorch-model-cli/0",
+      "document_id": "pytorch-model-cli",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 6059
+    },
+    {
+      "tokens": 32,
+      "nll": 1.7480269581539858,
+      "ref_nll": 1.6923480597092109,
+      "kl_sum": 0.16037259604532836,
+      "flips": 0,
+      "id": "pytorch-model-cli/1",
+      "document_id": "pytorch-model-cli",
+      "domain": "terminal_command",
+      "language": "agentic",
+      "context": 2145
+    },
+    {
+      "tokens": 32,
+      "nll": 2.260050486452819,
+      "ref_nll": 3.5105550238395935,
+      "kl_sum": 0.21962327134133186,
+      "flips": 0,
+      "id": "pytorch-model-cli/2",
+      "document_id": "pytorch-model-cli",
+      "domain": "code",
+      "language": "agentic",
+      "context": 4435
+    },
+    {
+      "tokens": 32,
+      "nll": 4.383160143990779,
+      "ref_nll": 4.092397911328071,
+      "kl_sum": 0.11669832379873259,
+      "flips": 1,
+      "id": "pytorch-model-cli/3",
+      "document_id": "pytorch-model-cli",
+      "domain": "after_tool",
+      "language": "agentic",
+      "context": 4904
+    },
+    {
+      "tokens": 32,
+      "nll": 0.008816171260519923,
+      "ref_nll": 0.004877243723825586,
+      "kl_sum": 0.0027658231668908316,
+      "flips": 0,
+      "id": "pytorch-model-recovery/0",
+      "document_id": "pytorch-model-recovery",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 12250
+    },
+    {
+      "tokens": 32,
+      "nll": 2.5840460793117117,
+      "ref_nll": 2.1968626578283548,
+      "kl_sum": 0.6095583706140646,
+      "flips": 2,
+      "id": "pytorch-model-recovery/1",
+      "document_id": "pytorch-model-recovery",
+      "domain": "code",
+      "language": "agentic",
+      "context": 1317
+    },
+    {
+      "tokens": 32,
+      "nll": 12.76614018960884,
+      "ref_nll": 13.002594242071524,
+      "kl_sum": 0.1661790617973252,
+      "flips": 0,
+      "id": "pytorch-model-recovery/2",
+      "document_id": "pytorch-model-recovery",
+      "domain": "after_tool",
+      "language": "agentic",
+      "context": 11437
+    },
+    {
+      "tokens": 32,
+      "nll": 0.7376608660352915,
+      "ref_nll": 0.7296877903986001,
+      "kl_sum": 0.15678931048597106,
+      "flips": 0,
+      "id": "pytorch-model-recovery/3",
+      "document_id": "pytorch-model-recovery",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 16650
+    },
+    {
+      "tokens": 32,
+      "nll": 5.210142442801718,
+      "ref_nll": 4.090103902712428,
+      "kl_sum": 0.4413045072579177,
+      "flips": 0,
+      "id": "raman-fitting/0",
+      "document_id": "raman-fitting",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 1304
+    },
+    {
+      "tokens": 32,
+      "nll": 0.624053745952942,
+      "ref_nll": 0.5677146011531704,
+      "kl_sum": 0.055846307370509156,
+      "flips": 0,
+      "id": "raman-fitting/1",
+      "document_id": "raman-fitting",
+      "domain": "code",
+      "language": "agentic",
+      "context": 8524
+    },
+    {
+      "tokens": 32,
+      "nll": 8.707417475385,
+      "ref_nll": 8.737780844146982,
+      "kl_sum": 0.2590497293091559,
+      "flips": 2,
+      "id": "raman-fitting/2",
+      "document_id": "raman-fitting",
+      "domain": "after_tool",
+      "language": "agentic",
+      "context": 19207
+    },
+    {
+      "tokens": 32,
+      "nll": 5.349527539890161,
+      "ref_nll": 5.342936771830196,
+      "kl_sum": 0.13441629503747923,
+      "flips": 0,
+      "id": "raman-fitting/3",
+      "document_id": "raman-fitting",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 36661
+    },
+    {
+      "tokens": 32,
+      "nll": 0.006413835101760412,
+      "ref_nll": 0.0046572051183275676,
+      "kl_sum": 0.0003967111124697434,
+      "flips": 0,
+      "id": "regex-log/0",
+      "document_id": "regex-log",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 5736
+    },
+    {
+      "tokens": 32,
+      "nll": 4.595168059890902,
+      "ref_nll": 3.7671111421284706,
+      "kl_sum": 0.23839834139048877,
+      "flips": 0,
+      "id": "regex-log/1",
+      "document_id": "regex-log",
+      "domain": "code",
+      "language": "agentic",
+      "context": 10603
+    },
+    {
+      "tokens": 32,
+      "nll": 0.8106654202246304,
+      "ref_nll": 0.5960929254372473,
+      "kl_sum": 0.12059433374254032,
+      "flips": 0,
+      "id": "regex-log/2",
+      "document_id": "regex-log",
+      "domain": "after_tool",
+      "language": "agentic",
+      "context": 4959
+    },
+    {
+      "tokens": 32,
+      "nll": 0.0016221415870489864,
+      "ref_nll": 0.0014033533488984062,
+      "kl_sum": 0.00022954602384579878,
+      "flips": 0,
+      "id": "regex-log/3",
+      "document_id": "regex-log",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 7896
+    },
+    {
+      "tokens": 32,
+      "nll": 9.002481526648012,
+      "ref_nll": 9.542564357981917,
+      "kl_sum": 0.22061842588167857,
+      "flips": 1,
+      "id": "sam-cell-seg/0",
+      "document_id": "sam-cell-seg",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 12041
+    },
+    {
+      "tokens": 32,
+      "nll": 2.212097519631243,
+      "ref_nll": 1.688189613183681,
+      "kl_sum": 0.4036275524124409,
+      "flips": 1,
+      "id": "sam-cell-seg/1",
+      "document_id": "sam-cell-seg",
+      "domain": "terminal_command",
+      "language": "agentic",
+      "context": 12290
+    },
+    {
+      "tokens": 32,
+      "nll": 5.8284313655104185,
+      "ref_nll": 5.3993513028715014,
+      "kl_sum": 0.4461344933579043,
+      "flips": 0,
+      "id": "sam-cell-seg/2",
+      "document_id": "sam-cell-seg",
+      "domain": "code",
+      "language": "agentic",
+      "context": 25392
+    },
+    {
+      "tokens": 32,
+      "nll": 24.41438762404937,
+      "ref_nll": 23.772667679041945,
+      "kl_sum": 0.8877747582684711,
+      "flips": 6,
+      "id": "sam-cell-seg/3",
+      "document_id": "sam-cell-seg",
+      "domain": "after_tool",
+      "language": "agentic",
+      "context": 25637
+    },
+    {
+      "tokens": 32,
+      "nll": 6.163060356101369e-05,
+      "ref_nll": 4.94716450418764e-05,
+      "kl_sum": 3.69620930543655e-05,
+      "flips": 0,
+      "id": "sanitize-git-repo/0",
+      "document_id": "sanitize-git-repo",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 12646
+    },
+    {
+      "tokens": 32,
+      "nll": 8.719615119813142,
+      "ref_nll": 8.752724150444692,
+      "kl_sum": 0.22970611161842738,
+      "flips": 2,
+      "id": "sanitize-git-repo/1",
+      "document_id": "sanitize-git-repo",
+      "domain": "terminal_command",
+      "language": "agentic",
+      "context": 11392
+    },
+    {
+      "tokens": 32,
+      "nll": 7.242103454493382,
+      "ref_nll": 3.6748390525349848,
+      "kl_sum": 1.5999368264526388,
+      "flips": 0,
+      "id": "sanitize-git-repo/2",
+      "document_id": "sanitize-git-repo",
+      "domain": "after_tool",
+      "language": "agentic",
+      "context": 12522
+    },
+    {
+      "tokens": 32,
+      "nll": 0.0007563497838134481,
+      "ref_nll": 0.000674350735380358,
+      "kl_sum": 0.00031966959570349306,
+      "flips": 0,
+      "id": "sanitize-git-repo/3",
+      "document_id": "sanitize-git-repo",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 5717
+    },
+    {
+      "tokens": 32,
+      "nll": 9.93976382116508,
+      "ref_nll": 8.83830145401813,
+      "kl_sum": 0.356074591689972,
+      "flips": 1,
+      "id": "schemelike-metacircular-eval/0",
+      "document_id": "schemelike-metacircular-eval",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 3858
+    },
+    {
+      "tokens": 32,
+      "nll": 7.344134064912907,
+      "ref_nll": 6.868367181745839,
+      "kl_sum": 0.4797711637747655,
+      "flips": 0,
+      "id": "schemelike-metacircular-eval/1",
+      "document_id": "schemelike-metacircular-eval",
+      "domain": "after_tool",
+      "language": "agentic",
+      "context": 15260
+    },
+    {
+      "tokens": 32,
+      "nll": 10.583575247094963,
+      "ref_nll": 10.466055276153874,
+      "kl_sum": 0.08589500311800202,
+      "flips": 0,
+      "id": "schemelike-metacircular-eval/2",
+      "document_id": "schemelike-metacircular-eval",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 1098
+    },
+    {
+      "tokens": 32,
+      "nll": 3.60247539160536,
+      "ref_nll": 3.943828955585097,
+      "kl_sum": 0.42748409631382894,
+      "flips": 1,
+      "id": "schemelike-metacircular-eval/3",
+      "document_id": "schemelike-metacircular-eval",
+      "domain": "after_tool",
+      "language": "agentic",
+      "context": 11402
+    },
+    {
+      "tokens": 32,
+      "nll": 4.350707058159955,
+      "ref_nll": 3.070757458734988,
+      "kl_sum": 0.18284671298046448,
+      "flips": 0,
+      "id": "sparql-university/0",
+      "document_id": "sparql-university",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 10247
+    },
+    {
+      "tokens": 32,
+      "nll": 0.10677377988383085,
+      "ref_nll": 0.07292100189469863,
+      "kl_sum": 0.008615717453329234,
+      "flips": 0,
+      "id": "sparql-university/1",
+      "document_id": "sparql-university",
+      "domain": "code",
+      "language": "agentic",
+      "context": 17626
+    },
+    {
+      "tokens": 32,
+      "nll": 6.34424919095261,
+      "ref_nll": 6.308949422220621,
+      "kl_sum": 0.2211034509103101,
+      "flips": 0,
+      "id": "sparql-university/2",
+      "document_id": "sparql-university",
+      "domain": "after_tool",
+      "language": "agentic",
+      "context": 10048
+    },
+    {
+      "tokens": 32,
+      "nll": 0.0004112551285260224,
+      "ref_nll": 0.00039004337500614383,
+      "kl_sum": 0.00046286187459674085,
+      "flips": 0,
+      "id": "sparql-university/3",
+      "document_id": "sparql-university",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 13953
+    },
+    {
+      "tokens": 32,
+      "nll": 10.587450249572044,
+      "ref_nll": 9.912108884686916,
+      "kl_sum": 0.2764678452839957,
+      "flips": 1,
+      "id": "sqlite-db-truncate/0",
+      "document_id": "sqlite-db-truncate",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 13224
+    },
+    {
+      "tokens": 32,
+      "nll": 0.7451621134301547,
+      "ref_nll": 1.0618224535391718,
+      "kl_sum": 0.08771893991144486,
+      "flips": 0,
+      "id": "sqlite-db-truncate/1",
+      "document_id": "sqlite-db-truncate",
+      "domain": "code",
+      "language": "agentic",
+      "context": 11557
+    },
+    {
+      "tokens": 32,
+      "nll": 6.991112335464038,
+      "ref_nll": 7.7586639202305605,
+      "kl_sum": 0.31622208605948254,
+      "flips": 2,
+      "id": "sqlite-db-truncate/2",
+      "document_id": "sqlite-db-truncate",
+      "domain": "after_tool",
+      "language": "agentic",
+      "context": 10591
+    },
+    {
+      "tokens": 32,
+      "nll": 11.964169744033597,
+      "ref_nll": 10.906451542818843,
+      "kl_sum": 0.470944721949728,
+      "flips": 3,
+      "id": "sqlite-db-truncate/3",
+      "document_id": "sqlite-db-truncate",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 1355
+    },
+    {
+      "tokens": 32,
+      "nll": 21.439298060555245,
+      "ref_nll": 20.832214654828704,
+      "kl_sum": 0.3991208350243094,
+      "flips": 1,
+      "id": "train-fasttext/0",
+      "document_id": "train-fasttext",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 12874
+    },
+    {
+      "tokens": 32,
+      "nll": 2.6071664043902274,
+      "ref_nll": 2.4961670377528833,
+      "kl_sum": 0.16353381990042007,
+      "flips": 0,
+      "id": "train-fasttext/1",
+      "document_id": "train-fasttext",
+      "domain": "code",
+      "language": "agentic",
+      "context": 2047
+    },
+    {
+      "tokens": 32,
+      "nll": 7.369920891951466,
+      "ref_nll": 6.419213473299521,
+      "kl_sum": 0.4172222471668956,
+      "flips": 0,
+      "id": "train-fasttext/2",
+      "document_id": "train-fasttext",
+      "domain": "after_tool",
+      "language": "agentic",
+      "context": 8456
+    },
+    {
+      "tokens": 32,
+      "nll": 0.11215581950622067,
+      "ref_nll": 0.10739864270441757,
+      "kl_sum": 0.006246538302656068,
+      "flips": 0,
+      "id": "train-fasttext/3",
+      "document_id": "train-fasttext",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 16558
+    },
+    {
+      "tokens": 32,
+      "nll": 14.455870114093955,
+      "ref_nll": 12.69259398513475,
+      "kl_sum": 0.620797738714876,
+      "flips": 2,
+      "id": "tune-mjcf/0",
+      "document_id": "tune-mjcf",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 3139
+    },
+    {
+      "tokens": 32,
+      "nll": 1.076140877118263,
+      "ref_nll": 0.6876084976337822,
+      "kl_sum": 0.5275034527000916,
+      "flips": 1,
+      "id": "tune-mjcf/1",
+      "document_id": "tune-mjcf",
+      "domain": "code",
+      "language": "agentic",
+      "context": 15014
+    },
+    {
+      "tokens": 32,
+      "nll": 19.27169918599884,
+      "ref_nll": 19.147950617712922,
+      "kl_sum": 0.7421748097798893,
+      "flips": 1,
+      "id": "tune-mjcf/2",
+      "document_id": "tune-mjcf",
+      "domain": "after_tool",
+      "language": "agentic",
+      "context": 16261
+    },
+    {
+      "tokens": 32,
+      "nll": 12.988318468412217,
+      "ref_nll": 14.096260829528774,
+      "kl_sum": 0.4851812825012528,
+      "flips": 1,
+      "id": "tune-mjcf/3",
+      "document_id": "tune-mjcf",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 6400
+    },
+    {
+      "tokens": 32,
+      "nll": 17.272957337401742,
+      "ref_nll": 17.08476122088905,
+      "kl_sum": 0.31598390215228495,
+      "flips": 1,
+      "id": "video-processing/0",
+      "document_id": "video-processing",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 6933
+    },
+    {
+      "tokens": 32,
+      "nll": 1.9350021032916445,
+      "ref_nll": 2.365309755443107,
+      "kl_sum": 0.0186322497321164,
+      "flips": 0,
+      "id": "video-processing/1",
+      "document_id": "video-processing",
+      "domain": "code",
+      "language": "agentic",
+      "context": 4014
+    },
+    {
+      "tokens": 32,
+      "nll": 11.064997241285539,
+      "ref_nll": 8.172973653071374,
+      "kl_sum": 1.1742203297721996,
+      "flips": 2,
+      "id": "video-processing/2",
+      "document_id": "video-processing",
+      "domain": "after_tool",
+      "language": "agentic",
+      "context": 20219
+    },
+    {
+      "tokens": 32,
+      "nll": 13.735228952406032,
+      "ref_nll": 13.520527729038122,
+      "kl_sum": 0.3385953520970716,
+      "flips": 2,
+      "id": "video-processing/3",
+      "document_id": "video-processing",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 20036
+    },
+    {
+      "tokens": 32,
+      "nll": 3.906729921130328,
+      "ref_nll": 3.8189298726143406,
+      "kl_sum": 0.5398504267908937,
+      "flips": 2,
+      "id": "vulnerable-secret/0",
+      "document_id": "vulnerable-secret",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 11673
+    },
+    {
+      "tokens": 32,
+      "nll": 0.0007550828631792683,
+      "ref_nll": 0.0006702055408425167,
+      "kl_sum": 6.0998550317013e-05,
+      "flips": 0,
+      "id": "vulnerable-secret/1",
+      "document_id": "vulnerable-secret",
+      "domain": "terminal_command",
+      "language": "agentic",
+      "context": 11729
+    },
+    {
+      "tokens": 32,
+      "nll": 6.246567292882446,
+      "ref_nll": 4.710829297393275,
+      "kl_sum": 0.11609515327667022,
+      "flips": 0,
+      "id": "vulnerable-secret/2",
+      "document_id": "vulnerable-secret",
+      "domain": "code",
+      "language": "agentic",
+      "context": 17765
+    },
+    {
+      "tokens": 32,
+      "nll": 7.293236840053275,
+      "ref_nll": 7.081757756962361,
+      "kl_sum": 0.45669857508076994,
+      "flips": 0,
+      "id": "vulnerable-secret/3",
+      "document_id": "vulnerable-secret",
+      "domain": "after_tool",
+      "language": "agentic",
+      "context": 1176
+    },
+    {
+      "tokens": 32,
+      "nll": 5.600051947947762,
+      "ref_nll": 5.632708265299932,
+      "kl_sum": 0.4495198016210532,
+      "flips": 2,
+      "id": "winning-avg-corewars/0",
+      "document_id": "winning-avg-corewars",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 1090
+    },
+    {
+      "tokens": 32,
+      "nll": 0.12935122409071909,
+      "ref_nll": 0.0394485431421856,
+      "kl_sum": 0.043441267938359486,
+      "flips": 0,
+      "id": "winning-avg-corewars/1",
+      "document_id": "winning-avg-corewars",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 1135
+    },
+    {
+      "tokens": 32,
+      "nll": 0.4166343120349154,
+      "ref_nll": 0.4297608714249961,
+      "kl_sum": 0.04758085468331277,
+      "flips": 0,
+      "id": "winning-avg-corewars/2",
+      "document_id": "winning-avg-corewars",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 1171
+    },
+    {
+      "tokens": 32,
+      "nll": 0.12915033826333655,
+      "ref_nll": 0.039183322180633695,
+      "kl_sum": 0.04329729798864131,
+      "flips": 0,
+      "id": "winning-avg-corewars/3",
+      "document_id": "winning-avg-corewars",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 1141
+    },
+    {
+      "tokens": 32,
+      "nll": 3.3479695954190873,
+      "ref_nll": 2.653968566170377,
+      "kl_sum": 0.1214400363891723,
+      "flips": 0,
+      "id": "write-compressor/0",
+      "document_id": "write-compressor",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 902
+    },
+    {
+      "tokens": 32,
+      "nll": 12.928082417262317,
+      "ref_nll": 11.818945020463445,
+      "kl_sum": 0.8111689909915807,
+      "flips": 2,
+      "id": "write-compressor/1",
+      "document_id": "write-compressor",
+      "domain": "after_tool",
+      "language": "agentic",
+      "context": 1703
+    },
+    {
+      "tokens": 32,
+      "nll": 10.544583626358758,
+      "ref_nll": 9.775288045238653,
+      "kl_sum": 0.29697534800119607,
+      "flips": 0,
+      "id": "write-compressor/2",
+      "document_id": "write-compressor",
+      "domain": "reasoning",
+      "language": "agentic",
+      "context": 1876
+    }
+  ],
+  "elapsed_seconds": 453.10416984558105
+}

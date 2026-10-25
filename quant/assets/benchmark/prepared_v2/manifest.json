@@ -1,0 +1,51 @@
+{
+  "source_files": [
+    {
+      "file": "build/benchmark/sources/MMMU_Pro/standard (10 options)/test-00000-of-00002.parquet",
+      "sha256": "1a4e66a232e89fd3f3b4cb8090ca429c046b0cd00c8171a8c38b31ad518ea957"
+    },
+    {
+      "file": "build/benchmark/sources/MMMU_Pro/standard (10 options)/test-00001-of-00002.parquet",
+      "sha256": "cdb73c3bfbfc79401c354e50e8f9baf245c5520e7d035f10574452645c37c751"
+    },
+    {
+      "file": "build/benchmark/sources/MMMU_Pro/vision/test-00000-of-00004.parquet",
+      "sha256": "ea6f864a650517d61283da560e1cb6034b9b3db77db4a1a84cf48af5e0b45b48"
+    },
+    {
+      "file": "build/benchmark/sources/MMMU_Pro/vision/test-00001-of-00004.parquet",
+      "sha256": "e4e590b50f51003b7a520a4b7b9dba0321634e35edd55ed31b040f621f6334c3"
+    },
+    {
+      "file": "build/benchmark/sources/MMMU_Pro/vision/test-00002-of-00004.parquet",
+      "sha256": "a2606016e29d8eb2e11dc217e1b603bb2c37642a705c68599aa46a69f2b5c5df"
+    },
+    {
+      "file": "build/benchmark/sources/MMMU_Pro/vision/test-00003-of-00004.parquet",
+      "sha256": "1bf3f7f259806d960c05679fe3fee4aefdef62c7387c747aec5614f6c2763d56"
+    }
+  ],
+  "questions_sha256": "08dfe18786d774b22660c99685e286e9cd9bddfd4d2e72f3f5733d28eac03709",
+  "counts": {
+    "ifeval": 541,
+    "mmmu_standard": 1730,
+    "mmmu_vision": 1730
+  },
+  "tools": {
+    "google": "/root/projects/quant/build/autoquant/tools/google-research/revision.json",
+    "mmmu": "/root/projects/quant/build/autoquant/tools/MMMU"
+  },
+  "source_revisions": {
+    "google_ifeval_revision": "3ef52111c1fabc301880818f5a547570e926a76b",
+    "ifeval_dataset_revision": "3ef52111c1fabc301880818f5a547570e926a76b",
+    "ifeval_hf_reference_revision": "966cd89545d6b6acfd7638bc708b98261ca58e84",
+    "mmmu_dataset_revision": "0d7426df4ccb3d8704a992fe6850abee7c262127"
+  },
+  "prompt_mode": "direct",
+  "ifeval_canonical_source": {
+    "url": "https://raw.githubusercontent.com/google-research/google-research/3ef52111c1fabc301880818f5a547570e926a76b/instruction_following_eval/data/input_data.jsonl",
+    "revision": "3ef52111c1fabc301880818f5a547570e926a76b",
+    "sha256": "67ffeee0fcb87c317c5b08a2de85557b4a7e96ada6178aa645b4954fe4b53d49"
+  },
+  "reused_images_from": "assets/benchmark/prepared/images"
+}

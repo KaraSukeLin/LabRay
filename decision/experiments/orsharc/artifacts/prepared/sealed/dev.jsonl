@@ -1,0 +1,1105 @@
+{"example_id":"005d8777952da64061995cc553450fe3cb7006e9","gold":"No","original_answer":"No"}
+{"example_id":"0104cb3d2907c193ceb119df67bbfd2684852976","gold":"Yes","original_answer":"Yes"}
+{"example_id":"0166e3b5e8908649ed38dadc7a63ea66869d923d","gold":"Inquire","original_answer":"Are you the designated provider?"}
+{"example_id":"023adf8c30e5fe480afc1886357abe44fcebdae6","gold":"No","original_answer":"No"}
+{"example_id":"026653be89b3a57b49555f5e41e6c972a0cffd3c","gold":"Inquire","original_answer":"is it cutlery made from precious metal or plated or clad with precious metal"}
+{"example_id":"02af3a90ae67c41a66ea1b33d798fdb1f95467ee","gold":"Inquire","original_answer":"Have your circumstances changed?"}
+{"example_id":"03cc7e9e21026b40511f10017052ee808a0f4f01","gold":"No","original_answer":"No"}
+{"example_id":"03ec7b7d79106291b8c86cdb525bd19d71d055a5","gold":"No","original_answer":"No"}
+{"example_id":"03eeaba86de89604708785e7d3f7bb6d6f57693b","gold":"Inquire","original_answer":"Have you committed benefit fraud?"}
+{"example_id":"0430c38431d796bc34e6b49a54900800afe41152","gold":"Yes","original_answer":"Yes"}
+{"example_id":"043e7dacc7ed8842fca72639b6206d22088e548b","gold":"No","original_answer":"No"}
+{"example_id":"0486b95b50b0541addb47deab9f23b70a382feb9","gold":"Yes","original_answer":"Yes"}
+{"example_id":"04fe51aa5b049a67dbea6c1d22eb43ecfe749c64","gold":"No","original_answer":"No"}
+{"example_id":"05039c3e2cc2d0b606f79a3668fba3d4b43cf881","gold":"No","original_answer":"No"}
+{"example_id":"0534bdad481dab7e2aacfee893f0717fead6b378","gold":"Yes","original_answer":"Yes"}
+{"example_id":"05854a84fbc33eced14d133e83d0e197b1c390a3","gold":"No","original_answer":"No"}
+{"example_id":"05b51aa32cf3e8afd7c746ee16fd9550fd4724a2","gold":"Inquire","original_answer":"Was the property occupied by a dependent relative?"}
+{"example_id":"06605ad549fd7331f2b44657d4d262a2e7ae7b3b","gold":"Yes","original_answer":"Yes"}
+{"example_id":"0684cdb12b8a71d31c0ed636945f53ad2f6d155a","gold":"Inquire","original_answer":"Is it an attendance allowance?"}
+{"example_id":"06975424024280fb76243c70e5996190be4b6970","gold":"Yes","original_answer":"Yes"}
+{"example_id":"06c23a633cb09a165b779542ebe5317619e55052","gold":"Inquire","original_answer":"Are you getting a Pension Credit?"}
+{"example_id":"0724c9edcd913a9d50bcf8f88f5e45a42a147fb4","gold":"Inquire","original_answer":"Are there  adequate toilet facilities approved by the proper authority in the community in which the commercial airport is located?"}
+{"example_id":"083d9142865fa30c6b4fc8094bfba1103c4b17a4","gold":"Yes","original_answer":"Yes"}
+{"example_id":"09095e53c6062fa142e2f4041403c40167217921","gold":"Yes","original_answer":"Yes"}
+{"example_id":"0a54cee6d4b09e8da84afe05b452fb728a6ed2e9","gold":"Inquire","original_answer":"Did your spouse or civil partner reach (or would have reached) State Pension age on or after 6 April 2016?"}
+{"example_id":"0c6bb484e672320f439a81921a7e701f6d5523ae","gold":"Yes","original_answer":"Yes"}
+{"example_id":"0ca479613369f9e9fa205cd49b9d677b6e3429b2","gold":"No","original_answer":"No"}
+{"example_id":"0d83cd256912a2bfbace1c65b78fd1762b9cc35e","gold":"Inquire","original_answer":"is it bereavement support payment?"}
+{"example_id":"0e6444803064fa293f24b319cf8cf561fd4d700e","gold":"Inquire","original_answer":"Is it a business sale - for example when you sell goods and services?"}
+{"example_id":"0e6dad871f7d4e473d17974ed28c67f356719375","gold":"No","original_answer":"No"}
+{"example_id":"0e9c8e4b912928f1bba450c3431a15caadfe5634","gold":"No","original_answer":"No"}
+{"example_id":"0f44b090e7c42e29da966c9bd334e632adb7db2d","gold":"No","original_answer":"No"}
+{"example_id":"0f67131583274b5e1f037e79b214d644e53119ab","gold":"Inquire","original_answer":"Are you a veteran who uses medication, which a physician has prescribed for a skin condition that is due to a service-connected disability and causes irreparable damage to the Veteran's outer garments?"}
+{"example_id":"0f8e3c7a59d9e20bba13bfe09d5a3941ce2ee031","gold":"Yes","original_answer":"Yes"}
+{"example_id":"10397fbd2ed98a7aaeeb18daf9e3d76961bb6ddc","gold":"No","original_answer":"No"}
+{"example_id":"11796556704e476fd3cbbe2067acb63aface711c","gold":"No","original_answer":"No"}
+{"example_id":"12def2edafe161210f704e59d545978a33bfeb1b","gold":"No","original_answer":"No"}
+{"example_id":"12ed0a9f7b3f9bd6720b58c4dd4aab9a22881394","gold":"Yes","original_answer":"Yes"}
+{"example_id":"13215a437eacfe029e85c824f7c085fca428005e","gold":"Yes","original_answer":"Yes"}
+{"example_id":"1363dc3f5b0c2d391e75a4d0a4d33768d1b79457","gold":"Inquire","original_answer":"Is the business able to demonstrate repayment?"}
+{"example_id":"14b5df4d92f8a29f759b88e1d4adbce766b163dd","gold":"Inquire","original_answer":"Are you a higher and further education student on a work placement up to 1 year?"}
+{"example_id":"154e7c97c6b656aa575e74024bcb9346d948a182","gold":"Inquire","original_answer":"Are you a dad or partner?"}
+{"example_id":"15cf4761597f2f4d34a87b1a0850b3b2e97c8c2a","gold":"Inquire","original_answer":"Is this benefit a Sure Start Maternity Grant?"}
+{"example_id":"15f6537a5d49ea2210046c56739b8c6991598b9f","gold":"Yes","original_answer":"Yes"}
+{"example_id":"16abd32a96b75294771652e686c26aaee3b04b39","gold":"No","original_answer":"No"}
+{"example_id":"16b7dd05e5fb48d515dcfa330f6d33225dff5fc6","gold":"No","original_answer":"No"}
+{"example_id":"16f1ce929a24161442300dfbb72c08101b9c6652","gold":"No","original_answer":"No"}
+{"example_id":"170da611dd844a9d9458d0d2c5739ef7daadd2e0","gold":"No","original_answer":"No"}
+{"example_id":"177e2b3e0f999b24e151f9bb11054f074aab8162","gold":"Yes","original_answer":"Yes"}
+{"example_id":"17f378c61c6d583cc7d65656917033a48c363aee","gold":"Yes","original_answer":"Yes"}
+{"example_id":"1923380d70fe1bde9ceca3ed1cd25058efe723b3","gold":"Inquire","original_answer":"Are you widowed?"}
+{"example_id":"193c79d7ed95ab6fc0f110102954c05a4e7b3385","gold":"No","original_answer":"No"}
+{"example_id":"194016ed50d1f3b62ed14776661607bf0e434f14","gold":"Inquire","original_answer":"Have you lived in another country?"}
+{"example_id":"1a0ac67076a78ce6c664bd6e5d071ada801fcc2c","gold":"No","original_answer":"No"}
+{"example_id":"1a27ca45eff55e5292469fb4e7689548a3f6bad8","gold":"Yes","original_answer":"Yes"}
+{"example_id":"1aa8f6efe811a109363bb8a2340848014c4e45f9","gold":"No","original_answer":"No"}
+{"example_id":"1ab91695c3c1639bb6cacd34f2589f1a877ec310","gold":"Yes","original_answer":"Yes"}
+{"example_id":"1ac53d652bd8ba29a3c6b7c4f9d90ba3e6ab2b3b","gold":"Yes","original_answer":"Yes"}
+{"example_id":"1afb61c6718e00b2df420a31edb64afa76590107","gold":"Yes","original_answer":"Yes"}
+{"example_id":"1b1db5f3b327d332d84ceca5a2e01613f94f6758","gold":"Inquire","original_answer":"Has the patient signed his or her copy of the authorization form?"}
+{"example_id":"1b359b5cd053602a5c32aed4e1c579c80b20699d","gold":"Yes","original_answer":"Yes"}
+{"example_id":"1bf61b6d97b81cfd5ef99f92be5988ab0e1b4187","gold":"Yes","original_answer":"Yes"}
+{"example_id":"1c8b5e9270b20276d662d81a0b30653a31cfde4e","gold":"No","original_answer":"No"}
+{"example_id":"1cb8a2d274313085d5b048a0032870a6e7df37d4","gold":"Yes","original_answer":"Yes"}
+{"example_id":"1ceb12bfcd77299556db05892362480df8ddb5f7","gold":"Yes","original_answer":"Yes"}
+{"example_id":"1cf98f375098a3d669c58740ddbfc93fd8b38bcf","gold":"Yes","original_answer":"Yes"}
+{"example_id":"1d57691ccb797d0458e9ae5c8aa9b09d45d7a37d","gold":"Yes","original_answer":"Yes"}
+{"example_id":"1d822e4aad340dfd4c8bbee011b5f2a28116eeec","gold":"Inquire","original_answer":"Are you age 65 or older?"}
+{"example_id":"1df28ea9b32780e3e74aa8fdac63f44184d7dbd8","gold":"Yes","original_answer":"Yes"}
+{"example_id":"2232cf4de4b7835f94c5e3d9f34d9462eb09ad33","gold":"Yes","original_answer":"Yes"}
+{"example_id":"22389d8e96ea8ce6686ed52daafcaddd25cb0c0f","gold":"Yes","original_answer":"Yes"}
+{"example_id":"226049e6bf0b6fa1ec90792a5194b226475a81f6","gold":"Inquire","original_answer":"Are you going to tribunal?"}
+{"example_id":"2280bfa1156db9f1610bb8956e80b3802f55c21f","gold":"Yes","original_answer":"Yes"}
+{"example_id":"229878dea5d0eeeb7befa367ee51e8471c4945d1","gold":"Inquire","original_answer":"Is today Monday to Friday?"}
+{"example_id":"23081569dc9784e9bd714e4ac4d24d8dfb1cbde3","gold":"Inquire","original_answer":"Does the country you’re exporting to specify a time limit?"}
+{"example_id":"239d57f7291c092d49e311d80a30bbcbc4ed7dbb","gold":"No","original_answer":"No"}
+{"example_id":"24c2a034029fa64bc01e8840fd88ad2946dfb42d","gold":"Inquire","original_answer":"Did your spouse or civil partner reach (or would have reached) State Pension age on or after 6 April 2016?"}
+{"example_id":"25bfc4c03ef44194ca0bbac0d6b219759fb70eda","gold":"Inquire","original_answer":"Do you have a disability or other medical condition that makes it unsafe or impossible to wear a seat belt?"}
+{"example_id":"2606e1f8e5406219062b453de85e666f8b2118ee","gold":"No","original_answer":"No"}
+{"example_id":"26da06d0677475cfa1ef90cd2cc05d574bf8706a","gold":"No","original_answer":"No"}
+{"example_id":"27a1877ebe6d16939f8bf16d13c3d71c2513b6df","gold":"Inquire","original_answer":"Do you have a disability or other medical condition that makes it unsafe or impossible to wear a seat belt?"}
+{"example_id":"27d610d57281c3b83bec4705530422ffd0d5ab8b","gold":"Inquire","original_answer":"Are you a Veteran?"}
+{"example_id":"291321cadadc502082b05ac2c5bcb59df225d01d","gold":"No","original_answer":"No"}
+{"example_id":"29bd45eb0b8cddccc693238f1d4d1078b8f0caee","gold":"Inquire","original_answer":"Will it be used for machinery and equipment?"}
+{"example_id":"2a16c5520ba1b199654dd45321b1581bf2b79295","gold":"Inquire","original_answer":"Do you have cooling-off periods?"}
+{"example_id":"2bea96db740cab7994dfd7b1b2f850cf62f8d508","gold":"Yes","original_answer":"Yes"}
+{"example_id":"2c66c38bf232b379f7abab23eac918df5d0614bb","gold":"No","original_answer":"No"}
+{"example_id":"2cea6742d7bad4863cf63930b867437c9c7454e1","gold":"Yes","original_answer":"Yes"}
+{"example_id":"2d6415ec646a3235d7b094bbbe46e5b165e5a3a8","gold":"Yes","original_answer":"Yes"}
+{"example_id":"2dc2dc8194e3e7996bdb821e7082891b08d1e09b","gold":"No","original_answer":"No"}
+{"example_id":"2dfbe563e2bdc7396f75a7f7f3479ecccc761cf3","gold":"Yes","original_answer":"Yes"}
+{"example_id":"2e17b4c317f8caf78b5f653625fabbe21908a097","gold":"No","original_answer":"No"}
+{"example_id":"2eb8585793db266709e10916472469130f2ac826","gold":"Inquire","original_answer":"Are you claiming them for your child and their baby?"}
+{"example_id":"2f1bfe9e9354c79e0e991262239752271929b68e","gold":"No","original_answer":"No"}
+{"example_id":"2f379cd130c0a0eb322de4a73e57a74d6f11971f","gold":"Yes","original_answer":"Yes"}
+{"example_id":"2f4c5b6dbd66f04cdd98022bfd7df13c186fdf32","gold":"Yes","original_answer":"Yes"}
+{"example_id":"2fa477ec9a947798b7465448333da4152527a115","gold":"Inquire","original_answer":"Have you fully completed and printed required forms?"}
+{"example_id":"2fd04a0b1e5df919c728e42b4a05daa019f3079d","gold":"Inquire","original_answer":"Do you provide consumer credit services?"}
+{"example_id":"2ff105d634f60159c8a7862ded1d9515caf88c5c","gold":"Inquire","original_answer":"Do you have the Express Plus Medicare app?"}
+{"example_id":"2ffa1fc54f0540e599d7e377657b8ca5ad4d543b","gold":"Yes","original_answer":"Yes"}
+{"example_id":"308ef52fa4cb7036118339b12305ccec29579294","gold":"Inquire","original_answer":"Are you 16 or over?"}
+{"example_id":"31c4e4b76ba909e6e6640596d84cb5a94d3abcd5","gold":"No","original_answer":"No"}
+{"example_id":"32c157448b07eb152be4c10627b8cd5f8a927af8","gold":"Inquire","original_answer":"Is the course a recognised foundation programme as a postgraduate doctor or dentist?"}
+{"example_id":"32d6ba94e72701d69ce6c4499fcbf624a343fe0e","gold":"Yes","original_answer":"Yes"}
+{"example_id":"3368ad87baaae008520d5a6d17552051df8c31c0","gold":"No","original_answer":"No"}
+{"example_id":"33fa42c639fb7c18882d36d899d37a45efbdc4a6","gold":"Yes","original_answer":"Yes"}
+{"example_id":"341fd69ba0881ca127a341a61afc2c40fb0931df","gold":"No","original_answer":"No"}
+{"example_id":"365a6ea8f5b278c9467844f26c58c33620be7e3d","gold":"No","original_answer":"No"}
+{"example_id":"37ff8dcff7933cab8b6f643ef2ba3ad2ae4d6c65","gold":"Inquire","original_answer":"Were you active in the military?"}
+{"example_id":"3802b5ea4d9ce0dd78e6b53b8f3190e7e0d49c78","gold":"No","original_answer":"No"}
+{"example_id":"381041d887cf1131f84e432086d924802c9cf6c4","gold":"Inquire","original_answer":"Are you married to a Native American non-Veteran?"}
+{"example_id":"392796cde905f696992860c48201e13b7955bcd5","gold":"No","original_answer":"No"}
+{"example_id":"3a336494917cfa0642703215e2388f46c82419ac","gold":"Inquire","original_answer":"Are you single?"}
+{"example_id":"3b7174746b5831c1e8a3d0ed5f0edd941fa3640c","gold":"No","original_answer":"No"}
+{"example_id":"3b96743bf2034e5dabe7679bbfb3bb5aaffa1fce","gold":"Yes","original_answer":"Yes"}
+{"example_id":"3bfe1a3a217d9e0807af240c3a0088ceeb3ddf02","gold":"Yes","original_answer":"Yes"}
+{"example_id":"3c160a0da9f35c7dec67ccbfc70b838ad5b2222a","gold":"No","original_answer":"No"}
+{"example_id":"3c358e2f3687a08cd772f19b4ca3da8ae4911d09","gold":"Inquire","original_answer":"Is it rangeland?"}
+{"example_id":"3c4b32e38ae270046c9e036fa344c7accf504de6","gold":"No","original_answer":"No"}
+{"example_id":"3cfbae5f2874d5a2f2f36f298e7ea0f45f79570b","gold":"Inquire","original_answer":"Did the veteran die before the appointment of a guardian or within two years of such appointment?"}
+{"example_id":"3d113ca67e2a59a21b5c045bc3d5c8f328dbcb9c","gold":"No","original_answer":"No"}
+{"example_id":"3d6dd5e92c1ab52628fe3dbf4f29e7e4998e42ff","gold":"No","original_answer":"No"}
+{"example_id":"3e04e2f72bc5a1a8a99a64c279339afedb15a817","gold":"Yes","original_answer":"Yes"}
+{"example_id":"3e29d4da87b324b071915107c0e9564c0b54ab07","gold":"Inquire","original_answer":"Is the service games?"}
+{"example_id":"3f6a7c87ed297375d0a996109b92db38a47d85ee","gold":"No","original_answer":"No"}
+{"example_id":"40d94250c1ba6b717889b8bcab5853bc2807dd8b","gold":"No","original_answer":"No"}
+{"example_id":"41293c79ee2b589b1fb42f736037be73126713f0","gold":"Inquire","original_answer":"Did the veteran die before the appointment of a guardian or within two years of such appointment?"}
+{"example_id":"4185611d0cc32fdab25c654756ca41aba529345a","gold":"No","original_answer":"No"}
+{"example_id":"41f2ffd290c70a2b02a69d6b56b62ada97cc1497","gold":"Yes","original_answer":"Yes"}
+{"example_id":"42c1029527a76369786ab6efd5cf92ef6e1049a1","gold":"No","original_answer":"No"}
+{"example_id":"42c324b06992021c11cc01e0c65012642f28aebc","gold":"Yes","original_answer":"Yes"}
+{"example_id":"4354a965b021b2c8ec954404f71321c6f48d4287","gold":"Inquire","original_answer":"Did your doctor's practice help claim it?"}
+{"example_id":"4387d18698374cdc9f7ccd7fc7c2c5f2f5f71daa","gold":"No","original_answer":"No"}
+{"example_id":"448ba81ce5d877ef985c330749d34b7e5da5f5e8","gold":"Yes","original_answer":"Yes"}
+{"example_id":"46070701ffa320b26fb3ee46fe8398f89eecc3ce","gold":"No","original_answer":"No"}
+{"example_id":"465a4e1de1b2472320cf7d959e2d3d79abc00ea9","gold":"No","original_answer":"No"}
+{"example_id":"46bcc36f5e8236867bfcba7de00d3ea7a51b9d57","gold":"Inquire","original_answer":"Does it include work done while in prison?"}
+{"example_id":"46d44c560b9e46f428ca810dd38812eea3f00c20","gold":"Inquire","original_answer":"Are you age 21 or older?"}
+{"example_id":"47bfb567fed84d046336cd337b0792067a8bd2d2","gold":"Yes","original_answer":"Yes"}
+{"example_id":"4810a28cf99676a51543d42630a5f297b26cb056","gold":"No","original_answer":"No"}
+{"example_id":"4875246a3600ea816fa231dd7ddeeba70fe34106","gold":"Inquire","original_answer":"Are you following a European Union programmes: Leonardo da Vinci, Youth in Action, Erasmus, Comenius?"}
+{"example_id":"487852f5e9ed8bb81833cf62c2a9b54869919e34","gold":"Inquire","original_answer":"Do you meet principal carer rules and care for a child under 8 if you’re single or under 6 if you’re partnered?"}
+{"example_id":"48e083a631a778b7885e281f51f7a3036d46baf0","gold":"Inquire","original_answer":"Are you planning to come back to the UK?"}
+{"example_id":"494221901adf9bf353f9f7d7dde563aafe082a80","gold":"No","original_answer":"No"}
+{"example_id":"49842d251b28f0dc9673d07aedcfe433bd84eb66","gold":"Yes","original_answer":"Yes"}
+{"example_id":"49fd4d03fc664b6aa29dca06f6e0abd871d4694c","gold":"No","original_answer":"No"}
+{"example_id":"4ad4553085561dcb68138821e18973b2f2ffd1b1","gold":"Yes","original_answer":"Yes"}
+{"example_id":"4afd74b9969fe4c76cd4e7113369c21c51202c77","gold":"Yes","original_answer":"Yes"}
+{"example_id":"4b15e3d624d2c7fa4fb4f1b3af43ebb9b8215b05","gold":"Inquire","original_answer":"Are a serving member of the UK armed forces (or their spouse or civil partner or a dependent parent living with them) not resident in the UK and your course started after 1 August 2017"}
+{"example_id":"4b61f11a41bbdc9d197d3a4ef0c61a31ff382731","gold":"Yes","original_answer":"Yes"}
+{"example_id":"4b7ee1317106acaf6564896f9200059bee4290f3","gold":"Yes","original_answer":"Yes"}
+{"example_id":"4c1b868b8b8e85bf2023de5159e943a157956f1a","gold":"Inquire","original_answer":"Is it bereavement payment?"}
+{"example_id":"4da24280e9a804ad3627e8219a91a67aaa3b3fa1","gold":"No","original_answer":"No"}
+{"example_id":"4debbee8f247a608cf633f7416a364b028aa8ff1","gold":"No","original_answer":"No"}
+{"example_id":"4eec4987b82e5ad80f7469d40f49689aa6327f29","gold":"Yes","original_answer":"Yes"}
+{"example_id":"4efec00534278400e0a3b254a7a9b882ac0cd1eb","gold":"Inquire","original_answer":"Will it be used for machinery and equipment?"}
+{"example_id":"50a11a941928d0adeebc3c8658c06ee003a98b88","gold":"No","original_answer":"No"}
+{"example_id":"50c2c6861c9baca01da45883a75e9023bde3c9a8","gold":"Yes","original_answer":"Yes"}
+{"example_id":"5105a6576163b59de7a8b73625888e89d6b7973a","gold":"Inquire","original_answer":"Is the product a hand knotted carpet, hand woven rug or tapestry?"}
+{"example_id":"529ebdf30a84e9ecd2b57d849835cc31d657a6cc","gold":"No","original_answer":"No"}
+{"example_id":"53035fb014c0289592687741b4872110dac5e062","gold":"Yes","original_answer":"Yes"}
+{"example_id":"533f5b1995e256bc2c1b6d97e91da9a8f6202187","gold":"Yes","original_answer":"Yes"}
+{"example_id":"538f66f3f50d0379c5be9b15165fa859fce234ad","gold":"No","original_answer":"No"}
+{"example_id":"5396a91c00d9ba697adf44b7e5fa76dc42b2f915","gold":"Yes","original_answer":"Yes"}
+{"example_id":"53c2e9fdb84d0700d7e90a5e847f01cdbb1bffef","gold":"Inquire","original_answer":"Did you sell other chargeable assets in the tax year?"}
+{"example_id":"559bd8d84cf95d7a371983abb783eb68580f20e4","gold":"Inquire","original_answer":"Did your spouse or civil partner die on or after 6 April 2016?"}
+{"example_id":"55ad62c649196dac274c9b519459ddceaede9ccc","gold":"Yes","original_answer":"Yes"}
+{"example_id":"55d5e34a9912fddfe3adac325b0189b81396b4dd","gold":"Inquire","original_answer":"Are you a foreign worker?"}
+{"example_id":"56bcd172f015a694d7e2bffe12c2cbe2b37ea1db","gold":"No","original_answer":"No"}
+{"example_id":"57076d2bbabb0fc3e8472ff5feab02344337fb1e","gold":"No","original_answer":"No"}
+{"example_id":"584ffa5de14dd2a7c1214a9b505f6ac4094c3506","gold":"Inquire","original_answer":"Are you on parental leave?"}
+{"example_id":"588c784cee4629484d34a88409e9fb969469323e","gold":"Inquire","original_answer":"Is this benefit a Diffuse Mesotheliomia Payment Scheme?"}
+{"example_id":"595b5664cf097bc2f8ec8464b9e852903ea558d6","gold":"Inquire","original_answer":"Are you in or recently left local authority care?"}
+{"example_id":"5965668e13103621dfc231317542a8e9b817b2d1","gold":"Inquire","original_answer":"Do you work at least 16 hours a week and you’re disabled or aged 60 or above?"}
+{"example_id":"5997f805e21cc01fea6fc1c9f9a6d53b775194e2","gold":"No","original_answer":"No"}
+{"example_id":"59af8165e72db7dac1984a2cc3071b4c244f2205","gold":"Inquire","original_answer":"Is it for Vaccine Damage Payment?"}
+{"example_id":"59b9723c7c3d65bb24a951bc03a155bcf1814fdd","gold":"Yes","original_answer":"Yes"}
+{"example_id":"5c4de797006268a39aae61a71780c91a51eb6ceb","gold":"No","original_answer":"No"}
+{"example_id":"5c638f3b3eaf04aa97a59daef23039c017dc7e73","gold":"No","original_answer":"No"}
+{"example_id":"5c9d50b3660dd9d4c2ff475cc841419fab62d102","gold":"Inquire","original_answer":"Do you plan to export the same type of product again?"}
+{"example_id":"5df4fa31285be16a3fde18d5d1a2b4de2339d10e","gold":"Inquire","original_answer":"Are you currently abroad?"}
+{"example_id":"5e2f9ea081c606985b3b4c83390e840675cfebca","gold":"Inquire","original_answer":"Did you make contributions  between 6 April 2002 and 5 April 2016?"}
+{"example_id":"5ffc867b2dd9c3144889340f680ffcd9abd0f109","gold":"Yes","original_answer":"Yes"}
+{"example_id":"60223a4696208bfc19337a25014509f5bff27045","gold":"Inquire","original_answer":"Were you active in the military?"}
+{"example_id":"603f23c4fa66365b04a772077e07f7ebbdb23f25","gold":"Yes","original_answer":"Yes"}
+{"example_id":"60706a9ecb340d8f2e55bc122a97d408ab4e83cb","gold":"Inquire","original_answer":"Is this benefit Maternity Allowance?"}
+{"example_id":"608e90903311c924649edf2dba5821a3de8405e6","gold":"Inquire","original_answer":"Is this art work, collectors' pieces or antiques?"}
+{"example_id":"6097354b2c7d4cb8a8de6e1c756aa7ee1d26af41","gold":"Yes","original_answer":"Yes"}
+{"example_id":"60c4979f82592dd2c005105ebc3d251d9a1a375b","gold":"No","original_answer":"No"}
+{"example_id":"60c8ca6c17917ffbe4997db391f9df50ea32f36a","gold":"No","original_answer":"No"}
+{"example_id":"615898a841ac2fd5fc480f1f9b6b337fc870c536","gold":"Yes","original_answer":"Yes"}
+{"example_id":"61f0bc6dbc8e3ab9fa76d21c9836c536c894d9bd","gold":"No","original_answer":"No"}
+{"example_id":"62d25cdb0ef6e160230ea0529b33a7eaaea39602","gold":"Inquire","original_answer":"Are the expenses travel expenses of 12p per mile if you drive, plus 2p per mile for up to 2 passengers?"}
+{"example_id":"6302ead324ee9add2ca6a34387c6d32ebbce0d89","gold":"Yes","original_answer":"Yes"}
+{"example_id":"63687af4ddd6ccb2cd238e5ae51cf4a1b8e053c0","gold":"Inquire","original_answer":"Have you taken less than 26 weeks of maternity leave?"}
+{"example_id":"638fcc9e669d7ae0e37daf877996454f6b2da38c","gold":"No","original_answer":"No"}
+{"example_id":"63cfecee22712220cbf3756b0ddce122317191ce","gold":"No","original_answer":"No"}
+{"example_id":"63daf465723c3747171d7f085df8e2bc7dc35bed","gold":"Yes","original_answer":"Yes"}
+{"example_id":"63ef677273516f631abac8405ff208d4c7c195d5","gold":"Yes","original_answer":"Yes"}
+{"example_id":"640fed7f3d7faaf70eead7a9206c3b0765e72a29","gold":"Inquire","original_answer":"do you have a sponsor?"}
+{"example_id":"641f4dc82060f7227245892d02aadb316291b97e","gold":"No","original_answer":"No"}
+{"example_id":"64c3c6e8e145f6881028dcbda4a1d2c2fe52fbcf","gold":"Inquire","original_answer":"Are you a qualified dependent eligible for VA educational assistance?"}
+{"example_id":"65133fc7f1422f0d5b7393a6ed47b542ca192bb7","gold":"No","original_answer":"No"}
+{"example_id":"65c12ee6c17f06a585a64fa005799963168feaf2","gold":"Inquire","original_answer":"Have you exceeded the daily and monthly claiming limits?"}
+{"example_id":"65d14ad7d9d51759cc3246d00efa2da0d10fdfcb","gold":"No","original_answer":"No"}
+{"example_id":"65dcfd181ed987a55b2a0707b59e4424841d8996","gold":"Inquire","original_answer":"Are you experiencing family and domestic violence?"}
+{"example_id":"660bf5abf584ab1ae5194c7a826a2d6ad1933cd7","gold":"No","original_answer":"No"}
+{"example_id":"666e44ff448fa91eb426f88a3ee0d88708faa395","gold":"Yes","original_answer":"Yes"}
+{"example_id":"671a7482339f474431d932dd742a4789fb860286","gold":"Yes","original_answer":"Yes"}
+{"example_id":"676579a9ad69d11553466ed5f44944b2580908bf","gold":"Inquire","original_answer":"Were you in the Reserves or National Guard?"}
+{"example_id":"677f0beca87a7ee5185fade47d2f44490ee52da1","gold":"No","original_answer":"No"}
+{"example_id":"692baac92ced71ea2302ac952288e5136accc220","gold":"Inquire","original_answer":"Are you under the supervision or control of a manager or director?"}
+{"example_id":"6a14d7fab9b798a12c0eda74161ba5717b1f9221","gold":"Yes","original_answer":"Yes"}
+{"example_id":"6baac8c29493ce21d3866e9395356384ef1da46f","gold":"No","original_answer":"No"}
+{"example_id":"6c99ade1ffca8ef272d7baf102a34560c2f4350c","gold":"No","original_answer":"No"}
+{"example_id":"6ca58da40a5212433755525bf8601d6883caf8fe","gold":"Inquire","original_answer":"Are they claiming tax credits for themselves?"}
+{"example_id":"6cc769180451e89b3b83a76b9d53946d5977b27f","gold":"Inquire","original_answer":"Did you commit benefit fraud?"}
+{"example_id":"6e3f34fd4ecd16bf4ccca251f8f6981ffeca5d65","gold":"Yes","original_answer":"Yes"}
+{"example_id":"6e56bb189a7e0afeefe85c76aebd2c4261add5f9","gold":"Inquire","original_answer":"Are you planning to come back to the UK?"}
+{"example_id":"6e679e9c2229faaef483de7b71844eadec1e2ecf","gold":"No","original_answer":"No"}
+{"example_id":"6f10fb63a8d0eff3ed134ee1320ec2868f2d00aa","gold":"Inquire","original_answer":"Is your self employed work commercial, regular and organised?"}
+{"example_id":"6f35ffddcae4a2c41d62794cb4306e09a7cbf92f","gold":"Yes","original_answer":"Yes"}
+{"example_id":"6fcb680703a059d5d4422cb526bffdaa5512f77a","gold":"No","original_answer":"No"}
+{"example_id":"70ad84e38c000e1ce35a38d1ce26f48551b688a7","gold":"Yes","original_answer":"Yes"}
+{"example_id":"70bff20da8562300102698b4ba2fe144b8c61838","gold":"No","original_answer":"No"}
+{"example_id":"70f881d6c3ed54abbb853103f9d8c2d19203d051","gold":"Yes","original_answer":"Yes"}
+{"example_id":"7131b0d6014ee628ae8152a000c989513ed550b9","gold":"No","original_answer":"No"}
+{"example_id":"7137e48e61daaf3860fec1f1bf545bb66eb96058","gold":"Yes","original_answer":"Yes"}
+{"example_id":"717f8916cbd2bd12b02705b9ee3ca55c4ab08c90","gold":"Inquire","original_answer":"Is the loan for working capital?"}
+{"example_id":"719f0e58168140133d5ec6ab0869b4ffbf62aaac","gold":"No","original_answer":"No"}
+{"example_id":"7288fc194b0fbc526fd67d0e0f4efd7fee7f9ed0","gold":"Inquire","original_answer":"Are you a new government-sponsored student?"}
+{"example_id":"729d99285694241b6b0473c815c497eb9f6d0cbb","gold":"No","original_answer":"No"}
+{"example_id":"73e1cc4a5813a74c30808b81dd07f3fdd435c1b2","gold":"No","original_answer":"No"}
+{"example_id":"73f6255a66ab43c03cb0fefe77e7131fce0925a4","gold":"Inquire","original_answer":"Are you getting a Pension Credit?"}
+{"example_id":"74f4053561b47de7bf8ca7635a5dd51dc4c579d3","gold":"Inquire","original_answer":"Is it for Jobseeker’s Allowance?"}
+{"example_id":"74fbd64f2aafe3d3067ad2bc954c8f0d6af36bb3","gold":"Inquire","original_answer":"Did you commit benefit fraud?"}
+{"example_id":"75c1ef1edec8c8c5b228b079af65830ae534a57b","gold":"No","original_answer":"No"}
+{"example_id":"75d16433a75d89ee2aa6f3244e2ddfb87bc8f065","gold":"No","original_answer":"No"}
+{"example_id":"761de4eb3f49c6f5e2eb8cbcc738a0cd9282c18d","gold":"Inquire","original_answer":"Are you the driver of an off-road motorcycle?"}
+{"example_id":"762430fb11af18fb26f61e95d8adae072453c811","gold":"Yes","original_answer":"Yes"}
+{"example_id":"765170c60266b22600c5bbf5e4b594c2516ad0bd","gold":"Yes","original_answer":"Yes"}
+{"example_id":"76a02c158d8e40d8d2d4292590394e0ad252d3e7","gold":"Yes","original_answer":"Yes"}
+{"example_id":"77847abb80037fe0bd2b90ceca92b9386a2949ec","gold":"No","original_answer":"No"}
+{"example_id":"78a51d15a969c3eb6212368510928c0c6f12355e","gold":"Yes","original_answer":"Yes"}
+{"example_id":"79412158f7a498e177e7782f9f48351741244f37","gold":"Yes","original_answer":"Yes"}
+{"example_id":"79c7f4ad210a0185845d00fc015b151911bbb1d0","gold":"No","original_answer":"No"}
+{"example_id":"7a86755c52c040650bf4364ab39d061d9d91e028","gold":"Yes","original_answer":"Yes"}
+{"example_id":"7a8b32fb1f31b82f750a8c2f0a16c23d79e8f904","gold":"Yes","original_answer":"Yes"}
+{"example_id":"7ad7c3c41244601526947f5057b5620fc3dcdf6f","gold":"Inquire","original_answer":"Do you get income-related Employment and Support Allowance"}
+{"example_id":"7b3747e93e3cb18c6288196b06172cb01ec7b2a4","gold":"Yes","original_answer":"Yes"}
+{"example_id":"7bfd5e6197541a1e54a373ee1a0c5bfec8488884","gold":"Yes","original_answer":"Yes"}
+{"example_id":"7c8b91d4d3c7761513b66b64f06c2a448b7539b4","gold":"Yes","original_answer":"Yes"}
+{"example_id":"7c9e6e7ce1e81be6755bea9eff58c4ddfbc99099","gold":"Inquire","original_answer":"DO you possess legal capacity to incur loan obligations?"}
+{"example_id":"7e34e009da76d89cd6d962199b2f0a32ced9ebdb","gold":"Yes","original_answer":"Yes"}
+{"example_id":"7e96be52b7174d7bf9e58ffb31bd785dc5f5dfaf","gold":"Yes","original_answer":"Yes"}
+{"example_id":"7eafa6fd7362e2651c124055619a15b886c8b08c","gold":"Inquire","original_answer":"Is it your Attendance Allowance?"}
+{"example_id":"7ec50f8dc43f5c7d4215cfe272ee32f9abba00cc","gold":"Yes","original_answer":"Yes"}
+{"example_id":"7eff83d6ce5403fc559252ec19955f37d18362d4","gold":"No","original_answer":"No"}
+{"example_id":"8129679e3227edc2ce8f04513357ea3d2babe867","gold":"No","original_answer":"No"}
+{"example_id":"81a6b4c5e90d6699cbf4debe666c53cdfba6948f","gold":"Yes","original_answer":"Yes"}
+{"example_id":"823298939b42d45675f2ed4c1be2d1f0c336a9fd","gold":"Inquire","original_answer":"Have you or your partner reached the pension credit qualifying age?"}
+{"example_id":"825b9c0e65a387b87a78214db3864bd21b0973f3","gold":"Yes","original_answer":"Yes"}
+{"example_id":"83463de6bc6512ffb78f21d892e9886c05786d09","gold":"Inquire","original_answer":"Is the service games?"}
+{"example_id":"83c7704d7b71c52dafb97761c23aba9bac84e2ef","gold":"Inquire","original_answer":"Do you asked for interpreter?"}
+{"example_id":"83e1c3eef971b8d8fc38ad5314f5fa0e246f3f55","gold":"No","original_answer":"No"}
+{"example_id":"84b947307b0b85c781edc737293bcfd04483e9c0","gold":"Yes","original_answer":"Yes"}
+{"example_id":"85978ac207f4aa4e737dd8bdf970846cc219a1a9","gold":"No","original_answer":"No"}
+{"example_id":"85cb497585e82380f0dbeabb5c4a6fdb05b540fa","gold":"Yes","original_answer":"Yes"}
+{"example_id":"8648bc6073c17e01f768ad20e6c4573b076bd5b7","gold":"Yes","original_answer":"Yes"}
+{"example_id":"869aa502114abbe367d2e8def0ecb118828d63de","gold":"Yes","original_answer":"Yes"}
+{"example_id":"8817a74c0694d7666002317870fb94f9f33f5d53","gold":"No","original_answer":"No"}
+{"example_id":"88f1902725e9cd171ad27fa0cb74b4c5eb7cbca9","gold":"Yes","original_answer":"Yes"}
+{"example_id":"89a67ec67313d627d07a4b8d88037a6ed2fa9ea2","gold":"Inquire","original_answer":"Is this benefit a Compensation Recovery Scheme (including NHS recovery claims)?"}
+{"example_id":"8a7fc7660eea7bd1330dba896981f1b9c55b6627","gold":"Inquire","original_answer":"Are they luxury perfumes, toilet waters, cosmetics, make up and beauty products?"}
+{"example_id":"8a8ed9d0a79e35ca6b43cc5427a4d4ea8dc34c4b","gold":"Yes","original_answer":"Yes"}
+{"example_id":"8b12411d0570216a1123d801ed9bcd88785c82d6","gold":"Yes","original_answer":"Yes"}
+{"example_id":"8e44cc82a57e77eba76a04e6217a7762c4922ccb","gold":"Yes","original_answer":"Yes"}
+{"example_id":"8ebf2060add8cf0ac0e69e64ff778a29bae7ccd2","gold":"Inquire","original_answer":"Is your reward for money or a benefit in kind, for example the promise of a contract or future work?"}
+{"example_id":"8f85af11423bb57ceac51f91702f8560344f5217","gold":"Inquire","original_answer":"Do you have a child?"}
+{"example_id":"8f8cfcad4fdf93237745547e2ed080216fde4c55","gold":"No","original_answer":"No"}
+{"example_id":"8fa811699202e82fb2a579aaedb42446eb1d1a0b","gold":"Inquire","original_answer":"Did you make contributions  between 6 April 2002 and 5 April 2016?"}
+{"example_id":"8fc7ee359c5945be7ed1479ae95351d834b98e84","gold":"Inquire","original_answer":"Does the business deduct tax and National Insurance contributions from your wages?"}
+{"example_id":"8fccd0133637ddf1cc1072ed3ddc4e5105d2a61c","gold":"No","original_answer":"No"}
+{"example_id":"900bffb3982a1f668a9528fb5b8dda2efa53f8ec","gold":"No","original_answer":"No"}
+{"example_id":"9033c9b8ac0e265d3cc1bf41b45f22134232746e","gold":"No","original_answer":"No"}
+{"example_id":"9054b30fad9dd43a97184af88f9c1bf643343be2","gold":"No","original_answer":"No"}
+{"example_id":"90a7d5e3b8f4953bd784508dae34d190855468e8","gold":"Yes","original_answer":"Yes"}
+{"example_id":"90e85866a35c7603f7089b570494ce465dc858b5","gold":"Inquire","original_answer":"Do you meet all criteria and evidence?"}
+{"example_id":"913f23afaeb2b289500ac48257416ba2b9af94f3","gold":"Inquire","original_answer":"Do you meet residency requirements?"}
+{"example_id":"915c18642f1c662026b56283133cef54ead09f40","gold":"No","original_answer":"No"}
+{"example_id":"91ac2d865eb69f8373b3064a5c6a34603d0ed331","gold":"Inquire","original_answer":"Are you contacting Advice now?"}
+{"example_id":"92045a9925da4df46fad6cc7cabb4d325bc2e4ec","gold":"Inquire","original_answer":"Have you fully completed and printed required forms?"}
+{"example_id":"948b3f3f1e6d2d887e88f4ae67bcc66d8ee2eb2e","gold":"Inquire","original_answer":"Are you a business?"}
+{"example_id":"94ad003462862a60d4dab0e63be3d128425e1727","gold":"Yes","original_answer":"Yes"}
+{"example_id":"94f54535295a34b5f307a1f02bbfd4411a80f9d1","gold":"Inquire","original_answer":"Is the interior floor area more than 6 feet by 8 feet?"}
+{"example_id":"96c7da0c8cfd433762f3e0a8d7d772d3d652db45","gold":"Inquire","original_answer":"Are you under 15 years old?"}
+{"example_id":"9708b64f7645ae60c76ec2fc5b1278593b1513be","gold":"Yes","original_answer":"Yes"}
+{"example_id":"988b3d355f9b2fa58f08506597dc2092211b8085","gold":"Yes","original_answer":"Yes"}
+{"example_id":"98e9fd01c18ac98a15d564c1ccd82f7190443164","gold":"Yes","original_answer":"Yes"}
+{"example_id":"990f31036ffa451a8449bc823f2d63b50ca5f294","gold":"No","original_answer":"No"}
+{"example_id":"99d80a1dfad4f713702e3485e6c0b0dc9debcf00","gold":"No","original_answer":"No"}
+{"example_id":"9a411b95fb0eb6f6567ebe246f96341dd9048ffd","gold":"Inquire","original_answer":"Is it high quality cigars and cigarillos?"}
+{"example_id":"9a97b72bd671103a91ccf2d13555ac04e0729c26","gold":"No","original_answer":"No"}
+{"example_id":"9ae51d66ea40a40426e31f3abed81ce00f84455b","gold":"Inquire","original_answer":"is it a child benefit payment?"}
+{"example_id":"9ba2818fc1e6a2f4b420c800c52054dd5493e39d","gold":"Inquire","original_answer":"Does your partner get benefits from another EEA country?"}
+{"example_id":"9bcbb8a1727a3f7f7d7de3fb961826f7077c1905","gold":"Inquire","original_answer":"Are you within the EU?"}
+{"example_id":"9d10eedcf35e933fcd816c13d6b381dd92666cff","gold":"No","original_answer":"No"}
+{"example_id":"9d56b8b46e90e77d36625185e07c7566a34d5ab2","gold":"Yes","original_answer":"Yes"}
+{"example_id":"9ddbb2720eb1c7950cb08fbd6c43418dc92131a1","gold":"Inquire","original_answer":"Are you going to occupy the property as your primary residence?"}
+{"example_id":"9ebad434cc947bf30d47a9936947315f1c1ceb37","gold":"No","original_answer":"No"}
+{"example_id":"a03ef7492ad4d6fdd85e50cffeddbf59992cef12","gold":"Yes","original_answer":"Yes"}
+{"example_id":"a0cd83b0ff5d69379731ba7de2ecaf6c1a1e508e","gold":"Yes","original_answer":"Yes"}
+{"example_id":"a142baeb3e95d06d315854211f86f255c8f6745d","gold":"Yes","original_answer":"Yes"}
+{"example_id":"a18eaac302bddc095a3c2d2db877863c82adc875","gold":"Yes","original_answer":"Yes"}
+{"example_id":"a1b3fc8c75315e298be2bc10b5bb20d1249a6ffc","gold":"Yes","original_answer":"Yes"}
+{"example_id":"a1e4014e332e1bcb1b036c6ac1100c04ba1d7a20","gold":"Yes","original_answer":"Yes"}
+{"example_id":"a1ef7430b58010fd1e65cb8879dc46ff9351bf6d","gold":"Inquire","original_answer":"Did the veteran  apply for S-DVI because of a continued mental incompetence due to a service-connected disability?"}
+{"example_id":"a20f4ca128020c233ee8498259dcb5e8c91a9480","gold":"Inquire","original_answer":"Do you have any VA rated service-connected conditions?"}
+{"example_id":"a28099f4bcc6c972b7d1b25f02a915ee155cc48a","gold":"Inquire","original_answer":"Is it a travel expense to cover your fare if you get there using public transport?"}
+{"example_id":"a3082c348cec4b3014129cbdf88966a902661be2","gold":"Inquire","original_answer":"Do you meet the other qualifying rules, eg work the right number of hours?"}
+{"example_id":"a3a9c619dd0e24f4be082462d49d63c7bf69f1e6","gold":"Inquire","original_answer":"Do you get Pension Credit?"}
+{"example_id":"a419f9197e6362d33a8aedcb596e6f0c710a0aa0","gold":"Yes","original_answer":"Yes"}
+{"example_id":"a49c6a82b12766a1278fb255adb885b951d4315d","gold":"Inquire","original_answer":"Are you attempting to export food to Russia?"}
+{"example_id":"a599c58b811c8a649fb3e61130a6e9468e5cecdb","gold":"No","original_answer":"No"}
+{"example_id":"a6d110d01b62cb309bb9a4b984cdfe26891e0f9e","gold":"Yes","original_answer":"Yes"}
+{"example_id":"a70b12dfee0e3c985a629a2831df480e9c4bc337","gold":"Inquire","original_answer":"Will it be used for machinery and equipment?"}
+{"example_id":"a74bbfb79afd5648b0c38a7afc3fc5a0179b3baf","gold":"Inquire","original_answer":"Are you a low-income family?"}
+{"example_id":"a7dbc2b067fcffb83c9f1a66ec87e14c43c135cf","gold":"Yes","original_answer":"Yes"}
+{"example_id":"a83bdf902c32bb7fb7ddda862a9796508fe8a972","gold":"No","original_answer":"No"}
+{"example_id":"a97db649b4bdd8368ba7dc30ec9985826eb0aba3","gold":"Yes","original_answer":"Yes"}
+{"example_id":"a9950a64c820bdfa5507c5c5ae24872ee30578a9","gold":"No","original_answer":"No"}
+{"example_id":"aa3d060bdd4f9502814454d2f542143487d204e2","gold":"Inquire","original_answer":"Are you a foreign worker?"}
+{"example_id":"ab470acd77008ef81783536f8980e82bcb392175","gold":"Inquire","original_answer":"Will the loan be used for minor real estate repairs or improvements?"}
+{"example_id":"acd895262bd94f1b9d8344b8165f31fe7014fd40","gold":"Inquire","original_answer":"Are you a family farmer?"}
+{"example_id":"ad4e5145def976408caf27bf4d3ef200699b56e8","gold":"No","original_answer":"No"}
+{"example_id":"ad8f5d3262d53408ccacc99cb14317a83d0ea4bb","gold":"Inquire","original_answer":"Are you doing volunteer work?"}
+{"example_id":"ae003058a7976700fd338676bb1a41b080fa4ea5","gold":"Yes","original_answer":"Yes"}
+{"example_id":"ae4316a2161b29088f54f2bc8b1840400b96963b","gold":"Yes","original_answer":"Yes"}
+{"example_id":"aede94c78dd22517d5199c86c291d14ebf9fac2c","gold":"No","original_answer":"No"}
+{"example_id":"b02f269fcbf5230382fac07024dd757e131f4da0","gold":"No","original_answer":"No"}
+{"example_id":"b03167097b789e7351c55c0eac9b63f3f8433bae","gold":"Inquire","original_answer":"Do you meet other requirements?"}
+{"example_id":"b074d9aa6972c4b8fbee6ad1e184fb2fdc8f0545","gold":"No","original_answer":"No"}
+{"example_id":"b157f66f46f920f2dda605f4cab46c00953ce974","gold":"No","original_answer":"No"}
+{"example_id":"b170c32935f05f84e4e5a4e6a1878ae74d606cd6","gold":"No","original_answer":"No"}
+{"example_id":"b1c290d16d13feddb342e6376485523d2533e45e","gold":"Inquire","original_answer":"Is the service software or ebooks?"}
+{"example_id":"b2d8303192422eddadbef25adee7a07788bfc7e8","gold":"No","original_answer":"No"}
+{"example_id":"b33e5790c56dac5a4c49e500eb4a6932758fd063","gold":"No","original_answer":"No"}
+{"example_id":"b4f4f7a502aaa82989e8cc40245bedc6629499c3","gold":"No","original_answer":"No"}
+{"example_id":"b574ea63033120c81182fb9c231d347a71ccf459","gold":"Yes","original_answer":"Yes"}
+{"example_id":"b83a820f1840a7c1a29130a0facc0a08e070468c","gold":"Yes","original_answer":"Yes"}
+{"example_id":"b9df7fc9b9a155725e7a79ea7344585be1048999","gold":"Yes","original_answer":"Yes"}
+{"example_id":"bb270cee6e00e817ca09b5fb1b8d1741c3d95f89","gold":"Yes","original_answer":"Yes"}
+{"example_id":"bb3ba4733e5da6bc404fe17216e95001d7032893","gold":"No","original_answer":"No"}
+{"example_id":"bb84d4b8d2996c271b8b2d10050bc06a136d4ed5","gold":"No","original_answer":"No"}
+{"example_id":"bbbca4370673689502e670e2ee21782cf1ad11e5","gold":"No","original_answer":"No"}
+{"example_id":"bbd2337b42a42bc54f046c678d87eeef1a760248","gold":"Inquire","original_answer":"Is this person the government department or council’s representative (known as the ‘presenting officer’)?"}
+{"example_id":"bc5f5255a4c00240a13c97b36c002d01506180eb","gold":"Inquire","original_answer":"Is the contract for payments below the minimum wage?"}
+{"example_id":"bd854765e59da8f576e77f09775e2ae0654b9193","gold":"Yes","original_answer":"Yes"}
+{"example_id":"bea6f9a42f5f81b66573bdfb9995d297881286f3","gold":"Yes","original_answer":"Yes"}
+{"example_id":"bf2966e780203e50736d271458aa815c832836b1","gold":"Inquire","original_answer":"Do you meet the eligibility criteria?"}
+{"example_id":"bf8b0bba13f22e7671707a70db815db83ac7c190","gold":"Inquire","original_answer":"Do you get an ncome-based Jobseeker’s Allowance?"}
+{"example_id":"bf9fb5703a45e51762fe0647dd5a0a5bec1d6f75","gold":"No","original_answer":"No"}
+{"example_id":"bfabf27abb43c8e7e7f546f360e4e8d3fb85e407","gold":"Inquire","original_answer":"Were you born on or before 5 August 1953?"}
+{"example_id":"bfcbd526cffabadca228588148048179441a7528","gold":"Inquire","original_answer":"Are you employed?"}
+{"example_id":"bfd855370604954cade81c7ba625b7701d3bfa1f","gold":"Inquire","original_answer":"Are you the child of a Swiss national?"}
+{"example_id":"c09a96debf4c2cde2ca94011b2a016e8c18553f2","gold":"Yes","original_answer":"Yes"}
+{"example_id":"c16de1b7099a4bf8d1cee2d6e88ded36372e04fd","gold":"Inquire","original_answer":"Are you looking after children?"}
+{"example_id":"c193a3540f3076a2c8a1a98b71458f6ee01e6efc","gold":"No","original_answer":"No"}
+{"example_id":"c1e4a26b18b280fba02146877b57bdded20d0f7e","gold":"Inquire","original_answer":"Did you deliberately not report a change in your circumstances while abroad, like buying a property, working, or claiming a pension or benefit from another country?"}
+{"example_id":"c2f7bffa57b2d6e88e2ec111dd78c89db32ff8da","gold":"Yes","original_answer":"Yes"}
+{"example_id":"c3b111edab26a70dfca58f5074bdfc319d9989d0","gold":"No","original_answer":"No"}
+{"example_id":"c3f8757596907acc7b06772fd83eef35afcc7e6f","gold":"No","original_answer":"No"}
+{"example_id":"c44a00ca919fa9214dce456d3be9c3d7a3e660c6","gold":"Inquire","original_answer":"is it coins and banknotes that aren’t legal tender?"}
+{"example_id":"c48ee2679f66bc252b31f402d87719eaea0f4d46","gold":"Inquire","original_answer":"Is it for Income Support?"}
+{"example_id":"c4fda704f833c60b6217415ca5c8ad38331bb83d","gold":"Yes","original_answer":"Yes"}
+{"example_id":"c5c0a79800a34c8fb852f6ef360a0f5ac27e846d","gold":"Yes","original_answer":"Yes"}
+{"example_id":"c669ed1596675a8fdf1b8b7fe77d2d7868ff5eec","gold":"Inquire","original_answer":"Does it involve a municipality?"}
+{"example_id":"c7b0da211dca2b5d0923b39caa22e566f68e4b77","gold":"No","original_answer":"No"}
+{"example_id":"c7c882ed339b48784964c8ce24c53cd30d9b4f15","gold":"No","original_answer":"No"}
+{"example_id":"c823e001b57b13fcfb0616a66e16f9c3014ae3ce","gold":"Inquire","original_answer":"Are you an apprentice, trainee, worker on probation, disabled worker, or an agricultural worker?"}
+{"example_id":"c8f6b5ca0d9ba396dcaacc0165be2624742cd9d7","gold":"Inquire","original_answer":"Are you Home Care level 10?"}
+{"example_id":"c90f7a8ea8dcd6806e64b93e8a87ed68ead4db62","gold":"Yes","original_answer":"Yes"}
+{"example_id":"c968aad2bb0da4735ebf41d57d7e6d6a14adf98f","gold":"Yes","original_answer":"Yes"}
+{"example_id":"c9907f2bfdb1ca008a1b7e5e21c9857a3d1e6839","gold":"Yes","original_answer":"Yes"}
+{"example_id":"c9b0d2051464be0b8d212f979b73b204f634babf","gold":"No","original_answer":"No"}
+{"example_id":"c9e45674d434e576c46eded382da00115e308d56","gold":"Inquire","original_answer":"Are you on parental leave?"}
+{"example_id":"c9f18d322e2bcde4b3d8eca442428caf26acdcdd","gold":"Yes","original_answer":"Yes"}
+{"example_id":"c9f83dc9363ad80fa0704746dadcfb7022ce379f","gold":"Inquire","original_answer":"Did you reduce  your share of a property that you still jointly own?"}
+{"example_id":"ca092bfc2aaec484766416da1d968ba10316c3cb","gold":"Yes","original_answer":"Yes"}
+{"example_id":"ca4b961b96812c99a03b25f476c1332afce0869a","gold":"Yes","original_answer":"Yes"}
+{"example_id":"ca92dee7b45054cf2856f2f9e7789623eeccda6c","gold":"Inquire","original_answer":"Are you a corporation, limited liability company or other acceptable business entity with no less than 51 percent ownership by Federally recognized American Indians or Alaska Natives?"}
+{"example_id":"cb116927e51686250012293ecd8b3af9cf42118b","gold":"No","original_answer":"No"}
+{"example_id":"cc5b2ea2d2fad83dea7e2c446c6907fd86cf5c67","gold":"No","original_answer":"No"}
+{"example_id":"cc9ce807e3e90ad96fe89954fa7a81419d668454","gold":"Yes","original_answer":"Yes"}
+{"example_id":"cd008f0a39fb0122d5c01ae32ec203043b5d6e99","gold":"No","original_answer":"No"}
+{"example_id":"cd0d9aa0b0f8ea76af565880527cc1ca56a1a327","gold":"No","original_answer":"No"}
+{"example_id":"cdc3e34881cdf7cc75e4f33538a40978d4a2bab8","gold":"Yes","original_answer":"Yes"}
+{"example_id":"ce8b5120ea89ad30cf4775a2d24de04543b7f56f","gold":"Yes","original_answer":"Yes"}
+{"example_id":"cea6784db3ed63d64a22a38267e55aaedd6a81bb","gold":"Yes","original_answer":"Yes"}
+{"example_id":"cf27af825afb4f51e5af22208b21c476402a0b4e","gold":"No","original_answer":"No"}
+{"example_id":"cf587a93f56e0186c07e3a9c3e2c7dd8f16b5e60","gold":"Inquire","original_answer":"Is your sponsor an independant school?"}
+{"example_id":"cf60000ef7224e39d2ffe5a3d1905782793dd1f5","gold":"No","original_answer":"No"}
+{"example_id":"cfb8d66a7f7d3b49414b133d887d96275ace34b0","gold":"No","original_answer":"No"}
+{"example_id":"cff734cbc965ce15164cfbdb4a036e77eeb09703","gold":"Inquire","original_answer":"Has your partner died?"}
+{"example_id":"d084004bc16ede70cae09453ceb440923dbe8e23","gold":"No","original_answer":"No"}
+{"example_id":"d141bc79dc31f273286625e18a09cec21f8166c2","gold":"Yes","original_answer":"Yes"}
+{"example_id":"d16a71a29dd5352bee1b92305713913cc3ff80b9","gold":"Yes","original_answer":"Yes"}
+{"example_id":"d2354e65db17dc36e6bcdabc4112e79e9c958377","gold":"No","original_answer":"No"}
+{"example_id":"d28ce1c4410a9f172bb1af3c42d0e433c4da2b65","gold":"Inquire","original_answer":"Are they controlled chemicals, for example those with a military use?"}
+{"example_id":"d2b2c2c5c8c974bbd6a8432467bca394921bfe83","gold":"No","original_answer":"No"}
+{"example_id":"d2ddadfd901408720924f2562961aeb11b784e43","gold":"Inquire","original_answer":"Is your course a level 3 or 4 qualification?"}
+{"example_id":"d3423a4196c8080fb5ffbc7b5d6709d29c4fddb9","gold":"Yes","original_answer":"Yes"}
+{"example_id":"d3bbe76b9cd01536a26f414bb3b8081ffc6ee152","gold":"No","original_answer":"No"}
+{"example_id":"d3d56a322bdbf04dda8fc5e96fcfc9adc115b1df","gold":"Yes","original_answer":"Yes"}
+{"example_id":"d46ff7e7bcdbe2acdf457753ee5015672dea1cd5","gold":"Yes","original_answer":"Yes"}
+{"example_id":"d4d0d272054d3a2a0fef70df40b02a6dfd910de5","gold":"Inquire","original_answer":"Is it controlled drugs (like opioids, certain stimulants or psychotropic substances), or chemicals that can be used to make them (‘drug precursors’)"}
+{"example_id":"d4f3524004daa61b7a3da337732556e60248f6bb","gold":"No","original_answer":"No"}
+{"example_id":"d52270573dbbe25c5ff409bc68d07e9249899f0d","gold":"No","original_answer":"No"}
+{"example_id":"d6f4936edd65b027efcd5d7c0fd6bc5421a79e66","gold":"Yes","original_answer":"Yes"}
+{"example_id":"d7807a2c7f850e4bcf702a51a15927d9c17e4914","gold":"Yes","original_answer":"Yes"}
+{"example_id":"d7ffa052893a10b65837e90040bb62eb8e05c00e","gold":"No","original_answer":"No"}
+{"example_id":"d8058965bba1040ea07a24223889385556f09a4e","gold":"Yes","original_answer":"Yes"}
+{"example_id":"d982e5baed2bebd139d9ef0d738ca57727f4c79b","gold":"Inquire","original_answer":"Are you over the age of 16?"}
+{"example_id":"d9baee1ff5560dce74dcddfef6a630f55e82c59a","gold":"Yes","original_answer":"Yes"}
+{"example_id":"dacc831d478ad7b8a93fda8494d68782e03f6daf","gold":"Yes","original_answer":"Yes"}
+{"example_id":"daee5526885e6cf66f1eb7feb0eeee7f436d5ba2","gold":"No","original_answer":"No"}
+{"example_id":"dc99247146b6fbed1b5ae297e628fb7d2dc1a648","gold":"Yes","original_answer":"Yes"}
+{"example_id":"dcae3729facef4c7e37ef99848477eb047c7efcf","gold":"Yes","original_answer":"Yes"}
+{"example_id":"dcb357bf25944802c9f56f297da1176cca066615","gold":"Inquire","original_answer":"Is your loan less than 1,392,000?"}
+{"example_id":"ddcab97bfdbe8d4bc46dfddc2d7f813fa9e49a67","gold":"Yes","original_answer":"Yes"}
+{"example_id":"de3c22f841baf650da53069ae4ba48a9bf48a73b","gold":"No","original_answer":"No"}
+{"example_id":"de755c749a81a8d8461c86ae197f2112f0e961e4","gold":"Yes","original_answer":"Yes"}
+{"example_id":"debb8c72ac6688ce761e1ffda61e3c6a7f4486aa","gold":"Inquire","original_answer":"Are you transgender?"}
+{"example_id":"dee59af12b494863fa1d897958624fffe2a779d8","gold":"No","original_answer":"No"}
+{"example_id":"df0bbc005cf86025efb349926a9eae46d5e7e1ec","gold":"Inquire","original_answer":"Is your product caviar or a caviar substitute?"}
+{"example_id":"df3d99477e54ef41471bf47cddb8b3346d5f8259","gold":"Yes","original_answer":"Yes"}
+{"example_id":"e14ad847fb51ad91ca99178e9a985b833e1bb974","gold":"Inquire","original_answer":"Do you want to use the app on multiple devices?"}
+{"example_id":"e2017084328db6f7c3e54def95c13d0c03dc2335","gold":"Yes","original_answer":"Yes"}
+{"example_id":"e29b7091c7ca121443755a13f211a37d708632ba","gold":"No","original_answer":"No"}
+{"example_id":"e2e693d611682c5a5bb27386120e85a3b7726aa4","gold":"Yes","original_answer":"Yes"}
+{"example_id":"e354786bddf1cb7380dc7ed84d1202d6c3aab155","gold":"Yes","original_answer":"Yes"}
+{"example_id":"e370c923ece7d49755abf97ee57c4cfd3d9ae843","gold":"No","original_answer":"No"}
+{"example_id":"e4c09ca7760f60d89117570a00f0c1e56f5f0946","gold":"Inquire","original_answer":"Can they send someone else to do your work?"}
+{"example_id":"e4db13118e53fdc7b2adb5c8c8b4cac68e0625cd","gold":"Inquire","original_answer":"Do you have more than the lifetime allowance of £1 million in pension savings?"}
+{"example_id":"e4fc4852649446ae11f09be9fda6bf094100d07a","gold":"Yes","original_answer":"Yes"}
+{"example_id":"e5bd0da5fdce6765f0251a8ca2fa9aaa6faa796a","gold":"No","original_answer":"No"}
+{"example_id":"e660f2b049ccad4f7be191b36f6bca497c412e2e","gold":"Inquire","original_answer":"Does your child attend a school that operates the Special Milk Program in Indiana?"}
+{"example_id":"e723a5c26b5da5e655f22ded493396d0aa39b91b","gold":"Inquire","original_answer":"Do you get Statutory Adoption Pay?"}
+{"example_id":"e77272e4d50e27ca6cc45c06bef618a02ef4f355","gold":"Yes","original_answer":"Yes"}
+{"example_id":"e776ee0200587bc9fab247241e783e9e5757b41c","gold":"Inquire","original_answer":"Is the service games?"}
+{"example_id":"e7e61582b91af4e343e2735e25ff7aad54d1efce","gold":"Yes","original_answer":"Yes"}
+{"example_id":"e81b006a082d6985611a1c6b7037eee35c731655","gold":"Inquire","original_answer":"Are you an operator of record in Farm Service Agency or has an exception been granted?"}
+{"example_id":"e85a98f791eacf910188527f120a4489a07309fe","gold":"Inquire","original_answer":"Are you an Indiana child in a family receiving public assistance (Temporary Assistance for Needy Families or Supplemental Security Income)?"}
+{"example_id":"e8bd19873858d7e11cba6d253828cc04ed598d94","gold":"Yes","original_answer":"Yes"}
+{"example_id":"e90421e082b4d4e78929169ad54eaa7117d7d9f1","gold":"Yes","original_answer":"Yes"}
+{"example_id":"e96e1a1bcb781a3a52009c00e48600d2d8b2f301","gold":"Yes","original_answer":"Yes"}
+{"example_id":"ea4de73866dcd7c32f62080408312a702f008651","gold":"Yes","original_answer":"Yes"}
+{"example_id":"eab92b093ed244ddcbf4b64043367c32105c4305","gold":"Inquire","original_answer":"Have you caused FSA a loss by receiving debt forgiveness (certain exceptions apply)?"}
+{"example_id":"eb5cb36f1cd84b5ac3e8f780e003b75f122f93b2","gold":"Yes","original_answer":"Yes"}
+{"example_id":"ebe1efc178aa3f7222794dbf8d1d63d546c9b328","gold":"Yes","original_answer":"Yes"}
+{"example_id":"ec1eb8d4a914c045b79a194bdb8189d553c83c34","gold":"Yes","original_answer":"Yes"}
+{"example_id":"edd711b5a52c227307bfe2ca7115d1ca13c309c5","gold":"No","original_answer":"No"}
+{"example_id":"ee3f610ae5e7a35faea1001b635861cfc4871d54","gold":"Yes","original_answer":"Yes"}
+{"example_id":"eea55e609864380b3f1f83c4ffe800723a9709fc","gold":"No","original_answer":"No"}
+{"example_id":"ef3c866afaa84048ca5996987b362f6652ac4137","gold":"No","original_answer":"No"}
+{"example_id":"ef40f98c57a9de74f64155c0704f222ecdc54fa0","gold":"Inquire","original_answer":"Do you or your partner get income from, or have assets outside Australia?"}
+{"example_id":"ef759a22d400e9a326860c6f2bba2a315e7efc81","gold":"Inquire","original_answer":"Is your loan less than 1,392,000?"}
+{"example_id":"efd9604b593ee009333e476bb67e5834fb5497d5","gold":"Inquire","original_answer":"Are you a business?"}
+{"example_id":"eff9afea445c15bf988120f18115d164b443c1e6","gold":"Yes","original_answer":"Yes"}
+{"example_id":"f005966100245ce229cd5c6c4a8c0810aa34fbfb","gold":"Yes","original_answer":"Yes"}
+{"example_id":"f206c60755a0fe3724c9de4962bef657cbc216e6","gold":"No","original_answer":"No"}
+{"example_id":"f2176aaa90f13a9190e0978b4de12345c40f240f","gold":"Inquire","original_answer":"Is the person the other parent in your child support case?"}
+{"example_id":"f254e23343dfbf88158a2c150cae535e55414e60","gold":"Yes","original_answer":"Yes"}
+{"example_id":"f30afee50988cb69ee047eff57ebf32d6ac0909a","gold":"Yes","original_answer":"Yes"}
+{"example_id":"f35053c83fb2b2e1dd8a88ae2477d44f1e1deb43","gold":"No","original_answer":"No"}
+{"example_id":"f4a77b117277bec3f69376cdb0a8b12e9b2a71eb","gold":"Inquire","original_answer":"Will you notify us of any changes to your Business or the goods and services you provide?"}
+{"example_id":"f5607839e8cd58a288c14f431d8124fb1f9c15ed","gold":"No","original_answer":"No"}
+{"example_id":"f56a8c9617e3b178d4f25782040c9756290d717f","gold":"Inquire","original_answer":"Do you need  financial and technical assistance to help conserve agricultural lands and wetlands?"}
+{"example_id":"f573632c27259c7ca2ae5b9df9f6ef2fae2ab733","gold":"Inquire","original_answer":"Did you claim any reliefs other than private residence or letting?"}
+{"example_id":"f6726b9b966c2e6f1419797f8533a10f5b52140a","gold":"Inquire","original_answer":"Do they both live with you?"}
+{"example_id":"f6bc5c5451f60027ae3f3174851906d0f212c92c","gold":"Yes","original_answer":"Yes"}
+{"example_id":"f737c416fbdcc89e8f0ea2e0027c4458a4f1eadb","gold":"Yes","original_answer":"Yes"}
+{"example_id":"f7704ad46231f447b8e95e82569a979a6aea8b93","gold":"No","original_answer":"No"}
+{"example_id":"f7979875c290bccfc2a007a848c5f159e9be1faf","gold":"No","original_answer":"No"}
+{"example_id":"f7cc0f3b96d946b2d0d7ad9867e7d1d66e4858e5","gold":"Yes","original_answer":"Yes"}
+{"example_id":"f80af7f85cf0378d8b306820786d2713b625c75a","gold":"Yes","original_answer":"Yes"}
+{"example_id":"f842dc04371e9293c9edcd75c17fa640be49e68f","gold":"No","original_answer":"No"}
+{"example_id":"f8dd4aa18f49a49833c76cc0b3c4e1dc466c1d93","gold":"Yes","original_answer":"Yes"}
+{"example_id":"fa0d18aac020cd0cb14ad7aaf7b29e14c02d0c76","gold":"Yes","original_answer":"Yes"}
+{"example_id":"faaf0cb8fd4fdf25707c13763f0de045788041f0","gold":"No","original_answer":"No"}
+{"example_id":"fae3da0125dce68acd9c721d354bbcfde28788e3","gold":"No","original_answer":"No"}
+{"example_id":"fb07eab9574b2a4c40692a3ec875fc563f6645ac","gold":"Inquire","original_answer":"Is it high quality leather goods?"}
+{"example_id":"fb978ac5dcadca3a1800ef9f32a37c98d4ce8f3b","gold":"Inquire","original_answer":"Do you get the Working Tax Credit?"}
+{"example_id":"fc02f4624e21d77b602c617262e0887438c4f2e8","gold":"Inquire","original_answer":"Did you donate straight from your wages or pension?"}
+{"example_id":"fcf02e7b63371fb86e64fa561f0ab4511f92ee21","gold":"Yes","original_answer":"Yes"}
+{"example_id":"fcf4b673c1566812b1ab5f5a4ab3d11add6a7e3c","gold":"Inquire","original_answer":"Did you make a false or misleading statement?"}
+{"example_id":"fdb97a0329fc38758ccd95a378c817651780f52f","gold":"No","original_answer":"No"}
+{"example_id":"fe990868758206b48e2bb66f48f7c84ba3ee25d5","gold":"Inquire","original_answer":"Is this benefit a Diffuse Mesotheliomia Payment Scheme?"}
+{"example_id":"feee167c7dac687f8a0676916e047e305c780660","gold":"Inquire","original_answer":"Did your benefits stop or go down?"}
+{"example_id":"ffc1ad17bc0b68b489821a2a682bf3bbdc387336","gold":"Yes","original_answer":"Yes"}
+{"example_id":"0059a19d6b6f287b88fa9ac0c6f4e9635665b679","gold":"Yes","original_answer":"Yes"}
+{"example_id":"00b0d8f1fa9168e7869154b3e5090e847e005456","gold":"Inquire","original_answer":"Are you an intermediary organisation?"}
+{"example_id":"0115a11914675ef72b09c21fadd1de53aee26c79","gold":"Yes","original_answer":"Yes"}
+{"example_id":"0134dfae47759e42a54dba100926b77040e10e70","gold":"Yes","original_answer":"Yes"}
+{"example_id":"015b2d0257a604eea8702a1f35c0d697b52b9188","gold":"Yes","original_answer":"Yes"}
+{"example_id":"020a1cf86c130d0c082b5817714d0a3ba6c4b753","gold":"Yes","original_answer":"Yes"}
+{"example_id":"031911741593805a9a360282801604ee06015558","gold":"No","original_answer":"No"}
+{"example_id":"03d7ed0e5690b4054e64687a617d4cb96310e4b4","gold":"No","original_answer":"No"}
+{"example_id":"0465321254c42b7966250cf0239136e33e37b51a","gold":"Yes","original_answer":"Yes"}
+{"example_id":"048d18b3257d28fddaf59040018a4b69bae53f6b","gold":"No","original_answer":"No"}
+{"example_id":"051f678b7e187389d063796aa7f1d7384ead0494","gold":"Inquire","original_answer":"Was your baby born early?"}
+{"example_id":"0522e90e32cf0a804d020bab765e95315ea544cf","gold":"Inquire","original_answer":"Do you have a birth defect?"}
+{"example_id":"05c43af1380c1e734a7aa63dcc56a079c2145429","gold":"No","original_answer":"No"}
+{"example_id":"05c59f9be02f5e7f8e5929ad7ac712ffe0c88587","gold":"Yes","original_answer":"Yes"}
+{"example_id":"05d70bde86adf65f82141536325576419dfb488c","gold":"Inquire","original_answer":"Are you located in a disaster declared county?"}
+{"example_id":"06b695ea7a0504663f45b4e0d0e6b15e6f273496","gold":"Inquire","original_answer":"Did your baby die after being born?"}
+{"example_id":"06c71bf4ed47d879afdd69e9996524be2e2b5ac0","gold":"No","original_answer":"No"}
+{"example_id":"073d333c2a57e7d2e4ba76a29fccf48462e0db3e","gold":"Inquire","original_answer":"Are you a female Vietnam Veteran?"}
+{"example_id":"0836e7dc738a3b1de958018186d3e2c1de536862","gold":"Inquire","original_answer":"Are you the child of a Vietnam Veteran?"}
+{"example_id":"087f368abfa5515da84441fe78f588a397f3b49b","gold":"Yes","original_answer":"Yes"}
+{"example_id":"08a55a59b8878895bf6a6c7889ff3c9c53cef842","gold":"No","original_answer":"No"}
+{"example_id":"097ca2a8edcc27952ec2b0f3e68c672a3d1ef428","gold":"Yes","original_answer":"Yes"}
+{"example_id":"09cfea386ade91243e9d30513e24b2019bf9ae07","gold":"Yes","original_answer":"Yes"}
+{"example_id":"0a68d6dfecaeb46a6db6198a34d434eaa7547770","gold":"Yes","original_answer":"Yes"}
+{"example_id":"0a7bbeca82c8498618b019d90bca8c017d5761a9","gold":"Inquire","original_answer":"Are you located in a disaster declared county?"}
+{"example_id":"0b753241732d8e964a4ff6aac720066497705eae","gold":"No","original_answer":"No"}
+{"example_id":"0bb5214df41ca420d826e59aa4b969399f7bbc63","gold":"No","original_answer":"No"}
+{"example_id":"0bc7b458e4e714daf3e86dee31f03d0ef9b08a61","gold":"No","original_answer":"No"}
+{"example_id":"0bf8317a8adc16baa1cbbe69f7b06ad226a7fa75","gold":"No","original_answer":"No"}
+{"example_id":"0ca136591dacd9c5a609f6f2c5e56af0726b0fbc","gold":"Yes","original_answer":"Yes"}
+{"example_id":"0eccf9fa8fe34a8ac8683b091da1e8c4c60f6043","gold":"Yes","original_answer":"Yes"}
+{"example_id":"0edec561d7612f816ab66ee8334e79e7ec6baa7c","gold":"Inquire","original_answer":"does your child have a birth defect?"}
+{"example_id":"0f34d55daed4b32088b25f1605729927ca751d9f","gold":"No","original_answer":"No"}
+{"example_id":"0f95a83183ada5dc71b346a052ec254ffa3641e6","gold":"No","original_answer":"No"}
+{"example_id":"12bdb64e33db2f4cb5b494762fc6dc65f0008175","gold":"Yes","original_answer":"Yes"}
+{"example_id":"141090677b1d315b517a28cab4a54e60a3986cde","gold":"Yes","original_answer":"Yes"}
+{"example_id":"14db009a10ed28c7de871afd95d56b3e55b34631","gold":"Inquire","original_answer":"Is the item goods for disabled people?"}
+{"example_id":"156884a6abe2f4545f41ce00d2b383d9468d1d6c","gold":"Yes","original_answer":"Yes"}
+{"example_id":"16ab150bbad2d3a833ccfaf57f42a01498a8fbf5","gold":"Yes","original_answer":"Yes"}
+{"example_id":"16d0d04e2117435331086ca401ba410207c7b106","gold":"Inquire","original_answer":"Is the item medical, veterinary and scientific equipment?"}
+{"example_id":"16d8f7403b139fe55bc4de22ce076b8a5cf2e7e0","gold":"Yes","original_answer":"Yes"}
+{"example_id":"17d6d78fd271c9721ae22b459eecb12f4f673f92","gold":"Yes","original_answer":"Yes"}
+{"example_id":"1831af2a65cab50d629dc835488194bfd9e33ea3","gold":"No","original_answer":"No"}
+{"example_id":"189a48a6f9793e0a07da95524da0d17b3376c052","gold":"No","original_answer":"No"}
+{"example_id":"18b1f596df5e92996499fead741246738005b1b9","gold":"Yes","original_answer":"Yes"}
+{"example_id":"197b64c3f6d60f55926ce2851320f50bfacdc493","gold":"No","original_answer":"No"}
+{"example_id":"1a2d2e2eb061c69951d6263f31a638ec44e89c0c","gold":"Inquire","original_answer":"Was your baby born early?"}
+{"example_id":"1b22d327d40f25f26273a62c646e845c568b0f56","gold":"No","original_answer":"No"}
+{"example_id":"1b5e14906503a037c7e748473fcc5c6c7cfa83a9","gold":"No","original_answer":"No"}
+{"example_id":"1b74d81cf61c4a1115ea8af598788d111f51ea1a","gold":"Yes","original_answer":"Yes"}
+{"example_id":"1beca78f3317b94888f9e806c9e2f070ef94eccc","gold":"Yes","original_answer":"Yes"}
+{"example_id":"1d152012cb1a40ac008680d4581846b53e376c6f","gold":"Yes","original_answer":"Yes"}
+{"example_id":"1db25f03f7af41935e28a59dc1045f658380138e","gold":"Yes","original_answer":"Yes"}
+{"example_id":"1dda31609d17336557acb1ebf2975dee708a1a08","gold":"Yes","original_answer":"Yes"}
+{"example_id":"1e77092bcbbe74ca8fc8e8c15be28531b41252ed","gold":"No","original_answer":"No"}
+{"example_id":"1eb7ace22810519ad9b94b57fb490e74201bab40","gold":"Yes","original_answer":"Yes"}
+{"example_id":"1f7db1d5381cc22a6711e2efc6fd62c119d9dad7","gold":"Yes","original_answer":"Yes"}
+{"example_id":"1f8fcde6e417c7b02048538bd510e02dd4236eec","gold":"Yes","original_answer":"Yes"}
+{"example_id":"20457c91d42d50c320ac3e714175265566aecf5b","gold":"Yes","original_answer":"Yes"}
+{"example_id":"209d298d050601853800468bc2313c8f6caf0f05","gold":"No","original_answer":"No"}
+{"example_id":"20b991475a16d0ef6307d2ec63401e9738af1dd3","gold":"Yes","original_answer":"Yes"}
+{"example_id":"20e771111185ee974703bcd27ead7b7f3514b259","gold":"No","original_answer":"No"}
+{"example_id":"20f7f22e07b6796913377ed8635d03c32cbbe82b","gold":"Yes","original_answer":"Yes"}
+{"example_id":"210936e9769cd6690829b1df2aa6f89206e39063","gold":"Inquire","original_answer":"Are you a woman born before 6 April 1953?"}
+{"example_id":"215ab5b2155bf5d3724fd970ba3635b804c89856","gold":"Yes","original_answer":"Yes"}
+{"example_id":"216a9140c1f75ecc79813de441edc3ac8a123d22","gold":"Yes","original_answer":"Yes"}
+{"example_id":"21a478a7a12daa7cda5ebb3af03dd9859357453d","gold":"Inquire","original_answer":"Are you on a low income or benefits?"}
+{"example_id":"21f74bac0355f25f26fff64c5e53566a07718ce9","gold":"Yes","original_answer":"Yes"}
+{"example_id":"2241a5909992366de7200107c29cee2033c6b8cc","gold":"Inquire","original_answer":"Was your baby born early?"}
+{"example_id":"22935614c1ecc20f820405daab05d74f1412b916","gold":"Yes","original_answer":"Yes"}
+{"example_id":"22db0c208de8eea73a822dd0141c7b6ae90813ef","gold":"Yes","original_answer":"Yes"}
+{"example_id":"22e913a815f4f1131d6af773733bd8fcc053dea8","gold":"Yes","original_answer":"Yes"}
+{"example_id":"2338890f1049223d4dba8da3829b6569b505a383","gold":"No","original_answer":"No"}
+{"example_id":"23eb0a91cc7e5981486ad86d5dbd8b048b77e6b7","gold":"No","original_answer":"No"}
+{"example_id":"2411279bd2f5a703aed668868cb2acc61bfe0385","gold":"No","original_answer":"No"}
+{"example_id":"244810d5780687cd5757a574f8d9b350952c6d53","gold":"No","original_answer":"No"}
+{"example_id":"244cd3b63ae566f26140fa4677d57692afec7ae6","gold":"Inquire","original_answer":"Is the item medical, veterinary and scientific equipment?"}
+{"example_id":"245efc51c3d919df4b9ed04bedcb18586fe617dc","gold":"Inquire","original_answer":"Was your baby born early?"}
+{"example_id":"24bc654d724534f18930f8494ddb04affec5ea0e","gold":"No","original_answer":"No"}
+{"example_id":"25ac72428f7ed2c6992a7f6d6f599604b703812b","gold":"No","original_answer":"No"}
+{"example_id":"25ad2a8a7f8c0f3821108fe95509504b3f439e1e","gold":"Yes","original_answer":"Yes"}
+{"example_id":"25af1142619adc81e8961450750c7786daaaeee7","gold":"Inquire","original_answer":"Are you located in a disaster declared county?"}
+{"example_id":"25e0b362a685e861e5ef486bd64b6bff622f03e5","gold":"Yes","original_answer":"Yes"}
+{"example_id":"25e4c307cf750f44433a3a3655403361b4d39d65","gold":"Inquire","original_answer":"Are you the child of a Vietnam Veteran?"}
+{"example_id":"2641b7db298e0e26d6618bb83e3b463ccae5f23c","gold":"Yes","original_answer":"Yes"}
+{"example_id":"26a0c89c1820773c2932bd1724c4133a032bb024","gold":"Inquire","original_answer":"Are you the child of a Vietnam Veteran?"}
+{"example_id":"280a791e7113a3eb2895fe0d38f0d5a5b59b1e93","gold":"Inquire","original_answer":"Is the item medical, veterinary and scientific equipment?"}
+{"example_id":"28afcbe3ee439ee505c90d5dc6d48acc007f7262","gold":"Yes","original_answer":"Yes"}
+{"example_id":"28b1496c0930e8ab55db76d9385cc5d1190fda27","gold":"Yes","original_answer":"Yes"}
+{"example_id":"290e6e3e191c8509bbb384dd2eba50b0b84defaf","gold":"Yes","original_answer":"Yes"}
+{"example_id":"29553dc7245398dd02f04b685584182db48abf69","gold":"Yes","original_answer":"Yes"}
+{"example_id":"29912d6bd3742228bbc99fad9d8d4931295701b2","gold":"Yes","original_answer":"Yes"}
+{"example_id":"2a18709c4e0b671f10da96fb94418719254aae67","gold":"Yes","original_answer":"Yes"}
+{"example_id":"2a1b749a41684e028d7cc9d3ac0352caca7555a5","gold":"No","original_answer":"No"}
+{"example_id":"2ab5c3f9c12605b123e73ee95ed3ced7768b168d","gold":"Inquire","original_answer":"Did your baby die after being born?"}
+{"example_id":"2b21596bcce180939546ed779c5ee53d372df3cb","gold":"Inquire","original_answer":"Is the item medical, veterinary and scientific equipment?"}
+{"example_id":"2b6a7050c765eaefd2bd33f1c4a5a57f0c763b74","gold":"No","original_answer":"No"}
+{"example_id":"2c30029fea4a9eb06b23fc3f26a221c0353aa7b3","gold":"Yes","original_answer":"Yes"}
+{"example_id":"2ca80cb260a45c020c681e3dd27af66af086f826","gold":"Yes","original_answer":"Yes"}
+{"example_id":"2d0681f463dfb66cc7f952f58935a9286b2a138d","gold":"No","original_answer":"No"}
+{"example_id":"2d730b8b728760997a7796c9224949772625a2db","gold":"Yes","original_answer":"Yes"}
+{"example_id":"2dc2b14ee66b0ac238bfbda87a14d90543516209","gold":"Inquire","original_answer":"Are you a female Vietnam Veteran?"}
+{"example_id":"2e5004c978b4fc859860e42afd97f76db332d8dd","gold":"Yes","original_answer":"Yes"}
+{"example_id":"2f5363e99f8343f67b96c7f0ec7b60c1dabc3f39","gold":"Yes","original_answer":"Yes"}
+{"example_id":"2fbc273b89731ba7f25f2cad4b2f4947381a42de","gold":"No","original_answer":"No"}
+{"example_id":"2fc89b019fe64f75e1010a8cdf97026a47f4975a","gold":"No","original_answer":"No"}
+{"example_id":"30257eb14058e10a646f782cbc3118155ecd9ead","gold":"No","original_answer":"No"}
+{"example_id":"313b954bc1f3135f29942a36392e7dcfcb7a2ef6","gold":"Yes","original_answer":"Yes"}
+{"example_id":"327fd2bfb6369c85f9f8dc3894dc7bb08c08634d","gold":"Yes","original_answer":"Yes"}
+{"example_id":"32ad87c00b8654b6d7d87d87cfd20df0e172dcfa","gold":"Yes","original_answer":"Yes"}
+{"example_id":"332beceef940d69e7bf35e57d601a793aeb86a3c","gold":"No","original_answer":"No"}
+{"example_id":"337dd41ab0a3f363798bb6f1d7912d194408d800","gold":"Yes","original_answer":"Yes"}
+{"example_id":"348a96d8f2684b48ce9a28060bdd8f4d4344b165","gold":"Yes","original_answer":"Yes"}
+{"example_id":"34b8764e7dbcffe738e72e054407d3bfd5703972","gold":"No","original_answer":"No"}
+{"example_id":"34f1c398a6980f54f4ac6c5f1f5c24ceba33fcf2","gold":"Yes","original_answer":"Yes"}
+{"example_id":"35101845c175aece24d9df9e874d003ad107f135","gold":"Inquire","original_answer":"Are you a woman born before 6 April 1953?"}
+{"example_id":"3535d8f1e0aead6783048d8772531af4ef814a40","gold":"No","original_answer":"No"}
+{"example_id":"368a919c4f0e0f971e17aaaf9031944938ad7db6","gold":"No","original_answer":"No"}
+{"example_id":"36f84b1f5991a11dba43969c6d7ad3f86234d8d4","gold":"Yes","original_answer":"Yes"}
+{"example_id":"36f9b2bd02075fac58810dbd5326c8de3bee3f55","gold":"No","original_answer":"No"}
+{"example_id":"371c116140a04a6bdd5c8f535679e37ea4cf374c","gold":"Yes","original_answer":"Yes"}
+{"example_id":"372aa213fc4c887d4dec9ae6c0f29790e59c5c76","gold":"Yes","original_answer":"Yes"}
+{"example_id":"373e4aa3efdf5534cac5534258138d148fd650ce","gold":"Yes","original_answer":"Yes"}
+{"example_id":"37b0f9396181af81f3eb7d5a07e8d909900bdcfa","gold":"Yes","original_answer":"Yes"}
+{"example_id":"38448b1267db68615a51439acc265b139e01fd3f","gold":"No","original_answer":"No"}
+{"example_id":"388ba713b00cace5c5780fa8952f16fc9d65d142","gold":"No","original_answer":"No"}
+{"example_id":"38c597a7166e298d995a8e9fe0fb99d8a31df9dc","gold":"No","original_answer":"No"}
+{"example_id":"38f5b60a7935cdf1c709b92d238c46291d02a59d","gold":"No","original_answer":"No"}
+{"example_id":"38fe84321275bd6a09792ed41f5e45df43bf1dc8","gold":"Yes","original_answer":"Yes"}
+{"example_id":"39e28ce281a15999314cd32914c5a976e0c9bde4","gold":"Inquire","original_answer":"Are you on the licensed premises of a retail marijuana establishment?"}
+{"example_id":"39fc85feffd40ea1f719a829a64034993c6c84ab","gold":"Yes","original_answer":"Yes"}
+{"example_id":"3a42294e50e884f9791c3be8637893e3140eda6a","gold":"Yes","original_answer":"Yes"}
+{"example_id":"3a85b842e10a7e06b5d94a1725f9fe56b0596900","gold":"Yes","original_answer":"Yes"}
+{"example_id":"3aab50243eee7489aa43cee31927374e89277f44","gold":"Yes","original_answer":"Yes"}
+{"example_id":"3acc85ddb4bb972c537c0f1b5f7a6fd1d4f76473","gold":"No","original_answer":"No"}
+{"example_id":"3ba7523ab12dc8933ba139743492e02d599ef81f","gold":"No","original_answer":"No"}
+{"example_id":"3bda987f2d4eeef59317efac077937fb1cfffe1e","gold":"Yes","original_answer":"Yes"}
+{"example_id":"3bff1e3a7b214832b23a68f46db36ba05ab00bc8","gold":"Yes","original_answer":"Yes"}
+{"example_id":"3d50d40f87d60a55e9c0550cb729ce8753672968","gold":"Yes","original_answer":"Yes"}
+{"example_id":"3daffef0b616751d01326853217cc712dcb1bf1d","gold":"Yes","original_answer":"Yes"}
+{"example_id":"3e663a10c0b22343655615a2bfb78e80a7fcdb39","gold":"Inquire","original_answer":"Are they for scientific research, if they’re family heirlooms or valuable artworks?"}
+{"example_id":"3e98a54298d3808a7f45cc7a96d1b6c3584b85d4","gold":"Yes","original_answer":"Yes"}
+{"example_id":"3ee03aa15044199561f0b9fdf74767722e1d5d05","gold":"Inquire","original_answer":"Did you sustain physical damage?"}
+{"example_id":"3f279df7337f6d156e3326cf75337240e8319ab4","gold":"Inquire","original_answer":"Is the item goods for disabled people?"}
+{"example_id":"3f68c0ee853b9ad1780581e5fca9b25c1bab7cb9","gold":"Inquire","original_answer":"Are you a homeowner or renter?"}
+{"example_id":"3fa49d44f616bc3074bcc30fff03989c4383a046","gold":"Yes","original_answer":"Yes"}
+{"example_id":"3fb3895cdd5957abb6725f78588f83261b9e5ec7","gold":"Yes","original_answer":"Yes"}
+{"example_id":"3fec301635cf7a0031ab5d203897ada5f55b7df4","gold":"Inquire","original_answer":"Is the item an ambulance?"}
+{"example_id":"405a1500847ca31c032623d43c0b47b68be95d80","gold":"Yes","original_answer":"Yes"}
+{"example_id":"413b5a3b0cfab1ca2cf04b089acaf06884ce0e93","gold":"Yes","original_answer":"Yes"}
+{"example_id":"414d2db7515fd4581e4bc83914f54c0c3955a93a","gold":"No","original_answer":"No"}
+{"example_id":"41c902af943a51601ea08459e629a31a8480179c","gold":"Inquire","original_answer":"Do you have a PRODA account?"}
+{"example_id":"41d4082ca2fffa9aad4133bff347d727869e37f9","gold":"Yes","original_answer":"Yes"}
+{"example_id":"41e4609e4b50890ff6c793222cf1374f0f67de80","gold":"Yes","original_answer":"Yes"}
+{"example_id":"42420bcba1801cb66edfd609e489a03915758f77","gold":"No","original_answer":"No"}
+{"example_id":"425e5c4cbe20cf49f27820f40f088ea1eb079323","gold":"No","original_answer":"No"}
+{"example_id":"4270c4035fcddab5a928141e507280587a6020b1","gold":"Inquire","original_answer":"Is the item goods for disabled people?"}
+{"example_id":"42b5a9a72aa6d7631e74c2cdd417b326d5cb0df8","gold":"Yes","original_answer":"Yes"}
+{"example_id":"42db02d9205edfa005bf4ed6e1359f8790a9c095","gold":"No","original_answer":"No"}
+{"example_id":"430d5419cf3a2fe378780ab783533481584d104c","gold":"No","original_answer":"No"}
+{"example_id":"436e7936e2f2675a7a085c00f4e9329f87cb3969","gold":"No","original_answer":"No"}
+{"example_id":"437bf412ebb83e6f27ddc8af9dfaa96c4a9c311f","gold":"Inquire","original_answer":"Did your baby die after being born?"}
+{"example_id":"44916bc9fa24ff47b7a066b893b395852b8a841d","gold":"No","original_answer":"No"}
+{"example_id":"45f09416e87af0e5e3e1461c1e0916f81b35bbd1","gold":"Yes","original_answer":"Yes"}
+{"example_id":"4629c80eb162e458cad0538459a780da6e718b0c","gold":"Yes","original_answer":"Yes"}
+{"example_id":"4640c36f2487bb079cc241ad3e1be6f6b185cfa4","gold":"Yes","original_answer":"Yes"}
+{"example_id":"46eeb2b2b55db79fdde4ba2d8e21f9284f60c303","gold":"Yes","original_answer":"Yes"}
+{"example_id":"4749a80852d69545ddc591f496992d4e2001a34f","gold":"Yes","original_answer":"Yes"}
+{"example_id":"477c6b19acc9a239e0e7d5564578ca871d6f503a","gold":"Inquire","original_answer":"Was your baby born early?"}
+{"example_id":"47e31edbf601c2a103147086f240665cfcf9cd40","gold":"Inquire","original_answer":"Are you a driver under 18 years old?"}
+{"example_id":"4830fd68fe6e02ff76ab553958eb4136978b1677","gold":"No","original_answer":"No"}
+{"example_id":"48fe73f40c3bc5cb5a264f045262b3a843fc19e5","gold":"No","original_answer":"No"}
+{"example_id":"49978c52f167adfc79f7f39ced727ecc272c6c21","gold":"Yes","original_answer":"Yes"}
+{"example_id":"49f1d83748e3bc3acc7250d067ec0795f62285c9","gold":"Yes","original_answer":"Yes"}
+{"example_id":"4a5c2832718103741e2e54f90da2b889d3d30db7","gold":"Yes","original_answer":"Yes"}
+{"example_id":"4b38aea71e9c064efaf03544917e899d67e8b880","gold":"No","original_answer":"No"}
+{"example_id":"4b681b09ad0ca70abee577e35b1fc0e171ed090e","gold":"Inquire","original_answer":"Are you a homeowner or renter?"}
+{"example_id":"4c4a1bb96140e2218ce3689d0cda0f29cf8c9096","gold":"No","original_answer":"No"}
+{"example_id":"4d5bc526adc4572fca40f7a1ed656c493fe079be","gold":"Yes","original_answer":"Yes"}
+{"example_id":"4d5c6ed918580a1f1a05fcb3d10df1b049efdf32","gold":"Yes","original_answer":"Yes"}
+{"example_id":"4d82c73ce09108d4d87da90aa923aedeb21d2296","gold":"Yes","original_answer":"Yes"}
+{"example_id":"4e02459890c9d84f75de5e7e0dbfd89b72902bf5","gold":"Yes","original_answer":"Yes"}
+{"example_id":"4e1dba118da3e7efebce16800223a0f7a8837620","gold":"Inquire","original_answer":"Are they for scientific research, if they’re family heirlooms or valuable artworks?"}
+{"example_id":"4e1dd5f0383f632f02f517f7eb2846ba21679b08","gold":"No","original_answer":"No"}
+{"example_id":"4ee3a08c031bf424ea74ea2bde186cd42376f9f2","gold":"Yes","original_answer":"Yes"}
+{"example_id":"4f438463c866b63623d8bd53e0c0ebf39828eb35","gold":"Yes","original_answer":"Yes"}
+{"example_id":"4f731f0c3608fbb6a2840fbdee9d19a7da0a496b","gold":"Inquire","original_answer":"Have you  completed TC689?"}
+{"example_id":"5167606b40b300dc5a48aba6ed1be9a05e31d9e6","gold":"Yes","original_answer":"Yes"}
+{"example_id":"5255f35612f77fee474d4b05750e81a3bc5380ef","gold":"Yes","original_answer":"Yes"}
+{"example_id":"52876d85c39dc0ce1f5d2f1005fac9c7962c9729","gold":"No","original_answer":"No"}
+{"example_id":"52b4a5d35180934a95c993b0771b0fc571c91b6e","gold":"Yes","original_answer":"Yes"}
+{"example_id":"52bfdf8843c09b9046c9597cc3e8ea52617dceeb","gold":"Yes","original_answer":"Yes"}
+{"example_id":"53ae21ec7955aaef5de3d0ea847ed1b02bad78a8","gold":"Inquire","original_answer":"Is the item an ambulance?"}
+{"example_id":"53e94b89cbf5fb1a48c460d73642c7a0a5b58f6d","gold":"No","original_answer":"No"}
+{"example_id":"5403d55c7ad7aaae410cc35cc959270a9edc5173","gold":"Inquire","original_answer":"Is the item an ambulance?"}
+{"example_id":"5426c600ec6b72b306aa1e7a9cf64c8db52050e1","gold":"Inquire","original_answer":"Are you a female Vietnam Veteran?"}
+{"example_id":"5465e3c8ffe0f941aeef47cd9b4eb1b2cf0ebe62","gold":"Inquire","original_answer":"Are you the child of a Vietnam Veteran?"}
+{"example_id":"54993d19d9c9055fc8463c795ebaf914c0e499b4","gold":"No","original_answer":"No"}
+{"example_id":"5581ea16b931392848af65df822661ac509d4c18","gold":"No","original_answer":"No"}
+{"example_id":"55bd8336d522a8ba4dc7c28e2e81b038e3b0c3c8","gold":"No","original_answer":"No"}
+{"example_id":"55f0faf0e251006a949c1181d6854c94704371bc","gold":"Inquire","original_answer":"Did your residence suffer sustained physical damage?"}
+{"example_id":"56153082a5ed145d785718af6a3fb911354270fe","gold":"Yes","original_answer":"Yes"}
+{"example_id":"567f1ddc88d1ba49a32bbe1eaa8e87741d043bf8","gold":"Inquire","original_answer":"Is the item an ambulance?"}
+{"example_id":"56a2de31f3129bb6258c3f4ca9facec38692f917","gold":"Yes","original_answer":"Yes"}
+{"example_id":"56b5097bec7b5df5425f064fdfea63806b3001d5","gold":"Yes","original_answer":"Yes"}
+{"example_id":"56f3e2b6bd01711fa312f0533ba02013c992543a","gold":"No","original_answer":"No"}
+{"example_id":"570be2e25563f11a5a4695736d6de14aef0653c1","gold":"No","original_answer":"No"}
+{"example_id":"5712f1ecb27200fb8450c6bee19f79b018e84c0a","gold":"No","original_answer":"No"}
+{"example_id":"57924bbd65d57671e630d0db952419d961e7a745","gold":"Yes","original_answer":"Yes"}
+{"example_id":"57d59409691ea4a2d9a8a41d678b7bd168be1931","gold":"No","original_answer":"No"}
+{"example_id":"58a96555e647829ee4625e9dcf6e55b42fc8092c","gold":"No","original_answer":"No"}
+{"example_id":"5963a2ee3cece085a9e543c41efefdc56604e7d7","gold":"Yes","original_answer":"Yes"}
+{"example_id":"59d50cef223eeae2c0c0a84ed161e0dc66aea24f","gold":"Yes","original_answer":"Yes"}
+{"example_id":"59e36c57b31db579c8acd9d5612a5e758ccbbf4c","gold":"Inquire","original_answer":"Are you a female Vietnam Veteran?"}
+{"example_id":"5ae196cbedea34158dd63e011f3655fce938b940","gold":"Yes","original_answer":"Yes"}
+{"example_id":"5ae85783a0f9f40f5fcea2ed9e576b2a443aa98d","gold":"No","original_answer":"No"}
+{"example_id":"5bba75a61dffe8b6b0692b89acbe64cd553c0f71","gold":"No","original_answer":"No"}
+{"example_id":"5d0085b1d833c875f71d8774e3755df31ea2e599","gold":"No","original_answer":"No"}
+{"example_id":"5e7a4c1024fae20070e2f0b0211f5fa3d2723b8f","gold":"Inquire","original_answer":"Was your baby stillborn after the start of your 24th week of pregnancy?"}
+{"example_id":"5ea41c7b73e787e9b95feaeb6a943bf62d338d95","gold":"No","original_answer":"No"}
+{"example_id":"5f7321f3e6659b142c0afe29da174016b88c8f0b","gold":"Yes","original_answer":"Yes"}
+{"example_id":"5f9f435ac5342f22c14dee0dee88d6bad3f8faf6","gold":"Inquire","original_answer":"Are you a female Vietnam Veteran?"}
+{"example_id":"5fac477eb61398afcd90934b1d090e8170589bdc","gold":"Inquire","original_answer":"Did your baby die after being born?"}
+{"example_id":"5feb23d0ae16eb6d89aec631ac7e31e70b10b2b7","gold":"Yes","original_answer":"Yes"}
+{"example_id":"60995f782e74ce7534b727f74bc9c3a5279fd1e8","gold":"No","original_answer":"No"}
+{"example_id":"60cda693962ac3bc7e269f3ca25a0748a7746bf1","gold":"Yes","original_answer":"Yes"}
+{"example_id":"60dbf3ed6cf13cbf755b58e8e52c826925324624","gold":"No","original_answer":"No"}
+{"example_id":"61ec01cff741c9a9b18a29df8c8f93c8c685bf05","gold":"No","original_answer":"No"}
+{"example_id":"61f895fd3ca719bb27920f01818c20d44502893e","gold":"Inquire","original_answer":"Are you an intermediary organisation?"}
+{"example_id":"622037394bf4f8544f4a10520f3440fae9a5c4d7","gold":"Yes","original_answer":"Yes"}
+{"example_id":"62221ebc07ea48ebb649634ba23621d53cbf65ab","gold":"Inquire","original_answer":"Are you a derivative asylee or refugee?"}
+{"example_id":"6269ec8631f686f38eed4fc41e20db283afb67e0","gold":"No","original_answer":"No"}
+{"example_id":"6289e81ab7724bc717fe03327dd6c4f888ea8568","gold":"Yes","original_answer":"Yes"}
+{"example_id":"62ca156f6ec190f1acea8fba0673caa5acfa61fe","gold":"No","original_answer":"No"}
+{"example_id":"632142ea07f4bfbd01fc9437c762527adeeea646","gold":"Inquire","original_answer":"Do you have an advance parole document?"}
+{"example_id":"63cf5a8362bb761e37927bfb36f6623a71fde62c","gold":"Yes","original_answer":"Yes"}
+{"example_id":"65db84d0913cd8310f32897b326e2af9f88187ab","gold":"No","original_answer":"No"}
+{"example_id":"66a16318dd55bfa467fc2548751df6cd1437b586","gold":"Yes","original_answer":"Yes"}
+{"example_id":"673180009ac90e9b2fcfa4c67510e68df08c1f63","gold":"No","original_answer":"No"}
+{"example_id":"6763c51844e505abba81c2dbf1ac889a86893641","gold":"No","original_answer":"No"}
+{"example_id":"67bacdc6e465bb93591e6c9a04328399e77ce83b","gold":"No","original_answer":"No"}
+{"example_id":"680b9d29ff3c26ae045f1eb1d7a0e8af1c8bc4dd","gold":"No","original_answer":"No"}
+{"example_id":"689f45ffb24f66cb0e969d9a19df512ef6d9db73","gold":"No","original_answer":"No"}
+{"example_id":"68d89d68d1acd05e89383cd06f515644d2bf6d2d","gold":"Inquire","original_answer":"Are you an intermediary organisation?"}
+{"example_id":"68df26e063230f3a8e79fbc89cc498109a514d81","gold":"Inquire","original_answer":"Did your baby die after being born?"}
+{"example_id":"6945bcfa83f4fcf3574f3730ee1f20020177093f","gold":"Yes","original_answer":"Yes"}
+{"example_id":"69dd3ae4026aaa303e4ff134ea70180277f3fae0","gold":"Yes","original_answer":"Yes"}
+{"example_id":"69f92613f194fd1344fbb4991c5a2d872089874d","gold":"Yes","original_answer":"Yes"}
+{"example_id":"6a04cc916cd3f477c8a60533d8872dfff7b905db","gold":"No","original_answer":"No"}
+{"example_id":"6a1b3777dae78d4bd2df8a9c38e508ccd6199bda","gold":"No","original_answer":"No"}
+{"example_id":"6ade80384d9af739c406e2f61e5a965ae26979de","gold":"Yes","original_answer":"Yes"}
+{"example_id":"6ae1089ac23880604ffbb4a3f0f3de499f217ae2","gold":"Yes","original_answer":"Yes"}
+{"example_id":"6b54820e750a215be63da67218ce9ce505b5855f","gold":"No","original_answer":"No"}
+{"example_id":"6b7f790b5dc438d2938a113faeb3182573327a6e","gold":"Yes","original_answer":"Yes"}
+{"example_id":"6ba23f460acb5188ab7a11e661f7990ca75411ae","gold":"Yes","original_answer":"Yes"}
+{"example_id":"6bfe479c3d98872bd65d3603415685216f6c2f7d","gold":"No","original_answer":"No"}
+{"example_id":"6c0ff064f7f77d88a8b6102721d622c5a7a7a0c2","gold":"Inquire","original_answer":"Was your baby born early?"}
+{"example_id":"6cc5b2c34d87b6eadccc7b04481e52339c1cbcd0","gold":"Yes","original_answer":"Yes"}
+{"example_id":"6d14549743bc82d3cd791ac8d3d46831c07a723c","gold":"Yes","original_answer":"Yes"}
+{"example_id":"6d1a09756fdcc4830960e8f10ddd384a115a86cc","gold":"Yes","original_answer":"Yes"}
+{"example_id":"6d1bb09d5a6513374fdd379fdeee1d03574a4888","gold":"Yes","original_answer":"Yes"}
+{"example_id":"6d2d53c568deac76a4c82d6f81e8eb09d478570c","gold":"No","original_answer":"No"}
+{"example_id":"6d3dbde20f446c99eb21a18de33391e06335fdc8","gold":"Inquire","original_answer":"Are you the child of a Vietnam Veteran?"}
+{"example_id":"6da5de38e41c360b81ad6e0e7ccf58764a375f99","gold":"Yes","original_answer":"Yes"}
+{"example_id":"6e4506b13cbc194eadc682111875b0cc943d7f6a","gold":"No","original_answer":"No"}
+{"example_id":"6e7b2c006169f91859dfa05367d12648d181f7f4","gold":"Inquire","original_answer":"Are you located in a disaster declared county?"}
+{"example_id":"6ea03f1adffd64ad615226c60e55bba198007db7","gold":"Inquire","original_answer":"Are you on the licensed premises of a retail marijuana establishment?"}
+{"example_id":"6f7cf7e11f1bf00d54fc62cb3a0f02172c00b210","gold":"Yes","original_answer":"Yes"}
+{"example_id":"6f924c6570ff3df4a6b4d047f1df162a6b64c51f","gold":"Yes","original_answer":"Yes"}
+{"example_id":"701054a5476f922de5661047a17af8b041307193","gold":"Inquire","original_answer":"is it motor vehicles for medical use?"}
+{"example_id":"70163e9e93757f385bc6dd1f8df288893d88d570","gold":"Yes","original_answer":"Yes"}
+{"example_id":"70291f20c00b77e2c227897252fd782852976729","gold":"Yes","original_answer":"Yes"}
+{"example_id":"703f6b9226a08e6a44bc36ca09ef572e90abcea0","gold":"Yes","original_answer":"Yes"}
+{"example_id":"70bf27a931b3be32a1ca78a112e1639e90a2fd8e","gold":"Yes","original_answer":"Yes"}
+{"example_id":"72385ea4746d2a50be86738a7f25f2d25e591cc0","gold":"Yes","original_answer":"Yes"}
+{"example_id":"724d1a199d0535d98b08713deac8651ec102a7fa","gold":"Yes","original_answer":"Yes"}
+{"example_id":"727c4bf47dae7d237cb2b2d5bcefe281c8d6b504","gold":"No","original_answer":"No"}
+{"example_id":"72802ccc39b3f52dc79490d423a20621cab1fa91","gold":"Yes","original_answer":"Yes"}
+{"example_id":"72a10f0b5d48c209a19645f9ee2ec86654d49282","gold":"Yes","original_answer":"Yes"}
+{"example_id":"72a1b4d24c05f59d58410a167a44bc42845daa43","gold":"Yes","original_answer":"Yes"}
+{"example_id":"72e639ccdc8c9848f2667e88be2628c8e42b5b54","gold":"Inquire","original_answer":"Is the item an ambulance?"}
+{"example_id":"7374cfee4a818223e28b8ec368aaef9c29adb1f9","gold":"Inquire","original_answer":"Did your baby die after being born?"}
+{"example_id":"73b28f4b93f7ab10bbd0235f0a96b2d2018f34c3","gold":"Yes","original_answer":"Yes"}
+{"example_id":"73c135124ec632da0ed960d87b2555c021be5421","gold":"No","original_answer":"No"}
+{"example_id":"74fa77138d2d7fbe679ee3d4d5fc6c856aa3226d","gold":"Inquire","original_answer":"Are you a driver under 18 years old?"}
+{"example_id":"75aea3f844811e661d367e628e53ed45b6ec1b63","gold":"No","original_answer":"No"}
+{"example_id":"75cb31bde8057a578cdb5844951c765be24338e6","gold":"Yes","original_answer":"Yes"}
+{"example_id":"75efdfdc81eda4c40daf4bd476e7470b3b6c2b1f","gold":"Yes","original_answer":"Yes"}
+{"example_id":"76445a91f4ea4052c2aee0f23d17dead3c1c3354","gold":"No","original_answer":"No"}
+{"example_id":"76abe03f0aa734f889a4e758f85d88b01d4dd570","gold":"No","original_answer":"No"}
+{"example_id":"76f251df47d994cbd6f85a14af63ef41476a3443","gold":"Yes","original_answer":"Yes"}
+{"example_id":"785e4bbfeba2643ad16781216d3a9b1552d3b889","gold":"No","original_answer":"No"}
+{"example_id":"79722242733887274a64b447ce7fcc675a437925","gold":"No","original_answer":"No"}
+{"example_id":"79f0f2977f88064a6b1924e43c01d89988d2141d","gold":"No","original_answer":"No"}
+{"example_id":"7a039745aa5cb5539fd89a889794512f0f58c708","gold":"Yes","original_answer":"Yes"}
+{"example_id":"7a23b626eb034af04ff3d12c385f9b848d6909d6","gold":"Yes","original_answer":"Yes"}
+{"example_id":"7a3305b74cff7f25ea0c0ae1ff6f0662aae5451e","gold":"No","original_answer":"No"}
+{"example_id":"7a7303af0e77dbdc44e212d8feb45bb3fa23a555","gold":"No","original_answer":"No"}
+{"example_id":"7a8d0e15a6e3f880916854daff1b44d87ebcecba","gold":"No","original_answer":"No"}
+{"example_id":"7a8e8c58b47e9e2617005cbef01e91b1578ae368","gold":"No","original_answer":"No"}
+{"example_id":"7b96f206cb7e67976088cd055be13079b57ffe8e","gold":"Inquire","original_answer":"is it motor vehicles for medical use?"}
+{"example_id":"7bc36b0f1dc6af46550360108c494591dbbf3986","gold":"Yes","original_answer":"Yes"}
+{"example_id":"7ca447acf0a5c17a6f17f9e3e056774c8aad50a6","gold":"Yes","original_answer":"Yes"}
+{"example_id":"7d08cefe1785c106b3c476978ef0d8087a62c283","gold":"Yes","original_answer":"Yes"}
+{"example_id":"7decd33ad5a058915799dd740423f90010f28d1f","gold":"Yes","original_answer":"Yes"}
+{"example_id":"7e2def2a0c45806c36286915a823167fc73bff93","gold":"No","original_answer":"No"}
+{"example_id":"7e55e4c367a032f4d00c09bf3792020bce72be52","gold":"Inquire","original_answer":"Is the item medical, veterinary and scientific equipment?"}
+{"example_id":"7f48f78ab8ad4c8851ead2b14b3d0d361ae18e7d","gold":"Inquire","original_answer":"Was your baby stillborn after the start of your 24th week of pregnancy?"}
+{"example_id":"80118d8ed1a95f960d82829ea47603334d85ac8d","gold":"Inquire","original_answer":"Did your residence suffer sustained physical damage?"}
+{"example_id":"8168fd9781ecf331b37d3cc17c02cfb7f2705b2a","gold":"Inquire","original_answer":"Is the item goods for disabled people?"}
+{"example_id":"8351fc3621fbe6e544ec84228c828b907d8f26ec","gold":"No","original_answer":"No"}
+{"example_id":"837dc79f9472f8e1d70517c893be14f37c7ff7dd","gold":"No","original_answer":"No"}
+{"example_id":"840b9a11d5a663171cf70e3348419db21a5410ca","gold":"No","original_answer":"No"}
+{"example_id":"843329a25ff5cfa22bfde0b78c139685390d5a9e","gold":"No","original_answer":"No"}
+{"example_id":"844b9ea9b1ce242dd291f4d24a8db3ea96eb139a","gold":"Inquire","original_answer":"Did your residence suffer sustained physical damage?"}
+{"example_id":"8524088dd664b73b24f788d1ba8edd8266fbdf29","gold":"No","original_answer":"No"}
+{"example_id":"853f659e9b5a719b4bda43b78dcc163af6d04cc9","gold":"No","original_answer":"No"}
+{"example_id":"858dd82d185a5d026942610a6120c4ca628dbb25","gold":"Inquire","original_answer":"Is the item medical, veterinary and scientific equipment?"}
+{"example_id":"86d677843a55a957ffecf46984f2c84c4b1c9ef8","gold":"No","original_answer":"No"}
+{"example_id":"87a6b7ad8b6368b38f3fdf35a03fea18fc293d98","gold":"No","original_answer":"No"}
+{"example_id":"87b5f0718c514856c0aedbc69044abfde932b09b","gold":"Inquire","original_answer":"Have you  completed TC689?"}
+{"example_id":"87eb86947323ea19ed6152deecc35a38ab5ef357","gold":"Yes","original_answer":"Yes"}
+{"example_id":"87ec92a842466b58920f85624e4b40cdb30de7c2","gold":"Yes","original_answer":"Yes"}
+{"example_id":"882cfb06776436428b48cb6a3ba2301ee59bdb2d","gold":"No","original_answer":"No"}
+{"example_id":"883ab5e1e384d2a8935aabb7f82dd3d6f0a70b12","gold":"Yes","original_answer":"Yes"}
+{"example_id":"88e9d1c0327e537f8cec6dc1e9170912dae1deec","gold":"Inquire","original_answer":"Have you  completed TC689?"}
+{"example_id":"88fbae82449cedffd41740a17466be282fc892e1","gold":"No","original_answer":"No"}
+{"example_id":"8963aeb345f1ab40818e6d2d271c6985b61e50b1","gold":"Yes","original_answer":"Yes"}
+{"example_id":"8a1ca6a2310d8a787b0d96fab1f3dee6449c73a1","gold":"Inquire","original_answer":"Is this a child?"}
+{"example_id":"8a33088c803dbce23bf7f502c52f5dcbd05762ea","gold":"No","original_answer":"No"}
+{"example_id":"8ba49b36609094f01e137a0887a4ef2a8ff18c87","gold":"Yes","original_answer":"Yes"}
+{"example_id":"8bc943b2c374beba6468f1739f8c037db0a0987b","gold":"Yes","original_answer":"Yes"}
+{"example_id":"8c2b1c3864144472050d15d897f9b92b24f3e6f3","gold":"No","original_answer":"No"}
+{"example_id":"8c9ab31caab50b66994ef6f1c06a43ac86578030","gold":"Inquire","original_answer":"Are you on a low income or benefits?"}
+{"example_id":"8cc158b41f95f8ad8b0243f4d937368e7802355a","gold":"No","original_answer":"No"}
+{"example_id":"8cee5562b78e13971b352308c67705512617d634","gold":"Inquire","original_answer":"Are you a woman born before 6 April 1953?"}
+{"example_id":"8d688f89cec06e9af606706c600159eb38283314","gold":"No","original_answer":"No"}
+{"example_id":"8d6ac45b9a77750ec84abe6b002ae3df91f9fddd","gold":"No","original_answer":"No"}
+{"example_id":"8e1a123a61b130f6036e71f120250a7e5642d05b","gold":"Inquire","original_answer":"Do you have a birth defect?"}
+{"example_id":"8ea58a371c335166cde84b8151fa667e03587072","gold":"Inquire","original_answer":"is it motor vehicles for medical use?"}
+{"example_id":"8f1c6a514476071d5b08694cc223bc8a47a7296a","gold":"No","original_answer":"No"}
+{"example_id":"8f2710cd2cbaef36e134f746738a66491132d2cc","gold":"No","original_answer":"No"}
+{"example_id":"909a87e63730abb5cd10f238bf63a6c43ed57c39","gold":"Yes","original_answer":"Yes"}
+{"example_id":"9128bc7a2178e7e4ac85e7be1c97d261cb4e3fc7","gold":"Inquire","original_answer":"Are you located in a disaster declared county?"}
+{"example_id":"9172d0df67be3ec68a1374c0455adb59e525fbca","gold":"Inquire","original_answer":"Are you a female Vietnam Veteran?"}
+{"example_id":"91ac443ec80067e9880bf8a81a69107cf16c0410","gold":"No","original_answer":"No"}
+{"example_id":"91bd48dc42494677e3cefc6fba9aacc5a773c64d","gold":"Inquire","original_answer":"Do you need reimbursement for medical care related to covered birth defects and conditions associated with a covered birth defect except for Spina Bifida?"}
+{"example_id":"921efcf2c5aa3dad8fe4236625578d0715e00183","gold":"No","original_answer":"No"}
+{"example_id":"922c616c7baf8a8c159a5cc2aa18bea3cd75ffc7","gold":"Yes","original_answer":"Yes"}
+{"example_id":"92795058237d08a2953d3aa6b3b1408f5c91784c","gold":"Yes","original_answer":"Yes"}
+{"example_id":"92808d07bbf5a2684d3dfb723b7049e38eb6cf55","gold":"Yes","original_answer":"Yes"}
+{"example_id":"940a2c0a4527606e861c01f6021dfbae4c91933c","gold":"Inquire","original_answer":"Was your baby stillborn after the start of your 24th week of pregnancy?"}
+{"example_id":"9445bb8d0d949a3fca4698d8085a840085468e7a","gold":"No","original_answer":"No"}
+{"example_id":"9450834f9f200fab89f0e773f07a50eb6aee14fd","gold":"No","original_answer":"No"}
+{"example_id":"954ddbdeeeae75fa140ea304337d3f2d4401ce11","gold":"Yes","original_answer":"Yes"}
+{"example_id":"95b2b9874093aa1da7932f91103c9a960f72dcf4","gold":"Yes","original_answer":"Yes"}
+{"example_id":"95c6b5e6aab323c170d6eddcf67e2589b60eb8ff","gold":"Yes","original_answer":"Yes"}
+{"example_id":"9640ed4287a250bfbfb39808e960bd0d6dc4f2e7","gold":"No","original_answer":"No"}
+{"example_id":"967863da7109c5e7bd8ef1aca388991c0d2cdaaf","gold":"Yes","original_answer":"Yes"}
+{"example_id":"976e00ed8b13b39ac99ee42b9c4b74af87fe611f","gold":"Inquire","original_answer":"Do you have a birth defect?"}
+{"example_id":"979fbeab3d60c08da2f219d8c016e4f48a2466d3","gold":"No","original_answer":"No"}
+{"example_id":"97a189b535dce30120147f09804b2e5919fb6cd6","gold":"No","original_answer":"No"}
+{"example_id":"97bb1292013297335cecd873017d4fa3d9258b42","gold":"Yes","original_answer":"Yes"}
+{"example_id":"97ec1d24b98099b288cf34c47df6bf5468d61381","gold":"No","original_answer":"No"}
+{"example_id":"981b40b5c99f16e74e459dc1a715a64d7fadfdee","gold":"Yes","original_answer":"Yes"}
+{"example_id":"9862ae6db5a233062929752d943b4e2d4f66632f","gold":"No","original_answer":"No"}
+{"example_id":"9905cb79fd15c447f74c211d898c85943cc10a62","gold":"Inquire","original_answer":"Was your baby stillborn after the start of your 24th week of pregnancy?"}
+{"example_id":"996bad6cffe879e44b7371a8a2cd1eeb11b339c8","gold":"Yes","original_answer":"Yes"}
+{"example_id":"9997b490f1c44bdb0a19197954d680ea647d2cfc","gold":"Inquire","original_answer":"Are you a female Vietnam Veteran?"}
+{"example_id":"9a27ebb0b17bb5a7bce18470b2058d247b917d79","gold":"Inquire","original_answer":"Are you a woman born before 6 April 1953?"}
+{"example_id":"9a614194496b812572ce95ea8531cc9be43c8682","gold":"No","original_answer":"No"}
+{"example_id":"9a723789753d93806dca1df3751c58b7e4a0b3be","gold":"Inquire","original_answer":"Did your baby die after being born?"}
+{"example_id":"9afa35200c910475082a3136fc40bbb86b6a6b56","gold":"Yes","original_answer":"Yes"}
+{"example_id":"9b261fcdbaf37553b5da7549e31b5d5c0cdf3bdf","gold":"Inquire","original_answer":"Are you a female Vietnam Veteran?"}
+{"example_id":"9bad2bf3b9fdd24f976205283d2775c533b02931","gold":"Yes","original_answer":"Yes"}
+{"example_id":"9bd2e14a3dc15b8d27508b3bd356bc8cebe96c97","gold":"No","original_answer":"No"}
+{"example_id":"9bf1736185bf307bd9784393dbed2312d1991c65","gold":"No","original_answer":"No"}
+{"example_id":"9c050b225b453176ebb279909b9dd30e24dcc654","gold":"Yes","original_answer":"Yes"}
+{"example_id":"9c55ee5582b7dc2048ce7dcf7a24c39bc2a61de4","gold":"Yes","original_answer":"Yes"}
+{"example_id":"9c606281e20aeba917f6a2c213fc1b04baafe348","gold":"Yes","original_answer":"Yes"}
+{"example_id":"9cb37b6ff656d931ad957674994968a78c962ba5","gold":"Yes","original_answer":"Yes"}
+{"example_id":"9d3b770efcf536cd8744c93845e789790c718412","gold":"No","original_answer":"No"}
+{"example_id":"9d72d756c22ef168a60c3732325967c70713f267","gold":"Yes","original_answer":"Yes"}
+{"example_id":"9dab4a28e813f2d885931de67ee8970fd66700db","gold":"No","original_answer":"No"}
+{"example_id":"9dcd3708d8f0997d2a41fd65049b999e4154860e","gold":"Yes","original_answer":"Yes"}
+{"example_id":"9e152cf923e57d385cf95b840f70e6533c9a7dad","gold":"Inquire","original_answer":"Are you located in a disaster declared county?"}
+{"example_id":"9e88bb71fd385015fff8dabcea05fcc812e613f3","gold":"Yes","original_answer":"Yes"}
+{"example_id":"9ecde94e32be05e05e50300688f594713871d609","gold":"Inquire","original_answer":"does your child have a birth defect?"}
+{"example_id":"9eee1ceb9f87db0912f832d9fda652dcdb7c7b86","gold":"Inquire","original_answer":"Are you a female Vietnam Veteran?"}
+{"example_id":"9f29a3ef9d99a4d7e01a79857dccd521a879e2de","gold":"Yes","original_answer":"Yes"}
+{"example_id":"9f487008e0709f8c4567d253bec94470e6e352ad","gold":"Yes","original_answer":"Yes"}
+{"example_id":"9f59006ff78ea66fed673241bed29461d8bb2213","gold":"No","original_answer":"No"}
+{"example_id":"a0d25899764f3c56b685b0ac0e276c52143ae9ec","gold":"Yes","original_answer":"Yes"}
+{"example_id":"a1159bd22fcc4dfc1516c137d1ac5c73ff73ac18","gold":"Yes","original_answer":"Yes"}
+{"example_id":"a127e1cf37249bdd74d7e0e3c44f22bbccff8308","gold":"No","original_answer":"No"}
+{"example_id":"a19906df14200f1680f78a7f56295502c3bdb9e9","gold":"No","original_answer":"No"}
+{"example_id":"a1f72ae7f0b65b53c29b0fcb3cb14029623c1573","gold":"No","original_answer":"No"}
+{"example_id":"a248c91c136ccbf21ff012e1cc915fbafe502333","gold":"Yes","original_answer":"Yes"}
+{"example_id":"a27b71871652385f3b42b3bccd69c68228e28315","gold":"Inquire","original_answer":"Are you the child of a Vietnam Veteran?"}
+{"example_id":"a313077fee63a08618b94ed3d57faec798ce9258","gold":"Inquire","original_answer":"Are you a female Vietnam Veteran?"}
+{"example_id":"a467d8fb237fcc4867457307ccc5939b94485507","gold":"No","original_answer":"No"}
+{"example_id":"a49d32ab1168ae2c5b16e99d8a68ea1cc87daa4d","gold":"No","original_answer":"No"}
+{"example_id":"a4ef5d3ff8744f1ce14b31d73a2ac836b3e8e542","gold":"No","original_answer":"No"}
+{"example_id":"a547b18cfd280adf89733fc27be4c7b35e92f0e4","gold":"Yes","original_answer":"Yes"}
+{"example_id":"a5b9af040cb5249b86dcff3c518416617763777a","gold":"Yes","original_answer":"Yes"}
+{"example_id":"a5d5cff9f0ac667da747f31af06223289c85f6b4","gold":"Yes","original_answer":"Yes"}
+{"example_id":"a620b047d4ece84b1c6427215517ebd2addf802f","gold":"No","original_answer":"No"}
+{"example_id":"a63d5688a6d9a2fc2288b2cc24d6b8d0667d3770","gold":"Inquire","original_answer":"Are you the child of a Vietnam Veteran?"}
+{"example_id":"a68a145c83efa955596ed1b2c6e493ce41ccf69b","gold":"Yes","original_answer":"Yes"}
+{"example_id":"a6b6dbed67ed9868bdf4114c37cd0198c15e9fa6","gold":"Inquire","original_answer":"is it motor vehicles for medical use?"}
+{"example_id":"a6de58aaff5a3e1595007cf30ab2c775b662e65f","gold":"No","original_answer":"No"}
+{"example_id":"a70bcc82105580f889f2f19eb60bb2693d273119","gold":"Inquire","original_answer":"Do you have a birth defect?"}
+{"example_id":"a76e7104c26b0637ba6969f5e08dd5834596723e","gold":"No","original_answer":"No"}
+{"example_id":"a771c91f0dfaf3291cf8b38b93bab24852aaad70","gold":"Yes","original_answer":"Yes"}
+{"example_id":"a7c7e528d37c353c7d0c3638a6ae7de509a68280","gold":"Yes","original_answer":"Yes"}
+{"example_id":"a7ddf8a3a5fcb9f208b1c969579a9a3d5b8da7cc","gold":"Yes","original_answer":"Yes"}
+{"example_id":"a7f07cc19e640724b6d42a54d7eb381d648f8af7","gold":"No","original_answer":"No"}
+{"example_id":"a848c6300aea297f65d2e0163d970815612c3bda","gold":"Inquire","original_answer":"Do you have a birth defect?"}
+{"example_id":"a8d79578105ceab57f026b54240155b976298b7a","gold":"Yes","original_answer":"Yes"}
+{"example_id":"a8ea215458c1a08e210ca82d3390ac635e4c7bdc","gold":"Yes","original_answer":"Yes"}
+{"example_id":"a973895a07cd53d364f9a4dbe39ef3e00271ca37","gold":"No","original_answer":"No"}
+{"example_id":"a989690495fb94b57c93f2d45e7e275c11c82998","gold":"Yes","original_answer":"Yes"}
+{"example_id":"a9abc523b9fbb2ec98b014c6c62e2ffc0ca5c80f","gold":"Yes","original_answer":"Yes"}
+{"example_id":"aaf6fe7b05de6456f6882e503e7fa5fd51067906","gold":"Inquire","original_answer":"Do you have a PRODA account?"}
+{"example_id":"ab4664744181b58286d38de7eee41eb37c650c3b","gold":"Yes","original_answer":"Yes"}
+{"example_id":"ac0e946c315f7f9ab8550272fd72657a3c0ee5d6","gold":"Inquire","original_answer":"Are you a female Vietnam Veteran?"}
+{"example_id":"ac7cfcbe70f288c7807b76d6196280b01148d79e","gold":"Yes","original_answer":"Yes"}
+{"example_id":"ad1831a5d4eb27662cc5a8fcb8d78c3c7e25625e","gold":"No","original_answer":"No"}
+{"example_id":"ae87132d1ced495bd8e2b08640df623d8d806f2e","gold":"Yes","original_answer":"Yes"}
+{"example_id":"aea90bcedeef32b78fa1136496d6c98659c873f8","gold":"Inquire","original_answer":"Are you the child of a Vietnam Veteran?"}
+{"example_id":"aed14dca40129db02b47ec94403f524043470ec0","gold":"Yes","original_answer":"Yes"}
+{"example_id":"af519c7901cdfb819c9fbbe49330a03431eb8a82","gold":"Inquire","original_answer":"Are you located in a disaster declared county?"}
+{"example_id":"af5fd76f0dcb81f36a9de946095dc208dc1e3c94","gold":"No","original_answer":"No"}
+{"example_id":"b07292183bdb90a0fcf35d6ff7138a3a9c8fbfe1","gold":"No","original_answer":"No"}
+{"example_id":"b082377a4e47b5e7ee060edc85ca66f871d26d2d","gold":"Yes","original_answer":"Yes"}
+{"example_id":"b09f32f6d017b5f88296e2136675084e1b53532a","gold":"Yes","original_answer":"Yes"}
+{"example_id":"b0b4a3542be1e741d1e47d53d3822f76fe267ac7","gold":"No","original_answer":"No"}
+{"example_id":"b0f18fd707bf3b97ed5d805d78a57b19268f8b82","gold":"No","original_answer":"No"}
+{"example_id":"b1412b80341fa24025460774cabdec2698d3137a","gold":"Inquire","original_answer":"Do you have an advance parole document?"}
+{"example_id":"b2202289b3dcdfc45585c1fa5fa9c5f6f808e6a3","gold":"Yes","original_answer":"Yes"}
+{"example_id":"b3db0e4bdf3e29355745ba39f1879bf8fa896c35","gold":"Inquire","original_answer":"Was your baby born early?"}
+{"example_id":"b43917d0aba96efed6aa80defa689c907137c174","gold":"Inquire","original_answer":"Are you a woman born before 6 April 1953?"}
+{"example_id":"b4945857e940efc0140fd5a89e172231d52ffe5c","gold":"Inquire","original_answer":"Did your baby die after being born?"}
+{"example_id":"b54a5e33fda78e97def24b721905d40d9db9f6e3","gold":"Yes","original_answer":"Yes"}
+{"example_id":"b55a78ceb2e217c9fdfb8e8c72386142b24f64a7","gold":"No","original_answer":"No"}
+{"example_id":"b5ce0c4939fbc86af4fb360a4147f855eac3c431","gold":"No","original_answer":"No"}
+{"example_id":"b6b285b49056ddeef37cc2968cb89c9144cc6e64","gold":"Yes","original_answer":"Yes"}
+{"example_id":"b75bfaa115aa69e7d070e6a4f68ba84a57128f1d","gold":"No","original_answer":"No"}
+{"example_id":"b918298788fa5ff5c1d85c41a08e13242dae50a0","gold":"No","original_answer":"No"}
+{"example_id":"b931cc6cea058537b15385a650dbfddd840837ff","gold":"No","original_answer":"No"}
+{"example_id":"b98e4433b190477280c54523187b1480dbe21d4f","gold":"Yes","original_answer":"Yes"}
+{"example_id":"bb04c94f8a25aa2e85e4199f58fbef02a1ebe619","gold":"Yes","original_answer":"Yes"}
+{"example_id":"bb1a69a0eeac68a711d6663aa95bdcff9ddff53c","gold":"No","original_answer":"No"}
+{"example_id":"bbfd0cfa7d61973422d703b64892e1cac4de04a1","gold":"Yes","original_answer":"Yes"}
+{"example_id":"bc86ae74adb4a290973284f4d34611d88f0399ed","gold":"No","original_answer":"No"}
+{"example_id":"bc9edeba95d44c0a1d1d7bd775ccc85c33dfb38e","gold":"No","original_answer":"No"}
+{"example_id":"bcaf7af970dfac520d34f4ffed33bffc8ac098a6","gold":"Yes","original_answer":"Yes"}
+{"example_id":"bcce5dae30acabbf4fa3872448b13618343ce720","gold":"Yes","original_answer":"Yes"}
+{"example_id":"bd14379d0f43478511b95b5ad87f1d3932f54a39","gold":"No","original_answer":"No"}
+{"example_id":"bd22860d62171a880e7678994c9d38fc8efc9071","gold":"No","original_answer":"No"}
+{"example_id":"bd49844feae41d08219751384f6659fa5ea56e82","gold":"Yes","original_answer":"Yes"}
+{"example_id":"bd81209c0038f238a0fbebe8aa056c49532474eb","gold":"Yes","original_answer":"Yes"}
+{"example_id":"be1aa04eef72baf70cd9db30e1a6d327a0f48e35","gold":"Yes","original_answer":"Yes"}
+{"example_id":"bf62603bfe8832380f2b659d982bc3af55715f6f","gold":"No","original_answer":"No"}
+{"example_id":"bf7d4692f36e665e80d0840968a4594f749e884e","gold":"Inquire","original_answer":"is it motor vehicles for medical use?"}
+{"example_id":"bfaa1778d2b87c1e2c7f44ff3cae0f005224a4eb","gold":"Yes","original_answer":"Yes"}
+{"example_id":"bfb4d27c377868f726264b4851b3ddadcb762759","gold":"Inquire","original_answer":"Is the item medical, veterinary and scientific equipment?"}
+{"example_id":"c007502a72cb4071ae5323f0248e751c1cac2042","gold":"No","original_answer":"No"}
+{"example_id":"c0c2c684a7a15de56c28b067cfe3f0c1062400e1","gold":"Inquire","original_answer":"Do you have a birth defect?"}
+{"example_id":"c11e2f37188e60b58676fd2b8c11c27248c8d4fe","gold":"No","original_answer":"No"}
+{"example_id":"c14945c0d68639abec05b875723f4f23f94d298f","gold":"Inquire","original_answer":"Is this a child?"}
+{"example_id":"c1c1b34669c2a11a9c8f7cd3481a3ab974ad1375","gold":"Yes","original_answer":"Yes"}
+{"example_id":"c1c8cdd80561229e62537ceb7339f6574b0075cd","gold":"Inquire","original_answer":"Have you  completed TC689?"}
+{"example_id":"c1e3465f6bfbacdb898618e092e13a4feb4feee0","gold":"Yes","original_answer":"Yes"}
+{"example_id":"c22cafee1f5c557c1fc4532f9849ed647e7ac9fb","gold":"Inquire","original_answer":"Are you located in a disaster declared county?"}
+{"example_id":"c32259ff5529c786ae6a1032696d33612490a2d1","gold":"Yes","original_answer":"Yes"}
+{"example_id":"c3b96fa29242f789f27ba64ba667344b4d2327ee","gold":"Yes","original_answer":"Yes"}
+{"example_id":"c3ccfc19f094e2a9798bad6caec108f8a7050df6","gold":"No","original_answer":"No"}
+{"example_id":"c3e9077537b1473ce599547db4bbbe7cffdaaf43","gold":"No","original_answer":"No"}
+{"example_id":"c4099402b51fcc5b0f9221ec2c4e71e3d2e9c3fc","gold":"No","original_answer":"No"}
+{"example_id":"c4311e301e7890eafd8ad66604a0bcefe4bd0cfa","gold":"Yes","original_answer":"Yes"}
+{"example_id":"c63bc1323b5b1bec49fa82daf7e484fe04f04307","gold":"Yes","original_answer":"Yes"}
+{"example_id":"c6f54487bbdac3064452d9bc6053b91aa0d99781","gold":"Yes","original_answer":"Yes"}
+{"example_id":"c715d871a856632901a501ebbb403fd1449c88a9","gold":"Yes","original_answer":"Yes"}
+{"example_id":"c72c2b5e36a7c068a8534fa6801f24098b9d1bdd","gold":"No","original_answer":"No"}
+{"example_id":"c73b8ec7bd06140ace254859ff3d758ddd00e136","gold":"No","original_answer":"No"}
+{"example_id":"c762066661d2a9b126ac48546b04395580d69825","gold":"No","original_answer":"No"}
+{"example_id":"c765c01ebd8ecb7e210c4eccd07ab546caa27101","gold":"Inquire","original_answer":"is it motor vehicles for medical use?"}
+{"example_id":"c77e74adfa2927564c4c3211bad6f60dc3e29c29","gold":"No","original_answer":"No"}
+{"example_id":"c7963bd4866c8ce8b55be107b7a8efe3ad7b1e6a","gold":"Yes","original_answer":"Yes"}
+{"example_id":"c7bfa2357f9531e19b6d768970a5cb7d91a8b881","gold":"No","original_answer":"No"}
+{"example_id":"c814dfb4c4dec96dace3c539d87573177ed80e3e","gold":"No","original_answer":"No"}
+{"example_id":"c8b8e8b5c0cded79f63b98d333a54e1ad26860f9","gold":"Inquire","original_answer":"Yes?"}
+{"example_id":"c8e2abe88d278661147b320b742825f82a306264","gold":"Yes","original_answer":"Yes"}
+{"example_id":"c940f049ffe1976d902a5c0efa95dc2ef7f98a31","gold":"No","original_answer":"No"}
+{"example_id":"ca9483be805cc9226de9692ee17bc01b1599940a","gold":"Yes","original_answer":"Yes"}
+{"example_id":"caaca67a3c995c15a81a0ae560cc8d298e8c46f9","gold":"No","original_answer":"No"}
+{"example_id":"cb75ff2b8d6f7778debbc2ac1c8ba719be10b088","gold":"No","original_answer":"No"}
+{"example_id":"cbb4e18ec13d8cb71608711244ae7fc536bdcb23","gold":"Yes","original_answer":"Yes"}
+{"example_id":"cbb97d71641d224ac5d4c40794fdc038743941e2","gold":"No","original_answer":"No"}
+{"example_id":"cbd8ae60a3b56d997efc3f3e81d13533866811b9","gold":"No","original_answer":"No"}
+{"example_id":"cc7936eb5a220db17d5878f114407e62404d7a56","gold":"No","original_answer":"No"}
+{"example_id":"ce644f60c731776809dae1462b3d709d49ccdb07","gold":"Inquire","original_answer":"Was your baby born early?"}
+{"example_id":"cebb501c126a0533956c5437e70e3c6cf60b69e0","gold":"Yes","original_answer":"Yes"}
+{"example_id":"ceff4229223cb9b39d52652b986adaa6f2647e5c","gold":"Yes","original_answer":"Yes"}
+{"example_id":"cfbfb1c867729a1916e82c0e98376344acdf469d","gold":"Yes","original_answer":"Yes"}
+{"example_id":"cfca43f2dcfce6bf136f091b60c29fec813c4b73","gold":"Yes","original_answer":"Yes"}
+{"example_id":"cff6e23bab309ea3a43b7b9c8051e16f4c2dcc7c","gold":"Yes","original_answer":"Yes"}
+{"example_id":"cffb04e1743447e48f7a447462dec6cee1e7b6d4","gold":"No","original_answer":"No"}
+{"example_id":"d03e0d15b79a837f68ed0e4c3d97b443c6ccea0b","gold":"Yes","original_answer":"Yes"}
+{"example_id":"d09ab7705c1621b295def2c5f2887bf6dc4063c9","gold":"Inquire","original_answer":"does your child have a birth defect?"}
+{"example_id":"d0c153a3dbaf6fc4485481edb1987035a1668124","gold":"No","original_answer":"No"}
+{"example_id":"d0cea7a4927bf30f8e523c984c71dd295d8ab546","gold":"No","original_answer":"No"}
+{"example_id":"d0e364fb37892505a7dbbed7059fafabba18bc74","gold":"No","original_answer":"No"}
+{"example_id":"d1f32d50b4896613f813c50f4860b32fb4b62bbc","gold":"Inquire","original_answer":"Did your baby die after being born?"}
+{"example_id":"d238a69a8e8edd2fdb5758a3ee1f35efdd0cd4a0","gold":"Yes","original_answer":"Yes"}
+{"example_id":"d2455deb846a2434780b068db76282a6b38f039e","gold":"No","original_answer":"No"}
+{"example_id":"d247db52ff706f62cb474202fbb83c543837db74","gold":"Inquire","original_answer":"Was your baby stillborn after the start of your 24th week of pregnancy?"}
+{"example_id":"d266184e89531dddf07e351f62ebb6c352d1badb","gold":"Yes","original_answer":"Yes"}
+{"example_id":"d29013930110e57cc4b32d456e312c714c42d010","gold":"Yes","original_answer":"Yes"}
+{"example_id":"d2cc339cba9e3e76674ca801bf52887cbbbc285f","gold":"Yes","original_answer":"Yes"}
+{"example_id":"d2e36ff08c5f241302c101bbed0340bcf880c146","gold":"Inquire","original_answer":"Are you a female Vietnam Veteran?"}
+{"example_id":"d31e18e4a941f35143249bf80106820d45238ea6","gold":"Yes","original_answer":"Yes"}
+{"example_id":"d4b51406a3612ae0e2c8a99475471ddecd9039b1","gold":"Yes","original_answer":"Yes"}
+{"example_id":"d4e070998cc808f1e6a340cf8cbb92a9a808bb5a","gold":"No","original_answer":"No"}
+{"example_id":"d54f99b6744af95fc4abd3b12da403b486070b30","gold":"Inquire","original_answer":"Are you a woman born before 6 April 1953?"}
+{"example_id":"d589a2a6f615f7abac858b1c054f23090cc80fff","gold":"Yes","original_answer":"Yes"}
+{"example_id":"d5ce60d97cded75d8d9d1e1f0fdd7b75a337a32b","gold":"Yes","original_answer":"Yes"}
+{"example_id":"d6445430f68f1e064d4cc3800fa7387f93ec201e","gold":"Inquire","original_answer":"Are you a female Vietnam Veteran?"}
+{"example_id":"d676deceb543e5da64efa3fcd41f520c30c98ffc","gold":"No","original_answer":"No"}
+{"example_id":"d699780829dceda86a29514db8c460a192072088","gold":"Inquire","original_answer":"does your child have a birth defect?"}
+{"example_id":"d8931147647234e0f5300621d09c749047e60fc3","gold":"Inquire","original_answer":"Are you a female Vietnam Veteran?"}
+{"example_id":"d8afa11d48abd4862496e6943ad8b6dab510b1bc","gold":"No","original_answer":"No"}
+{"example_id":"d918c6a5024b7d16da0f70d50a67289b1b23eeda","gold":"Yes","original_answer":"Yes"}
+{"example_id":"d9f4621fb2f83f90168e781652943bb3b2ff2773","gold":"No","original_answer":"No"}
+{"example_id":"da867f5c850c0d0cb7488a5ff688084a8bbd21eb","gold":"No","original_answer":"No"}
+{"example_id":"db3347a4421298253b42f7faa9ffa6fb50c50524","gold":"Inquire","original_answer":"Do you have a birth defect?"}
+{"example_id":"dc1e9ee24f89103a0c032ce059ce45e5241674cc","gold":"Yes","original_answer":"Yes"}
+{"example_id":"dc291f4d29af906059203f7044d44bacc7cd2854","gold":"Inquire","original_answer":"Are you a woman born before 6 April 1953?"}
+{"example_id":"dc4fe09374c5e60eafce4afde4de9a99818c4b55","gold":"No","original_answer":"No"}
+{"example_id":"dc7b9c655b05ef7392c2c05bcf46706f666cbca6","gold":"Yes","original_answer":"Yes"}
+{"example_id":"dccb486236836ab269d128aca3f74f26ce752986","gold":"No","original_answer":"No"}
+{"example_id":"dd1fb211c97d603dcdd54e2980edc3e23c328e05","gold":"Inquire","original_answer":"does your child have a birth defect?"}
+{"example_id":"dd4d8aae183199637cb70abf52f39f74c7bf2802","gold":"No","original_answer":"No"}
+{"example_id":"ddc6220cc2487f90bc38803b0a765d0b3046fcb0","gold":"Inquire","original_answer":"Was your baby stillborn after the start of your 24th week of pregnancy?"}
+{"example_id":"ddeba1b30cf982bad9e79b49b315bd6fbcccac89","gold":"Inquire","original_answer":"Did you sustain physical damage?"}
+{"example_id":"de05d6bd32e3a03e814145e6e998cec5fc069350","gold":"Inquire","original_answer":"Is the item medical, veterinary and scientific equipment?"}
+{"example_id":"dedd10542f48cb7066d51369d62871b8e51d347e","gold":"No","original_answer":"No"}
+{"example_id":"df6ea113ad4881b5b6c1a90783c5182c4b45eae4","gold":"Inquire","original_answer":"does your child have a birth defect?"}
+{"example_id":"dffbbc26c571c977fd413d859fcb20a28b3d68d6","gold":"Inquire","original_answer":"is it motor vehicles for medical use?"}
+{"example_id":"e08c56e29bf3c00e90afae6e778a25cc3ac27a9b","gold":"Inquire","original_answer":"Was your baby born early?"}
+{"example_id":"e0ce7a9ad62c8db80b03441c800bf88937910439","gold":"No","original_answer":"No"}
+{"example_id":"e0d5213c917f9b1d043a80b598980b37f0f8de52","gold":"Yes","original_answer":"Yes"}
+{"example_id":"e147bffe8e8e48ced4959bd3ea3c2cf36546acf1","gold":"No","original_answer":"No"}
+{"example_id":"e18d354c43e033e79c304de6cc0774b76f473ed7","gold":"No","original_answer":"No"}
+{"example_id":"e25482d16f59f1c2d5ba3a04dafdd737316d3e0e","gold":"No","original_answer":"No"}
+{"example_id":"e274e5553562be1d3902a0a3a9fb0a09201d08d4","gold":"Inquire","original_answer":"Is the item an ambulance?"}
+{"example_id":"e29c7a315383a0684e5dabc4d54d000a6182c156","gold":"Yes","original_answer":"Yes"}
+{"example_id":"e2ea4b63ebc8b33ddccd5be0d7c080ec2c2f9ab9","gold":"Yes","original_answer":"Yes"}
+{"example_id":"e3343758eb70a17e9945fe48bc08078213cfddbe","gold":"Yes","original_answer":"Yes"}
+{"example_id":"e37c068d214e3cd60a83c4574d85f3d972b0ae50","gold":"Yes","original_answer":"Yes"}
+{"example_id":"e3889ae38ada89230075871cb3f84ed79046d812","gold":"Inquire","original_answer":"Did your residence suffer sustained physical damage?"}
+{"example_id":"e4810032ef91f436fc561da407f20b3db1aa43e2","gold":"No","original_answer":"No"}
+{"example_id":"e4e9b2514748e341e2f0ff716d5a6f0c04a374c9","gold":"No","original_answer":"No"}
+{"example_id":"e593f74553464bd16a32e8faf8b44551961174b5","gold":"No","original_answer":"No"}
+{"example_id":"e5aa32de95ba15c210b9a368e20351b407d14f9f","gold":"Yes","original_answer":"Yes"}
+{"example_id":"e61286f4d6db7d3a0848c6f8fd2f43e204d0553d","gold":"Yes","original_answer":"Yes"}
+{"example_id":"e61d26aef195c181e325d0dffe03db0493a97952","gold":"Inquire","original_answer":"Are you located in a disaster declared county?"}
+{"example_id":"e66df3516201798de7d9d8b99666d4448535a9e1","gold":"No","original_answer":"No"}
+{"example_id":"e77b9dfd4811e893ba4ae57038ac53b6a55ec8a9","gold":"No","original_answer":"No"}
+{"example_id":"e7d4e0893e8993f34036962b8ae3cec76898e8f2","gold":"No","original_answer":"No"}
+{"example_id":"e888f5928880fdaad9707a22cc995ab6aa3e34ef","gold":"Yes","original_answer":"Yes"}
+{"example_id":"e9edc574f511d1589590dac88006e1c302f87a18","gold":"No","original_answer":"No"}
+{"example_id":"ebd45d57c43d0165d13800e890596ee17118f5f9","gold":"Inquire","original_answer":"Are you an intermediary organisation?"}
+{"example_id":"ebf1a3c6a4047c349520c0be2ec954414427ac2b","gold":"Inquire","original_answer":"Was your baby stillborn after the start of your 24th week of pregnancy?"}
+{"example_id":"ed6862e6d55b704c4adca0bc01f758c637ea9959","gold":"No","original_answer":"No"}
+{"example_id":"eeb02daafe3310a10f0316102ec57e95fd3ad8ce","gold":"No","original_answer":"No"}
+{"example_id":"ef8b5f7411bed09eb5f0229d74aab1397cfd7824","gold":"Inquire","original_answer":"Are you the child of a Vietnam Veteran?"}
+{"example_id":"effd74aae8c49faf5b12b6b9610c417f7dc708ae","gold":"Yes","original_answer":"Yes"}
+{"example_id":"f07edab42382694a641d691f97ca24e78546fdf1","gold":"Yes","original_answer":"Yes"}
+{"example_id":"f2a5e13ff703085c40bb8662e5614995844e6ca2","gold":"Yes","original_answer":"Yes"}
+{"example_id":"f408f26b878af2d0dd61d05fac59fb4e10eae27b","gold":"No","original_answer":"No"}
+{"example_id":"f5f585c7a2b7ecbefc3956bcd095dbce31404af6","gold":"No","original_answer":"No"}
+{"example_id":"f61a29ab46b817681a8d5eab2fa2d2075f065280","gold":"Yes","original_answer":"Yes"}
+{"example_id":"f6704be9cb433cdeb58f46d686dbcc63a0615d99","gold":"Yes","original_answer":"Yes"}
+{"example_id":"f67fb6a78d7921c4bc468146d16997113f12048d","gold":"Yes","original_answer":"Yes"}
+{"example_id":"f6a09fc5245fb87547d6613fd25d3bc9a0aeae8f","gold":"Inquire","original_answer":"Did your baby die after being born?"}
+{"example_id":"f747c69b972ff88519bb66dbc645f4d3ba82da9b","gold":"Yes","original_answer":"Yes"}
+{"example_id":"f7483bb2e1f38f8acaa7a0050cda4d10dd577fa4","gold":"Inquire","original_answer":"Are you a female Vietnam Veteran?"}
+{"example_id":"f757a7c25003430da77ff80634d1d13f17df7b56","gold":"No","original_answer":"No"}
+{"example_id":"f78d1b2b0eedc5c88e3a4972b7b1f15fec92083f","gold":"Yes","original_answer":"Yes"}
+{"example_id":"f7c801fce4b3df0786b099b44519b68ee8cc5980","gold":"No","original_answer":"No"}
+{"example_id":"f8cb68a781088892186cc1c5594d0b8dc7212d9a","gold":"Inquire","original_answer":"Are you located in a disaster declared county?"}
+{"example_id":"f8fdc66255cf760585b2f47701fb47376eabe343","gold":"Yes","original_answer":"Yes"}
+{"example_id":"f97aa48e707d01a413be5cca445d6e173e3beb73","gold":"No","original_answer":"No"}
+{"example_id":"fae2e1a568f4e0223fc6c4f0a3fc136060dfbb9f","gold":"No","original_answer":"No"}
+{"example_id":"fb34753a6d2d3e5e2ec0a799eaf8675789f9cf61","gold":"Inquire","original_answer":"Do you need reimbursement for medical care related to covered birth defects and conditions associated with a covered birth defect except for Spina Bifida?"}
+{"example_id":"fbe8b47dd93f29eadca8c93fcdcbdf76cce178e8","gold":"No","original_answer":"No"}
+{"example_id":"fccfa54363bd12d173ba8e4eb8f212fd66248ea4","gold":"Inquire","original_answer":"Are you a derivative asylee or refugee?"}
+{"example_id":"fd1cd8a3b6479976223fabe44190f5809956e252","gold":"No","original_answer":"No"}
+{"example_id":"fd2acd5891edbe6adaa942826581c5dda90c3ffa","gold":"Yes","original_answer":"Yes"}
+{"example_id":"ff4495cb11d31590918871117fc07aa7b7c41117","gold":"No","original_answer":"No"}
+{"example_id":"ff779dbe093817cf6b1cb802aae1a96b7723ce2f","gold":"Inquire","original_answer":"Is the item goods for disabled people?"}
+{"example_id":"ffe73cd2e0f9cfbafab704cfcd3fe40aba204bc6","gold":"Yes","original_answer":"Yes"}
+{"example_id":"fff925e3b52217946bf2c3308382fe2ba7e347e9","gold":"Inquire","original_answer":"Are you the child of a Vietnam Veteran?"}

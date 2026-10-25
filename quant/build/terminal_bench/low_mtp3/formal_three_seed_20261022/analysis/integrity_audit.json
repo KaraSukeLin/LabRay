@@ -1,0 +1,24 @@
+{
+  "passed": true,
+  "per_seed": {
+    "20261020": {
+      "passed": true,
+      "issues": [],
+      "scored_slots": 176,
+      "checked_cleanup_receipts": 176
+    },
+    "20261021": {
+      "passed": true,
+      "issues": [],
+      "scored_slots": 179,
+      "checked_cleanup_receipts": 179
+    },
+    "20261022": {
+      "passed": true,
+      "issues": [],
+      "scored_slots": 178,
+      "checked_cleanup_receipts": 178
+    }
+  },
+  "issues": []
+}

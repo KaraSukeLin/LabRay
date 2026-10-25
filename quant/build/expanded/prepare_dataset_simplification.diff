@@ -1,0 +1,37 @@
+--- build/expanded/prepare_pre_simplification.py
++++ src/prepare_dataset.py
+@@ -15,6 +15,18 @@
+ 
+ def sha(data):
+     return hashlib.sha256(data).hexdigest()
++
++
++def source_file(source, cache):
++    path = cache / source['file']
++    if not path.exists():
++        response = requests.get(source['url'], timeout=300)
++        response.raise_for_status()
++        path.write_bytes(response.content)
++    digest = sha(path.read_bytes())
++    if source['sha256'] != digest:
++        raise ValueError(f'Source hash mismatch: {path}')
++    return path, digest
+ 
+ 
+ def documents(path, source):
+@@ -41,14 +53,7 @@
+     rows, samples, source_records = [], [], {}
+     seen_texts = set()
+     for domain, source in config['sources'].items():
+-        path = cache / source['file']
+-        if not path.exists():
+-            response = requests.get(source['url'], timeout=300)
+-            response.raise_for_status()
+-            path.write_bytes(response.content)
+-        digest = sha(path.read_bytes())
+-        if source.get('sha256', digest) != digest:
+-            raise ValueError(f'Source hash mismatch: {path}')
++        path, digest = source_file(source, cache)
+         source_records[domain] = dict(source, sha256=digest)
+         # Fixed hash ordering is independent of source order and model outputs.
+         pool = sorted(documents(path, source), key=lambda d: sha(f'{config["seed"]}/{domain}/{d[0]}'.encode()))

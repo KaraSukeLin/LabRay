@@ -1,0 +1,29 @@
+[
+  {
+    "task": "ifeval",
+    "questions": 541,
+    "strata": 1,
+    "smallest_stratum": 541,
+    "finite_intervals": true,
+    "resamples": 99,
+    "synthetic_outcomes": true
+  },
+  {
+    "task": "mmmu_standard",
+    "questions": 1730,
+    "strata": 30,
+    "smallest_stratum": 50,
+    "finite_intervals": true,
+    "resamples": 99,
+    "synthetic_outcomes": true
+  },
+  {
+    "task": "mmmu_vision",
+    "questions": 1730,
+    "strata": 30,
+    "smallest_stratum": 50,
+    "finite_intervals": true,
+    "resamples": 99,
+    "synthetic_outcomes": true
+  }
+]

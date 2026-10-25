@@ -1,0 +1,7 @@
+{
+  "conditions": 14,
+  "partitions": 42,
+  "full_metrics_equal_within_1e12_tolerance": true,
+  "aggregate_equal_except_generation_timestamp": true,
+  "inference": false
+}

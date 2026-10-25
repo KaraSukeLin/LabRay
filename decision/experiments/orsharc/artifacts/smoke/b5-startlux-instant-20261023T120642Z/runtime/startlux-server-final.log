@@ -1,0 +1,3 @@
+[transformers] PyTorch was not found. Models won't be available and only tokenizers, configuration and file/data utilities can be used.
+2026-10-23 12:45:01,365 INFO startlux_decide.server: StartLux-Decision-v1.1-27B-Instant-Q4_K_M ready: instant model, engine {'name': 'llamacpp', 'server': 'http://127.0.0.1:8081', 'context_length': 20480, 'images': False, 'prompt_attention': 'bidirectional (server)', 'bidir_mode': 'server'}
+2026-10-23 12:45:01,365 INFO root: StartLux-Decision-v1.1-27B-Instant-Q4_K_M serving on http://127.0.0.1:8090/v1/systemone

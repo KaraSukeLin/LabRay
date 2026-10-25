@@ -1,0 +1,39 @@
+Traceback (most recent call last):
+  File "/root/projects/quant/build/terminal_bench/sources/harbor/src/harbor/trial/trial.py", line 502, in run
+    await self._run()
+  File "/root/projects/quant/build/terminal_bench/sources/harbor/src/harbor/trial/single_step.py", line 40, in _run
+    await self._run_agent()
+  File "/root/projects/quant/build/terminal_bench/sources/harbor/src/harbor/trial/single_step.py", line 76, in _run_agent
+    await self._run_agent_phase(
+  File "/root/projects/quant/build/terminal_bench/sources/harbor/src/harbor/trial/trial.py", line 653, in _run_agent_phase
+    await asyncio.wait_for(
+  File "/root/.local/share/uv/python/cpython-3.12.14-linux-x86_64-gnu/lib/python3.12/asyncio/tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "/root/projects/quant/build/terminal_bench/sources/harbor/src/harbor/agents/terminus_2/terminus_2.py", line 1824, in run
+    await self._run_agent_loop(
+  File "/root/projects/quant/build/terminal_bench/sources/harbor/src/harbor/agents/terminus_2/terminus_2.py", line 1604, in _run_agent_loop
+    timeout_occurred, terminal_output = await self._execute_commands(
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/projects/quant/build/terminal_bench/sources/harbor/src/harbor/agents/terminus_2/terminus_2.py", line 1420, in _execute_commands
+    await session.send_keys(
+  File "/root/projects/quant/build/terminal_bench/sources/harbor/src/harbor/agents/terminus_2/tmux_session.py", line 823, in send_keys
+    await self._send_non_blocking_keys(
+  File "/root/projects/quant/build/terminal_bench/sources/harbor/src/harbor/agents/terminus_2/tmux_session.py", line 778, in _send_non_blocking_keys
+    await self._send_keys_to_session(keys, action="non-blocking")
+  File "/root/projects/quant/build/terminal_bench/sources/harbor/src/harbor/agents/terminus_2/tmux_session.py", line 751, in _send_keys_to_session
+    await _flush()
+  File "/root/projects/quant/build/terminal_bench/sources/harbor/src/harbor/agents/terminus_2/tmux_session.py", line 741, in _flush
+    await self._send_key_batches(batch, action)
+  File "/root/projects/quant/build/terminal_bench/sources/harbor/src/harbor/agents/terminus_2/tmux_session.py", line 714, in _send_key_batches
+    result = await self.environment.exec(command=command, user=self._user)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/projects/quant/src/terminal_proot.py", line 174, in exec
+    process = subprocess.Popen(argv, env=self.host_env, stdin=subprocess.DEVNULL,
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/uv/python/cpython-3.12.14-linux-x86_64-gnu/lib/python3.12/subprocess.py", line 1026, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/root/.local/share/uv/python/cpython-3.12.14-linux-x86_64-gnu/lib/python3.12/subprocess.py", line 1885, in _execute_child
+    self.pid = _fork_exec(
+               ^^^^^^^^^^^
+ValueError: embedded null byte

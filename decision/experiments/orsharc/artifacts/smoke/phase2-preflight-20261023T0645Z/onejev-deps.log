@@ -1,0 +1,55 @@
++ uv pip install --python experiments/orsharc/artifacts/env/elephant/bin/python -c /root/model/orsharc-elephant/constraints.txt -e 'experiments/orsharc/artifacts/upstream/onejev[train]' flash-linear-attention
+Using Python 3.12.14 environment at: experiments/orsharc/artifacts/env/elephant
+Resolved 67 packages in 3.37s
+   Building qev @ file:///root/projects/decision/experiments/orsharc/artifacts/upstream/onejev
+Downloading pillow (4.2MiB)
+Downloading networkx (1.6MiB)
+Downloading transformers (12.0MiB)
+Downloading sympy (5.9MiB)
+      Built qev @ file:///root/projects/decision/experiments/orsharc/artifacts/upstream/onejev
+ Downloaded networkx
+ Downloaded pillow
+ Downloaded sympy
+ Downloaded transformers
+Prepared 10 packages in 1.39s
+Uninstalled 6 packages in 58ms
+Installed 33 packages in 350ms
+ + accelerate==1.15.0
+ + annotated-doc==0.0.5
+ + annotated-types==0.8.0
+ + einops==0.8.2
+ + fastapi==0.143.1
+ + fla-core==0.5.2
+ + flash-linear-attention==0.5.2
+ - fsspec==2026.9.0
+ + fsspec==2025.3.2
+ - httpcore2==2.16.0
+ + httpcore2==2.13.1
+ - httpx2==2.16.0
+ + httpx2==2.13.1
+ + markdown-it-py==4.2.0
+ + mdurl==0.1.2
+ - networkx==3.7
+ + networkx==3.4.2
+ + opentelemetry-api==1.45.1
+ + peft==0.21.2
+ - pillow==13.0.0
+ + pillow==11.0.0
+ + psutil==7.2.2
+ + pyarrow==26.0.0
+ + pydantic==2.14.1
+ + pydantic-core==2.50.1
+ + pygments==2.21.0
+ + qev==0.1.0 (from file:///root/projects/decision/experiments/orsharc/artifacts/upstream/onejev)
+ + regex==2026.9.29
+ + rich==15.0.0
+ + safetensors==0.8.0
+ + shellingham==1.5.4
+ + starlette==1.8.0
+ - sympy==1.14.0
+ + sympy==1.13.3
+ + tokenizers==0.23.3
+ + transformers==5.19.0
+ + typer==0.27.3
+ + typing-inspection==0.4.4
+ + uvicorn==0.54.0

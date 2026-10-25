@@ -1,0 +1,18 @@
+{
+  "README.md": "dcfd2cb0c7f7271df1065ba430ae411589519907f6bd1dc1c63a3eafc3d0cbdd",
+  "REPORT.md": "8166801b0f1a8489a984428cb7720006626051e6940202b7005443100b97bfeb",
+  "build/benchmark/pilot_v1/decision_report/DECISION_REPORT.md": "6a1c254c8a856f6256c6d68f2169145c27b52b0b0393084f6c7941fba03becc0",
+  "build/benchmark/pilot_v1/decision_report/MONDAY_SUMMARY.md": "d769aec9143f8e1588db4c0ecdbdf38ccc31b9ace6890c16d4f1105628f90ec7",
+  "build/benchmark/pilot_v1/METHOD.md": "7571d857e896a139e38ae9b898cc5ea2e1e1f58ae1ae6ee823248961be77e3c8",
+  "build/benchmark/OFFICIAL_REVIEW.md": "5d8f3193f55404c9c19c7cd6f2d6421439f6952d36eae55793fe4ae5103681b0",
+  "build/benchmark/pilot_v1/analysis/REPORT.md": "183f6df04c8b2153512b2232c64e6b9a82b5bb8a512a1f4159f3cc3e62fcafca",
+  "build/benchmark/pilot_v1/run_scope_notes.md": "0220cf025163db9f12ea132ef40fa1566e8d32e7747262db8a4be0ff26e48c9d",
+  "build/benchmark/pilot_v1/WORK_LOG.md": "59aed162624e37173a352bffa373cd030a216f17f8b0409b25657b5f6bfd4684",
+  "src/benchmark_analysis.py": "aa3be69e2347fcf804f719d2e667a977f285f2e368b583f71dc69482bda508de",
+  "src/benchmark_budget.py": "9299329f8c47d932bf93a44bc731f2941a49ed457e7cacfb02b6bc08040b5ae7",
+  "src/summarize_benchmark_pilot.py": "82f3c00c4d5380f0a439b9188b8d69b305e33bcd41bec461b2bc4450d72b505d",
+  "src/plot_benchmark_pilot.py": "40d0838690aad101f788ed97e99b611ced8bf5925cd7038bb76bd9e70d54e564",
+  "scripts/run_representative_pilot.sh": "7fb9f202e56ac4b2f10410e8dd5855870796dc268674f82c97e831417cc527c4",
+  "assets/benchmark_4096_config.json": "720fcb2249fe85cde243b118d115f904ce9f49c0d73f7c5f53bc165c19d8e058",
+  "assets/benchmark_research4_4096_config.json": "85fd8013d0867246040e0a69b47354a3f59cc950dc8ca7d5cfc7ff644d9655fc"
+}
